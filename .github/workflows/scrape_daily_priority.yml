@@ -67,6 +67,11 @@ on:
         required: true
         default: false
         type: boolean
+      force_channel_digest:
+        description: "One-off owner-requested rerun: deliver today's digest to the private channel even though its daily digest already went out. The private chat is NOT forced and per-destination history/dedup is preserved."
+        required: true
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -125,6 +130,7 @@ jobs:
           IN_MAX_JOBS: ${{ inputs.max_jobs }}
           IN_MIN_SCORE: ${{ inputs.min_score }}
           IN_NO_TRANSLATE: ${{ inputs.no_translate }}
+          IN_FORCE_CHANNEL_DIGEST: ${{ inputs.force_channel_digest }}
         run: |
           set -euo pipefail
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
@@ -136,6 +142,7 @@ jobs:
             MAX_JOBS="$IN_MAX_JOBS"
             MIN_SCORE="$IN_MIN_SCORE"
             NO_TRANSLATE="$IN_NO_TRANSLATE"
+            FORCE_CHANNEL_DIGEST="$IN_FORCE_CHANNEL_DIGEST"
             RUN_LABEL="manual tier=$TIER"
           else
             # Scheduled run: identify which cron fired from the payload.
@@ -148,6 +155,8 @@ jobs:
             MAX_JOBS="50"
             MIN_SCORE="0"
             NO_TRANSLATE="false"
+            # Scheduled runs never force an extra digest: the daily gate stands.
+            FORCE_CHANNEL_DIGEST="false"
             case "$SCHEDULED_CRON" in
               '23 5,17 * * *')
                 TIER="1"
@@ -191,6 +200,7 @@ jobs:
           case "$SOURCES" in eures,jobspy|eures|jobspy|eures,jobspy,sweden_jobsearch,latvia_nva|eures,jobspy,arbeitnow,sweden_jobsearch,latvia_nva) ;; *) echo "::error::bad sources '$SOURCES'"; exit 1;; esac
           case "$MAX_JOBS" in ''|*[!0-9]*) echo "::error::max_jobs not a number"; exit 1;; esac
           case "$MIN_SCORE" in ''|*[!0-9]*) echo "::error::min_score not a number"; exit 1;; esac
+          case "$FORCE_CHANNEL_DIGEST" in true|false) ;; *) echo "::error::bad force_channel_digest '$FORCE_CHANNEL_DIGEST'"; exit 1;; esac
           [ "$MAX_JOBS" -ge 1 ] && [ "$MAX_JOBS" -le 200 ] || { echo "::error::max_jobs out of range 1-200"; exit 1; }
           [ "$MIN_SCORE" -ge 0 ] && [ "$MIN_SCORE" -le 100 ] || { echo "::error::min_score out of range 0-100"; exit 1; }
 
@@ -202,6 +212,7 @@ jobs:
           echo "Resolved: $RUN_LABEL -> python main.py ${ARGS[*]}"
           {
             echo "label=$RUN_LABEL"
+            echo "force_channel=$FORCE_CHANNEL_DIGEST"
             # Newline-joined args survive GITHUB_OUTPUT without quoting issues.
             echo "args<<EJA_EOF"
             printf '%s\n' "${ARGS[@]}"
@@ -213,6 +224,7 @@ jobs:
         if: steps.resolve.outputs.skip != 'true'
         env:
           SCRAPE_ARGS: ${{ steps.resolve.outputs.args }}
+          FORCE_CHANNEL_DIGEST: ${{ steps.resolve.outputs.force_channel }}
           # Phase 4 Telegram digest credentials (repository secrets).
           # Unset secrets expand to empty strings and src/notifier.py
           # treats that as a clean no-op, so runs never fail on an
@@ -228,6 +240,20 @@ jobs:
         run: |
           set -euo pipefail
           mapfile -t ARGS <<< "$SCRAPE_ARGS"
+          if [ "$FORCE_CHANNEL_DIGEST" = "true" ]; then
+            # Owner-requested one-off channel digest. The channel is the
+            # TELEGRAM_CHAT_IDS entry that is NOT the legacy private-chat
+            # id; only that destination's same-day gate is bypassed, so
+            # the private chat is not re-sent and no history is reset.
+            # Secrets stay in the environment - never echoed.
+            [ -n "$TELEGRAM_CHAT_ID" ] || { echo "::error::force_channel_digest needs TELEGRAM_CHAT_ID to tell the private chat apart from the channel"; exit 1; }
+            FORCE_LIST="$(printf '%s' "$TELEGRAM_CHAT_IDS" | tr ',' '\n' | sed 's/^ *//;s/ *$//' | grep -vxF "$TELEGRAM_CHAT_ID")"
+            # Fail closed on ambiguity: exactly one configured channel
+            # destination must remain, otherwise refuse to guess.
+            [ "$(printf '%s\n' "$FORCE_LIST" | grep -c .)" = "1" ] || { echo "::error::force_channel_digest expected exactly one non-private destination in TELEGRAM_CHAT_IDS - refusing to guess which is the channel"; exit 1; }
+            export TELEGRAM_FORCE_DIGEST_CHAT_IDS="$FORCE_LIST"
+            echo "Owner-requested one-off channel digest armed: daily gate bypassed for the channel destination only."
+          fi
           echo "python main.py ${ARGS[*]}"
           python main.py "${ARGS[@]}"
 

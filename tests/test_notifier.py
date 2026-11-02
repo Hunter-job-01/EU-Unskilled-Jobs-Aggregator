@@ -629,6 +629,44 @@ def test_two_destinations_deliver_independently_and_gate(tmp_path):
     assert again.calls == []
 
 
+def test_force_list_bypasses_daily_gate_for_named_destination_only(tmp_path):
+    """Owner-requested one-off rerun (TELEGRAM_FORCE_DIGEST_CHAT_IDS):
+    the named destination's same-day gate is bypassed while the other
+    destination stays gated and silent; per-destination notified-uids
+    dedup and history are preserved - nothing is reset or re-sent."""
+    store = make_store(tmp_path, [make_job('u1', 90)])
+    env = dict(ENV, TELEGRAM_CHAT_IDS='111,-222')
+    cfg = telegram_cfg()
+    day = datetime(2026, 11, 2, 13, 0, tzinfo=timezone.utc)
+    assert send_digest(store, cfg, session=FakeSession(), environ=env,
+                       sleep=FakeSleep(), now=day) == 2  # both destinations
+    # A new job lands later the same day; the owner asks for an extra
+    # digest to the channel ('-222') only.
+    store.merge([make_job('u2', 88)])
+    store.save()
+    forced = dict(env, TELEGRAM_FORCE_DIGEST_CHAT_IDS='-222')
+    session = FakeSession()
+    later = datetime(2026, 11, 2, 18, 0, tzinfo=timezone.utc)
+    assert send_digest(store, cfg, session=session, environ=forced,
+                       sleep=FakeSleep(), now=later) == 1
+    # exactly one page, to the forced destination only: u1 is deduped
+    # there and the unforced private chat ('111') keeps its gate
+    assert [c['json']['chat_id'] for c in session.calls] == ['-222']
+    # nothing left for either destination afterwards (history intact)
+    again = FakeSession()
+    assert send_digest(store, cfg, session=again, environ=forced,
+                       sleep=FakeSleep(), now=later) == 0
+    assert again.calls == []
+    # next day's regular digest: the gated private chat receives exactly
+    # the one job it missed (u2) - u1 is NOT re-sent to anyone, and the
+    # forced channel has nothing pending
+    nxt = FakeSession()
+    assert send_digest(store, cfg, session=nxt, environ=env,
+                       sleep=FakeSleep(),
+                       now=datetime(2026, 11, 3, 6, 0, tzinfo=timezone.utc)) == 1
+    assert [c['json']['chat_id'] for c in nxt.calls] == ['111']
+
+
 def test_one_failed_destination_does_not_suppress_other(tmp_path):
     store = make_store(tmp_path, [make_job('u1', 90)])
     env = dict(ENV, TELEGRAM_CHAT_IDS='111,-222')

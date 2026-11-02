@@ -366,7 +366,8 @@ def ensure_state_file(store, cfg: dict) -> None:
 
 def _send_single_digest(store, cfg: dict, *, session=None, environ=None,
                         sleep=time.sleep, now=None, destination_state=None,
-                        save_destination=None, translator=None) -> int:
+                        save_destination=None, translator=None,
+                        force_today=False) -> int:
     """Send the digest for the current store. Returns jobs notified.
 
     Never raises for configuration or delivery problems: the scrape
@@ -374,6 +375,10 @@ def _send_single_digest(store, cfg: dict, *, session=None, environ=None,
     of a bot issue. At most one digest per UTC day: main.py runs
     several times a day, and the last-digest date is persisted in
     data/telegram_state.json (committed with the other data files).
+    force_today=True is the owner-requested one-off rerun exception: it
+    bypasses ONLY this destination's same-day skip. Per-destination
+    notified-uids dedup, failure counts and history are untouched, and
+    the gate re-stamps after a successful send.
     """
     tcfg = (cfg or {}).get("telegram", {}) or {}
     if not tcfg.get("enabled", True):
@@ -391,7 +396,7 @@ def _send_single_digest(store, cfg: dict, *, session=None, environ=None,
     today = now.strftime("%Y-%m-%d")
     state = _load_state(store, cfg) if destination_state is None else destination_state
     persist = save_destination or (lambda value: _save_state(store, cfg, value))
-    if state.get("last_digest_utc") == today:
+    if not force_today and state.get("last_digest_utc") == today:
         log.info("Telegram digest already sent today (%s UTC); skipping", today)
         return 0
 
@@ -565,6 +570,17 @@ def send_digest(store, cfg: dict, *, session=None, environ=None,
     chats = list(dict.fromkeys(c.strip() for c in raw.split(",") if c.strip()))
     if not chats:
         return 0
+    # Owner-requested one-off rerun: TELEGRAM_FORCE_DIGEST_CHAT_IDS names
+    # the destination(s) whose same-day gate is bypassed for this run
+    # (e.g. the private channel). Never logged verbatim - the ids are
+    # private. Dedup/history are preserved; nothing is reset.
+    force_raw = (env.get("TELEGRAM_FORCE_DIGEST_CHAT_IDS") or "").strip()
+    force = {c.strip() for c in force_raw.split(",") if c.strip()}
+    forced = sum(1 for c in chats if c in force)
+    if forced:
+        log.warning("Owner-requested one-off digest: today's daily gate "
+                    "bypassed for %d destination(s) only; per-destination "
+                    "history and other destinations untouched", forced)
     root = _load_state(store, cfg)
     destinations = root.setdefault("destinations", {})
     total = 0
@@ -580,5 +596,6 @@ def send_digest(store, cfg: dict, *, session=None, environ=None,
         local_env = dict(env, TELEGRAM_CHAT_ID=chat)
         total += _send_single_digest(scoped, cfg, session=session,
                     environ=local_env, sleep=sleep, now=now,
-                    destination_state=state, save_destination=persist, translator=translator)
+                    destination_state=state, save_destination=persist,
+                    translator=translator, force_today=chat in force)
     return total
