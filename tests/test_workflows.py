@@ -412,11 +412,11 @@ def test_force_channel_membership_check_handles_dash_leading_ids():
 
 
 @pytest.mark.parametrize("chat_ids,channel_id,ok", [
-    ("5754931747,-1004256976824", "-1004256976824", True),
-    ("5754931747, -1004256976824", "-1004256976824", True),
-    ("5754931747,-1004256976824", "-1009999999999", False),
-    ("5754931747", "-1004256976824", False),
-    ("5754931747,-1004256976824", "", False),
+    ("1234567890,-1009876543210", "-1009876543210", True),
+    ("1234567890, -1009876543210", "-1009876543210", True),
+    ("1234567890,-1009876543210", "-1009999999999", False),
+    ("1234567890", "-1009876543210", False),
+    ("1234567890,-1009876543210", "", False),
 ])
 def test_force_channel_guard_executes_fail_closed(chat_ids, channel_id, ok):
     # Runs the exact guard lines shipped in the workflow: arms only when the
