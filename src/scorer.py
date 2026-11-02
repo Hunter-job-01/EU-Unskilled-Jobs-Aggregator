@@ -41,11 +41,14 @@ def _parse_iso_day(value):
 
 
 class Scorer:
-    def __init__(self, cfg: dict):
+    def __init__(self, cfg: dict, registry: dict = None):
         self.cfg = cfg
         self.scoring = cfg["scoring"]
         self.matrix = KeywordMatrix(cfg["keywords"])
         self.tiers = {int(t): members for t, members in cfg["tiers"].items()}
+        # Optional source registry for per-source applicant-eligibility
+        # labels (exclusion for operator-restricted, unknown-label else).
+        self.registry = registry
 
     def tier_of(self, country: str):
         for tier, members in self.tiers.items():
@@ -61,6 +64,23 @@ class Scorer:
         text = "{}\n{}".format(job.title or "", job.description or "")
         signals = []
         matched = []
+
+        # Source-level applicant eligibility (registry evidence) runs
+        # FIRST: an operator restriction excludes regardless of keywords;
+        # an unknown status only labels, never changes the score.
+        unknown_elig = False
+        if self.registry is not None:
+            from .source_eligibility import source_eligibility, UNKNOWN_VALUES, RESTRICTED_PREFIX
+            elig = source_eligibility(self.registry, job.source).lower()
+            if elig.startswith(RESTRICTED_PREFIX):
+                job.excluded = True
+                job.exclusion_reason = (
+                    "source currently does not serve applicants residing "
+                    "outside the EU (operator-stated, recorded in registry)")
+                job.signals = ["source_eligibility_restricted"]
+                job.score = 0
+                return job
+            unknown_elig = elig in UNKNOWN_VALUES
 
         disq = self.matrix.match_disqualifiers(text)
         if disq:
@@ -138,6 +158,8 @@ class Scorer:
                     signals.append("fresh_posting")
                     break
 
+        if unknown_elig:
+            signals.append("source_eligibility_unknown")
         job.score = max(0, min(100, int(round(points))))
         job.signals = signals
         job.matched_keywords = sorted(set(matched))

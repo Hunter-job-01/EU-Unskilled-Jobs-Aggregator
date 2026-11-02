@@ -14,7 +14,7 @@ def registry():
 
 
 def test_registry_loads_and_validates(registry):
-    assert len(registry["sources"]) == 144  # 141 catalogue + otto/awa/cbop (2026-11-02)
+    assert len(registry["sources"]) == 145  # 141 catalogue + otto/awa/cbop + pl_ewl (2026-11-02)
     assert registry["catalog_is_not_deployment"] is True
     assert registry["default_new_sources_enabled"] is False
 
@@ -69,6 +69,6 @@ def test_validator_rejects_duplicate_ids(registry):
 
 def test_coverage_summary_counts(registry):
     summary = coverage_summary(registry)
-    assert summary["total"] == 144  # includes nl_otto_workforce
+    assert summary["total"] == 145  # includes nl_otto_workforce
     assert set(summary["by_gate"]) <= ACTIVATION_GATES
     assert summary["by_gate"].get("excluded") == 1

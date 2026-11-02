@@ -4997,6 +4997,41 @@
    "terms_checked_on": "2026-11-02",
    "last_probe": "2026-11-02",
    "last_successful_run": null
+  },
+  {
+   "source_id": "pl_ewl",
+   "country_scope": "PL",
+   "name": "EWL Group (agency)",
+   "category": "agency",
+   "url": "https://ewl.com.pl/en/",
+   "integration_route": "manual_or_terms_review",
+   "automation_enabled": false,
+   "implementation_status": "catalog_only",
+   "priority": "P2",
+   "free_access_status": "public vacancy pages seen; no supported read API established in this review",
+   "access_or_limits": "no adapter; manual/terms review before any connector",
+   "verification": "operator_reply_and_page_read",
+   "evidence_urls": [
+    "https://ewl.com.pl/en/"
+   ],
+   "checked_on": "2026-11-02",
+   "live_connector_test": "not_run",
+   "applicant_from_egypt": "restricted_non_eu_resident_current",
+   "fit_ar": "operator stated 2026-11-02 it is temporarily not providing employment services to citizens residing outside the EU; do not present as a route for Egypt-resident applicants until that changes; restriction is eligibility evidence, not a technical adapter status",
+   "countries": [
+    "PL"
+   ],
+   "languages": [
+    "en",
+    "pl"
+   ],
+   "eu_filter": "national agency (PL)",
+   "connector_type": "none",
+   "repo_adapter": null,
+   "activation_gate": "terms_review",
+   "terms_checked_on": "2026-11-02",
+   "last_probe": null,
+   "last_successful_run": null
   }
  ]
 }
