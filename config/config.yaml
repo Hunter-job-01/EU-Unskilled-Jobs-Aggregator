@@ -436,6 +436,10 @@ sources:
     enabled: true                    # OTTO Work Force NL vacancies; probe+fixture+live-smoke verified 2026-11-02 (user-authorized activation of plain-HTTP verified sources)
     sitemap_url: "https://ottoworkforce.eu/sitemap.vacancies.xml"
     max_vacancies: 10                # bounded polite budget per run
+  anyworkanywhere:
+    enabled: true                    # AWA board; JSON-LD pages probe+fixture verified 2026-11-02 (user-authorized activation)
+    sitemap_template: "https://www.anyworkanywhere.com/job-sitemap{}.xml"
+    max_pages: 10                    # bounded polite budget per run
   ats_public:
     enabled: false                    # Greenhouse/Lever/SmartRecruiters PUBLIC postings
     max_postings_per_tenant: 100

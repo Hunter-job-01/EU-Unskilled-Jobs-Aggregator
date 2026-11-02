@@ -4930,6 +4930,39 @@
    "terms_checked_on": "2026-11-02",
    "last_probe": "2026-11-02",
    "last_successful_run": null
+  },
+  {
+   "source_id": "eu_anyworkanywhere",
+   "country_scope": "EU_FILTER",
+   "name": "AnyworkAnywhere job board",
+   "category": "aggregator",
+   "url": "https://www.anyworkanywhere.com/jobs/",
+   "integration_route": "public_sitemap_and_pages",
+   "automation_enabled": false,
+   "implementation_status": "adapter_tested_enabled",
+   "priority": "P2",
+   "free_access_status": "public WP job-sitemap1..7.xml; pages carry schema.org JobPosting JSON-LD (probe 2026-11-02)",
+   "access_or_limits": "canonical /job/ urls only (localized /fr//fi//nl/ variants deduped); JSON-LD needs lenient decode; salary/employmentType often absent; activation via config sources.anyworkanywhere.enabled",
+   "verification": "live_probe_and_fixture_test",
+   "evidence_urls": [
+    "https://www.anyworkanywhere.com/job-sitemap7.xml",
+    "https://www.anyworkanywhere.com/job/dutch-speaking-entry-level-health-sector-customer-service/"
+   ],
+   "checked_on": "2026-11-02",
+   "live_connector_test": "fixture_parse_ok_2026-11-02 (title/country=PT/company/datePosted from JSON-LD)",
+   "applicant_from_egypt": "unknown_not_assessed",
+   "fit_ar": "seasonal/hospitality/customer-service board; many roles are language-specific call-center - early title filter applies; Egypt-resident eligibility unknown per listing unless evidence exists",
+   "countries": [],
+   "languages": [
+    "en"
+   ],
+   "eu_filter": "per-job jobLocation.addressCountry; non-EU27 dropped",
+   "connector_type": "sitemap_plus_jsonld",
+   "repo_adapter": "anyworkanywhere",
+   "activation_gate": "probe_then_owner_approval",
+   "terms_checked_on": "2026-11-02",
+   "last_probe": "2026-11-02",
+   "last_successful_run": null
   }
  ]
 }

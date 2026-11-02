@@ -9,10 +9,11 @@ from .czech_mpsv import CzechMpsvScraper
 from .latvia_nva import LatviaNvaScraper
 from .ats_public import AtsPublicScraper
 from .ottoworkforce import OttoWorkforceScraper
+from .anyworkanywhere import AnyworkAnywhereScraper
 
 __all__ = [
     "HttpClient", "ScrapeResult", "ScraperError", "polite_sleep", "strip_html",
     "EuresScraper", "JobSpyScraper",
     "ArbeitnowScraper", "SwedenJobSearchScraper", "CzechMpsvScraper",
-    "LatviaNvaScraper", "AtsPublicScraper", "OttoWorkforceScraper",
+    "LatviaNvaScraper", "AtsPublicScraper", "OttoWorkforceScraper", "AnyworkAnywhereScraper",
 ]
