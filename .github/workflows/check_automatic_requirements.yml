@@ -1,6 +1,7 @@
 name: Check automatic requirement extraction
 on:
   push:
+    branches: [main]
     paths:
       - 'src/automatic_requirements.py'
       - 'src/source_evidence.py'

@@ -2,6 +2,7 @@ name: Verify private notification gate
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - 'src/eligibility.py'
       - 'src/private_state.py'
