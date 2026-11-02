@@ -14,8 +14,8 @@ import re
 # lang -> [(term, en_gloss, ar_gloss)]
 GLOSSARY = {
     "de": [
-        ("quereinsteiger", "career changer (no prior training in this field required)",
-         "مُستجد في المجال (لا يُشترط تدريب سابق في نفس المجال)"),
+        ("quereinsteiger", "career changer (term used for applicants switching fields; conditions vary by employer)",
+         "مُتحوّل مهني (مصطلح لمن يغيّر مجال عمله؛ الشروط تختلف من صاحب عمل لآخر)"),
         ("anlernkraft", "trainee worker (trained on the job)", "عامل متدرّب (تدريب أثناء العمل)"),
         ("kommissionierer", "order picker", "عامل تجهيز طلبيات"),
         ("unterkunft", "accommodation (as mentioned in the text)", "سكن (كما ورد في نص الإعلان)"),

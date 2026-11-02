@@ -44,17 +44,24 @@ def valid_translation(original: str, translated: str) -> bool:
 
 
 def compose_summary_ar(job) -> str:
-    """Deterministic Arabic summary from structured fields only."""
+    """Deterministic Arabic summary from STRUCTURED FACTS only.
+
+    Only lines backed by an actual field are emitted: benefit mentions
+    from signals, salary/shift text when the source stated it, location
+    when known. The job title is never repackaged as "core tasks" - when
+    there are no extracted facts, the honest result is an empty summary
+    (the card then shows no Arabic block rather than a fake one).
+    """
     parts = []
-    title = getattr(job, "title_en", "") or getattr(job, "title", "")
-    if title:
-        parts.append("المهام الأساسية: {}".format(title))
     mentions = [_AR_MENTION[s] for s in getattr(job, "signals", []) if s in _AR_MENTION]
     if mentions:
-        parts.append("المزايا المذكورة: " + "؛ ".join(mentions))
+        parts.append("المزايا المذكورة في نص الإعلان: " + "؛ ".join(mentions))
     salary = getattr(job, "salary_text", "") or ""
     if salary:
-        parts.append("الراتب/الدوام: " + salary)
+        parts.append("الراتب/الدوام كما ورد: " + salary)
+    location = getattr(job, "location", "") or ""
+    if location:
+        parts.append("الموقع: " + location)
     if not parts:
         return ""
     parts.append(_VERIFY_NOTE)

@@ -43,12 +43,20 @@ def test_summary_ar_deterministic_and_qualified():
     job.signals = ["housing_keyword_mention", "employment_agency_source"]
     job.salary_text = "14 EUR/h"
     out = compose_summary_ar(job)
-    assert "Warehouse helper" in out
+    assert "Warehouse helper" not in out  # title is never repackaged as tasks
+    assert "المهام الأساسية" not in out
     assert "يذكر الإعلان: سكن" in out  # mention-level, never "housing provided"
     assert "سكن متوفر" not in out
     assert "وكالة توظيف" in out
     assert "14 EUR/h" in out
     assert "يُتحقق" in out  # verification qualifier always present
+
+
+def test_summary_ar_empty_without_facts_even_with_title():
+    # a bare title alone must NOT produce a fake Arabic block
+    job = Job(title="Warehouse Employee", company="X", country="NL", source="nl_jobs", url="https://x.test")
+    job.title_en = "Warehouse Employee"
+    assert compose_summary_ar(job) == ""
 
 
 def test_summary_ar_empty_without_content():
