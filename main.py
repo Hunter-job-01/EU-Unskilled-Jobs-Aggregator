@@ -195,19 +195,35 @@ def main(argv=None) -> int:
     ar_done = 0
     mt_enabled = bool(cfg.get("translation", {}).get("enabled", False))
     todo = [j for j in ar_candidates if not j.title_ar][:40] if mt_enabled else []
-    if todo:
+    # title_en Gemini fallback: non-English titles the keyless route left
+    # untranslated (it is 429-throttled on both sandbox and hosted egress).
+    # One Translator instance => the per-run call cap is SHARED by both
+    # language batches; quota-stop in either stops the other.
+    en_todo = []
+    if mt_enabled:
+        from src.scorer import looks_english
+        en_todo = [j for j in ar_candidates
+                   if not j.title_en and not looks_english(j.title)][:40]
+    if todo or en_todo:
         try:
             from src.gemini_translation import Translator
-            tr = Translator(max_calls=1)
+            tr = Translator(max_calls=5)
             if tr.key:
-                result, _status = tr("\n".join(j.title for j in todo))
-                if result:
-                    lines = [l for l in result.splitlines()]
+                if todo:
+                    result, _status = tr("\n".join(j.title for j in todo))
+                    lines = [l for l in (result or "").splitlines() if l.strip()]
                     if len(lines) == len(todo):
                         for job, line in zip(todo, lines):
                             if valid_translation(job.title, line):
                                 job.title_ar = line.strip()
                                 ar_done += 1
+                if en_todo and not tr.stopped and tr.remaining > 0:
+                    result, _status = tr("\n".join(j.title for j in en_todo), target="en")
+                    lines = [l for l in (result or "").splitlines() if l.strip()]
+                    if len(lines) == len(en_todo):
+                        for job, line in zip(en_todo, lines):
+                            if valid_translation(job.title, line):
+                                job.title_en = line.strip()
         except Exception:
             pass  # fall through to per-title route
     # title_ar layer 2: keyless web route, same quota cap as title_en.
