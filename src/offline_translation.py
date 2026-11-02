@@ -28,18 +28,33 @@ def detect_language(text):
 def _translate_stage(text, name):
     import torch
     tokenizer, model = _model(name)
-    # Token windows cover every input token. No silent tokenizer truncation.
-    ids = tokenizer.encode(text, add_special_tokens=False)
+    # Translate short sentence/line units independently to reduce omissions,
+    # preserving source order and all original text in the paired document.
+    units = re.split(r'(?<=[.!?])\s+|\n+', text)
     pieces = []
-    for start in range(0, len(ids), 220):
-        window = tokenizer.decode(ids[start:start+220], skip_special_tokens=True)
-        encoded = tokenizer(window, return_tensors='pt', truncation=False)
-        with torch.inference_mode():
-            output = model.generate(**encoded, max_new_tokens=480, num_beams=4)
-        # Reaching generation cap is not a complete translation.
-        if output.shape[-1] >= 480:
-            raise ValueError('Translation output incomplete')
-        pieces.append(tokenizer.decode(output[0], skip_special_tokens=True))
+    for unit in units:
+        unit = re.sub(r"[*#_]+", "", unit).strip()
+        if not unit:
+            continue
+        ids = tokenizer.encode(unit, add_special_tokens=False)
+        for start in range(0, len(ids), 75):
+            window = tokenizer.decode(ids[start:start+75], skip_special_tokens=True)
+            encoded = tokenizer(window, return_tensors='pt', truncation=False)
+            with torch.inference_mode():
+                output = model.generate(**encoded, max_new_tokens=220, num_beams=4,
+                    repetition_penalty=1.15, no_repeat_ngram_size=4)
+            if output.shape[-1] >= 220:
+                raise ValueError('Translation output incomplete')
+            translated = tokenizer.decode(output[0], skip_special_tokens=True)
+            if not translated.strip():
+                raise ValueError('Empty translation segment')
+            # Salary, hours, dates and CEFR digits are load-bearing. Refuse
+            # a segment when the model drops or changes numeric tokens.
+            original_numbers = re.findall(r"\d+", window)
+            translated_numbers = re.findall(r"\d+", translated)
+            if sorted(original_numbers) != sorted(translated_numbers):
+                raise ValueError('Numeric fidelity check failed')
+            pieces.append(translated)
     return '\n'.join(pieces)
 
 
