@@ -5,9 +5,9 @@ from src.scorer import Scorer
 from src.source_eligibility import apply_to_job, source_eligibility
 
 REG = {"sources": [
-    {"source_id": "pl_ewl", "applicant_from_egypt": "restricted_non_eu_resident_current"},
-    {"source_id": "pl_cbop", "applicant_from_egypt": "unknown_not_assessed"},
-    {"source_id": "nl_otto_workforce", "applicant_from_egypt": "unknown_not_assessed"},
+    {"source_id": "pl_ewl", "category": "agency", "applicant_from_egypt": "restricted_non_eu_resident_current"},
+    {"source_id": "pl_cbop", "category": "official", "applicant_from_egypt": "unknown_not_assessed"},
+    {"source_id": "nl_otto_workforce", "category": "agency", "applicant_from_egypt": "unknown_not_assessed"},
 ]}
 
 
@@ -58,3 +58,23 @@ def test_scorer_applies_registry_without_score_change(cfg):
 def test_registry_lookup():
     assert source_eligibility(REG, "pl_ewl").startswith("restricted")
     assert source_eligibility(REG, "missing") == ""
+
+
+def test_agency_origin_boost(cfg):
+    # agency-origin jobs get the agency signal + points WITHOUT any permit claim
+    scorer = Scorer(cfg, registry=REG)
+    job = _job("nl_otto_workforce")
+    job.country = "NL"
+    scorer.score(job)
+    assert "agency_or_relocation_mention" in job.signals
+    assert "source_eligibility_unknown" in job.signals
+    # official (PES) origin does NOT get the agency boost
+    job2 = _job("pl_cbop")
+    scorer.score(job2)
+    assert "agency_or_relocation_mention" not in job2.signals
+    # and the boost is real points
+    scorer_plain = Scorer(cfg)
+    job3 = _job("nl_otto_workforce")
+    job3.country = "NL"
+    scorer_plain.score(job3)
+    assert job.score > job3.score

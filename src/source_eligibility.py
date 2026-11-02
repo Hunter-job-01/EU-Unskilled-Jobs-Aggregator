@@ -44,3 +44,14 @@ def apply_to_job(job, registry: dict) -> None:
     elif low in UNKNOWN_VALUES:
         if "source_eligibility_unknown" not in job.signals:
             job.signals.append("source_eligibility_unknown")
+
+
+def source_entry(registry: dict, source_id: str) -> dict:
+    for entry in (registry or {}).get("sources", []):
+        if entry.get("source_id") == source_id:
+            return entry
+    return {}
+
+
+def source_category(registry: dict, source_id: str) -> str:
+    return str(source_entry(registry, source_id).get("category") or "")

@@ -69,6 +69,7 @@ class Scorer:
         # FIRST: an operator restriction excludes regardless of keywords;
         # an unknown status only labels, never changes the score.
         unknown_elig = False
+        agency_origin = False
         if self.registry is not None:
             from .source_eligibility import source_eligibility, UNKNOWN_VALUES, RESTRICTED_PREFIX
             elig = source_eligibility(self.registry, job.source).lower()
@@ -81,6 +82,8 @@ class Scorer:
                 job.score = 0
                 return job
             unknown_elig = elig in UNKNOWN_VALUES
+            from .source_eligibility import source_category
+            agency_origin = source_category(self.registry, job.source) == "agency"
 
         disq = self.matrix.match_disqualifiers(text)
         if disq:
@@ -138,6 +141,12 @@ class Scorer:
             points += s["agency_relocation_points"]
             signals.append("agency_or_relocation_mention")
             matched.extend(found_signals["agency_relocation"])
+        elif self.registry is not None and agency_origin:
+            # Origin-based agency signal (owner Step 3): a VERIFIED work
+            # agency source implies relocation/housing handling by origin,
+            # never a permit/sponsorship claim.
+            points += s["agency_relocation_points"]
+            signals.append("agency_or_relocation_mention")
 
         if negative:  # heavy penalty but role keywords still matched
             points -= s["negative_role_penalty"]
