@@ -4895,6 +4895,41 @@
    "terms_checked_on": "2026-11-02",
    "last_probe": null,
    "last_successful_run": null
+  },
+  {
+   "source_id": "nl_otto_workforce",
+   "country_scope": "NL",
+   "name": "OTTO Work Force vacancies",
+   "category": "agency",
+   "url": "https://ottoworkforce.eu/en/jobs",
+   "integration_route": "public_sitemap_and_pages",
+   "automation_enabled": false,
+   "implementation_status": "adapter_tested_disabled",
+   "priority": "P1",
+   "free_access_status": "public_sitemap_and_server_rendered_pages; robots.txt allows crawling (probe 2026-11-02)",
+   "access_or_limits": "sitemap.vacancies.xml lists /en/jobs/<id>-<slug> pages (156 urls at probe); pages are plain HTML (h1/span.location/attrs block); no JSON-LD; polite bounded fetch budget per run; activation via config sources.ottoworkforce.enabled (default false)",
+   "verification": "live_probe_and_fixture_test",
+   "evidence_urls": [
+    "https://ottoworkforce.eu/sitemap.vacancies.xml",
+    "https://ottoworkforce.eu/en/jobs/2152-warehouse-employee-undef"
+   ],
+   "checked_on": "2026-11-02",
+   "live_connector_test": "smoke_ok_2026-11-02 (3 pages parsed: title/city/salary/attrs)",
+   "applicant_from_egypt": "unknown_not_assessed",
+   "fit_ar": "temp agency warehouse/production roles; accepted languages English shown per vacancy; Egypt-resident eligibility NOT established - agency suitability evidence required before presenting as a route",
+   "countries": [
+    "NL"
+   ],
+   "languages": [
+    "en"
+   ],
+   "eu_filter": "source-level NL placements",
+   "connector_type": "sitemap_plus_html_scrape",
+   "repo_adapter": "ottoworkforce",
+   "activation_gate": "probe_then_owner_approval",
+   "terms_checked_on": "2026-11-02",
+   "last_probe": "2026-11-02",
+   "last_successful_run": null
   }
  ]
 }
