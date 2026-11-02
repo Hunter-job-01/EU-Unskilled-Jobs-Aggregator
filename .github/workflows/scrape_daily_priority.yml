@@ -49,7 +49,9 @@ on:
         required: true
         default: 'eures,jobspy'
         type: choice
-        options: ['eures,jobspy', 'eures', 'jobspy']
+        options: ['eures,jobspy', 'eures', 'jobspy',
+                  'eures,jobspy,sweden_jobsearch,latvia_nva',
+                  'eures,jobspy,arbeitnow,sweden_jobsearch,latvia_nva']
       max_jobs:
         description: 'Max jobs per country per source'
         required: true
@@ -140,6 +142,9 @@ jobs:
             SCHEDULED_CRON="$(jq -r '.schedule // ""' "$EVENT_PAYLOAD")"
             COUNTRIES=""
             SOURCES="eures,jobspy"
+            # Approved 2026-11-02: verified free/keyless/CC0 sources join the
+            # tiers that contain their countries. Czech MPSV stays off until
+            # its licence label is confirmed; ATS needs a reviewed board list.
             MAX_JOBS="50"
             MIN_SCORE="0"
             NO_TRANSLATE="false"
@@ -168,6 +173,7 @@ jobs:
                 DAYS=$(( $(date -u +%s) / 86400 ))
                 COUNTRIES="$(python -c "import sys, yaml; c = yaml.safe_load(open('config/config.yaml', encoding='utf-8')); tiers = c['tiers']; t3 = list(tiers.get('3') or tiers[3]); g = int(sys.argv[1]) % 4; print(','.join(t3[g::4]))" "$DAYS")"
                 TIER="3"
+                SOURCES="eures,jobspy,sweden_jobsearch,latvia_nva"
                 RUN_LABEL="scheduled tier=3 rotation group $(( DAYS % 4 ))/4 (epoch day $DAYS)"
                 ;;
               *)
@@ -182,7 +188,7 @@ jobs:
           if [ -n "$COUNTRIES" ] && ! printf '%s' "$COUNTRIES" | grep -Eq '^[A-Za-z]{2}(,[A-Za-z]{2})*$'; then
             echo "::error::bad countries '$COUNTRIES' (expected ISO codes like PL,CZ,DE)"; exit 1
           fi
-          case "$SOURCES" in eures,jobspy|eures|jobspy) ;; *) echo "::error::bad sources '$SOURCES'"; exit 1;; esac
+          case "$SOURCES" in eures,jobspy|eures|jobspy|eures,jobspy,sweden_jobsearch,latvia_nva|eures,jobspy,arbeitnow,sweden_jobsearch,latvia_nva) ;; *) echo "::error::bad sources '$SOURCES'"; exit 1;; esac
           case "$MAX_JOBS" in ''|*[!0-9]*) echo "::error::max_jobs not a number"; exit 1;; esac
           case "$MIN_SCORE" in ''|*[!0-9]*) echo "::error::min_score not a number"; exit 1;; esac
           [ "$MAX_JOBS" -ge 1 ] && [ "$MAX_JOBS" -le 200 ] || { echo "::error::max_jobs out of range 1-200"; exit 1; }

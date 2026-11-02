@@ -410,11 +410,11 @@ storage:
 # ATS route only ever reads public postings of reviewed employer boards.
 sources:
   arbeitnow:
-    enabled: false
+    enabled: true
     api_url: "https://www.arbeitnow.com/api/job-board-api"
     max_pages: 2                      # bounded polite budget per run
   sweden_jobsearch:
-    enabled: false                    # Platsbanken/JobTech, Sweden only
+    enabled: true                    # Platsbanken/JobTech, Sweden only
     api_url: "https://jobsearch.api.jobtechdev.se/search"
     keywords_per_country: 8
     results_per_query: 25
@@ -425,7 +425,7 @@ sources:
     distribution_url: "https://data.mpsv.cz/od/soubory/volna-mista/volna-mista.json"
     max_records: 5000                 # streamed, not loaded whole (~185MB export)
   latvia_nva:
-    enabled: false                    # public-sector CSV only, Latvia only
+    enabled: true                    # public-sector CSV only, Latvia only
     package_id: "vakances"            # current CSV URL resolved from CKAN metadata
     max_rows: 20000
     max_stale_days: 14                # older newest-row => stale, reported

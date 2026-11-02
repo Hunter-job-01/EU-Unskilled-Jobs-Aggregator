@@ -59,6 +59,7 @@ ARBEITNOW_PAGE = {"data": [
 
 
 def test_arbeitnow_disabled_by_default(cfg):
+    cfg["sources"]["arbeitnow"]["enabled"] = False
     scraper = ArbeitnowScraper(cfg, FakeHttp([ARBEITNOW_PAGE]))
     result = scraper.scrape_country("DE", 10)
     assert result.status == "skipped"
@@ -101,6 +102,7 @@ SWEDEN_HITS = {"hits": [
 
 
 def test_sweden_disabled_by_default(cfg):
+    cfg["sources"]["sweden_jobsearch"]["enabled"] = False
     scraper = SwedenJobSearchScraper(cfg, FakeHttp([SWEDEN_HITS]), None)
     assert scraper.scrape_country("SE", 10).status == "skipped"
 
@@ -177,6 +179,7 @@ class FakeHttpStream:
 
 
 def test_czech_disabled_by_default(cfg):
+    cfg["sources"]["czech_mpsv"]["enabled"] = False
     assert CzechMpsvScraper(cfg, FakeHttpStream(MPSV_PAYLOAD)).scrape_country("CZ", 10).status == "skipped"
 
 
@@ -213,9 +216,10 @@ NVA_META = {"result": {"resources": [
     {"name": "Vakances", "format": "CSV", "url": "https://data.gov.lv/x/vakances-new.csv",
      "last_modified": "2026-11-01T23:02:02"},
 ]}}
-NVA_CSV = ("Vakances_Nr,Aktualizacijas_datums,Vakances_nosaukums,Vakances_kategorija,"
+NVA_CSV = ("Vakances_Nr,Aktualizacijas_datums,Iestades_registracijas_numurs,"
+           "Vakances_nosaukums,Vakances_kategorija,"
            "Alga_no,Alga_lidz,Vieta,Vakances_paplasinats_apraksts\n"
-           "261020-72,2026-10-20,Noliktavas darbinieks,Pakalpojumi,900,1100,"
+           "261020-72,2026-10-20,90000048472,Noliktavas darbinieks,Pakalpojumi,900,1100,"
            "Gaujas iela 33A Adazi,https://cvvp.nva.gov.lv/#/pub/vakances/1\n")
 
 
@@ -236,6 +240,7 @@ class FakeHttpLv:
 
 
 def test_latvia_disabled_by_default(cfg):
+    cfg["sources"]["latvia_nva"]["enabled"] = False
     assert LatviaNvaScraper(cfg, FakeHttpLv(b"")).scrape_country("LV", 10).status == "skipped"
 
 
@@ -249,6 +254,14 @@ def test_latvia_resolves_newest_resource_and_parses(cfg):
     job = result.jobs[0]
     assert job.country == "LV" and job.posted_date == "2026-10-20"
     assert "900-1100" in job.description  # salary evidence kept
+    assert job.company == "LV iestādes reģ. nr. 90000048472"  # labelled ID, no invented name
+
+
+def test_latvia_missing_employer_reg_is_quarantined(cfg):
+    no_reg = NVA_CSV.replace("90000048472", "")
+    cfg = enable(cfg, "latvia_nva")
+    result = LatviaNvaScraper(cfg, FakeHttpLv(no_reg.encode("utf-8"))).scrape_country("LV", 10)
+    assert result.jobs == [] and result.stats.get("quarantined") == 1
 
 
 def test_latvia_stale_feed_is_reported(cfg):
@@ -276,6 +289,7 @@ def _ats_cfg(cfg, tenants):
 
 
 def test_ats_disabled_by_default(cfg):
+    cfg["sources"]["ats_public"]["enabled"] = False
     assert AtsPublicScraper(cfg, FakeHttp([GREENHOUSE])).scrape_country("PL", 10).status == "skipped"
 
 

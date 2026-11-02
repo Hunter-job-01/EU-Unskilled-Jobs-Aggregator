@@ -128,7 +128,11 @@ class LatviaNvaScraper:
             if verdict.status == "non_eu":
                 result.stats["non_eu_rejects"] = result.stats.get("non_eu_rejects", 0) + 1
                 continue
-            if verdict.quarantined or not title or not url:
+            reg = str(row.get("Iestades_registracijas_numurs") or "").strip()
+            if verdict.quarantined or not title or not url or not reg:
+                # Hidden/unidentified employer (no registration number) is
+                # quarantined like a hidden employer elsewhere: without it,
+                # uid(company|title|country) could merge distinct institutions.
                 result.stats["quarantined"] = result.stats.get("quarantined", 0) + 1
                 continue
             salary = ""
@@ -137,13 +141,16 @@ class LatviaNvaScraper:
                                                  row.get("Alga_lidz") or "?")
             job = Job(
                 title=title,
-                company="",  # rows carry a registration number, not a name
+                # Rows carry an institution registration number, not a name.
+                # Surface it as a labelled identifier (never an invented name)
+                # so uid(company|title|country) stays distinct per institution.
+                company="LV iestādes reģ. nr. {}".format(reg),
                 country="LV",
                 source=self.name,
                 source_id=str(row.get("Vakances_Nr") or url),
                 url=url,
-                description=("[NVA evidence] kategorija: {}; {}".format(
-                    row.get("Vakances_kategorija") or "?", salary)).strip(),
+                description=("[NVA evidence] kategorija: {}; {}; iestādes reģ. nr. {}".format(
+                    row.get("Vakances_kategorija") or "?", salary, reg)).strip(),
                 location=location,
                 posted_date=(lambda d: d.isoformat() if d else None)(
                     self._parse_day(row.get("Aktualizacijas_datums"))),
