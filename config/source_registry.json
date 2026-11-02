@@ -4963,6 +4963,40 @@
    "terms_checked_on": "2026-11-02",
    "last_probe": "2026-11-02",
    "last_successful_run": null
+  },
+  {
+   "source_id": "pl_cbop",
+   "country_scope": "PL",
+   "name": "CBOP - Centralna Baza Ofert Pracy (Poland PES)",
+   "category": "official",
+   "url": "https://oferty.praca.gov.pl/portal/wyszukiwarka-ofert",
+   "integration_route": "public_json_api",
+   "automation_enabled": false,
+   "implementation_status": "adapter_tested_enabled",
+   "priority": "P1",
+   "free_access_status": "session-free POST portal-api search (probe 2026-11-02, 404 magazynier offers returned)",
+   "access_or_limits": "search response carries title/employer/place/validity/application-method only; no full description at search level (detail step pending); OHP-posted rows route via labour office; activation via config sources.pl_cbop.enabled",
+   "verification": "live_probe_and_fixture_test",
+   "evidence_urls": [
+    "https://oferty.praca.gov.pl/portal-api/v3/oferta/wyszukiwanie"
+   ],
+   "checked_on": "2026-11-02",
+   "live_connector_test": "probe_ok_2026-11-02 (5 fixture rows mapped; request shape asserted)",
+   "applicant_from_egypt": "unknown_not_assessed",
+   "fit_ar": "official Polish PES board, strong warehouse/production stock; Poland typically requires employer-sponsored work permit for Egypt residents - eligibility unknown per posting unless evidence exists",
+   "countries": [
+    "PL"
+   ],
+   "languages": [
+    "pl"
+   ],
+   "eu_filter": "national board (PL only)",
+   "connector_type": "json_api",
+   "repo_adapter": "pl_cbop",
+   "activation_gate": "probe_then_owner_approval",
+   "terms_checked_on": "2026-11-02",
+   "last_probe": "2026-11-02",
+   "last_successful_run": null
   }
  ]
 }

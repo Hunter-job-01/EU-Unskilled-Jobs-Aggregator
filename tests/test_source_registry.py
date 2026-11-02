@@ -14,7 +14,7 @@ def registry():
 
 
 def test_registry_loads_and_validates(registry):
-    assert len(registry["sources"]) == 143  # 141 catalogue + nl_otto_workforce + eu_anyworkanywhere (2026-11-02)
+    assert len(registry["sources"]) == 144  # 141 catalogue + otto/awa/cbop (2026-11-02)
     assert registry["catalog_is_not_deployment"] is True
     assert registry["default_new_sources_enabled"] is False
 
@@ -41,7 +41,7 @@ def test_closed_source_stays_excluded(registry):
 
 def test_implemented_adapters_gated(registry):
     gated = [s for s in registry["sources"] if s.get("repo_adapter")]
-    assert len(gated) == 11  # 7 expansion adapters + 2 ATS + eures + indeed
+    assert len(gated) == 12  # 8 expansion adapters + 2 ATS + eures + indeed
     for s in gated:
         assert s["activation_gate"] in ("probe_then_owner_approval", "active_existing")
 
@@ -69,6 +69,6 @@ def test_validator_rejects_duplicate_ids(registry):
 
 def test_coverage_summary_counts(registry):
     summary = coverage_summary(registry)
-    assert summary["total"] == 143  # includes nl_otto_workforce
+    assert summary["total"] == 144  # includes nl_otto_workforce
     assert set(summary["by_gate"]) <= ACTIVATION_GATES
     assert summary["by_gate"].get("excluded") == 1

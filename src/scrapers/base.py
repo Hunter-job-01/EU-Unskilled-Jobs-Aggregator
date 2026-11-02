@@ -124,8 +124,8 @@ class HttpClient:
             "{} {} failed after {} attempts: {}".format(method, url, self.retries, last_exc)
         )
 
-    def post_json(self, url: str, payload: dict) -> dict:
-        resp = self.request("POST", url, json=payload)
+    def post_json(self, url: str, payload: dict, params: dict = None) -> dict:
+        resp = self.request("POST", url, json=payload, params=params)
         return resp.json()
 
     def get(self, url: str, **kwargs) -> requests.Response:

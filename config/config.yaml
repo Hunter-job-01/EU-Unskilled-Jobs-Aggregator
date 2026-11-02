@@ -440,6 +440,12 @@ sources:
     enabled: true                    # AWA board; JSON-LD pages probe+fixture verified 2026-11-02 (user-authorized activation)
     sitemap_template: "https://www.anyworkanywhere.com/job-sitemap{}.xml"
     max_pages: 10                    # bounded polite budget per run
+  pl_cbop:
+    enabled: true                    # Poland CBOP official board; POST portal-api probe-verified 2026-11-02 (404 magazynier offers)
+    api_url: "https://oferty.praca.gov.pl/portal-api/v3/oferta/wyszukiwanie"
+    search_terms: ["magazynier", "pakowacz", "pracownik produkcji", "sprzątaczka", "pomoc kuchenna", "pracownik sezonowy"]
+    max_pages_per_term: 1            # bounded polite budget
+    page_size: 10
   ats_public:
     enabled: false                    # Greenhouse/Lever/SmartRecruiters PUBLIC postings
     max_postings_per_tenant: 100

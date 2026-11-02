@@ -10,10 +10,11 @@ from .latvia_nva import LatviaNvaScraper
 from .ats_public import AtsPublicScraper
 from .ottoworkforce import OttoWorkforceScraper
 from .anyworkanywhere import AnyworkAnywhereScraper
+from .pl_cbop import PlCbopScraper
 
 __all__ = [
     "HttpClient", "ScrapeResult", "ScraperError", "polite_sleep", "strip_html",
     "EuresScraper", "JobSpyScraper",
     "ArbeitnowScraper", "SwedenJobSearchScraper", "CzechMpsvScraper",
-    "LatviaNvaScraper", "AtsPublicScraper", "OttoWorkforceScraper", "AnyworkAnywhereScraper",
+    "LatviaNvaScraper", "AtsPublicScraper", "OttoWorkforceScraper", "AnyworkAnywhereScraper", "PlCbopScraper",
 ]
