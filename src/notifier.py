@@ -40,6 +40,7 @@ import html
 import hashlib
 import json
 import logging
+from pathlib import Path
 import os
 import re
 import time
@@ -365,7 +366,7 @@ def ensure_state_file(store, cfg: dict) -> None:
 
 def _send_single_digest(store, cfg: dict, *, session=None, environ=None,
                         sleep=time.sleep, now=None, destination_state=None,
-                        save_destination=None) -> int:
+                        save_destination=None, translator=None) -> int:
     """Send the digest for the current store. Returns jobs notified.
 
     Never raises for configuration or delivery problems: the scrape
@@ -419,7 +420,14 @@ def _send_single_digest(store, cfg: dict, *, session=None, environ=None,
     if tcfg.get("full_arabic_translation"):
         try:
             from .offline_translation import translation_document
-            document = translation_document(jobs)
+            if tcfg.get("translation_engine") == "gemini_free":
+                from .gemini_translation import Translator
+                translator = translator or Translator(key=environ.get("GEMINI_API_KEY", ""),
+                    cache_dir=str(Path(store.data_dir) / ".cache" / "translation"),
+                    max_calls=int(tcfg.get("translation_calls_per_run", 5)))
+                document = translation_document(jobs, translate=translator)
+            else:
+                document = translation_document(jobs)
             response = session.post(API_TEMPLATE.format(token=token).replace('/sendMessage', '/sendDocument'),
                 data={"chat_id": chat_id, "caption": "العنوان والوصف والشروط: ترجمة آلية مع النص الأصلي الكامل. ⚠️ الحالات غير المؤكدة مميزة داخل الملف."},
                 files={"document": ("jobs-arabic-and-original.txt", document, "text/plain; charset=utf-8")}, timeout=45)
@@ -541,13 +549,19 @@ def send_digest(store, cfg: dict, *, session=None, environ=None,
         except Exception:
             log.error("Private notification persistence unavailable; sends withheld")
             return 0
+    translator = None
+    if cfg.get("telegram", {}).get("translation_engine") == "gemini_free":
+        from .gemini_translation import Translator
+        translator = Translator(key=env.get("GEMINI_API_KEY", ""),
+            cache_dir=str(Path(store.data_dir) / ".cache" / "translation"),
+            max_calls=int(cfg["telegram"].get("translation_calls_per_run", 5)))
     raw = (env.get("TELEGRAM_CHAT_IDS") or "").strip()
     if not raw and cfg.get("telegram", {}).get("private_fit_required"):
         log.error("Private fit requires independently tracked destinations; sends withheld")
         return 0
     if not raw:
         return _send_single_digest(store, cfg, session=session, environ=env,
-                                   sleep=sleep, now=now)
+                                   sleep=sleep, now=now, translator=translator)
     chats = list(dict.fromkeys(c.strip() for c in raw.split(",") if c.strip()))
     if not chats:
         return 0
@@ -566,5 +580,5 @@ def send_digest(store, cfg: dict, *, session=None, environ=None,
         local_env = dict(env, TELEGRAM_CHAT_ID=chat)
         total += _send_single_digest(scoped, cfg, session=session,
                     environ=local_env, sleep=sleep, now=now,
-                    destination_state=state, save_destination=persist)
+                    destination_state=state, save_destination=persist, translator=translator)
     return total

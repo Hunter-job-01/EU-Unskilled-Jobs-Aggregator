@@ -208,6 +208,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           JOB_FIT_PROFILE: ${{ secrets.JOB_FIT_PROFILE }}
           JOB_FIT_REVIEWS: ${{ secrets.JOB_FIT_REVIEWS }}
           JOB_FIT_STATE_KEY: ${{ secrets.JOB_FIT_STATE_KEY }}

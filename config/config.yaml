@@ -368,7 +368,9 @@ telegram:
   enabled: true
   private_fit_required: true
   automatic_requirements: true
-  full_arabic_translation: false  # real-job translation quality not validated
+  full_arabic_translation: true  # guarded free API; failed text explicitly labelled
+  translation_engine: gemini_free
+  translation_calls_per_run: 5  # hard shared per-run cap, no paid fallback
   detail_checks_per_run: 30
   include_uncertain: true  # explicitly labelled; known conflicts still excluded
   min_score: 50               # only jobs at/above this relevance score are digested

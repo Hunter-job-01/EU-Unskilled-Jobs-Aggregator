@@ -575,29 +575,28 @@ are category labels, **not full translations**. The prior unauthenticated Google
 translation route was throttled and is not bypassed. Full translation remains a
 separate capability to validate before enabling.
 
-### Full Arabic translation (local CPU)
+### Guarded Arabic translation in private digests
 
-The replacement translation path uses public Helsinki-NLP Marian models locally
-on the GitHub runner, not the throttled Google endpoint. Public model files may
-be downloaded/cached, but no CV or private criteria are submitted for translation.
-Source→English→Arabic pivoting can change meaning. Translation is display-only,
-never authority for eligibility. The full Arabic text and full original text
-are paired in a private UTF-8 text document digest with links and status marks.
-All model input tokens are processed in windows; unsupported languages, failed
-models and incomplete source pages are explicitly labelled, not silently cut.
-A failed document upload leaves jobs unnotified; successful acceptance preserves
-per-destination daily gates. No extra same-day digest is forced.
+The fixed Gemini Developer API free model `gemini-3.5-flash-lite` translates
+public vacancy title, description and requirements into Arabic. Only contact-redacted
+public text is submitted. Never send CVs, candidate profiles, fit decisions or
+Telegram destination IDs. The API key is held in the repository's encrypted
+`GEMINI_API_KEY` secret, never source code. Google consumer Pro is separate from
+this API project; keep Cloud Billing unlinked. No paid fallback or upgrade exists.
 
-Full translation is enabled only after the hosted CPU/model smoke check passes.
-Languages use dedicated source→English pairs where available; a language in the
-configured set is not a guarantee that its public model can be loaded or that
-its output is accurate. Always check the original requirements. This changes the
-private digest presentation, not the broad public dashboard's language.
+At most five requests per run are shared across destinations, spaced at least
+15 seconds apart. A quota/API error stops further calls for that run. Outputs
+are cached using hashes of redacted public text. Cached outputs contain no
+candidate information. The original language is always the eligibility authority.
 
-Validation outcome: model download/inference works on GitHub, but full real-job
-translation quality did not pass (dropped or changed numeric/qualification text
-and distorted employer/location wording). Full Arabic translation therefore
-remains **OFF**, despite green infrastructure smoke checks. Those checks prove
-execution, not semantic accuracy. Scheduled scrapes do not install heavy model
-dependencies while this feature is off. Automatic job triage/uncertain labels
-remain active. Full translation is a known remaining outcome, not completed.
+Translations must return all ordered segments, preserve numbers, finish normally,
+and pass script checks. Any failure, unavailable quota or oversized text is shown
+as unavailable with the full original retained. These checks cannot prove perfect
+semantic accuracy. Real German/English warehouse samples preserved consequential
+requirements; some Czech samples failed checks. Do not claim every language/job
+is translated successfully. The previous Marian/NLLB experiments remain unused.
+
+The private UTF-8 document pairs Arabic with full original text, source links and
+uncertainty labels. Existing encrypted per-destination daily gates remain intact.
+No same-day duplicate digest is forced. The public dashboard remains broad, not
+candidate-personalized and not changed into a translated dashboard.
