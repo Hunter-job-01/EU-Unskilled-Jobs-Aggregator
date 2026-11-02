@@ -249,7 +249,7 @@ jobs:
             # bypassed: the private chat is not re-sent and no history is
             # reset. Secrets stay in the environment - never echoed.
             [ -n "$TELEGRAM_CHANNEL_ID" ] || { echo "::error::force_channel_digest needs the TELEGRAM_CHANNEL_ID secret (exact configured channel)"; exit 1; }
-            printf '%s' "$TELEGRAM_CHAT_IDS" | tr ',' '\n' | sed 's/^ *//;s/ *$//' | grep -qxF "$TELEGRAM_CHANNEL_ID" || { echo "::error::TELEGRAM_CHANNEL_ID is not one of the configured TELEGRAM_CHAT_IDS destinations - refusing to force"; exit 1; }
+            printf '%s' "$TELEGRAM_CHAT_IDS" | tr ',' '\n' | sed 's/^ *//;s/ *$//' | grep -qxF -e "$TELEGRAM_CHANNEL_ID" || { echo "::error::TELEGRAM_CHANNEL_ID is not one of the configured TELEGRAM_CHAT_IDS destinations - refusing to force"; exit 1; }
             export TELEGRAM_FORCE_DIGEST_CHAT_IDS="$TELEGRAM_CHANNEL_ID"
             echo "Owner-requested one-off channel digest armed: daily gate bypassed for the configured channel destination only."
           fi
