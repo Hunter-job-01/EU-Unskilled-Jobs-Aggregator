@@ -121,8 +121,8 @@
       }
     }
   },
-  "duration_sec": 198.8,
-  "last_run_utc": "2026-11-02T19:01:47+00:00",
+  "duration_sec": 257.9,
+  "last_run_utc": "2026-11-02T19:15:34+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-02T18:30:47+00:00",
@@ -293,7 +293,7 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-02T19:01:47+00:00",
+      "checked_at_utc": "2026-11-02T19:15:34+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -310,7 +310,7 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-02T19:01:47+00:00",
+      "checked_at_utc": "2026-11-02T19:15:34+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -618,7 +618,7 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-02T19:01:47+00:00",
+      "checked_at_utc": "2026-11-02T19:15:34+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -717,7 +717,7 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-02T19:01:47+00:00",
+      "checked_at_utc": "2026-11-02T19:15:34+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -863,7 +863,7 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-02T19:01:47+00:00",
+      "checked_at_utc": "2026-11-02T19:15:34+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -880,7 +880,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-02T19:01:47+00:00",
+      "checked_at_utc": "2026-11-02T19:15:34+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -938,7 +938,7 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-02T19:01:47+00:00",
+      "checked_at_utc": "2026-11-02T19:15:34+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -1037,7 +1037,7 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-02T19:01:47+00:00",
+      "checked_at_utc": "2026-11-02T19:15:34+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -1078,14 +1078,14 @@
     "tier": "1"
   },
   "totals": {
-    "active": 1340,
-    "below_min_score": 3,
-    "excluded": 23,
+    "active": 1344,
+    "below_min_score": 2,
+    "excluded": 21,
     "fetched": 70,
-    "new": 2,
-    "notified_telegram": 0,
+    "new": 4,
+    "notified_telegram": 5,
     "pruned": 0,
     "translated_titles": 0,
-    "updated": 34
+    "updated": 35
   }
 }
