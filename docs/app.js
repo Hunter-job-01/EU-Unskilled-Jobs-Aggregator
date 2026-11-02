@@ -65,7 +65,9 @@
     permit_keyword_mention:        { label: 'Work permit mentioned',  hint: 'The posting text mentions work permits or visas - not proof of sponsorship.' },
     housing_keyword_mention:       { label: 'Housing mentioned',      hint: 'The posting text mentions accommodation - not proof housing is provided.' },
     language_flex_keyword_mention: { label: 'Language flexibility',   hint: 'The posting text suggests no local language is required.' },
-    agency_or_relocation_mention:  { label: 'Agency / relocation',    hint: 'The posting text mentions an agency or relocation support.' },
+    employment_agency_source:      { label: 'Employment agency',      hint: 'The source publishing this job is a verified employment agency - a fact about the source, not a promise of relocation, housing or permits.' },
+    agency_relocation_text_mention:{ label: 'Agency / relocation mentioned', hint: 'The posting text mentions agency or relocation words - a mention to verify, not a provided benefit.' },
+    agency_or_relocation_mention:  { label: 'Agency / relocation (legacy)', hint: 'Recorded before source-origin and text-mention were separated - could be either; verify directly with the employer or agency.' },
     fresh_posting:                 { label: 'Fresh posting',          hint: 'Posted within the last 14 days.' }
   };
   var CHIP_ORDER = [
@@ -73,6 +75,8 @@
     'permit_keyword_mention',
     'housing_keyword_mention',
     'language_flex_keyword_mention',
+    'employment_agency_source',
+    'agency_relocation_text_mention',
     'agency_or_relocation_mention',
     'fresh_posting'
   ];
