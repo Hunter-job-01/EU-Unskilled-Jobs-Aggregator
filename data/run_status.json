@@ -1,6 +1,14 @@
 {
   "countries": {
-    "CZ": {
+    "AT": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -12,9 +20,189 @@
         "fetched": 50,
         "notes": [],
         "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "BE": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "BG": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: BG not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "CY": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: CY not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "CZ": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
       }
     },
     "DE": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 9,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -26,9 +214,303 @@
         "fetched": 50,
         "notes": [],
         "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "DK": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "EE": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: EE not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "ES": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "FI": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 20,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "FR": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 10,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "GR": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "HR": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: HR not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
       }
     },
     "HU": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -40,9 +522,109 @@
         "fetched": 31,
         "notes": [],
         "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "IE": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "IT": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
       }
     },
     "LT": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
       "eures": {
         "errors": [],
         "fetched": 17,
@@ -58,9 +640,149 @@
           "indeed: LT not supported by JobSpy/Indeed (EURES covers it)"
         ],
         "status": "skipped"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "LU": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 30,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "LV": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: LV not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "MT": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: MT not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
       }
     },
     "NL": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 33,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -72,9 +794,31 @@
         "fetched": 50,
         "notes": [],
         "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
       }
     },
     "PL": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [],
+        "status": "ok"
+      },
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -86,9 +830,71 @@
         "fetched": 50,
         "notes": [],
         "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "PT": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
       }
     },
     "RO": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -100,9 +906,109 @@
         "fetched": 12,
         "notes": [],
         "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "SE": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 48,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "SI": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: SI not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
       }
     },
     "SK": {
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -118,15 +1024,39 @@
           "indeed: SK not supported by JobSpy/Indeed (EURES covers it)"
         ],
         "status": "skipped"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
       }
     }
   },
-  "duration_sec": 322.9,
-  "last_run_utc": "2026-11-02T18:12:14+00:00",
+  "duration_sec": 823.8,
+  "last_run_utc": "2026-11-02T18:30:47+00:00",
   "latest_by_country": {
     "AT": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -138,12 +1068,36 @@
           "fetched": 50,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "BE": {
-      "checked_at_utc": "2026-11-02T13:17:04+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -155,12 +1109,36 @@
           "fetched": 50,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "BG": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -174,12 +1152,36 @@
             "indeed: BG not supported by JobSpy/Indeed (EURES covers it)"
           ],
           "status": "skipped"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "CY": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -193,12 +1195,36 @@
             "indeed: CY not supported by JobSpy/Indeed (EURES covers it)"
           ],
           "status": "skipped"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-02T18:12:14+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -210,12 +1236,36 @@
           "fetched": 50,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-02T18:12:14+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 9,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -227,12 +1277,36 @@
           "fetched": 50,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "DK": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -244,12 +1318,36 @@
           "fetched": 50,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "EE": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -263,12 +1361,36 @@
             "indeed: EE not supported by JobSpy/Indeed (EURES covers it)"
           ],
           "status": "skipped"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "ES": {
-      "checked_at_utc": "2026-11-02T13:17:04+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -280,12 +1402,36 @@
           "fetched": 50,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "FI": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -294,15 +1440,39 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 18,
+          "fetched": 20,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "FR": {
-      "checked_at_utc": "2026-11-02T13:17:04+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 10,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -314,12 +1484,36 @@
           "fetched": 50,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "GR": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -331,12 +1525,36 @@
           "fetched": 50,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "HR": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -350,12 +1568,36 @@
             "indeed: HR not supported by JobSpy/Indeed (EURES covers it)"
           ],
           "status": "skipped"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-02T18:12:14+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -367,12 +1609,36 @@
           "fetched": 31,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "IE": {
-      "checked_at_utc": "2026-11-02T13:17:04+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -384,12 +1650,36 @@
           "fetched": 50,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "IT": {
-      "checked_at_utc": "2026-11-02T13:17:04+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -401,12 +1691,36 @@
           "fetched": 50,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-02T18:12:14+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 17,
@@ -422,12 +1736,36 @@
             "indeed: LT not supported by JobSpy/Indeed (EURES covers it)"
           ],
           "status": "skipped"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "LU": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -439,15 +1777,39 @@
           "fetched": 30,
           "notes": [],
           "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "LV": {
-      "checked_at_utc": "2026-11-02T17:42:36+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
-          "fetched": 10,
+          "fetched": 50,
           "notes": [],
           "status": "ok"
         },
@@ -461,7 +1823,7 @@
         },
         "latvia_nva": {
           "errors": [],
-          "fetched": 10,
+          "fetched": 50,
           "notes": [],
           "status": "ok"
         },
@@ -476,8 +1838,16 @@
       }
     },
     "MT": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -491,12 +1861,36 @@
             "indeed: MT not supported by JobSpy/Indeed (EURES covers it)"
           ],
           "status": "skipped"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-02T18:12:14+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 33,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -506,74 +1900,6 @@
         "jobspy": {
           "errors": [],
           "fetched": 50,
-          "notes": [],
-          "status": "ok"
-        }
-      }
-    },
-    "PL": {
-      "checked_at_utc": "2026-11-02T18:12:14+00:00",
-      "sources": {
-        "eures": {
-          "errors": [],
-          "fetched": 50,
-          "notes": [],
-          "status": "ok"
-        },
-        "jobspy": {
-          "errors": [],
-          "fetched": 50,
-          "notes": [],
-          "status": "ok"
-        }
-      }
-    },
-    "PT": {
-      "checked_at_utc": "2026-11-02T13:17:04+00:00",
-      "sources": {
-        "eures": {
-          "errors": [],
-          "fetched": 50,
-          "notes": [],
-          "status": "ok"
-        },
-        "jobspy": {
-          "errors": [],
-          "fetched": 50,
-          "notes": [],
-          "status": "ok"
-        }
-      }
-    },
-    "RO": {
-      "checked_at_utc": "2026-11-02T18:12:14+00:00",
-      "sources": {
-        "eures": {
-          "errors": [],
-          "fetched": 50,
-          "notes": [],
-          "status": "ok"
-        },
-        "jobspy": {
-          "errors": [],
-          "fetched": 12,
-          "notes": [],
-          "status": "ok"
-        }
-      }
-    },
-    "SE": {
-      "checked_at_utc": "2026-11-02T17:42:36+00:00",
-      "sources": {
-        "eures": {
-          "errors": [],
-          "fetched": 10,
-          "notes": [],
-          "status": "ok"
-        },
-        "jobspy": {
-          "errors": [],
-          "fetched": 10,
           "notes": [],
           "status": "ok"
         },
@@ -587,15 +1913,185 @@
         },
         "sweden_jobsearch": {
           "errors": [],
-          "fetched": 10,
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
+        }
+      }
+    },
+    "PL": {
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [],
+          "status": "ok"
+        },
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
+        }
+      }
+    },
+    "PT": {
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
+        }
+      }
+    },
+    "RO": {
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 12,
+          "notes": [],
+          "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
+        }
+      }
+    },
+    "SE": {
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 48,
+          "notes": [],
+          "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 50,
           "notes": [],
           "status": "ok"
         }
       }
     },
     "SI": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -609,12 +2105,36 @@
             "indeed: SI not supported by JobSpy/Indeed (EURES covers it)"
           ],
           "status": "skipped"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-02T18:12:14+00:00",
+      "checked_at_utc": "2026-11-02T18:30:47+00:00",
       "sources": {
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
+          ],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -630,6 +2150,22 @@
             "indeed: SK not supported by JobSpy/Indeed (EURES covers it)"
           ],
           "status": "skipped"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     }
@@ -643,25 +2179,47 @@
       "HU",
       "RO",
       "SK",
-      "NL"
+      "NL",
+      "ES",
+      "IT",
+      "FR",
+      "BE",
+      "PT",
+      "IE",
+      "AT",
+      "BG",
+      "HR",
+      "CY",
+      "DK",
+      "EE",
+      "FI",
+      "GR",
+      "LV",
+      "LU",
+      "MT",
+      "SI",
+      "SE"
     ],
     "max_jobs": 50,
     "min_score": 20,
     "sources": [
+      "arbeitnow",
       "eures",
-      "jobspy"
+      "jobspy",
+      "latvia_nva",
+      "sweden_jobsearch"
     ],
-    "tier": "1"
+    "tier": "all"
   },
   "totals": {
-    "active": 1111,
-    "below_min_score": 23,
-    "excluded": 186,
-    "fetched": 610,
-    "new": 114,
+    "active": 1338,
+    "below_min_score": 116,
+    "excluded": 908,
+    "fetched": 2260,
+    "new": 240,
     "notified_telegram": 0,
-    "pruned": 3,
+    "pruned": 13,
     "translated_titles": 0,
-    "updated": 259
+    "updated": 897
   }
 }
