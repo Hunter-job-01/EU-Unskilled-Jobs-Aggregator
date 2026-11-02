@@ -1,9 +1,17 @@
 # =====================================================================
-# ci_tests.yml - offline unit tests on every code change
+# ci_tests.yml - offline unit tests + focused checks on code changes
 # ---------------------------------------------------------------------
 # paths-ignore: pushes/PRs touching ONLY data/** (the bot's scheduled
 # data commits) do not trigger CI - the data files carry no code.
 # Live network tests stay opt-in (-m live) and never run in CI.
+#
+# The focused checks (offline translation, guarded Gemini translation,
+# automatic requirement extraction, private notification gate) run as
+# jobs in THIS workflow instead of four standalone workflows. Each runs
+# only when the paths its old workflow watched change, or on manual
+# dispatch, so ordinary pushes stay fast. Secret-dependent checks skip
+# pull_request events (fork PRs see no secrets), matching the old
+# push-only behavior.
 # =====================================================================
 name: CI tests
 
@@ -14,6 +22,7 @@ on:
   pull_request:
     paths-ignore:
       - 'data/**'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -40,3 +49,91 @@ jobs:
 
       - name: Run offline test suite
         run: pytest -v
+
+  focused-checks:
+    name: Focused translation and gate checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Detect which checks are affected
+        id: changes
+        run: |
+          set -e
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            CHANGED="ALL"
+          elif [ "${{ github.event_name }}" = "pull_request" ]; then
+            CHANGED=$(git diff --name-only "${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }}")
+          elif [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
+            CHANGED=$(git diff --name-only "${{ github.event.before }}..${{ github.sha }}")
+          else
+            CHANGED=$(git diff --name-only HEAD~1..HEAD)
+          fi
+          want() {
+            if [ "$CHANGED" = "ALL" ]; then echo true; return; fi
+            for pat in "$@"; do
+              if echo "$CHANGED" | grep -q -e "$pat"; then echo true; return; fi
+            done
+            echo false
+          }
+          {
+            echo "offline=$(want '^src/offline_translation\.py$' '^scripts/check_offline_translation\.py$' '^\.github/workflows/ci_tests\.yml$')"
+            echo "gemini=$(want '^src/gemini_translation\.py$' '^scripts/check_gemini_translation\.py$' '^\.github/workflows/ci_tests\.yml$')"
+            echo "reqextract=$(want '^src/automatic_requirements\.py$' '^src/source_evidence\.py$' '^scripts/check_automatic_requirements\.py$' '^\.github/workflows/ci_tests\.yml$')"
+            echo "gate=$(want '^src/eligibility\.py$' '^src/private_state\.py$' '^src/notifier\.py$' '^scripts/verify_private_gate\.py$' '^\.github/workflows/ci_tests\.yml$')"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Cache offline translation models
+        if: steps.changes.outputs.offline == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface/hub
+          key: offline-job-translation-v1
+
+      - name: Install offline translation dependencies
+        if: steps.changes.outputs.offline == 'true'
+        run: |
+          pip install -r requirements-translation.txt langdetect
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Check local Arabic translation
+        if: steps.changes.outputs.offline == 'true'
+        run: python scripts/check_offline_translation.py
+
+      - name: Install light check dependencies
+        if: >-
+          steps.changes.outputs.gemini == 'true'
+          || steps.changes.outputs.reqextract == 'true'
+          || steps.changes.outputs.gate == 'true'
+        run: pip install requests PyYAML 'cryptography>=44,<47' 'beautifulsoup4>=4.12,<5' langdetect
+
+      - name: Check guarded free Arabic translation
+        if: steps.changes.outputs.gemini == 'true' && github.event_name != 'pull_request'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/check_gemini_translation.py
+
+      - name: Check automatic requirement extraction
+        if: steps.changes.outputs.reqextract == 'true' && github.event_name != 'pull_request'
+        env:
+          JOB_FIT_PROFILE: ${{ secrets.JOB_FIT_PROFILE }}
+          JOB_FIT_REVIEWS: ${{ secrets.JOB_FIT_REVIEWS }}
+        run: python scripts/check_automatic_requirements.py
+
+      - name: Verify private notification gate
+        if: steps.changes.outputs.gate == 'true' && github.event_name != 'pull_request'
+        env:
+          JOB_FIT_PROFILE: ${{ secrets.JOB_FIT_PROFILE }}
+          JOB_FIT_REVIEWS: ${{ secrets.JOB_FIT_REVIEWS }}
+          JOB_FIT_STATE_KEY: ${{ secrets.JOB_FIT_STATE_KEY }}
+        run: python scripts/verify_private_gate.py

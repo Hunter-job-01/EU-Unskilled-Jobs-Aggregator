@@ -22,6 +22,7 @@ import logging
 
 from ..eu_location import EU27, classify_location
 from ..models import Job
+from ..keywords import KeywordMatrix
 from .base import ScrapeResult, ScraperError, polite_sleep, strip_html
 
 log = logging.getLogger(__name__)
@@ -40,6 +41,13 @@ class AtsPublicScraper:
         self.max_postings_per_tenant = int(sc.get("max_postings_per_tenant", 100))
         self.req_delay = tuple(sc.get("delay_between_requests_sec",
                                       cfg["batch"].get("delay_between_requests_sec", [1.5, 4.0])))
+        # Early title-only exclusion (scoring.early_title_filter): drops
+        # technical/office titles before any scoring/translation work.
+        self.early_filter = (
+            KeywordMatrix(cfg["keywords"])
+            if (cfg.get("scoring") or {}).get("early_title_filter", True)
+            else None
+        )
         self.tenants = []
         for t in sc.get("tenants") or []:
             if not isinstance(t, dict):
@@ -150,6 +158,11 @@ class AtsPublicScraper:
                 if verdict.country != country_code:
                     continue
                 if job.title and job.url:
+                    if self.early_filter is not None:
+                        reason = self.early_filter.early_title_exclusion(job.title)
+                        if reason:
+                            result.stats["early_title_excluded"] = result.stats.get("early_title_excluded", 0) + 1
+                            continue
                     result.jobs.append(job)
             polite_sleep(self.req_delay)
         if result.errors:

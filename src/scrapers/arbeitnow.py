@@ -17,6 +17,7 @@ from datetime import datetime, timezone
 
 from ..eu_location import EU27, classify_location
 from ..models import Job
+from ..keywords import KeywordMatrix
 from .base import ScrapeResult, ScraperError, polite_sleep, strip_html
 
 log = logging.getLogger(__name__)
@@ -37,6 +38,13 @@ class ArbeitnowScraper:
         self.req_delay = tuple(sc.get("delay_between_requests_sec",
                                       cfg["batch"].get("delay_between_requests_sec", [1.5, 4.0])))
         self._rows = None  # fetched rows shared across country queries
+        # Early title-only exclusion (scoring.early_title_filter): drops
+        # technical/office titles before any scoring/translation work.
+        self.early_filter = (
+            KeywordMatrix(cfg["keywords"])
+            if (cfg.get("scoring") or {}).get("early_title_filter", True)
+            else None
+        )
 
     def _fetch_rows(self, result: ScrapeResult) -> list:
         rows = []
@@ -96,6 +104,11 @@ class ArbeitnowScraper:
                 continue
             if verdict.country != country_code:
                 continue
+            if self.early_filter is not None:
+                reason = self.early_filter.early_title_exclusion(str(row.get("title") or ""))
+                if reason:
+                    result.stats["early_title_excluded"] = result.stats.get("early_title_excluded", 0) + 1
+                    continue
             url = str(row.get("url") or "").strip()
             if not url or url in seen:
                 continue

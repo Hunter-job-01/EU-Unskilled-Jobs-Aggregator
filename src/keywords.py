@@ -216,6 +216,20 @@ class KeywordMatrix:
         folded = fold_text(text)
         return [rx.pattern for rx in self.disqualifiers if rx.search(folded)]
 
+    # -- early title filter (adapter-time, before deep processing) ----
+    def early_title_exclusion(self, title: str) -> str:
+        """Cheap title-only verdict for scrapers, applied BEFORE detail
+        processing/translation. Mirrors the scorer's hard rules on the
+        title alone: a disqualifier match, or skilled/senior vocabulary
+        with no unskilled role keyword. Returns the reason or None."""
+        if not title or not title.strip():
+            return None
+        if self.match_disqualifiers(title):
+            return "disqualifier in title"
+        if self.match_negative(title) and not self.match_roles(title):
+            return "skilled/senior title without unskilled keywords"
+        return None
+
     # -- per-country search keywords (used by scrapers) -----------------
     def search_keywords(self, languages, cap: int) -> list:
         """Ordered unique role keywords for querying a country's sources,

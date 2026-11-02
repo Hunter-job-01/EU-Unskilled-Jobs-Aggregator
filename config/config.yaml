@@ -298,6 +298,9 @@ keywords:
 # The score is RELEVANCE evidence (does this look like entry-level,
 # foreign-worker-friendly work?), not a legal eligibility verdict.
 scoring:
+  # Early title-only exclusion in the ats_public and arbeitnow adapters:
+  # technical/office titles are dropped before scoring/translation work.
+  early_title_filter: true
   base_role_points: 30
   extra_role_keyword_points: 5
   extra_role_keyword_cap: 15
