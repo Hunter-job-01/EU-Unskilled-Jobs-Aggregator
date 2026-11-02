@@ -34,3 +34,18 @@ Notes:
   routed through a labour office and labelled as such.
 - ~131 further registry entries remain catalog_only with their own
   per-source notes; they are names, not live coverage.
+
+## Probe wave 2026-11-03 (plain HTTP, one-off research UA)
+
+Listing-level positives:
+- nl_jobs: vacancy pages carry JobPosting JSON-LD; sitemap lists /jobs/ urls -> probe_ok, adapter candidate
+- nl_covebo / nl_hobij / nl_ab_midden / eu_goodmorning: /vacatures listing pages 200 with 19-62 job links; vacancy-page parsing pending
+- at_ams / be_vdab / be_leforem / be_actiris / hr_hzz x2 / ee_tootukassa / fi_job_market / pt_iefponline / si_ess_zrsz / eu_adecco / eu_grafton(.cz) / eu_manpower(.com) / pl_infopraca / lv_ss / at_allejobs / pl_gremi: homepage 200, no landing anti-bot; listing endpoint discovery pending
+- dk_workindenmark / dk_jobnet: SPA shells; JSON endpoint discovery pending
+
+Blocked / unavailable from probe egress (kept disabled, no route-hopping):
+- de_ba_jobsuche: API 403 on all bounded variants (2026-11-02)
+- ie_jobsireland: 403; lt_uzt: 403 + Cloudflare; mt_jobsplus: 200 but Cloudflare markers
+- eu_pickingjobs: 403; pl_gowork: 403 + Cloudflare
+- nl_werk_nl / bg_az / lt_work_in_lithuania / eu_myrobin: connection failure or repeated timeout
+- eu_seasonalworkers: /jobs search is JS-driven, no plain-HTTP links

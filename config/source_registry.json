@@ -43,14 +43,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.ams.at/arbeitsuchende/arbeitslos-was-tun/jobsuche-online-und-mobil"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -65,7 +65,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -183,15 +183,15 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "API requires approved partnership, signed cooperation agreement and professional purpose; page says new requests temporarily unavailable. Not a free personal API ready to activate.",
-   "verification": "primary_page_read",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.vdab.be/en/job",
     "https://extranet.vdab.be/api-center-excellence-coe/vacatures-ophalen-met-de-vacatures-api"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -207,7 +207,7 @@
    "repo_adapter": null,
    "activation_gate": "permission_or_onboarding",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -220,14 +220,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.leforem.be/what-can-le-forem-do-for-you.html"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -243,7 +243,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -364,14 +364,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "access_unavailable_from_probe_egress",
+   "access_or_limits": "HTTPSConnectionPool(host='www.az.government.bg', port=443): Max retries exceeded with url:",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.az.government.bg/bg/ejobs/view_prl/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -386,7 +386,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -504,14 +504,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "Observed URL returned only Object moved. National service confirmed independently by EU official directory, but job listing content and redirect destination are not verified. Manual review needed; seasonal subsite did return content.",
-   "verification": "redirect_only_primary_page_not_resolved",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://burzarada.hzz.hr/Posloprimac_RadnaMjesta.aspx"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -526,7 +526,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -539,14 +539,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://sezonski.hzz.hr/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "موسمي/ضيافة أو قطاع محدد حسب الصفحة",
    "countries": [
@@ -561,7 +561,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -925,14 +925,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "spa_endpoint_discovery_pending",
+   "access_or_limits": "homepage 200, SPA shell; JSON listing endpoint not yet identified",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://workindenmark.jobnet.dk/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -947,7 +947,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -995,14 +995,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.tootukassa.ee/en"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -1017,7 +1017,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -1100,16 +1100,16 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "Retrieval API requires business-ID-linked access, KEHA suitability review, terms acceptance, test and production credentials. No assumption this individual is eligible. Manual vacancies remain separate.",
-   "verification": "primary_page_read",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://tyomarkkinatori.fi/en/personal-customers/vacancies",
     "https://tyomarkkinatori.fi/en/instructions-and-support/interfaces/interfaces-for-job-postings",
     "https://tyomarkkinatori.fi/en/instructions-and-support/interfaces/interfaces-for-job-postings/retrieval-interface-description-and-instructions"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -1124,7 +1124,7 @@
    "repo_adapter": null,
    "activation_gate": "permission_or_onboarding",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -1349,14 +1349,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "blocked_or_js_only",
+   "access_or_limits": "documented public jobsuche API returned 403 on all bounded attempts 2026-11-02 (3 header variants); retry only on official endpoint change or new external signal",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.arbeitsagentur.de/jobsuche/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -1371,7 +1371,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -1769,14 +1769,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "blocked_or_js_only",
+   "access_or_limits": "HTTP 403 from probe egress",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://jobsireland.ie/en-US/browse-jobs?CareerlevelId=8&ContractTypeId=&NaceCode=I&RemoteOrBlendedJobType=-1&VacancyTypeId=0&keyWord=&location=&page=1&pageSize=100&vacancyId=-1"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -1790,7 +1790,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -2116,14 +2116,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "blocked_or_js_only",
+   "access_or_limits": "HTTP 403 from probe egress with Cloudflare markers",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://portal.uzt.lt/LDBPortal/Pages/ServicesForEmployees.aspx"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -2138,7 +2138,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -2364,14 +2364,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "blocked_or_js_only",
+   "access_or_limits": "homepage 200 but Cloudflare markers present; plain-HTTP listing access unproven",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://jobsplus.gov.mt/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -2385,7 +2385,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -2534,15 +2534,15 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "Observed URL returned only redirect text. Dutch government confirms Werk.nl supports vacancy search. Do not call automated access working or infer disconnection.",
-   "verification": "redirect_only_primary_page_not_resolved",
+   "free_access_status": "access_unavailable_from_probe_egress",
+   "access_or_limits": "HTTPSConnectionPool(host='www.werk.nl', port=443): Max retries exceeded with url: /nl/vaca",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.werk.nl/nl/vacatures",
     "https://www.rijksoverheid.nl/vraag-en-antwoord/ww-uitkering/hoe-helpt-uwv-mij-bij-het-vinden-van-werk"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -2557,7 +2557,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -2920,14 +2920,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://iefponline.iefp.pt/IEFP/pesquisas/search.do?cat=ofertaEmprego"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -2942,7 +2942,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -3343,14 +3343,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.ess.gov.si/iskalci-zaposlitve/iskanje-zaposlitve/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -3365,7 +3365,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -3801,14 +3801,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.actiris.brussels/fr/citoyens/offres-d-emploi/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -3824,7 +3824,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -3908,14 +3908,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "public_job_search_or_information_seen; automated_reuse_not_confirmed",
-   "access_or_limits": "No supported read API/RSS/feed or reuse licence established in this review. Manual search first; check current terms, robots and permission before a connector.",
-   "verification": "primary_page_read",
+   "free_access_status": "spa_endpoint_discovery_pending",
+   "access_or_limits": "homepage 200, SPA shell; JSON listing endpoint not yet identified",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://jobnet.dk/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
    "countries": [
@@ -3930,7 +3930,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": "2026-11-02",
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5043,14 +5043,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "access_unavailable_from_probe_egress",
+   "access_or_limits": "timeout",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://workinlithuania.com/en/jobs/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "international-facing portal alongside UzT; probe pending",
    "countries": [
@@ -5062,7 +5062,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5075,14 +5075,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; job-listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.allejobs.at/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "AMS-adjacent Austrian listings; probe pending",
    "countries": [
@@ -5094,7 +5094,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5107,14 +5107,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage+sitemap 200 (1724 urls, b2e/b2b content); vacancy listing path not yet found",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://gremi-personal.com/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "listing_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "factory/food-processing/warehouse with accommodation per owner note; probe pending",
    "countries": [
@@ -5126,7 +5126,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5139,14 +5139,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "listing_page_reachable",
+   "access_or_limits": "/vacatures listing 200 with 62 job links; vacancy-page parse pending",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.covebo.nl/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "listing_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "NL/PL logistics+production with housing per owner note; probe pending",
    "countries": [
@@ -5158,7 +5158,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5171,14 +5171,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "listing_page_reachable",
+   "access_or_limits": "/nl/vacatures listing 200 with 20 job links; vacancy-page parse pending",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.hobij.com/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "listing_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "NL logistics/production/food packing with housing per owner note; probe pending",
    "countries": [
@@ -5190,7 +5190,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5201,16 +5201,16 @@
    "url": "https://www.nl-jobs.com/",
    "integration_route": "manual_or_terms_review",
    "automation_enabled": false,
-   "implementation_status": "catalog_only",
+   "implementation_status": "probe_ok",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "active",
+   "access_or_limits": "vacancy pages carry schema.org JobPosting JSON-LD (probe 2026-11-03, e.g. /jobs/production-worker-horticulture-full-time-amsterdam); sitemap.xml lists /jobs/ urls",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.nl-jobs.com/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "agriculture/greenhouse/logistics with housing per owner note; probe pending",
    "countries": [
@@ -5222,7 +5222,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5235,14 +5235,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "listing_page_reachable",
+   "access_or_limits": "/vacatures listing 200 with 19 job links; vacancy-page parse pending",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.abmiddennederland.nl/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "listing_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "NL agriculture/logistics agency per owner note; probe pending",
    "countries": [
@@ -5254,7 +5254,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5267,14 +5267,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "listing_page_reachable",
+   "access_or_limits": "/vacatures listing 200 with 35 job links; vacancy-page parse pending",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.goodmorning.eu/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "listing_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "agriculture/greenhouse agency per owner note; probe pending",
    "countries": [],
@@ -5284,7 +5284,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5297,14 +5297,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "access_unavailable_from_probe_egress",
+   "access_or_limits": "timeout",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.myrobin.com/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "NL agriculture/logistics agency; first probe 2026-11-02 timed out once - one recheck owed",
    "countries": [],
@@ -5314,7 +5314,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5327,14 +5327,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200; praca.trenkwalder.pl unreachable; country listing path pending",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.trenkwalder.com/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "listing_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "PL/CZ/SK/HU/AT/DE staffing agency per owner note; probe pending",
    "countries": [],
@@ -5344,7 +5344,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5352,19 +5352,19 @@
    "country_scope": "EU_FILTER",
    "name": "Grafton Recruitment",
    "category": "agency",
-   "url": "https://www.grafton.eu/",
+   "url": "https://www.grafton.cz/",
    "integration_route": "manual_or_terms_review",
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "grafton.eu invalid; grafton.cz/.com/.sk all 200 on 2026-11-03",
+   "verification": "live_probe",
    "evidence_urls": [
-    "https://www.grafton.eu/"
+    "https://www.grafton.cz/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "CZ/SK/HU agency; blue-collar feed probe pending",
    "countries": [],
@@ -5374,7 +5374,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5382,19 +5382,19 @@
    "country_scope": "EU_FILTER",
    "name": "Manpower EU",
    "category": "agency",
-   "url": "https://www.manpower.eu/",
+   "url": "https://www.manpower.com/",
    "integration_route": "manual_or_terms_review",
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "homepage_reachable_plain_http; country feeds not established",
+   "access_or_limits": "manpower.eu invalid; manpower.com 200 on 2026-11-03; EU country feed endpoints pending",
+   "verification": "live_probe",
    "evidence_urls": [
-    "https://www.manpower.eu/"
+    "https://www.manpower.com/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "multinational agency; country feed probe pending",
    "countries": [],
@@ -5404,7 +5404,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5417,14 +5417,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; job-listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.adecco.com/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "multinational agency; FI portal (vuoro.fi) confirmed login-walled 2026-11-03 - account creation is a commitment step; other country feeds unprobed",
    "countries": [],
@@ -5434,7 +5434,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5447,14 +5447,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P1",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "blocked_or_js_only",
+   "access_or_limits": "HTTP 403 on homepage from probe egress",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.pickingjobs.com/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "farm/harvest/picking board per owner note; probe pending",
    "countries": [],
@@ -5464,7 +5464,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5477,14 +5477,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200; /jobs search page yields no plain-HTTP job links (JS-driven)",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.seasonalworkers.com/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "listing_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "seasonal farm/hospitality board per owner note; probe pending",
    "countries": [],
@@ -5494,7 +5494,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5507,14 +5507,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "blocked_or_js_only",
+   "access_or_limits": "HTTP 403 on homepage from probe egress (Cloudflare markers seen)",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.gowork.pl/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "PL board; probe pending",
    "countries": [
@@ -5526,7 +5526,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5539,14 +5539,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; job-listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.infopraca.pl/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "PL board; probe pending",
    "countries": [
@@ -5558,7 +5558,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   },
   {
@@ -5571,14 +5571,14 @@
    "automation_enabled": false,
    "implementation_status": "catalog_only",
    "priority": "P2",
-   "free_access_status": "not_yet_probed",
-   "access_or_limits": "registered from owner master list 2026-11-02; live probe pending",
-   "verification": "not_run",
+   "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
+   "access_or_limits": "homepage 200, no anti-bot markers on landing; job-listing route not yet established",
+   "verification": "live_probe",
    "evidence_urls": [
     "https://www.ss.lv/"
    ],
-   "checked_on": "2026-11-02",
-   "live_connector_test": "not_run",
+   "checked_on": "2026-11-03",
+   "live_connector_test": "homepage_probe_2026-11-03",
    "applicant_from_egypt": "not_assessed",
    "fit_ar": "LV classifieds with jobs section; probe pending",
    "countries": [
@@ -5590,7 +5590,7 @@
    "repo_adapter": null,
    "activation_gate": "terms_review",
    "terms_checked_on": null,
-   "last_probe": null,
+   "last_probe": "2026-11-03",
    "last_successful_run": null
   }
  ]
