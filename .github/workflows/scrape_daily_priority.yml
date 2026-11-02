@@ -233,6 +233,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           JOB_FIT_PROFILE: ${{ secrets.JOB_FIT_PROFILE }}
           JOB_FIT_REVIEWS: ${{ secrets.JOB_FIT_REVIEWS }}
@@ -242,17 +243,15 @@ jobs:
           mapfile -t ARGS <<< "$SCRAPE_ARGS"
           if [ "$FORCE_CHANNEL_DIGEST" = "true" ]; then
             # Owner-requested one-off channel digest. The channel is the
-            # TELEGRAM_CHAT_IDS entry that is NOT the legacy private-chat
-            # id; only that destination's same-day gate is bypassed, so
-            # the private chat is not re-sent and no history is reset.
-            # Secrets stay in the environment - never echoed.
-            [ -n "$TELEGRAM_CHAT_ID" ] || { echo "::error::force_channel_digest needs TELEGRAM_CHAT_ID to tell the private chat apart from the channel"; exit 1; }
-            FORCE_LIST="$(printf '%s' "$TELEGRAM_CHAT_IDS" | tr ',' '\n' | sed 's/^ *//;s/ *$//' | grep -vxF "$TELEGRAM_CHAT_ID")"
-            # Fail closed on ambiguity: exactly one configured channel
-            # destination must remain, otherwise refuse to guess.
-            [ "$(printf '%s\n' "$FORCE_LIST" | grep -c .)" = "1" ] || { echo "::error::force_channel_digest expected exactly one non-private destination in TELEGRAM_CHAT_IDS - refusing to guess which is the channel"; exit 1; }
-            export TELEGRAM_FORCE_DIGEST_CHAT_IDS="$FORCE_LIST"
-            echo "Owner-requested one-off channel digest armed: daily gate bypassed for the channel destination only."
+            # EXACT configured TELEGRAM_CHANNEL_ID secret, verified at
+            # runtime against the configured destinations - never inferred
+            # by subtraction. Only that destination's same-day gate is
+            # bypassed: the private chat is not re-sent and no history is
+            # reset. Secrets stay in the environment - never echoed.
+            [ -n "$TELEGRAM_CHANNEL_ID" ] || { echo "::error::force_channel_digest needs the TELEGRAM_CHANNEL_ID secret (exact configured channel)"; exit 1; }
+            printf '%s' "$TELEGRAM_CHAT_IDS" | tr ',' '\n' | sed 's/^ *//;s/ *$//' | grep -qxF "$TELEGRAM_CHANNEL_ID" || { echo "::error::TELEGRAM_CHANNEL_ID is not one of the configured TELEGRAM_CHAT_IDS destinations - refusing to force"; exit 1; }
+            export TELEGRAM_FORCE_DIGEST_CHAT_IDS="$TELEGRAM_CHANNEL_ID"
+            echo "Owner-requested one-off channel digest armed: daily gate bypassed for the configured channel destination only."
           fi
           echo "python main.py ${ARGS[*]}"
           python main.py "${ARGS[@]}"
