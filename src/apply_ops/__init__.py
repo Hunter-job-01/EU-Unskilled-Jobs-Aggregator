@@ -12,11 +12,13 @@ Flow per vacancy card:
 from .route_classifier import Route, classify_route
 from .cv_variants import CVVariant, select_cv_variant
 from .message_tailor import TailoredMessage, tailor_message
-from .hitl import ApprovalCard, CardDecision, CardStore
+from .hitl import ApprovalCard, CardDecision, CardStore, content_hash
+from .send_record import SendRecord, SendLedger, idempotency_key
 
 __all__ = [
     "Route", "classify_route",
     "CVVariant", "select_cv_variant",
     "TailoredMessage", "tailor_message",
-    "ApprovalCard", "CardDecision", "CardStore",
+    "ApprovalCard", "CardDecision", "CardStore", "content_hash",
+    "SendRecord", "SendLedger", "idempotency_key",
 ]

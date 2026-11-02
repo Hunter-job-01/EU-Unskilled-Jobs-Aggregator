@@ -1,14 +1,20 @@
 """Human-in-the-loop approval cards.
 
-Every outbound application is one ApprovalCard bound to exactly one job
-(uid) and one CV variant. Decisions: "1" approve / "2" edit / "3" skip.
-A numeric reply applies only while the card is pending; it never carries
-authority to any other card (no blanket approval), matching the owner's
-standing gate. Cards expire (default 72h) so a late "1" cannot fire a
-stale draft.
+Every outbound application is one ApprovalCard. An approval binds the
+EXACT send tuple: job uid, recipient, sending account, message content
+hash, and CV file hash. Changing the recipient, the sending account, the
+message text or the attached CV after approval invalidates it - the send
+executor must call verify_binding() immediately before sending and must
+treat a False as "needs a fresh approval".
+
+Numeric replies ("1" approve / "2" edit / "3" skip) act on exactly one
+pending card - never blanket authority. The 72h TTL is only a staleness
+guard, NOT freshness proof: the executor must re-fetch the live posting
+or form before acting on any approval (pre_send_recheck stays True).
 """
 from __future__ import annotations
 
+import hashlib
 import time
 from dataclasses import dataclass, field
 from enum import Enum
@@ -23,6 +29,14 @@ class CardDecision(Enum):
 _VALID = {d.value: d for d in CardDecision}
 
 
+def content_hash(*parts: str) -> str:
+    h = hashlib.sha256()
+    for part in parts:
+        h.update(part.encode("utf-8"))
+        h.update(b"\x00")
+    return h.hexdigest()
+
+
 @dataclass
 class ApprovalCard:
     card_id: str
@@ -31,14 +45,40 @@ class ApprovalCard:
     card_text_ar: str
     draft_subject: str
     draft_body: str
-    status: str = "pending"        # pending | approved | edit_requested | skipped | expired
+    # exact send tuple the approval binds (filled at card creation)
+    recipient: str = ""
+    sending_account: str = ""
+    message_hash: str = ""          # content_hash(subject, body)
+    cv_file_hash: str = ""          # sha256 of the exact CV file bytes
+    status: str = "pending"         # pending | approved | edit_requested | skipped | expired | invalidated
     created_at: float = field(default_factory=time.time)
     decided_at: float = 0.0
     decision: str = ""
     edit_note: str = ""
+    pre_send_recheck: bool = True   # executor must re-verify live posting/form before send
+
+    def __post_init__(self):
+        if not self.message_hash:
+            self.message_hash = content_hash(self.draft_subject, self.draft_body)
 
     def expired(self, ttl_seconds: float) -> bool:
         return self.status == "pending" and (time.time() - self.created_at) > ttl_seconds
+
+    def verify_binding(self, *, recipient: str, sending_account: str,
+                       message_hash: str, cv_file_hash: str) -> bool:
+        """True only if the proposed send still matches the approved tuple
+        exactly. Any edit, recipient, account or attachment change fails."""
+        return (
+            self.status == "approved"
+            and recipient == self.recipient
+            and sending_account == self.sending_account
+            and message_hash == self.message_hash
+            and cv_file_hash == self.cv_file_hash
+        )
+
+    def invalidate(self) -> None:
+        if self.status in ("pending", "approved"):
+            self.status = "invalidated"
 
 
 class CardStore:

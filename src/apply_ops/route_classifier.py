@@ -17,7 +17,6 @@ from enum import Enum
 _EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 # WhatsApp signals: wa.me links or explicit "whatsapp" near a phone number
 _WAME_RE = re.compile(r"(?:wa\.me/|api\.whatsapp\.com/send\?phone=)(\d{6,15})", re.I)
-_WHATSAPP_HINT_RE = re.compile(r"whatsapp[^0-9+]{0,40}(\+?\d[\d\s().-]{7,14}\d)", re.I)
 _APPLY_LINK_RE = re.compile(r"https?://[^\s\"'<>]+", re.I)
 
 
@@ -32,6 +31,7 @@ class RouteResult:
     route: Route
     contact: str          # email address, wa.me number, or form URL
     evidence: str         # the matched text justifying the route
+    portal_precheck_required: bool = False  # WEBFORM: account/autosave/disclosure check before any card action
 
 
 def classify_route(text: str, page_url: str = "") -> "RouteResult | None":
@@ -45,17 +45,19 @@ def classify_route(text: str, page_url: str = "") -> "RouteResult | None":
     m = _EMAIL_RE.search(text)
     if m:
         return RouteResult(Route.EMAIL, m.group(0), "email in posting: " + m.group(0))
+    # WhatsApp route ONLY from an explicit wa.me / api.whatsapp.com link
+    # with a valid international-format number (6-15 digits). A bare phone
+    # number next to the word "whatsapp" is NOT proof the number has
+    # WhatsApp and is never routed as one.
     m = _WAME_RE.search(text)
-    if m:
-        return RouteResult(Route.WHATSAPP, m.group(1), "wa.me link in posting")
-    m = _WHATSAPP_HINT_RE.search(text)
-    if m:
-        return RouteResult(Route.WHATSAPP, re.sub(r"[\s().-]", "", m.group(1)),
-                           "whatsapp mention in posting")
+    if m and m.group(1).isdigit() and 6 <= len(m.group(1)) <= 15:
+        return RouteResult(Route.WHATSAPP, m.group(1), "wa.me link in posting (verified format)")
     for m in _APPLY_LINK_RE.finditer(text):
         url = m.group(0).rstrip(".,);]")
         if "apply" in url.lower() or "career" in url.lower() or "vacanc" in url.lower():
-            return RouteResult(Route.WEBFORM, url, "apply link in posting")
+            return RouteResult(Route.WEBFORM, url, "apply link in posting",
+                               portal_precheck_required=True)
     if page_url:
-        return RouteResult(Route.WEBFORM, page_url, "posting page (no direct contact)")
+        return RouteResult(Route.WEBFORM, page_url, "posting page (no verified direct contact)",
+                           portal_precheck_required=True)
     return None

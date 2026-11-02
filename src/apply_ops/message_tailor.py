@@ -52,8 +52,10 @@ _CV_AREA_EN = {
 @dataclass
 class TailoredMessage:
     subject: str
-    body_draft: str            # outbound-language draft
+    body_draft: str            # English draft
     card_text_ar: str          # Arabic owner-facing card
+    body_draft_local: str = "" # employer-local-language draft ("" = translation step still owed before send)
+    local_language: str = ""   # e.g. "nl", "pl", "mt"
     claims_used: list = field(default_factory=list)  # explicit claims the caller injected
 
 
@@ -70,11 +72,19 @@ def tailor_message(
     contact_line: str,
     eligibility_note: str = "أهلية المقيم خارج الاتحاد الأوروبي غير مؤكدة لهذه الجهة",
     extra_lines: str = "",
+    body_draft_local: str = "",
+    local_language: str = "",
     claims: list = None,
 ) -> TailoredMessage:
     """claims: only caller-supplied, evidence-backed statements may appear
     here (e.g. languages actually evidenced). Everything passed in is
-    echoed into claims_used so the card shows what was asserted."""
+    echoed into claims_used so the card shows what was asserted.
+
+    The employer-facing letter needs the employer's local language PLUS
+    English; the Arabic card is owner-facing and never substitutes. The
+    local draft is produced by the translation step at card-build time
+    and passed in as body_draft_local; when it is empty the card marks
+    it as still owed, and the card must not be sent before it exists."""
     claims = list(claims or [])
     extra = "\n".join([extra_lines] + claims).strip()
     if extra:
@@ -90,7 +100,11 @@ def tailor_message(
         eligibility_note=eligibility_note,
         draft_preview=body[:900],
     )
+    if local_language and not body_draft_local:
+        card += "\nملاحظة: نسخة اللغة المحلية ({}) لم تُجهّز بعد - مطلوبة قبل الإرسال.".format(local_language)
     return TailoredMessage(
         subject=_SUBJECT.format(role=title, candidate_name=candidate_name),
-        body_draft=body, card_text_ar=card, claims_used=claims,
+        body_draft=body, card_text_ar=card,
+        body_draft_local=body_draft_local, local_language=local_language,
+        claims_used=claims,
     )
