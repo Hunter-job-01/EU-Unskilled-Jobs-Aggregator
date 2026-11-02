@@ -26,9 +26,10 @@ from src.notifier import send_digest, ensure_state_file
 from src.scorer import Scorer, translate_titles
 from src import source_health
 from src.scrapers import (
-    ArbeitnowScraper, AtsPublicScraper, CzechMpsvScraper, EuresScraper,
-    HttpClient, JobSpyScraper, LatviaNvaScraper, SwedenJobSearchScraper,
-    polite_sleep,
+    AnyworkAnywhereScraper, ArbeitnowScraper, AtsPublicScraper,
+    CzechMpsvScraper, EuresScraper, HobijScraper, HttpClient, JobSpyScraper,
+    LatviaNvaScraper, NlJobsScraper, OttoWorkforceScraper, PlCbopScraper,
+    SwedenJobSearchScraper, polite_sleep,
 )
 from src.storage import JobStore
 
@@ -78,7 +79,9 @@ def main(argv=None) -> int:
 
     requested = {s.strip().lower() for s in args.sources.split(",") if s.strip()}
     known_sources = {"eures", "jobspy", "arbeitnow", "sweden_jobsearch",
-                     "czech_mpsv", "latvia_nva", "ats_public"}
+                     "czech_mpsv", "latvia_nva", "ats_public",
+                     "ottoworkforce", "anyworkanywhere", "pl_cbop",
+                     "nl_jobs", "hobij"}
     unknown = requested - known_sources
     if unknown:
         log.error("unknown source(s): %s (valid: %s)", ", ".join(sorted(unknown)),
@@ -93,7 +96,11 @@ def main(argv=None) -> int:
 
     try:
         matrix = KeywordMatrix(cfg["keywords"])
-        scorer = Scorer(cfg)
+        from src.source_registry import load_registry
+        try:
+            scorer = Scorer(cfg, registry=load_registry())
+        except Exception:  # registry unreadable: degrade to no eligibility labels
+            scorer = Scorer(cfg)
     except (ConfigError, ValueError) as exc:
         log.error("invalid keyword configuration: %s", exc)
         return 2
@@ -119,6 +126,16 @@ def main(argv=None) -> int:
         scrapers.append(LatviaNvaScraper(cfg, http))
     if "ats_public" in requested:
         scrapers.append(AtsPublicScraper(cfg, http))
+    if "ottoworkforce" in requested:
+        scrapers.append(OttoWorkforceScraper(cfg, http))
+    if "anyworkanywhere" in requested:
+        scrapers.append(AnyworkAnywhereScraper(cfg, http))
+    if "pl_cbop" in requested:
+        scrapers.append(PlCbopScraper(cfg, http))
+    if "nl_jobs" in requested:
+        scrapers.append(NlJobsScraper(cfg, http))
+    if "hobij" in requested:
+        scrapers.append(HobijScraper(cfg, http))
 
     store = JobStore(cfg["storage"])
     ensure_state_file(store, cfg)
