@@ -500,3 +500,18 @@ main.py                   CLI runner (scrape, score, store, notify)
 tests/                    offline unit tests (incl. workflow YAML and
                           frontend validation) + opt-in live smoke tests
 ```
+
+
+### Multiple digest destinations
+
+Set the repository secret `TELEGRAM_CHAT_IDS` to a comma-separated list of
+verified destination IDs for delivery to both a private bot chat and a
+channel. Keep `TELEGRAM_BOT_TOKEN` as a repository secret. The legacy
+single `TELEGRAM_CHAT_ID` remains supported when the plural setting is absent.
+
+Each destination has its own UTC daily gate, delivered-UID registry and
+per-job failure counter under `telegram_state.json`'s `destinations` map.
+Success in one chat cannot suppress a failed or newly added destination.
+In multi-destination mode the per-job legacy global notification flag is
+not used to decide delivery. Only destinations explicitly chosen by the
+owner should be configured; channel posting rights must be verified.

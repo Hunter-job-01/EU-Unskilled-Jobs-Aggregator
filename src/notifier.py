@@ -249,7 +249,7 @@ def send_message(session, token: str, chat_id: str, text: str,
             resp = session.post(url, json=payload, timeout=30)
         except requests.RequestException as exc:
             log.warning("Telegram send attempt %d/%d failed: %s",
-                        attempt, MAX_ATTEMPTS, exc)
+                        attempt, MAX_ATTEMPTS, type(exc).__name__)
             if attempt < MAX_ATTEMPTS:
                 sleep(min(2 ** attempt, 30))
             continue
@@ -287,7 +287,7 @@ def send_message(session, token: str, chat_id: str, text: str,
                                    "disable_web_page_preview": True},
                         timeout=30)
                 except requests.RequestException as exc:
-                    log.warning("plain-text fallback send failed: %s", exc)
+                    log.warning("plain-text fallback send failed: %s", type(exc).__name__)
                     return RESULT_TRANSIENT  # network, not the message
                 if plain.status_code == 200:
                     log.info("Telegram accepted the plain-text "
@@ -340,8 +340,9 @@ def ensure_state_file(store, cfg: dict) -> None:
         _save_state(store, cfg, {})
 
 
-def send_digest(store, cfg: dict, *, session=None, environ=None,
-                sleep=time.sleep, now=None) -> int:
+def _send_single_digest(store, cfg: dict, *, session=None, environ=None,
+                        sleep=time.sleep, now=None, destination_state=None,
+                        save_destination=None) -> int:
     """Send the digest for the current store. Returns jobs notified.
 
     Never raises for configuration or delivery problems: the scrape
@@ -364,7 +365,8 @@ def send_digest(store, cfg: dict, *, session=None, environ=None,
 
     now = now or datetime.now(timezone.utc)
     today = now.strftime("%Y-%m-%d")
-    state = _load_state(store, cfg)
+    state = _load_state(store, cfg) if destination_state is None else destination_state
+    persist = save_destination or (lambda value: _save_state(store, cfg, value))
     if state.get("last_digest_utc") == today:
         log.info("Telegram digest already sent today (%s UTC); skipping", today)
         return 0
@@ -405,7 +407,7 @@ def send_digest(store, cfg: dict, *, session=None, environ=None,
                 for uid in uids:
                     failures[uid] = int(failures.get(uid, 0)) + 1
                 state["failures"] = failures
-                _save_state(store, cfg, state)
+                persist(state)
                 log.error("Telegram digest stopped: page %d/%d was "
                           "permanently rejected; its %d job(s) accrue a "
                           "failure count", idx + 1, len(messages), len(uids))
@@ -427,5 +429,66 @@ def send_digest(store, cfg: dict, *, session=None, environ=None,
     if notified:
         state["last_digest_utc"] = today
         state["failures"] = failures
-        _save_state(store, cfg, state)  # committed with the other data files
+        persist(state)  # committed with the other data files
     return notified
+
+
+class _DestinationStore:
+    """Track accepted jobs separately for each configured audience."""
+    def __init__(self, store, state, persist):
+        self.store, self.state, self.persist = store, state, persist
+        self.data_dir = store.data_dir
+
+    def get_unnotified_top_jobs(self, min_score, limit=15, countries=None):
+        records = getattr(self.store, "_store", None)
+        if records is None:
+            records = self.store.load()
+        sent = self.state.get("notified_uids", {})
+        wanted = set(countries) if countries else None
+        jobs = [dict(r) for uid, r in records.items()
+                if uid not in sent and not r.get("excluded")
+                and (r.get("score") or 0) >= min_score
+                and (wanted is None or r.get("country") in wanted)]
+        jobs.sort(key=lambda r: (-(r.get("score") or 0), r.get("posted_date") or ""))
+        return jobs[:limit]
+
+    def mark_notified(self, uids):
+        sent = self.state.setdefault("notified_uids", {})
+        day = datetime.now(timezone.utc).date().isoformat()
+        for uid in uids:
+            sent[uid] = day
+        # Bound retained delivery marks to currently active jobs. Tombstones
+        # already protect recently pruned jobs from re-ingestion.
+        active = getattr(self.store, "_store", None)
+        if active is None:
+            active = self.store.load()
+        self.state["notified_uids"] = {u: d for u, d in sent.items() if u in active}
+        self.persist(self.state)
+        return len(uids)
+
+
+def send_digest(store, cfg: dict, *, session=None, environ=None,
+                sleep=time.sleep, now=None) -> int:
+    """Send to one legacy chat or several independently tracked audiences."""
+    env = os.environ if environ is None else environ
+    raw = (env.get("TELEGRAM_CHAT_IDS") or "").strip()
+    if not raw:
+        return _send_single_digest(store, cfg, session=session, environ=env,
+                                   sleep=sleep, now=now)
+    chats = list(dict.fromkeys(c.strip() for c in raw.split(",") if c.strip()))
+    if not chats:
+        return 0
+    root = _load_state(store, cfg)
+    destinations = root.setdefault("destinations", {})
+    total = 0
+    for chat in chats:
+        state = destinations.setdefault(chat, {})
+        def persist(value, key=chat):
+            destinations[key] = value
+            _save_state(store, cfg, root)
+        scoped = _DestinationStore(store, state, persist)
+        local_env = dict(env, TELEGRAM_CHAT_ID=chat)
+        total += _send_single_digest(scoped, cfg, session=session,
+                    environ=local_env, sleep=sleep, now=now,
+                    destination_state=state, save_destination=persist)
+    return total

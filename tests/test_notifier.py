@@ -609,3 +609,30 @@ def test_empty_state_exists_without_credentials(tmp_path):
     path.write_text('{"last_digest_utc":"2026-11-01"}')
     ensure_state_file(store, {})
     assert json.loads(path.read_text())['last_digest_utc'] == '2026-11-01'
+
+
+def test_two_destinations_deliver_independently_and_gate(tmp_path):
+    store = make_store(tmp_path, [make_job('u1', 90)])
+    env = dict(ENV, TELEGRAM_CHAT_IDS='111,-222')
+    cfg = telegram_cfg()
+    now = datetime(2026, 11, 2, 13, 0, tzinfo=timezone.utc)
+    session = FakeSession()
+    assert send_digest(store, cfg, session=session, environ=env, sleep=FakeSleep(), now=now) == 2
+    assert [c['json']['chat_id'] for c in session.calls] == ['111', '-222']
+    state = json.loads((tmp_path/'data'/'telegram_state.json').read_text())['destinations']
+    assert state['111']['last_digest_utc'] == state['-222']['last_digest_utc'] == '2026-11-02'
+    again = FakeSession()
+    assert send_digest(store, cfg, session=again, environ=env, sleep=FakeSleep(), now=now) == 0
+    assert again.calls == []
+
+
+def test_one_failed_destination_does_not_suppress_other(tmp_path):
+    store = make_store(tmp_path, [make_job('u1', 90)])
+    env = dict(ENV, TELEGRAM_CHAT_IDS='111,-222')
+    cfg = telegram_cfg()
+    now = datetime(2026, 11, 2, 13, 0, tzinfo=timezone.utc)
+    first = FakeSession([FakeResponse(400, CHAT_NOT_FOUND), FakeResponse(200)])
+    assert send_digest(store, cfg, session=first, environ=env, sleep=FakeSleep(), now=now) == 1
+    second = FakeSession()
+    assert send_digest(store, cfg, session=second, environ=env, sleep=FakeSleep(), now=now) == 1
+    assert [c['json']['chat_id'] for c in second.calls] == ['111']
