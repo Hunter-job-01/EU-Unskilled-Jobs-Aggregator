@@ -158,7 +158,7 @@ field fires on odd dates (1, 3, ..., 31), so after the 31st it fires
 again on the 1st - two runs on consecutive days. The daily workflow
 therefore wakes every day at 04:41 UTC and a gate step runs the Tier-2
 scrape only on odd Unix-epoch days (`floor(now/86400) % 2 == 1`), which
-is an exact 48-hour cadence. Skipped days exit successfully without
+is an 48-hour eligibility pattern (actual execution remains best-effort). Skipped days exit successfully without
 touching the network or the repository. The resolver identifies which
 cron fired by reading `schedule` from the event payload
 (`$GITHUB_EVENT_PATH`), never by interpolating event data into shell.

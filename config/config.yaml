@@ -369,7 +369,7 @@ telegram:
   min_score: 50               # only jobs at/above this relevance score are digested
   max_jobs_per_digest: 15     # per run, highest score first
   focus_countries: []         # optional ISO codes to restrict the digest; [] = all 27
-  dashboard_url: ""           # optional link appended to the digest header
+  dashboard_url: "https://hunter-job-01.github.io/EU-Unskilled-Jobs-Aggregator/"           # optional link appended to the digest header
   message_delay_sec: 1.0      # polite pause between paginated messages
 
 # --------------------------- Storage ---------------------------------
