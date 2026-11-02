@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Entry-level blue-collar job vacancies across all 27 EU member states, collected and scored by an automated aggregator.">
+  <title>EU Entry-Level Jobs Dashboard</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>EU Entry-Level Jobs Dashboard</h1>
+      <p class="subtitle">
+        Warehouse, production, packing, hospitality, agriculture, cleaning
+        and similar no-experience vacancies across all 27 EU member states -
+        collected automatically by the EU-Unskilled-Jobs-Aggregator.
+      </p>
+    </div>
+  </header>
+
+  <div class="wrap">
+
+    <section id="status-banner" class="status-banner" aria-live="polite">
+      <h2 class="visually-hidden">Automation status</h2>
+      <p id="status-summary" class="status-summary">Loading run status&hellip;</p>
+      <div id="status-totals" class="status-totals"></div>
+      <div id="status-countries" class="status-countries"></div>
+      <p id="status-note" class="status-note" hidden></p>
+    </section>
+
+    <aside class="disclaimer" role="note">
+      <strong>Read before acting on any listing:</strong>
+      the score is a <em>relevance hint</em>, not an eligibility verdict.
+      Signal chips such as &ldquo;Work permit mentioned&rdquo; or
+      &ldquo;Housing mentioned&rdquo; mean the posting&rsquo;s text
+      <em>mentions</em> these things - they are <strong>not proof</strong>
+      that the employer sponsors work permits, provides housing, or accepts
+      applicants from any particular country. Verify every vacancy directly
+      with the employer or agency.
+    </aside>
+
+    <form id="controls" class="controls" autocomplete="off">
+      <div class="control control-search">
+        <label for="search">Search</label>
+        <input type="search" id="search" name="search"
+               placeholder="Title, company, location, keyword&hellip;">
+      </div>
+
+      <div class="control">
+        <label for="filter-country">Country</label>
+        <select id="filter-country" name="country">
+          <option value="">All countries</option>
+        </select>
+      </div>
+
+      <div class="control">
+        <label for="filter-tier">Tier</label>
+        <select id="filter-tier" name="tier">
+          <option value="">All tiers</option>
+          <option value="1">Tier 1</option>
+          <option value="2">Tier 2</option>
+          <option value="3">Tier 3</option>
+        </select>
+      </div>
+
+      <div class="control">
+        <label for="filter-source">Source</label>
+        <select id="filter-source" name="source">
+          <option value="">All sources</option>
+          <option value="eures">EURES</option>
+          <option value="jobspy_indeed">Indeed</option>
+          <option value="jobspy_linkedin">LinkedIn</option>
+        </select>
+      </div>
+
+      <div class="control">
+        <label for="filter-min-score">Minimum score: <output id="min-score-value" for="filter-min-score">0</output></label>
+        <input type="range" id="filter-min-score" name="min_score" min="0" max="100" step="5" value="0">
+      </div>
+
+      <fieldset class="control control-signals">
+        <legend>Posting must mention</legend>
+        <label><input type="checkbox" id="sig-noexp" value="no_exp_or_training_mention"> No experience / Training provided</label>
+        <label><input type="checkbox" id="sig-housing" value="housing_keyword_mention"> Housing</label>
+        <label><input type="checkbox" id="sig-permit" value="permit_keyword_mention"> Work permit</label>
+        <label><input type="checkbox" id="sig-language" value="language_flex_keyword_mention"> Language flexibility</label>
+        <label><input type="checkbox" id="sig-agency" value="agency_or_relocation_mention"> Agency / relocation</label>
+      </fieldset>
+
+      <div class="control">
+        <label for="sort-by">Sort by</label>
+        <select id="sort-by" name="sort">
+          <option value="score">Score (highest first)</option>
+          <option value="newest">Newest (posted / first seen)</option>
+          <option value="country">Country priority (tier, then country)</option>
+        </select>
+      </div>
+
+      <div class="control control-actions">
+        <a id="csv-download" class="button" href="data/latest_export.csv" download>Download CSV</a>
+      </div>
+    </form>
+
+    <p id="result-count" class="result-count" role="status"></p>
+
+    <main id="job-list" class="job-list" aria-live="polite"></main>
+
+    <div id="state-loading" class="state">
+      <p>Loading jobs&hellip;</p>
+    </div>
+
+    <div id="state-error" class="state state-error" hidden>
+      <h2>Could not load the jobs data</h2>
+      <p id="state-error-detail"></p>
+      <p>The dashboard is static and reads <code>data/active_jobs.json</code>
+         published with this site. If the file is missing, the first
+         automated scrape has not run yet; it publishes new data after every
+         scheduled run.</p>
+    </div>
+
+    <div id="state-empty-store" class="state" hidden>
+      <h2>No jobs stored yet</h2>
+      <p>The automated scraper has not saved any vacancies. Data appears
+         here after the first scheduled run completes.</p>
+    </div>
+
+    <div id="state-no-results" class="state" hidden>
+      <h2>No jobs match these filters</h2>
+      <p>Try lowering the minimum score, clearing a signal checkbox, or
+         widening the search.</p>
+    </div>
+
+    <noscript>
+      <p class="state state-error">This dashboard needs JavaScript to load
+      and filter the jobs data. The raw dataset is always available as
+      <a href="data/latest_export.csv">latest_export.csv</a>.</p>
+    </noscript>
+
+    <footer class="site-footer">
+      <p>
+        Generated as a static site from the repository&rsquo;s
+        <code>data/</code> files; rebuilt automatically after every
+        successful scheduled scrape. Vacancies older than 30 days are
+        pruned from the dataset.
+      </p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

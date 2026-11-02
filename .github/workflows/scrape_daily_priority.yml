@@ -1,0 +1,263 @@
+# =====================================================================
+# scrape_daily_priority.yml - Tier 1 (twice daily) + Tier 2 (every 2 days)
+# ---------------------------------------------------------------------
+# Schedule design notes (all cron times are UTC, GitHub runs schedules
+# on the DEFAULT branch only):
+#  * Tier 1: '23 5,17 * * *' fires at 05:23 and 17:23 UTC every day.
+#  * Tier 2: cron cannot express "every 48 hours". POSIX day-of-month
+#    '*/2' fires on odd dates (1,3,...,31), so after the 31st it fires
+#    again on the 1st - two runs on consecutive days. Instead this
+#    workflow wakes daily at 04:41 UTC and a gate step runs the Tier-2
+#    scrape only when floor(unix_time / 86400) is odd, giving an exact
+#    48-hour cadence anchored to the Unix epoch. Skipped days exit
+#    successfully without touching the network or the repository.
+#  * Tier 3: '53 2 * * *' fires daily at 02:53 UTC. The resolver
+#    rotates the 13 Tier-3 countries through 4 groups by epoch day, so
+#    every Tier-3 country is scraped at least every 4 days - staggered
+#    away from the Tier-1/Tier-2 runs - in addition to the Sunday full
+#    EU sweep. No EU country is left behind.
+#  * The three crons never overlap, so github.event.schedule (read from
+#    the event payload, not interpolated into shell) tells the resolver
+#    which tier a scheduled run is for.
+# Concurrency: both scraper workflows share the repo-wide group
+# 'data-scrape-pipeline' so daily, weekly and manual runs queue
+# instead of racing: at most one of them commits data/ at a time.
+# queue: max retains up to 100 pending runs; pending runs are not replaced.
+# =====================================================================
+name: Daily priority scrape (Tier 1 & 2)
+
+on:
+  schedule:
+    - cron: '23 5,17 * * *'    # Tier 1: twice daily, 05:23 & 17:23 UTC
+    - cron: '41 4 * * *'       # Tier 2 candidate slot: daily 04:41 UTC (48h-gated)
+    - cron: '53 2 * * *'       # Tier 3: rotating country subset, daily 02:53 UTC
+  workflow_dispatch:
+    inputs:
+      tier:
+        description: 'Country tier to scrape'
+        required: true
+        default: '1'
+        type: choice
+        options: ['1', '2', '3', 'all']
+      countries:
+        description: 'Optional comma-separated ISO codes overriding tier (e.g. PL,CZ,DE)'
+        required: false
+        default: ''
+        type: string
+      sources:
+        description: 'Sources to query'
+        required: true
+        default: 'eures,jobspy'
+        type: choice
+        options: ['eures,jobspy', 'eures', 'jobspy']
+      max_jobs:
+        description: 'Max jobs per country per source'
+        required: true
+        default: 50
+        type: number
+      min_score:
+        description: 'Minimum relevance score to store (0 = config default)'
+        required: true
+        default: 0
+        type: number
+      no_translate:
+        description: 'Skip title translation for this run'
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-scrape-pipeline
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  scrape:
+    if: github.event_name != 'schedule' || vars.SCHEDULES_ENABLED == 'true'
+    name: Resolve and run scrape
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repository (fresh branch head)
+        uses: actions/checkout@v6
+        with:
+          # github.sha is the TRIGGER-time commit. Serialized jobs that
+          # commit data/ (this one) must start from the branch's current
+          # head instead, or a later weekly-matrix tier would scrape and
+          # merge against the pre-tier-1 store and its commit would
+          # rebase-conflict on the same JSON files. ref: <branch> fetches
+          # the head at job start.
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Resolve run parameters
+        id: resolve
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_PAYLOAD: ${{ github.event_path }}
+          IN_TIER: ${{ inputs.tier }}
+          IN_COUNTRIES: ${{ inputs.countries }}
+          IN_SOURCES: ${{ inputs.sources }}
+          IN_MAX_JOBS: ${{ inputs.max_jobs }}
+          IN_MIN_SCORE: ${{ inputs.min_score }}
+          IN_NO_TRANSLATE: ${{ inputs.no_translate }}
+        run: |
+          set -euo pipefail
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            TIER="$IN_TIER"
+            # Tolerate "PL, DE" style spacing: strip whitespace before
+            # the strict ISO-shape validation below.
+            COUNTRIES="$(printf '%s' "$IN_COUNTRIES" | tr -d '[:space:]')"
+            SOURCES="$IN_SOURCES"
+            MAX_JOBS="$IN_MAX_JOBS"
+            MIN_SCORE="$IN_MIN_SCORE"
+            NO_TRANSLATE="$IN_NO_TRANSLATE"
+            RUN_LABEL="manual tier=$TIER"
+          else
+            # Scheduled run: identify which cron fired from the payload.
+            SCHEDULED_CRON="$(jq -r '.schedule // ""' "$EVENT_PAYLOAD")"
+            COUNTRIES=""
+            SOURCES="eures,jobspy"
+            MAX_JOBS="50"
+            MIN_SCORE="0"
+            NO_TRANSLATE="false"
+            case "$SCHEDULED_CRON" in
+              '23 5,17 * * *')
+                TIER="1"
+                RUN_LABEL="scheduled tier=1"
+                ;;
+              '41 4 * * *')
+                # Exact 48-hour cadence: run only on odd epoch days.
+                DAYS=$(( $(date -u +%s) / 86400 ))
+                if [ $(( DAYS % 2 )) -eq 0 ]; then
+                  echo "Not a Tier-2 day (epoch day $DAYS is even) - skipping."
+                  echo "skip=true" >> "$GITHUB_OUTPUT"
+                  exit 0
+                fi
+                TIER="2"
+                RUN_LABEL="scheduled tier=2 (epoch day $DAYS)"
+                ;;
+              '53 2 * * *')
+                # Tier-3 rotation: 13 countries in 4 epoch-day groups, so
+                # every Tier-3 country is scraped every 4 days (plus the
+                # Sunday full sweep). The country list comes from
+                # config/config.yaml - the single source of truth - never
+                # hardcoded here.
+                DAYS=$(( $(date -u +%s) / 86400 ))
+                COUNTRIES="$(python -c "import sys, yaml; c = yaml.safe_load(open('config/config.yaml', encoding='utf-8')); tiers = c['tiers']; t3 = list(tiers.get('3') or tiers[3]); g = int(sys.argv[1]) % 4; print(','.join(t3[g::4]))" "$DAYS")"
+                TIER="3"
+                RUN_LABEL="scheduled tier=3 rotation group $(( DAYS % 4 ))/4 (epoch day $DAYS)"
+                ;;
+              *)
+                echo "::error::Unknown schedule '$SCHEDULED_CRON' - refusing to guess parameters."
+                exit 1
+                ;;
+            esac
+          fi
+
+          # Validate everything that reaches the shell or the CLI.
+          case "$TIER" in 1|2|3|all) ;; *) echo "::error::bad tier '$TIER'"; exit 1;; esac
+          if [ -n "$COUNTRIES" ] && ! printf '%s' "$COUNTRIES" | grep -Eq '^[A-Za-z]{2}(,[A-Za-z]{2})*$'; then
+            echo "::error::bad countries '$COUNTRIES' (expected ISO codes like PL,CZ,DE)"; exit 1
+          fi
+          case "$SOURCES" in eures,jobspy|eures|jobspy) ;; *) echo "::error::bad sources '$SOURCES'"; exit 1;; esac
+          case "$MAX_JOBS" in ''|*[!0-9]*) echo "::error::max_jobs not a number"; exit 1;; esac
+          case "$MIN_SCORE" in ''|*[!0-9]*) echo "::error::min_score not a number"; exit 1;; esac
+          [ "$MAX_JOBS" -ge 1 ] && [ "$MAX_JOBS" -le 200 ] || { echo "::error::max_jobs out of range 1-200"; exit 1; }
+          [ "$MIN_SCORE" -ge 0 ] && [ "$MIN_SCORE" -le 100 ] || { echo "::error::min_score out of range 0-100"; exit 1; }
+
+          ARGS=(--tier "$TIER" --sources "$SOURCES" --max-jobs "$MAX_JOBS")
+          [ -n "$COUNTRIES" ] && ARGS+=(--countries "$COUNTRIES")
+          [ "$MIN_SCORE" -gt 0 ] && ARGS+=(--min-score "$MIN_SCORE")
+          [ "$NO_TRANSLATE" = "true" ] && ARGS+=(--no-translate)
+
+          echo "Resolved: $RUN_LABEL -> python main.py ${ARGS[*]}"
+          {
+            echo "label=$RUN_LABEL"
+            # Newline-joined args survive GITHUB_OUTPUT without quoting issues.
+            echo "args<<EJA_EOF"
+            printf '%s\n' "${ARGS[@]}"
+            echo "EJA_EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+      - name: Run scraper
+        if: steps.resolve.outputs.skip != 'true'
+        env:
+          SCRAPE_ARGS: ${{ steps.resolve.outputs.args }}
+          # Phase 4 Telegram digest credentials (repository secrets).
+          # Unset secrets expand to empty strings and src/notifier.py
+          # treats that as a clean no-op, so runs never fail on an
+          # unconfigured bot. Secrets only ever reach the environment,
+          # never the shell or CLI arguments.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          set -euo pipefail
+          mapfile -t ARGS <<< "$SCRAPE_ARGS"
+          echo "python main.py ${ARGS[*]}"
+          python main.py "${ARGS[@]}"
+
+      - name: Commit updated data files
+        if: steps.resolve.outputs.skip != 'true'
+        env:
+          RUN_LABEL: ${{ steps.resolve.outputs.label }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Stage every change under data/ (new files, edits, deletions).
+          # `git add -A` tolerates files that do not exist yet - e.g.
+          # data/pruned_uids.json before the first prune - where an
+          # explicit pathspec would fail fatally. .gitignore keeps
+          # data/.cache/ out.
+          git add -A -- data/
+          if git diff --cached --quiet; then
+            echo "No data changes - nothing to commit."
+            exit 0
+          fi
+          git commit -m "data: $RUN_LABEL ($(date -u +%Y-%m-%dT%H:%MZ)) [skip ci]"
+          # Rebase onto any commit that landed mid-run, then push.
+          # A rebase CONFLICT is deterministic: retrying the identical
+          # conflict cannot succeed, so abort and fail honestly - no
+          # force-push, no overwrite. Only a push REJECTION (another
+          # commit landing between rebase and push) is retried.
+          for attempt in 1 2 3; do
+            if ! git pull --rebase origin "$GITHUB_REF_NAME"; then
+              git rebase --abort 2>/dev/null || true
+              echo "::error::Content conflict rebasing onto $GITHUB_REF_NAME - data/ was edited concurrently. Failing honestly; nothing was overwritten. Re-run the workflow or resolve manually."
+              exit 1
+            fi
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then
+              echo "Pushed data commit on attempt $attempt."
+              exit 0
+            fi
+            echo "Push attempt $attempt rejected; fetching and retrying."
+            sleep $(( attempt * 15 ))
+          done
+          echo "::error::Could not push data commit after 3 attempts."
+          exit 1
+
+      - name: Upload latest export artifacts
+        if: steps.resolve.outputs.skip != 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: daily-export-${{ github.run_id }}
+          path: |
+            data/latest_export.csv
+            data/run_status.json
+          retention-days: 14
+          if-no-files-found: warn

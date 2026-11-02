@@ -1,0 +1,395 @@
+# =====================================================================
+# EU-Unskilled-Jobs-Aggregator - master configuration (Phase 4)
+# ---------------------------------------------------------------------
+# Honesty notes baked into this config:
+#  * "indeed_supported" reflects the countries actually present in
+#    python-jobspy's Country enum (verified against v1.4.1). Indeed /
+#    JobSpy does NOT cover BG, HR, CY, EE, LV, LT, MT, SI, SK. Those
+#    countries are served by EURES only.
+#  * Signal keywords (housing, agency, work permit mentions, and the
+#    no_exp_or_training mentions added in Phase 4) are relevance
+#    evidence for manual review. They are NOT proof that an employer
+#    sponsors non-EU citizens, really requires no experience, or
+#    accepts applicants from Egypt.
+# =====================================================================
+
+project: EU-Unskilled-Jobs-Aggregator
+version: 2.0.0
+
+# ------------------------- Geography --------------------------------
+tiers:
+  1: [PL, CZ, DE, LT, HU, RO, SK, NL]      # daily / frequent batches
+  2: [ES, IT, FR, BE, PT, IE]             # every 2-3 days
+  3: [AT, BG, HR, CY, DK, EE, FI, GR, LV, LU, MT, SI, SE]  # rotating subset + weekly
+
+countries:
+  PL: {name: Poland,          eures_location_code: pl, indeed_supported: true,  indeed_country: "poland",         languages: [pl, en]}
+  CZ: {name: Czech Republic,  eures_location_code: cz, indeed_supported: true,  indeed_country: "czech republic", languages: [cs, en]}
+  DE: {name: Germany,         eures_location_code: de, indeed_supported: true,  indeed_country: "germany",        languages: [de, en]}
+  LT: {name: Lithuania,       eures_location_code: lt, indeed_supported: false, indeed_country: null,             languages: [lt, en]}
+  HU: {name: Hungary,         eures_location_code: hu, indeed_supported: true,  indeed_country: "hungary",        languages: [hu, en]}
+  RO: {name: Romania,         eures_location_code: ro, indeed_supported: true,  indeed_country: "romania",        languages: [ro, en]}
+  SK: {name: Slovakia,        eures_location_code: sk, indeed_supported: false, indeed_country: null,             languages: [sk, cs, en]}
+  NL: {name: Netherlands,     eures_location_code: nl, indeed_supported: true,  indeed_country: "netherlands",    languages: [nl, en]}
+  ES: {name: Spain,           eures_location_code: es, indeed_supported: true,  indeed_country: "spain",          languages: [es, en]}
+  IT: {name: Italy,           eures_location_code: it, indeed_supported: true,  indeed_country: "italy",          languages: [it, en]}
+  FR: {name: France,          eures_location_code: fr, indeed_supported: true,  indeed_country: "france",         languages: [fr, en]}
+  BE: {name: Belgium,         eures_location_code: be, indeed_supported: true,  indeed_country: "belgium",        languages: [nl, fr, en]}
+  PT: {name: Portugal,        eures_location_code: pt, indeed_supported: true,  indeed_country: "portugal",       languages: [pt, en]}
+  IE: {name: Ireland,         eures_location_code: ie, indeed_supported: true,  indeed_country: "ireland",        languages: [en]}
+  AT: {name: Austria,         eures_location_code: at, indeed_supported: true,  indeed_country: "austria",        languages: [de, en]}
+  BG: {name: Bulgaria,        eures_location_code: bg, indeed_supported: false, indeed_country: null,             languages: [bg, en]}
+  HR: {name: Croatia,         eures_location_code: hr, indeed_supported: false, indeed_country: null,             languages: [hr, en]}
+  CY: {name: Cyprus,          eures_location_code: cy, indeed_supported: false, indeed_country: null,             languages: [el, en]}
+  DK: {name: Denmark,         eures_location_code: dk, indeed_supported: true,  indeed_country: "denmark",        languages: [da, en]}
+  EE: {name: Estonia,         eures_location_code: ee, indeed_supported: false, indeed_country: null,             languages: [et, en]}
+  FI: {name: Finland,         eures_location_code: fi, indeed_supported: true,  indeed_country: "finland",        languages: [fi, en]}
+  GR: {name: Greece,          eures_location_code: el, indeed_supported: true,  indeed_country: "greece",         languages: [el, en]}
+  LV: {name: Latvia,          eures_location_code: lv, indeed_supported: false, indeed_country: null,             languages: [lv, en]}
+  LU: {name: Luxembourg,      eures_location_code: lu, indeed_supported: true,  indeed_country: "luxembourg",     languages: [fr, de, en]}
+  MT: {name: Malta,           eures_location_code: mt, indeed_supported: false, indeed_country: null,             languages: [en]}
+  SI: {name: Slovenia,        eures_location_code: si, indeed_supported: false, indeed_country: null,             languages: [sl, en]}
+  SE: {name: Sweden,          eures_location_code: se, indeed_supported: true,  indeed_country: "sweden",         languages: [sv, en]}
+
+# ----------------- Multilingual keyword & signal matrix --------------
+# Matching is diacritics-insensitive and case-insensitive (a folded form
+# of both text and keyword is compared), so "Skladnik" matches "Skladnik".
+#
+# Coverage: the 22 language codes en, pl, de, cs, sk, lt, hu, ro, nl,
+# es, it, fr, pt, sv, da, fi, el, bg, hr, sl, et, lv - the primary
+# official/working languages of all 27 member states - for BOTH broad
+# unskilled roles AND the "no experience / training provided" signal
+# (see signals.no_exp_or_training below). Scope note: this is the
+# supplied 22-code set, not literally every official EU language -
+# Irish (ga) and Maltese (mt) are not keyword languages; IE and MT are
+# queried with their configured languages (en), matching how vacancies
+# there are posted. Role scope is deliberately broad:
+# warehouse, production, packing, cleaning, agriculture, farms,
+# greenhouses, food processing, hospitality, hotels, kitchen help,
+# housekeeping, laundry, retail stocking, delivery help and general
+# labour - any legitimate entry-level work, not only warehouse/factory.
+#
+# "No experience required" / "training provided" phrasing lives in the
+# no_exp_or_training SIGNAL, not in roles: treating it as a role keyword
+# would qualify skilled posts ("senior accountant - no experience
+# needed" would look like an unskilled vacancy). The scorer awards base
+# points when EITHER a role keyword OR that signal matches (and no
+# skilled/senior vocabulary or disqualifier matched), which delivers
+# the intended coverage without that false-positive.
+keywords:
+  roles:
+    en: [warehouse worker, warehouse operative, order picker, picker, packer, packing operative, production operator, production worker, factory worker, machine operator, assembly worker, general labourer, general laborer, sorter, loader, cleaner, farm worker, agricultural worker, logistics helper, forklift operator, manual worker, unskilled worker, general worker, general helper, kitchen helper, kitchen assistant, dishwasher, housekeeping, room attendant, housekeeper, hotel housekeeper, greenhouse worker, greenhouse, food production, food processing, production line worker, warehouse assistant, stocker, shelf stacker, retail assistant, supermarket assistant, laundry worker, delivery helper, delivery assistant, farm hand, harvest worker, fruit picker, vegetable packer, meat processing, poultry worker, mushroom picker, cleaning assistant, hotel staff, hospitality staff, catering assistant, general operative, warehouse worker trainee, entry level]
+    pl: [magazynier, pracownik magazynu, pakowacz, pracownik produkcji, komisjonowanie, operator produkcji, pracownik fizyczny, sortowacz, zaladowca, pracownik ogolny, pakowanie, praca w magazynie, pomocnik, pomoc kuchenna, pokojowka, sprzatanie, sprzataczka, zbiory, szklarnia, pracownik produkcji spozywczej, pracownik supermarketu, zmywanie naczyn, pracownik gastronomii, pracownik pralni, pracownik hotelu, pomoc w dostawie]
+    de: [lagerhelfer, produktionshelfer, kommissionierer, verpacker, lagermitarbeiter, maschinenbediener, reinigungskraft, helfer produktion, lagerarbeiter, produktionsmitarbeiter, verpackungsmitarbeiter, hilfsarbeiter, anlernkraft, hilfskraft, kuchenhilfe, zimmermadchen, erntehelfer, spuler, hauswirtschaft, gewachshaus, lebensmittelproduktion, sortierer, regalauffuller, hotelmitarbeiter, wascherei, lieferhelfer]
+    cs: [skladnik, operator vyroby, pracovnik ve skladu, baleni, manipulant, pomocny pracovnik, vyrobni delnik, balic, kompletace, uklid, uklizecka, pomocna sila v kuchyni, pokojska, sklenik, zemedelsky pracovnik, mycka nadobi, pradelna, prodavac pomocny]
+    sk: [skladnik, operator vyroby, balenie, manipulant, pomocny pracovnik, vyrobny operator, balic, upratovanie, upratovacka, pomocna sila v kuchyni, pokojska, sklenik, polnohospodarsky pracovnik, pracovisko cistenia]
+    lt: [sandelio darbuotojas, sandelininkas, pakuotojas, gamybos operatorius, komplektuotojas, rusiuotojas, ikrovejas, pagalbinis darbuotojas, virtuves pagalbininkas, kambarine, valytojas, valytoja, siltnamis, maisto gamyba, parduotuves darbuotojas, indaplove]
+    hu: [raktaros, raktari munkas, csomagolo, gyartosori dolgozo, termelesi munkas, komissiozo, betanitott munkas, raktari dolgozo, konyhai seged, takarito, szobalany, szallodai dolgozo, uveghazi munkas, elelmiszeripari munkas, mosodai dolgozo, aruhazi dolgozo, segitokeszito]
+    ro: [muncitor depozit, ambalator, operator productie, manipulant marfuri, muncitor necalificat, sortator, muncitor in productie, ajutor bucatar, camerista, curatenie, muncitor agricol, sera, spalatorie, lucrator in hotel, ajutor livrare]
+    nl: [magazijnmedewerker, orderpicker, productiemedewerker, verpakker, logistiek medewerker, inpakker, schoonmaker, productiewerk, magazijnwerk, algemeen medewerker, keukenhulp, glastuinbouw, kamermeisje, vakkenvuller, huishoudelijk medewerker, hotelmedewerker, bezorghulp, afwasser]
+    es: [mozo de almacen, operario de produccion, empaquetador, preparador de pedidos, peon, operador de fabrica, limpiador, operaria de produccion, limpieza, ayudante de cocina, camarera de pisos, camarero de pisos, recoleccion, invernadero, dependiente, lavanderia, personal de hotel, ayudante de reparto]
+    it: [magazziniere, operaio di produzione, imballatore, addetto al confezionamento, operaio generico, addetto picking, addetto alle pulizie, operaia di produzione, aiuto cucina, cameriere ai piani, agricoltura, operaio agricolo, serra, lavanderia, scaffalista, addetto mensa, addetto hotel]
+    fr: [magasinier, preparateur de commandes, agent de production, emballeur, manutentionnaire, operateur de production, agent de nettoyage, manoeuvre, nettoyage, aide de cuisine, employe polyvalent, agent d'entretien, femme de chambre, serre, maraichage, employe de rayon, pressing, employe hotelier]
+    pt: [armazenista, operador de armazem, embalador, operario de producao, ajudante geral, operador de logistica, operador indiferenciado, limpeza, ajudante de cozinha, agricultura, estufa, lavandaria, repositor, empregado de limpeza, funcionario de hotel]
+    da: [lagermedarbejder, pakker, produktionsmedarbejder, ordreplukker, rengoringsassistent, kokkenhjaelp, drivhus, rengoring, hostarbejder, vaskeri, butiksassistent, landbrugsarbejder, hotelansat]
+    sv: [lagerarbetare, packare, produktionsarbetare, plockare, stadare, koksbitrade, hotellstadare, vaxthus, skordearbetare, tvatteri, butiksbitrade, diskare, jordbruksarbetare]
+    fi: [varastotyontekija, pakkaaja, tuotantotyontekija, keraaja, siivooja, keittioapulainen, hotellisiivooja, kasvihuone, maataloustyontekija, pesula, myymalaapulainen, tiskari]
+    et: [laotootaja, pakkija, tootmisoperaator, komplekteerija, koristaja, abitooline, toateenindaja, kasvuhoone, pollumajandus, pesumaja, koogi abiline, poode aitaja]
+    lv: [noliktavas darbinieks, pakotajs, razosanas darbinieks, komplektetajs, uzkupejs, paligstradnieks, virtuves paligs, istabene, siltumnica, tiritajs, velas mazgatava, zemkopiba]
+    el: [εργατης αποθηκης, συσκευαστης, εργατης παραγωγης, καθαριστης, βοηθος κουζινας, καμαριερα, θερμοκηπιο, γεωργια, πλυντηριο, υπαλληλος ξενοδοχειου]
+    bg: [складов работник, опаковчик, работник в производство, общ работник, чистач, кухненски помощник, камериерка, оранжерия, земеделие, пералня, хотелски служител]
+    hr: [skladistar, paker, operater proizvodnje, pomocni radnik, cistac, kuhinjski pomocnik, sobarica, staklenik, poljoprivreda, praonica, hotelski djelatnik]
+    sl: [skladiscnik, pakiralec, proizvodni delavec, pomozni delavec, cistilec, pomocnik, kuhinjski pomocnik, sobarica, rastlinjak, pralnica, kmetijstvo, hotelski delavec]
+
+  # Positive foreign-hiring signals. A match is a HINT for manual review,
+  # never proof of sponsorship or of eligibility for non-EU citizens.
+  signals:
+    # "No experience required" / "training provided" mentions across all
+    # 22 covered languages. The whole category is negation-exempt: these
+    # phrases are positive BECAUSE they negate a requirement, so cues
+    # like "no", "ohne", "bez", "sin", "sans", "sem", "fara", "be",
+    # "ilma", "utan", "ingen", "ei", "brez", "bez" must never suppress
+    # them (see KeywordMatrix.NEGATION_EXEMPT_CATEGORIES).
+    no_exp_or_training:
+      en: [no experience, no experience required, no experience needed, no experience necessary, no previous experience, without experience, entry level, trainee, training provided, on-the-job training, on the job training, full training, full training provided, will train, training given]
+      pl: [bez doswiadczenia, bez doswiadczenia zawodowego, do przyuczenia, przyuczymy, szkolenie zapewnione, zapewniamy szkolenie, doswiadczenie nie jest wymagane]
+      de: [ohne erfahrung, keine erfahrung erforderlich, keine vorkenntnisse, ohne vorkenntnisse, quereinsteiger, mit einarbeitung, wir lernen dich an, ohne berufserfahrung]
+      cs: [bez praxe, zaskolime, zaucime, bez predchozi praxe, praxe neni nutna]
+      sk: [bez praxe, zaskolime, zaucime, bez predchadzajucej praxe, prax nie je nutna]
+      nl: [zonder ervaring, zonder werkervaring, geen ervaring vereist, geen ervaring nodig, inwerktraject, wij leren je het vak, wordt ingewerkt]
+      es: [sin experiencia, no se requiere experiencia, con formacion, formacion a cargo de la empresa, sin experiencia previa]
+      it: [senza esperienza, con formazione, formazione fornita, primo impiego, non e richiesta esperienza]
+      fr: [sans experience, debutant accepte, formation assuree, sans experience prealable, experience non requise]
+      pt: [sem experiencia, com formacao, sem experiencia necessaria, formacao fornecida, nao requer experiencia]
+      sv: [ingen erfarenhet, utan erfarenhet, ingen erfarenhet kravs, utbildning ges, vi lar dig]
+      da: [ingen erfaring, uden erfaring, oplaering, ingen erfaring kraves]
+      fi: [ei kokemusta, ei aikaisempaa kokemusta, koulutetaan, kokemusta ei vaadita]
+      lt: [be patirties, apmokome, patirties nereikia, be darbo patirties]
+      lv: [bez pieredzes, apmaciba, pieredze nav nepieciesama, apmacam]
+      et: [ilma kogemuseta, valjaope, kogemus pole vajalik, kogemust ei nouta]
+      hu: [tapasztalat nelkul, betanitott munka, betanitas, nincs szukseg tapasztalatra, betanitast biztositunk]
+      ro: [fara experienta, fara experienta necesara, training asigurat, fara experienta prealabila, nu este necesara experienta]
+      bg: [без опит, без предишен опит, обучение се осигурява, опит не се изисква]
+      hr: [bez iskustva, iskustvo nije potrebno, osigurana obuka, obuka]
+      sl: [brez izkusenj, izkusnje niso potrebne, zagotovljeno usposabljanje, usposabljanje]
+      el: [χωρις προϋπηρεσια, χωρις εμπειρια, παρεχεται εκπαιδευση, εμπειρια δεν απαιτειται]
+    permit:   # explicit work permit / visa vocabulary
+      en: [visa sponsorship, work permit, work visa, sponsorship, sponsorship available]
+      pl: [zezwoleni, karta pobytu, oswiadczenie o powierzeniu wykonywania pracy, zezwolenie na pobyt]
+      de: [arbeitserlaubnis, aufenthaltstitel, visum gesponsert, arbeitsvisum]
+      cs: [zamestnanecka karta, pracovni povoleni, povoleni k pobytu]
+      sk: [zamestnanecka karta, pracovne povolenie]
+      lt: [leidimas dirbti, leidimas gyventi]
+      hu: [munkavallalasi engedely, tartozkodasi engedely]
+      ro: [permis de munca, permis de sedere, aviz de munca]
+      nl: [werkvergunning, tewerkstellingsvergunning, verblijfsvergunning]
+      es: [permiso de trabajo, permiso de residencia]
+      it: [permesso di lavoro, permesso di soggiorno]
+      fr: [permis de travail, titre de sejour, autorisation de travail]
+      pt: [autorizacao de trabalho, visto de trabalho, autorizacao de residencia]
+    housing:  # accommodation provided - real-world indicator of foreign-worker recruitment
+      en: [accommodation, housing provided, free accommodation, company housing, free housing]
+      pl: [zakwaterowanie, mieszkanie pracownicze, nocleg]
+      de: [unterkunft, unterbringung, wohnung gestellt]
+      cs: [ubytovani, ubytovna]
+      sk: [ubytovanie, ubytovna]
+      lt: [apgyvendinimas, nakvyne]
+      hu: [szallas, munkasszallo]
+      ro: [cazare, locuinta]
+      nl: [accommodatie, huisvesting, woonruimte]
+      es: [alojamiento, vivienda]
+      it: [alloggio, vitto e alloggio]
+      fr: [logement, hebergement]
+      pt: [alojamento]
+    language_flex:  # no local language needed / English accepted
+      en: [no language required, english speaking, english is enough, english only]
+      pl: [bez znajomosci jezyka, bez jezyka polskiego, jezyk angielski wystarczy]
+      de: [ohne deutschkenntnisse, keine deutschkenntnisse erforderlich, englisch ausreichend]
+      cs: [bez znalosti jazyka, bez cestiny, anglictina vitana]
+      sk: [bez znalosti jazyka, bez slovenciny]
+      lt: [be kalbos reikalavimu, anglu kalba]
+      hu: [nyelvtudas nelkul, angol nyelv]
+      ro: [fara limba, engleza suficienta]
+      nl: [geen taalvereiste, engels voldoende]
+      es: [sin idioma, ingles suficiente, no se requiere espanol]
+      it: [senza lingua, inglese sufficiente]
+      fr: [sans langue, anglais suffisant]
+      pt: [sem idioma, ingles suficiente]
+    agency_relocation:  # agency hire / relocation support
+      en: [relocation, relocation package, relocation support, temporary agency, staffing agency, recruitment agency]
+      pl: [agencja pracy, agencja zatrudnienia, relokacja]
+      de: [zeitarbeit, arbeitnehmeruberlassung, umzugshilfe]
+      cs: [pracovni agentura, relokace]
+      sk: [pracovna agentura]
+      lt: [idarbinimo agentura]
+      hu: [munkaero-kozvetito]
+      ro: [agentie de munca, agentie de recrutare]
+      nl: [uitzendbureau, uitzendwerk]
+      es: [agencia de trabajo temporal, ett, reubicacion]
+      it: [agenzia di lavoro, agenzia per il lavoro]
+      fr: [agence d'interim, agence de travail temporaire]
+      pt: [agencia de trabalho temporario]
+
+  # Negation cues: suppress a signal match when the posting explicitly
+  # denies it in the same sentence ("we do NOT offer visa sponsorship").
+  # A cue never suppresses a keyword that contains negation itself
+  # ("no language required" stays a positive flexibility signal), and
+  # the language_flex and no_exp_or_training categories are never
+  # suppressed at all (they are positive BECAUSE they negate a
+  # requirement: "no experience", "bez doswiadczenia", "ohne
+  # erfahrung", "keine vorkenntnisse", "bez praxe", "zonder ervaring",
+  # "sin experiencia", "senza esperienza", "sans experience", "sem
+  # experiencia", "tapasztalat nelkul", "fara experienta", "be
+  # patirties", "bez pieredzes", "ilma kogemuseta", "utan erfarenhet",
+  # "ingen erfaring", "ei kokemusta", "bez iskustva", "brez izkusenj",
+  # "без опит", "χωρις προϋπηρεσια").
+  negation_cues:
+    en: ["no", not, never, without, cannot, "do not", "does not", "don't", "doesn't", "isn't", "aren't"]
+    de: [kein, keine, keinen, nicht, ohne]
+    pl: [nie, brak, bez]
+    cs: [ne, bez, zadny]
+    sk: [ne, bez, ziadna, ziadny]
+    nl: [geen, niet, zonder]
+    fr: [pas, sans, aucun, aucune, ne]
+    es: ["no", sin, ningun, ninguna]
+    it: [non, senza, nessun, nessuna]
+    pt: [nao, sem, nenhum, nenhuma]
+    ro: [nu, fara]
+    hu: [nem, nincs]
+    lt: [ne, nera]
+
+  # Words that END a negation's scope: "no experience required" negates a
+  # requirement, not the benefits after it ("..., housing provided" counts).
+  requirement_markers:
+    en: [require, required, requirement, needed, need, necessary, mandatory, must]
+    de: [erforderlich, notwendig, benotigt, vorausgesetzt]
+    pl: [wymagane, wymagany, wymagana, wymagamy, konieczne]
+    cs: [pozadovano, pozadovana, pozadujeme, vyzadovano]
+    sk: [pozadovane, vyzadovane, pozadujeme]
+    nl: [vereist, verplicht, nodig]
+    fr: [requis, exige, obligatoire]
+    es: [requerido, requerida, necesario, obligatorio]
+    it: [richiesto, richiesta, necessario, obbligatorio]
+    pt: [requerido, necessario, obrigatorio]
+    ro: [necesar, obligatoriu]
+    hu: [szukseges, kotelezo]
+    lt: [reikalaujama, butina]
+  # Words that AFFIRM a benefit: suffix denials ("sponsorship not available")
+  # and the check that stops suffix suppression once the keyword was already
+  # affirmed ("housing provided, relocation not available" keeps housing).
+  availability_markers:
+    en: [available, provided, offered, included, possible, sponsored]
+    de: [verfugbar, angeboten, gestellt, moglich, vorhanden]
+    pl: [dostepne, oferowane, zapewniane, mozliwe]
+    cs: [dispozici, poskytovano, mozne]
+    sk: [dispozicii, poskytovane, mozne]
+    nl: [beschikbaar, aangeboden, mogelijk]
+    fr: [disponible, fourni, propose, possible]
+    es: [disponible, proporcionado, ofrecido, posible]
+    it: [disponibile, fornito, offerto, possibile]
+    pt: [disponivel, fornecido, oferecido, possivel]
+    ro: [disponibil, oferit, asigurat, posibil]
+    hu: [rendelkezesre, biztositott, lehetseges]
+    lt: [prieinama, suteikiama, imanoma]
+
+  # Skilled / senior vocabulary - heavy penalty, auto-reject when the post
+  # matches no unskilled role keyword at all.
+  negative_roles:
+    - software
+    - developer
+    - engineer
+    - manager
+    - director
+    - accountant
+    - nurse
+    - doctor
+    - physician
+    - analyst
+    - consultant
+    - lawyer
+    - architect
+    - senior
+    - kierownik
+    - leiter
+    - vedouci
+    - gerente
+    - responsabile
+    - chef d'equipe
+  # Explicit disqualifiers - hard reject (matched as regex on folded text).
+  disqualifiers:
+    - eu[- ]citizens? (only|required)
+    - only eu citizens
+    - eu[- ]passport
+    - native speaker (only|required)
+    - \b(c1|c2)\b.{0,30}(required|erforderlich|wymagane|pozadovano|richiesto|requis|necesario)
+    - tylko obywatele ue
+    - obywatelstwo ue wymagane
+    - eu-staatsburgerschaft erforderlich
+    - pouze obcane eu
+    - solo cittadini ue
+    - ciudadania ue
+    - citoyens ue uniquement
+    - alleen eu-burgers
+    - doar cetateni ue
+    - csak eu-s allampolgarok
+    - apenas cidadaos da ue
+
+# --------------------------- Scoring ---------------------------------
+# The score is RELEVANCE evidence (does this look like entry-level,
+# foreign-worker-friendly work?), not a legal eligibility verdict.
+scoring:
+  base_role_points: 30
+  extra_role_keyword_points: 5
+  extra_role_keyword_cap: 15
+  no_exp_points: 15            # no_exp_or_training signal bonus
+  permit_points: 25
+  housing_points: 15
+  language_flex_points: 10
+  agency_relocation_points: 10
+  negative_role_penalty: 50
+  tier_multipliers: {1: 1.15, 2: 1.05, 3: 1.0}
+  recency:
+    - {max_days: 3, points: 10}
+    - {max_days: 7, points: 6}
+    - {max_days: 14, points: 3}
+  min_score_default: 20
+
+# --------------------------- Batching --------------------------------
+batch:
+  results_per_page: 50          # EURES max is 50
+  max_pages_per_keyword: 2
+  keywords_per_country: 8       # per country per source, native first
+  delay_between_requests_sec: [1.5, 4.0]
+  delay_between_countries_sec: [5.0, 12.0]
+  request_timeout_sec: 30
+  retries: 3
+  backoff_base_sec: 2.0
+  backoff_max_sec: 45.0
+  jobspy_hours_old: 720         # last 30 days
+  jobspy_results_wanted: 25
+  jobspy_sites: [indeed]        # "linkedin" possible but blocks aggressively; enable knowingly
+  # EURES query expansion for JobSpy/Indeed-unsupported countries. With no
+  # Indeed domain, LT and SK (tier 1) would be under-sampled next to
+  # PL/CZ/DE, so EURES compensates with a wider keyword set and one more
+  # page per keyword. Extensible: add any country code to the list.
+  eures_boost:
+    countries: [LT, SK]
+    keywords_per_country: 16    # vs keywords_per_country: 8 elsewhere
+    max_pages_per_keyword: 3    # vs max_pages_per_keyword: 2 elsewhere
+
+# --------------------------- Proxies ---------------------------------
+# Fallback only: requests go direct first; proxies (if any) are tried only
+# after direct attempts fail, then the client falls back to direct again.
+# Free proxies are unreliable and often blocked by Cloudflare - expect them
+# to fail; the system is designed to keep working without them.
+proxies:
+  enabled: false
+  env_var: EJA_PROXIES          # comma-separated, e.g. "http://h1:8080,http://h2:3128"
+
+# ------------------------- Translation -------------------------------
+translation:
+  enabled: true
+  target: en
+  max_per_run: 200              # polite HTTP request cap per run; skipped titles keep original text
+  # Quota discipline: scoring (exclusion checks + keyword/signal scoring)
+  # runs BEFORE translation, and only jobs that were not excluded AND
+  # reached this score are translated - highest score first, so the
+  # request cap is never wasted on low-value or excluded postings.
+  min_score: 40
+
+# ------------------- Telegram digest (Phase 4) -----------------------
+# Delivered by src/notifier.py at the end of every main.py run, BEFORE
+# the workflows commit data/, so notified_telegram flags are persisted
+# in the same commit. Credentials are environment-only (repository
+# secrets TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID in the workflows) -
+# never in this file. Missing credentials or enabled: false are a clean
+# no-op (exit 0), so automation never fails on an unconfigured bot.
+telegram:
+  enabled: true
+  min_score: 50               # only jobs at/above this relevance score are digested
+  max_jobs_per_digest: 15     # per run, highest score first
+  focus_countries: []         # optional ISO codes to restrict the digest; [] = all 27
+  dashboard_url: ""           # optional link appended to the digest header
+  message_delay_sec: 1.0      # polite pause between paginated messages
+
+# --------------------------- Storage ---------------------------------
+storage:
+  data_dir: data
+  active_jobs_file: active_jobs.json
+  export_csv: latest_export.csv
+  run_status_file: run_status.json
+  retention_days: 30
+  # Tombstone registry: prune() records every pruned uid here, and merge()
+  # skips tombstoned uids, so a posting still live on EURES/Indeed shortly
+  # after retention expiry is not re-ingested as brand new (no duplicate
+  # downstream notifications). Bounded by design: once a uid falls out of
+  # the rolling window (tombstone_days / tombstone_max_uids), an old
+  # still-live posting can be re-ingested once on a later run.
+  tombstone_file: pruned_uids.json
+  tombstone_max_uids: 5000
+  tombstone_days: 60
+  # Daily Telegram digest cadence gate: the date (UTC) of the last
+  # successful digest. Committed with the other data files so all
+  # workflow runs share it (main.py runs several times a day; the
+  # digest itself is daily).
+  telegram_state_file: telegram_state.json

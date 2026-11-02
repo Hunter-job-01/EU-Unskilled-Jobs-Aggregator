@@ -1,0 +1,200 @@
+# =====================================================================
+# scrape_weekly_full_eu.yml - Weekly full 27-country scan
+# ---------------------------------------------------------------------
+# Runs every Sunday at 03:07 UTC (schedules fire on the DEFAULT branch
+# only). Tiers run as a matrix with max-parallel: 1 - strictly
+# sequential, so politeness delays and source rate limits are respected
+# and the shared data/ files are merged one tier at a time. Each tier is
+# its own job with a 4-hour cap, far below GitHub's 6-hour job limit;
+# a slow tier cannot stall the others.
+# Concurrency: shares the repo-wide 'data-scrape-pipeline' group with
+# the daily workflow so daily, weekly and manual runs queue instead of
+# racing on data/ commits (one running and up to 100 pending per group).
+# =====================================================================
+name: Weekly full EU scan (27 countries)
+
+on:
+  schedule:
+    - cron: '7 3 * * 0'        # Sunday 03:07 UTC
+  workflow_dispatch:
+    inputs:
+      max_jobs:
+        description: 'Max jobs per country per source'
+        required: true
+        default: 50
+        type: number
+      min_score:
+        description: 'Minimum relevance score to store (0 = config default)'
+        required: true
+        default: 0
+        type: number
+      no_translate:
+        description: 'Skip title translation for this run'
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-scrape-pipeline
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  scrape-tier:
+    if: github.event_name != 'schedule' || vars.SCHEDULES_ENABLED == 'true'
+    name: Scrape tier ${{ matrix.tier }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false          # a failed tier must not cancel the others
+      max-parallel: 1           # strictly sequential: rate-limit friendly
+      matrix:
+        tier: ['1', '2', '3']
+    steps:
+      - name: Checkout repository (fresh branch head)
+        uses: actions/checkout@v6
+        with:
+          # github.sha is the TRIGGER-time commit. Matrix tiers after the
+          # first must start from the branch's CURRENT head - which by
+          # then includes the previous tier's data commit - or they would
+          # scrape/merge against a stale store and their commit would
+          # rebase-conflict on the same JSON files.
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate manual inputs
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          IN_MAX_JOBS: ${{ inputs.max_jobs }}
+          IN_MIN_SCORE: ${{ inputs.min_score }}
+        run: |
+          set -euo pipefail
+          case "$IN_MAX_JOBS" in ''|*[!0-9]*) echo "::error::max_jobs not a number"; exit 1;; esac
+          case "$IN_MIN_SCORE" in ''|*[!0-9]*) echo "::error::min_score not a number"; exit 1;; esac
+          [ "$IN_MAX_JOBS" -ge 1 ] && [ "$IN_MAX_JOBS" -le 200 ] || { echo "::error::max_jobs out of range 1-200"; exit 1; }
+          [ "$IN_MIN_SCORE" -ge 0 ] && [ "$IN_MIN_SCORE" -le 100 ] || { echo "::error::min_score out of range 0-100"; exit 1; }
+
+      - name: Run scraper (tier ${{ matrix.tier }})
+        env:
+          MATRIX_TIER: ${{ matrix.tier }}
+          # Phase 4 Telegram digest credentials (repository secrets);
+          # empty when unset and src/notifier.py no-ops cleanly. Secrets
+          # only ever reach the environment, never the shell.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          IN_MAX_JOBS: ${{ inputs.max_jobs }}
+          IN_MIN_SCORE: ${{ inputs.min_score }}
+          IN_NO_TRANSLATE: ${{ inputs.no_translate }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          MAX_JOBS=50
+          MIN_SCORE=0
+          NO_TRANSLATE=false
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            MAX_JOBS="$IN_MAX_JOBS"
+            MIN_SCORE="$IN_MIN_SCORE"
+            NO_TRANSLATE="$IN_NO_TRANSLATE"
+          fi
+          ARGS=(--tier "$MATRIX_TIER" --sources eures,jobspy --max-jobs "$MAX_JOBS")
+          [ "$MIN_SCORE" -gt 0 ] && ARGS+=(--min-score "$MIN_SCORE")
+          [ "$NO_TRANSLATE" = "true" ] && ARGS+=(--no-translate)
+          echo "python main.py ${ARGS[*]}"
+          python main.py "${ARGS[@]}"
+
+      - name: Commit updated data files
+        env:
+          MATRIX_TIER: ${{ matrix.tier }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Stage every change under data/ (new files, edits, deletions).
+          # `git add -A` tolerates files that do not exist yet - e.g.
+          # data/pruned_uids.json before the first prune - where an
+          # explicit pathspec would fail fatally. .gitignore keeps
+          # data/.cache/ out.
+          git add -A -- data/
+          if git diff --cached --quiet; then
+            echo "No data changes - nothing to commit."
+            exit 0
+          fi
+          git commit -m "data: weekly tier $MATRIX_TIER ($(date -u +%Y-%m-%dT%H:%MZ)) [skip ci]"
+          # Rebase onto any commit that landed mid-run, then push.
+          # A rebase CONFLICT is deterministic: retrying the identical
+          # conflict cannot succeed, so abort and fail honestly - no
+          # force-push, no overwrite. Only a push REJECTION (another
+          # commit landing between rebase and push) is retried.
+          for attempt in 1 2 3; do
+            if ! git pull --rebase origin "$GITHUB_REF_NAME"; then
+              git rebase --abort 2>/dev/null || true
+              echo "::error::Content conflict rebasing onto $GITHUB_REF_NAME - data/ was edited concurrently. Failing honestly; nothing was overwritten. Re-run the workflow or resolve manually."
+              exit 1
+            fi
+            if git push origin "HEAD:$GITHUB_REF_NAME"; then
+              echo "Pushed data commit on attempt $attempt."
+              exit 0
+            fi
+            echo "Push attempt $attempt rejected; fetching and retrying."
+            sleep $(( attempt * 15 ))
+          done
+          echo "::error::Could not push data commit after 3 attempts."
+          exit 1
+
+  snapshot:
+    name: Upload weekly snapshot
+    needs: scrape-tier
+    if: always() && needs.scrape-tier.result != 'cancelled'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository (post-commit head)
+        uses: actions/checkout@v6
+        with:
+          # Needs the head AFTER the matrix tiers' data commits, not the
+          # trigger-time SHA, so the snapshot bundles the final state.
+          ref: ${{ github.ref_name }}
+
+      - name: Build snapshot bundle
+        env:
+          TRIGGER_EVENT: ${{ github.event_name }}
+          TIER_RESULT: ${{ needs.scrape-tier.result }}
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          SNAP="weekly-snapshot-$(date -u +%Y-%m-%d)"
+          mkdir -p "$SNAP"
+          for f in data/active_jobs.json data/latest_export.csv data/run_status.json data/pruned_uids.json data/telegram_state.json; do
+            [ -f "$f" ] && cp "$f" "$SNAP/" || echo "::warning::$f missing from checkout"
+          done
+          {
+            echo "# Weekly snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+            echo
+            echo "- Trigger: $TRIGGER_EVENT"
+            echo "- Tier results: $TIER_RESULT"
+            echo "- Commit: $COMMIT_SHA"
+          } > "$SNAP/README.md"
+          ls -la "$SNAP"
+          echo "snapshot_dir=$SNAP" >> "$GITHUB_OUTPUT"
+        id: snap
+
+      - name: Upload weekly historical snapshot
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ steps.snap.outputs.snapshot_dir }}
+          path: ${{ steps.snap.outputs.snapshot_dir }}/
+          retention-days: 30
+          if-no-files-found: error

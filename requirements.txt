@@ -1,0 +1,5 @@
+# EU-Unskilled-Jobs-Aggregator - runtime dependencies (Phase 1)
+requests>=2.31,<3
+PyYAML>=6.0,<7
+deep-translator>=1.11,<2
+python-jobspy>=1.4.1,<2

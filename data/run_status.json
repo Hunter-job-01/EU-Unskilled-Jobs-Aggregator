@@ -1,0 +1,54 @@
+{
+  "countries": {
+    "DE": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "NL": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "PL": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      }
+    }
+  },
+  "duration_sec": 93.6,
+  "last_run_utc": "2026-11-02T12:42:57+00:00",
+  "parameters": {
+    "countries": [
+      "PL",
+      "DE",
+      "NL"
+    ],
+    "max_jobs": 50,
+    "min_score": 20,
+    "sources": [
+      "eures"
+    ],
+    "tier": "1"
+  },
+  "totals": {
+    "active": 72,
+    "below_min_score": 5,
+    "excluded": 21,
+    "fetched": 150,
+    "new": 98,
+    "notified_telegram": 0,
+    "pruned": 26,
+    "translated_titles": 0,
+    "updated": 26
+  }
+}

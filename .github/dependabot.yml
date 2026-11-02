@@ -1,0 +1,49 @@
+# =====================================================================
+# dependabot.yml - self-maintenance
+# ---------------------------------------------------------------------
+# Weekly dependency update PRs:
+#  * pip: the runtime + dev dependencies, explicitly scoped to the five
+#    packages this project pins (python-jobspy and deep-translator are
+#    the fast-moving ones - JobSpy tracks Indeed's layout changes and
+#    deep-translator tracks the free Google Translate endpoint, so both
+#    need to stay fresh for the scraper to keep working).
+#  * github-actions: keeps the action pins (checkout, setup-python,
+#    upload-artifact) on current majors.
+# Update PRs touch requirements*.txt / .github only, never data/**, so
+# they always trigger the CI test suite.
+# =====================================================================
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "06:00"
+      timezone: "Etc/UTC"
+    open-pull-requests-limit: 5
+    allow:
+      - dependency-name: "python-jobspy"
+      - dependency-name: "deep-translator"
+      - dependency-name: "requests"
+      - dependency-name: "pyyaml"
+      - dependency-name: "pytest"
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+    labels:
+      - dependencies
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "06:00"
+      timezone: "Etc/UTC"
+    open-pull-requests-limit: 3
+    commit-message:
+      prefix: "ci"
+      include: "scope"
+    labels:
+      - dependencies

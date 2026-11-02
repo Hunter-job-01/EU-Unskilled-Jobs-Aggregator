@@ -1,0 +1,100 @@
+# =====================================================================
+# pages.yml - build & deploy the static dashboard to GitHub Pages
+# ---------------------------------------------------------------------
+# Why workflow_run: commits pushed by GITHUB_TOKEN (the scraper bots'
+# data commits) do NOT trigger on: push workflows. workflow_run is the
+# documented exception - it fires even when the completed run was
+# started by GITHUB_TOKEN - so listening for the two scraper workflows'
+# completion guarantees the site rebuilds after every scheduled scrape
+# with no human step. It only fires when this file is on the DEFAULT
+# branch, and the branches: [main] filter restricts it to upstream runs
+# that ran on main. Only successful upstream runs deploy.
+#
+# Freshness & trust: the deploy builds from a checkout of the default
+# branch's CURRENT head - it never downloads artifacts from the
+# triggering run, so no untrusted run output is executed or published,
+# and the site always reflects the newest committed data/ state.
+#
+# Activation (one time, manual): repo Settings -> Pages -> Build and
+# deployment -> Source: "GitHub Actions". The github-pages environment
+# is created automatically on first deploy.
+# =====================================================================
+name: Deploy dashboard to GitHub Pages
+
+on:
+  workflow_run:
+    workflows:
+      - "Daily priority scrape (Tier 1 & 2)"
+      - "Weekly full EU scan (27 countries)"
+    types: [completed]
+    branches: [main]
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+      - 'data/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time; queued deploys wait rather than cancel.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  deploy:
+    name: Assemble and deploy static dashboard
+    # workflow_run fires on ANY conclusion - only success carries fresh,
+    # trustworthy data. Push and manual dispatch always deploy.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository (default branch head)
+        uses: actions/checkout@v6
+        with:
+          ref: main
+        # Always use latest committed default-branch data, not a trigger SHA.
+
+      - name: Assemble static site
+        run: |
+          set -euo pipefail
+          # The dashboard source lives in docs/ and stays free of
+          # generated data; the deploy assembles _site/ so relative
+          # fetch('data/...') works under any Pages base path.
+          mkdir -p _site/data
+          cp docs/index.html docs/style.css docs/app.js docs/favicon.svg _site/
+          # Data files only exist after the first scrape. The dashboard
+          # renders an honest empty state when they are absent, so a
+          # missing file is a notice, not a deploy failure.
+          for f in active_jobs.json run_status.json latest_export.csv; do
+            if [ -f "data/$f" ]; then
+              cp "data/$f" _site/data/
+            else
+              echo "::notice::data/$f not committed yet - dashboard will show its empty state"
+            fi
+          done
+          # Plain static files - skip Jekyll processing.
+          touch _site/.nojekyll
+          ls -la _site _site/data
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
