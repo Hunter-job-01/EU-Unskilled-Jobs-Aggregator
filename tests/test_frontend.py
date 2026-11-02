@@ -29,7 +29,8 @@ APPJS = DOCS / "app.js"
 JOB_DATACLASS_FIELDS = {
     "title", "company", "country", "source", "url", "source_id",
     "description", "location", "posted_date", "languages", "uid",
-    "title_en", "translated", "score", "signals", "matched_keywords",
+    "title_en", "title_ar", "summary_ar", "glossary", "translated",
+    "score", "signals", "matched_keywords",
     "excluded", "exclusion_reason", "notified_telegram", "notified_at",
     "first_seen", "last_seen",
 }

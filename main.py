@@ -179,6 +179,46 @@ def main(argv=None) -> int:
 
     # Eligible set + cap priority use the run's effective min_score.
     translated = translate_titles(scored_jobs, cfg, min_score=min_score)
+    from src.job_translation import (annotate_glossary, compose_summary_ar,
+                                     translate_title_mt, valid_translation)
+    ar_gate = int(cfg.get("translation", {}).get("min_score", 45))
+    ar_candidates = [j for j in scored_jobs
+                     if not j.excluded and j.score >= ar_gate and j.title]
+    # Deterministic layer always runs: glossary glosses + structured summary.
+    for job in ar_candidates:
+        country_meta = cfg.get("countries", {}).get(job.country, {}) or {}
+        langs = country_meta.get("languages", [])
+        annotate_glossary(job, langs[0] if langs else "")
+        job.summary_ar = compose_summary_ar(job)
+    # title_ar layer 1: one batched Gemini free call (keyed, bounded,
+    # contact-scrubbed) covering up to 40 titles at once.
+    ar_done = 0
+    mt_enabled = bool(cfg.get("translation", {}).get("enabled", False))
+    todo = [j for j in ar_candidates if not j.title_ar][:40] if mt_enabled else []
+    if todo:
+        try:
+            from src.gemini_translation import Translator
+            tr = Translator(max_calls=1)
+            if tr.key:
+                result, _status = tr("\n".join(j.title for j in todo))
+                if result:
+                    lines = [l for l in result.splitlines()]
+                    if len(lines) == len(todo):
+                        for job, line in zip(todo, lines):
+                            if valid_translation(job.title, line):
+                                job.title_ar = line.strip()
+                                ar_done += 1
+        except Exception:
+            pass  # fall through to per-title route
+    # title_ar layer 2: keyless web route, same quota cap as title_en.
+    if any(not j.title_ar for j in todo):
+        for job in todo:
+            if job.title_ar:
+                continue
+            out = translate_title_mt(job.title, "ar", cfg)
+            if out:
+                job.title_ar = out
+                ar_done += 1
     added, updated = store.merge(scored_jobs)
     pruned = store.prune()
     active = store.save()
@@ -204,7 +244,7 @@ def main(argv=None) -> int:
             "sources": sorted(requested), "max_jobs": args.max_jobs,
             "min_score": min_score,
         },
-        "totals": dict(totals, translated_titles=translated, new=added,
+        "totals": dict(totals, translated_titles=translated, translated_ar=ar_done, new=added,
                        updated=updated, pruned=pruned, active=active,
                        notified_telegram=notified),
         "countries": statuses,

@@ -27,6 +27,9 @@ class Job:
     # pipeline fields
     uid: str = ""
     title_en: str = ""
+    title_ar: str = ""
+    summary_ar: str = ""
+    glossary: list = field(default_factory=list)  # honest term glosses, never claims
     translated: bool = False
     score: int = 0
     signals: list = field(default_factory=list)

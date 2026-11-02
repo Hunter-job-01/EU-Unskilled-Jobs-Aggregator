@@ -351,14 +351,14 @@ proxies:
 
 # ------------------------- Translation -------------------------------
 translation:
-  enabled: false  # retired throttled Google route; local digest translation is separate
+  enabled: true   # v3: keyless web route w/ throttle guard; Gemini free batch for title_ar; deterministic summary_ar always on
   target: en
   max_per_run: 200              # polite HTTP request cap per run; skipped titles keep original text
   # Quota discipline: scoring (exclusion checks + keyword/signal scoring)
   # runs BEFORE translation, and only jobs that were not excluded AND
   # reached this score are translated - highest score first, so the
   # request cap is never wasted on low-value or excluded postings.
-  min_score: 40
+  min_score: 45
 
 # ------------------- Telegram digest (Phase 4) -----------------------
 # Delivered by src/notifier.py at the end of every main.py run, BEFORE
