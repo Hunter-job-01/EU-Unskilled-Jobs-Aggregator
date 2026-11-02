@@ -1,6 +1,6 @@
 {
   "countries": {
-    "BE": {
+    "AT": {
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -14,7 +14,39 @@
         "status": "ok"
       }
     },
-    "ES": {
+    "BG": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: BG not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      }
+    },
+    "CY": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: CY not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      }
+    },
+    "DK": {
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -28,7 +60,37 @@
         "status": "ok"
       }
     },
-    "FR": {
+    "EE": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: EE not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      }
+    },
+    "FI": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 18,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "GR": {
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -42,7 +104,7 @@
         "status": "ok"
       }
     },
-    "IE": {
+    "HR": {
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -51,12 +113,28 @@
       },
       "jobspy": {
         "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: HR not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      }
+    },
+    "LU": {
+      "eures": {
+        "errors": [],
         "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 30,
         "notes": [],
         "status": "ok"
       }
     },
-    "IT": {
+    "LV": {
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -65,12 +143,44 @@
       },
       "jobspy": {
         "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: LV not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      }
+    },
+    "MT": {
+      "eures": {
+        "errors": [],
         "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: MT not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      }
+    },
+    "SE": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 46,
         "notes": [],
         "status": "ok"
       }
     },
-    "PT": {
+    "SI": {
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -79,22 +189,31 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
+        "fetched": 0,
+        "notes": [
+          "indeed: SI not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
       }
     }
   },
-  "duration_sec": 165.6,
-  "last_run_utc": "2026-11-02T13:17:04+00:00",
+  "duration_sec": 325.5,
+  "last_run_utc": "2026-11-02T13:22:53+00:00",
   "parameters": {
     "countries": [
-      "ES",
-      "IT",
-      "FR",
-      "BE",
-      "PT",
-      "IE"
+      "AT",
+      "BG",
+      "HR",
+      "CY",
+      "DK",
+      "EE",
+      "FI",
+      "GR",
+      "LV",
+      "LU",
+      "MT",
+      "SI",
+      "SE"
     ],
     "max_jobs": 50,
     "min_score": 20,
@@ -102,17 +221,17 @@
       "eures",
       "jobspy"
     ],
-    "tier": "2"
+    "tier": "3"
   },
   "totals": {
-    "active": 581,
-    "below_min_score": 76,
-    "excluded": 236,
-    "fetched": 600,
-    "new": 277,
+    "active": 982,
+    "below_min_score": 25,
+    "excluded": 383,
+    "fetched": 894,
+    "new": 450,
     "notified_telegram": 0,
-    "pruned": 19,
+    "pruned": 49,
     "translated_titles": 0,
-    "updated": 11
+    "updated": 36
   }
 }
