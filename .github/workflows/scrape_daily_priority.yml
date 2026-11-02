@@ -206,6 +206,9 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
+          JOB_FIT_PROFILE: ${{ secrets.JOB_FIT_PROFILE }}
+          JOB_FIT_REVIEWS: ${{ secrets.JOB_FIT_REVIEWS }}
+          JOB_FIT_STATE_KEY: ${{ secrets.JOB_FIT_STATE_KEY }}
         run: |
           set -euo pipefail
           mapfile -t ARGS <<< "$SCRAPE_ARGS"

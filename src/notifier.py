@@ -47,6 +47,9 @@ from datetime import datetime, timezone
 
 import requests
 
+from .eligibility import EligibleStore, load_private
+from .private_state import seal, unseal
+
 log = logging.getLogger(__name__)
 
 API_TEMPLATE = "https://api.telegram.org/bot{token}/sendMessage"
@@ -321,15 +324,22 @@ def _load_state(store, cfg: dict) -> dict:
     try:
         with open(_state_path(store, cfg), "r", encoding="utf-8") as fh:
             payload = json.load(fh)
+        if cfg.get("telegram", {}).get("private_fit_required"):
+            return unseal(payload, os.environ.get("JOB_FIT_STATE_KEY", ""))
         return payload if isinstance(payload, dict) else {}
+    except FileNotFoundError:
+        return {}
     except (OSError, ValueError):
+        if cfg.get("telegram", {}).get("private_fit_required"):
+            raise ValueError("Private notification state unavailable") from None
         return {}
 
 
 def _save_state(store, cfg: dict, state: dict) -> None:
     tmp = _state_path(store, cfg) + ".tmp"
     with open(tmp, "w", encoding="utf-8") as fh:
-        json.dump(state, fh, indent=2, sort_keys=True)
+        payload = seal(state, os.environ.get("JOB_FIT_STATE_KEY", "")) if cfg.get("telegram", {}).get("private_fit_required") else state
+        json.dump(payload, fh, indent=2, sort_keys=True)
         fh.write("\n")
     os.replace(tmp, _state_path(store, cfg))
 
@@ -338,7 +348,12 @@ def ensure_state_file(store, cfg: dict) -> None:
     """Keep an honest empty state tracked before any digest is delivered."""
     path = _state_path(store, cfg)
     if not os.path.isfile(path):
-        _save_state(store, cfg, {})
+        try:
+            _save_state(store, cfg, {})
+        except ValueError:
+            if not cfg.get("telegram", {}).get("private_fit_required"):
+                raise
+            log.error("Private state unavailable; scraping continues without notification state")
 
 
 def _send_single_digest(store, cfg: dict, *, session=None, environ=None,
@@ -460,9 +475,10 @@ class _DestinationStore:
             sent[uid] = day
         # Bound retained delivery marks to currently active jobs. Tombstones
         # already protect recently pruned jobs from re-ingestion.
-        active = getattr(self.store, "_store", None)
+        underlying = getattr(self.store, "store", self.store)
+        active = getattr(underlying, "_store", None)
         if active is None:
-            active = self.store.load()
+            active = underlying.load()
         self.state["notified_uids"] = {u: d for u, d in sent.items() if u in active}
         self.persist(self.state)
         return len(uids)
@@ -472,7 +488,29 @@ def send_digest(store, cfg: dict, *, session=None, environ=None,
                 sleep=time.sleep, now=None) -> int:
     """Send to one legacy chat or several independently tracked audiences."""
     env = os.environ if environ is None else environ
+    if cfg.get("telegram", {}).get("private_fit_required"):
+        try:
+            from .source_evidence import fetch_public_text
+            from .private_state import cipher
+            profile, reviews = load_private(env)
+            cipher(env.get("JOB_FIT_STATE_KEY", ""))
+            # Validate/migrate persistence before any send; never silently reset it.
+            _load_state(store, cfg)
+            store = EligibleStore(store, profile, reviews, fetch_public_text)
+        except Exception:
+            log.error("Private eligibility unavailable; notifications withheld (no generic fallback)")
+            return 0
+    # Persist legacy delivery gates encrypted even when no suitable jobs exist.
+    if cfg.get("telegram", {}).get("private_fit_required"):
+        try:
+            _save_state(store, cfg, _load_state(store, cfg))
+        except Exception:
+            log.error("Private notification persistence unavailable; sends withheld")
+            return 0
     raw = (env.get("TELEGRAM_CHAT_IDS") or "").strip()
+    if not raw and cfg.get("telegram", {}).get("private_fit_required"):
+        log.error("Private fit requires independently tracked destinations; sends withheld")
+        return 0
     if not raw:
         return _send_single_digest(store, cfg, session=session, environ=env,
                                    sleep=sleep, now=now)

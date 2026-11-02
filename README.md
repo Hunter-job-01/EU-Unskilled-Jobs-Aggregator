@@ -523,3 +523,35 @@ Success in one chat cannot suppress a failed or newly added destination.
 In multi-destination mode the per-job legacy global notification flag is
 not used to decide delivery. Only destinations explicitly chosen by the
 owner should be configured; channel posting rights must be verified.
+
+## Private evidence-gated notifications
+
+The public dashboard is a broad job collection, **not a personalized shortlist**.
+Private Telegram delivery now requires complete reviewed source evidence in
+addition to a broad relevance score. Unknown or missing requirements do not pass.
+A permit mention is not sponsorship; an existing-work-permit requirement is not
+an offer to sponsor an overseas applicant. Training is not a waiver of language,
+licence or education requirements. Results are not padded to a fixed count.
+
+Private fit configuration uses repository secrets `JOB_FIT_PROFILE`,
+`JOB_FIT_REVIEWS`, and `JOB_FIT_STATE_KEY`. Never commit a real CV, profile,
+review ledger, plaintext delivery state, or fit outcomes. The private profile
+contains qualification criteria only, no name/contact details. Delivery state is
+authenticated-encrypted before persistence; existing audience gates and accepted
+job marks are preserved. Missing/invalid profile/key/state means no send, with no
+generic fallback. Do not rotate the encryption key without decrypting/migrating
+existing state first. Back up the key privately before changing it.
+
+Evidence reviews cover role, spoken language/level, licences, experience,
+education and authorization with exact source quotations. Preferred, waived,
+mandatory and unknown conditions are distinct. A reviewed source must be HTTPS,
+publicly accessible, unchanged and checked within 24 hours. New, changed, blocked
+or unreviewed vacancies are withheld. At most30 reviewed detail pages are checked
+per run with a two-second delay; redirects/challenges are not bypassed.
+
+**Coverage limitation:** the GitHub scraper does not autonomously prove complete
+eligibility from arbitrary multilingual job text. Positive matches require a
+separate fresh evidence review. Empty private review coverage intentionally sends
+zero vacancies, not generic jobs disguised as tailored matches. Operating an
+ongoing review/discovery service is separate work from this protective gate.
+Candidate-specific review work must stay private and preserve these boundaries.

@@ -1,0 +1,28 @@
+name: Verify private notification gate
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'src/eligibility.py'
+      - 'src/private_state.py'
+      - 'src/notifier.py'
+      - 'scripts/verify_private_gate.py'
+      - '.github/workflows/verify_private_gate.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests PyYAML 'cryptography>=44,<47' 'beautifulsoup4>=4.12,<5'
+      - name: Check real private configuration without sends or source requests
+        env:
+          JOB_FIT_PROFILE: ${{ secrets.JOB_FIT_PROFILE }}
+          JOB_FIT_REVIEWS: ${{ secrets.JOB_FIT_REVIEWS }}
+          JOB_FIT_STATE_KEY: ${{ secrets.JOB_FIT_STATE_KEY }}
+        run: python scripts/verify_private_gate.py
