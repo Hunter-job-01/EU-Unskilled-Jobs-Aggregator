@@ -1,15 +1,73 @@
 {
   "countries": {
-    "DE": {
+    "CZ": {
       "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
         "errors": [],
         "fetched": 50,
         "notes": [],
         "status": "ok"
       }
     },
+    "DE": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "HU": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 36,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "LT": {
+      "eures": {
+        "errors": [],
+        "fetched": 17,
+        "notes": [
+          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
+        ],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: LT not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      }
+    },
     "NL": {
       "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
         "errors": [],
         "fetched": 50,
         "notes": [],
@@ -22,33 +80,77 @@
         "fetched": 50,
         "notes": [],
         "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "RO": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 12,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "SK": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [
+          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
+        ],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: SK not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
       }
     }
   },
-  "duration_sec": 93.6,
-  "last_run_utc": "2026-11-02T12:42:57+00:00",
+  "duration_sec": 245.7,
+  "last_run_utc": "2026-11-02T13:13:58+00:00",
   "parameters": {
     "countries": [
       "PL",
+      "CZ",
       "DE",
+      "LT",
+      "HU",
+      "RO",
+      "SK",
       "NL"
     ],
     "max_jobs": 50,
     "min_score": 20,
     "sources": [
-      "eures"
+      "eures",
+      "jobspy"
     ],
     "tier": "1"
   },
   "totals": {
-    "active": 72,
-    "below_min_score": 5,
-    "excluded": 21,
-    "fetched": 150,
-    "new": 98,
+    "active": 323,
+    "below_min_score": 24,
+    "excluded": 196,
+    "fetched": 615,
+    "new": 268,
     "notified_telegram": 0,
-    "pruned": 26,
+    "pruned": 17,
     "translated_titles": 0,
-    "updated": 26
+    "updated": 101
   }
 }
