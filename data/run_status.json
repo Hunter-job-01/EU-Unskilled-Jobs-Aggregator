@@ -1,6 +1,6 @@
 {
   "countries": {
-    "CZ": {
+    "BE": {
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -14,7 +14,7 @@
         "status": "ok"
       }
     },
-    "DE": {
+    "ES": {
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -28,39 +28,7 @@
         "status": "ok"
       }
     },
-    "HU": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 36,
-        "notes": [],
-        "status": "ok"
-      }
-    },
-    "LT": {
-      "eures": {
-        "errors": [],
-        "fetched": 17,
-        "notes": [
-          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
-        ],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "indeed: LT not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
-      }
-    },
-    "NL": {
+    "FR": {
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -74,7 +42,7 @@
         "status": "ok"
       }
     },
-    "PL": {
+    "IE": {
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -88,7 +56,7 @@
         "status": "ok"
       }
     },
-    "RO": {
+    "IT": {
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -97,42 +65,36 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 12,
+        "fetched": 50,
         "notes": [],
         "status": "ok"
       }
     },
-    "SK": {
+    "PT": {
       "eures": {
         "errors": [],
         "fetched": 50,
-        "notes": [
-          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
-        ],
+        "notes": [],
         "status": "ok"
       },
       "jobspy": {
         "errors": [],
-        "fetched": 0,
-        "notes": [
-          "indeed: SK not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
       }
     }
   },
-  "duration_sec": 245.7,
-  "last_run_utc": "2026-11-02T13:13:58+00:00",
+  "duration_sec": 165.6,
+  "last_run_utc": "2026-11-02T13:17:04+00:00",
   "parameters": {
     "countries": [
-      "PL",
-      "CZ",
-      "DE",
-      "LT",
-      "HU",
-      "RO",
-      "SK",
-      "NL"
+      "ES",
+      "IT",
+      "FR",
+      "BE",
+      "PT",
+      "IE"
     ],
     "max_jobs": 50,
     "min_score": 20,
@@ -140,17 +102,17 @@
       "eures",
       "jobspy"
     ],
-    "tier": "1"
+    "tier": "2"
   },
   "totals": {
-    "active": 323,
-    "below_min_score": 24,
-    "excluded": 196,
-    "fetched": 615,
-    "new": 268,
+    "active": 581,
+    "below_min_score": 76,
+    "excluded": 236,
+    "fetched": 600,
+    "new": 277,
     "notified_telegram": 0,
-    "pruned": 17,
+    "pruned": 19,
     "translated_titles": 0,
-    "updated": 101
+    "updated": 11
   }
 }
