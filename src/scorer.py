@@ -138,15 +138,16 @@ class Scorer:
             signals.append("language_flex_keyword_mention")
             matched.extend(found_signals["language_flex"])
         if "agency_relocation" in found_signals:
+            # Text-evidence signal: the posting itself mentions agency or
+            # relocation words. A mention is evidence, never a benefit claim.
             points += s["agency_relocation_points"]
-            signals.append("agency_or_relocation_mention")
+            signals.append("agency_relocation_text_mention")
             matched.extend(found_signals["agency_relocation"])
         elif self.registry is not None and agency_origin:
-            # Origin-based agency signal (owner Step 3): a VERIFIED work
-            # agency source implies relocation/housing handling by origin,
-            # never a permit/sponsorship claim.
+            # Origin fact: the SOURCE is a verified employment agency. This
+            # says nothing about relocation, housing or permits.
             points += s["agency_relocation_points"]
-            signals.append("agency_or_relocation_mention")
+            signals.append("employment_agency_source")
 
         if negative:  # heavy penalty but role keywords still matched
             points -= s["negative_role_penalty"]

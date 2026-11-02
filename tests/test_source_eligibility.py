@@ -66,12 +66,13 @@ def test_agency_origin_boost(cfg):
     job = _job("nl_otto_workforce")
     job.country = "NL"
     scorer.score(job)
-    assert "agency_or_relocation_mention" in job.signals
+    assert "employment_agency_source" in job.signals
     assert "source_eligibility_unknown" in job.signals
     # official (PES) origin does NOT get the agency boost
     job2 = _job("pl_cbop")
     scorer.score(job2)
-    assert "agency_or_relocation_mention" not in job2.signals
+    assert "employment_agency_source" not in job2.signals
+    assert "agency_relocation_text_mention" not in job2.signals
     # and the boost is real points
     scorer_plain = Scorer(cfg)
     job3 = _job("nl_otto_workforce")

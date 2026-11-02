@@ -75,7 +75,9 @@ SIGNAL_CHIPS = [
     ("housing_keyword_mention", "\U0001F3E0 Housing"),
     ("permit_keyword_mention", "\U0001FAAA Permit"),
     ("language_flex_keyword_mention", "\U0001F5E3\uFE0F Lang Flex"),
-    ("agency_or_relocation_mention", "\U0001F3E2 Agency"),
+    ("employment_agency_source", "\U0001F3E2 Employment agency"),
+    ("agency_relocation_text_mention", "\U0001F3E2 Agency/relocation mentioned"),
+    ("agency_or_relocation_mention", "\U0001F3E2 Agency/relocation mentioned"),
 ]
 
 

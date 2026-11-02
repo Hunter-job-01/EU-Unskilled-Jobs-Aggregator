@@ -234,7 +234,7 @@ def test_format_job_full_layout():
         "location": "Berlin",
         "signals": ["no_exp_or_training_mention", "housing_keyword_mention",
                     "permit_keyword_mention", "language_flex_keyword_mention",
-                    "agency_or_relocation_mention"],
+                    "employment_agency_source"],
         "url": "https://example.test/apply",
     }
     out = format_job(record)
@@ -245,7 +245,7 @@ def test_format_job_full_layout():
     assert "Logi GmbH" in out and "Berlin" in out
     for chip in ("\U0001F393 No Exp / Training", "\U0001F3E0 Housing",
                  "\U0001FAAA Permit", "\U0001F5E3\uFE0F Lang Flex",
-                 "\U0001F3E2 Agency"):
+                 "\U0001F3E2 Employment agency"):
         assert chip in out
     assert 'href="https://example.test/apply"' in out
 

@@ -6,6 +6,7 @@ JSON schemas the pipeline writes, stay free of injection-prone patterns,
 and that pages.yml is wired to redeploy automatically after scheduled
 scrapes. They never run the workflows or publish anything.
 """
+import json
 import re
 import shutil
 import subprocess
@@ -203,7 +204,8 @@ def test_signal_chip_names_match_scorer():
     real_signals = set(re.findall(r'signals\.append\("([^"]+)"\)', scorer_src))
     for expected in ("permit_keyword_mention", "housing_keyword_mention",
                      "language_flex_keyword_mention",
-                     "agency_or_relocation_mention", "fresh_posting"):
+                     "agency_relocation_text_mention", "employment_agency_source",
+                     "fresh_posting"):
         assert expected in real_signals, \
             f"{expected} is not a real scorer signal - check scorer.py"
     index = INDEX.read_text(encoding="utf-8")
@@ -218,9 +220,25 @@ def test_signal_chip_names_match_scorer():
 
 
 def test_source_filter_values_match_scrapers():
+    """The Source filter is data-driven: app.js builds options from the
+    loaded jobs and labels them via SOURCE_LABELS. Every label key must be
+    a real scraper source id; the select itself ships only the default
+    'All sources' option in index.html."""
     index = INDEX.read_text(encoding="utf-8")
-    option_values = set(re.findall(r'<option value="(eures|jobspy_[a-z]+)"', index))
-    assert option_values == {"eures", "jobspy_indeed", "jobspy_linkedin"}
+    default_opts = re.findall(
+        r'<select id="filter-source"[^>]*>\s*<option value="([^"]*)">', index)
+    assert default_opts == [""], "filter-source must ship only the default option"
+    app = APPJS.read_text(encoding="utf-8")
+    labels_block = re.search(r'var SOURCE_LABELS = \{(.*?)\};', app, re.S)
+    assert labels_block, "app.js must define SOURCE_LABELS"
+    label_keys = set(re.findall(r'^\s*([a-z_]+):', labels_block.group(1), re.M))
+    assert {"eures", "jobspy_indeed", "jobspy_linkedin"} <= label_keys
+    # every label key is a source id some enabled scraper can emit
+    registry = json.loads((REPO_ROOT / "config" / "source_registry.json").read_text(encoding="utf-8"))
+    known = {"eures", "jobspy_indeed", "jobspy_linkedin", "ats_public"}
+    known |= {s.get("repo_adapter") for s in registry.get("sources", []) if isinstance(s, dict)}
+    unknown = label_keys - known
+    assert not unknown, f"SOURCE_LABELS keys with no matching source: {unknown}"
     # eures scraper sets source=self.name="eures"; jobspy sets
     # source="jobspy_{site}" - see src/scrapers/.
     for src_file, needle in (("eures_scraper.py", 'name = "eures"'),
