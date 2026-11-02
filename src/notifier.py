@@ -400,7 +400,7 @@ def _send_single_digest(store, cfg: dict, *, session=None, environ=None,
     if starving:
         log.warning("Telegram digest: skipping %d job(s) after %d failed "
                     "delivery attempts (left unnotified for manual review): %s",
-                    len(starving), MAX_JOB_FAILURES, ", ".join(starving[:5]))
+                    len(starving), MAX_JOB_FAILURES, "[private]" if tcfg.get("private_fit_required") else ", ".join(starving[:5]))
     jobs = [j for j in jobs if j["uid"] not in set(starving)][:max_jobs]
     if not jobs:
         log.info("Telegram digest: no unnotified jobs at score >= %d%s",

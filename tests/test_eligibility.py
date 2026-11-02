@@ -109,3 +109,16 @@ def test_filtered_empty_view_preserves_prior_marks(tmp_path):
     dest=_DestinationStore(view,state,lambda s:None)
     dest.mark_notified([])
     assert 'old' in state['notified_uids']
+
+def test_bad_encryption_key_fails_closed(tmp_path, monkeypatch):
+    from src.notifier import send_digest
+    key=Fernet.generate_key().decode()
+    (tmp_path/'telegram_state.json').write_text(json.dumps(seal({'destinations':{}},key)))
+    monkeypatch.setenv('JOB_FIT_STATE_KEY',Fernet.generate_key().decode())
+    class S:
+        data_dir=str(tmp_path)
+        _store={}
+    class Session:
+        def post(self,*a,**kw):raise AssertionError('must never send')
+    env={'JOB_FIT_PROFILE':json.dumps(PROFILE),'JOB_FIT_STATE_KEY':Fernet.generate_key().decode(),'TELEGRAM_BOT_TOKEN':'offline','TELEGRAM_CHAT_IDS':'1,2'}
+    assert send_digest(S(),{'telegram':{'private_fit_required':True}},environ=env,session=Session())==0
