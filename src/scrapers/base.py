@@ -2,10 +2,12 @@
 optional proxy fallback (never required), and polite randomized delays."""
 from __future__ import annotations
 
+import html
 import itertools
 import logging
 import os
 import random
+import re
 import time
 from dataclasses import dataclass, field
 
@@ -36,6 +38,9 @@ class ScrapeResult:
     jobs: list = field(default_factory=list)
     errors: list = field(default_factory=list)
     notes: list = field(default_factory=list)
+    # Optional honest counters for source-health reporting (Phase 1
+    # observability). Keys an adapter did not measure stay absent.
+    stats: dict = field(default_factory=dict)
 
     @property
     def fetched(self) -> int:
@@ -44,6 +49,17 @@ class ScrapeResult:
     def to_status(self) -> dict:
         return {"status": self.status, "fetched": self.fetched,
                 "errors": self.errors[:10], "notes": self.notes[:10]}
+
+
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def strip_html(text: str) -> str:
+    """Remove tags, unescape entities and collapse whitespace."""
+    if not text:
+        return ""
+    text = html.unescape(_TAG_RE.sub(" ", str(text)))
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def polite_sleep(delay_range) -> None:

@@ -24,7 +24,12 @@ from src.config import ConfigError, load_config, resolve_countries
 from src.keywords import KeywordMatrix
 from src.notifier import send_digest, ensure_state_file
 from src.scorer import Scorer, translate_titles
-from src.scrapers import EuresScraper, HttpClient, JobSpyScraper, polite_sleep
+from src import source_health
+from src.scrapers import (
+    ArbeitnowScraper, AtsPublicScraper, CzechMpsvScraper, EuresScraper,
+    HttpClient, JobSpyScraper, LatviaNvaScraper, SwedenJobSearchScraper,
+    polite_sleep,
+)
 from src.storage import JobStore
 
 log = logging.getLogger("aggregator")
@@ -72,9 +77,12 @@ def main(argv=None) -> int:
         return 2
 
     requested = {s.strip().lower() for s in args.sources.split(",") if s.strip()}
-    unknown = requested - {"eures", "jobspy"}
+    known_sources = {"eures", "jobspy", "arbeitnow", "sweden_jobsearch",
+                     "czech_mpsv", "latvia_nva", "ats_public"}
+    unknown = requested - known_sources
     if unknown:
-        log.error("unknown source(s): %s (valid: eures, jobspy)", ", ".join(sorted(unknown)))
+        log.error("unknown source(s): %s (valid: %s)", ", ".join(sorted(unknown)),
+                  ", ".join(sorted(known_sources)))
         return 2
 
     min_score = args.min_score
@@ -99,6 +107,18 @@ def main(argv=None) -> int:
         except ValueError as exc:
             log.error("%s", exc)
             return 2
+    # Opt-in expansion sources. Each is disabled in config by default and
+    # then reports itself "skipped" with a visible note - never silently.
+    if "arbeitnow" in requested:
+        scrapers.append(ArbeitnowScraper(cfg, http))
+    if "sweden_jobsearch" in requested:
+        scrapers.append(SwedenJobSearchScraper(cfg, http, matrix))
+    if "czech_mpsv" in requested:
+        scrapers.append(CzechMpsvScraper(cfg, http))
+    if "latvia_nva" in requested:
+        scrapers.append(LatviaNvaScraper(cfg, http))
+    if "ats_public" in requested:
+        scrapers.append(AtsPublicScraper(cfg, http))
 
     store = JobStore(cfg["storage"])
     ensure_state_file(store, cfg)
@@ -110,10 +130,13 @@ def main(argv=None) -> int:
     print("Running countries: {} | sources: {} | max-jobs/country/source: {}".format(
         ", ".join(country_list), ", ".join(s.name for s in scrapers), args.max_jobs))
 
+    health_records = []
     for idx, country in enumerate(country_list):
         statuses[country] = {}
         for scraper in scrapers:
+            t0 = time.time()
             result = scraper.scrape_country(country, args.max_jobs)
+            duration = time.time() - t0
             statuses[country][scraper.name] = result.to_status()
             totals["fetched"] += result.fetched
             kept = 0
@@ -127,6 +150,8 @@ def main(argv=None) -> int:
                     continue
                 scored_jobs.append(job)
                 kept += 1
+            health_records.append(
+                source_health.record_from_result(result, kept, duration))
             line = "  {} {:<7} {:<8} fetched={:<4} kept={}".format(
                 country, scraper.name, result.status, result.fetched, kept)
             print(line)
@@ -168,6 +193,14 @@ def main(argv=None) -> int:
         "countries": statuses,
     }
     store.write_run_status(run_status)
+
+    # Source-health observability (Phase 1): a separate additive file so
+    # failed/blocked/uncovered sources stay visible in coverage reports.
+    # Never touches job state or notification flags.
+    source_health.update_health(
+        store.data_dir,
+        "tier={} sources={}".format(args.tier, ",".join(sorted(requested))),
+        health_records)
 
     print("\nDone in {:.1f}s".format(time.time() - started))
     print("  fetched={fetched} excluded={excluded} below_min={below_min_score} "

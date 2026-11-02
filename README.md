@@ -43,6 +43,18 @@ genuine flexibility phrasing ("no language required") still counts. These
 are heuristics, not full NLP - unusual phrasing can still mislead, which
 is one more reason a score is a review hint, not a verdict.
 
+## Source expansion (2026-11-02)
+
+The researched 141-source EU27 catalogue and five new adapters (Sweden
+Platsbanken, Czech MPSV export, Latvia NVA CSV, Arbeitnow, employer ATS
+public boards) ship DISABLED by default: `config/source_registry.json`,
+`src/eu_location.py` (EU27 location grounding), `src/dedup.py` (identity
+evidence, no auto-merge), `src/source_health.py` (per-source run health in
+`data/source_health.json`), `scripts/coverage_report.py` and opt-in
+`scripts/probe_new_sources.py --live`. Activation of any source requires a
+live probe plus explicit owner approval. Details, probe results and rollback:
+`docs/source-expansion.md`; Arabic summary: `docs/source-expansion-ar.md`.
+
 ## Honest limitations - read before trusting the output
 
 - **A score is relevance evidence, not legal eligibility.** Keyword

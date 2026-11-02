@@ -1,14 +1,17 @@
-"""Scraper adapters. Each scraper is isolated: one source failing must
-never crash the run for other sources or countries."""
-from .base import HttpClient, ScrapeResult, ScraperError, polite_sleep
+"""Scraper package: EURES (primary), JobSpy/Indeed (secondary) and the
+opt-in expansion adapters (all disabled by default)."""
+from .base import HttpClient, ScrapeResult, ScraperError, polite_sleep, strip_html
 from .eures_scraper import EuresScraper
 from .jobspy_scraper import JobSpyScraper
+from .arbeitnow import ArbeitnowScraper
+from .sweden_jobsearch import SwedenJobSearchScraper
+from .czech_mpsv import CzechMpsvScraper
+from .latvia_nva import LatviaNvaScraper
+from .ats_public import AtsPublicScraper
 
 __all__ = [
-    "HttpClient",
-    "ScrapeResult",
-    "ScraperError",
-    "polite_sleep",
-    "EuresScraper",
-    "JobSpyScraper",
+    "HttpClient", "ScrapeResult", "ScraperError", "polite_sleep", "strip_html",
+    "EuresScraper", "JobSpyScraper",
+    "ArbeitnowScraper", "SwedenJobSearchScraper", "CzechMpsvScraper",
+    "LatviaNvaScraper", "AtsPublicScraper",
 ]

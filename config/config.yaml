@@ -400,3 +400,36 @@ storage:
   # workflow runs share it (main.py runs several times a day; the
   # digest itself is daily).
   telegram_state_file: telegram_state.json
+
+# ----------------- Source expansion (ALL DISABLED) -------------------
+# New sources catalogued by the 2026-11-02 source-registry research
+# (config/source_registry.json). Every entry is disabled by default.
+# Enabling one requires, in order: terms/licence re-verification, a
+# small live probe into an isolated store, and explicit owner approval.
+# No source here creates accounts, keys, billing or paid access; the
+# ATS route only ever reads public postings of reviewed employer boards.
+sources:
+  arbeitnow:
+    enabled: false
+    api_url: "https://www.arbeitnow.com/api/job-board-api"
+    max_pages: 2                      # bounded polite budget per run
+  sweden_jobsearch:
+    enabled: false                    # Platsbanken/JobTech, Sweden only
+    api_url: "https://jobsearch.api.jobtechdev.se/search"
+    keywords_per_country: 8
+    results_per_query: 25
+  czech_mpsv:
+    enabled: false                    # official daily export, Czechia only
+    # validated 2026-11-02 against volna-mista.schema.json; re-validate
+    # from current metadata before enabling
+    distribution_url: "https://data.mpsv.cz/od/soubory/volna-mista/volna-mista.json"
+    max_records: 5000                 # streamed, not loaded whole (~185MB export)
+  latvia_nva:
+    enabled: false                    # public-sector CSV only, Latvia only
+    package_id: "vakances"            # current CSV URL resolved from CKAN metadata
+    max_rows: 20000
+    max_stale_days: 14                # older newest-row => stale, reported
+  ats_public:
+    enabled: false                    # Greenhouse/Lever/SmartRecruiters PUBLIC postings
+    max_postings_per_tenant: 100
+    tenants: []                       # reviewed boards only; each needs evidence_url
