@@ -38,7 +38,7 @@ KNOWN_CATEGORIES = frozenset({
 # adapter module name -> activation gate that permits probing it
 IMPLEMENTED_ADAPTERS = frozenset({
     "arbeitnow", "sweden_jobsearch", "czech_mpsv", "latvia_nva", "ats_public",
-    "ottoworkforce", "anyworkanywhere", "pl_cbop",
+    "ottoworkforce", "anyworkanywhere", "pl_cbop", "nl_jobs",
 })
 
 ACTIVATION_GATES = frozenset({
