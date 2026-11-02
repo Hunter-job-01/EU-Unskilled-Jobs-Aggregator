@@ -67,6 +67,11 @@ on:
         required: true
         default: false
         type: boolean
+      no_notify:
+        description: 'Skip the Telegram digest for this run (verification runs)'
+        required: true
+        default: false
+        type: boolean
       force_channel_digest:
         description: "One-off owner-requested rerun: deliver today's digest to the private channel even though its daily digest already went out. The private chat is NOT forced and per-destination history/dedup is preserved."
         required: true
@@ -130,6 +135,7 @@ jobs:
           IN_MAX_JOBS: ${{ inputs.max_jobs }}
           IN_MIN_SCORE: ${{ inputs.min_score }}
           IN_NO_TRANSLATE: ${{ inputs.no_translate }}
+          IN_NO_NOTIFY: ${{ inputs.no_notify }}
           IN_FORCE_CHANNEL_DIGEST: ${{ inputs.force_channel_digest }}
         run: |
           set -euo pipefail
@@ -142,6 +148,7 @@ jobs:
             MAX_JOBS="$IN_MAX_JOBS"
             MIN_SCORE="$IN_MIN_SCORE"
             NO_TRANSLATE="$IN_NO_TRANSLATE"
+            NO_NOTIFY="$IN_NO_NOTIFY"
             FORCE_CHANNEL_DIGEST="$IN_FORCE_CHANNEL_DIGEST"
             RUN_LABEL="manual tier=$TIER"
           else
@@ -155,6 +162,8 @@ jobs:
             MAX_JOBS="50"
             MIN_SCORE="0"
             NO_TRANSLATE="false"
+            # Scheduled runs always notify through the normal daily gates.
+            NO_NOTIFY="false"
             # Scheduled runs never force an extra digest: the daily gate stands.
             FORCE_CHANNEL_DIGEST="false"
             case "$SCHEDULED_CRON" in
@@ -200,7 +209,11 @@ jobs:
           case "$SOURCES" in eures,jobspy|eures|jobspy|eures,jobspy,sweden_jobsearch,latvia_nva|eures,jobspy,arbeitnow,sweden_jobsearch,latvia_nva) ;; *) echo "::error::bad sources '$SOURCES'"; exit 1;; esac
           case "$MAX_JOBS" in ''|*[!0-9]*) echo "::error::max_jobs not a number"; exit 1;; esac
           case "$MIN_SCORE" in ''|*[!0-9]*) echo "::error::min_score not a number"; exit 1;; esac
+          case "$NO_NOTIFY" in true|false) ;; *) echo "::error::bad no_notify '$NO_NOTIFY'"; exit 1;; esac
           case "$FORCE_CHANNEL_DIGEST" in true|false) ;; *) echo "::error::bad force_channel_digest '$FORCE_CHANNEL_DIGEST'"; exit 1;; esac
+          if [ "$NO_NOTIFY" = "true" ] && [ "$FORCE_CHANNEL_DIGEST" = "true" ]; then
+            echo "::error::no_notify and force_channel_digest contradict each other"; exit 1
+          fi
           [ "$MAX_JOBS" -ge 1 ] && [ "$MAX_JOBS" -le 200 ] || { echo "::error::max_jobs out of range 1-200"; exit 1; }
           [ "$MIN_SCORE" -ge 0 ] && [ "$MIN_SCORE" -le 100 ] || { echo "::error::min_score out of range 0-100"; exit 1; }
 
@@ -208,6 +221,7 @@ jobs:
           [ -n "$COUNTRIES" ] && ARGS+=(--countries "$COUNTRIES")
           [ "$MIN_SCORE" -gt 0 ] && ARGS+=(--min-score "$MIN_SCORE")
           [ "$NO_TRANSLATE" = "true" ] && ARGS+=(--no-translate)
+          [ "$NO_NOTIFY" = "true" ] && ARGS+=(--no-notify)
 
           echo "Resolved: $RUN_LABEL -> python main.py ${ARGS[*]}"
           {
