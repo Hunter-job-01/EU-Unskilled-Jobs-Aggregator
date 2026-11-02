@@ -450,6 +450,10 @@ sources:
     enabled: true                    # NL-Jobs agency; sitemap + JobPosting JSON-LD probe-verified 2026-11-03
     sitemap_url: "https://www.nl-jobs.com/sitemap.xml"
     max_pages: 10                    # bounded polite budget per run
+  hobij:
+    enabled: true                    # HOBIJ agency; vacancy-sitemap + JobPosting JSON-LD probe-verified 2026-11-03
+    sitemap_url: "https://hobij.com/vacancy-sitemap.xml"
+    max_pages: 10                    # bounded polite budget per run
   ats_public:
     enabled: false                    # Greenhouse/Lever/SmartRecruiters PUBLIC postings
     max_postings_per_tenant: 100

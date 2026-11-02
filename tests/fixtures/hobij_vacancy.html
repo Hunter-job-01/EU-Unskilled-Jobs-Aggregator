@@ -1,0 +1,1181 @@
+<!doctype html>
+<html lang="nl-NL">
+<head>
+    <meta charset="utf-8">
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+    <!-- Start VWO Common Smartcode -->
+    <script data-jetpack-boost="ignore" type='text/javascript'>
+        var _vwo_clicks = 10;
+    </script>
+    <!-- End VWO Common Smartcode -->
+                    <!-- Start VWO Async SmartCode -->
+        <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com"/>
+        <script type='text/javascript' id="vwoCode" data-jetpack-boost="ignore">
+        window._vwo_code ||
+        (function () {
+        var w=window,
+        d=document;
+        var account_id=1110578,
+        version=2.2,
+        settings_tolerance=2000,
+        hide_element='body',
+        hide_element_style = 'opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important';
+        /* DO NOT EDIT BELOW THIS LINE */
+        var f=0, v;
+        if(f=!1,v=d.querySelector('#vwoCode'),cc={},-1<d.URL.indexOf('__vwo_disable__')||w._vwo_code)return;try{var e=JSON.parse(localStorage.getItem('_vwo_'+account_id+'_config'));cc=e&&'object'==typeof e?e:{}}catch(e){}function r(t){try{return decodeURIComponent(t)}catch(e){return t}}var s=function(){var e={combination:[],combinationChoose:[],split:[],exclude:[],uuid:null,consent:null,optOut:null},t=d.cookie||'';if(!t)return e;for(var n,i,o=/(?:^|;\s*)(?:(_vis_opt_exp_(\d+)_combi=([^;]*))|(_vis_opt_exp_(\d+)_combi_choose=([^;]*))|(_vis_opt_exp_(\d+)_split=([^:;]*))|(_vis_opt_exp_(\d+)_exclude=[^;]*)|(_vis_opt_out=([^;]*))|(_vwo_global_opt_out=[^;]*)|(_vwo_uuid=([^;]*))|(_vwo_consent=([^;]*)))/g;null!==(n=o.exec(t));)try{n[1]?e.combination.push({id:n[2],value:r(n[3])}):n[4]?e.combinationChoose.push({id:n[5],value:r(n[6])}):n[7]?e.split.push({id:n[8],value:r(n[9])}):n[10]?e.exclude.push({id:n[11]}):n[12]?e.optOut=r(n[13]):n[14]?e.optOut=!0:n[15]?e.uuid=r(n[16]):n[17]&&(i=r(n[18]),e.consent=i&&3<=i.length?i.substring(0,3):null)}catch(e){}return e}();function i(){var e=function(){if(w.VWO&&Array.isArray(w.VWO))for(var e=0;e<w.VWO.length;e++){var t=w.VWO[e];if(Array.isArray(t)&&('setVisitorId'===t[0]||'setSessionId'===t[0]))return!0}return!1}(),t='a='+account_id+'&u='+encodeURIComponent(w._vis_opt_url||d.URL)+'&vn='+version+'&ph=1'+('undefined'!=typeof platform?'&p='+platform:'')+'&st='+w.performance.now();e||((n=function(){var e,t=[],n={},i=w.VWO&&w.VWO.appliedCampaigns||{};for(e in i){var o=i[e]&&i[e].v;o&&(t.push(e+'-'+o+'-1'),n[e]=!0)}if(s&&s.combination)for(var r=0;r<s.combination.length;r++){var a=s.combination[r];n[a.id]||t.push(a.id+'-'+a.value)}return t.join('|')}())&&(t+='&c='+n),(n=function(){var e=[],t={};if(s&&s.combinationChoose)for(var n=0;n<s.combinationChoose.length;n++){var i=s.combinationChoose[n];e.push(i.id+'-'+i.value),t[i.id]=!0}if(s&&s.split)for(var o=0;o<s.split.length;o++)t[(i=s.split[o]).id]||e.push(i.id+'-'+i.value);return e.join('|')}())&&(t+='&cc='+n),(n=function(){var e={},t=[];if(w.VWO&&Array.isArray(w.VWO))for(var n=0;n<w.VWO.length;n++){var i=w.VWO[n];if(Array.isArray(i)&&'setVariation'===i[0]&&i[1]&&Array.isArray(i[1]))for(var o=0;o<i[1].length;o++){var r,a=i[1][o];a&&'object'==typeof a&&(r=a.e,a=a.v,r&&a&&(e[r]=a))}}for(r in e)t.push(r+'-'+e[r]);return t.join('|')}())&&(t+='&sv='+n)),s&&s.optOut&&(t+='&o='+s.optOut);var n=function(){var e=[],t={};if(s&&s.exclude)for(var n=0;n<s.exclude.length;n++){var i=s.exclude[n];t[i.id]||(e.push(i.id),t[i.id]=!0)}return e.join('|')}();return n&&(t+='&e='+n),s&&s.uuid&&(t+='&id='+s.uuid),s&&s.consent&&(t+='&consent='+s.consent),w.name&&-1<w.name.indexOf('_vis_preview')&&(t+='&pM=true'),w.VWO&&w.VWO.ed&&(t+='&ed='+w.VWO.ed),t}code={script:v,nonce:v&&v.nonce,library_tolerance:function(){return'undefined'!=typeof library_tolerance?library_tolerance:void 0},settings_tolerance:function(){return cc.sT||settings_tolerance},hide_element_style:function(){return'{'+(cc.hES||hide_element_style)+'}'},hide_element:function(){return performance.getEntriesByName('first-contentful-paint')[0]?'':'string'==typeof cc.hE?cc.hE:hide_element},getVersion:function(){return version},finish:function(e){var t;f||(f=!0,(t=d.getElementById('_vis_opt_path_hides'))&&t.parentNode.removeChild(t),e&&((new Image).src='https://dev.visualwebsiteoptimizer.com/ee.gif?a='+account_id+e))},finished:function(){return f},addScript:function(e){var t=d.createElement('script');t.type='text/javascript',e.src?t.src=e.src:t.text=e.text,v&&t.setAttribute('nonce',v.nonce),d.getElementsByTagName('head')[0].appendChild(t)},load:function(e,t){t=t||{};var n=new XMLHttpRequest;n.open('GET',e,!0),n.withCredentials=!t.dSC,n.responseType=t.responseType||'text',n.onload=function(){if(t.onloadCb)return t.onloadCb(n,e);200===n.status?_vwo_code.addScript({text:n.responseText}):_vwo_code.finish('&e=loading_failure:'+e)},n.onerror=function(){if(t.onerrorCb)return t.onerrorCb(e);_vwo_code.finish('&e=loading_failure:'+e)},n.send()},init:function(){var e,t=this.settings_tolerance();w._vwo_settings_timer=setTimeout(function(){_vwo_code.finish()},t),'body'!==this.hide_element()?(n=d.createElement('style'),e=(t=this.hide_element())?t+this.hide_element_style():'',t=d.getElementsByTagName('head')[0],n.setAttribute('id','_vis_opt_path_hides'),v&&n.setAttribute('nonce',v.nonce),n.setAttribute('type','text/css'),n.styleSheet?n.styleSheet.cssText=e:n.appendChild(d.createTextNode(e)),t.appendChild(n)):(n=d.getElementsByTagName('head')[0],(e=d.createElement('div')).style.cssText='z-index: 2147483647 !important;position: fixed !important;left: 0 !important;top: 0 !important;width: 100% !important;height: 100% !important;background: white !important;',e.setAttribute('id','_vis_opt_path_hides'),e.classList.add('_vis_hide_layer'),n.parentNode.insertBefore(e,n.nextSibling));var n='https://dev.visualwebsiteoptimizer.com/j.php?'+i();-1!==w.location.search.indexOf('_vwo_xhr')?this.addScript({src:n}):this.load(n+'&x=true',{l:1})}};w._vwo_code=code;code.init();})();
+        </script>
+        <!-- End VWO Async SmartCode -->
+
+        <link rel="alternate" href="https://hobij.com/nl/vacatures/5367-logistiek-medewerker-heftruckchauffeur/" hreflang="nl" />
+<link rel="alternate" href="https://hobij.com/vacancies/5370-logistics-employee-forklift-driver/" hreflang="en" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Logistiek medewerker / Heftruckchauffeur - €16,24 per uur - Hobij</title>
+	<link rel="canonical" href="https://hobij.com/nl/vacatures/5367-logistiek-medewerker-heftruckchauffeur/" />
+	<meta property="og:locale" content="nl_NL" />
+	<meta property="og:locale:alternate" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Logistiek medewerker / Heftruckchauffeur - €16,24 per uur - Hobij" />
+	<meta property="og:description" content="Heb jij een hef- en reachtruckcertificaat? En zoek je een fijne baan in de logistiek? Dan zoeken wij jou! Bij TB Brown in Den Dungen werk je in een gezellig team en zorg je ervoor dat alles in het magazijn goed loopt. Je krijgt een goed salaris, leuke extra&#039;s &eacute;n natuurlijk elke dag lekkere koffie.&nbsp;" />
+	<meta property="og:url" content="https://hobij.com/nl/vacatures/5367-logistiek-medewerker-heftruckchauffeur/" />
+	<meta property="og:site_name" content="Hobij" />
+	<meta property="article:modified_time" content="2026-10-27T10:16:10+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/hobij.com\/nl\/vacatures\/5367-logistiek-medewerker-heftruckchauffeur\/","url":"https:\/\/hobij.com\/nl\/vacatures\/5367-logistiek-medewerker-heftruckchauffeur\/","name":"Logistiek medewerker \/ Heftruckchauffeur - €16,24 per uur - Hobij","isPartOf":{"@id":"https:\/\/hobij.com\/nl\/#website"},"datePublished":"2026-06-26T10:12:53+00:00","dateModified":"2026-10-27T10:16:10+00:00","breadcrumb":{"@id":"https:\/\/hobij.com\/nl\/vacatures\/5367-logistiek-medewerker-heftruckchauffeur\/#breadcrumb"},"inLanguage":"nl-NL","potentialAction":[{"@type":"ReadAction","target":["https:\/\/hobij.com\/nl\/vacatures\/5367-logistiek-medewerker-heftruckchauffeur\/"]}]},{"@type":"BreadcrumbList","@id":"https:\/\/hobij.com\/nl\/vacatures\/5367-logistiek-medewerker-heftruckchauffeur\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/hobij.com\/nl\/"},{"@type":"ListItem","position":2,"name":"Logistiek medewerker \/ Heftruckchauffeur"}]},{"@type":"WebSite","@id":"https:\/\/hobij.com\/nl\/#website","url":"https:\/\/hobij.com\/nl\/","name":"Hobij","description":"The human driven agency","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/hobij.com\/nl\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"nl-NL"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='sbi_styles-css' href='https://hobij.com/app/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.11.3' media='all' />
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='theme-css-css' href='https://hobij.com/app/themes/hobij/dist/css/app.css?id=59f9bc463f9a6784e2894a3d03868c0f' media='all' />
+<script id="jquery-core-js" src="https://hobij.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://hobij.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="js.cookie-js" src="https://hobij.com/app/plugins/handl-utm-grabber/js/js.cookie.js?ver=7.0.2"></script>
+<script id="handl-utm-grabber-js-extra">
+var handl_utm = [];
+//# sourceURL=handl-utm-grabber-js-extra
+</script>
+<script id="handl-utm-grabber-js" src="https://hobij.com/app/plugins/handl-utm-grabber/js/handl-utm-grabber.js?ver=7.0.2"></script>
+<script id="tagging-domain-src-js-after">
+window.tagging_domain = "https://tagging.hobij.com";
+//# sourceURL=tagging-domain-src-js-after
+</script>
+<script id="tagging-gtm-script-js-after">
+(function(){function t(t,e,r){if("cookie"===t){var n=document.cookie.split(";");for(var o=0;o<n.length;o++){var i=n[o].split("=");if(i[0].trim()===e)return i[1]}}else if("localStorage"===t)return localStorage.getItem(e);else if("jsVariable"===t)return window[e];else console.warn("invalid uid source",t)}function e(e,r,n){var o=document.createElement("script");o.async=!0,o.src=r,e.insertBefore(o,n)}function r(r,n,o,i,a){var c,s=!1;try{var u=navigator.userAgent,f=/Version\/([0-9\._]+)(.*Mobile)?.*Safari.*/.exec(u);f&&parseFloat(f[1])>=16.4&&(c=t(o,i,""),s=!0)}catch(t){console.error(t)}var l=window[a]=window[a]||[];l.push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var g=r+"/UTQ2NDRQJmVu.js?sp="+n+(s?"&enableCK=true":"")+(c?"&mcookie="+encodeURIComponent(c):""),d=document.getElementsByTagName("script")[0];e(d.parentNode,g,d)}r("https://tagging.hobij.com","T4DHBJ48","cookie","_taggingmk","dataLayer")})();
+//# sourceURL=tagging-gtm-script-js-after
+</script>
+
+<script type="application/ld+json">
+    {
+        "@context" : "https://schema.org/",
+        "@type" : "JobPosting",
+        "title" : "Logistiek medewerker / Heftruckchauffeur",
+        "description" : "&lt;p&gt;Heb jij een hef- en reachtruckcertificaat? En zoek je een fijne baan in de logistiek? Dan zoeken wij jou! Bij TB Brown in Den Dungen werk je in een gezellig team en zorg je ervoor dat alles in het magazijn goed loopt. Je krijgt een goed salaris, leuke extra&#039;s &amp;eacute;n natuurlijk elke dag lekkere koffie.&amp;nbsp; &lt;/p&gt;
+&lt;h2&gt;Wat ga je doen?&lt;/h2&gt;
+&lt;p&gt; Als logistiek medewerker zorg jij ervoor dat producten en goederen op de juiste plek komen. Zo help je mee aan een soepel proces en goede koffie voor klanten in heel Europa. Je werkt samen met twee collega&#039;s op de afdeling logistiek.&amp;nbsp;&lt;br /&gt;
+Een greep uit de werkzaamheden:&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Je laadt en lost containers en vrachtwagens&lt;/li&gt;
+&lt;li&gt;Je brengt goederen naar de juiste afdeling&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Je zorgt dat de voorraad netjes en goed wordt opgeslagen in het magazijn&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp; &lt;/p&gt;
+&lt;h2&gt;Wat zijn de werktijden?&lt;/h2&gt;
+&lt;p&gt; Je werkt van maandag tot en met donderdag van 07:30 tot 16:00. Op vrijdagen werk je van 06:30 tot 15:00. Op tijd weekend, dus!&amp;nbsp; &lt;/p&gt;
+&lt;h2&gt;Wie ben jij?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Je hebt een heftruck- en reachtruckcertificaat&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Je hebt (v)mbo werk- en denkniveau&lt;/li&gt;
+&lt;li&gt;Je houdt van aanpakken en blijft rustig als het druk is&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Je werkt netjes, precies en veilig&lt;/li&gt;
+&lt;li&gt;Je denkt graag mee over hoe het werk beter kan&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Je kunt zelfstandig werken en vindt het leuk om in een internationaal team te werken&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Wat zal je krijgen?&lt;/h2&gt;
+&lt;p&gt; Als logistiek medewerker bij TB Brown verdien je een bruto uurloon van &amp;euro;15,06 per uur. Dit salaris wordt wekelijks op vrijdag uitbetaald.&amp;nbsp;&lt;br /&gt;
+En dat is natuurlijk niet alles:&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Een leuke baan in een gezond en groeiend bedrijf waar iedereen belangrijk is&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Goede extra voorwaarden, zoals reiskostenvergoeding, studieregelingen en pensioenopbouw&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Leuke extra&#039;s, zoals stoelmassages, fruit op het werk en bedrijfsuitjes&lt;/li&gt;
+&lt;li&gt;Een fijne en informele werksfeer met collega&#039;s die voor elkaar klaarstaan&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;En natuurlijk: elke dag goede koffie&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; Bij TB Brown draait alles om koffie. In Den Dungen werken ze met ongeveer 50 collega&#039;s aan het maken, mengen en verpakken van instant koffie. Die koffie gaat naar klanten in Nederland en in het buitenland. TB Brown heeft meer dan 30 jaar ervaring en weet precies wat ze doen. Kwaliteit, vernieuwing en duurzaamheid zijn belangrijk voor het bedrijf. De sfeer op de vloer is lekker informeel en iedereen mag meedenken. Zo zorgen alle collega&#039;s samen voor goede koffie &amp;eacute;n een fijne werkplek.&amp;nbsp;&lt;/p&gt;
+",
+        "identifier": {
+            "@type": "PropertyValue",
+            "name": "Hobij",
+            "value": "hobij-carerix-5367-nl"
+        },
+        "datePosted" : "2026-06-26",
+        "employmentType" : "OTHER",
+        "validThrough" : "2999-12-31T00:00:00+00:00",
+        "hiringOrganization" : {
+            "@type" : "Organization",
+            "name" : "Hobij"
+        },
+        "jobBenefits": "Als logistiek medewerker bij TB Brown verdien je een bruto uurloon van &euro;15,06 per uur. Dit salaris wordt wekelijks op vrijdag uitbetaald.&nbsp;
+En dat is natuurlijk niet alles:&nbsp;
+<ul>
+<li>Een leuke baan in een gezond en groeiend bedrijf waar iedereen belangrijk is&nbsp;</li>
+<li>Goede extra voorwaarden, zoals reiskostenvergoeding, studieregelingen en pensioenopbouw&nbsp;</li>
+<li>Leuke extra's, zoals stoelmassages, fruit op het werk en bedrijfsuitjes</li>
+<li>Een fijne en informele werksfeer met collega's die voor elkaar klaarstaan&nbsp;</li>
+<li>En natuurlijk: elke dag goede koffie&nbsp;</li>
+</ul>",
+        "skills": "<ul>
+<li>Je hebt een heftruck- en reachtruckcertificaat&nbsp;</li>
+<li>Je hebt (v)mbo werk- en denkniveau</li>
+<li>Je houdt van aanpakken en blijft rustig als het druk is&nbsp;</li>
+<li>Je werkt netjes, precies en veilig</li>
+<li>Je denkt graag mee over hoe het werk beter kan&nbsp;</li>
+<li>Je kunt zelfstandig werken en vindt het leuk om in een internationaal team te werken&nbsp;</li>
+</ul>",
+        "jobLocation": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Den Dungen",
+                "postalCode": ""
+            }
+        },
+        "baseSalary": {
+            "@type": "MonetaryAmount",
+            "currency": "EUR",
+            "value": {
+                "@type": "QuantitativeValue",
+                "value": 16.24,
+                "unitText": "HOUR"
+            }
+        }
+    }
+</script><script data-cookieconsent="ignore">
+    (function (w, d, s, p, i) {
+        var j = d.createElement(s);j.src = 'https://personalisatie.hobij.com/tracker.js';
+        j.async = true;d.head.appendChild(j);
+        j.setAttribute('tracker-url', 'https://personalisatie.hobij.com');
+        j.setAttribute('debug', '');
+        j.onload = function () {w[p].set({wid: i, d: false});}
+    })(window, document, 'script', 'personalization', '9f757fe3-8318-43e5-b257-9680640f619a')
+
+    window.addEventListener('personalization:init', function (e) {
+        window.personalization.trackPageView({
+            title: document.title,
+            url: window.location.href,
+            audiences: {"9f757fe3-8ff2-4586-9a8a-c74c34e8bbb0":5,"9f757fe3-91dc-4c4e-a7f0-aa7445f637eb":5},
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('[data-audience-ids]')
+                .forEach(function (element) {
+                    var audienceIds = element.dataset.audienceIds.split(';').filter(Boolean)
+                        .map(function (id) {
+                            return id.trim();
+                        });
+
+                    var visitorScope = e.detail.visitorProfile.scope;
+
+                    if (visitorScope === null) {
+                        if (audienceIds.length !== 0) {
+                            element.remove();
+                        }
+
+                        return;
+                    }
+
+                    if (!audienceIds.includes(visitorScope)) {
+                        element.remove();
+                    } else {
+                        element.style.display = 'block';
+                    }
+                });
+        });
+
+        const applyForms = document.querySelectorAll('.js-carerix-form');
+
+        applyForms.forEach(form => {
+            let firstInput = form.querySelector('input[type="text"], input[type="email"], input[type="tel"], textarea');
+            let eventSent = false;
+
+            firstInput.addEventListener('input', function () {
+                if (eventSent) {
+                    return;
+                }
+
+                eventSent = true;
+
+                window.personalization.trackInputStart({
+                    title: document.title,
+                    url: window.location.href,
+                    audiences: {
+                        [form.dataset.carerixAudienceId]: 5
+                    }
+                })
+            });
+        });
+
+        const facetTracking = ['facet_search_vacancy', 'facet_categories_vacancy', 'facet_location_vacancy'];
+
+        document.addEventListener('facetwp-loaded', function() {
+            facetTracking.forEach(function (facet) {
+                const selectedFacets = FWP.facets[facet];
+
+                if (selectedFacets.length === 0) {
+                    return;
+                }
+
+                window.personalization.trackFacetSelection({
+                    title: document.title,
+                    url: window.location.href,
+                    audiences: {
+                        "9f757fe3-8ff2-4586-9a8a-c74c34e8bbb0": 1
+                    }
+                });
+            });
+        });
+    });
+</script><meta name="tagging-version" content="2.3.5"><link rel="icon" href="https://hobij.com/app/uploads/2024/02/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://hobij.com/app/uploads/2024/02/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://hobij.com/app/uploads/2024/02/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://hobij.com/app/uploads/2024/02/cropped-favicon-270x270.png" />
+<style id="wp-custom-css">
+@media screen and (max-width: 768px){
+	.c-hero-home .hero-widget input[type=text]{
+color: #132C6B !important
+	
+}
+}
+
+main .c-featured-posts-all-vacancies .facetwp-type-pager{
+	white-space: nowrap;
+}
+
+main .c-featured-posts-all-vacancies .wrapper{
+	flex-wrap: wrap;
+	
+}
+
+
+
+@media screen and (max-width: 767px){
+	.content-single-faq__header .content h1{
+	font-size: 32px;
+}
+}
+
+
+main .c-vacancy-single iframe {
+	max-height:240px;
+}
+
+@media screen and (min-width: 640px){
+	
+main .c-vacancy-single iframe {
+	max-height:460px;
+}
+}
+
+.footer__navigation h3 {
+	text-transform: unset !important;
+}
+
+
+.page-id-2715 article time{
+	display: none;
+}
+
+.page-id-2715 article h3{
+	margin-top: 30px
+}
+
+.single-knowledge time{
+	display: none;
+
+}
+
+@media (min-width: 992px) {
+    main .c-featured-posts-all-knowledge .card-highlight article {
+        padding-bottom: 0;
+    }
+}
+
+.js-toggle-carerix-form {
+	display: none !important;
+}
+
+.c-gallery-feed .sbi{ 
+		    padding-inline: 15px !important;
+	}
+
+@media (min-width: 576px) {
+	.c-gallery-feed .sbi{ 
+		        max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.c-gallery-feed .sbi{ 
+		        max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.c-gallery-feed .sbi{ 
+		        max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.c-gallery-feed .sbi{ 
+		        max-width: 1140px;
+	}
+}
+
+@media (max-width: 768px) {
+	#sb_instagram #sbi_load {
+    flex-direction: column;
+	gap: 10px;
+}
+}
+
+
+.c-hero-vacancy__content a:hover {
+	color: #37A8DB;
+}
+
+.hentry.type-knowledge time {
+	display: none !important;
+}
+
+.c-last-viewed-jobs .buttons {
+	display: none !important;
+}
+
+.c-featured-posts-blog-news-article time {
+		display: none !important;
+
+}
+
+@media (max-width: 1200px) {
+	html[lang="nl-NL"] .single-vacancy .header__actions li:nth-child(3) {
+		display: none;
+	}
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+    main .c-vacancy-single iframe {
+        max-height: 315px !important;
+    }
+}
+
+main .c-content-image__content form legend {
+	color: rgba(var(--color-tertiary)) !important;
+	font-weight: 500 !important;
+}
+</style>
+
+    
+<!--    <script src="http://personalization.test/script.js" data-website-id="9d3e3c75-a424-4540-bac9-75c5e6e59f5a" defer></script>-->
+<!--    <script>-->
+<!--        trackPageView({-->
+<!--            websiteId: '9d3e3c75-a424-4540-bac9-75c5e6e59f5a',-->
+<!--            pageType: 'page',-->
+<!--            pageUrl: window.location.href,-->
+<!--            pageTitle: document.title,-->
+<!--        })-->
+<!--    </script>-->
+<link rel='stylesheet' id='dashicons-css' href='https://hobij.com/wp/wp-includes/css/dashicons.min.css?ver=7.0.2' media='all' />
+<link rel='stylesheet' id='gp-advanced-phone-field-css' href='https://hobij.com/app/plugins/gp-advanced-phone-field/styles/frontend.min.css?ver=1.1.10' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_reset-css' href='https://hobij.com/app/plugins/gravityforms/assets/css/dist/gravity-forms-theme-reset.min.css?ver=2.10.5' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_foundation-css' href='https://hobij.com/app/plugins/gravityforms/assets/css/dist/gravity-forms-theme-foundation.min.css?ver=2.10.5' media='all' />
+<link rel='stylesheet' id='gravity_forms_theme_framework-css' href='https://hobij.com/app/plugins/gravityforms/assets/css/dist/gravity-forms-theme-framework.min.css?ver=2.10.5' media='all' />
+<link rel='stylesheet' id='gravity_forms_orbital_theme-css' href='https://hobij.com/app/plugins/gravityforms/assets/css/dist/gravity-forms-orbital-theme.min.css?ver=2.10.5' media='all' />
+
+</head><body class="wp-singular vacancy-template-default single single-vacancy postid-3227401 wp-theme-hobij 5367-logistiek-medewerker-heftruckchauffeur">
+
+
+<div class="offcanvas">
+  <div class="offcanvas__container">
+            <ul class="offcanvas__container-language-switcher" style="position: absolute; right: 15px; top: 25px;">
+              
+        <li class="header__language-selector">
+        <span>
+            <img src="/app/plugins/polylang-pro/vendor/wpsyntex/polylang/flags/nl.png" alt="" width="24" height="24" class="flag">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </span>
+
+      <ul>
+                      <li>
+              <a href="https://hobij.com/vacancies/5370-logistics-employee-forklift-driver/">
+                <img src="/app/plugins/polylang-pro/vendor/wpsyntex/polylang/flags/us.png" alt="" width="24" height="24" class="flag">
+                  English              </a>
+            </li>
+                </ul>
+    </li>
+          </ul>
+          <ul class="offcanvas__navigation">
+                    <li id="menu-item-4001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4001"><a href="https://hobij.com/nl/home-employer/">Home</a></li>
+<li id="menu-item-4038" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4038"><a href="https://hobij.com/nl/vacatures/">Vacatures</a></li>
+<li id="menu-item-3868" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3868"><a href="https://hobij.com/nl/werkgevers/">Werkgevers</a>
+<ul class="sub-menu">
+	<li id="menu-item-3986" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3986"><a href="https://hobij.com/nl/werkgevers/">Werkgevers</a></li>
+	<li id="menu-item-2689895" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2689895"><a href="https://hobij.com/nl/vacature-aanmelden/">Vacature aanmelden</a></li>
+	<li id="menu-item-3966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3966"><a href="https://hobij.com/nl/werkgevers/ons-aanbod/">Ons aanbod</a>
+	<ul class="sub-menu">
+		<li id="menu-item-2694388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2694388"><a href="https://hobij.com/nl/werkgevers/ons-aanbod/">Ons aanbod</a></li>
+		<li id="menu-item-2694387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2694387"><a href="https://hobij.com/nl/werkgevers/uitzenden/">Uitzenden</a></li>
+		<li id="menu-item-2694385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2694385"><a href="https://hobij.com/nl/werkgevers/werving-selectie/">Werving en selectie</a></li>
+	</ul>
+</li>
+	<li id="menu-item-3872" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3872"><a href="https://hobij.com/nl/werkgevers/branches/">Branches</a>
+	<ul class="sub-menu">
+		<li id="menu-item-680837" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-680837"><a href="https://hobij.com/nl/branches/logistiek/">Logistiek</a></li>
+		<li id="menu-item-680838" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-680838"><a href="https://hobij.com/nl/branches/productie/">Productie</a></li>
+	</ul>
+</li>
+	<li id="menu-item-3865" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3865"><a href="https://hobij.com/nl/werkgevers/cases/">Cases</a></li>
+	<li id="menu-item-3866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3866"><a href="https://hobij.com/nl/werkgevers/blog/">Blog</a></li>
+</ul>
+</li>
+<li id="menu-item-3867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3867"><a href="https://hobij.com/nl/werkgevers/over-ons/">Over ons</a>
+<ul class="sub-menu">
+	<li id="menu-item-3988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3988"><a href="https://hobij.com/nl/werkgevers/over-ons/">Over ons</a></li>
+	<li id="menu-item-3869" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3869"><a href="https://hobij.com/nl/werken-bij-hobij/">Werken bij HOBIJ</a></li>
+</ul>
+</li>
+<li id="menu-item-3864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3864"><a href="https://hobij.com/nl/contact/">Contact</a></li>
+            </ul>
+  </div>
+</div>
+<header class="header">
+  <div class="header__wrapper">
+    <a class="header__logo" href="https://hobij.com/nl/">
+        <img class="logo-white" src="https://hobij.com/app/themes/hobij/dist/images/hobij-logo.svg?id=b0aebfd3646e516bfdac0977320b036e" alt="Hobij">
+        <img class="logo-dark" src="https://hobij.com/app/themes/hobij/dist/images/logo-hobij.svg?id=0525758b24c304f1cb9f662f7ccc44bd" alt="Hobij">
+    </a>
+
+    <ul class="header__navigation">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4001"><a href="https://hobij.com/nl/home-employer/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4038"><a href="https://hobij.com/nl/vacatures/">Vacatures</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3868"><a href="https://hobij.com/nl/werkgevers/">Werkgevers</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3986"><a href="https://hobij.com/nl/werkgevers/">Werkgevers</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2689895"><a href="https://hobij.com/nl/vacature-aanmelden/">Vacature aanmelden</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3966"><a href="https://hobij.com/nl/werkgevers/ons-aanbod/">Ons aanbod</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2694388"><a href="https://hobij.com/nl/werkgevers/ons-aanbod/">Ons aanbod</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2694387"><a href="https://hobij.com/nl/werkgevers/uitzenden/">Uitzenden</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2694385"><a href="https://hobij.com/nl/werkgevers/werving-selectie/">Werving en selectie</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3872"><a href="https://hobij.com/nl/werkgevers/branches/">Branches</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-680837"><a href="https://hobij.com/nl/branches/logistiek/">Logistiek</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-680838"><a href="https://hobij.com/nl/branches/productie/">Productie</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3865"><a href="https://hobij.com/nl/werkgevers/cases/">Cases</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3866"><a href="https://hobij.com/nl/werkgevers/blog/">Blog</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3867"><a href="https://hobij.com/nl/werkgevers/over-ons/">Over ons</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3988"><a href="https://hobij.com/nl/werkgevers/over-ons/">Over ons</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3869"><a href="https://hobij.com/nl/werken-bij-hobij/">Werken bij HOBIJ</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3864"><a href="https://hobij.com/nl/contact/">Contact</a></li>
+            </ul>
+
+      <ul class="header__actions-top d-none d-xl-block">
+                            
+        <li class="header__language-selector">
+        <span>
+            <img src="/app/plugins/polylang-pro/vendor/wpsyntex/polylang/flags/nl.png" alt="" width="24" height="24" class="flag">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </span>
+
+      <ul>
+                      <li>
+              <a href="https://hobij.com/vacancies/5370-logistics-employee-forklift-driver/">
+                <img src="/app/plugins/polylang-pro/vendor/wpsyntex/polylang/flags/us.png" alt="" width="24" height="24" class="flag">
+                  English              </a>
+            </li>
+                </ul>
+    </li>
+                    </ul>
+    <ul class="header__actions header__actions--floating d-xl-none">
+                <!--        --><!--            --><!--        -->      <li>
+        <a href="#" class="hover--stroke header__toggle nav" data-toggle-offcanvas>
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+          <span>menu</span>
+        </a>
+      </li>
+                <li>
+          <a href="#vacancy-form" class="btn btn--primary" data-header-apply-btn>Solliciteer nu</a>
+        </li>
+                        <li>
+            <a class="btn btn--primary" href="https://hobij.com/nl/contact/">Kennismaken</a>
+        </li>
+              <li>
+          <a href="tel:0413-870 000" class="hover--stroke phone">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+              </svg>
+              <span>bellen</span>
+          </a>
+      </li>
+    </ul>
+  </div>
+</header>
+<div class="share-link-modal">
+  <div class="share-link-modal__header d-flex justify-content-between">
+    <h2><strong>Pagina</strong> delen</h2>
+    <button data-trigger="close-modal-share" class="close-modal-share">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+      </svg>
+    </button>
+  </div>
+  <div class="share-link-modal__body d-flex justify-content-between">
+    <input type="text" name="url" id="" value="https://hobij.com/nl/vacatures/5367-logistiek-medewerker-heftruckchauffeur" class="form-control" readonly="readonly">
+    <a href="#" class="btn btn--primary copy-page-link" alt="Copy page link" data-copy-url>Kopieer</a>
+  </div>
+  <div class="share-link-modal__footer">
+    <div class="share-link-modal__footer--content">
+      <h3>Deel op</h3>
+    </div>
+    <div class="share-link-modal__footer--social-media d-flex justify-content-start" data-page-title="Logistiek medewerker / Heftruckchauffeur">
+        <a href="#" data-share="whatsapp" target="_blank" rel="nofollow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16.587" height="17.01">
+                <defs>
+                    <clipPath id="a">
+                        <path d="M0 0h16.587v17.01H0z" data-name="Rectangle 1961"/>
+                    </clipPath>
+                </defs>
+                <g data-name="Group 3740">
+                    <g clip-path="url(#a)" data-name="Group 3739">
+                        <path fill="#132C6B" d="M8.388 0A8.2 8.2 0 0 0 1.42 12.518L0 17.01l4.715-1.48A8.2 8.2 0 1 0 8.388 0m0 15.006a6.807 6.807 0 0 1-3.27-.837l-.26-.142-2.726.856.816-2.58-.19-.279a6.808 6.808 0 1 1 5.632 2.983" data-name="Path 8789"/>
+                        <path fill="#132C6B" d="m11.81 9.793-.86-.4a.751.751 0 0 0-.924.237l-.146.2a.793.793 0 0 1-.961.266 5.206 5.206 0 0 1-2.256-2.107.526.526 0 0 1 .072-.626l.139-.148a.925.925 0 0 0 .179-1l-.383-.9a1.016 1.016 0 0 0-1.657-.321 1.792 1.792 0 0 0-.559 1.668 9 9 0 0 0 2.422 3.813 6.871 6.871 0 0 0 3.565 1.7 1.985 1.985 0 0 0 1.679-.586 1.105 1.105 0 0 0-.308-1.793" data-name="Path 8790"/>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <a href="#" data-share="mail" target="_blank" rel="nofollow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17.042" height="12.617">
+                <path fill="none" stroke="#132C6B" stroke-width="1.2" d="M8.521 6.164.6 2.589v9.428h15.842V2.589ZM.6.6v1.989l7.921 3.575 7.921-3.575V.6Z" data-name="Path 8668"/>
+            </svg>
+        </a>
+        <a href="#" data-share="linkedin" target="_blank" rel="nofollow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15.901" height="15.825" data-name="Group 6352">
+                <path fill="#132C6B" d="M1.938 0a1.938 1.938 0 1 0 1.939 1.938A1.939 1.939 0 0 0 1.938 0" data-name="Path 7704"/>
+                <path fill="#132C6B" d="M.188 5.175h3.5v10.651h-3.5z" data-name="Rectangle 1849"/>
+                <path fill="#132C6B" d="M12.006 4.924a3.67 3.67 0 0 0-2.954 1.463V5.175h-3.5v10.651h3.5V9.587a1.658 1.658 0 0 1 1.731-1.69c.715 0 1.618.348 1.618 2.3v5.627h3.5v-7.5a3.637 3.637 0 0 0-3.9-3.4" data-name="Path 7705"/>
+            </svg>
+        </a>
+        <a href="#" data-share="instagram" target="_blank" rel="nofollow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                <g>
+                    <rect x="2" y="2" width="12" height="12" rx="3" fill="none" stroke="#132C6B" stroke-width="1.2"/>
+                    <circle cx="8" cy="8" r="3" fill="none" stroke="#132C6B" stroke-width="1.2"/>
+                    <circle cx="11.5" cy="4.5" r="0.7" fill="#132C6B"/>
+                </g>
+            </svg>
+        </a>
+        <a href="#" data-share="facebook" target="_blank" rel="nofollow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="7.887" height="15.825">
+                <path fill="#132C6B" d="M5.958 2.434c.717 0 1.93.011 1.93.011V.009s-.844-.021-1.951 0S2.109.114 2.109 3.32v2.066H0v2.53h2.109v7.908h3.015V7.917h2.467l.3-2.53H5.128V3.32s.116-.886.833-.886" data-name="Path 36074"/>
+            </svg>
+        </a>
+    </div>
+  </div>
+</div>
+
+<div class="modal-background">
+
+</div>
+    
+<main >
+    <div class="c-hero-vacancy">
+    <div class="c-hero-vacancy__background">
+        <div class="container">
+            <div class="c-hero-vacancy__image">
+                                                            <img src="https://hobij.com/app/uploads/2024/03/Dummy-vacature.png" alt="" class="desktop">
+                                    
+                                                            <img src="https://hobij.com/app/uploads/2024/03/Dummy-vacature.png" alt="" class="mobile">
+                                                </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="c-hero-vacancy__content">
+            <div class="row">
+                <div class="col-12 col-lg-10 ml-auto mr-auto">
+                                            <div class="btn-link">
+                            <a class="" href="https://hobij.com/nl/vacatures/" target="_self">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18.96" height="18.96" viewBox="0 0 18.96 18.96">
+                                    <g id="Group_18020" data-name="Group 18020" transform="translate(18.96 18.96) rotate(-180)">
+                                        <g id="Ellipse_62" data-name="Ellipse 62" transform="translate(0 0)" fill="none" stroke="#37a8db" stroke-width="1.5">
+                                            <circle cx="9.48" cy="9.48" r="9.48" stroke="none"/>
+                                            <circle cx="9.48" cy="9.48" r="8.73" fill="none"/>
+                                        </g>
+                                        <path id="Path_41293" data-name="Path 41293" d="M8.848,6.735,11.593,9.48,8.848,12.225" fill="none" stroke="#37a8db" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                    </g>
+                                </svg>
+                                Terug naar overzicht                            </a>
+                        </div>
+
+                                        
+                    <h1>Logistiek medewerker / Heftruckchauffeur</h1>
+                    <ul>
+                                                    <li>
+                                <img src="https://hobij.com/app/themes/hobij/dist/images/icon-money.svg?id=930f515f3a055b3dd1a465764cdba116" alt="">
+                                &euro; 16,24                            </li>
+                        
+                                                                                <li>
+                                <a href="https://hobij.com/vacatures?_facet_customer_vacancy=tb-brown#vacancies">
+                                    <img src="https://hobij.com/app/themes/hobij/dist/images/icon-flag.svg?id=03bdd04e7071d27e79332144432bc44f" alt="">
+                                    TB Brown                                </a>
+                            </li>
+                        
+                                                    <li>
+                                <img src="https://hobij.com/app/themes/hobij/dist/images/icon-location.svg?id=2d93a58b7ed003547b0ef5a5c23a95eb" alt="">
+                                Den Dungen                            </li>
+                                            </ul>
+
+
+                    <div class="c-hero-vacancy__buttons">
+                        <div>
+                            <a href="#vacancy-form"
+                               class="btn btn--primary apply-btn">Solliciteer nu</a>
+                            <a href="#" class="share-btn" data-trigger="share-modal">
+                                <svg class="icon-share" xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+                                    <g data-name="Group 18267">
+                                        <g class="st0-1" fill="#FFF" data-name="Path 49073">
+                                            <path d="M0 25a25 25 0 1 1 25 25A25 25 0 0 1 0 25Z"/>
+                                            <path class="st0-2" fill="rgba(19,44,107,0.25)"
+                                                  d="M2 25a22.926 22.926 0 0 0 6.737 16.263A22.926 22.926 0 0 0 25 48a22.926 22.926 0 0 0 16.263-6.737A22.926 22.926 0 0 0 48 25a22.926 22.926 0 0 0-6.737-16.263A22.926 22.926 0 0 0 25 2 22.926 22.926 0 0 0 8.737 8.737 22.926 22.926 0 0 0 2 25m-2 0C0 11.193 11.193 0 25 0s25 11.193 25 25-11.193 25-25 25S0 38.807 0 25Z"/>
+                                        </g>
+                                        <g fill="none" stroke="#132c6b" stroke-linecap="round" stroke-linejoin="round"
+                                           stroke-width="1.5" data-name="Group 4466">
+                                            <path class="st0-3"
+                                                  d="M21.522 23.097a2.691 2.691 0 1 1-3.806 0 2.691 2.691 0 0 1 3.806 0"
+                                                  data-name="Path 6033"/>
+                                            <path class="st0-3" d="m22.011 26.195 5.974 2.987" data-name="Line 56"/>
+                                            <path class="st0-3" d="m27.985 20.819-5.974 2.987" data-name="Line 57"/>
+                                            <path class="st0-3"
+                                                  d="M32.285 17.715a2.691 2.691 0 1 1-3.806 0 2.691 2.691 0 0 1 3.806 0"
+                                                  data-name="Path 6034"/>
+                                            <path class="st0-3"
+                                                  d="M32.285 28.475a2.691 2.691 0 1 1-3.806 0 2.691 2.691 0 0 1 3.806 0"
+                                                  data-name="Path 6035"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>
+
+                            <button class="like-btn" data-vacancy-id="3227401">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50">
+                                    <g data-name="Group 18564">
+                                        <g data-name="Group 18373">
+                                            <g data-name="Group 17917">
+                                                <g class="st0-1" fill="none" stroke="#C3CADA" stroke-width="1.5"
+                                                   data-name="Ellipse 46" transform="rotate(-90 25 25)">
+                                                    <circle cx="25" cy="25" r="25" stroke="none"/>
+                                                    <circle cx="25" cy="25" r="24.25"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <path class="st0-2" fill="none" stroke="#132c6b" stroke-width="1.5"
+                                              d="m18.486 26.573 6.246 6.245a.377.377 0 0 0 .534 0l6.245-6.245a4.393 4.393 0 0 0-6.211-6.214 2.221 2.221 0 0 0-.3.342s-.189-.23-.3-.342a4.394 4.394 0 0 0-6.214 6.214"
+                                              data-name="Path 49147"/>
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div>
+                            <a href="#vacancy-steps"
+                               class="btn btn--secondary">Sollicitatieproces</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="c-vacancy-single">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-10 ml-auto mr-auto">
+                <h2>Introductie</h2>
+                <p>Heb jij een hef- en reachtruckcertificaat? En zoek je een fijne baan in de logistiek? Dan zoeken wij jou! Bij TB Brown in Den Dungen werk je in een gezellig team en zorg je ervoor dat alles in het magazijn goed loopt. Je krijgt een goed salaris, leuke extra's &eacute;n natuurlijk elke dag lekkere koffie.&nbsp;</p>
+
+                <h2>Wat ga je doen?</h2>
+                <p>Als logistiek medewerker zorg jij ervoor dat producten en goederen op de juiste plek komen. Zo help je mee aan een soepel proces en goede koffie voor klanten in heel Europa. Je werkt samen met twee collega's op de afdeling logistiek.&nbsp;
+Een greep uit de werkzaamheden:&nbsp;
+<ul>
+<li>Je laadt en lost containers en vrachtwagens</li>
+<li>Je brengt goederen naar de juiste afdeling&nbsp;</li>
+<li>Je zorgt dat de voorraad netjes en goed wordt opgeslagen in het magazijn&nbsp;</li>
+</ul>
+&nbsp;</p>
+
+                <h2>Wat zijn de werktijden?</h2>
+                <p>Je werkt van maandag tot en met donderdag van 07:30 tot 16:00. Op vrijdagen werk je van 06:30 tot 15:00. Op tijd weekend, dus!&nbsp;</p>
+
+                <h2>Wie ben jij?</h2>
+                <p><ul>
+<li>Je hebt een heftruck- en reachtruckcertificaat&nbsp;</li>
+<li>Je hebt (v)mbo werk- en denkniveau</li>
+<li>Je houdt van aanpakken en blijft rustig als het druk is&nbsp;</li>
+<li>Je werkt netjes, precies en veilig</li>
+<li>Je denkt graag mee over hoe het werk beter kan&nbsp;</li>
+<li>Je kunt zelfstandig werken en vindt het leuk om in een internationaal team te werken&nbsp;</li>
+</ul></p>
+
+                <h2>Wat zal je krijgen?</h2>
+                <p>Als logistiek medewerker bij TB Brown verdien je een bruto uurloon van &euro;15,06 per uur. Dit salaris wordt wekelijks op vrijdag uitbetaald.&nbsp;
+En dat is natuurlijk niet alles:&nbsp;
+<ul>
+<li>Een leuke baan in een gezond en groeiend bedrijf waar iedereen belangrijk is&nbsp;</li>
+<li>Goede extra voorwaarden, zoals reiskostenvergoeding, studieregelingen en pensioenopbouw&nbsp;</li>
+<li>Leuke extra's, zoals stoelmassages, fruit op het werk en bedrijfsuitjes</li>
+<li>Een fijne en informele werksfeer met collega's die voor elkaar klaarstaan&nbsp;</li>
+<li>En natuurlijk: elke dag goede koffie&nbsp;</li>
+</ul></p>
+
+                <h2>Waar ga je werken?</h2>
+                <p>Bij TB Brown draait alles om koffie. In Den Dungen werken ze met ongeveer 50 collega's aan het maken, mengen en verpakken van instant koffie. Die koffie gaat naar klanten in Nederland en in het buitenland. TB Brown heeft meer dan 30 jaar ervaring en weet precies wat ze doen. Kwaliteit, vernieuwing en duurzaamheid zijn belangrijk voor het bedrijf. De sfeer op de vloer is lekker informeel en iedereen mag meedenken. Zo zorgen alle collega's samen voor goede koffie &eacute;n een fijne werkplek.&nbsp;</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="c-vacancy-steps" id="vacancy-steps">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-10 ml-auto mr-auto">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="c-vacancy-steps__header">
+                                <h2>Je <strong>sollicitatie</strong></h2>
+<p>Het proces in 6 simpele stappen.</p>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="c-vacancy-steps__content">
+                                <div class="c-vacancy-steps__content--wrapper">
+                                                                            <div class="step active">
+                                            <h4 data-vacancy-step="1">
+                                                <span>1</span>Solliciteren</h4>
+                                            <div class="content">
+                                                <p>Jij zet de eerste stap richting jouw toekomst door te solliciteren op een vacature.</p>
+                                            </div>
+                                        </div>
+                                                                                                                    <div class="step">
+                                            <h4 data-vacancy-step="2">
+                                                <span>2</span>Persoonlijk kennismaken</h4>
+                                            <div class="content">
+                                                <p>Dat doen we via een video call of op ons kantoor in Veghel.</p>
+                                            </div>
+                                        </div>
+                                                                                                                    <div class="step">
+                                            <h4 data-vacancy-step="3">
+                                                <span>3</span>Vaardigheden toetsen</h4>
+                                            <div class="content">
+                                                <p>Heb je specifieke vaardigheden nodig voor de functie? We zien je graag in actie.</p>
+                                            </div>
+                                        </div>
+                                                                                                                    <div class="step">
+                                            <h4 data-vacancy-step="4">
+                                                <span>4</span>Documenten ondertekenen</h4>
+                                            <div class="content">
+                                                <p>Tevreden met de voorwaarden? Tijd voor een (digitale) handtekening.</p>
+                                            </div>
+                                        </div>
+                                                                                                                    <div class="step">
+                                            <h4 data-vacancy-step="5">
+                                                <span>5</span>Vervoer en huisvesting</h4>
+                                            <div class="content">
+                                                <p><span style="font-weight: 400;">Jij regelt je vervoer naar Nederland, wij regelen &#8211; indien nodig &#8211; een woonruimte voor je.</span></p>
+                                            </div>
+                                        </div>
+                                                                                                                    <div class="step">
+                                            <h4 data-vacancy-step="6">
+                                                <span>6</span>Aan het werk</h4>
+                                            <div class="content">
+                                                <p>Jij gaat aan de slag bij de opdrachtgever. Succes met je nieuwe baan!</p>
+                                            </div>
+                                        </div>
+                                                                                                            </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-4 mt-md-0 col-md-6">
+
+                            <div class="c-vacancy-steps__gallery">
+                                                                    <figure class=" active"
+                                            data-vacancy-step-image="1">
+                                        <img src="https://hobij.com/app/uploads/2024/03/IMGL5100-scaled.jpg"
+                                             alt="">
+                                    </figure>
+                                                                                                        <figure class=""
+                                            data-vacancy-step-image="2">
+                                        <img src="https://hobij.com/app/uploads/2024/03/IMGL5135-scaled.jpg"
+                                             alt="">
+                                    </figure>
+                                                                                                        <figure class=""
+                                            data-vacancy-step-image="3">
+                                        <img src="https://hobij.com/app/uploads/2024/03/IMGL5402-scaled.jpg"
+                                             alt="">
+                                    </figure>
+                                                                                                        <figure class=""
+                                            data-vacancy-step-image="4">
+                                        <img src="https://hobij.com/app/uploads/2024/03/sollicitatieproces-scaled-e1710488972432.jpeg"
+                                             alt="">
+                                    </figure>
+                                                                                                        <figure class=""
+                                            data-vacancy-step-image="5">
+                                        <img src="https://hobij.com/app/uploads/2024/03/IMG_8499-1-e1710424031741.jpg"
+                                             alt="">
+                                    </figure>
+                                                                                                        <figure class=""
+                                            data-vacancy-step-image="6">
+                                        <img src="https://hobij.com/app/uploads/2024/03/IMGL5327-scaled.jpg"
+                                             alt="">
+                                    </figure>
+                                                                                                </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-10 ml-auto mr-auto">
+                            <div class="btn-link">
+                    <a class="" href="https://hobij.com/nl/vacatures/" target="_self">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18.96" height="18.96" viewBox="0 0 18.96 18.96">
+                            <g id="Group_18020" data-name="Group 18020" transform="translate(18.96 18.96) rotate(-180)">
+                                <g id="Ellipse_62" data-name="Ellipse 62" transform="translate(0 0)" fill="none" stroke="#37a8db" stroke-width="1.5">
+                                    <circle cx="9.48" cy="9.48" r="9.48" stroke="none"/>
+                                    <circle cx="9.48" cy="9.48" r="8.73" fill="none"/>
+                                </g>
+                                <path id="Path_41293" data-name="Path 41293" d="M8.848,6.735,11.593,9.48,8.848,12.225" fill="none" stroke="#37a8db" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                            </g>
+                        </svg>
+
+
+                        Terug naar overzicht                    </a>
+                </div>
+
+                    </div>
+    </div>
+</div>
+
+
+
+
+<div class="c-vacancy-form" id="vacancy-form">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-10 ml-auto mr-auto">
+                <h2>Solliciteer <span>vandaag</span></h2>
+
+                
+                
+                <div
+                    class="js-carerix-form d-block"
+                    data-carerix-audience-id="9f757fe3-91dc-4c4e-a7f0-aa7445f637eb"
+                >
+                                            
+                <div class='gf_browser_unknown gform_wrapper gform-theme gform-theme--foundation gform-theme--framework gform-theme--orbital' data-form-theme='orbital' data-form-index='0' id='gform_wrapper_1' style='display:none'><style>#gform_wrapper_1[data-form-index="0"].gform-theme,[data-parent-form="1_0"]{--gf-color-primary: #204ce5;--gf-color-primary-rgb: 32, 76, 229;--gf-color-primary-contrast: #fff;--gf-color-primary-contrast-rgb: 255, 255, 255;--gf-color-primary-darker: #001AB3;--gf-color-primary-lighter: #527EFF;--gf-color-secondary: #fff;--gf-color-secondary-rgb: 255, 255, 255;--gf-color-secondary-contrast: #112337;--gf-color-secondary-contrast-rgb: 17, 35, 55;--gf-color-secondary-darker: #F5F5F5;--gf-color-secondary-lighter: #FFFFFF;--gf-color-out-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-out-ctrl-light-rgb: 17, 35, 55;--gf-color-out-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-out-ctrl-light-lighter: #F5F5F5;--gf-color-out-ctrl-dark: #585e6a;--gf-color-out-ctrl-dark-rgb: 88, 94, 106;--gf-color-out-ctrl-dark-darker: #112337;--gf-color-out-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-color-in-ctrl: #fff;--gf-color-in-ctrl-rgb: 255, 255, 255;--gf-color-in-ctrl-contrast: #112337;--gf-color-in-ctrl-contrast-rgb: 17, 35, 55;--gf-color-in-ctrl-darker: #F5F5F5;--gf-color-in-ctrl-lighter: #FFFFFF;--gf-color-in-ctrl-primary: #204ce5;--gf-color-in-ctrl-primary-rgb: 32, 76, 229;--gf-color-in-ctrl-primary-contrast: #fff;--gf-color-in-ctrl-primary-contrast-rgb: 255, 255, 255;--gf-color-in-ctrl-primary-darker: #001AB3;--gf-color-in-ctrl-primary-lighter: #527EFF;--gf-color-in-ctrl-light: rgba(17, 35, 55, 0.1);--gf-color-in-ctrl-light-rgb: 17, 35, 55;--gf-color-in-ctrl-light-darker: rgba(104, 110, 119, 0.35);--gf-color-in-ctrl-light-lighter: #F5F5F5;--gf-color-in-ctrl-dark: #585e6a;--gf-color-in-ctrl-dark-rgb: 88, 94, 106;--gf-color-in-ctrl-dark-darker: #112337;--gf-color-in-ctrl-dark-lighter: rgba(17, 35, 55, 0.65);--gf-radius: 3px;--gf-font-size-secondary: 14px;--gf-font-size-tertiary: 13px;--gf-icon-ctrl-number: url("data:image/svg+xml,%3Csvg width='8' height='14' viewBox='0 0 8 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 0C4.26522 5.96046e-08 4.51957 0.105357 4.70711 0.292893L7.70711 3.29289C8.09763 3.68342 8.09763 4.31658 7.70711 4.70711C7.31658 5.09763 6.68342 5.09763 6.29289 4.70711L4 2.41421L1.70711 4.70711C1.31658 5.09763 0.683417 5.09763 0.292893 4.70711C-0.0976311 4.31658 -0.097631 3.68342 0.292893 3.29289L3.29289 0.292893C3.48043 0.105357 3.73478 0 4 0ZM0.292893 9.29289C0.683417 8.90237 1.31658 8.90237 1.70711 9.29289L4 11.5858L6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289C8.09763 9.68342 8.09763 10.3166 7.70711 10.7071L4.70711 13.7071C4.31658 14.0976 3.68342 14.0976 3.29289 13.7071L0.292893 10.7071C-0.0976311 10.3166 -0.0976311 9.68342 0.292893 9.29289Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-select: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.292893 0.292893C0.683417 -0.097631 1.31658 -0.097631 1.70711 0.292893L5 3.58579L8.29289 0.292893C8.68342 -0.0976311 9.31658 -0.0976311 9.70711 0.292893C10.0976 0.683417 10.0976 1.31658 9.70711 1.70711L5.70711 5.70711C5.31658 6.09763 4.68342 6.09763 4.29289 5.70711L0.292893 1.70711C-0.0976311 1.31658 -0.0976311 0.683418 0.292893 0.292893Z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-icon-ctrl-search: url("data:image/svg+xml,%3Csvg width='640' height='640' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M256 128c-70.692 0-128 57.308-128 128 0 70.691 57.308 128 128 128 70.691 0 128-57.309 128-128 0-70.692-57.309-128-128-128zM64 256c0-106.039 85.961-192 192-192s192 85.961 192 192c0 41.466-13.146 79.863-35.498 111.248l154.125 154.125c12.496 12.496 12.496 32.758 0 45.254s-32.758 12.496-45.254 0L367.248 412.502C335.862 434.854 297.467 448 256 448c-106.039 0-192-85.962-192-192z' fill='rgba(17, 35, 55, 0.65)'/%3E%3C/svg%3E");--gf-label-space-y-secondary: var(--gf-label-space-y-md-secondary);--gf-ctrl-border-color: #686e77;--gf-ctrl-size: var(--gf-ctrl-size-md);--gf-ctrl-label-color-primary: #112337;--gf-ctrl-label-color-secondary: #112337;--gf-ctrl-choice-size: var(--gf-ctrl-choice-size-md);--gf-ctrl-checkbox-check-size: var(--gf-ctrl-checkbox-check-size-md);--gf-ctrl-radio-check-size: var(--gf-ctrl-radio-check-size-md);--gf-ctrl-btn-font-size: var(--gf-ctrl-btn-font-size-md);--gf-ctrl-btn-padding-x: var(--gf-ctrl-btn-padding-x-md);--gf-ctrl-btn-size: var(--gf-ctrl-btn-size-md);--gf-ctrl-btn-border-color-secondary: #686e77;--gf-ctrl-file-btn-bg-color-hover: #EBEBEB;--gf-field-img-choice-size: var(--gf-field-img-choice-size-md);--gf-field-img-choice-card-space: var(--gf-field-img-choice-card-space-md);--gf-field-img-choice-check-ind-size: var(--gf-field-img-choice-check-ind-size-md);--gf-field-img-choice-check-ind-icon-size: var(--gf-field-img-choice-check-ind-icon-size-md);--gf-field-pg-steps-number-color: rgba(17, 35, 55, 0.8);}</style><div id='gf_1' class='gform_anchor' tabindex='-1'></div>
+                        <div class='gform_heading'>
+                            <p class='gform_description'></p>
+                        </div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/nl/vacatures/5367-logistiek-medewerker-heftruckchauffeur/#gf_1' data-formid='1' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_1_36" class="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_36'>X/Twitter</label><div class='ginput_container'><input name='input_36' id='input_1_36' type='text' value='' autocomplete='new-password'/></div><div class='gfield_description' id='gfield_description_1_36'>Dit veld is bedoeld voor validatiedoeleinden en moet niet worden gewijzigd.</div></div><div id="field_1_17" class="gfield gfield--type-hidden gfield--input-type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_17' id='input_1_17' type='hidden' class='gform_hidden'  aria-invalid="false" value='5367' /></div></div><div id="field_1_27" class="gfield gfield--type-hidden gfield--input-type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_27' id='input_1_27' type='hidden' class='gform_hidden'  aria-invalid="false" value='8461' /></div></div><div id="field_1_28" class="gfield gfield--type-hidden gfield--input-type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_28' id='input_1_28' type='hidden' class='gform_hidden'  aria-invalid="false" value='10661' /></div></div><div id="field_1_34" class="gfield gfield--type-hidden gfield--input-type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_34' id='input_1_34' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_1_30" class="gfield gfield--type-hidden gfield--input-type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_30' id='input_1_30' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_1_31" class="gfield gfield--type-hidden gfield--input-type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_31' id='input_1_31' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_1_33" class="gfield gfield--type-hidden gfield--input-type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_33' id='input_1_33' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><fieldset id="field_1_3" class="gfield gfield--type-name gfield--input-type-name gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><legend class='gfield_label gform-field-label gfield_label_before_complex' >Naam<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></legend><div class='ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name gform-grid-row' id='input_1_3'>
+                            
+                            <span id='input_1_3_3_container' class='name_first gform-grid-col gform-grid-col--size-auto' >
+                                                    <input type='text' name='input_3.3' id='input_1_3_3' value=''   aria-required='true'     />
+                                                    <label for='input_1_3_3' class='gform-field-label gform-field-label--type-sub '>Voornaam</label>
+                                                </span>
+                            
+                            <span id='input_1_3_6_container' class='name_last gform-grid-col gform-grid-col--size-auto' >
+                                                    <input type='text' name='input_3.6' id='input_1_3_6' value=''   aria-required='true'     />
+                                                    <label for='input_1_3_6' class='gform-field-label gform-field-label--type-sub '>Achternaam</label>
+                                                </span>
+                            
+                        </div></fieldset><div id="field_1_4" class="gfield gfield--type-email gfield--input-type-email gfield--width-half gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_4'>E-mailadres<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_4' id='input_1_4' type='email' value='' class='large'    aria-required="true" aria-invalid="false"  />
+                        </div></div><div id="field_1_5" class="gfield gfield--type-phone gfield--input-type-phone gfield--width-half gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_5'>Telefoon<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_phone'><input name='input_5' id='input_1_5' type='tel' value='' class='large'   aria-required="true" aria-invalid="false"   /></div></div><div id="field_1_35" class="gfield gfield--type-select gfield--input-type-select gfield--width-full field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_35'>Ik werk al voor HOBIJ / ik heb eerder voor HOBIJ gewerkt</label><div class='ginput_container ginput_container_select'><select name='input_35' id='input_1_35' class='large gfield_select'     aria-invalid="false" ><option value='Ja' >Ja</option><option value='Nee' selected='selected'>Nee</option></select></div></div><div id="field_1_29" class="gfield gfield--type-select gfield--input-type-select gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_29'>Wat is je moedertaal?<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_select'><select name='input_29' id='input_1_29' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>-- Selecteer optie --</option><option value='dutch' >Nederlands</option><option value='english' >Engels</option><option value='portuguese' >Portugees</option><option value='german' >Duits</option><option value='polish' >Pools</option><option value='spanish' >Spaans</option><option value='romanian' >Roemeens</option><option value='bulgaria' >Bulgaars</option><option value='lithuania' >Litouws</option><option value='latvia' >Lets</option><option value='croatia' >Kroatisch</option><option value='ukrainian' >Oekraïens</option><option value='other' >Overige</option></select></div></div><div id="field_1_18" class="gfield gfield--type-select gfield--input-type-select gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_18'>Rijbewijs<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_select'><select name='input_18' id='input_1_18' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>-- Selecteer optie --</option><option value='yes' >Ja</option><option value='no' >Nee</option></select></div></div><div id="field_1_8" class="gfield gfield--type-select gfield--input-type-select gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_8'>Nationaliteit<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_select'><select name='input_8' id='input_1_8' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>-- Selecteer optie --</option><option value='belgium' >België</option><option value='bulgaria' >Bulgarije</option><option value='cyprus' >Cyprus</option><option value='denmark' >Denemarken</option><option value='germany' >Duitsland</option><option value='estonia' >Estland</option><option value='finland' >Finland</option><option value='france' >Frankrijk</option><option value='greece' >Griekenland</option><option value='hungary' >Hongarije</option><option value='ireland' >Ierland</option><option value='italy' >Italië</option><option value='croatia' >Kroatië</option><option value='latvia' >Letland</option><option value='lithuania' >Litouwen</option><option value='luxembourg' >Luxemburg</option><option value='malta' >Malta</option><option value='netherlands' >Nederland</option><option value='austria' >Oostenrijk</option><option value='poland' >Polen</option><option value='portugal' >Portugal</option><option value='romania' >Roemenië</option><option value='slovenia' >Slovenië</option><option value='slovakia' >Slowakije</option><option value='spain' >Spanje</option><option value='czech republic' >Tsjechië</option><option value='sweden' >Zweden</option><option value='other' >Overig</option></select></div></div><div id="field_1_19" class="gfield gfield--type-select gfield--input-type-select gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_19'>Heb je een werkvergunning?<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_select'><select name='input_19' id='input_1_19' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>-- Selecteer optie --</option><option value='yes' >Ja</option><option value='no' selected='selected'>Nee</option></select></div></div><div id="field_1_21" class="gfield gfield--type-multiselect gfield--input-type-multiselect gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_21'>Voor welke landen?<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_multiselect'><select multiple='multiple' data-placeholder='Klik om te selecteren...' size='7' name='input_21[]' id='input_1_21' class='large gfield_select'   aria-invalid="false" aria-required="true" ><option value='belgium' >België</option><option value='bulgaria' >Bulgarije</option><option value='cyprus' >Cyprus</option><option value='denmark' >Denemarken</option><option value='germany' >Duitsland</option><option value='estonia' >Estland</option><option value='finland' >Finland</option><option value='france' >Frankrijk</option><option value='greece' >Griekenland</option><option value='hungary' >Hongarije</option><option value='ireland' >Ierland</option><option value='italy' >Italië</option><option value='croatia' >Kroatië</option><option value='latvia' >Letland</option><option value='lithuania' >Litouwen</option><option value='luxembourg' >Luxemburg</option><option value='malta' >Malta</option><option value='netherlands' >Nederland</option><option value='austria' >Oostenrijk</option><option value='poland' >Polen</option><option value='portugal' >Portugal</option><option value='romania' >Roemenië</option><option value='slovenia' >Slovenië</option><option value='slovakia' >Slowakije</option><option value='spain' >Spanje</option><option value='czech republic' >Tsjechië</option><option value='sweden' >Zweden</option><option value='other' >Overig</option></select></div></div><div id="field_1_14" class="gfield gfield--type-select gfield--input-type-select gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_14'>Waar woon je op dit moment?<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_select'><select name='input_14' id='input_1_14' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>-- Selecteer optie --</option><option value='belgium' >België</option><option value='bulgaria' >Bulgarije</option><option value='cyprus' >Cyprus</option><option value='denmark' >Denemarken</option><option value='germany' >Duitsland</option><option value='estonia' >Estland</option><option value='finland' >Finland</option><option value='france' >Frankrijk</option><option value='greece' >Griekenland</option><option value='hungary' >Hongarije</option><option value='ireland' >Ierland</option><option value='italy' >Italië</option><option value='croatia' >Kroatië</option><option value='latvia' >Letland</option><option value='lithuania' >Litouwen</option><option value='luxembourg' >Luxemburg</option><option value='malta' >Malta</option><option value='netherlands' >Nederland</option><option value='austria' >Oostenrijk</option><option value='poland' >Polen</option><option value='portugal' >Portugal</option><option value='romania' >Roemenië</option><option value='slovenia' >Slovenië</option><option value='slovakia' >Slowakije</option><option value='spain' >Spanje</option><option value='czech republic' >Tsjechië</option><option value='sweden' >Zweden</option><option value='other' >Overig</option></select></div></div><div id="field_1_9" class="gfield gfield--type-text gfield--input-type-text gfield--width-third gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_9'>Straatnaam<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_text'><input name='input_9' id='input_1_9' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /></div></div><div id="field_1_10" class="gfield gfield--type-text gfield--input-type-text gfield--width-third gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_10'>Huisnummer<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_text'><input name='input_10' id='input_1_10' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /></div></div><div id="field_1_11" class="gfield gfield--type-text gfield--input-type-text gfield--width-third field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_11'>Huisnummer toev.</label><div class='ginput_container ginput_container_text'><input name='input_11' id='input_1_11' type='text' value='' class='large'      aria-invalid="false"   /></div></div><div id="field_1_12" class="gfield gfield--type-text gfield--input-type-text gfield--width-half gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_12'>Postcode<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_text'><input name='input_12' id='input_1_12' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /></div></div><div id="field_1_13" class="gfield gfield--type-text gfield--input-type-text gfield--width-half gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_13'>Plaatsnaam<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_text'><input name='input_13' id='input_1_13' type='text' value='' class='large'     aria-required="true" aria-invalid="false"   /></div></div><div id="field_1_22" class="gfield gfield--type-select gfield--input-type-select gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_22'>Wil je dat HOBIJ voor accommodatie zorgt?<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_select'><select name='input_22' id='input_1_22' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>-- Selecteer optie --</option><option value='yes' >Ja</option><option value='no' >Nee</option></select></div></div><div id="field_1_23" class="gfield gfield--type-select gfield--input-type-select gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_23'>Heb je een CV?<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_select'><select name='input_23' id='input_1_23' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='' selected='selected' class='gf_placeholder'>-- Selecteer optie --</option><option value='yes' >Ja</option><option value='no' >Nee</option></select></div></div><div id="field_1_15" class="gfield gfield--type-fileupload gfield--input-type-fileupload gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_15'>C.V.<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></label><div class='ginput_container ginput_container_fileupload'><input type='hidden' name='MAX_FILE_SIZE' value='5242880' /><input name='input_15' id='input_1_15' type='file' class='large' aria-describedby="gfield_upload_rules_1_15" onchange='javascript:gformValidateFileSize( this, 5242880 );'  /><span class='gfield_description gform_fileupload_rules' id='gfield_upload_rules_1_15'>Toegestane bestandstypen: pdf, doc, docx, png, Max. bestandsgrootte: 5 MB.</span><div class='gfield_description validation_message gfield_validation_message validation_message--hidden-on-empty' id='live_validation_message_1_15'></div> </div></div><fieldset id="field_1_25" class="gfield gfield--type-list gfield--input-type-list gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><legend class='gfield_label gform-field-label gfield_label_before_complex' >Talen &amp; niveaus<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></legend><div class='ginput_container ginput_container_list ginput_list ginput_container_list--columns'><div class='gfield_list gfield_list_container'><div class="gfield_list_header gform-grid-row"><div class="gform-field-label gfield_header_item gform-grid-col">Taal</div><div class="gform-field-label gfield_header_item gform-grid-col">Niveau</div><div class="gfield_header_item gfield_header_item--icons gform-grid-col">&nbsp;</div></div><div class="gfield_list_groups"><div class='gfield_list_row_odd gfield_list_group gform-grid-row'><div class='gfield_list_group_item gfield_list_cell gfield_list_25_cell1 gform-grid-col' data-label='Taal'><select name='input_25[]'   aria-invalid='false' aria-required="true"  aria-label='Taal, Rij 1' data-aria-label-template='Taal, Rij {0}'><option value='' >-- Selecteer optie --</option><option value='dutch' >Nederlands</option><option value='english' >Engels</option><option value='portuguese' >Portugees</option><option value='german' >Duits</option><option value='polish' >Pools</option><option value='spanish' >Spaans</option><option value='romanian' >Roemeens</option><option value='bulgaria' >Bulgarije</option><option value='lithuania' >Litouwen</option><option value='latvia' >Letland</option><option value='croatia' >Kroatië</option><option value='ukrainian' >Oekraïens</option></select></div><div class='gfield_list_group_item gfield_list_cell gfield_list_25_cell2 gform-grid-col' data-label='Niveau'><select name='input_25[]'   aria-invalid='false' aria-required="true"  aria-label='Niveau, Rij 1' data-aria-label-template='Niveau, Rij {0}'><option value='' >-- Selecteer optie --</option><option value='a0' >A0</option><option value='a1' >A1</option><option value='a2' >A2</option><option value='b1' >B1</option><option value='b2' >B2</option><option value='c1' >C1</option><option value='c2' >C2</option></select></div><div class='gfield_list_icons gform-grid-col'>   <button type='button'  class='add_list_item ' aria-label='Nog een rij toevoegen' onclick='gformAddListItem(this, 0)'>Toevoegen</button>   <button type='button'  class='delete_list_item' aria-label='Verwijder rij 1' data-aria-label-template='Verwijder rij {0}' onclick='gformDeleteListItem(this, 0)' style="visibility:hidden;">Verwijder</button></div></div></div></div></div></fieldset><fieldset id="field_1_26" class="gfield gfield--type-list gfield--input-type-list gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><legend class='gfield_label gform-field-label gfield_label_before_complex' >Werkervaring<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></legend><div class='ginput_container ginput_container_list ginput_list ginput_container_list--columns'><div class='gfield_list gfield_list_container'><div class="gfield_list_header gform-grid-row"><div class="gform-field-label gfield_header_item gform-grid-col">Werkgever</div><div class="gform-field-label gfield_header_item gform-grid-col">Functie</div><div class="gform-field-label gfield_header_item gform-grid-col">Datum vanaf</div><div class="gform-field-label gfield_header_item gform-grid-col">Datum tot</div><div class="gfield_header_item gfield_header_item--icons gform-grid-col">&nbsp;</div></div><div class="gfield_list_groups"><div class='gfield_list_row_odd gfield_list_group gform-grid-row'><div class='gfield_list_group_item gfield_list_cell gfield_list_26_cell1 gform-grid-col' data-label='Werkgever'><input aria-invalid='false' aria-required="true"  aria-label='Werkgever, Rij 1' data-aria-label-template='Werkgever, Rij {0}' type='text' name='input_26[]' value=''   /></div><div class='gfield_list_group_item gfield_list_cell gfield_list_26_cell2 gform-grid-col' data-label='Functie'><input aria-invalid='false' aria-required="true"  aria-label='Functie, Rij 1' data-aria-label-template='Functie, Rij {0}' type='text' name='input_26[]' value=''   /></div><div class='gfield_list_group_item gfield_list_cell gfield_list_26_cell3 gform-grid-col' data-label='Datum vanaf'><input type="date" name="input_26[]" "/></div><div class='gfield_list_group_item gfield_list_cell gfield_list_26_cell4 gform-grid-col' data-label='Datum tot'><input type="date" name="input_26[]" "/></div><div class='gfield_list_icons gform-grid-col'>   <button type='button'  class='add_list_item ' aria-label='Nog een rij toevoegen' onclick='gformAddListItem(this, 0)'>Toevoegen</button>   <button type='button'  class='delete_list_item' aria-label='Verwijder rij 1' data-aria-label-template='Verwijder rij {0}' onclick='gformDeleteListItem(this, 0)' style="visibility:hidden;">Verwijder</button></div></div></div></div></div></fieldset><fieldset id="field_1_16" class="gfield gfield--type-consent gfield--type-choice gfield--input-type-consent gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  ><legend class='gfield_label gform-field-label gfield_label_before_complex' >Instemming<span class="gfield_required"><span class="gfield_required gfield_required_text">(Vereist)</span></span></legend><div class='ginput_container ginput_container_consent'><input name='input_16.1' id='input_1_16_1' type='checkbox' value='1'   aria-required="true" aria-invalid="false"   /> <label class="gform-field-label gform-field-label--type-inline gfield_consent_label" for='input_1_16_1' >Ik ga akkoord met het privacybeleid.<span class="gfield_required gfield_required_text">(Vereist)</span></label><input type='hidden' name='input_16.2' value='Ik ga akkoord met het privacybeleid.' class='gform_hidden' /><input type='hidden' name='input_16.3' value='1' class='gform_hidden' /></div></fieldset></div></div>
+        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='Solliciteer'  /> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=1&amp;tabindex=0&amp;theme=orbital&amp;styles=[]&amp;hash=8a38e468e359bddc802287191f557688' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_1' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_1' id='gform_theme_1' value='orbital' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='EUR' value='0l0/V70aZ3sJL05ruaquoRPeK8aNOVBDtwd0IiMz3b290yFelsSVpNp24VAp2P9cx3mFDsqes6gRXL9su78l3Z9IaL5ncaBH/3FR3EdRuOMARoQ=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJ7XCIzNVwiOltcIjgxMGVhNTFhMjQ0ZWNiNTQ1Y2Q2ZWFiMjBkYzM0N2NlXCIsXCIxYjgyMDdmYzhlM2ZjOTg2MzRiNGYyMWM4Mjg3YTk0MlwiXSxcIjI5XCI6W1wiOGE4NTZlY2VhYWUwYWU5ZDU5YmEyZmU0ZTU0ZWJlZjJcIixcIjM0NjBiNGY5YjhlMzA4MGQxODFhYzZiNmUxYzhkZWU0XCIsXCJiNmUwNGE4ZDM1Y2I2ZTNkNGNkMDcxOWU1ZDkwZDNmZFwiLFwiNDZmZjRkODhmYTgyMzQwNDgzYzI0ZDliZWVmZDhlMWZcIixcIjdjZGQ4MzRiODg1ODA2Y2MwOTJjYWZhYzYyY2Y1NTQ1XCIsXCJjMTkyMTk4YjA3OTM0ZmU1ZTRhZTg4YjFmZTU5MThmOFwiLFwiNTAyYTAzOWI3M2YyN2U1YjJjNGJmNWNmODkwMGEyY2JcIixcIjkxMGNmMmZmNDQ1ZDU2NDRmNGUyYmVmM2Y2MmM4ODdlXCIsXCJjYmZlMmU2ZDliYzU0ZTE1MzEyMDZiODA2OTFiYjM3NlwiLFwiOTljNTZjNTQ3NzA5M2IxNTRkMGI4ZmExMDkxNjdiNzRcIixcIjgzODlkNTE2MTZiODMzYWY4YjFlY2Y1OWI2NmU0MDU2XCIsXCJlZDBiMGZkZjA4MzE1MDEzYjZlZTYyYjRmOWYwYWZmMVwiLFwiMjQ4N2JhNTlkNGQ1M2ZkMjQ5ZTQ4MTFkMTVjNjc1ZThcIl0sXCIxOFwiOltcImZjOWU5ZjgxYWY1Njc2Mzk3MGI3M2EzZmRkMWI5ZDM2XCIsXCJiZTM2NWY5MGZiMWY5NmIxMTYxODFkNmI1NGMzODkyNlwiXSxcIjhcIjpbXCIxNjE4ODM5YzI0ZWNhNWYxOWRjZTdkODE0OGU2NzYxNlwiLFwiOTEwY2YyZmY0NDVkNTY0NGY0ZTJiZWYzZjYyYzg4N2VcIixcImM2NGQ0ZmE4NDJjNjJjZjM5YjRmYTFmNDdmYzA3OTg0XCIsXCI2ODFjMmM3ZDZjY2I2ZjEyNGQ2YzI3MjdmZTk3YjU2ZFwiLFwiMDYwMjA5MDNmNTk4NTk5MjI0YzEyMGM2NjA2NWY3NjJcIixcIjQ5OWVlYjljMDM0ZmJhZWJlYzhmYTc0MTMxNjQyM2QwXCIsXCIyNzZmOTRmMTI5Mzc0MmYzMmRlMDgwNGRkZWVlZmVlYVwiLFwiN2UzOWMwODFhNDQ5NDQ2NzM4ZjAwMzQ0OTNkMDRlZTBcIixcIjBmM2M0NjBlYmNkYmM0YmQ1Mzg0NjBjYjQzN2ZmNWM2XCIsXCJmZTA5ODIyOTg1YTNhZDk1NjM5NDY3ZGI0ZjYxNDdiYlwiLFwiOTE5YTk2YTIwNTc2ZjZmOTRjMTVkM2EzMzVjN2NlNTBcIixcIjg4ZjY2YmZhODRmNmEwZWJmNjYyMjQwZjE2YjQ1MDgyXCIsXCI4Mzg5ZDUxNjE2YjgzM2FmOGIxZWNmNTliNjZlNDA1NlwiLFwiOTljNTZjNTQ3NzA5M2IxNTRkMGI4ZmExMDkxNjdiNzRcIixcImNiZmUyZTZkOWJjNTRlMTUzMTIwNmI4MDY5MWJiMzc2XCIsXCIxOWViZTBjMGZiNGJjZDIxM2Q2NjcyNTBjZGVjODUyNFwiLFwiNDA0NjZhZjVlODQ4MDg2ODY1MTg2YzhmNzFkNzE3YzVcIixcIjhkNjUxZmZkMjJhOTMyNmViZjExNWJiMjZkMmI2OGNmXCIsXCIyZmI1YzFhNGI0YzdmYmYwZTNlZDFmMGEwMTliYzUyMFwiLFwiZWFkOWY3MGMwMjczZGQ1ZmIwNzkzNzRjY2ZiNmFiNzFcIixcIjU3NDRmYzA4ZWM4NTZiYzNmNzBjY2RiMzQwZDcxZTMyXCIsXCJkODA0MjViMzhlNGViZTM0NGI5Nzg3NjllMmM4NDczN1wiLFwiYmU3YmQzZGJjMDQzZTI3MjI3NzAwM2NmMDNjZDZkMDFcIixcImNjMGY0MWVkNzFjYjg1NWQyZGZkNGEyNDIwMDQyZGFhXCIsXCI1ZmIzNDhkZDM5MGE4NDQ5M2E1NGIyNjlkNjRiMjJmYlwiLFwiZDk1Y2EwNDIwMDk5ZDFmZWZkOTA4YWNkY2MxZDZlMGZcIixcImU5MTE1MjIyMWZhYzMzNmUwNmE2NjM3YWY3NmIxMTJlXCIsXCIyNDg3YmE1OWQ0ZDUzZmQyNDllNDgxMWQxNWM2NzVlOFwiXSxcIjE5XCI6W1wiZmM5ZTlmODFhZjU2NzYzOTcwYjczYTNmZGQxYjlkMzZcIixcImJlMzY1ZjkwZmIxZjk2YjExNjE4MWQ2YjU0YzM4OTI2XCJdLFwiMTRcIjpbXCIxNjE4ODM5YzI0ZWNhNWYxOWRjZTdkODE0OGU2NzYxNlwiLFwiOTEwY2YyZmY0NDVkNTY0NGY0ZTJiZWYzZjYyYzg4N2VcIixcImM2NGQ0ZmE4NDJjNjJjZjM5YjRmYTFmNDdmYzA3OTg0XCIsXCI2ODFjMmM3ZDZjY2I2ZjEyNGQ2YzI3MjdmZTk3YjU2ZFwiLFwiMDYwMjA5MDNmNTk4NTk5MjI0YzEyMGM2NjA2NWY3NjJcIixcIjQ5OWVlYjljMDM0ZmJhZWJlYzhmYTc0MTMxNjQyM2QwXCIsXCIyNzZmOTRmMTI5Mzc0MmYzMmRlMDgwNGRkZWVlZmVlYVwiLFwiN2UzOWMwODFhNDQ5NDQ2NzM4ZjAwMzQ0OTNkMDRlZTBcIixcIjBmM2M0NjBlYmNkYmM0YmQ1Mzg0NjBjYjQzN2ZmNWM2XCIsXCJmZTA5ODIyOTg1YTNhZDk1NjM5NDY3ZGI0ZjYxNDdiYlwiLFwiOTE5YTk2YTIwNTc2ZjZmOTRjMTVkM2EzMzVjN2NlNTBcIixcIjg4ZjY2YmZhODRmNmEwZWJmNjYyMjQwZjE2YjQ1MDgyXCIsXCI4Mzg5ZDUxNjE2YjgzM2FmOGIxZWNmNTliNjZlNDA1NlwiLFwiOTljNTZjNTQ3NzA5M2IxNTRkMGI4ZmExMDkxNjdiNzRcIixcImNiZmUyZTZkOWJjNTRlMTUzMTIwNmI4MDY5MWJiMzc2XCIsXCIxOWViZTBjMGZiNGJjZDIxM2Q2NjcyNTBjZGVjODUyNFwiLFwiNDA0NjZhZjVlODQ4MDg2ODY1MTg2YzhmNzFkNzE3YzVcIixcIjhkNjUxZmZkMjJhOTMyNmViZjExNWJiMjZkMmI2OGNmXCIsXCIyZmI1YzFhNGI0YzdmYmYwZTNlZDFmMGEwMTliYzUyMFwiLFwiZWFkOWY3MGMwMjczZGQ1ZmIwNzkzNzRjY2ZiNmFiNzFcIixcIjU3NDRmYzA4ZWM4NTZiYzNmNzBjY2RiMzQwZDcxZTMyXCIsXCJkODA0MjViMzhlNGViZTM0NGI5Nzg3NjllMmM4NDczN1wiLFwiYmU3YmQzZGJjMDQzZTI3MjI3NzAwM2NmMDNjZDZkMDFcIixcImNjMGY0MWVkNzFjYjg1NWQyZGZkNGEyNDIwMDQyZGFhXCIsXCI1ZmIzNDhkZDM5MGE4NDQ5M2E1NGIyNjlkNjRiMjJmYlwiLFwiZDk1Y2EwNDIwMDk5ZDFmZWZkOTA4YWNkY2MxZDZlMGZcIixcImU5MTE1MjIyMWZhYzMzNmUwNmE2NjM3YWY3NmIxMTJlXCIsXCIyNDg3YmE1OWQ0ZDUzZmQyNDllNDgxMWQxNWM2NzVlOFwiXSxcIjIyXCI6W1wiZmM5ZTlmODFhZjU2NzYzOTcwYjczYTNmZGQxYjlkMzZcIixcImJlMzY1ZjkwZmIxZjk2YjExNjE4MWQ2YjU0YzM4OTI2XCJdLFwiMjNcIjpbXCJmYzllOWY4MWFmNTY3NjM5NzBiNzNhM2ZkZDFiOWQzNlwiLFwiYmUzNjVmOTBmYjFmOTZiMTE2MTgxZDZiNTRjMzg5MjZcIl0sXCIxNi4xXCI6XCIwZjk0YjM1ZWNiYTk3ODZhYTcyZjU2ZjhmMThjM2JkZVwiLFwiMTYuMlwiOlwiMDc1MTAyYTM1YmRhNmM5ZWJkMmJjMGUxMTAxMzBlMzlcIixcIjE2LjNcIjpcIjBmOTRiMzVlY2JhOTc4NmFhNzJmNTZmOGYxOGMzYmRlXCJ9IiwiNjJiNDA1YTc3ZGViMTlhZTI4MjA1YzFiN2IzN2Y5YTMiXQ==' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='carerix_publication_id=5367&amp;carerix_vacancy_id=8461&amp;carerix_function_group_id=10661' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='Dit iframe bevat de vereiste logica om Ajax aangedreven Gravity Forms te verwerken.'></iframe>
+		                <script>
+gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://hobij.com/app/plugins/gravityforms/images/spinner.svg', false );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){form_content.find('form').css('opacity', 0);jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://hobij.com/app/plugins/gravityforms/images/spinner.svg', false );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} );
+</script>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+
+<footer class="footer">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer__logo">
+          <a href="https://hobij.com/nl/">
+              <img src="https://hobij.com/app/themes/hobij/dist/images/logo.svg?id=43c3d864004995ed3d52e0d4a0df4a01" alt="Hobij">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="footer__navigation">
+            <section class="widget nav_menu-3 widget_nav_menu"><h3>Algemeen</h3><div class="menu-footer-1-algemeen-container"><ul id="menu-footer-1-algemeen" class="menu"><li id="menu-item-38528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38528"><a href="https://hobij.com/nl/home-employer/">Home</a></li>
+<li id="menu-item-38529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38529"><a href="https://hobij.com/nl/werkgevers/over-ons/">Over ons</a></li>
+<li id="menu-item-38530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38530"><a href="https://hobij.com/nl/werken-bij-hobij/">Werken bij HOBIJ</a></li>
+<li id="menu-item-38531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38531"><a href="https://hobij.com/nl/contact/">Contact</a></li>
+</ul></div></section>        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="footer__navigation">
+            <section class="widget nav_menu-4 widget_nav_menu"><h3>Voor werkgevers</h3><div class="menu-footer-2-voor-werkgevers-container"><ul id="menu-footer-2-voor-werkgevers" class="menu"><li id="menu-item-38532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38532"><a href="https://hobij.com/nl/werkgevers/nieuws/">Nieuws</a></li>
+<li id="menu-item-38533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38533"><a href="https://hobij.com/nl/werkgevers/blog/">Blog</a></li>
+<li id="menu-item-38534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38534"><a href="https://hobij.com/nl/?page_id=3696">Academy</a></li>
+<li id="menu-item-38535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38535"><a href="https://hobij.com/nl/werkgevers/branches/">Branches</a></li>
+<li id="menu-item-38536" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38536"><a href="https://hobij.com/nl/werkgevers/cases/">Cases</a></li>
+<li id="menu-item-38537" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38537"><a href="https://hobij.com/nl/werkgevers/werkwijze/">Werkwijze</a></li>
+</ul></div></section>        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="footer__navigation">
+            <section class="widget nav_menu-5 widget_nav_menu"><h3>Voor werknemers</h3><div class="menu-footer-3-voor-werknemers-container"><ul id="menu-footer-3-voor-werknemers" class="menu"><li id="menu-item-38538" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38538"><a href="https://hobij.com/nl/vacatures/">Vacaturepagina</a></li>
+<li id="menu-item-38539" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38539"><a href="https://hobij.com/nl/veelgestelde-vragen/">FAQ</a></li>
+<li id="menu-item-38540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38540"><a href="https://hobij.com/nl/?page_id=2629">Werken en wonen</a></li>
+<li id="menu-item-38541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38541"><a href="https://hobij.com/nl/kennis-en-inspiratie/">Kennis en inspiratie</a></li>
+</ul></div></section>        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="footer__navigation contact">
+            <section class="widget_text widget custom_html-2 widget_custom_html"><h3>Contact opnemen</h3><div class="textwidget custom-html-widget"></div></section>          <address>
+            <ul>
+              <li>
+                                      <a href="mailto:info@hobij.nl" target="_blank" rel="nofollow">info@hobij.nl</a>
+                  
+              <li>                  <a href="tel:0413-870 000" target="_blank" rel="nofollow">0413-870 000</a>
+                                </li>
+            </ul>
+
+            <ul>
+                                  <li> Heilig Hartplein 1  </li>
+                                                  <li> 5462 EA Veghel</li>
+                                            </ul>
+          </address>
+        </div>
+      </div>
+
+
+    <div class="col-12">
+      <ul class="footer__terms">
+          <li class="copy">&copy; 2026 HOBIJ</li>
+                      <li><a href="https://hobij.com/app/uploads/2026/03/20251021-HOBIJ-LPC-ALGEMENE-VOORWAARDEN-2026.pdf">Algemene voorwaarden</a></li>
+                                <li><a href="https://hobij.com/app/uploads/2026/03/Privacystatement-HOBIJ-NL-01.2026.pdf">Privacybeleid</a></li>
+                                    </ul>
+    </div>
+
+      <div class="col-12">
+        <a href="https://www.every-day.nl" target="_blank" class="site-developer">Realisatie door Every Day</a>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <hr class="d-none d-lg-block">
+        <div class="footer__bottom">
+                          <img src="https://hobij.com/app/uploads/2026/06/Logos-footer-HOBIJ-website-vhim-2.png" alt="">
+                      <ul class="footer__socials">
+                              <li><a href="https://nl-nl.facebook.com/hobij.eu" target="_blank" rel="nofollow"><img src="https://hobij.com/app/themes/hobij/dist/images/icon-facebook.svg?id=d6f81f622d8ae9b9aa8472156cf846d0" alt="Facebook"></a></li>
+                                            <li><a href="https://www.instagram.com/hobij_official" target="_blank" rel="nofollow"><img src="https://hobij.com/app/themes/hobij/dist/images/icon-instagram.svg?id=2053d61c29a17502971dcee23fd958a9" alt="Instagram"></a></li>
+                                            <li><a href="https://www.linkedin.com/company/hobij/" target="_blank" rel="nofollow"><img src="https://hobij.com/app/themes/hobij/dist/images/icon-linkedin.svg?id=576b8c31da5fa6f2899d3587964cef30" alt="LinkedIn"></a></li>
+                                            <li><a href="https://www.youtube.com/@hobij" target="_blank" rel="nofollow"><img src="https://hobij.com/app/themes/hobij/dist/images/icon-youtube.svg?id=596231572ece8970d926bc6f3f2ebdac" alt="Youtube"></a></li>
+                        </ul>
+        </div>
+      </div>
+
+      <div class="col-12 d-none">
+        <a href="https://www.every-day.nl" target="_blank" class="site-developer">Realisatie door Every Day</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp/wp-*.php","/wp/wp-admin/*","/app/uploads/*","/app/*","/app/plugins/*","/app/themes/hobij/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://hobij.com/wp/wp-admin/admin-ajax.php";
+</script>
+					<!-- Start of Async HubSpot Analytics Code -->
+					<script type="text/javascript">
+					(function(d,s,i,r) {
+					if (d.getElementById(i)){return;}
+					var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+					n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/5940959.js';
+					e.parentNode.insertBefore(n, e);
+					})(document,"script","hs-analytics",300000);
+					</script>
+					<!-- End of Async HubSpot Analytics Code -->
+				<script id="hobij-popup-display-js" src="https://hobij.com/app/plugins/hobij-popup/public/popup.js?ver=7.0.2"></script>
+<script id="pll_cookie_script-js-after">
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=nl; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+
+//# sourceURL=pll_cookie_script-js-after
+</script>
+<script id="tagging-user-data-js" src="https://tagging.hobij.com/user-data-minified.js"></script>
+<script id="tagging-datalayer-js-extra">
+var varGtmTryTagging = {"disable_cookie_keeper":"","cookie_keeper_method":"both"};
+//# sourceURL=tagging-datalayer-js-extra
+</script>
+<script id="tagging-datalayer-js-before">
+varGtmTryTagging = varGtmTryTagging || {}; varGtmTryTagging.disable_cookie_keeper = false; varGtmTryTagging.cookie_keeper_method = "both";
+varGtmTryTagging = varGtmTryTagging || {}; varGtmTryTagging.disable_cookie_keeper = false; varGtmTryTagging.cookie_keeper_method = "both";
+//# sourceURL=tagging-datalayer-js-before
+</script>
+<script id="tagging-datalayer-js" src="https://hobij.com/app/plugins/tagging/assets/js/tagging.js?ver=2.3.5"></script>
+<script id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/vacancies/|/nl/vacatures/|/vacancies/|/nl/vacatures/|/ro/locuri-de-munca/|/nl/interne-vacatures/|/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://hobij.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script id="theme-js-js-extra">
+var heroVacancies = {"ajaxUrl":"https://hobij.com/wp/wp-admin/admin-ajax.php"};
+//# sourceURL=theme-js-js-extra
+</script>
+<script id="theme-js-js" src="https://hobij.com/app/themes/hobij/dist/js/app.js?id=2fb9d710f9020a86ae5add7c6975afb6"></script>
+<script id="hubspot-meeting-js-js" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+<script id="wp-dom-ready-js" src="https://hobij.com/wp/wp-includes/js/dist/dom-ready.min.js?ver=a06281ae5cf5500e9317"></script>
+<script id="wp-hooks-js" src="https://hobij.com/wp/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://hobij.com/wp/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2026-06-03 12:45:46+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"Notifications":["Meldingen"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+//# sourceURL=wp-a11y-js-translations
+</script>
+<script id="wp-a11y-js" src="https://hobij.com/wp/wp-includes/js/dist/a11y.min.js?ver=af934e5259bc51b8718e"></script>
+<script id="gform_json-js" defer='defer' src="https://hobij.com/app/plugins/gravityforms/js/jquery.json.min.js?ver=2.10.5"></script>
+<script id="gform_gravityforms-js-extra">
+var gform_i18n = {"datepicker":{"days":{"monday":"Ma","tuesday":"Di","wednesday":"Wo","thursday":"Do","friday":"Vr","saturday":"Za","sunday":"Zo"},"months":{"january":"Januari","february":"Februari","march":"Maart","april":"April","may":"Mei","june":"Juni","july":"Juli","august":"Augustus","september":"September","october":"Oktober","november":"November","december":"December"},"firstDay":1,"iconText":"Selecteer een datum"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"Dit bestandstype is niet toegestaan. Moet \u00e9\u00e9n van de volgende zijn:","file_uploaded":"Bestand ge\u00fcpload","delete_file":"Dit bestand verwijderen","in_progress":"in behandeling","file_exceeds_limit":"Bestand overschrijdt limiet bestandsgrootte","illegal_extension":"Dit type bestand is niet toegestaan.","max_reached":"Maximale aantal bestanden bereikt","unknown_error":"Er was een probleem bij het opslaan van het bestand op de server","currently_uploading":"Wacht tot het uploaden is voltooid","cancel":"Annuleren","cancel_upload":"Deze upload annuleren","cancelled":"Geannuleerd","error":"Fout","message":"Bericht"},"vars":{"images_url":"https://hobij.com/app/plugins/gravityforms/images"}};
+var gf_legacy = {"is_legacy":""};
+var gf_global = {"gf_currency_config":{"name":"Euro","symbol_left":"","symbol_right":"&#8364;","symbol_padding":" ","thousand_separator":".","decimal_separator":",","decimals":2,"code":"EUR"},"base_url":"https://hobij.com/app/plugins/gravityforms","number_formats":[],"spinnerUrl":"https://hobij.com/app/plugins/gravityforms/images/spinner.svg","version_hash":"47ba5577e9f9752040fed58d8078948d","strings":{"newRowAdded":"Nieuwe rij toegevoegd.","rowRemoved":"Rij verwijderd","formSaved":"Het formulier is opgeslagen. De inhoud bevat de link om terug te keren en het formulier in te vullen."}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script id="gform_gravityforms-js" defer='defer' src="https://hobij.com/app/plugins/gravityforms/js/gravityforms.min.js?ver=2.10.5"></script>
+<script id="gform_conditional_logic-js-extra">
+var gf_legacy = {"is_legacy":""};
+//# sourceURL=gform_conditional_logic-js-extra
+</script>
+<script id="gform_conditional_logic-js" defer='defer' src="https://hobij.com/app/plugins/gravityforms/js/conditional_logic.min.js?ver=2.10.5"></script>
+<script id="gform_chosen-js" defer='defer' src="https://hobij.com/app/plugins/gravityforms/js/chosen.jquery.min.js?ver=2.10.5"></script>
+<script id="gform_placeholder-js" defer='defer' src="https://hobij.com/app/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.10.5"></script>
+<script id="gform_gravityforms_utils-js" defer='defer' src="https://hobij.com/app/plugins/gravityforms/assets/js/dist/utils.min.js?ver=3f278756f0a3032bed328ff6a9f6c01d"></script>
+<script id="gform_gravityforms_theme_vendors-js" defer='defer' src="https://hobij.com/app/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=7c651d0ba638ce98b9c65141edddd567"></script>
+<script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"47ba5577e9f9752040fed58d8078948d"},"ajax":{"ajaxurl":"https://hobij.com/wp/wp-admin/admin-ajax.php","ajax_submission_nonce":"4585440745","i18n":{"step_announcement":"Stap %1$s van %2$s, %3$s","unknown_error":"Er was een onbekende fout bij het verwerken van je aanvraag. Probeer het opnieuw.","error_403":"De aanvraag is om onbekende veiligheidsredenen geblokkeerd (403-fout). Verwijder alle code-achtige tekst (scripts of databasequery&#039;s) en probeer het opnieuw."}}}},"hmr_dev":"","public_path":"https://hobij.com/app/plugins/gravityforms/assets/js/dist/","config_nonce":"e7f7beb13f"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script id="gform_gravityforms_theme-js" defer='defer' src="https://hobij.com/app/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=301fdc9aa6144168f3b854c4c2c8f6d3"></script>
+<script id="gp-advanced-phone-field-js-extra">
+var GPAPF = {"pluginUrl":"https://hobij.com/app/plugins/gp-advanced-phone-field","localizedCountries":{"af":"Afghanistan","ax":"Aland-eilanden","al":"Albani\u00eb","dz":"Algerije","as":"Amerikaans Samoa","ad":"Andorra","ao":"Angola","ai":"Anguilla","aq":"Antarctica","ag":"Antigua en Barbuda","ar":"Argentini\u00eb","am":"Armeni\u00eb","aw":"Aruba","au":"Australi\u00eb","at":"Oostenrijk","az":"Azerbeidzjan","bs":"Bahama's","bh":"Bahrein","bd":"Bangladesh","bb":"Barbados","by":"Wit-Rusland","be":"Belgi\u00eb","bz":"Belize","bj":"Benin","bm":"Bermuda","bt":"Bhutan","bo":"Bolivia","bq":"Bonaire, Sint Eustatius en Saba","ba":"Bosni\u00eb en Herzegovina","bw":"Botswana","bv":"Bouvet eiland","br":"Brazili\u00eb","io":"Brits-Indisch oceaan gebied","bn":"Brunei Darussalam","bg":"Bulgarije","bf":"Burkina Faso","bi":"Burundi","cv":"Kaapverdi\u00eb","kh":"Cambodja","cm":"Kameroen","ca":"Canada","ky":"Kaaimaneilanden","cf":"Centraal-Afrikaanse Republiek","td":"Tsjaad","cl":"Chili","cn":"China","cx":"Kersteiland","cc":"Cocoseilanden","co":"Colombia","km":"Comoren","cd":"Congo, Democratische Republiek","cg":"Congo","ck":"Cook eilanden","cr":"Costa Rica","ci":"Ivoorkust","hr":"Kroati\u00eb","cu":"Cuba","cw":"Cura\u00e7ao","cy":"Cyprus","cz":"Tsjechi\u00eb","dk":"Denemarken","dj":"Djibouti","dm":"Dominica","do":"Dominicaanse Republiek","ec":"Ecuador","eg":"Egypte","sv":"El Salvador","gq":"Equatoriaal-Guinea","er":"Eritrea","ee":"Estland","sz":"Eswatini","et":"Ethiopi\u00eb","fk":"Falkland eilanden","fo":"Faer\u00f6er","fj":"Fiji","fi":"Finland","fr":"Frankrijk","gf":"Frans Guyana","pf":"Frans-Polynesi\u00eb","tf":"Franse zuidelijke gebieden","ga":"Gabon","gm":"Gambia","ge":"Georgi\u00eb","de":"Duitsland","gh":"Ghana","gi":"Gibraltar","gr":"Griekenland","gl":"Groenland","gd":"Grenada","gp":"Guadeloupe","gu":"Guam","gt":"Guatemala","gg":"Guernsey","gn":"Guinee","gw":"Guinee-Bissau","gy":"Guyana","ht":"Ha\u00efti","hm":"Heard Eiland en McDonald Eilanden","va":"Vaticaanstad","hn":"Honduras","hk":"Hong Kong","hu":"Hongarije","is":"IJsland","in":"India","id":"Indonesi\u00eb","ir":"Iran","iq":"Irak","ie":"Ierland","im":"Man","il":"Isra\u00ebl","it":"Itali\u00eb","jm":"Jamaica","jp":"Japan","je":"Jersey","jo":"Jordani\u00eb","kz":"Kazachstan","ke":"Kenia","ki":"Kiribati","kp":"Korea, Democratische Volksrepubliek","kr":"Korea, Republiek van","kw":"Koeweit","kg":"Kirgizi\u00eb","la":"Lao Democratische Volksrepubliek","lv":"Letland","lb":"Libanon","ls":"Lesotho","lr":"Liberia","ly":"Libi\u00eb","li":"Liechtenstein","lt":"Litouwen","lu":"Luxemburg","mo":"Macau","mg":"Madagaskar","mw":"Malawi","my":"Maleisi\u00eb","mv":"Maldiven","ml":"Mali","mt":"Malta","mh":"Marshalleilanden","mq":"Martinique","mr":"Mauritani\u00eb","mu":"Mauritius","yt":"Mayotte","mx":"Mexico","fm":"Micronesia","md":"Moldavi\u00eb","mc":"Monaco","mn":"Mongoli\u00eb","me":"Montenegro","ms":"Montserrat","ma":"Marokko","mz":"Mozambique","mm":"Myanmar","na":"Namibi\u00eb","nr":"Nauru","np":"Nepal","nl":"Nederland","nc":"Nieuw-Caledoni\u00eb","nz":"Nieuw-Zeeland","ni":"Nicaragua","ne":"Niger","ng":"Nigeria","nu":"Niue","nf":"Norfolk eiland","mk":"Noord-Macedoni\u00eb","mp":"Noordelijke Marianen","no":"Noorwegen","om":"Oman","pk":"Pakistan","pw":"Palau","ps":"Palestina, Staat","pa":"Panama","pg":"Papoea-Nieuw-Guinea","py":"Paraguay","pe":"Peru","ph":"Filipijnen","pn":"Pitcairn","pl":"Polen","pt":"Portugal","pr":"Puerto Rico","qa":"Qatar","re":"R\u00e9union","ro":"Roemeni\u00eb","ru":"Russische Federatie","rw":"Rwanda","bl":"Saint Barth\u00e9lemy","sh":"Sint-Helena, Hemelvaart en Tristan da Cunha","kn":"Saint Kitts en Nevis","lc":"Saint Lucia","mf":"Sint Maarten","pm":"Saint Pierre en Miquelon","vc":"Saint Vincent en de Grenadines","ws":"Samoa","sm":"San Marino","st":"Sao Tom\u00e9 en Principe","sa":"Saoedi-Arabi\u00eb","sn":"Senegal","rs":"Servi\u00eb","sc":"Seychellen","sl":"Sierra Leone","sg":"Singapore","sx":"Sint Maarten","sk":"Slowakije","si":"Sloveni\u00eb","sb":"Salomonseilanden","so":"Somali\u00eb","za":"Zuid-Afrika","gs":"Ji\u017en\u00ed Georgie a Ji\u017en\u00ed Sandwichovy ostrovy","ss":"Zuid Soedan","es":"Spanje","lk":"Sri Lanka","sd":"Soedan","sr":"Suriname","sj":"Spitsbergen en Jan Mayen","se":"Zweden","ch":"Zwitserland","sy":"Arabische Republiek Syri\u00eb","tw":"Taiwan","tj":"Tadzjikistan","tz":"Tanzania, de Verenigde Republiek van","th":"Thailand","tl":"Timor-Leste","tg":"Togo","tk":"Tokelau","to":"Tonga","tt":"Trinidad en Tobago","tn":"Tunesi\u00eb","tr":"Turkije","tm":"Turkmenistan","tc":"Turks- en Caicoseilanden","tv":"Tuvalu","ug":"Oeganda","ua":"Oekra\u00efne","ae":"Verenigde Arabische Emiraten","gb":"Verenigd Koninkrijk","us":"Verenigde Staten","uy":"Uruguay","um":"Kleine eilanden van de Verenigde Staten","uz":"Oezbekistan","vu":"Vanuatu","ve":"Venezuela","vn":"Vietnam","vg":"Britse Maagdeneilanden","vi":"Amerikaanse Maagdeneilanden","wf":"Wallis en Futuna","eh":"Westelijke Sahara","ye":"Yemen","zm":"Zambia","zw":"Zimbabwe"}};
+//# sourceURL=gp-advanced-phone-field-js-extra
+</script>
+<script id="gp-advanced-phone-field-js" defer='defer' src="https://hobij.com/app/plugins/gp-advanced-phone-field/js/built/gp-advanced-phone-field.js?ver=1.1.10"></script>
+<script type='text/javascript'>var gfZeroSpamConfig = {"forms":[{"ajaxUrl":"https:\/\/hobij.com\/wp\/wp-admin\/admin-ajax.php","fallbackToken":"MXwxNzkzNjU5MDI0fDE3OTQyNjM4MjR8OTc2MjY5ZTQ0NmZhYTBjZTBkZDE3YWUxZTNjNTVkNjZ8MQ.OTYyNGE3ZjUwY2M0OGNmY2JiMGM2ODVjYzgzNTMyMjlmOWE2NjlmM2YxMWViZWE4OTk5MjU4NThjNTc4NzlkMw","formId":1,"timeout":3000}],"debug":false};</script>
+<script id="gf-zero-spam-js" defer='defer' src="https://hobij.com/app/plugins/gravity-forms-zero-spam/dist/js/gf-zero-spam.js?ver=1775783834"></script>
+<script>
+if ('undefined' != typeof FWP_HTTP) FWP_HTTP.lang = 'nl';
+</script>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {gf_global["number_formats"][1] = {"17":{"price":false,"value":false},"27":{"price":false,"value":false},"28":{"price":false,"value":false},"34":{"price":false,"value":false},"30":{"price":false,"value":false},"31":{"price":false,"value":false},"33":{"price":false,"value":false},"3":{"price":false,"value":false},"4":{"price":false,"value":false},"5":{"price":false,"value":false},"35":{"price":false,"value":false},"29":{"price":false,"value":false},"18":{"price":false,"value":false},"8":{"price":false,"value":false},"19":{"price":false,"value":false},"21":{"price":false,"value":false},"14":{"price":false,"value":false},"9":{"price":false,"value":false},"10":{"price":false,"value":false},"11":{"price":false,"value":false},"12":{"price":false,"value":false},"13":{"price":false,"value":false},"22":{"price":false,"value":false},"23":{"price":false,"value":false},"15":{"price":false,"value":false},"25":{"price":false,"value":false},"26":{"price":false,"value":false},"16":{"price":false,"value":false}};if(window['jQuery']){if(!window['gf_form_conditional_logic'])window['gf_form_conditional_logic'] = new Array();window['gf_form_conditional_logic'][1] = { logic: { 29: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"35","operator":"is","value":"Nee"}]},"nextButton":null,"section":null},18: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"35","operator":"is","value":"Nee"}]},"nextButton":null,"section":null},8: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"35","operator":"is","value":"Nee"}]},"nextButton":null,"section":null},19: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"8","operator":"is","value":"other"},{"fieldId":"35","operator":"is","value":"Nee"}]},"nextButton":null,"section":null},21: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"19","operator":"is","value":"yes"},{"fieldId":"35","operator":"is","value":"Nee"}]},"nextButton":null,"section":null},14: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"35","operator":"is","value":"Nee"}]},"nextButton":null,"section":null},9: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"35","operator":"is","value":"Nee"}]},"nextButton":null,"section":null},10: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"35","operator":"is","value":"Nee"}]},"nextButton":null,"section":null},11: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"35","operator":"is","value":"Nee"}]},"nextButton":null,"section":null},12: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"35","operator":"is","value":"Nee"}]},"nextButton":null,"section":null},13: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"35","operator":"is","value":"Nee"}]},"nextButton":null,"section":null},22: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"35","operator":"is","value":"Nee"}]},"nextButton":null,"section":null},15: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"23","operator":"is","value":"yes"}]},"nextButton":null,"section":null},26: {"field":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"23","operator":"is","value":"no"}]},"nextButton":null,"section":null} }, dependents: { 29: [29],18: [18],8: [8],19: [19],21: [21],14: [14],9: [9],10: [10],11: [11],12: [12],13: [13],22: [22],15: [15],26: [26] }, animation: 0, defaults: {"17":"5367","27":"8461","28":"10661","3":{"3.2":"","3.3":"","3.4":"","3.6":"","3.8":""},"35":"Nee","19":"no"}, fields: {"17":[],"27":[],"28":[],"34":[],"30":[],"31":[],"33":[],"3":[],"4":[],"5":[],"35":[29,18,8,19,21,14,9,10,11,12,13,22],"29":[],"18":[],"8":[19],"19":[21],"21":[],"14":[],"9":[],"10":[],"11":[],"12":[],"13":[],"22":[],"23":[15,26],"15":[],"25":[],"26":[],"16":[]} }; if(!window['gf_number_format'])window['gf_number_format'] = 'decimal_comma';jQuery(document).ready(function(){gform.utils.trigger({ event: 'gform/conditionalLogic/init/start', native: false, data: { formId: 1, fields: null, isInit: true } });window['gformInitPriceFields']();gf_apply_rules(1, [29,18,8,19,21,14,9,10,11,12,13,22,15,26], true);jQuery('#gform_wrapper_1').show();jQuery('#gform_wrapper_1 form').css('opacity', '');jQuery(document).trigger('gform_post_conditional_logic', [1, null, true]);gform.utils.trigger({ event: 'gform/conditionalLogic/init/end', native: false, data: { formId: 1, fields: null, isInit: true } });} );} gformInitChosenFields('#input_1_21','Geen resultaten komen overeen');if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }window.gp_advanced_phone_field_1_5 = new GPAdvancedPhoneField( {"fieldId":5,"formId":1,"defaultCountry":"auto","preferredCountries":["BG","NL","PL","RO","ES"],"countriesAction":"all","countries":null} );} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){gformInitChosenFields('#input_1_21','Geen resultaten komen overeen');} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+</body>
+</html>
