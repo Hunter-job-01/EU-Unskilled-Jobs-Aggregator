@@ -1,0 +1,24 @@
+name: Check automatic requirement extraction
+on:
+  push:
+    paths:
+      - 'src/automatic_requirements.py'
+      - 'src/source_evidence.py'
+      - '.github/workflows/check_automatic_requirements.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests PyYAML 'cryptography>=44,<47' beautifulsoup4 langdetect
+      - env:
+          JOB_FIT_PROFILE: ${{ secrets.JOB_FIT_PROFILE }}
+          JOB_FIT_REVIEWS: ${{ secrets.JOB_FIT_REVIEWS }}
+        run: python scripts/check_automatic_requirements.py

@@ -13,6 +13,7 @@ from src.private_state import unseal
 
 cfg = load_config()
 assert cfg['telegram']['private_fit_required'] is True
+cfg['telegram']['automatic_requirements'] = False  # offline safety proof has no live detail requests
 profile, reviews = load_private(os.environ)
 state = unseal(json.loads(Path('data/telegram_state.json').read_text()), os.environ['JOB_FIT_STATE_KEY'])
 assert len(state['destinations']) == 2

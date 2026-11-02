@@ -555,3 +555,22 @@ separate fresh evidence review. Empty private review coverage intentionally send
 zero vacancies, not generic jobs disguised as tailored matches. Operating an
 ongoing review/discovery service is separate work from this protective gate.
 Candidate-specific review work must stay private and preserve these boundaries.
+
+### Unattended requirement triage
+
+Automatic mode no longer waits for a manual review ledger. It checks up to30
+rotating candidates/run against full EURES detail JSON (including mandatory
+licences and required versus desired language levels) or public detail HTML.
+Known conflicts are excluded. Clear complete English evidence can be matched
+without manual review; unsupported/incomplete conditions are uncertain, not fit.
+The user may receive up to5 clearly marked uncertain vacancies per digest with
+unresolved requirement domains named in Arabic. Inaccessible pages are marked
+unverified. Source links/original titles remain. No second same-day digest is
+forced when mode changes. A match is preliminary, never a visa/acceptance promise.
+
+Positive natural-language extraction currently supports explicit English wording;
+structured and limited multilingual conflict checks cover more languages. This
+is not universal parsing of all EU job requirements. Local Arabic role labels
+are category labels, **not full translations**. The prior unauthenticated Google
+translation route was throttled and is not bypassed. Full translation remains a
+separate capability to validate before enabling.

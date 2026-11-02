@@ -47,7 +47,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from .eligibility import EligibleStore, load_private
+from .eligibility import EligibleStore, AutomaticEligibleStore, load_private
 from .private_state import seal, unseal
 
 log = logging.getLogger(__name__)
@@ -111,7 +111,14 @@ def format_job(record: dict) -> str:
     title_en = _cap(record.get("title_en"), TITLE_MAX_CHARS)
     title = _cap(record.get("title"), TITLE_MAX_CHARS) or "(untitled posting)"
     head_title = title_en or title
-    lines = [
+    status = record.get("private_fit_status")
+    lines = []
+    if status:
+        lines.append("<b>" + ("⚠️ محتاجة تحقق" if status == "review" else "✅ متوافقة مبدئيًا") + "</b>")
+        lines.append(html.escape(record.get("private_fit_reason", "")))
+        from .role_labels import arabic_role_label
+        lines.append(html.escape(arabic_role_label(record)))
+    lines += [
         "<b>{} {} \u00B7 [{}/100] {}</b>".format(
             flag, html.escape(country or "??"), score, html.escape(head_title))
     ]
@@ -465,8 +472,11 @@ class _DestinationStore:
                 if uid not in sent and not r.get("excluded")
                 and (r.get("score") or 0) >= min_score
                 and (wanted is None or r.get("country") in wanted)]
-        jobs.sort(key=lambda r: (-(r.get("score") or 0), r.get("posted_date") or ""))
-        return jobs[:limit]
+        jobs.sort(key=lambda r: (r.get("private_fit_status") == "review", -(r.get("score") or 0), r.get("posted_date") or ""))
+        # At most five uncertain candidates, kept separate from positive matches.
+        suitable = [r for r in jobs if r.get("private_fit_status") != "review"]
+        uncertain = [r for r in jobs if r.get("private_fit_status") == "review"]
+        return (suitable[:limit] + uncertain[:min(5, max(0, limit - len(suitable)))])[:limit]
 
     def mark_notified(self, uids):
         sent = self.state.setdefault("notified_uids", {})
@@ -490,13 +500,18 @@ def send_digest(store, cfg: dict, *, session=None, environ=None,
     env = os.environ if environ is None else environ
     if cfg.get("telegram", {}).get("private_fit_required"):
         try:
-            from .source_evidence import fetch_public_text
+            from .source_evidence import fetch_public_text, fetch_job_details
             from .private_state import cipher
             profile, reviews = load_private(env)
             cipher(env.get("JOB_FIT_STATE_KEY", ""))
             # Validate/migrate persistence before any send; never silently reset it.
             _load_state(store, cfg)
-            store = EligibleStore(store, profile, reviews, fetch_public_text)
+            if cfg.get("telegram", {}).get("automatic_requirements"):
+                store = AutomaticEligibleStore(store, profile, fetch_job_details, now=now,
+                    max_checks=int(cfg["telegram"].get("detail_checks_per_run", 30)))
+                log.info("Automatic detail-check batch finished (candidate-specific results remain private)")
+            else:
+                store = EligibleStore(store, profile, reviews, fetch_public_text)
         except Exception:
             log.error("Private eligibility unavailable; notifications withheld (no generic fallback)")
             return 0

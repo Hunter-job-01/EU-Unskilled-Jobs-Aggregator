@@ -162,3 +162,65 @@ class EligibleStore:
 
     def load(self):
         return self._store
+
+
+class AutomaticEligibleStore:
+    """Unattended, bounded source enrichment and high-confidence extraction.
+
+    Accepted/rejected UID choices and exact facts remain ephemeral. Aggregate
+    counters are private-return values, never written into public job records.
+    """
+    def __init__(self, store, profile, fetch_details, now=None, max_checks=30):
+        from .automatic_requirements import automatic_review, unresolved_domains
+        self.store, self.data_dir = store, store.data_dir
+        self._store = {}
+        self.stats = {'checked': 0, 'pass': 0, 'reject': 0, 'review': 0, 'unavailable': 0}
+        records = getattr(store, '_store', None)
+        records = records if records is not None else store.load()
+        # Rank candidates using public job evidence only. Prioritize explicit
+        # overseas hiring, not the old relevance score's permit noun bonus.
+        def priority(pair):
+            r = pair[1]
+            text = (r.get('description') or '').lower()
+            return (-int(any(w in text for w in ('sponsor', 'non-eu', 'international applicants', 'visa support'))),
+                    -int(r.get('score') or 0), pair[0])
+        ranked = sorted(records.items(), key=priority)
+        # Rotate bounded checks by UTC slot instead of starving all but top30.
+        moment = now or datetime.now(timezone.utc)
+        offset = (int(moment.timestamp() // 3600) * max_checks) % max(len(ranked), 1)
+        ranked = ranked[offset:] + ranked[:offset]
+        for uid, record in ranked:
+            if self.stats['checked'] >= max_checks:
+                break
+            if record.get('excluded'):
+                continue
+            self.stats['checked'] += 1
+            # Known conflicts in saved text must not become uncertain sends if
+            # the live detail source happens to be unavailable.
+            early, _ = automatic_review(record, record.get('description') or '', now=now)
+            if early == 'reject':
+                self.stats['reject'] += 1
+                continue
+            try:
+                text, structured = fetch_details(record)
+                status, review = automatic_review(record, text, structured, now=now)
+                if status == 'extracted':
+                    status = evaluate(profile, review, url=record['url'], text=text, now=now)
+            except Exception:
+                self.stats['unavailable'] += 1
+                # Source could not be checked: explicitly uncertain, never fit.
+                result = dict(record)
+                result['private_fit_status'] = 'review'
+                result['private_fit_reason'] = 'تعذّر قراءة صفحة الإعلان؛ اللغة والرخص والخبرة والتعليم وتصريح العمل غير متحقق منها'
+                self._store[uid] = result
+                continue
+            self.stats[status] += 1
+            if status in ('pass', 'review'):
+                result = dict(record)
+                result['private_fit_status'] = status
+                result['private_fit_reason'] = ('الشروط المقروءة متوافقة مبدئيًا، وليست ضمان قبول أو تأشيرة' if status == 'pass' else
+                    unresolved_domains(text))
+                self._store[uid] = result
+
+    def load(self):
+        return self._store

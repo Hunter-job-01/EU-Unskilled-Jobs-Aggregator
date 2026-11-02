@@ -31,3 +31,37 @@ def fetch_public_text(url):
     for node in soup(['script', 'style', 'noscript']):
         node.decompose()
     return soup.get_text(' ', strip=True)
+
+
+def fetch_job_details(record):
+    """Use EURES' real detail response, otherwise the full public HTML page.
+
+    Structured required/desired fields are kept separate; availableLanguages
+    never becomes a spoken-language requirement.
+    """
+    if record.get('source') != 'eures':
+        return fetch_public_text(record.get('url', '')), {}
+    source_id = record.get('source_id', '')
+    if not source_id or not all(c.isalnum() or c in '_=-' for c in source_id):
+        raise ValueError('Invalid EURES source identifier')
+    endpoint = 'https://europa.eu/eures/api/jv-searchengine/public/jv/id/' + source_id
+    time.sleep(2)
+    with requests.get(endpoint, timeout=(5,15), allow_redirects=False, stream=True) as resp:
+        resp.raise_for_status()
+        if resp.status_code != 200 or 'application/json' not in resp.headers.get('Content-Type',''):
+            raise ValueError('EURES detail unavailable')
+        data = bytearray()
+        for chunk in resp.iter_content(65536):
+            data.extend(chunk)
+            if len(data) > 1500000:
+                raise ValueError('EURES detail too large')
+    import json
+    payload = json.loads(data)
+    profiles = payload.get('jvProfiles') or {}
+    if not profiles:
+        raise ValueError('No EURES detail profile')
+    profile = profiles.get('en') or next(iter(profiles.values()))
+    text = ' '.join([profile.get('title') or '', BeautifulSoup(profile.get('description') or '', 'html.parser').get_text(' ',strip=True)])
+    # Extra fields are not flattened into description or accidentally interpreted
+    # as positive sponsorship; the extractor handles their semantics separately.
+    return text, profile
