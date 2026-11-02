@@ -1,0 +1,119 @@
+{
+  "latest_by_source_country": {
+    "eures|LV": {
+      "checked_at_utc": "2026-11-02T17:42:36+00:00",
+      "country": "LV",
+      "duration_sec": 5.6,
+      "errors": [],
+      "fetched": 10,
+      "kept": 0,
+      "notes": [],
+      "source": "eures",
+      "stats": {},
+      "status": "ok"
+    },
+    "eures|SE": {
+      "checked_at_utc": "2026-11-02T17:42:36+00:00",
+      "country": "SE",
+      "duration_sec": 3.4,
+      "errors": [],
+      "fetched": 10,
+      "kept": 5,
+      "notes": [],
+      "source": "eures",
+      "stats": {},
+      "status": "ok"
+    },
+    "jobspy|LV": {
+      "checked_at_utc": "2026-11-02T17:42:36+00:00",
+      "country": "LV",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "indeed: LV not supported by JobSpy/Indeed (EURES covers it)"
+      ],
+      "source": "jobspy",
+      "stats": {},
+      "status": "skipped"
+    },
+    "jobspy|SE": {
+      "checked_at_utc": "2026-11-02T17:42:36+00:00",
+      "country": "SE",
+      "duration_sec": 4.3,
+      "errors": [],
+      "fetched": 10,
+      "kept": 7,
+      "notes": [],
+      "source": "jobspy",
+      "stats": {},
+      "status": "ok"
+    },
+    "latvia_nva|LV": {
+      "checked_at_utc": "2026-11-02T17:42:36+00:00",
+      "country": "LV",
+      "duration_sec": 2.0,
+      "errors": [],
+      "fetched": 10,
+      "kept": 0,
+      "notes": [],
+      "source": "latvia_nva",
+      "stats": {
+        "csv_url": "https://data.gov.lv/dati/dataset/cb6831cb-1d89-44a3-b889-b43c411df4fe/resource/7f68f6fc-a0f9-4c31-b43c-770e97a06fda/download/vakances-2026-11-02.csv",
+        "newest_row_age_days": 3,
+        "rows_returned": 1186
+      },
+      "status": "ok"
+    },
+    "latvia_nva|SE": {
+      "checked_at_utc": "2026-11-02T17:42:36+00:00",
+      "country": "SE",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "the NVA dataset covers Latvia only"
+      ],
+      "source": "latvia_nva",
+      "stats": {},
+      "status": "skipped"
+    },
+    "sweden_jobsearch|LV": {
+      "checked_at_utc": "2026-11-02T17:42:36+00:00",
+      "country": "LV",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "Platsbanken/JobSearch covers Sweden only"
+      ],
+      "source": "sweden_jobsearch",
+      "stats": {},
+      "status": "skipped"
+    },
+    "sweden_jobsearch|SE": {
+      "checked_at_utc": "2026-11-02T17:42:36+00:00",
+      "country": "SE",
+      "duration_sec": 3.4,
+      "errors": [],
+      "fetched": 10,
+      "kept": 10,
+      "notes": [],
+      "source": "sweden_jobsearch",
+      "stats": {},
+      "status": "ok"
+    }
+  },
+  "recent_runs": [
+    {
+      "checked_at_utc": "2026-11-02T17:42:36+00:00",
+      "failing": 0,
+      "label": "tier=3 sources=eures,jobspy,latvia_nva,sweden_jobsearch",
+      "source_country_records": 8
+    }
+  ],
+  "updated_utc": "2026-11-02T17:42:36+00:00"
+}

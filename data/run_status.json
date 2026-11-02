@@ -1,143 +1,9 @@
 {
   "countries": {
-    "AT": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      }
-    },
-    "BG": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "indeed: BG not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
-      }
-    },
-    "CY": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "indeed: CY not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
-      }
-    },
-    "DK": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      }
-    },
-    "EE": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "indeed: EE not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
-      }
-    },
-    "FI": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 18,
-        "notes": [],
-        "status": "ok"
-      }
-    },
-    "GR": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      }
-    },
-    "HR": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "indeed: HR not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
-      }
-    },
-    "LU": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 30,
-        "notes": [],
-        "status": "ok"
-      }
-    },
     "LV": {
       "eures": {
         "errors": [],
-        "fetched": 50,
+        "fetched": 10,
         "notes": [],
         "status": "ok"
       },
@@ -148,20 +14,18 @@
           "indeed: LV not supported by JobSpy/Indeed (EURES covers it)"
         ],
         "status": "skipped"
-      }
-    },
-    "MT": {
-      "eures": {
+      },
+      "latvia_nva": {
         "errors": [],
-        "fetched": 50,
+        "fetched": 10,
         "notes": [],
         "status": "ok"
       },
-      "jobspy": {
+      "sweden_jobsearch": {
         "errors": [],
         "fetched": 0,
         "notes": [
-          "indeed: MT not supported by JobSpy/Indeed (EURES covers it)"
+          "Platsbanken/JobSearch covers Sweden only"
         ],
         "status": "skipped"
       }
@@ -169,36 +33,34 @@
     "SE": {
       "eures": {
         "errors": [],
-        "fetched": 50,
+        "fetched": 10,
         "notes": [],
         "status": "ok"
       },
       "jobspy": {
         "errors": [],
-        "fetched": 46,
-        "notes": [],
-        "status": "ok"
-      }
-    },
-    "SI": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
+        "fetched": 10,
         "notes": [],
         "status": "ok"
       },
-      "jobspy": {
+      "latvia_nva": {
         "errors": [],
         "fetched": 0,
         "notes": [
-          "indeed: SI not supported by JobSpy/Indeed (EURES covers it)"
+          "the NVA dataset covers Latvia only"
         ],
         "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 10,
+        "notes": [],
+        "status": "ok"
       }
     }
   },
-  "duration_sec": 325.5,
-  "last_run_utc": "2026-11-02T13:22:53+00:00",
+  "duration_sec": 72.9,
+  "last_run_utc": "2026-11-02T17:42:36+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-02T13:22:53+00:00",
@@ -519,11 +381,11 @@
       }
     },
     "LV": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T17:42:36+00:00",
       "sources": {
         "eures": {
           "errors": [],
-          "fetched": 50,
+          "fetched": 10,
           "notes": [],
           "status": "ok"
         },
@@ -532,6 +394,20 @@
           "fetched": 0,
           "notes": [
             "indeed: LV not supported by JobSpy/Indeed (EURES covers it)"
+          ],
+          "status": "skipped"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 10,
+          "notes": [],
+          "status": "ok"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
           ],
           "status": "skipped"
         }
@@ -625,17 +501,31 @@
       }
     },
     "SE": {
-      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "checked_at_utc": "2026-11-02T17:42:36+00:00",
       "sources": {
         "eures": {
           "errors": [],
-          "fetched": 50,
+          "fetched": 10,
           "notes": [],
           "status": "ok"
         },
         "jobspy": {
           "errors": [],
-          "fetched": 46,
+          "fetched": 10,
+          "notes": [],
+          "status": "ok"
+        },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
+        "sweden_jobsearch": {
+          "errors": [],
+          "fetched": 10,
           "notes": [],
           "status": "ok"
         }
@@ -684,37 +574,28 @@
   },
   "parameters": {
     "countries": [
-      "AT",
-      "BG",
-      "HR",
-      "CY",
-      "DK",
-      "EE",
-      "FI",
-      "GR",
-      "LV",
-      "LU",
-      "MT",
-      "SI",
-      "SE"
+      "SE",
+      "LV"
     ],
-    "max_jobs": 50,
+    "max_jobs": 10,
     "min_score": 20,
     "sources": [
       "eures",
-      "jobspy"
+      "jobspy",
+      "latvia_nva",
+      "sweden_jobsearch"
     ],
     "tier": "3"
   },
   "totals": {
-    "active": 982,
-    "below_min_score": 25,
-    "excluded": 383,
-    "fetched": 894,
-    "new": 450,
+    "active": 1000,
+    "below_min_score": 0,
+    "excluded": 28,
+    "fetched": 50,
+    "new": 19,
     "notified_telegram": 0,
-    "pruned": 49,
+    "pruned": 1,
     "translated_titles": 0,
-    "updated": 36
+    "updated": 3
   }
 }
