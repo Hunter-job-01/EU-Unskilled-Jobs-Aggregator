@@ -274,4 +274,15 @@ class JobStore:
 
     # -- run status ------------------------------------------------------
     def write_run_status(self, status: dict) -> None:
+        previous = {}
+        if os.path.exists(self.status_path):
+            with open(self.status_path, encoding="utf-8") as fh:
+                previous = json.load(fh)
+        # Keep the latest honest health check for every country in the same
+        # required persistent file, while top-level totals stay last-run only.
+        latest = dict(previous.get("latest_by_country", {}))
+        for country, sources in status.get("countries", {}).items():
+            latest[country] = {"checked_at_utc": status.get("last_run_utc"),
+                               "sources": sources}
+        status["latest_by_country"] = latest
         _atomic_write_json(self.status_path, status)

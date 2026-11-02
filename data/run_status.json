@@ -199,6 +199,489 @@
   },
   "duration_sec": 325.5,
   "last_run_utc": "2026-11-02T13:22:53+00:00",
+  "latest_by_country": {
+    "AT": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "BE": {
+      "checked_at_utc": "2026-11-02T13:17:04+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "BG": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "indeed: BG not supported by JobSpy/Indeed (EURES covers it)"
+          ],
+          "status": "skipped"
+        }
+      }
+    },
+    "CY": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "indeed: CY not supported by JobSpy/Indeed (EURES covers it)"
+          ],
+          "status": "skipped"
+        }
+      }
+    },
+    "CZ": {
+      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "DE": {
+      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "DK": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "EE": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "indeed: EE not supported by JobSpy/Indeed (EURES covers it)"
+          ],
+          "status": "skipped"
+        }
+      }
+    },
+    "ES": {
+      "checked_at_utc": "2026-11-02T13:17:04+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "FI": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 18,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "FR": {
+      "checked_at_utc": "2026-11-02T13:17:04+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "GR": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "HR": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "indeed: HR not supported by JobSpy/Indeed (EURES covers it)"
+          ],
+          "status": "skipped"
+        }
+      }
+    },
+    "HU": {
+      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 36,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "IE": {
+      "checked_at_utc": "2026-11-02T13:17:04+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "IT": {
+      "checked_at_utc": "2026-11-02T13:17:04+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "LT": {
+      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 17,
+          "notes": [
+            "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
+          ],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "indeed: LT not supported by JobSpy/Indeed (EURES covers it)"
+          ],
+          "status": "skipped"
+        }
+      }
+    },
+    "LU": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 30,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "LV": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "indeed: LV not supported by JobSpy/Indeed (EURES covers it)"
+          ],
+          "status": "skipped"
+        }
+      }
+    },
+    "MT": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "indeed: MT not supported by JobSpy/Indeed (EURES covers it)"
+          ],
+          "status": "skipped"
+        }
+      }
+    },
+    "NL": {
+      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "PL": {
+      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "PT": {
+      "checked_at_utc": "2026-11-02T13:17:04+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "RO": {
+      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 12,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "SE": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 46,
+          "notes": [],
+          "status": "ok"
+        }
+      }
+    },
+    "SI": {
+      "checked_at_utc": "2026-11-02T13:22:53+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "indeed: SI not supported by JobSpy/Indeed (EURES covers it)"
+          ],
+          "status": "skipped"
+        }
+      }
+    },
+    "SK": {
+      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "sources": {
+        "eures": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [
+            "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
+          ],
+          "status": "ok"
+        },
+        "jobspy": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "indeed: SK not supported by JobSpy/Indeed (EURES covers it)"
+          ],
+          "status": "skipped"
+        }
+      }
+    }
+  },
   "parameters": {
     "countries": [
       "AT",

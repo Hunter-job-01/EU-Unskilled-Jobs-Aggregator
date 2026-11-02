@@ -620,7 +620,10 @@ def test_two_destinations_deliver_independently_and_gate(tmp_path):
     assert send_digest(store, cfg, session=session, environ=env, sleep=FakeSleep(), now=now) == 2
     assert [c['json']['chat_id'] for c in session.calls] == ['111', '-222']
     state = json.loads((tmp_path/'data'/'telegram_state.json').read_text())['destinations']
-    assert state['111']['last_digest_utc'] == state['-222']['last_digest_utc'] == '2026-11-02'
+    import hashlib
+    keys = [hashlib.sha256(c.encode()).hexdigest() for c in ('111', '-222')]
+    assert state[keys[0]]['last_digest_utc'] == state[keys[1]]['last_digest_utc'] == '2026-11-02'
+    assert '111' not in state and '-222' not in state
     again = FakeSession()
     assert send_digest(store, cfg, session=again, environ=env, sleep=FakeSleep(), now=now) == 0
     assert again.calls == []

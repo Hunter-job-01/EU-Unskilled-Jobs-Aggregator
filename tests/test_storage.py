@@ -167,3 +167,13 @@ def test_mark_notified_persists_to_disk(tmp_path):
     rec = fresh.load()["uid1"]
     assert rec["notified_telegram"] is True
     assert rec["notified_at"]
+
+
+def test_status_keeps_latest_country_health_across_tiers(tmp_path):
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    store.write_run_status({"last_run_utc": "2026-11-02T10:00:00Z", "countries": {"PL": {"eures": {"status": "ok"}}}})
+    store.write_run_status({"last_run_utc": "2026-11-02T11:00:00Z", "countries": {"ES": {"eures": {"status": "partial"}}}})
+    status = json.loads(open(store.status_path).read())
+    assert set(status["countries"]) == {"ES"}
+    assert set(status["latest_by_country"]) == {"PL", "ES"}
+    assert status["latest_by_country"]["PL"]["checked_at_utc"] == "2026-11-02T10:00:00Z"

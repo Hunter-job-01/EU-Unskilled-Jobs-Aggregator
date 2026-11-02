@@ -37,6 +37,7 @@ eligibility verdict.
 from __future__ import annotations
 
 import html
+import hashlib
 import json
 import logging
 import os
@@ -482,8 +483,11 @@ def send_digest(store, cfg: dict, *, session=None, environ=None,
     destinations = root.setdefault("destinations", {})
     total = 0
     for chat in chats:
-        state = destinations.setdefault(chat, {})
-        def persist(value, key=chat):
+        # Never publish private Telegram chat/channel identifiers in the
+        # tracked state. Stable digests preserve independent delivery gates.
+        state_key = hashlib.sha256(chat.encode("utf-8")).hexdigest()
+        state = destinations.setdefault(state_key, {})
+        def persist(value, key=state_key):
             destinations[key] = value
             _save_state(store, cfg, root)
         scoped = _DestinationStore(store, state, persist)

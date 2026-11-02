@@ -286,8 +286,16 @@ run before merge.
 - Verified against official GitHub documentation on November 2, 2026:
   standard hosted runners in public repositories are free with unlimited
   runner minutes. This project uses `ubuntu-latest`, not paid larger runners.
-  No private-repository quota is assumed. Actual per-tier hosted runtime
-  measurements must be recorded after the first live GitHub runs.
+  No private-repository quota is assumed. First real hosted measurements
+  (November 2, 2026, 50 jobs/country/source, title translation skipped):
+  Tier 1 4m29s, Tier 2 3m03s, Tier 3 5m42s. Scraper-only times were
+  245.7s / 165.6s / 325.5s. All 27 EURES checks and all 18 supported
+  Indeed checks reported OK; 9 unsupported Indeed countries skipped.
+  This run retained 982 active records after scoring/pruning, not 982
+  independently verified available vacancies. Future source health varies.
+  The requested cadence is enabled through `SCHEDULES_ENABLED=true`.
+  `run_status.json` also retains timestamped `latest_by_country` checks
+  across tiers; top-level countries/totals still describe the last run.
 - Free artifact storage is 500 MB and cache storage is 10 GB per repository.
   Daily artifacts retain 14 days, weekly snapshots 30 days. Dataset history
   still grows in Git even when the live JSON is bounded.
