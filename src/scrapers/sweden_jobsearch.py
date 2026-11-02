@@ -99,6 +99,25 @@ class SwedenJobSearchScraper:
                 seen_ids.add(ad_id)
                 employer = hit.get("employer") or {}
                 desc = hit.get("description") or {}
+                # Authoritative structured requirement fields from the API
+                # stay visible as evidence lines, so a KNOWN mandatory
+                # conflict (e.g. driving licence) is rejected from stored
+                # text instead of degrading to "unknown" when the JS detail
+                # page only yields site chrome. Absence/False is never a
+                # waiver, so lines are appended only for positive flags.
+                evidence = []
+                if hit.get("driving_license_required"):
+                    evidence.append("driving licence required (JobSearch structured field)")
+                if hit.get("experience_required"):
+                    evidence.append("experience required (JobSearch structured field)")
+                for lang in ((hit.get("must_have") or {}).get("languages") or []):
+                    label = str((lang or {}).get("label") or "").strip()
+                    if label:
+                        evidence.append("must-have language: {}".format(label))
+                description = strip_html(desc.get("text") or "")[:20000]
+                if evidence:
+                    description = (description + "\n[JobSearch evidence] "
+                                   + "; ".join(evidence)).strip()
                 job = Job(
                     title=str(hit.get("headline") or "").strip(),
                     company=str(employer.get("name") or "").strip(),
@@ -107,7 +126,7 @@ class SwedenJobSearchScraper:
                     source_id=ad_id,
                     url=str(hit.get("webpage_url")
                             or (hit.get("application_details") or {}).get("url") or ""),
-                    description=strip_html(desc.get("text") or "")[:20000],
+                    description=description,
                     location=", ".join(str(p) for p in (
                         workplace.get("municipality"), workplace.get("region")) if p),
                     posted_date=str(hit.get("publication_date") or "")[:10] or None,

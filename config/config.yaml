@@ -419,7 +419,7 @@ sources:
     keywords_per_country: 8
     results_per_query: 25
   czech_mpsv:
-    enabled: false                    # official daily export, Czechia only
+    enabled: true                     # official daily export, Czechia only (weekly sweep)
     # validated 2026-11-02 against volna-mista.schema.json; re-validate
     # from current metadata before enabling
     distribution_url: "https://data.mpsv.cz/od/soubory/volna-mista/volna-mista.json"
