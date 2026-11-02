@@ -6,3 +6,4 @@ venv/
 .pytest_cache/
 data/.cache/
 .DS_Store
+data/applications_tracker.json

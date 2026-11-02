@@ -108,3 +108,56 @@ def tailor_message(
         body_draft_local=body_draft_local, local_language=local_language,
         claims_used=claims,
     )
+
+
+_LOCAL_LETTER = {
+    "pl": """Szanowni Państwu,
+
+nazywam się {candidate_name} i składam aplikację na stanowisko {role} (ogłoszenie: {source_ref}).
+W załączeniu przesyłam swoje CV. Jestem gotowy do podjęcia pracy od zaraz i chętnie
+odpowiem na wszelkie pytania.
+
+Z poważaniem,
+{candidate_name}
+{contact_line}
+""",
+    "de": """Sehr geehrte Damen und Herren,
+
+mein Name ist {candidate_name} und ich bewerbe mich um die Stelle {role} (Anzeige: {source_ref}).
+Meinen Lebenslauf finden Sie im Anhang. Ich kann sofort anfangen und beantworte
+gerne Ihre Fragen.
+
+Mit freundlichen Grüßen
+{candidate_name}
+{contact_line}
+""",
+    "nl": """Geachte heer/mevrouw,
+
+mijn naam is {candidate_name} en ik solliciteer naar de functie {role} (vacature: {source_ref}).
+In de bijlage vindt u mijn cv. Ik ben direct beschikbaar en beantwoord graag
+uw vragen.
+
+Met vriendelijke groet,
+{candidate_name}
+{contact_line}
+""",
+}
+LOCAL_LETTER_LANGS = tuple(sorted(_LOCAL_LETTER))
+
+
+def draft_local_letter(language: str, *, role: str, source_ref: str,
+                       candidate_name: str, contact_line: str) -> str:
+    """Deterministic employer-local-language application letter.
+
+    Only languages with a reviewed template produce a letter; anything
+    else returns "" so the card keeps its "local version still owed"
+    note instead of shipping an unreviewed machine guess. The template
+    carries no claims beyond identity, role, source and availability -
+    evidence-backed claims live in the English body and the card.
+    """
+    template = _LOCAL_LETTER.get((language or "").lower())
+    if not template:
+        return ""
+    return template.format(role=role, source_ref=source_ref,
+                           candidate_name=candidate_name,
+                           contact_line=contact_line).strip()
