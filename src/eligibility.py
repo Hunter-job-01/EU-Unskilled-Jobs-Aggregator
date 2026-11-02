@@ -170,13 +170,23 @@ class AutomaticEligibleStore:
     Accepted/rejected UID choices and exact facts remain ephemeral. Aggregate
     counters are private-return values, never written into public job records.
     """
-    def __init__(self, store, profile, fetch_details, now=None, max_checks=30):
+    def __init__(self, store, profile, fetch_details, now=None, max_checks=30,
+                 min_score=None, skip_uids=()):
         from .automatic_requirements import automatic_review, unresolved_domains
         self.store, self.data_dir = store, store.data_dir
         self._store = {}
         self.stats = {'checked': 0, 'pass': 0, 'reject': 0, 'review': 0, 'unavailable': 0}
         records = getattr(store, '_store', None)
         records = records if records is not None else store.load()
+        # The bounded batch must prioritise jobs that can actually be
+        # selected: digest-eligible scores not yet delivered to every
+        # destination. Rotating over the whole store first (including
+        # below-threshold and fully-delivered jobs) left eligible
+        # candidates invisible to the digest for hours at a time.
+        skipped = set(skip_uids)
+        records = {uid: r for uid, r in records.items()
+                   if uid not in skipped and not r.get('excluded')
+                   and (min_score is None or (r.get('score') or 0) >= min_score)}
         # Rank candidates using public job evidence only. Prioritize explicit
         # overseas hiring, not the old relevance score's permit noun bonus.
         def priority(pair):

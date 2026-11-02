@@ -539,8 +539,16 @@ def send_digest(store, cfg: dict, *, session=None, environ=None,
             # Validate/migrate persistence before any send; never silently reset it.
             _load_state(store, cfg)
             if cfg.get("telegram", {}).get("automatic_requirements"):
+                # Skip only jobs already delivered to EVERY destination; a
+                # job still unnotified for any audience stays checkable.
+                dest_states = (_load_state(store, cfg).get("destinations") or {})
+                notified = [set((s or {}).get("notified_uids") or {})
+                            for s in dest_states.values()]
+                everywhere = set.intersection(*notified) if notified else set()
                 store = AutomaticEligibleStore(store, profile, fetch_job_details, now=now,
-                    max_checks=int(cfg["telegram"].get("detail_checks_per_run", 30)))
+                    max_checks=int(cfg["telegram"].get("detail_checks_per_run", 30)),
+                    min_score=int(cfg["telegram"].get("min_score", 50)),
+                    skip_uids=everywhere)
                 log.info("Automatic detail-check batch finished (candidate-specific results remain private)")
             else:
                 store = EligibleStore(store, profile, reviews, fetch_public_text)

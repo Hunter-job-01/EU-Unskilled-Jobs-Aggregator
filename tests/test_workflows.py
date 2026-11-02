@@ -387,3 +387,46 @@ def test_pages_can_read_current_repository():
     assert doc['permissions']['contents'] == 'read'
     checkout = next(s for s in doc['jobs']['deploy']['steps'] if s.get('uses', '').startswith('actions/checkout@'))
     assert checkout['with']['ref'] == 'main'
+
+
+# ------------------------------------------------- force-channel guard
+
+
+def _force_guard_lines():
+    lines = DAILY.read_text(encoding="utf-8").splitlines()
+    guard = [l.strip() for l in lines
+             if l.strip().startswith('[ -n "$TELEGRAM_CHANNEL_ID" ]')]
+    member = [l.strip() for l in lines
+              if l.strip().startswith("printf '%s' \"$TELEGRAM_CHAT_IDS\"")]
+    assert guard, "force-channel guard missing the TELEGRAM_CHANNEL_ID check"
+    assert member, "force-channel guard missing the membership check"
+    return guard[0], member[0]
+
+
+def test_force_channel_membership_check_handles_dash_leading_ids():
+    # Regression: channel ids start with -100; without `-e` grep parses the
+    # pattern as options and the guard fails even for a valid destination.
+    _, member = _force_guard_lines()
+    assert "grep -qxF -e" in member, \
+        "dash-leading channel ids require grep -e so the id is not parsed as options"
+
+
+@pytest.mark.parametrize("chat_ids,channel_id,ok", [
+    ("5754931747,-1004256976824", "-1004256976824", True),
+    ("5754931747, -1004256976824", "-1004256976824", True),
+    ("5754931747,-1004256976824", "-1009999999999", False),
+    ("5754931747", "-1004256976824", False),
+    ("5754931747,-1004256976824", "", False),
+])
+def test_force_channel_guard_executes_fail_closed(chat_ids, channel_id, ok):
+    # Runs the exact guard lines shipped in the workflow: arms only when the
+    # exact channel id is one of the configured destinations, fails closed
+    # on a missing secret or a non-destination id.
+    import os
+    import subprocess
+    guard, member = _force_guard_lines()
+    env = dict(os.environ, TELEGRAM_CHAT_IDS=chat_ids,
+               TELEGRAM_CHANNEL_ID=channel_id)
+    result = subprocess.run(["bash", "-c", guard + "\n" + member],
+                            env=env, capture_output=True, text=True)
+    assert (result.returncode == 0) == ok, result.stderr

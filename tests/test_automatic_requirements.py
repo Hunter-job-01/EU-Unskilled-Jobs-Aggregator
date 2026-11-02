@@ -74,3 +74,27 @@ def test_uncertain_output_has_warning_and_not_full_translation():
 def test_preferred_licence_not_hard_rejected():
     status,_=automatic_review(RECORD,'Warehouse worker. Driving licence preferred. No experience required.',now=NOW)
     assert status=='review'
+
+
+def _pool(score_map):
+    class S:
+        data_dir='/tmp'
+        _store={uid: dict(RECORD, uid=uid, score=sc) for uid, sc in score_map.items()}
+    return S()
+
+def test_check_pool_prioritizes_digest_eligible_scores():
+    # The bounded batch must spend detail checks only on jobs that can
+    # actually be selected; below-threshold jobs made eligible candidates
+    # invisible when rotation ran over the whole store.
+    score_map={**{f'low{i}': 10 for i in range(25)}, **{f'hi{i}': 70 for i in range(5)}}
+    calls=[]
+    def fetch(r): calls.append(r['uid']); return TEXT,{}
+    v=AutomaticEligibleStore(_pool(score_map),PROFILE,fetch,now=NOW,min_score=50)
+    assert set(calls)=={f'hi{i}' for i in range(5)}
+    assert set(v.load())==set(calls)
+
+def test_check_pool_skips_uids_delivered_to_every_destination():
+    calls=[]
+    def fetch(r): calls.append(r['uid']); return TEXT,{}
+    v=AutomaticEligibleStore(_pool({f'u{i}': 70 for i in range(4)}),PROFILE,fetch,now=NOW,min_score=50,skip_uids={'u1','u2'})
+    assert set(calls)=={'u0','u3'}
