@@ -1,0 +1,4 @@
+# Local CPU models, no paid translation API.
+transformers>=4.40,<5
+sentencepiece>=0.2,<0.3
+sacremoses>=0.1,<0.2

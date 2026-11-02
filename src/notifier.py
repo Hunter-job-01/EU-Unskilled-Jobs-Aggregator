@@ -416,6 +416,25 @@ def _send_single_digest(store, cfg: dict, *, session=None, environ=None,
 
     messages, page_uids = build_messages(jobs, cfg, now=now)
     session = session or requests.Session()
+    if tcfg.get("full_arabic_translation"):
+        try:
+            from .offline_translation import translation_document
+            document = translation_document(jobs)
+            response = session.post(API_TEMPLATE.format(token=token).replace('/sendMessage', '/sendDocument'),
+                data={"chat_id": chat_id, "caption": "العنوان والوصف والشروط: ترجمة آلية مع النص الأصلي الكامل. ⚠️ الحالات غير المؤكدة مميزة داخل الملف."},
+                files={"document": ("jobs-arabic-and-original.txt", document, "text/plain; charset=utf-8")}, timeout=45)
+            if response.status_code != 200 or not response.json().get("ok"):
+                log.error("Full translation document not accepted; jobs remain unnotified")
+                return 0
+            # The document is the digest: mark only after Telegram accepts it.
+            marked = store.mark_notified([job["uid"] for job in jobs])
+            state["last_digest_utc"] = today
+            persist(state)
+            log.info("Full translated document digest accepted; private state persisted")
+            return marked
+        except Exception:
+            log.error("Full translation document unavailable; jobs remain unnotified")
+            return 0
     delay = float(tcfg.get("message_delay_sec", 1.0))
     notified = 0
     for idx, (text, uids) in enumerate(zip(messages, page_uids)):

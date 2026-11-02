@@ -217,6 +217,8 @@ class AutomaticEligibleStore:
             self.stats[status] += 1
             if status in ('pass', 'review'):
                 result = dict(record)
+                result['original_full_text'] = text
+                result['source_language'] = structured.get('languageVersion')
                 result['private_fit_status'] = status
                 result['private_fit_reason'] = ('الشروط المقروءة متوافقة مبدئيًا، وليست ضمان قبول أو تأشيرة' if status == 'pass' else
                     unresolved_domains(text))

@@ -574,3 +574,22 @@ is not universal parsing of all EU job requirements. Local Arabic role labels
 are category labels, **not full translations**. The prior unauthenticated Google
 translation route was throttled and is not bypassed. Full translation remains a
 separate capability to validate before enabling.
+
+### Full Arabic translation (local CPU)
+
+The replacement translation path uses public Helsinki-NLP Marian models locally
+on the GitHub runner, not the throttled Google endpoint. Public model files may
+be downloaded/cached, but no CV or private criteria are submitted for translation.
+Source→English→Arabic pivoting can change meaning. Translation is display-only,
+never authority for eligibility. The full Arabic text and full original text
+are paired in a private UTF-8 text document digest with links and status marks.
+All model input tokens are processed in windows; unsupported languages, failed
+models and incomplete source pages are explicitly labelled, not silently cut.
+A failed document upload leaves jobs unnotified; successful acceptance preserves
+per-destination daily gates. No extra same-day digest is forced.
+
+Full translation is enabled only after the hosted CPU/model smoke check passes.
+Languages use dedicated source→English pairs where available; a language in the
+configured set is not a guarantee that its public model can be loaded or that
+its output is accurate. Always check the original requirements. This changes the
+private digest presentation, not the broad public dashboard's language.

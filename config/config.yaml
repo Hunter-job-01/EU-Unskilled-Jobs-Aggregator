@@ -348,7 +348,7 @@ proxies:
 
 # ------------------------- Translation -------------------------------
 translation:
-  enabled: true
+  enabled: false  # retired throttled Google route; local digest translation is separate
   target: en
   max_per_run: 200              # polite HTTP request cap per run; skipped titles keep original text
   # Quota discipline: scoring (exclusion checks + keyword/signal scoring)
@@ -368,6 +368,7 @@ telegram:
   enabled: true
   private_fit_required: true
   automatic_requirements: true
+  full_arabic_translation: false  # enable after hosted CPU validation
   detail_checks_per_run: 30
   include_uncertain: true  # explicitly labelled; known conflicts still excluded
   min_score: 50               # only jobs at/above this relevance score are digested
