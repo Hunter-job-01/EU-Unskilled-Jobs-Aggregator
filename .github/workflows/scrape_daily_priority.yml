@@ -98,18 +98,12 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Cache local translation models
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/huggingface/hub
-          key: offline-job-translation-v1
-          restore-keys: offline-job-translation-
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt -r requirements-translation.txt
-          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+          # Full local translation remains OFF after real-job quality validation.
+          # Heavy model dependencies are kept in the separate experimental check.
 
       - name: Resolve run parameters
         id: resolve

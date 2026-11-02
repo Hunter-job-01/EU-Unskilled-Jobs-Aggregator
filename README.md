@@ -593,3 +593,11 @@ Languages use dedicated source→English pairs where available; a language in th
 configured set is not a guarantee that its public model can be loaded or that
 its output is accurate. Always check the original requirements. This changes the
 private digest presentation, not the broad public dashboard's language.
+
+Validation outcome: model download/inference works on GitHub, but full real-job
+translation quality did not pass (dropped or changed numeric/qualification text
+and distorted employer/location wording). Full Arabic translation therefore
+remains **OFF**, despite green infrastructure smoke checks. Those checks prove
+execution, not semantic accuracy. Scheduled scrapes do not install heavy model
+dependencies while this feature is off. Automatic job triage/uncertain labels
+remain active. Full translation is a known remaining outcome, not completed.

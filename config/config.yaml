@@ -368,7 +368,7 @@ telegram:
   enabled: true
   private_fit_required: true
   automatic_requirements: true
-  full_arabic_translation: false  # enable after hosted CPU validation
+  full_arabic_translation: false  # real-job translation quality not validated
   detail_checks_per_run: 30
   include_uncertain: true  # explicitly labelled; known conflicts still excluded
   min_score: 50               # only jobs at/above this relevance score are digested
