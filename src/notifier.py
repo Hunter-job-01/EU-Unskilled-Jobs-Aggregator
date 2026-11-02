@@ -422,7 +422,7 @@ def _send_single_digest(store, cfg: dict, *, session=None, environ=None,
             from .offline_translation import translation_document
             if tcfg.get("translation_engine") == "gemini_free":
                 from .gemini_translation import Translator
-                translator = translator or Translator(key=environ.get("GEMINI_API_KEY", ""),
+                translator = translator or Translator(key=env.get("GEMINI_API_KEY", ""),
                     cache_dir=str(Path(store.data_dir) / ".cache" / "translation"),
                     max_calls=int(tcfg.get("translation_calls_per_run", 5)))
                 document = translation_document(jobs, translate=translator)
