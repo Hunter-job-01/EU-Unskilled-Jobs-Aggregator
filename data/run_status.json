@@ -1,66 +1,128 @@
 {
   "countries": {
-    "LV": {
+    "CZ": {
       "eures": {
         "errors": [],
-        "fetched": 10,
+        "fetched": 50,
         "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "DE": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "HU": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 31,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "LT": {
+      "eures": {
+        "errors": [],
+        "fetched": 17,
+        "notes": [
+          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
+        ],
         "status": "ok"
       },
       "jobspy": {
         "errors": [],
         "fetched": 0,
         "notes": [
-          "indeed: LV not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
-      },
-      "latvia_nva": {
-        "errors": [],
-        "fetched": 10,
-        "notes": [],
-        "status": "ok"
-      },
-      "sweden_jobsearch": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Platsbanken/JobSearch covers Sweden only"
+          "indeed: LT not supported by JobSpy/Indeed (EURES covers it)"
         ],
         "status": "skipped"
       }
     },
-    "SE": {
+    "NL": {
       "eures": {
         "errors": [],
-        "fetched": 10,
+        "fetched": 50,
         "notes": [],
         "status": "ok"
       },
       "jobspy": {
         "errors": [],
-        "fetched": 10,
-        "notes": [],
-        "status": "ok"
-      },
-      "latvia_nva": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the NVA dataset covers Latvia only"
-        ],
-        "status": "skipped"
-      },
-      "sweden_jobsearch": {
-        "errors": [],
-        "fetched": 10,
+        "fetched": 50,
         "notes": [],
         "status": "ok"
       }
+    },
+    "PL": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "RO": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 12,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "SK": {
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [
+          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
+        ],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: SK not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      }
     }
   },
-  "duration_sec": 72.9,
-  "last_run_utc": "2026-11-02T17:42:36+00:00",
+  "duration_sec": 322.9,
+  "last_run_utc": "2026-11-02T18:12:14+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-02T13:22:53+00:00",
@@ -135,7 +197,7 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "checked_at_utc": "2026-11-02T18:12:14+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -152,7 +214,7 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "checked_at_utc": "2026-11-02T18:12:14+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -292,7 +354,7 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "checked_at_utc": "2026-11-02T18:12:14+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -302,7 +364,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 36,
+          "fetched": 31,
           "notes": [],
           "status": "ok"
         }
@@ -343,7 +405,7 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "checked_at_utc": "2026-11-02T18:12:14+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -433,7 +495,7 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "checked_at_utc": "2026-11-02T18:12:14+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -450,7 +512,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "checked_at_utc": "2026-11-02T18:12:14+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -484,7 +546,7 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "checked_at_utc": "2026-11-02T18:12:14+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -551,7 +613,7 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-02T13:13:58+00:00",
+      "checked_at_utc": "2026-11-02T18:12:14+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -574,28 +636,32 @@
   },
   "parameters": {
     "countries": [
-      "SE",
-      "LV"
+      "PL",
+      "CZ",
+      "DE",
+      "LT",
+      "HU",
+      "RO",
+      "SK",
+      "NL"
     ],
-    "max_jobs": 10,
+    "max_jobs": 50,
     "min_score": 20,
     "sources": [
       "eures",
-      "jobspy",
-      "latvia_nva",
-      "sweden_jobsearch"
+      "jobspy"
     ],
-    "tier": "3"
+    "tier": "1"
   },
   "totals": {
-    "active": 1000,
-    "below_min_score": 0,
-    "excluded": 28,
-    "fetched": 50,
-    "new": 19,
+    "active": 1111,
+    "below_min_score": 23,
+    "excluded": 186,
+    "fetched": 610,
+    "new": 114,
     "notified_telegram": 0,
-    "pruned": 1,
+    "pruned": 3,
     "translated_titles": 0,
-    "updated": 3
+    "updated": 259
   }
 }
