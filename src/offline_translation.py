@@ -161,11 +161,20 @@ def translate_titles_offline(jobs, cfg, log=None):
         if not need_en and not need_ar:
             continue
         en, ar = translate_title_argos(job.title, lang)
-        if en and need_en:
+        # Publication containment (pipeline policy 2026-11-03): the
+        # unattended scheduled layer publishes only source-original
+        # English passthroughs plus reviewed-vocabulary Arabic glosses.
+        # Raw free-model EN output stays EMPTY for manual semantic
+        # review - automatic gates passed real garbles (2026-11-03
+        # audit), so gate-pass alone is not publication quality.
+        # Existing values are never touched here. The English-evidence
+        # check is bounded: false negatives just stay empty (safe).
+        is_source_copy = bool(en) and en == (job.title or "").strip()
+        if en and need_en and is_source_copy:
             job.title_en = en
             job.translated = True
             en_done += 1
-        if ar and need_ar:
+        if ar and need_ar and is_source_copy:
             job.title_ar = ar
             ar_done += 1
     return en_done, ar_done

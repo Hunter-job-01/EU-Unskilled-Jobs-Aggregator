@@ -215,7 +215,8 @@ def main(argv=None) -> int:
     # One Translator instance => the per-run call cap is SHARED by both
     # language batches; quota-stop in either stops the other.
     en_todo = []
-    if mt_enabled:
+    publish_model_en = bool(cfg.get("translation", {}).get("publish_model_output_en", False))
+    if mt_enabled and publish_model_en:
         from src.scorer import needs_en_translation
         # Reload-safe gate: empty OR identical-to-source title_en (legacy
         # failure-copies included) - the keyless route can no longer hide

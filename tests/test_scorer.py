@@ -153,7 +153,7 @@ def test_translation_skips_excluded_and_low_score_jobs(monkeypatch):
                            exclusion_reason="disqualifier: only eu citizens")
     low = _scored_job("Pracownik magazynu", 30)     # below min_score 40
     high = _scored_job("Pakowacz", 70)
-    done = translate_titles([excluded, low, high], _translation_cfg())
+    done = translate_titles([excluded, low, high], _translation_cfg(publish_model_output_en=True))
     assert done == 1
     assert created[0].calls == ["Pakowacz"]  # only the eligible job hit the network
     assert excluded.title_en == ""
@@ -167,7 +167,7 @@ def test_translation_cap_spent_highest_score_first(monkeypatch):
     jobs = [_scored_job("Pracownik produkcji", 41),
             _scored_job("Magazynier", 90),
             _scored_job("Pakowacz", 55)]
-    done = translate_titles(jobs, _translation_cfg(max_per_run=2))
+    done = translate_titles(jobs, _translation_cfg(max_per_run=2, publish_model_output_en=True))
     assert done == 2
     # score order 90, 55 - the 41-point title is left untranslated
     assert created[0].calls == ["Magazynier", "Pakowacz"]
@@ -188,7 +188,7 @@ def test_english_titles_copied_for_free_without_cap(monkeypatch):
 def test_translation_min_score_gate_configurable(monkeypatch):
     created = _install_fake_deep_translator(monkeypatch)
     mid = _scored_job("Magazynier", 30)
-    done = translate_titles([mid], _translation_cfg(min_score=20))
+    done = translate_titles([mid], _translation_cfg(min_score=20, publish_model_output_en=True))
     assert done == 1
     assert created[0].calls == ["Magazynier"]
 
@@ -198,7 +198,7 @@ def test_translation_uses_caller_effective_min_score(monkeypatch):
     # wins over translation.min_score in BOTH directions.
     created = _install_fake_deep_translator(monkeypatch)
     mid = _scored_job("Magazynier", 30)
-    done = translate_titles([mid], _translation_cfg(min_score=40), min_score=20)
+    done = translate_titles([mid], _translation_cfg(min_score=40, publish_model_output_en=True), min_score=20)
     assert done == 1                       # lower CLI threshold: 30 is eligible
     assert created[-1].calls == ["Magazynier"]
 
@@ -275,7 +275,7 @@ def test_translation_stops_on_throttle(monkeypatch):
             raise Exception('Too many requests: HTTP 429')
     monkeypatch.setitem(sys.modules, 'deep_translator', types.SimpleNamespace(GoogleTranslator=Translator))
     jobs = [_scored_job('Magazynier', 80), _scored_job('Lagerhelfer', 70)]
-    assert translate_titles(jobs, _translation_cfg()) == 0
+    assert translate_titles(jobs, _translation_cfg(publish_model_output_en=True)) == 0
     assert len(calls) == 1
     # Failure/throttle leaves title_en EMPTY: copying the source title would
     # fake a translation and hide the job from the Gemini fallback gate.
@@ -293,7 +293,7 @@ def test_translation_failure_counts_toward_attempt_cap(monkeypatch):
             raise Exception('Network unavailable')
     monkeypatch.setitem(sys.modules, 'deep_translator', types.SimpleNamespace(GoogleTranslator=Translator))
     jobs = [_scored_job('Magazynier', 80), _scored_job('Lagerhelfer', 70)]
-    assert translate_titles(jobs, _translation_cfg(max_per_run=1)) == 0
+    assert translate_titles(jobs, _translation_cfg(max_per_run=1, publish_model_output_en=True)) == 0
     assert len(calls) == 1
 
 
@@ -342,3 +342,19 @@ def test_lithuanian_skilled_title_still_excluded(cfg):
     job = make_job(title="Rahoitusasiantuntija", country="LT", languages=["en"])
     Scorer(cfg).score(job)
     assert job.excluded
+
+
+def test_translation_holds_model_output_by_default(monkeypatch):
+    """Containment (2026-11-03): without an explicit opt-in, the scheduled
+    layer publishes NO unattended free-model EN - no network call is even
+    made; the field stays EMPTY for manual semantic review. Passthrough
+    copies of genuinely English titles are unaffected."""
+    created = _install_fake_deep_translator(monkeypatch)
+    eng = _scored_job("Warehouse worker", 95)
+    non_en = _scored_job("Magazynier", 90)
+    done = translate_titles([eng, non_en], _translation_cfg())
+    assert done == 0
+    assert created[0].calls == []            # no network spend on held output
+    assert eng.title_en == "Warehouse worker"  # source-original passthrough
+    assert non_en.title_en == ""             # model output held
+    assert not non_en.translated

@@ -221,3 +221,41 @@ def test_country_en_passthrough_requires_english_evidence():
     assert has_english_evidence("Production Worker")
     assert has_english_evidence("Siivooja / Cleaner")
     assert not has_english_evidence("Mozo/a de almacén")
+
+
+def test_scheduled_layer_holds_free_model_output(monkeypatch):
+    """Containment (2026-11-03): the unattended scheduled layer publishes
+    only source-original English passthroughs + reviewed-vocab Arabic.
+    Raw free-model EN stays EMPTY for manual semantic review."""
+    import sys
+    from types import ModuleType, SimpleNamespace
+    sys.modules.setdefault('argostranslate', ModuleType('argostranslate'))
+    import src.argos_titles as at
+    from src.offline_translation import translate_titles_offline
+
+    monkeypatch.setattr(at, 'ensure_packages', lambda langs, log=None: [])
+    calls = {
+        'Magazynier': ('Warehouse worker', 'عامل مستودع'),      # free-model output
+        # scorer.looks_english misses this genuine-English title (its
+        # hint set lacks 'kitchen'/'porter'); the evidence check lets
+        # the layer copy the source through.
+        'Kitchen Porter': ('Kitchen Porter', 'عامل مطبخ'),
+    }
+    monkeypatch.setattr(at, 'translate_title_argos',
+                        lambda title, lang: calls[title])
+    jobs = [
+        SimpleNamespace(title='Magazynier', title_en='', title_ar='',
+                        score=70, excluded=False, country='PL',
+                        source_language='pl', translated=False),
+        SimpleNamespace(title='Kitchen Porter', title_en='', title_ar='',
+                        score=80, excluded=False, country='IE',
+                        source_language='en', translated=False),
+    ]
+    en_done, ar_done = translate_titles_offline(jobs, {'translation': {'enabled': True}})
+    # Free-model output held: honest-empty, never published unattended.
+    assert jobs[0].title_en == '' and jobs[0].title_ar == ''
+    assert not jobs[0].translated
+    # Source-original English passthrough + reviewed-vocab gloss publish.
+    assert jobs[1].title_en == 'Kitchen Porter'
+    assert jobs[1].title_ar == 'عامل مطبخ'
+    assert (en_done, ar_done) == (1, 1)

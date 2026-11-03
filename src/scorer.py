@@ -231,6 +231,12 @@ def translate_titles(jobs, cfg: dict, min_score: int = None) -> int:
         log.warning("deep-translator not installed; skipping title translation")
         return 0
 
+    # Publication containment (pipeline policy 2026-11-03): unattended
+    # free-model EN output is NOT published by default. Automatic gates
+    # passed real garbles (2026-11-03 audit), so gate-pass alone is not
+    # reviewed quality; model output stays EMPTY for manual semantic
+    # review. Source-original English passthroughs still copy for free.
+    publish_model = bool(tcfg.get("publish_model_output_en", False))
     gate = min_score if min_score is not None else tcfg.get("min_score", 40)
     candidates = [
         job for job in jobs
@@ -251,6 +257,8 @@ def translate_titles(jobs, cfg: dict, min_score: int = None) -> int:
         if looks_english(title):
             job.title_en = title  # free: no request, no cap
             continue
+        if not publish_model:
+            continue  # held: no unattended free-model EN publication
         if throttled:
             continue  # leave title_en empty: a source-title copy is not a translation
 
