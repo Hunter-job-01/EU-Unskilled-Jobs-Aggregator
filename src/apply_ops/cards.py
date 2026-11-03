@@ -24,7 +24,8 @@ from .route_classifier import Route
 from .tracker import ApplicationTracker, TrackerEntry
 from ..role_labels import arabic_role_label
 
-# Verified candidate facts (v5 CV draft, owner-reviewed). The templates
+# Candidate facts supplied by the owner through their authenticated chat
+# (v5 CV draft review rounds). The templates
 # may assert ONLY these; target-role variants never become experience.
 BACKGROUND_LINE_EN = ("My background includes four years in mobile phone sales "
                       "(2020-2024), warehouse work, and my current work in a "
@@ -229,7 +230,10 @@ def build_application_card(job, *, fetch, search, card_store: CardStore,
         full_body = tailored.body_draft_local + "\n\n-----\n\n" + tailored.body_draft
         # The user approves from the Arabic card: show the local-language
         # letter too, not only the English draft.
-        local_block = ("--- (" + local_lang + ") ---\n" + tailored.body_draft_local
+        local_block = ("نص الرسالة المرسلة بالضبط: بريد واحد فقط يبدأ بالخطاب "
+                       + "باللغة المحلية ثم فاصل ----- ثم النص الإنجليزي (ليس رسالتين). "
+                       + "الموضوع: " + tailored.subject + "\n"
+                       + "--- (" + local_lang + ") ---\n" + tailored.body_draft_local
                        + "\n--- ترجمة الخطاب (" + local_lang + ") إلى العربية ---\n"
                        + local_letter_arabic(local_lang, role=getattr(job, "title", ""),
                                              source_ref=source_ref,
@@ -251,6 +255,7 @@ def build_application_card(job, *, fetch, search, card_store: CardStore,
         cv_variant=match.variant.value, card_text_ar=display_text,
         draft_subject=tailored.subject, draft_body=full_body,
         recipient=contact, sending_account=sending_account,
+        cv_file_hash=cv_hash,
     ))
     tracker.add_pending(TrackerEntry(
         uid=card.job_uid, company=card and getattr(job, "company", ""),
