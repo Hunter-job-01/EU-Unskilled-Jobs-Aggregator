@@ -86,3 +86,37 @@ def test_identical_translation_rejected():
 def test_empty_title():
     assert translate_title_argos("", "pl") == ("", "")
     assert translate_title_argos("   ", "de") == ("", "")
+
+
+def test_en_gate_rejects_measured_wrong_outputs():
+    from src.argos_titles import faithful_english
+    assert not faithful_english("Skladník / Kompletář objednávek – HPP",
+                                "Warehouse worker / Order Complex - HPP")
+    assert not faithful_english("Cariste (H/F)", "Carist (H/F)")
+    assert not faithful_english("Orderpicker early shift | Budbee",
+                                "oncccccccccccccccccccc")
+    assert not faithful_english("Manutentionnaire F/H", "Manual F/H")
+
+
+def test_en_gate_qualifier_preservation():
+    from src.argos_titles import faithful_english
+    # licence requirement dropped -> reject
+    assert not faithful_english("Lagerhelfer mit Führerschein (m/w/d)",
+                                "Warehouse helper (m/f/d)")
+    assert faithful_english("Lagerhelfer mit Führerschein (m/w/d)",
+                            "Warehouse helper with driving license (m/f/d)")
+    # seniority dropped -> reject
+    assert not faithful_english("Analytický chemik QC – junior",
+                                "Analytical chemist QC")
+    assert faithful_english("Analytický chemik QC – junior",
+                            "Analytical chemist QC - junior")
+    # Teilzeit dropped -> reject
+    assert not faithful_english("Teilzeit Zusteller*in (w/m/d)",
+                                "Delivery (f/m/d)")
+    assert faithful_english("Teilzeit Zusteller*in (w/m/d)",
+                            "Part-time delivery (f/m/d)")
+
+
+def test_en_gate_runaway_length():
+    from src.argos_titles import faithful_english
+    assert not faithful_english("Packer", "Packer " + "with benefits " * 8)

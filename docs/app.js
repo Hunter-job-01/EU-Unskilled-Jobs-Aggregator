@@ -425,16 +425,23 @@
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
       actions.appendChild(link);
+      // Every link is shown with its actual verification state: no link on
+      // this dashboard has been individually HTTP-checked, so a solid
+      // 'View & apply' must never read as verification proof.
+      var provText, provTextAr;
       if (linkPending) {
-        var prov = el('p', 'link-provenance',
-          'Link rebuilt from the posting key at the source; not yet live-verified.');
-        var provAr = el('span', 'ar',
-          'الرابط أُعيد بناؤه من مفتاح الإعلان لدى المصدر؛ لم يُتحقق منه بعد.');
-        provAr.setAttribute('lang', 'ar');
-        provAr.setAttribute('dir', 'rtl');
-        prov.appendChild(provAr);
-        actions.appendChild(prov);
+        provText = 'Link rebuilt from the posting key at the source; not yet live-verified.';
+        provTextAr = 'الرابط أُعيد بناؤه من مفتاح الإعلان لدى المصدر؛ لم يُتحقق منه بعد.';
+      } else {
+        provText = 'Link as listed by the source; not individually live-checked.';
+        provTextAr = 'الرابط كما ورد في صفحة المصدر؛ لم يُتحقق منه فرديًا.';
       }
+      var prov = el('p', 'link-provenance', provText);
+      var provAr = el('span', 'ar', provTextAr);
+      provAr.setAttribute('lang', 'ar');
+      provAr.setAttribute('dir', 'rtl');
+      prov.appendChild(provAr);
+      actions.appendChild(prov);
     } else {
       actions.appendChild(el('span', 'apply-unavailable', 'Direct link unavailable'));
     }

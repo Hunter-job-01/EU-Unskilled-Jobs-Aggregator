@@ -134,6 +134,54 @@ def prepass_title(title: str, lang: str):
     return out
 
 
+# Wrong-output patterns measured in the first local batch (2026-11-03):
+# model runaways, nonwords and mistranslations. The gate rejects, never
+# publishes; a rejected title stays EMPTY for manual review.
+_EN_DENY = (
+    "order complex", "carist", "shop commissioner", "manual f/h",
+    "shopkeeper", "tollers", "no samb", "no sampling",
+)
+_RUNAWAY = __import__("re").compile(r"(.)\1{5,}")
+
+# Qualifier lexicon (folded): when the source carries one of these, the
+# English output must carry its canonical equivalent - a translation
+# that drops a licence, seniority or language requirement is unfaithful
+# even when the role words translate correctly.
+_QUALIFIERS = [
+    (("fuhrerschein", "ridicak", "ridicakem", "prawo jazdy", "rijbewijs",
+      "korkort", "permis de conduire", "patente"), ("driving licence", "driving license", "driver's license", "license")),
+    (("junior",), ("junior",)),
+    (("senior",), ("senior",)),
+    (("englisch", "english", "anglais", "angielski", "engels", "engelska"),
+     ("english",)),
+    (("deutsch", "german", "allemand", "niemiecki", "duits", "tyska"),
+     ("german",)),
+    (("teilzeit",), ("part-time", "part time")),
+    (("vollzeit",), ("full-time", "full time")),
+]
+
+
+def faithful_english(title: str, en: str) -> bool:
+    """Auto-reject unfaithful model English before publication."""
+    if not en:
+        return False
+    low = en.lower()
+    if any(d in low for d in _EN_DENY):
+        return False
+    if _RUNAWAY.search(low):
+        return False
+    # Runaway length: a short title must not balloon (hallucination sign).
+    if len(title) < 30 and len(en) > 3 * len(title) + 10:
+        return False
+    folded_src = _fold(title)
+    folded_en = _fold(en)
+    for src_forms, en_forms in _QUALIFIERS:
+        if any(f in folded_src for f in src_forms):
+            if not any(f in folded_en for f in en_forms):
+                return False
+    return True
+
+
 def translate_title_argos(title: str, source_lang: str):
     """Translate one title source->en->ar. Returns (title_en, title_ar);
     either may be '' on honest failure. Never copies the source."""
@@ -152,6 +200,8 @@ def translate_title_argos(title: str, source_lang: str):
     # Identical-output rejection applies to the model round-trip only;
     # an English source title legitimately passes through unchanged.
     if not en or (source_lang != "en" and _fold(en) == _fold(title)):
+        return "", ""
+    if source_lang != "en" and not faithful_english(title, en):
         return "", ""
     # Quality gate (owner correction 2026-11-03): the raw en->ar model is
     # measured wrong on short titles ("warehouse worker" -> "المستودعات",
