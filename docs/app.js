@@ -377,14 +377,17 @@
       // no-experience/training mention is dropped only when unsupported;
       // every other backed fact stays untouched.
       sumText = sumText.split('\n').map(function (line) {
-        var marker = 'المزايا المذكورة في نص الإعلان: ';
-        if (line.indexOf(marker) !== 0) return line;
+        var NEW_MARKER = 'عبارات وردت في نص الإعلان: ';
+        var OLD_MARKER = 'المزايا المذكورة في نص الإعلان: ';
+        var marker = line.indexOf(NEW_MARKER) === 0 ? NEW_MARKER
+          : (line.indexOf(OLD_MARKER) === 0 ? OLD_MARKER : null);
+        if (!marker) return line;
         var items = line.slice(marker.length).split('؛ ').map(function (it) {
           return it.replace(/^يذكر الإعلان: /, '');
         }).filter(function (it) {
           return noexpSupported || it.indexOf('لا خبرة') === -1;
         });
-        return items.length ? marker + items.join('؛ ') : '';
+        return items.length ? NEW_MARKER + items.join('؛ ') : '';
       }).filter(function (line) { return line !== ''; }).join('\n');
       if (sumText) {
         // Provenance honesty: this block is generated from structured
