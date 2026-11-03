@@ -67,3 +67,20 @@ def test_summary_ar_empty_without_content():
 
 def test_title_mt_disabled_config_returns_none():
     assert translate_title_mt("Lagerhelfer", "ar", {"translation": {"enabled": False}}) is None
+
+
+def test_permit_requirement_not_framed_as_benefit():
+    from src.job_translation import compose_summary_ar, permit_mention_kind
+
+    class J:
+        signals = ["permit_keyword_mention"]
+        salary_text = ""
+        location = "Bezau, V, Austria"
+        description = ("Pflichtschulabschluss und B-Führerschein * "
+                       "Gültige Arbeitserlaubnis für Österreich")
+
+    out = compose_summary_ar(J())
+    assert "شرط مسبق" in out  # requirement framing, not a perk
+    assert permit_mention_kind("we can't provide work permit/TWV") == "required"
+    assert permit_mention_kind("Pomoc s vyřízením víza a povolení k pobytu") == "offered"
+    assert permit_mention_kind("just a warehouse job") == "plain"

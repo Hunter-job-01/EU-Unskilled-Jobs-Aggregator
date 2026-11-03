@@ -27,6 +27,35 @@ _AR_MENTION = {
 }
 _VERIFY_NOTE = "مذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل."
 
+# A permit mention is not automatically a benefit: the same keyword fires
+# on "Gültige Arbeitserlaubnis" (a REQUIREMENT on the applicant) and on
+# "Pomoc s vyřízením ... povolení" (offered assistance). Classify from the
+# source phrase so the summary never presents a requirement as a perk.
+_PERMIT_REQUIRED_RE = re.compile(
+    r"(?i)(gültige\s+arbeitserlaubnis|gültige\s+arbeitsbewilligung"
+    r"|(can'?t|cannot)\s+provide\s+(a\s+)?work\s+permit"
+    r"|work\s+permit\s+(is\s+)?required|geen\s+(werk)?vergunning)")
+_PERMIT_OFFERED_RE = re.compile(
+    r"(?i)(pomoc\s+s\s+vyřízením|we\s+(arrange|provide|sponsor)[^.]{0,60}permit"
+    r"|(visa|work\s+permit)\s+sponsorship\s+(available|provided|offered))")
+
+
+def permit_mention_kind(description: str) -> str:
+    """'required' | 'offered' | 'plain' for a permit keyword mention."""
+    d = description or ""
+    if _PERMIT_REQUIRED_RE.search(d):
+        return "required"
+    if _PERMIT_OFFERED_RE.search(d):
+        return "offered"
+    return "plain"
+
+
+_AR_PERMIT_ITEM = {
+    "required": "تصريح عمل (شرط مسبق على المتقدم كما ورد في الإعلان)",
+    "offered": "مساعدة في التصريح/الإقامة (معروضة كما ورد في الإعلان)",
+    "plain": "تصريح عمل",
+}
+
 _LEAK_PATTERNS = re.compile(r"(?i)as an ai|language model|translation:|ترجمة آلية تلقائية للنص التالي")
 _MOJIBAKE = re.compile(r"[ÃÂÅ][\x80-\xbf]")
 
@@ -54,7 +83,14 @@ def compose_summary_ar(job) -> str:
     (the card then shows no Arabic block rather than a fake one).
     """
     parts = []
-    mentions = [_AR_MENTION[s] for s in getattr(job, "signals", []) if s in _AR_MENTION]
+    mentions = []
+    for sig in getattr(job, "signals", []):
+        if sig not in _AR_MENTION:
+            continue
+        if sig == "permit_keyword_mention":
+            mentions.append(_AR_PERMIT_ITEM[permit_mention_kind(getattr(job, "description", ""))])
+        else:
+            mentions.append(_AR_MENTION[sig])
     if mentions:
         parts.append("عبارات وردت في نص الإعلان: " + "؛ ".join(mentions))
     salary = getattr(job, "salary_text", "") or ""
