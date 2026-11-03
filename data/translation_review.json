@@ -2,11 +2,13 @@
  "rejected_titles": [
   "elektroniker (m/w/d) bis 22,85 euro / std. (elektroniker/in - automatisierungstechnik)",
   "accompagnateur social en sejours de distanciation (h/f) espagne",
-  "logistiek medewerker 32 uur"
+  "logistiek medewerker 32 uur",
+  "logistiek medewerker a - 5 ploegen"
  ],
  "reasons": {
   "elektroniker": "model output garbled parenthetical ('Electronicia'); reviewed 2026-11-03",
   "accompagnateur_social": "fr routing correct but model output lossy (sejours dropped, Spain appended); reviewed 2026-11-03, keep honest-empty",
-  "logistiek_32uur": "model inserted 'notably' (word-order garble); reviewed 2026-11-03"
+  "logistiek_32uur": "model inserted 'notably' (word-order garble); reviewed 2026-11-03",
+  "ploegen_compound": "known-ambiguous compound (rotation system vs count); original + honest pending per review 2026-11-03"
  }
 }
