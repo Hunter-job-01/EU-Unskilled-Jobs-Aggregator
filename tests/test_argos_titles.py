@@ -179,3 +179,25 @@ def test_gate_rejects_doubled_words_and_symbols():
         'Orderpicker early shift | Budbee Vianen',
         'order picker early shift ♪ Budbee Vianen')
     assert faithful_english('Magazijnmedewerker', 'warehouse worker')
+
+
+def test_title_language_overrides_country_on_strong_signal():
+    from src.argos_titles import guess_title_lang, translate_title_argos
+    assert guess_title_lang(
+        'Accompagnateur social en sejours de distanciation (H/F)') == 'fr'
+    assert guess_title_lang('Lagerhelfer (m/w/d) in Hamburg') == 'de'
+    assert guess_title_lang('Orderpicker') is None  # ambiguous -> country
+    _fake_argos({("Accompagnateur social en sejours de distanciation (H/F)",
+                  "fr", "en"): "Social escort for distancing stays (M/F)"})
+    en, ar = translate_title_argos(
+        'Accompagnateur social en sejours de distanciation (H/F)', 'es')
+    assert en.startswith('Social escort')  # fr model, not es
+
+
+def test_reviewed_rejected_title_fails_honest_empty():
+    from src.argos_titles import translate_title_argos, _fold, _rejected_titles
+    rejected = _rejected_titles()
+    assert any(t.startswith('elektroniker') for t in rejected)
+    _fake_argos({})
+    for title in list(rejected):
+        assert translate_title_argos(title, 'de') == ('', '')

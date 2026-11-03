@@ -238,11 +238,94 @@ def faithful_english(title: str, en: str) -> bool:
     return True
 
 
+import json as _json
+import os as _os
+
+# Languages a high-confidence signal can override the country mapping
+# with. Signals are deliberately strong only (script, gender markers,
+# unique diacritics, function-word majority): anything weaker keeps the
+# country language, and a missing model still fails honest-empty.
+_SCRIPT_LANGS = [("\u0370-\u03ff", "el"), ("\u0400-\u04ff", "bg")]
+_MARKERS = [("h/f", "fr"), ("f/h", "fr"), ("(m/w/d)", "de"),
+            ("(w/m/d)", "de"), ("k/m", "pl"), ("(m/k)", "pl"),
+            ("(m/z)", "cs")]
+_UNIQUE_CHARS = [("łąę", "pl"), ("ěůřť", "cs"), ("å", "sv"),
+                 ("ß", "de"), ("ñ¿", "es"), ("ãõ", "pt")]
+_FUNC = {
+    "fr": {"le", "la", "les", "des", "une", "avec", "pour", "sur", "aux"},
+    "de": {"der", "die", "das", "und", "mit", "fur", "für", "im", "am"},
+    "nl": {"het", "een", "voor", "met", "als", "aan", "bij"},
+    "pl": {"oraz", "dla", "przy", "przy", "lub", "przez"},
+    "cs": {"pro", "nebo", "nad", "pod", "pri", "také"},
+    "sv": {"och", "till", "med", "som", "att", "fran"},
+    "it": {"del", "della", "per", "con", "alla", "delle"},
+    "es": {"los", "las", "una", "con", "para", "por", "del"},
+    "pt": {"das", "dos", "uma", "com", "para", "por"},
+}
+
+
+def guess_title_lang(title: str):
+    """High-confidence language guess for a title, or None.
+
+    Only strong signals count: non-Latin script, explicit gender markers,
+    unique diacritics, or a function-word vote with a clear margin. None
+    means 'no confident signal - keep the country mapping'."""
+    import re as _re
+    low = (" " + title.lower() + " ") if title else ""
+    votes = {}
+    def bump(lang, w=2):
+        if lang:
+            votes[lang] = votes.get(lang, 0) + w
+    for rng, lang in _SCRIPT_LANGS:
+        if _re.search("[" + rng + "]", title or ""):
+            return lang  # script alone is decisive
+    for marker, lang in _MARKERS:
+        if marker in low:
+            bump(lang, 3)
+    for chars, lang in _UNIQUE_CHARS:
+        if any(c in low for c in chars):
+            bump(lang, 2)
+    words = set(_re.findall(r"[a-zà-ÿ]+", low))
+    for lang, fws in _FUNC.items():
+        n = len(words & fws)
+        if n >= 2:
+            bump(lang, n)
+    if not votes:
+        return None
+    best, score = max(votes.items(), key=lambda kv: kv[1])
+    others = [v for k, v in votes.items() if k != best]
+    if score >= 3 and (not others or score >= max(others) + 2):
+        return best
+    return None
+
+
+_REVIEW_PATH = _os.path.join(_os.path.dirname(__file__), "..",
+                             "data", "translation_review.json")
+
+
+def _rejected_titles():
+    """Folded titles whose model translation was reviewed and rejected;
+    the translator must fail honest-empty for them, forever."""
+    try:
+        with open(_REVIEW_PATH) as fh:
+            return set(_json.load(fh).get("rejected_titles", []))
+    except Exception:
+        return set()
+
+
 def translate_title_argos(title: str, source_lang: str):
     """Translate one title source->en->ar. Returns (title_en, title_ar);
     either may be '' on honest failure. Never copies the source."""
     if not title or not title.strip():
         return "", ""
+    if _fold(title) in _rejected_titles():
+        return "", ""
+    # Root-cause guard: the title's own language beats the country's
+    # language when a high-confidence signal says they differ (a French
+    # ad in an ES feed must not go through the es->en model).
+    detected = guess_title_lang(title)
+    if detected and detected != source_lang:
+        source_lang = detected
     en = ""
     try:
         if source_lang == "en":
