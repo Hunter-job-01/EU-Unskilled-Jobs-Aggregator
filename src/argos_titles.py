@@ -153,14 +153,13 @@ def translate_title_argos(title: str, source_lang: str):
     # an English source title legitimately passes through unchanged.
     if not en or (source_lang != "en" and _fold(en) == _fold(title)):
         return "", ""
+    # Quality gate (owner correction 2026-11-03): the raw en->ar model is
+    # measured wrong on short titles ("warehouse worker" -> "المستودعات",
+    # "pre-sorting force" -> "القوة غير المتفرغة") and unreviewed output
+    # must NOT be published. Arabic comes from the reviewed TITLE_AR_VOCAB
+    # only; anything else stays EMPTY for manual review, never a
+    # labelled-but-wrong fill.
     ar = arabic_for_english_title(en)
-    if ar:
-        return en, ar
-    try:
-        from argostranslate import translate
-        ar = (translate.translate(en, "en", "ar") or "").strip()
-    except Exception:
-        ar = ""
     return en, ar
 
 
