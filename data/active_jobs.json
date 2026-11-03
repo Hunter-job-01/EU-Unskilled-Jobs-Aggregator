@@ -23552,7 +23552,8 @@
   "translated": false,
   "uid": "706b75a38ddab4ab",
   "url": "https://join.com/companies/mediterenacom/16904192-production-worker?pid=a13795120131dbe48464",
-  "summary_ar": "المزايا المذكورة في نص الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Volendam, NH, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل."
+  "summary_ar": "المزايا المذكورة في نص الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Volendam, NH, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+  "title_ar": "عامل إنتاج"
  },
  "7071932198a70520": {
   "company": "SC AGROPAN IMPEX SRL IASI",
@@ -41460,9 +41461,9 @@
   "source_id": "in-9056b62e1aff4c17",
   "summary_ar": "المزايا المذكورة في نص الإعلان: سكن\nالموقع: Vianen, UT, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
   "title": "Orderpicker early shift | Budbee Vianen",
-  "title_ar": "",
-  "title_en": "",
-  "translated": false,
+  "title_ar": "عامل تجميع الطلبات (ترجمة جزئية للمسمى - راجع العنوان الأصلي)",
+  "title_en": "order picker early shift .",
+  "translated": true,
   "uid": "c0c4ca236555e07f",
   "url": "https://nl.indeed.com/viewjob?jk=9056b62e1aff4c17",
   "url_provenance": "",
@@ -48685,8 +48686,8 @@
   "summary_ar": "المزايا المذكورة في نص الإعلان: يذكر الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Mattighofen, O, Austria\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
   "title": "Mitarbeiter Küche (m/w/d)",
   "title_ar": "",
-  "title_en": "Mitarbeiter Küche (m/w/d)",
-  "translated": false,
+  "title_en": "Employee kitchen (m/f/d)",
+  "translated": true,
   "uid": "e45420e124ec1ec9",
   "url": "https://jobs.smartrecruiters.com/McDonaldsOesterreich/744000158939355-mitarbeiter-kuche-m-w-d-"
  },
@@ -52687,8 +52688,8 @@
   "summary_ar": "المزايا المذكورة في نص الإعلان: يذكر الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Zell am See, SA, Austria\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
   "title": "Mitarbeiter Küche in Vollzeit (m/w/d)",
   "title_ar": "",
-  "title_en": "Mitarbeiter Küche in Vollzeit (m/w/d)",
-  "translated": false,
+  "title_en": "Employee kitchen full time (m/f/d)",
+  "translated": true,
   "uid": "f6557b6df1596ff4",
   "url": "https://jobs.smartrecruiters.com/McDonaldsOesterreich/744000158937498-mitarbeiter-kuche-in-vollzeit-m-w-d-"
  },
