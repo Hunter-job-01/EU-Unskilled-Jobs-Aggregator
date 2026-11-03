@@ -25,7 +25,8 @@ from .hitl import CardDecision
 STATUS_PENDING = "pending_approval"
 STATUS_APPLIED = "applied"
 STATUS_SKIPPED = "skipped"
-_STATUSES = {STATUS_PENDING, STATUS_APPLIED, STATUS_SKIPPED}
+STATUS_NOT_ELIGIBLE = "not_eligible"
+_STATUSES = {STATUS_PENDING, STATUS_APPLIED, STATUS_SKIPPED, STATUS_NOT_ELIGIBLE}
 
 
 @dataclass
@@ -39,6 +40,7 @@ class TrackerEntry:
     status: str = STATUS_PENDING
     applied_at: str = ""
     proof: str = ""       # what evidences the send (message id, timestamp)
+    exclusion_reason: str = ""  # why a not_eligible entry was excluded
 
 
 class TrackerError(ValueError):
@@ -72,6 +74,21 @@ class ApplicationTracker:
         must not reset an applied/skipped outcome."""
         if entry.status != STATUS_PENDING:
             raise TrackerError("new entries must start pending_approval")
+        existing = self.entries.get(entry.uid)
+        if existing:
+            return existing
+        self.entries[entry.uid] = entry
+        return entry
+
+    def add_not_eligible(self, entry: TrackerEntry, reason: str) -> TrackerEntry:
+        """Terminal exclusion for a known conflict (e.g. a stated language
+        requirement the candidate does not meet). Known conflicts are
+        excluded here, never merely flagged on an approvable card."""
+        if not reason.strip():
+            raise TrackerError("not_eligible requires a reason")
+        if entry.status != STATUS_NOT_ELIGIBLE:
+            raise TrackerError("not_eligible entries must carry that status")
+        entry.exclusion_reason = reason.strip()
         existing = self.entries.get(entry.uid)
         if existing:
             return existing

@@ -70,5 +70,36 @@ def test_tracker_file_has_no_message_bodies(tmp_path):
     t.save()
     raw = json.loads((tmp_path / "t.json").read_text(encoding="utf-8"))
     allowed = {"uid", "company", "title_ar", "country", "method",
-               "contact_target", "status", "applied_at", "proof"}
+               "contact_target", "status", "applied_at", "proof",
+               "exclusion_reason"}
     assert set(raw["entries"]["u1"]) == allowed
+
+
+def test_not_eligible_terminal(tmp_path):
+    from src.apply_ops.tracker import (STATUS_NOT_ELIGIBLE, ApplicationTracker,
+                                       TrackerEntry, TrackerError)
+    from src.apply_ops.hitl import CardDecision
+    tr = ApplicationTracker(tmp_path / "t.json")
+    e = tr.add_not_eligible(TrackerEntry(
+        uid="u9", company="SYNERGIE", title_ar="", country="DE",
+        method="direct_email", contact_target="buchholz-jobs@synergie.de",
+        status=STATUS_NOT_ELIGIBLE),
+        reason="requires good German (Gute Deutschkenntnisse); candidate Arabic native / English A2-B1")
+    assert e.status == "not_eligible"
+    assert "German" in e.exclusion_reason
+    tr.save()
+    tr2 = ApplicationTracker(tmp_path / "t.json")
+    assert tr2.entries["u9"].status == "not_eligible"
+    try:
+        tr2.record_decision("u9", CardDecision.APPROVE, proof="x")
+        assert False, "must reject decisions on terminal entries"
+    except TrackerError:
+        pass
+    try:
+        tr2.add_not_eligible(TrackerEntry(
+            uid="u10", company="X", title_ar="", country="DE",
+            method="direct_email", contact_target="x@y.de",
+            status=STATUS_NOT_ELIGIBLE), reason="")
+        assert False, "reason required"
+    except TrackerError:
+        pass
