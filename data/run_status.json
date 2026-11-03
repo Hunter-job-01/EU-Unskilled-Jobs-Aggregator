@@ -1,6 +1,6 @@
 {
   "countries": {
-    "AT": {
+    "PL": {
       "eures": {
         "errors": [],
         "fetched": 50,
@@ -8,110 +8,6 @@
         "status": "ok"
       },
       "jobspy": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "latvia_nva": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the NVA dataset covers Latvia only"
-        ],
-        "status": "skipped"
-      },
-      "sweden_jobsearch": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Platsbanken/JobSearch covers Sweden only"
-        ],
-        "status": "skipped"
-      }
-    },
-    "DK": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "latvia_nva": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the NVA dataset covers Latvia only"
-        ],
-        "status": "skipped"
-      },
-      "sweden_jobsearch": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Platsbanken/JobSearch covers Sweden only"
-        ],
-        "status": "skipped"
-      }
-    },
-    "LV": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "indeed: LV not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
-      },
-      "latvia_nva": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "sweden_jobsearch": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Platsbanken/JobSearch covers Sweden only"
-        ],
-        "status": "skipped"
-      }
-    },
-    "SE": {
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 49,
-        "notes": [],
-        "status": "ok"
-      },
-      "latvia_nva": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the NVA dataset covers Latvia only"
-        ],
-        "status": "skipped"
-      },
-      "sweden_jobsearch": {
         "errors": [],
         "fetched": 50,
         "notes": [],
@@ -119,8 +15,8 @@
       }
     }
   },
-  "duration_sec": 224.4,
-  "last_run_utc": "2026-11-03T03:37:41+00:00",
+  "duration_sec": 106.8,
+  "last_run_utc": "2026-11-03T05:58:15+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-03T03:37:41+00:00",
@@ -854,17 +750,17 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-02T19:15:34+00:00",
+      "checked_at_utc": "2026-11-03T05:58:15+00:00",
       "sources": {
         "eures": {
           "errors": [],
-          "fetched": 5,
+          "fetched": 50,
           "notes": [],
           "status": "ok"
         },
         "jobspy": {
           "errors": [],
-          "fetched": 5,
+          "fetched": 50,
           "notes": [],
           "status": "ok"
         }
@@ -1026,31 +922,26 @@
   },
   "parameters": {
     "countries": [
-      "AT",
-      "DK",
-      "LV",
-      "SE"
+      "PL"
     ],
     "max_jobs": 50,
     "min_score": 20,
     "sources": [
       "eures",
-      "jobspy",
-      "latvia_nva",
-      "sweden_jobsearch"
+      "jobspy"
     ],
-    "tier": "3"
+    "tier": "1"
   },
   "totals": {
-    "active": 1371,
-    "below_min_score": 16,
-    "excluded": 176,
-    "fetched": 449,
-    "new": 31,
-    "notified_telegram": 10,
-    "pruned": 4,
-    "translated_ar": 0,
+    "active": 1392,
+    "below_min_score": 6,
+    "excluded": 27,
+    "fetched": 100,
+    "new": 21,
+    "notified_telegram": 0,
+    "pruned": 0,
+    "translated_ar": 14,
     "translated_titles": 0,
-    "updated": 198
+    "updated": 46
   }
 }

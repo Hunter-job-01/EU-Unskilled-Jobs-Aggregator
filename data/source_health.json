@@ -714,12 +714,12 @@
       "status": "ok"
     },
     "eures|PL": {
-      "checked_at_utc": "2026-11-02T19:15:34+00:00",
+      "checked_at_utc": "2026-11-03T05:58:15+00:00",
       "country": "PL",
-      "duration_sec": 3.4,
+      "duration_sec": 4.5,
       "errors": [],
-      "fetched": 5,
-      "kept": 4,
+      "fetched": 50,
+      "kept": 41,
       "notes": [],
       "source": "eures",
       "stats": {},
@@ -1054,12 +1054,12 @@
       "status": "ok"
     },
     "jobspy|PL": {
-      "checked_at_utc": "2026-11-02T19:15:34+00:00",
+      "checked_at_utc": "2026-11-03T05:58:15+00:00",
       "country": "PL",
-      "duration_sec": 3.2,
+      "duration_sec": 12.8,
       "errors": [],
-      "fetched": 5,
-      "kept": 4,
+      "fetched": 50,
+      "kept": 26,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -1888,6 +1888,12 @@
   },
   "recent_runs": [
     {
+      "checked_at_utc": "2026-11-03T05:58:15+00:00",
+      "failing": 0,
+      "label": "tier=1 sources=eures,jobspy",
+      "source_country_records": 2
+    },
+    {
       "checked_at_utc": "2026-11-03T03:37:41+00:00",
       "failing": 0,
       "label": "tier=3 sources=eures,jobspy,latvia_nva,sweden_jobsearch",
@@ -1924,5 +1930,5 @@
       "source_country_records": 8
     }
   ],
-  "updated_utc": "2026-11-03T03:37:41+00:00"
+  "updated_utc": "2026-11-03T05:58:15+00:00"
 }
