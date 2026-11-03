@@ -427,11 +427,23 @@
     var actions = el('div', 'job-actions');
     var href = safeExternalUrl(job.url);
     if (href) {
-      var link = el('a', 'apply-link', 'View & apply');
+      var linkPending = job.url_provenance === 'reconstructed_from_source_key' && job.url_verified === false;
+      var link = el('a', linkPending ? 'apply-link apply-link-pending' : 'apply-link',
+        linkPending ? 'View posting (link rebuilt, unverified)' : 'View & apply');
       link.href = href;
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
       actions.appendChild(link);
+      if (linkPending) {
+        var prov = el('p', 'link-provenance',
+          'Link rebuilt from the posting key at the source; not yet live-verified.');
+        var provAr = el('span', 'ar',
+          'الرابط أُعيد بناؤه من مفتاح الإعلان لدى المصدر؛ لم يُتحقق منه بعد.');
+        provAr.setAttribute('lang', 'ar');
+        provAr.setAttribute('dir', 'rtl');
+        prov.appendChild(provAr);
+        actions.appendChild(prov);
+      }
     } else {
       actions.appendChild(el('span', 'apply-unavailable', 'Direct link unavailable'));
     }
@@ -520,8 +532,11 @@
     resultCount.textContent = '';
     resultCount.appendChild(document.createTextNode(
       jobs.length + ' of ' + allJobs.length +
-      (allJobs.length === 1 ? ' vacancy' : ' vacancies') + ' shown '));
-    var arCount = el('span', 'ar', jobs.length + ' \u0645\u0646 ' + allJobs.length + ' \u0648\u0638\u064a\u0641\u0629');
+      (allJobs.length === 1 ? ' vacancy' : ' vacancies') + ' shown'));
+    var arCount = el('span', 'ar ar-count-line',
+      '\u0627\u0644\u0645\u0639\u0631\u0648\u0636: ' + jobs.length +
+      ' \u0645\u0646 \u0623\u0635\u0644 ' + allJobs.length +
+      ' \u0648\u0638\u064a\u0641\u0629');
     arCount.setAttribute('lang', 'ar');
     arCount.setAttribute('dir', 'rtl');
     resultCount.appendChild(arCount);

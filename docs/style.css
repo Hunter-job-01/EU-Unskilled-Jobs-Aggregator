@@ -381,6 +381,19 @@ h3.job-title-orig { font-size: 1.02rem; font-weight: 700; color: var(--ink); }
 }
 .apply-link:hover { background: var(--brand-dark); }
 .apply-unavailable { color: var(--ink-faint); font-size: .82rem; font-style: italic; }
+.apply-link-pending {
+  background: transparent;
+  color: var(--brand);
+  border: 1px solid var(--brand);
+}
+.apply-link-pending:hover { background: var(--brand-soft, #eef2ff); color: var(--brand-dark); }
+.link-provenance {
+  margin: 6px 0 0;
+  font-size: .78rem;
+  color: var(--warn-ink, #92610a);
+}
+.link-provenance .ar { display: block; font-family: var(--font-ar); unicode-bidi: isolate; margin-top: 2px; }
+.result-count .ar-count-line { display: block; margin-inline-start: 0; margin-top: 2px; }
 
 /* ---------------- states / footer ---------------- */
 
