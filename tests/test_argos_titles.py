@@ -210,3 +210,14 @@ def test_faithful_english_rejects_repeated_token_runaway():
         "Operator of production CZK 124; up to CZK 33,500) 124; accommodation provided 124; boarding immediately")
     # Legitimate titles with at most two repeated tokens still pass.
     assert faithful_english("Skladník/ce", "Warehouse worker warehouse")
+
+
+def test_country_en_passthrough_requires_english_evidence():
+    from src.argos_titles import translate_title_argos, has_english_evidence
+    # Danish ad in an MT feed (country maps to en): no passthrough.
+    en, ar = translate_title_argos(
+        "Job på Malta - Har du selvtillid og lækkert hår? Vi betaler for fly og de første 3 uger på hotel.", "en")
+    assert en == "" and ar == ""
+    assert has_english_evidence("Production Worker")
+    assert has_english_evidence("Siivooja / Cleaner")
+    assert not has_english_evidence("Mozo/a de almacén")

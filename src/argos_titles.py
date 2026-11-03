@@ -322,6 +322,37 @@ def _rejected_titles():
         return set()
 
 
+_EN_EVIDENCE_HINTS = {
+    "warehouse", "worker", "production", "operator", "packer", "picker",
+    "cleaner", "helper", "driver", "kitchen", "porter", "operative",
+    "assistant", "order", "farm", "general", "manager", "stock", "store",
+}
+_EN_FUNCTION_WORDS = {"the", "and", "for", "with", "in", "to", "of", "a"}
+
+
+def has_english_evidence(title: str) -> bool:
+    """Strong, cheap evidence a title is actually English.
+
+    ASCII-only plus either a known English role/content word or an
+    English-function-word majority. Weak or missing evidence is a fail -
+    the caller then leaves the field empty rather than stamping the
+    untranslated source as English.
+    """
+    if not title:
+        return False
+    try:
+        title.encode("ascii")
+    except UnicodeEncodeError:
+        return False
+    words = __import__("re").findall(r"[a-z]+", title.lower())
+    if not words:
+        return False
+    if set(words) & _EN_EVIDENCE_HINTS:
+        return True
+    func = sum(1 for w in words if w in _EN_FUNCTION_WORDS)
+    return func >= max(1, len(words) // 2)
+
+
 def translate_title_argos(title: str, source_lang: str):
     """Translate one title source->en->ar. Returns (title_en, title_ar);
     either may be '' on honest failure. Never copies the source."""
@@ -338,6 +369,12 @@ def translate_title_argos(title: str, source_lang: str):
     en = ""
     try:
         if source_lang == "en":
+            # Root fix (2026-11-03): a country->en mapping (IE/MT/...) is not
+            # evidence the title IS English - a Danish ad in an MT feed was
+            # passed through untranslated. Require actual English evidence;
+            # without it the honest result is empty, not a source copy.
+            if not has_english_evidence(title):
+                return "", ""
             en = title.strip()
         else:
             from argostranslate import translate
