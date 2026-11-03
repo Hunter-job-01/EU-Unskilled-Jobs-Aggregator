@@ -335,6 +335,7 @@ h3.job-title-orig { font-size: 1.02rem; font-weight: 700; color: var(--ink); }
 }
 
 .job-summary-ar {
+  white-space: pre-line;
   font-family: var(--font-ar);
   background: #f8f9fb;
   border: 1px solid var(--line);

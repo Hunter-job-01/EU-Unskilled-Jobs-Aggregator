@@ -270,8 +270,12 @@ def translate_titles(jobs, cfg: dict, min_score: int = None) -> int:
                 log.warning("Translation throttled; no more requests in this run")
             continue
         if translated and translated.strip():
+            if translated.strip().lower() == title.lower():
+                # No-op round-trip (source returned unchanged): stamping it
+                # would display the source language as if it were English.
+                continue
             job.title_en = translated
-            job.translated = translated.strip().lower() != title.lower()
+            job.translated = True
             done += 1
         # Empty translator output: leave title_en empty (see above).
     return done
