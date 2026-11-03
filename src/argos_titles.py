@@ -449,6 +449,12 @@ _PARTIAL_MARK = " (ترجمة جزئية للمسمى - راجع العنوان 
 _AMBIGUOUS_AR = frozenset({"عامل محطة فرز", "مشغل", "عامل مناولة بضائع"})
 
 
+_ROLE_QUALIFIERS = frozenset({
+    "junior", "senior", "experienced", "trainee", "apprentice", "intern",
+    "under", "over", "qc", "fitter", "fashion", "clothing", "production",
+    "supervisor", "manager", "lead", "chief", "head"})
+
+
 def arabic_gloss(title_en: str):
     """Reviewed Arabic for a translated English title.
 
@@ -479,6 +485,12 @@ def arabic_gloss(title_en: str):
         return any(s <= pos and pos + len(word) <= e for s, e, _ in hits)
     full = all(covered(pos, w) or _IGNORABLE.match(w)
                for pos, w in words) if words else False
+    # Role-level qualifiers (seniority, age limit, trade split, product
+    # line) that no reviewed term covers must never be silently dropped:
+    # a partial marker does not repair a changed role. No gloss instead.
+    if not full and any(w in _ROLE_QUALIFIERS and not covered(pos, w)
+                        for pos, w in words):
+        return "", False
     if full and any(a in _AMBIGUOUS_AR for _, _, a in hits):
         full = False
     return gloss, full

@@ -287,9 +287,17 @@ def test_batch15_reviewed_terms_render_expected_arabic():
     from src.argos_titles import arabic_for_english_title
     assert arabic_for_english_title("Kitchen Porter") == "مساعد مطبخ (غسل الأواني والتنظيف)"
     assert arabic_for_english_title("Warehouse team leader") == "قائد فريق مستودع"
-    # skilled trade term must stay explicitly partial when words are uncovered
-    out = arabic_for_english_title("Fitter / Metalworker (m/f/d) from 18.50 EUR")
-    assert "عامل معادن" in out and "ترجمة جزئية" in out
+
+
+def test_uncovered_role_qualifier_yields_no_gloss():
+    from src.argos_titles import arabic_for_english_title
+    for t in ("Analytical chemist QC - junior",
+              "Experienced medical secretary",
+              "Service employee under 18",
+              "Fitter / Metalworker (m/f/d)",
+              "Fashion clothing packaging operator (m/f)",
+              "General Operative - Production (Crisp Factory)"):
+        assert arabic_for_english_title(t) == "", t
 
 
 def test_machinist_gloss_is_metal_machining_not_generic_operator():
