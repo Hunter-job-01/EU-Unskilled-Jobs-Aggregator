@@ -61,15 +61,31 @@ class JobSpyScraper:
                 parts.append(str(getattr(value, "value", value)))
         return ", ".join(parts)
 
+    @staticmethod
+    def _clean_cell(value) -> str:
+        # pandas missing values (NaN/None) are truthy floats, so a bare
+        # `a or b` keeps NaN and str() turns it into the literal "nan".
+        if value is None:
+            return ""
+        text = str(value).strip()
+        return "" if text.lower() in ("nan", "none", "nat") else text
+
     def map_row(self, row: dict, country_code: str, site: str) -> Job:
         date_posted = row.get("date_posted")
+        source_id = self._clean_cell(row.get("id")) or self._clean_cell(row.get("job_url"))
+        url = self._clean_cell(row.get("job_url_direct")) or self._clean_cell(row.get("job_url"))
+        if not url and site == "indeed" and source_id.startswith("in-"):
+            # jobspy builds job_url as {country}.indeed.com/viewjob?jk={key}
+            # with id f"in-{key}"; rebuild the canonical posting URL when the
+            # frame lost both URL columns.
+            url = "https://{}.indeed.com/viewjob?jk={}".format(country_code.lower(), source_id[3:])
         return Job(
             title=str(row.get("title") or "").strip(),
             company=str(row.get("company") or "").strip(),
             country=country_code.upper(),
             source="jobspy_{}".format(site),
-            source_id=str(row.get("id") or row.get("job_url") or ""),
-            url=str(row.get("job_url_direct") or row.get("job_url") or ""),
+            source_id=source_id,
+            url=url,
             description=str(row.get("description") or "")[:20000],
             location=self._location_text(row.get("location")),
             posted_date=str(date_posted)[:10] if date_posted else None,

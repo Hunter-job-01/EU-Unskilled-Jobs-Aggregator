@@ -276,3 +276,32 @@ def test_jobspy_dataframe_error_is_not_healthy(cfg, matrix, monkeypatch):
     assert result.status == 'failed'
     assert any('403' in err for err in result.errors)
     assert len(calls) == 1
+
+
+def test_jobspy_nan_direct_url_falls_back_to_job_url(cfg, matrix):
+    scraper = JobSpyScraper(cfg, matrix)
+    row = {"id": "in-aa2012504b307e91", "job_url": "https://pl.indeed.com/viewjob?jk=aa2012504b307e91",
+           "job_url_direct": float("nan"), "title": "Magazynier", "company": "ACME",
+           "location": "Warsaw", "date_posted": "2026-11-01", "description": "x"}
+    job = scraper.map_row(row, "PL", "indeed")
+    assert job.url == "https://pl.indeed.com/viewjob?jk=aa2012504b307e91"
+
+
+def test_jobspy_both_urls_nan_rebuilds_canonical_viewjob(cfg, matrix):
+    scraper = JobSpyScraper(cfg, matrix)
+    row = {"id": "in-aa2012504b307e91", "job_url": float("nan"), "job_url_direct": float("nan"),
+           "title": "Magazynier", "company": "ACME", "location": "Warsaw",
+           "date_posted": "2026-11-01", "description": "x"}
+    job = scraper.map_row(row, "PL", "indeed")
+    assert job.url == "https://pl.indeed.com/viewjob?jk=aa2012504b307e91"
+    assert job.url != "nan"
+
+
+def test_jobspy_no_id_no_url_stays_empty_not_nan(cfg, matrix):
+    scraper = JobSpyScraper(cfg, matrix)
+    row = {"id": float("nan"), "job_url": float("nan"), "job_url_direct": None,
+           "title": "Magazynier", "company": "ACME", "location": "Warsaw",
+           "date_posted": "2026-11-01", "description": "x"}
+    job = scraper.map_row(row, "PL", "indeed")
+    assert job.url == ""
+    assert job.source_id == ""
