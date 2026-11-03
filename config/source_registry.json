@@ -5140,7 +5140,7 @@
    "implementation_status": "adapter_tested_enabled",
    "priority": "P1",
    "free_access_status": "public job-sitemap.xml (312 urls, may carry stale entries) + JobPosting JSON-LD pages (probe 2026-11-03)",
-   "access_or_limits": "JSON-LD carries title/locality/region/datePosted/employmentType/description; addressCountry absent - NL fixed at source level, recorded in stats; activation via config sources.covebo.enabled after terms review + owner approval",
+   "access_or_limits": "JSON-LD carries title/locality/region/datePosted/employmentType/description; addressCountry absent - NL fixed at source level, recorded in stats; activation via config sources.covebo.enabled after terms review + owner approval | Terms reviewed 2026-11-03: robots.txt allows all + advertises sitemap; algemene-voorwaarden PDF (2026.01) covers agency services only, no automated-access clause; disclaimer page has no scraping clause. robots-allow + absence of an automation clause is NOT reuse permission; activation still needs owner approval.",
    "verification": "live_probe",
    "evidence_urls": [
     "https://www.covebo.nl/"
@@ -5157,7 +5157,7 @@
    "connector_type": "none",
    "repo_adapter": "covebo",
    "activation_gate": "probe_then_owner_approval",
-   "terms_checked_on": null,
+   "terms_checked_on": "2026-11-03",
    "last_probe": "2026-11-03",
    "last_successful_run": null
   },
@@ -5172,7 +5172,7 @@
    "implementation_status": "adapter_tested_enabled",
    "priority": "P1",
    "free_access_status": "public vacancy-sitemap.xml (82 urls) + JobPosting JSON-LD pages (probe 2026-11-03)",
-   "access_or_limits": "JSON-LD carries title/locality/salary/employmentType; addressCountry absent - NL fixed at source level, recorded in stats; activation via config sources.hobij.enabled",
+   "access_or_limits": "JSON-LD carries title/locality/salary/employmentType; addressCountry absent - NL fixed at source level, recorded in stats; activation via config sources.hobij.enabled | Terms reviewed 2026-11-03: robots.txt allows all + advertises sitemap; LPC algemene-voorwaarden PDF (2026) covers agency services only, no automated-access clause located. robots-allow + absence of an automation clause is NOT reuse permission; activation still needs owner approval.",
    "verification": "live_probe",
    "evidence_urls": [
     "https://www.hobij.com/"
@@ -5189,7 +5189,7 @@
    "connector_type": "none",
    "repo_adapter": "hobij",
    "activation_gate": "probe_then_owner_approval",
-   "terms_checked_on": null,
+   "terms_checked_on": "2026-11-03",
    "last_probe": "2026-11-03",
    "last_successful_run": null
   },
@@ -5204,7 +5204,7 @@
    "implementation_status": "adapter_tested_enabled",
    "priority": "P2",
    "free_access_status": "public sitemap.xml + JobPosting JSON-LD vacancy pages (probe 2026-11-03)",
-   "access_or_limits": "sitemap lists /jobs/ urls; JSON-LD carries title/country/salary/employmentType; activation via config sources.nl_jobs.enabled",
+   "access_or_limits": "sitemap lists /jobs/ urls; JSON-LD carries title/country/salary/employmentType; activation via config sources.nl_jobs.enabled | Terms reviewed 2026-11-03: robots.txt has no Disallow of vacancy paths (Noindex directives only); algemene-voorwaarden/disclaimer pages are thin and carry no automated-access clause located. robots-allow + absence of an automation clause is NOT reuse permission; activation still needs owner approval.",
    "verification": "live_probe",
    "evidence_urls": [
     "https://www.nl-jobs.com/"
@@ -5221,7 +5221,7 @@
    "connector_type": "none",
    "repo_adapter": "nl_jobs",
    "activation_gate": "probe_then_owner_approval",
-   "terms_checked_on": null,
+   "terms_checked_on": "2026-11-03",
    "last_probe": "2026-11-03",
    "last_successful_run": null
   },
@@ -5236,7 +5236,7 @@
    "implementation_status": "adapter_tested_enabled",
    "priority": "P2",
    "free_access_status": "public vacancy-sitemap.xml (77 urls) + JobPosting JSON-LD pages (probe 2026-11-03)",
-   "access_or_limits": "JSON-LD carries title/locality/addressCountry/salary EUR MONTH/employmentType; activation via config sources.ab_midden.enabled after terms review + owner approval",
+   "access_or_limits": "JSON-LD carries title/locality/addressCountry/salary EUR MONTH/employmentType; activation via config sources.ab_midden.enabled after terms review + owner approval | Terms reviewed 2026-11-03: robots.txt Allow / + sitemap advertised; disclaimer carries a standard copyright reservation (no reproduction without prior written permission, incl. digital forms) - reuse permission NOT established; algemene-voorwaarden page has no automated-access clause. AB Midden reserved rights require permission clarification from the site before any activation/reproduction; owner approval alone is insufficient.",
    "verification": "live_probe",
    "evidence_urls": [
     "https://www.abmiddennederland.nl/"
@@ -5253,7 +5253,7 @@
    "connector_type": "none",
    "repo_adapter": "ab_midden",
    "activation_gate": "probe_then_owner_approval",
-   "terms_checked_on": null,
+   "terms_checked_on": "2026-11-03",
    "last_probe": "2026-11-03",
    "last_successful_run": null
   },
@@ -5268,7 +5268,7 @@
    "implementation_status": "adapter_tested_enabled",
    "priority": "P2",
    "free_access_status": "public vacancy-sitemap.xml (389 urls incl. /en/ locale dupes; NL path used) + JobPosting JSON-LD @graph pages (probe 2026-11-03)",
-   "access_or_limits": "JSON-LD carries title/locality/salary EUR HOUR (15.35 sampled); validThrough 2999 sentinel - stale records pruned downstream by posted_date; addressCountry absent - NL fixed at source level, recorded in stats; activation via config sources.goodmorning.enabled after terms review + owner approval",
+   "access_or_limits": "JSON-LD carries title/locality/salary EUR HOUR (15.35 sampled); validThrough 2999 sentinel - stale records pruned downstream by posted_date; addressCountry absent - NL fixed at source level, recorded in stats; activation via config sources.goodmorning.enabled after terms review + owner approval | Terms reviewed 2026-11-03: robots.txt WP-default allows all + sitemap advertised; LPC algemene-voorwaarden PDF (2026) covers agency services only, no automated-access clause located. robots-allow + absence of an automation clause is NOT reuse permission; activation still needs owner approval.",
    "verification": "live_probe",
    "evidence_urls": [
     "https://www.goodmorning.eu/"
@@ -5283,7 +5283,7 @@
    "connector_type": "none",
    "repo_adapter": "goodmorning",
    "activation_gate": "probe_then_owner_approval",
-   "terms_checked_on": null,
+   "terms_checked_on": "2026-11-03",
    "last_probe": "2026-11-03",
    "last_successful_run": null
   },
