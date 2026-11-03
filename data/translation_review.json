@@ -4,13 +4,19 @@
   "accompagnateur social en sejours de distanciation (h/f) espagne",
   "logistiek medewerker 32 uur",
   "logistiek medewerker a - 5 ploegen",
-  "job i madrid - er du vores næste vært eller værtinde? - 1.500 eur i opstartsbonus."
+  "job i madrid - er du vores næste vært eller værtinde? - 1.500 eur i opstartsbonus.",
+  "operátor/ka výroby | až 33 500 kč | ubytko zajištěno | nástup ihned",
+  "addetto/a al confezionamento per rete di negozi",
+  "chauffør til hjælpemiddeldepotet"
  ],
  "reasons": {
   "elektroniker": "model output garbled parenthetical ('Electronicia'); reviewed 2026-11-03",
   "accompagnateur_social": "fr routing correct but model output lossy (sejours dropped, Spain appended); reviewed 2026-11-03, keep honest-empty",
   "logistiek_32uur": "model inserted 'notably' (word-order garble); reviewed 2026-11-03",
   "ploegen_compound": "known-ambiguous compound (rotation system vs count); original + honest pending per review 2026-11-03",
-  "job i madrid - er du vores næste vært eller værtinde? - 1.500 eur i opstartsbonus.": "Google no-op garble: appended stray \"uel\" suffix; held honest-empty pending review (2026-11-03)"
+  "job i madrid - er du vores næste vært eller værtinde? - 1.500 eur i opstartsbonus.": "Google no-op garble: appended stray \"uel\" suffix; held honest-empty pending review (2026-11-03)",
+  "operátor/ka výroby | až 33 500 kč | ubytko zajištěno | nástup ihned": "Argos garble (batch 2026-11-03): runaway \"CZK 124;\" repetition garble",
+  "addetto/a al confezionamento per rete di negozi": "Argos garble (batch 2026-11-03): role noun mistranslated (adapter for clerk)",
+  "chauffør til hjælpemiddeldepotet": "Argos garble (batch 2026-11-03): qualifier mistranslated (assistive-equipment depot -> Relief Depot)"
  }
 }
