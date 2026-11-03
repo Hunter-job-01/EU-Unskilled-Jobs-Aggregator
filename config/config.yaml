@@ -455,15 +455,15 @@ sources:
     sitemap_url: "https://hobij.com/vacancy-sitemap.xml"
     max_pages: 10                    # bounded polite budget per run
   covebo:
-    enabled: false                   # Covebo agency; job-sitemap + JobPosting JSON-LD probe-verified 2026-11-03; gated on terms review + owner approval
+    enabled: true                    # Covebo agency; probe-verified + terms reviewed 2026-11-03 (robots-allow, no automation clause - recorded as NOT reuse permission); owner-approved activation 2026-11-03 (v5)
     sitemap_url: "https://www.covebo.nl/job-sitemap.xml"
     max_pages: 10                    # bounded polite budget per run
   ab_midden:
-    enabled: false                   # AB Midden Nederland; vacancy-sitemap + JobPosting JSON-LD probe-verified 2026-11-03; gated on terms review + owner approval
+    enabled: false                   # BLOCKED 2026-11-03: disclaimer reserves reproduction rights; owner approval alone is insufficient - needs site permission clarification first.
     sitemap_url: "https://www.abmiddennederland.nl/vacancy-sitemap.xml"
     max_pages: 10
   goodmorning:
-    enabled: false                   # Goodmorning; vacancy-sitemap + JobPosting JSON-LD probe-verified 2026-11-03; gated on terms review + owner approval
+    enabled: true                    # Goodmorning; probe-verified + terms reviewed 2026-11-03 (robots-allow, no automation clause - recorded as NOT reuse permission); owner-approved activation 2026-11-03 (v5)
     sitemap_url: "https://goodmorning.eu/vacancy-sitemap.xml"
     max_pages: 10
   ats_public:

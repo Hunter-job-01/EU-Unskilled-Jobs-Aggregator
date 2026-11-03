@@ -6,7 +6,7 @@ translation work; it mirrors the scorer's hard rules on the title alone.
 import copy
 
 from src.scrapers import ArbeitnowScraper, AtsPublicScraper
-from tests.test_expansion_adapters import FakeHttp, enable, ARBEITNOW_PAGE, GREENHOUSE
+from test_expansion_adapters import FakeHttp, enable, ARBEITNOW_PAGE, GREENHOUSE
 
 
 def _ats_cfg(cfg, tenants):

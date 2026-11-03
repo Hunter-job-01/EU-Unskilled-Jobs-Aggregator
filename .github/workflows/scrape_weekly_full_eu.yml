@@ -137,7 +137,7 @@ jobs:
           # Approved 2026-11-02: weekly full-EU sweep adds the verified
           # free/keyless sources (terms re-checked before enabling).
           # Czech MPSV runs weekly-only: its export is ~185MB/day.
-          ARGS=(--tier "$MATRIX_TIER" --sources eures,jobspy,arbeitnow,sweden_jobsearch,czech_mpsv,latvia_nva,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij --max-jobs "$MAX_JOBS")
+          ARGS=(--tier "$MATRIX_TIER" --sources eures,jobspy,arbeitnow,sweden_jobsearch,czech_mpsv,latvia_nva,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning --max-jobs "$MAX_JOBS")
           [ "$MIN_SCORE" -gt 0 ] && ARGS+=(--min-score "$MIN_SCORE")
           [ "$NO_TRANSLATE" = "true" ] && ARGS+=(--no-translate)
           echo "python main.py ${ARGS[*]}"
