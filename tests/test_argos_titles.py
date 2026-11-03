@@ -168,3 +168,14 @@ def test_kompletar_objednavek_is_order_picker():
     from src.argos_titles import prepass_title
     assert 'order picker' in prepass_title(
         'Skladnik / Kompletar objednavek - HPP', 'cs')
+
+
+def test_gate_rejects_doubled_words_and_symbols():
+    from src.argos_titles import faithful_english
+    assert not faithful_english(
+        'Accompagnateur social en sejours',
+        'Social and Social Accompagnateur in Distanting Reforms')
+    assert not faithful_english(
+        'Orderpicker early shift | Budbee Vianen',
+        'order picker early shift ♪ Budbee Vianen')
+    assert faithful_english('Magazijnmedewerker', 'warehouse worker')

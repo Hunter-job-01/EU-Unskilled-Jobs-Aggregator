@@ -222,6 +222,13 @@ def faithful_english(title: str, en: str) -> bool:
     # Runaway length: a short title must not balloon (hallucination sign).
     if len(title) < 30 and len(en) > 3 * len(title) + 10:
         return False
+    # Doubled words (adjacent or and-joined): measured garble class
+    # ('Social and Social Accompagnateur').
+    if __import__("re").search(r"\b(\w{3,})\b(?:\s+(?:and|und|&|,)\s+|\s+)\1\b", low):
+        return False
+    # Model-artifact symbols never appear in real job titles.
+    if any(c in en for c in "♪♫★☆●■"):
+        return False
     folded_src = _fold(title)
     folded_en = _fold(en)
     for src_forms, en_forms in _QUALIFIERS:
