@@ -51,7 +51,8 @@ def test_prepass_leaves_unknown_terms():
 
 def test_arabic_vocab_longest_match():
     assert arabic_for_english_title("Warehouse worker") == "عامل مستودع"
-    assert arabic_for_english_title("Order picker, night shift") == "عامل تجميع الطلبات"
+    assert arabic_for_english_title("Order picker, night shift") == \
+        "عامل تجميع الطلبات / وردية ليلية"
     assert arabic_for_english_title("Senior architect") == ""
 
 
@@ -120,3 +121,34 @@ def test_en_gate_qualifier_preservation():
 def test_en_gate_runaway_length():
     from src.argos_titles import faithful_english
     assert not faithful_english("Packer", "Packer " + "with benefits " * 8)
+
+
+def test_compound_title_composes_full_gloss():
+    from src.argos_titles import arabic_gloss
+    gloss, full = arabic_gloss('Warehouse Worker / Order Picker')
+    assert full
+    assert 'عامل مستودع' in gloss and 'عامل تجميع الطلبات' in gloss
+
+
+def test_uncovered_words_make_gloss_explicitly_partial():
+    from src.argos_titles import arabic_gloss, _PARTIAL_MARK
+    gloss, full = arabic_gloss('Warehouse Worker, Night Shift, Linz')
+    assert not full
+    rendered = arabic_for_english_title('Warehouse Worker, Night Shift, Linz')
+    assert _PARTIAL_MARK in rendered
+
+
+def test_vocab_arabic_marks_partial_in_pipeline():
+    from src.argos_titles import translate_title_argos, _PARTIAL_MARK
+    _fake_argos({("warehouse worker / Kompletar objednavek - full-time, Brno",
+                  "cs", "en"):
+                 "Warehouse Worker / Order Picker - Full-time, Brno"})
+    en, ar = translate_title_argos(
+        'Skladnik / Kompletar objednavek - HPP, Brno', 'cs')
+    assert _PARTIAL_MARK in ar
+
+
+def test_hpp_qualifier_gets_full_time_arabic():
+    from src.argos_titles import arabic_gloss
+    gloss, full = arabic_gloss('Warehouse Worker - Full-time')
+    assert 'دوام كامل' in gloss

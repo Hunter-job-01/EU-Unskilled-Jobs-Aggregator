@@ -20,7 +20,11 @@ from __future__ import annotations
 # folded phrases, longest first.
 TITLE_PREPASS = {
     "pl": [
+        ("magazynierka", "warehouse worker"),
         ("magazynier", "warehouse worker"),
+        ("pracownik magazynowy", "warehouse worker"),
+        ("kierowca", "driver"),
+        ("mlodszy", "junior"),
         ("komisjonowanie", "order picking"),
         ("pracownik produkcji", "production worker"),
         ("pracownik magazynu", "warehouse worker"),
@@ -31,6 +35,10 @@ TITLE_PREPASS = {
         ("pomoc kuchenna", "kitchen helper"),
     ],
     "de": [
+        ("produktionsmitarbeiter", "production worker"),
+        ("lagermitarbeiter", "warehouse worker"),
+        ("transportarbeiter", "transport worker"),
+        ("zusteller", "delivery driver"),
         ("lagerhelfer", "warehouse helper"),
         ("produktionshelfer", "production helper"),
         ("kommissionierer", "order picker"),
@@ -39,13 +47,44 @@ TITLE_PREPASS = {
     ],
     "cs": [
         ("skladnik", "warehouse worker"),
-        ("vyrobn i pracovnik", "production worker"),
+        ("vyrobni pracovnik", "production worker"),
+        ("operator vyroby", "production operator"),
+        ("kompletace", "order picking"),
+        ("manipulacni", "warehouse handler"),
+        ("obsluha", "operator"),
+        ("ridic", "driver"),
+        ("hpp", "full-time"),
         ("ubytovani", "accommodation"),
     ],
     "nl": [
+        ("logistiek medewerker", "logistics worker"),
         ("magazijnmedewerker", "warehouse worker"),
+        ("magazijnier", "warehouse worker"),
         ("productiemedewerker", "production worker"),
         ("orderpicker", "order picker"),
+    ],
+    "fr": [
+        ("preparateur de commandes", "order picker"),
+        ("manutentionnaire", "warehouse handler"),
+        ("magasiniere", "warehouse worker"),
+        ("magasinier", "warehouse worker"),
+        ("cariste", "forklift operator"),
+        ("livreur", "delivery driver"),
+        ("vendeur", "salesperson"),
+    ],
+    "sv": [
+        ("produktionsarbetare", "production worker"),
+        ("terminalmedarbetare", "terminal worker"),
+        ("terminalarbetare", "terminal worker"),
+        ("lagermedarbetare", "warehouse worker"),
+        ("lagerarbetare", "warehouse worker"),
+        ("truckforare", "forklift operator"),
+    ],
+    "it": [
+        ("operaio di produzione", "production worker"),
+    ],
+    "fi": [
+        ("siivooja", "cleaner"),
     ],
     "lt": [
         ("sandelio darbuotojas", "warehouse worker"),
@@ -84,6 +123,14 @@ TITLE_AR_VOCAB = {
     "cleaner": "عامل تنظيف",
     "career changer": "متحول مهني (بدون خبرة سابقة)",
     "accommodation": "سكن",
+    "logistics worker": "عامل لوجستيات",
+    "delivery driver": "سائق توصيل",
+    "warehouse handler": "عامل مناولة بضائع",
+    "transport worker": "عامل نقل",
+    "terminal worker": "عامل محطة فرز",
+    "production operator": "مشغل إنتاج",
+    "driver": "سائق",
+    "salesperson": "بائع",
 }
 
 _PAIRS = [("pl","en"),("de","en"),("cs","en"),("nl","en"),("sv","en"),
@@ -213,12 +260,60 @@ def translate_title_argos(title: str, source_lang: str):
     return en, ar
 
 
-def arabic_for_english_title(title_en: str) -> str:
-    """Reviewed Arabic for a translated English title, or '' when no
-    controlled term matches. Longest canonical term wins; the match is
-    folded and case/diacritic-insensitive like the prepass."""
+# Gender/employment-form markers and digits never block full coverage;
+# they carry no role meaning of their own. Locations and any other word
+# DO count: an uncovered word makes the gloss explicitly partial.
+_IGNORABLE = __import__("re").compile(
+    r"^(m/w/d|w/m/d|m/f/d|h/f|f/h|k/m|m/k|m/z|m/f/x|d/m/w|\d+.*|.)$")
+
+# Employment-form vocab: HPP (Czech full-time) and shift forms are
+# material qualifiers, so they have their own reviewed Arabic and count
+# toward coverage instead of silently disappearing.
+TITLE_AR_VOCAB.update({
+    "full-time": "دوام كامل",
+    "part-time": "دوام جزئي",
+    "night shift": "وردية ليلية",
+})
+_PARTIAL_MARK = " (ترجمة جزئية للمسمى - راجع العنوان الأصلي)"
+
+
+def arabic_gloss(title_en: str):
+    """Reviewed Arabic for a translated English title.
+
+    Returns (gloss, is_full). Every matched canonical term contributes its
+    Arabic (in title order, joined with ' / ') so compound roles keep all
+    their parts. is_full is True only when every alphabetic word of the
+    folded title is covered by a matched term or an ignorable marker -
+    otherwise the gloss is explicitly PARTIAL and the caller must mark it,
+    never present it as a full translation. Empty gloss when nothing
+    matches."""
     folded = _fold(title_en)
-    for term, arabic in sorted(TITLE_AR_VOCAB.items(), key=lambda kv: -len(kv[0])):
-        if term in folded:
-            return arabic
-    return ""
+    terms = sorted(TITLE_AR_VOCAB.items(), key=lambda kv: -len(kv[0]))
+    hits = []  # (start, end, arabic)
+    for term, arabic in terms:
+        start = folded.find(term)
+        while start >= 0:
+            end = start + len(term)
+            if not any(s < end and start < e for s, e, _ in hits):
+                hits.append((start, end, arabic))
+            start = folded.find(term, start + 1)
+    if not hits:
+        return "", False
+    hits.sort()
+    gloss = " / ".join(dict.fromkeys(a for _, _, a in hits))
+    words = [(m.start(), m.group()) for m in
+             __import__("re").finditer(r"[a-z]+", folded)]
+    def covered(pos, word):
+        return any(s <= pos and pos + len(word) <= e for s, e, _ in hits)
+    full = all(covered(pos, w) or _IGNORABLE.match(w)
+               for pos, w in words) if words else False
+    return gloss, full
+
+
+def arabic_for_english_title(title_en: str) -> str:
+    """Reviewed Arabic string for callers that only need the gloss
+    (partial glosses carry the explicit partial marker)."""
+    gloss, full = arabic_gloss(title_en)
+    if not gloss:
+        return ""
+    return gloss if full else gloss + _PARTIAL_MARK
