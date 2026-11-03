@@ -22,6 +22,18 @@ from pathlib import Path
 
 from .hitl import CardDecision
 
+import hashlib
+
+
+def make_uid(company: str, title: str, country: str, ref: str = "") -> str:
+    """uid = sha256(company|title|country). When a posting carries a
+    stable official reference (vacancy id or canonical URL), include it so
+    two same-title postings from the same employer and country never
+    collide. Without a ref this is exactly the legacy scheme."""
+    parts = [company, title, country] + ([ref] if ref.strip() else [])
+    return hashlib.sha256("|".join(parts).encode("utf-8")).hexdigest()
+
+
 STATUS_PENDING = "pending_approval"
 STATUS_APPLIED = "applied"
 STATUS_SKIPPED = "skipped"

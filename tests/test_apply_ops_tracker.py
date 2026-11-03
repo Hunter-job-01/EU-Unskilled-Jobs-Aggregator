@@ -140,3 +140,18 @@ def test_eligibility_unresolved_hold(tmp_path):
         assert False, "skipped is terminal"
     except TrackerError:
         pass
+
+
+def test_make_uid_distinct_same_title_posts():
+    from src.apply_ops.tracker import make_uid
+    import hashlib
+    # Legacy scheme unchanged without a ref.
+    assert make_uid("Sodexo", "Kitchen Porter", "IE") ==         hashlib.sha256("Sodexo|Kitchen Porter|IE".encode()).hexdigest()
+    # Two same-title, same-employer, same-country postings with distinct
+    # official refs must not collide.
+    a = make_uid("Sodexo", "Kitchen Porter", "IE", ref="SDX/TP/2544748/163751")
+    b = make_uid("Sodexo", "Kitchen Porter", "IE", ref="SDX/TP/2544748/21769")
+    assert a != b
+    c = make_uid("Sodexo", "Kitchen Porter", "IE",
+                 ref="https://www.sodexojobs.co.uk/jobs/kitchen-porter-in-dublin-city-27-fitzwilliam-street-lower.22391")
+    assert len({a, b, c}) == 3
