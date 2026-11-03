@@ -15,9 +15,11 @@ or form before acting on any approval (pre_send_recheck stays True).
 from __future__ import annotations
 
 import hashlib
+import json
 import time
-from dataclasses import dataclass, field
+from dataclasses import asdict, dataclass, field
 from enum import Enum
+from pathlib import Path
 
 
 class CardDecision(Enum):
@@ -126,3 +128,36 @@ class CardStore:
         }[decision]
         self._pending_by_job.pop(card.job_uid, None)
         return card
+
+
+    def pending(self) -> list:
+        """All live pending cards (not expired), oldest first."""
+        out = []
+        for card in self._cards.values():
+            if card.status == "pending" and not card.expired(self.ttl):
+                out.append(card)
+        return sorted(out, key=lambda c: c.created_at)
+
+    def save(self, path) -> None:
+        """Persist the registry atomically. The file is PRIVATE state:
+        it lives outside the repo / gitignored and is never committed."""
+        p = Path(path)
+        p.parent.mkdir(parents=True, exist_ok=True)
+        payload = {"version": 1,
+                   "cards": {cid: asdict(c) for cid, c in sorted(self._cards.items())}}
+        tmp = p.with_suffix(".tmp")
+        tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+        tmp.replace(p)
+
+    @classmethod
+    def load(cls, path, ttl_seconds: float = 72 * 3600) -> "CardStore":
+        store = cls(ttl_seconds=ttl_seconds)
+        p = Path(path)
+        if p.exists():
+            data = json.loads(p.read_text(encoding="utf-8"))
+            for cid, raw in (data.get("cards") or {}).items():
+                card = ApprovalCard(**raw)
+                store._cards[cid] = card
+                if card.status == "pending":
+                    store._pending_by_job.setdefault(card.job_uid, cid)
+        return store
