@@ -190,9 +190,17 @@ def main(argv=None) -> int:
         langs = country_meta.get("languages", [])
         annotate_glossary(job, langs[0] if langs else "")
         job.summary_ar = compose_summary_ar(job)
+    # Offline title layer (Argos CPU + reviewed Arabic vocab): runs before
+    # any network translator so hosted quota is spent only on titles the
+    # offline layer could not fill. Highest score first. A missing
+    # argostranslate install skips the layer explicitly, never silently.
+    from src.offline_translation import translate_titles_offline
+    off_en, off_ar = translate_titles_offline(ar_candidates, cfg)
+    if off_en or off_ar:
+        log.info("offline titles: %d en, %d ar", off_en, off_ar)
     # title_ar layer 1: one batched Gemini free call (keyed, bounded,
     # contact-scrubbed) covering up to 40 titles at once.
-    ar_done = 0
+    ar_done = off_ar
     mt_enabled = bool(cfg.get("translation", {}).get("enabled", False))
     todo = [j for j in ar_candidates if not j.title_ar][:40] if mt_enabled else []
     # title_en Gemini fallback: non-English titles the keyless route left

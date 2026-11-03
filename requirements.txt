@@ -8,3 +8,6 @@ cryptography>=44,<47
 beautifulsoup4>=4.12,<5
 
 langdetect>=1.0.9,<2
+
+# Offline Argos title translation (titles only; runs before network translators)
+argostranslate>=1.9,<2

@@ -90,3 +90,82 @@ def translation_document(jobs, translate=translate_full):
         label = '⚠️ محتاجة تحقق' if job.get('private_fit_status') != 'pass' else '✅ متوافقة مبدئيًا'
         blocks.append('\n' + '='*50 + '\n' + str(index) + '. ' + label + '\n' + job.get('private_fit_reason','') + '\n' + job.get('url','') + '\n\n' + incomplete + status + '\n\nالعنوان والوصف والشروط بالعربية:\n' + (translated or '[الترجمة غير متاحة، لم يُحذف النص الأصلي]') + '\n\nالنص الأصلي الكامل:\n' + title + '\n\n' + original)
     return '\n'.join(blocks).encode('utf-8')
+
+
+# ---------------------------------------------------------------------------
+# Argos offline title translation (titles only; full text stays MarianMT).
+#
+# This is the pipeline's free-CPU title layer: it runs before any network
+# translator so hosted quota is spent only on titles the offline layer
+# could not fill. Candidates are processed highest-score first. Honesty
+# rules match the rest of the pipeline: a failed or unchanged translation
+# leaves the field EMPTY, never a silent copy of the source title.
+#
+# Quality notes measured 2026-11-03 on real backlog titles:
+# - Raw pl->en without the glossary prepass mistranslates recruitment
+#   terms ("Magazynier" -> "Storage"); the prepass in src.argos_titles
+#   fixes the measured cases and only the measured cases.
+# - Raw en->ar on short titles is unreliable, so Arabic comes from the
+#   reviewed TITLE_AR_VOCAB whenever a controlled term matches; the raw
+#   model is only a fallback. No accuracy or coverage is guaranteed.
+# ---------------------------------------------------------------------------
+
+
+def _job_source_lang(job, cfg):
+    lang = (getattr(job, "source_language", "") or "").strip().lower()
+    if lang:
+        return lang
+    meta = (cfg.get("countries", {}).get(getattr(job, "country", ""), {}) or {})
+    langs = meta.get("languages") or []
+    return (langs[0] or "").strip().lower() if langs else ""
+
+
+def translate_titles_offline(jobs, cfg, log=None):
+    """Fill title_en/title_ar offline for scored jobs, in place.
+
+    Returns (en_done, ar_done). Skips entirely (returning (0, 0)) when
+    translation is disabled in config or argostranslate is not
+    installed; both states are explicit, never silent failures.
+    """
+    import logging
+    log = log or logging.getLogger(__name__)
+    tcfg = cfg.get("translation", {}) or {}
+    if not tcfg.get("enabled", True):
+        return 0, 0
+    try:
+        import argostranslate  # noqa: F401
+    except ImportError:
+        log.info("argostranslate not installed; offline title layer skipped")
+        return 0, 0
+    from .argos_titles import ensure_packages, translate_title_argos
+    from .scorer import needs_en_translation
+
+    candidates = sorted(
+        [j for j in jobs if not getattr(j, "excluded", False)
+         and (getattr(j, "title", "") or "").strip()],
+        key=lambda j: -getattr(j, "score", 0))
+    langs = {_job_source_lang(j, cfg) for j in candidates}
+    langs.discard("")
+    langs.discard("en")
+    try:
+        ensure_packages(sorted(langs), log=log.info)
+    except Exception as exc:  # noqa: BLE001 - offline layer never breaks a run
+        log.warning("argos model setup failed: %s; offline titles skipped", exc)
+        return 0, 0
+
+    en_done = ar_done = 0
+    for job in candidates:
+        lang = _job_source_lang(job, cfg) or "en"
+        need_en = needs_en_translation(job)
+        need_ar = not (getattr(job, "title_ar", "") or "").strip()
+        if not need_en and not need_ar:
+            continue
+        en, ar = translate_title_argos(job.title, lang)
+        if en and need_en:
+            job.title_en = en
+            job.translated = True
+            en_done += 1
+        if ar and need_ar:
+            job.title_ar = ar
+            ar_done += 1
+    return en_done, ar_done
