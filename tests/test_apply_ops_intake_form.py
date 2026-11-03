@@ -76,3 +76,19 @@ def test_form_prep_requires_url():
         assert False
     except ValueError:
         pass
+
+
+def test_inspection_is_not_preparedness():
+    from src.apply_ops.form_prep import record_inspection
+    plan = plan_form_prep(form_url="https://x.example/apply", card_id="c1")
+    zero = evaluate_prep(plan, screenshot_path="s.png", final_url="https://x.example/apply",
+                         filled_fields=[], submit_clicked=False)
+    assert not zero.prepared
+    assert "inspection" in zero.blocked_reason
+    insp = record_inspection(form_url="https://x.example/apply", reached=True,
+                             fields_mapped=("name", "email"),
+                             screening_questions=("work authorization?",),
+                             account_creation_at_submit=True,
+                             screenshot_path="s.png")
+    assert insp.reached and insp.account_creation_at_submit
+    assert insp.fields_mapped == ["name", "email"]

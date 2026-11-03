@@ -39,6 +39,32 @@ class FormPrepResult:
     filled_fields: list = field(default_factory=list)
 
 
+@dataclass
+class FormInspection:
+    """Read-only reach/field-map proof: the form was reached, its fields
+    and screening questions were mapped, NO personal data was entered,
+    no consent toggled, no account created, nothing submitted. This is
+    NOT preparedness - a prepared_for_review state additionally requires
+    owner-approved fields actually filled and the attachment verified."""
+    form_url: str = ""
+    reached: bool = False
+    fields_mapped: list = field(default_factory=list)
+    screening_questions: list = field(default_factory=list)
+    account_creation_at_submit: bool = False
+    screenshot_path: str = ""
+
+
+def record_inspection(*, form_url: str, reached: bool, fields_mapped=(),
+                      screening_questions=(), account_creation_at_submit=False,
+                      screenshot_path: str = "") -> FormInspection:
+    return FormInspection(
+        form_url=form_url, reached=bool(reached),
+        fields_mapped=list(fields_mapped),
+        screening_questions=list(screening_questions),
+        account_creation_at_submit=bool(account_creation_at_submit),
+        screenshot_path=screenshot_path)
+
+
 def plan_form_prep(*, form_url: str, card_id: str,
                    owner_approved_fields=()) -> FormPrepPlan:
     if not form_url:
@@ -56,6 +82,9 @@ def evaluate_prep(plan: FormPrepPlan, *, screenshot_path: str,
     unexpected = [f for f in filled_fields if f not in plan.allowed_fields]
     if unexpected:
         return FormPrepResult(blocked_reason="fields filled outside card approval: " + ",".join(sorted(unexpected)))
+    filled = list(filled_fields)
+    if not filled:
+        return FormPrepResult(blocked_reason="no fields filled - this is an inspection, not a prepared form; use record_inspection")
     if not screenshot_path:
         return FormPrepResult(blocked_reason="no screenshot evidence captured")
     if not final_url:

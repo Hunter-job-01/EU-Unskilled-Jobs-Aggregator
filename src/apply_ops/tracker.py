@@ -26,7 +26,9 @@ STATUS_PENDING = "pending_approval"
 STATUS_APPLIED = "applied"
 STATUS_SKIPPED = "skipped"
 STATUS_NOT_ELIGIBLE = "not_eligible"
-_STATUSES = {STATUS_PENDING, STATUS_APPLIED, STATUS_SKIPPED, STATUS_NOT_ELIGIBLE}
+STATUS_ELIGIBILITY_UNRESOLVED = "eligibility_unresolved"
+_STATUSES = {STATUS_PENDING, STATUS_APPLIED, STATUS_SKIPPED, STATUS_NOT_ELIGIBLE,
+             STATUS_ELIGIBILITY_UNRESOLVED}
 
 
 @dataclass
@@ -93,6 +95,24 @@ class ApplicationTracker:
         if existing:
             return existing
         self.entries[entry.uid] = entry
+        return entry
+
+    def mark_eligibility_unresolved(self, uid: str, reason: str) -> TrackerEntry:
+        """Hold a pending card: something beyond the posting itself must
+        be clarified with the employer before approval is meaningful
+        (right-to-work/sponsorship screening, a dead apply route). The
+        question's presence alone is never a known conflict - this is
+        the unresolved lane, not not_eligible. Decisions are rejected
+        while held; EDIT-style review returns it to pending."""
+        if not reason.strip():
+            raise TrackerError("eligibility_unresolved requires a reason")
+        entry = self.entries.get(uid)
+        if not entry:
+            raise TrackerError("unknown uid: " + uid)
+        if entry.status not in (STATUS_PENDING, STATUS_ELIGIBILITY_UNRESOLVED):
+            raise TrackerError("uid {} already {}".format(uid, entry.status))
+        entry.status = STATUS_ELIGIBILITY_UNRESOLVED
+        entry.exclusion_reason = reason.strip()
         return entry
 
     def record_decision(self, uid: str, decision: CardDecision, proof: str = "") -> TrackerEntry:

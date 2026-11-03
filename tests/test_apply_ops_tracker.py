@@ -103,3 +103,27 @@ def test_not_eligible_terminal(tmp_path):
         assert False, "reason required"
     except TrackerError:
         pass
+
+
+def test_eligibility_unresolved_hold(tmp_path):
+    from src.apply_ops.tracker import (STATUS_ELIGIBILITY_UNRESOLVED,
+                                       ApplicationTracker, TrackerError)
+    from src.apply_ops.hitl import CardDecision
+    tr = ApplicationTracker(tmp_path / "t.json")
+    tr.add_pending(entry())
+    e = tr.mark_eligibility_unresolved("u1", "form screens right-to-work; sponsorship unresolved")
+    assert e.status == "eligibility_unresolved"
+    assert "sponsorship" in e.exclusion_reason
+    try:
+        tr.record_decision("u1", CardDecision.APPROVE, proof="x")
+        assert False, "held entries reject decisions"
+    except TrackerError:
+        pass
+    tr.save()
+    tr2 = ApplicationTracker(tmp_path / "t.json")
+    assert tr2.entries["u1"].status == STATUS_ELIGIBILITY_UNRESOLVED
+    try:
+        tr2.mark_eligibility_unresolved("u1", "")
+        assert False, "reason required"
+    except TrackerError:
+        pass
