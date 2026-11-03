@@ -84,7 +84,17 @@
   var SOURCE_LABELS = {
     eures: 'EURES',
     jobspy_indeed: 'Indeed',
-    jobspy_linkedin: 'LinkedIn'
+    jobspy_linkedin: 'LinkedIn',
+    arbeitnow: 'Arbeitnow',
+    sweden_jobsearch: 'Arbetsf\u00f6rmedlingen (SE)',
+    czech_mpsv: 'MPSV vacancies (CZ)',
+    latvia_nva: 'NVA (LV)',
+    ottoworkforce: 'OTTO Work Force (NL)',
+    nl_jobs: 'NL Jobs (NL)',
+    hobij: 'Hobij (NL)',
+    pl_cbop: 'CBOP - Polish PES (PL)',
+    anyworkanywhere: 'AnyworkAnywhere',
+    ats_public: 'Direct employer portals'
   };
 
   var HEALTH_ORDER = ['failed', 'partial', 'skipped', 'ok'];
@@ -336,6 +346,12 @@
         titles.appendChild(el('p', 'job-title-pending', 'Translation pending'));
       }
     }
+    if (job.title_ar) {
+      var arTitle = el('p', 'job-title-ar', job.title_ar);
+      arTitle.setAttribute('dir', 'rtl');
+      arTitle.setAttribute('lang', 'ar');
+      titles.appendChild(arTitle);
+    }
     card.appendChild(titles);
 
     var metaBits = [];
@@ -345,10 +361,56 @@
     if (when) metaBits.push('posted ' + when);
     card.appendChild(el('p', 'job-meta', metaBits.join(' - ')));
 
+    // Legacy-data guard (computed before any rendering that depends on it):
+    // jobs scored before the scorer fix may carry no_exp_or_training_mention
+    // solely from a career-changer keyword (e.g. "quereinsteiger"), which is
+    // NOT evidence of "no experience / training".
+    var CAREER_CHANGER_TERMS = ['quereinsteiger', 'quereinstieg', 'career changer', 'berufswechsler'];
+    var REAL_NOEXP_TERMS = ["apmacam",  "apmaciba",  "apmokome",  "be darbo patirties",  "be patirties",  "betanitas",  "betanitast biztositunk",  "betanitott munka",  "bez doswiadczenia",  "bez doswiadczenia zawodowego",  "bez iskustva",  "bez pieredzes",  "bez praxe",  "bez predchadzajucej praxe",  "bez predchozi praxe",  "brez izkusenj",  "com formacao",  "con formacion",  "con formazione",  "debutant accepte",  "do przyuczenia",  "doswiadczenie nie jest wymagane",  "ei aikaisempaa kokemusta",  "ei kokemusta",  "entry level",  "experience non requise",  "fara experienta",  "fara experienta necesara",  "fara experienta prealabila",  "formacao fornecida",  "formacion a cargo de la empresa",  "formation assuree",  "formazione fornita",  "full training",  "full training provided",  "geen ervaring nodig",  "geen ervaring vereist",  "ilma kogemuseta",  "ingen erfarenhet",  "ingen erfarenhet kravs",  "ingen erfaring",  "ingen erfaring kraves",  "inwerktraject",  "iskustvo nije potrebno",  "izkusnje niso potrebne",  "keine erfahrung erforderlich",  "keine vorkenntnisse",  "kogemus pole vajalik",  "kogemust ei nouta",  "kokemusta ei vaadita",  "koulutetaan",  "mit einarbeitung",  "nao requer experiencia",  "nincs szukseg tapasztalatra",  "no experience",  "no experience necessary",  "no experience needed",  "no experience required",  "no previous experience",  "no se requiere experiencia",  "non e richiesta esperienza",  "nu este necesara experienta",  "obuka",  "ohne berufserfahrung",  "ohne erfahrung",  "ohne vorkenntnisse",  "on the job training",  "on-the-job training",  "oplaering",  "osigurana obuka",  "patirties nereikia",  "pieredze nav nepieciesama",  "prax nie je nutna",  "praxe neni nutna",  "primo impiego",  "przyuczymy",  "sans experience",  "sans experience prealable",  "sem experiencia",  "sem experiencia necessaria",  "senza esperienza",  "sin experiencia",  "sin experiencia previa",  "szkolenie zapewnione",  "tapasztalat nelkul",  "trainee",  "training asigurat",  "training given",  "training provided",  "uden erfaring",  "usposabljanje",  "utan erfarenhet",  "utbildning ges",  "valjaope",  "vi lar dig",  "wij leren je het vak",  "will train",  "wir lernen dich an",  "without experience",  "wordt ingewerkt",  "zagotovljeno usposabljanje",  "zapewniamy szkolenie",  "zaskolime",  "zaucime",  "zonder ervaring",  "zonder werkervaring",  "εμπειρια δεν απαιτειται",  "παρεχεται εκπαιδευση",  "χωρις εμπειρια",  "χωρις προϋπηρεσια",  "без опит",  "без предишен опит",  "обучение се осигурява",  "опит не се изисква"];
+    var matchedKw = (Array.isArray(job.matched_keywords) ? job.matched_keywords : []).map(function (k) {
+      return String(k).toLowerCase();
+    });
+    var noexpSupported = (function () {
+      var hasReal = REAL_NOEXP_TERMS.some(function (t) { return matchedKw.indexOf(t) !== -1; });
+      if (hasReal) return true;
+      var onlyCareerChanger = CAREER_CHANGER_TERMS.some(function (t) { return matchedKw.indexOf(t) !== -1; });
+      // Suppress only when career-changer is the visible evidence; unknown
+      // provenance stays reviewable rather than silently hidden.
+      return !onlyCareerChanger;
+    })();
+
+    if (job.summary_ar) {
+      var sumText = job.summary_ar;
+      // Always normalize legacy stored mention lines: old data repeated the
+      // per-item prefix ("يذكر الإعلان: X؛ يذكر الإعلان: Y"). The unsupported
+      // no-experience/training mention is dropped only when unsupported;
+      // every other backed fact stays untouched.
+      sumText = sumText.split('\n').map(function (line) {
+        var marker = 'المزايا المذكورة في نص الإعلان: ';
+        if (line.indexOf(marker) !== 0) return line;
+        var items = line.slice(marker.length).split('؛ ').map(function (it) {
+          return it.replace(/^يذكر الإعلان: /, '');
+        }).filter(function (it) {
+          return noexpSupported || it.indexOf('لا خبرة') === -1;
+        });
+        return items.length ? marker + items.join('؛ ') : '';
+      }).filter(function (line) { return line !== ''; }).join('\n');
+      if (sumText) {
+        var arSum = el('p', 'job-summary-ar', sumText);
+        arSum.setAttribute('dir', 'rtl');
+        arSum.setAttribute('lang', 'ar');
+        card.appendChild(arSum);
+      }
+    }
+
     var signals = Array.isArray(job.signals) ? job.signals : [];
     var chips = el('div', 'job-chips');
+    function chipSupported(sig) {
+      if (sig !== 'no_exp_or_training_mention') return true;
+      return noexpSupported;
+    }
     CHIP_ORDER.forEach(function (sig) {
-      if (signals.indexOf(sig) !== -1) {
+      if (signals.indexOf(sig) !== -1 && chipSupported(sig)) {
         var meta = SIGNAL_META[sig];
         var chip = el('span', 'chip', meta.label);
         chip.title = meta.hint;
@@ -455,12 +517,33 @@
       return;
     }
     hideStates();
-    resultCount.textContent =
+    resultCount.textContent = '';
+    resultCount.appendChild(document.createTextNode(
       jobs.length + ' of ' + allJobs.length +
-      (allJobs.length === 1 ? ' vacancy' : ' vacancies') + ' shown';
+      (allJobs.length === 1 ? ' vacancy' : ' vacancies') + ' shown '));
+    var arCount = el('span', 'ar', jobs.length + ' \u0645\u0646 ' + allJobs.length + ' \u0648\u0638\u064a\u0641\u0629');
+    arCount.setAttribute('lang', 'ar');
+    arCount.setAttribute('dir', 'rtl');
+    resultCount.appendChild(arCount);
   }
 
   /* ---------------- data loading ---------------- */
+
+  function populateSourceFilter() {
+    var counts = {};
+    allJobs.forEach(function (job) {
+      counts[job.source] = (counts[job.source] || 0) + 1;
+    });
+    var codes = Object.keys(counts).sort(function (a, b) {
+      return sourceLabel(a).localeCompare(sourceLabel(b));
+    });
+    codes.forEach(function (code) {
+      var option = el('option', null,
+        sourceLabel(code) + ' (' + counts[code] + ')');
+      option.value = code;
+      controls.source.appendChild(option);
+    });
+  }
 
   function populateCountryFilter() {
     var counts = {};
@@ -524,6 +607,7 @@
       }
       renderStatus(runStatus);
       populateCountryFilter();
+      populateSourceFilter();
       checkCsvAvailability();
       render();
     }).catch(function (err) {
@@ -552,3 +636,16 @@
 
   boot();
 })();
+
+
+  /* Open the filter panel by default on desktop widths so the extra
+     controls are visible; keep it collapsed on phones to save space. */
+  (function () {
+    var panel = document.getElementById('filters-panel');
+    if (!panel || !window.matchMedia) return;
+    var mq = window.matchMedia('(min-width: 720px)');
+    function apply() { panel.open = mq.matches; }
+    if (mq.addEventListener) mq.addEventListener('change', apply);
+    else if (mq.addListener) mq.addListener(apply);
+    apply();
+  })();

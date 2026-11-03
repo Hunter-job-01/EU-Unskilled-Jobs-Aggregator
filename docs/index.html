@@ -17,6 +17,7 @@
         and similar no-experience vacancies across all 27 EU member states -
         collected automatically by the EU-Unskilled-Jobs-Aggregator.
       </p>
+      <p class="subtitle-ar" lang="ar" dir="rtl">وظائف بدون خبرة في دول الاتحاد الأوروبي - تُجمَع وتُحدَّث تلقائيًا</p>
     </div>
   </header>
 
@@ -39,24 +40,29 @@
       that the employer sponsors work permits, provides housing, or accepts
       applicants from any particular country. Verify every vacancy directly
       with the employer or agency.
+      <span class="disclaimer-ar" lang="ar" dir="rtl">التقييم والعلامات مثل "تصريح عمل" أو "سكن" تعني أن الإعلان ذكرها فقط - وليست إثباتًا. تحقق دائمًا من صاحب العمل مباشرة.</span>
     </aside>
 
     <form id="controls" class="controls" autocomplete="off">
       <div class="control control-search">
         <label for="search">Search</label>
         <input type="search" id="search" name="search"
-               placeholder="Title, company, location, keyword&hellip;">
+               placeholder="Search: title, company, city&hellip; / ابحث">
       </div>
 
+      <details class="filters" id="filters-panel">
+      <summary><span class="summary-label">Filters <span class="ar-hint" lang="ar">الفلاتر</span></span></summary>
+      <div class="filters-body">
+
       <div class="control">
-        <label for="filter-country">Country</label>
+        <label for="filter-country">Country <span class="ar-hint" lang="ar">الدولة</span></label>
         <select id="filter-country" name="country">
           <option value="">All countries</option>
         </select>
       </div>
 
       <div class="control">
-        <label for="filter-tier">Tier</label>
+        <label for="filter-tier">Tier <span class="ar-hint" lang="ar">الفئة</span></label>
         <select id="filter-tier" name="tier">
           <option value="">All tiers</option>
           <option value="1">Tier 1</option>
@@ -66,22 +72,19 @@
       </div>
 
       <div class="control">
-        <label for="filter-source">Source</label>
+        <label for="filter-source">Source <span class="ar-hint" lang="ar">المصدر</span></label>
         <select id="filter-source" name="source">
           <option value="">All sources</option>
-          <option value="eures">EURES</option>
-          <option value="jobspy_indeed">Indeed</option>
-          <option value="jobspy_linkedin">LinkedIn</option>
         </select>
       </div>
 
       <div class="control">
-        <label for="filter-min-score">Minimum score: <output id="min-score-value" for="filter-min-score">0</output></label>
+        <label for="filter-min-score">Minimum score <span class="ar-hint" lang="ar">أقل تقييم</span>: <output id="min-score-value" for="filter-min-score">0</output></label>
         <input type="range" id="filter-min-score" name="min_score" min="0" max="100" step="5" value="0">
       </div>
 
       <fieldset class="control control-signals">
-        <legend>Posting must mention</legend>
+        <legend>Posting must mention <span class="ar-hint" lang="ar">يجب أن يذكر الإعلان</span></legend>
         <label><input type="checkbox" id="sig-noexp" value="no_exp_or_training_mention"> No experience / Training provided</label>
         <label><input type="checkbox" id="sig-housing" value="housing_keyword_mention"> Housing</label>
         <label><input type="checkbox" id="sig-permit" value="permit_keyword_mention"> Work permit</label>
@@ -91,7 +94,7 @@
       </fieldset>
 
       <div class="control">
-        <label for="sort-by">Sort by</label>
+        <label for="sort-by">Sort by <span class="ar-hint" lang="ar">الترتيب</span></label>
         <select id="sort-by" name="sort">
           <option value="score">Score (highest first)</option>
           <option value="newest">Newest (posted / first seen)</option>
@@ -102,6 +105,8 @@
       <div class="control control-actions">
         <a id="csv-download" class="button" href="data/latest_export.csv" download>Download CSV</a>
       </div>
+      </div>
+      </details>
     </form>
 
     <p id="result-count" class="result-count" role="status"></p>
