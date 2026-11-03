@@ -2,6 +2,7 @@
 from types import SimpleNamespace
 
 from src.apply_ops.extractor import GATE, extract_application_details
+from src.apply_ops.route_classifier import Route, classify_route
 from src.apply_ops.discovery import find_official_page
 
 
@@ -85,3 +86,15 @@ def test_discovery_fail_closed_on_weak_match_and_errors():
     assert not r2.chosen_url and "search failed" in r2.reason
     r3 = find_official_page("Acme", "PL", lambda q: [])
     assert not r3.chosen_url and "no non-aggregator" in r3.reason
+
+
+def test_route_email_fused_tld_tail():
+    # Scraped pages can fuse the email with the next word; TLDs are lowercase.
+    r = classify_route("E-Mail: bewerbung@spp-direkt.deWhatsApp: 0176/29761313")
+    assert r.route is Route.EMAIL
+    assert r.contact == "bewerbung@spp-direkt.de"
+
+
+def test_route_email_uppercase_untouched():
+    r = classify_route("mail HR@Example.COM now")
+    assert r.contact == "HR@Example.COM"

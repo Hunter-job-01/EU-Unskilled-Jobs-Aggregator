@@ -95,11 +95,27 @@ def build_application_card(job, *, fetch, search, card_store: CardStore,
         kwargs["eligibility_note"] = eligibility_note
     tailored = tailor_message(**kwargs)
     full_body = tailored.body_draft
+    display_text = tailored.card_text_ar
     if tailored.body_draft_local:
         full_body = tailored.body_draft_local + "\n\n-----\n\n" + tailored.body_draft
+        # The user approves from the Arabic card: show the local-language
+        # letter too, not only the English draft.
+        local_block = "--- (" + local_lang + ") ---\n" + tailored.body_draft_local
+        # Insert the local-language letter before the 1/2/3 footer so the
+        # footer stays last.
+        marker = "للموافقة على الإرسال"
+        idx = tailored.card_text_ar.rfind(marker)
+        if idx > 0:
+            head = tailored.card_text_ar[:idx].rstrip()
+            if head.endswith("---"):
+                head = head[:-3].rstrip()
+            foot = tailored.card_text_ar[idx:].strip()
+            display_text = head + "\n" + local_block + "\n---\n" + foot
+        else:
+            display_text = tailored.card_text_ar + "\n" + local_block
     card = card_store.create(ApprovalCard(
         card_id=kwargs["card_id"], job_uid=getattr(job, "uid", ""),
-        cv_variant=match.variant.value, card_text_ar=tailored.card_text_ar,
+        cv_variant=match.variant.value, card_text_ar=display_text,
         draft_subject=tailored.subject, draft_body=full_body,
         recipient=contact, sending_account=sending_account,
     ))
@@ -108,7 +124,7 @@ def build_application_card(job, *, fetch, search, card_store: CardStore,
         title_ar=getattr(job, "title_ar", "") or "", country=getattr(job, "country", ""),
         method=ext.application_method, contact_target=contact,
     ))
-    return BuiltCard(card=card, card_text_ar=tailored.card_text_ar,
+    return BuiltCard(card=card, card_text_ar=display_text,
                      local_language=local_lang,
                      local_letter_owed=bool(local_lang) and not bool(local_letter),
                      method=ext.application_method, contact=contact)
