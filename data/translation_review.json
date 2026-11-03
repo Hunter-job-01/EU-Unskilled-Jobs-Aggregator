@@ -12,7 +12,8 @@
   "praca w magazynie znanej dogerii",
   "árukiadó/komissiózó - megváltozott munkaképességűeknek",
   "operatore/trice di magazzino per commercio all'ingrosso",
-  "job på malta - har du selvtillid og lækkert hår? vi betaler for fly og de første 3 uger på hotel."
+  "job på malta - har du selvtillid og lækkert hår? vi betaler for fly og de første 3 uger på hotel.",
+  "operatore/trice produzione mobili su misura"
  ],
  "reasons": {
   "elektroniker": "model output garbled parenthetical ('Electronicia'); reviewed 2026-11-03",
@@ -27,6 +28,7 @@
   "praca w magazynie znanej dogerii": "Argos output unfaithful (2026-11-03 audit): source typo drogerii->doggery nonsense (peer-flagged)",
   "árukiadó/komissiózó - megváltozott munkaképességűeknek": "Argos output unfaithful (2026-11-03 audit): non-word \"Comissizer\" + Exporter role drift (peer-flagged)",
   "operatore/trice di magazzino per commercio all'ingrosso": "Argos output unfaithful (2026-11-03 audit): spurious \"/machine\" artifact",
-  "job på malta - har du selvtillid og lækkert hår? vi betaler for fly og de første 3 uger på hotel.": "Argos output unfaithful (2026-11-03 audit): Danish ad in MT feed: country-map MT->en passthrough of untranslated source"
+  "job på malta - har du selvtillid og lækkert hår? vi betaler for fly og de første 3 uger på hotel.": "Argos output unfaithful (2026-11-03 audit): Danish ad in MT feed: country-map MT->en passthrough of untranslated source",
+  "operatore/trice produzione mobili su misura": "Argos garble: \"mobili su misura\" (custom furniture) mistranslated as mobile + spurious \"/machine\" artifact (2026-11-03 sweep)"
  }
 }
