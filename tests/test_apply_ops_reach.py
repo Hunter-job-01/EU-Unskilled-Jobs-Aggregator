@@ -88,13 +88,26 @@ def test_discovery_fail_closed_on_weak_match_and_errors():
     assert not r3.chosen_url and "no non-aggregator" in r3.reason
 
 
-def test_route_email_fused_tld_tail():
-    # Scraped pages can fuse the email with the next word; TLDs are lowercase.
+def test_route_email_fused_text_fails_closed():
+    # Scraped text fused to the next word is ambiguous: no address is guessed.
     r = classify_route("E-Mail: bewerbung@spp-direkt.deWhatsApp: 0176/29761313")
+    assert not (r and r.route is Route.EMAIL)
+
+
+def test_route_email_mailto_exact():
+    r = classify_route("Apply via mailto:bewerbung@spp-direkt.de please")
     assert r.route is Route.EMAIL
     assert r.contact == "bewerbung@spp-direkt.de"
 
 
-def test_route_email_uppercase_untouched():
-    r = classify_route("mail HR@Example.COM now")
-    assert r.contact == "HR@Example.COM"
+def test_route_email_clean_token_forms():
+    for text, expect in [
+        ("write to jobs@firma.co.uk please", "jobs@firma.co.uk"),
+        ("apply via hr@mail.sub.example-company.de now", "hr@mail.sub.example-company.de"),
+        ("contact firstname.lastname+jobs@example.com today", "firstname.lastname+jobs@example.com"),
+        ("mail HR@Example.COM now", "HR@Example.COM"),
+        ("E-Mail: bewerbung@spp-direkt.de WhatsApp: 0176", "bewerbung@spp-direkt.de"),
+    ]:
+        r = classify_route(text)
+        assert r.route is Route.EMAIL, text
+        assert r.contact == expect, text
