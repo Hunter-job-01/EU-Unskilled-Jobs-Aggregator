@@ -177,3 +177,40 @@ def test_status_keeps_latest_country_health_across_tiers(tmp_path):
     assert set(status["countries"]) == {"ES"}
     assert set(status["latest_by_country"]) == {"PL", "ES"}
     assert status["latest_by_country"]["PL"]["checked_at_utc"] == "2026-11-02T10:00:00Z"
+
+
+def test_translation_fields_preserved_across_merges(tmp_path):
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    today = date(2026, 11, 2)
+    store.merge([make_job(1, score=90)], today=today)
+    rec = store._store["uid1"]
+    rec["title_en"] = "Warehouse worker"
+    rec["title_ar"] = "عامل مستودع"
+    rec["summary_ar"] = "ملخص"
+
+    # Later run re-scrapes the same job without re-translating (quota
+    # stop / throttle / missing key): the fresh record must not blank
+    # the stored translations.
+    added, updated = store.merge([make_job(1, score=91)], today=today + timedelta(days=1))
+    assert (added, updated) == (0, 1)
+    rec = store._store["uid1"]
+    assert rec["title_en"] == "Warehouse worker"
+    assert rec["title_ar"] == "عامل مستودع"
+    assert rec["summary_ar"] == "ملخص"
+
+
+def test_translation_fields_dropped_when_source_title_changes(tmp_path):
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    today = date(2026, 11, 2)
+    store.merge([make_job(1, score=90)], today=today)
+    rec = store._store["uid1"]
+    rec["title_en"] = "Warehouse worker"
+    rec["title_ar"] = "عامل مستودع"
+
+    changed = make_job(1, score=91)
+    changed.title = changed.title + " (m/w/d)"
+    added, updated = store.merge([changed], today=today + timedelta(days=1))
+    assert (added, updated) == (0, 1)
+    rec = store._store["uid1"]
+    assert rec["title_en"] == ""
+    assert rec["title_ar"] == ""

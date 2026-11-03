@@ -156,6 +156,16 @@ class JobStore:
                 # re-scrape must never reset an already-sent digest flag.
                 record["notified_telegram"] = bool(existing.get("notified_telegram", False))
                 record["notified_at"] = existing.get("notified_at")
+                # Translation fields belong to the stored record too: a
+                # re-scrape must never erase a verified translation when
+                # this run did not re-translate (quota stop, throttle,
+                # missing key). Only carry forward while the source title
+                # is unchanged - a changed title invalidates its old
+                # translation and must go back through the pipeline.
+                if (existing.get("title") or "") == (record.get("title") or ""):
+                    for field in ("title_en", "title_ar", "summary_ar"):
+                        if not (record.get(field) or "").strip() and (existing.get(field) or "").strip():
+                            record[field] = existing[field]
                 store[job.uid] = record
                 updated += 1
         if skipped_tombstoned:
