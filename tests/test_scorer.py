@@ -277,7 +277,10 @@ def test_translation_stops_on_throttle(monkeypatch):
     jobs = [_scored_job('Magazynier', 80), _scored_job('Lagerhelfer', 70)]
     assert translate_titles(jobs, _translation_cfg()) == 0
     assert len(calls) == 1
-    assert all(j.title_en == j.title for j in jobs)
+    # Failure/throttle leaves title_en EMPTY: copying the source title would
+    # fake a translation and hide the job from the Gemini fallback gate.
+    assert all(j.title_en == "" for j in jobs)
+    assert all(not j.translated for j in jobs)
 
 
 def test_translation_failure_counts_toward_attempt_cap(monkeypatch):
@@ -292,3 +295,16 @@ def test_translation_failure_counts_toward_attempt_cap(monkeypatch):
     jobs = [_scored_job('Magazynier', 80), _scored_job('Lagerhelfer', 70)]
     assert translate_titles(jobs, _translation_cfg(max_per_run=1)) == 0
     assert len(calls) == 1
+
+
+def test_needs_en_translation_gate():
+    from src.scorer import needs_en_translation
+    untranslated = _scored_job("Magazynier", 80)
+    assert needs_en_translation(untranslated)                 # empty title_en
+    untranslated.title_en = untranslated.title                # legacy failure-copy
+    assert needs_en_translation(untranslated)                 # identical = still untranslated
+    untranslated.title_en = "Warehouse worker"
+    assert not needs_en_translation(untranslated)             # real translation kept
+    assert not needs_en_translation(_scored_job("Warehouse worker", 90))  # English source
+    empty = _scored_job("Magazynier", 80); empty.title = ""
+    assert not needs_en_translation(empty)                    # nothing to translate

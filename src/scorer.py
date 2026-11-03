@@ -243,8 +243,8 @@ def translate_titles(jobs, cfg: dict, min_score: int = None) -> int:
             job.title_en = title  # free: no request, no cap
             continue
         if throttled:
-            job.title_en = title
-            continue
+            continue  # leave title_en empty: a source-title copy is not a translation
+
         if attempted >= cap:
             continue  # cap counts every HTTP attempt, including failures
         try:
@@ -252,13 +252,32 @@ def translate_titles(jobs, cfg: dict, min_score: int = None) -> int:
             translated = translator.translate(title)
         except Exception as exc:  # noqa: BLE001 - fallback by design
             log.info("translation failed for %r: %s", title[:60], exc)
-            job.title_en = title
+            # Leave title_en empty: stamping the source title would fake a
+            # translation and permanently hide the job from the Gemini
+            # fallback gate (which treats identical-to-source as untranslated).
             reason = str(exc).lower()
             if any(marker in reason for marker in ("too many requests", "429", "rate limit")):
                 throttled = True
                 log.warning("Translation throttled; no more requests in this run")
             continue
-        job.title_en = translated or title
-        job.translated = bool(translated) and translated.strip().lower() != title.lower()
-        done += 1
+        if translated and translated.strip():
+            job.title_en = translated
+            job.translated = translated.strip().lower() != title.lower()
+            done += 1
+        # Empty translator output: leave title_en empty (see above).
     return done
+
+
+def needs_en_translation(job) -> bool:
+    """True when a scored job still lacks a real English title.
+
+    Reload-safe (storage does not persist ``translated``): a job qualifies
+    when its title is not English-looking AND title_en is either empty or
+    identical to the source title (legacy failure-copies from before the
+    honest-empty fix). A genuinely translated title_en is never re-requested.
+    """
+    title = (getattr(job, "title", "") or "").strip()
+    if not title or looks_english(title):
+        return False
+    te = (getattr(job, "title_en", "") or "").strip()
+    return not te or te == title

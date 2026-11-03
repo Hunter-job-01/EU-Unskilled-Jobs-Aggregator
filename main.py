@@ -201,9 +201,11 @@ def main(argv=None) -> int:
     # language batches; quota-stop in either stops the other.
     en_todo = []
     if mt_enabled:
-        from src.scorer import looks_english
-        en_todo = [j for j in ar_candidates
-                   if not j.title_en and not looks_english(j.title)][:40]
+        from src.scorer import needs_en_translation
+        # Reload-safe gate: empty OR identical-to-source title_en (legacy
+        # failure-copies included) - the keyless route can no longer hide
+        # jobs from this fallback by stamping the source title.
+        en_todo = [j for j in ar_candidates if needs_en_translation(j)][:40]
     if todo or en_todo:
         try:
             from src.gemini_translation import Translator
