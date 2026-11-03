@@ -1,8 +1,10 @@
 {
  "rejected_titles": [
-  "elektroniker (m/w/d) bis 22,85 euro / std. (elektroniker/in - automatisierungstechnik)"
+  "elektroniker (m/w/d) bis 22,85 euro / std. (elektroniker/in - automatisierungstechnik)",
+  "accompagnateur social en sejours de distanciation (h/f) espagne"
  ],
  "reasons": {
-  "elektroniker": "model output garbled parenthetical ('Electronicia'); reviewed 2026-11-03"
+  "elektroniker": "model output garbled parenthetical ('Electronicia'); reviewed 2026-11-03",
+  "accompagnateur_social": "fr routing correct but model output lossy (sejours dropped, Spain appended); reviewed 2026-11-03, keep honest-empty"
  }
 }

@@ -387,6 +387,14 @@
         return items.length ? marker + items.join('؛ ') : '';
       }).filter(function (line) { return line !== ''; }).join('\n');
       if (sumText) {
+        // Provenance honesty: this block is generated from structured
+        // facts (mentions, salary, location), never a translation of the
+        // description - the label keeps that distinction visible.
+        var arSumLabel = el('p', 'job-summary-ar-label',
+          'حقائق منظمة من بيانات الإعلان - ليست ترجمة كاملة للوصف.');
+        arSumLabel.setAttribute('dir', 'rtl');
+        arSumLabel.setAttribute('lang', 'ar');
+        card.appendChild(arSumLabel);
         var arSum = el('p', 'job-summary-ar', sumText);
         arSum.setAttribute('dir', 'rtl');
         arSum.setAttribute('lang', 'ar');
