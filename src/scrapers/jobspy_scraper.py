@@ -74,11 +74,13 @@ class JobSpyScraper:
         date_posted = row.get("date_posted")
         source_id = self._clean_cell(row.get("id")) or self._clean_cell(row.get("job_url"))
         url = self._clean_cell(row.get("job_url_direct")) or self._clean_cell(row.get("job_url"))
+        rebuilt = False
         if not url and site == "indeed" and source_id.startswith("in-"):
             # jobspy builds job_url as {country}.indeed.com/viewjob?jk={key}
             # with id f"in-{key}"; rebuild the canonical posting URL when the
-            # frame lost both URL columns.
+            # frame lost both URL columns, and mark it as unverified.
             url = "https://{}.indeed.com/viewjob?jk={}".format(country_code.lower(), source_id[3:])
+            rebuilt = True
         return Job(
             title=str(row.get("title") or "").strip(),
             company=str(row.get("company") or "").strip(),
@@ -89,6 +91,8 @@ class JobSpyScraper:
             description=str(row.get("description") or "")[:20000],
             location=self._location_text(row.get("location")),
             posted_date=str(date_posted)[:10] if date_posted else None,
+            url_provenance="reconstructed_from_source_key" if rebuilt else "",
+            url_verified=False if rebuilt else None,
         )
 
     def scrape_country(self, country_code: str, max_jobs: int) -> ScrapeResult:

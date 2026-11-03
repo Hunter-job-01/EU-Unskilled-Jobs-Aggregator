@@ -285,6 +285,8 @@ def test_jobspy_nan_direct_url_falls_back_to_job_url(cfg, matrix):
            "location": "Warsaw", "date_posted": "2026-11-01", "description": "x"}
     job = scraper.map_row(row, "PL", "indeed")
     assert job.url == "https://pl.indeed.com/viewjob?jk=aa2012504b307e91"
+    assert job.url_provenance == ""
+    assert job.url_verified is None
 
 
 def test_jobspy_both_urls_nan_rebuilds_canonical_viewjob(cfg, matrix):
@@ -295,6 +297,8 @@ def test_jobspy_both_urls_nan_rebuilds_canonical_viewjob(cfg, matrix):
     job = scraper.map_row(row, "PL", "indeed")
     assert job.url == "https://pl.indeed.com/viewjob?jk=aa2012504b307e91"
     assert job.url != "nan"
+    assert job.url_provenance == "reconstructed_from_source_key"
+    assert job.url_verified is False
 
 
 def test_jobspy_no_id_no_url_stays_empty_not_nan(cfg, matrix):
@@ -305,3 +309,5 @@ def test_jobspy_no_id_no_url_stays_empty_not_nan(cfg, matrix):
     job = scraper.map_row(row, "PL", "indeed")
     assert job.url == ""
     assert job.source_id == ""
+    assert job.url_provenance == ""
+    assert job.url_verified is None

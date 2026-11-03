@@ -32,7 +32,7 @@ JOB_DATACLASS_FIELDS = {
     "title_en", "title_ar", "summary_ar", "glossary", "translated",
     "score", "signals", "matched_keywords",
     "excluded", "exclusion_reason", "notified_telegram", "notified_at",
-    "first_seen", "last_seen",
+    "first_seen", "last_seen", "url_provenance", "url_verified",
 }
 
 RUN_STATUS_KEYS = {"last_run_utc", "duration_sec", "parameters",

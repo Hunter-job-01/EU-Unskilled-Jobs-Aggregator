@@ -40,6 +40,12 @@ class Job:
     # JobStore.merge, updated only via JobStore.mark_notified.
     notified_telegram: bool = False
     notified_at: Optional[str] = None
+    # Link provenance: empty provenance = URL came straight from the source
+    # scrape. "reconstructed_from_source_key" = rebuilt from the posting key
+    # (see jobspy_scraper); url_verified stays False until such a link is
+    # live-checked, so the dashboard never shows it as a plain apply link.
+    url_provenance: str = ""
+    url_verified: Optional[bool] = None
     first_seen: str = ""
     last_seen: str = ""
 
