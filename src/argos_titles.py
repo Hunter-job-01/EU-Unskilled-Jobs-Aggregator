@@ -59,6 +59,7 @@ TITLE_PREPASS = {
         ("ubytovani", "accommodation"),
     ],
     "nl": [
+        ("ploegen", "shifts"),
         ("logistiek medewerker", "logistics worker"),
         ("magazijnmedewerker", "warehouse worker"),
         ("magazijnier", "warehouse worker"),
