@@ -50,6 +50,8 @@ on:
         default: 'eures,jobspy'
         type: choice
         options: ['eures,jobspy', 'eures', 'jobspy',
+                  'eures,jobspy,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij',
+                  'eures,jobspy,sweden_jobsearch,latvia_nva,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij',
                   'eures,jobspy,sweden_jobsearch,latvia_nva',
                   'eures,jobspy,arbeitnow,sweden_jobsearch,latvia_nva']
       max_jobs:
