@@ -32,7 +32,7 @@ _CARD_AR = (
     "بطاقة تقديم #{card_id}\n"
     "الوظيفة: {title} - {company} ({country})\n"
     "الطريق: {route_desc}\n"
-    "نسخة الـCV: {cv_variant}\n"
+    "نسخة الـCV: {cv_variant_ar}\n"
     "ملاحظة الأهلية: {eligibility_note}\n"
     "---\n{draft_preview}\n"
     "---\nللموافقة على الإرسال رد: 1 | للتعديل: 2 | للتجاوز: 3"
@@ -42,10 +42,15 @@ _ROUTE_AR = {
     Route.WHATSAPP: "واتساب",
     Route.WEBFORM: "نموذج موقع (يتطلب مراجعة شروط البوابة قبل الإرسال)",
 }
+_CV_VARIANT_AR = {
+    CVVariant.WAREHOUSE_LOGISTICS: "مخازن ولوجستيات",
+    CVVariant.FACTORY_PRODUCTION: "إنتاج وتصنيع",
+    CVVariant.HOSPITALITY_GENERAL: "ضيافة وعمل عام",
+}
 _CV_AREA_EN = {
-    CVVariant.WAREHOUSE_PRODUCTION: "warehouse, packing and production work",
-    CVVariant.HOSPITALITY_KITCHEN: "kitchen support, cleaning and hospitality work",
-    CVVariant.AGRICULTURE_SEASONAL: "agricultural and seasonal work",
+    CVVariant.WAREHOUSE_LOGISTICS: "warehouse, order picking, packing and logistics work",
+    CVVariant.FACTORY_PRODUCTION: "factory production, assembly and food processing work",
+    CVVariant.HOSPITALITY_GENERAL: "hospitality, housekeeping, kitchen, cleaning and seasonal work",
 }
 
 
@@ -96,7 +101,7 @@ def tailor_message(
     )
     card = _CARD_AR.format(
         card_id=card_id, title=title, company=company, country=country,
-        route_desc=_ROUTE_AR[route], cv_variant=cv_variant.value,
+        route_desc=_ROUTE_AR[route], cv_variant_ar=_CV_VARIANT_AR[cv_variant],
         eligibility_note=eligibility_note,
         draft_preview=body[:900],
     )

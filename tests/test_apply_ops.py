@@ -53,14 +53,14 @@ def test_wa_me_format_validation():
 # --- CV variant selection ---------------------------------------------------
 
 def test_variant_by_title():
-    assert select_cv_variant("Warehouse employee").variant is CVVariant.WAREHOUSE_PRODUCTION
-    assert select_cv_variant("Kitchen helper").variant is CVVariant.HOSPITALITY_KITCHEN
-    assert select_cv_variant("Strawberry picking").variant is CVVariant.AGRICULTURE_SEASONAL
+    assert select_cv_variant("Warehouse employee").variant is CVVariant.WAREHOUSE_LOGISTICS
+    assert select_cv_variant("Kitchen helper").variant is CVVariant.HOSPITALITY_GENERAL
+    assert select_cv_variant("Strawberry picking").variant is CVVariant.HOSPITALITY_GENERAL
 
 
 def test_variant_by_description_and_none():
     m = select_cv_variant("Worker wanted", "join our greenhouse team")
-    assert m.variant is CVVariant.AGRICULTURE_SEASONAL
+    assert m.variant is CVVariant.HOSPITALITY_GENERAL
     assert select_cv_variant("Software engineer", "python backend") is None
 
 
@@ -70,7 +70,7 @@ def _tailor(**kw):
     args = dict(
         card_id="c1", title="Warehouse employee", company="OTTO Work Force",
         country="NL", route=Route.EMAIL, source_ref="jobs@example.com",
-        cv_variant=CVVariant.WAREHOUSE_PRODUCTION, candidate_name="M S",
+        cv_variant=CVVariant.WAREHOUSE_LOGISTICS, candidate_name="M S",
         contact_line="m@example.com",
     )
     args.update(kw)
@@ -80,7 +80,7 @@ def _tailor(**kw):
 def test_tailor_bilingual_and_no_unstated_claims():
     m = _tailor()
     assert "Warehouse employee" in m.subject
-    assert "warehouse, packing and production" in m.body_draft
+    assert "warehouse, order picking, packing and logistics" in m.body_draft
     assert "بطاقة تقديم" in m.card_text_ar
     assert "1" in m.card_text_ar and "2" in m.card_text_ar and "3" in m.card_text_ar
     # no permit/sponsorship assertions in the draft
@@ -98,7 +98,7 @@ def test_tailor_claims_echoed():
 # --- HITL cards ----------------------------------------------------------------
 
 def _card(cid="c1", uid="u1"):
-    return ApprovalCard(card_id=cid, job_uid=uid, cv_variant="warehouse-production",
+    return ApprovalCard(card_id=cid, job_uid=uid, cv_variant="warehouse-logistics",
                         card_text_ar="x", draft_subject="s", draft_body="b")
 
 
@@ -153,7 +153,7 @@ from src.apply_ops import SendLedger, SendRecord, content_hash, idempotency_key
 
 def _bound_card():
     return ApprovalCard(
-        card_id="c1", job_uid="u1", cv_variant="warehouse-production",
+        card_id="c1", job_uid="u1", cv_variant="warehouse-logistics",
         card_text_ar="x", draft_subject="Application - W", draft_body="body v1",
         recipient="hiring@firma.pl", sending_account="owner@gmail.com",
         cv_file_hash="cvhash123",

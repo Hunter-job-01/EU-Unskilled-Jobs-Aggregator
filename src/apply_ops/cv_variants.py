@@ -1,7 +1,8 @@
-"""Sector CV variant selection.
+"""Sector CV variant selection (v3 template split A/B/C).
 
 Maps a vacancy to one of the owner's three evidence-supported sector CV
-PDFs (warehouse-production / hospitality-kitchen / agriculture-seasonal).
+PDFs: warehouse-logistics (A) / factory-production (B) /
+hospitality-general (C, includes agriculture and seasonal work).
 The PDFs themselves are private files; this module only names variants.
 Matching reuses the same stem families as role_labels (title folding),
 and never invents a variant: no match -> None, and the card must say so.
@@ -15,9 +16,9 @@ from ..keywords import fold_text
 
 
 class CVVariant(Enum):
-    WAREHOUSE_PRODUCTION = "warehouse-production"
-    HOSPITALITY_KITCHEN = "hospitality-kitchen"
-    AGRICULTURE_SEASONAL = "agriculture-seasonal"
+    WAREHOUSE_LOGISTICS = "warehouse-logistics"
+    FACTORY_PRODUCTION = "factory-production"
+    HOSPITALITY_GENERAL = "hospitality-general"
 
 
 @dataclass
@@ -27,20 +28,22 @@ class VariantMatch:
 
 
 _STEMS = [
-    (CVVariant.WAREHOUSE_PRODUCTION, [
-        "warehouse", "picker", "packer", "packing", "production", "factory",
-        "logistic", "magazyn", "sklad", "lager", "kommission", "raktar",
-        "noliktav", "almacen", "magazzin", "armazem", "produkc", "vyrob",
-        "gamyb", "pakow", "balic", "verpack", "order picker", "sort",
+    (CVVariant.WAREHOUSE_LOGISTICS, [
+        "warehouse", "picker", "packer", "packing", "logistic",
+        "magazyn", "sklad", "lager", "kommission", "raktar",
+        "noliktav", "almacen", "magazzin", "armazem",
+        "pakow", "balic", "verpack", "order picker", "sort",
     ]),
-    (CVVariant.HOSPITALITY_KITCHEN, [
+    (CVVariant.FACTORY_PRODUCTION, [
+        "production", "factory", "assembly", "manufactur", "food process",
+        "produkc", "vyrob", "gamyb", "montaz", "produktions",
+    ]),
+    (CVVariant.HOSPITALITY_GENERAL, [
         "kitchen", "dishwash", "housekeep", "clean", "hotel", "hospitality",
         "restaurant", "kuchenhilfe", "pomoc kuchen", "aide de cuisine",
         "aiuto cucina", "ayudante de cocina", "keukenhulp", "afwasser",
         "sprzat", "uklid", "uprat", "takar", "schoon", "nettoy", "limp",
         "pulizi", "siivoo", "maid", "room attendant",
-    ]),
-    (CVVariant.AGRICULTURE_SEASONAL, [
         "farm", "harvest", "agricultur", "greenhouse", "fruit pick",
         "orchard", "zbiory", "szklarn", "ernte", "gewachs", "serre",
         "serra", "seasonal", "picking", "grape", "olive",

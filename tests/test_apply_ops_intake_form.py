@@ -10,7 +10,7 @@ from src.apply_ops.tracker import ApplicationTracker, TrackerEntry
 def rig(tmp_path):
     store = CardStore()
     tracker = ApplicationTracker(tmp_path / "t.json")
-    store.create(ApprovalCard(card_id="c1", job_uid="u1", cv_variant="warehouse-production",
+    store.create(ApprovalCard(card_id="c1", job_uid="u1", cv_variant="warehouse-logistics",
                               card_text_ar="x", draft_subject="s", draft_body="b",
                               recipient="hr@x.example"))
     tracker.add_pending(TrackerEntry(uid="u1", company="Acme", title_ar="t",
