@@ -416,3 +416,10 @@ code {
   .job-list { grid-template-columns: 1fr 1fr; }
   .site-header h1 { font-size: 1.6rem; }
 }
+
+.job-title-pending {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: #8a6d1f;
+  font-style: italic;
+}

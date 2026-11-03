@@ -324,10 +324,17 @@
     card.appendChild(top);
 
     var titles = el('div', 'job-titles');
-    var mainTitle = job.title_en || job.title || '(untitled posting)';
-    titles.appendChild(el('h3', 'job-title-en', mainTitle));
-    if (job.title_en && job.title && job.title_en !== job.title) {
+    // A title_en identical to the source title is NOT a translation
+    // (legacy failure-copies pending repair): never present it as English.
+    var hasRealEn = !!(job.title_en && job.title && job.title_en !== job.title);
+    if (hasRealEn) {
+      titles.appendChild(el('h3', 'job-title-en', job.title_en));
       titles.appendChild(el('p', 'job-title-orig', job.title));
+    } else {
+      titles.appendChild(el('h3', 'job-title-orig', job.title || '(untitled posting)'));
+      if (job.title_en === job.title && job.title) {
+        titles.appendChild(el('p', 'job-title-pending', 'Translation pending'));
+      }
     }
     card.appendChild(titles);
 

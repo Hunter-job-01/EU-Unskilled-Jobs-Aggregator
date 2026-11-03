@@ -254,3 +254,15 @@ def test_detect_language_skips_portal_chrome():
     body = ("Wir suchen ab sofort motivierte Maschinenbediener in der Kunststoffindustrie. "
             "Sie bedienen die Maschinen und achten auf die Qualität der Produkte. ") * 5
     assert _detect_language(chrome + "\n" + body) == "de"
+
+
+def test_dashboard_never_shows_source_copy_as_english():
+    """UI regression: a title_en identical to the source title is a legacy
+    failure-copy, not a translation. The dashboard must not render it
+    under the English-title class."""
+    from pathlib import Path
+    js = (Path(__file__).resolve().parents[1] / "docs" / "app.js").read_text(encoding="utf-8")
+    assert "title_en !== job.title" in js or "job.title_en !== job.title" in js
+    assert "job-title-pending" in js
+    # main title falls back to the ORIGINAL when no real translation exists
+    assert "hasRealEn" in js
