@@ -132,3 +132,30 @@ class TestCardV32:
         page = PAGE_EMAIL + " Information about the company follows."
         b = self._card(page, tmp_path)
         assert "تدريب مقدم من جهة العمل: غير مذكور" in b.card_text_ar
+
+    def test_full_training_detected(self, tmp_path):
+        page = ("Kitchen porter wanted. Apply by email to hr@acme-logistics.pl. "
+                "We provide full training, kitchen experience is a plus. " * 2)
+        b = self._card(page, tmp_path, title="Kitchen Porter")
+        assert "تدريب مقدم من جهة العمل: مذكور" in b.card_text_ar
+
+    def test_reasonable_accommodation_is_not_housing(self, tmp_path):
+        page = ("Warehouse operative wanted. Apply by email to hr@acme-logistics.pl. "
+                "We ensure reasonable accommodations are implemented. " * 2)
+        b = self._card(page, tmp_path, title="Warehouse Operative")
+        assert "السكن: غير مذكور" in b.card_text_ar
+
+    def test_salary_fragment_prefers_tight_money_sentence(self, tmp_path):
+        page = ("Warehouse operative wanted. Apply by email to hr@acme-logistics.pl.\n"
+                "We offer a competitive and transparent salary system for all.\n"
+                "€15.40 rising to €17.90 per hour after 3 years\n"
+                "20 days holidays per annum")
+        b = self._card(page, tmp_path, title="Warehouse Operative")
+        assert "€15.40 rising to €17.90 per hour" in b.card_text_ar
+
+    def test_salary_label_value_split_lines(self, tmp_path):
+        page = ("Kitchen porter wanted. Apply by email to hr@acme-logistics.pl.\n"
+                "Remuneration\nRemuneration basis\nFix base paid\nSalary\n"
+                "15 EUR per year (Initial rate of compensation)\nHow to apply")
+        b = self._card(page, tmp_path, title="Kitchen Porter")
+        assert "Salary 15 EUR per year" in b.card_text_ar

@@ -111,3 +111,14 @@ def test_route_email_clean_token_forms():
         r = classify_route(text)
         assert r.route is Route.EMAIL, text
         assert r.contact == expect, text
+
+
+def test_eures_application_details_field_is_webform_route():
+    from src.apply_ops.route_classifier import Route, classify_route
+    page = ("Kitchen porter wanted. How to apply Application Method: Via an external website"
+            "Application Details: https://www.sodexojobs.co.uk/jobs/kitchen-porter-2.21769 "
+            "Last application date 20/11/2026")
+    r = classify_route(page, "https://europa.eu/eures/portal/jv-se/x")
+    assert r.route is Route.WEBFORM
+    assert r.contact == "https://www.sodexojobs.co.uk/jobs/kitchen-porter-2.21769"
+    assert r.portal_precheck_required

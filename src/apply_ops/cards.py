@@ -47,8 +47,9 @@ _CHECKS = (
                         "zonder ervaring", "sans expérience", "bez wykształcenia")),
     ("قبول المتحولين مهنيا", ("quereinsteiger", "career changer", "berufswechsler",
                               "przekwalifikow", "zmiana branży", "zij-instroom")),
-    ("تدريب مقدم من جهة العمل", ("training provided", "we train", "schulung",
-                                 "szkolenie", "opleiding", "przyucz", "formation")),
+    ("تدريب مقدم من جهة العمل", ("training provided", "we train", "full training",
+                                 "training plan", "schulung", "szkolenie",
+                                 "opleiding", "przyucz", "formation")),
 )
 
 
@@ -60,32 +61,54 @@ _HOUSING_WORDS = ("hostel", "zakwaterowanie", "kwaterunek", "mieszkanie",
 
 
 def _page_salary(text: str) -> str:
-    """Verbatim salary fragment from the posting text: a window around a
-    pay word that also contains a currency or decimal amount, excluding
-    windows about housing cost. Returns '' when nothing qualifies."""
+    """Verbatim salary fragment from the posting text: the shortest
+    sentence containing BOTH a pay word and a currency/decimal amount,
+    housing-cost sentences excluded. Overlong sentences are trimmed to a
+    window around the amount, snapped at dash/newline boundaries.
+    Returns '' when nothing qualifies."""
     if not text:
         return ""
-    pay_re = re.compile("|".join(re.escape(w) for w in _PAY_WORDS), re.IGNORECASE)
+    sentences = re.split(r"\n|(?<=[A-Za-z\)])\. ", text)
     money_re = re.compile(r"(€|eur\b|zł|pln\b|\d+[,.]\d+)", re.IGNORECASE)
-    for m in pay_re.finditer(text):
-        window = text[m.start(): m.end() + 120]
-        low = window.lower()
+    pay_re = re.compile("|".join(re.escape(w) for w in _PAY_WORDS), re.IGNORECASE)
+    best = ""
+    for sent in sentences:
+        low = sent.lower()
         if any(h in low for h in _HOUSING_WORDS):
             continue
-        mm = money_re.search(low)
-        if mm:
-            window = " ".join(window.split())
-            mm = money_re.search(window)
-            end = len(window)
-            close = window.find(")", mm.end(), mm.end() + 60)
-            if close != -1:
-                end = close + 1
-            else:
-                tail = re.search(r"[.\n]|- ", window[mm.end():])
-                if tail:
-                    end = mm.end() + tail.start()
-            return window[:end].strip()
-    return ""
+        if not (pay_re.search(sent) and money_re.search(sent)):
+            continue
+        frag = " ".join(sent.split())
+        if not best or len(frag) < len(best):
+            best = frag
+    if not best:
+        # Structured pages sometimes split label and value across lines
+        # ("Salary\n15 EUR per hour") - join a bare pay label with the
+        # next line when that line carries the amount.
+        lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+        for i, ln in enumerate(lines[:-1]):
+            if re.fullmatch(r"(?i)(salary|remuneration|vergütung|gehalt|"
+                            r"wynagrodzenie|stawka|płaca)", ln):
+                nxt = lines[i + 1]
+                if (money_re.search(nxt)
+                        and not any(h in nxt.lower() for h in _HOUSING_WORDS)):
+                    best = ln + " " + " ".join(nxt.split())
+                    break
+    if not best:
+        return ""
+    if len(best) <= 160:
+        return best
+    # Trim an overlong fused sentence to a window around the amount.
+    mm = money_re.search(best)
+    start = max(0, mm.start() - 60)
+    cut = max(best.rfind("- ", 0, mm.start()), best.rfind(". ", 0, mm.start()))
+    if cut > start:
+        start = cut + 2
+    end = len(best)
+    for m in re.finditer(r"- |\. ", best[mm.end():]):
+        end = mm.end() + m.start()
+        break
+    return best[start:end].strip(" -")
 
 
 def _facts_summary(ext) -> str:
@@ -101,6 +124,7 @@ def _facts_summary(ext) -> str:
         salary = (frag + " (نص الإعلان حرفيا)") if frag else ""
     parts = ["الراتب: " + (salary if salary else "غير مذكور")]
     low = page.lower()
+    low = re.sub(r"reasonable\s+accommodations?", "", low)  # disability phrase, not housing
     for label, words in _CHECKS:
         hit = any(re.search(r"(?<![A-Za-ząćęłńóśźżäöü])" + re.escape(w), low)
                   for w in words)

@@ -80,6 +80,13 @@ def classify_route(text: str, page_url: str = "") -> "RouteResult | None":
     m = _WAME_RE.search(text)
     if m and m.group(1).isdigit() and 6 <= len(m.group(1)) <= 15:
         return RouteResult(Route.WHATSAPP, m.group(1), "wa.me link in posting (verified format)")
+    # EURES "Application Details: <url>" is a labeled employer-application
+    # field - the external form named by the posting itself.
+    m = re.search("Application Details:\\s*(https?://[^\\s\"'<>]+)", text, re.I)
+    if m:
+        return RouteResult(Route.WEBFORM, m.group(1).rstrip(".,);]"),
+                           "EURES Application Details field",
+                           portal_precheck_required=True)
     for m in _APPLY_LINK_RE.finditer(text):
         url = m.group(0).rstrip(".,);]")
         if "apply" in url.lower() or "career" in url.lower() or "vacanc" in url.lower():
