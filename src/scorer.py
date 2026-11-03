@@ -92,7 +92,16 @@ class Scorer:
             job.score = 0
             return job
 
-        roles = self.matrix.match_roles(text, job.languages or None)
+        # EURES `availableLanguages` describes the portal offer languages, not
+        # the posting text language: CY/LT postings carry languages=["en"]
+        # while their titles are Greek/Lithuanian, which excluded every
+        # fetched job ("no unskilled role keyword match"). Always union the
+        # country's configured languages so native keywords are searched too.
+        match_langs = list(job.languages or [])
+        for lang in (self.cfg.get("countries", {}).get(job.country, {}) or {}).get("languages", []):
+            if lang not in match_langs:
+                match_langs.append(lang)
+        roles = self.matrix.match_roles(text, match_langs or None)
         negative = self.matrix.match_negative(text)
         found_signals = self.matrix.match_signals(text)
         matched.extend(roles)

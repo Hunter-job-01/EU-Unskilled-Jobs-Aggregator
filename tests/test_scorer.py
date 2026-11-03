@@ -308,3 +308,37 @@ def test_needs_en_translation_gate():
     assert not needs_en_translation(_scored_job("Warehouse worker", 90))  # English source
     empty = _scored_job("Magazynier", 80); empty.title = ""
     assert not needs_en_translation(empty)                    # nothing to translate
+
+
+def test_country_languages_union_fixes_eures_available_languages_cy(cfg):
+    # EURES availableLanguages reports the portal offer language ("en"), not
+    # the posting text language. Greek ALL-CAPS CY titles were excluded with
+    # "no unskilled role keyword match" because only English keywords were
+    # searched. The scorer must union the country's configured languages.
+    job = make_job(title="ΕΡΓΑΤΗΣ ΓΕΩΡΓΟΚΤΗΝΟΤΡΟΦΙΑΣ", country="CY",
+                   languages=["en"])
+    Scorer(cfg).score(job)
+    assert not job.excluded
+    assert job.score > 0
+    assert "unskilled_role_match" in job.signals
+
+
+def test_country_languages_union_keeps_real_exclusions_cy(cfg):
+    job = make_job(title="Senior Software Engineer", company="TechCorp",
+                   country="CY", languages=["en"])
+    Scorer(cfg).score(job)
+    assert job.excluded
+
+
+def test_lithuanian_meat_production_title_matches(cfg):
+    job = make_job(title="Mėsos pusgaminių ruošėjas", country="LT",
+                   languages=["en"])
+    Scorer(cfg).score(job)
+    assert not job.excluded
+    assert job.score > 0
+
+
+def test_lithuanian_skilled_title_still_excluded(cfg):
+    job = make_job(title="Rahoitusasiantuntija", country="LT", languages=["en"])
+    Scorer(cfg).score(job)
+    assert job.excluded
