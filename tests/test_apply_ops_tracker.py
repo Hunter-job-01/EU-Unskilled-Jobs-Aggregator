@@ -127,3 +127,16 @@ def test_eligibility_unresolved_hold(tmp_path):
         assert False, "reason required"
     except TrackerError:
         pass
+    try:
+        tr2.record_decision("u1", CardDecision.EDIT)
+        assert False, "held entries reject edit"
+    except TrackerError:
+        pass
+    # Explicit user skip ("don't show again") is allowed on a held card.
+    e = tr2.record_decision("u1", CardDecision.SKIP)
+    assert e.status == "skipped"
+    try:
+        tr2.record_decision("u1", CardDecision.SKIP)
+        assert False, "skipped is terminal"
+    except TrackerError:
+        pass

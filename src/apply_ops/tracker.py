@@ -102,8 +102,10 @@ class ApplicationTracker:
         be clarified with the employer before approval is meaningful
         (right-to-work/sponsorship screening, a dead apply route). The
         question's presence alone is never a known conflict - this is
-        the unresolved lane, not not_eligible. Decisions are rejected
-        while held; EDIT-style review returns it to pending."""
+        the unresolved lane, not not_eligible. While held, only an explicit
+        SKIP is accepted (the owner may dismiss an uncertain card); approve
+        and edit stay blocked until fresh verification outside this
+        method."""
         if not reason.strip():
             raise TrackerError("eligibility_unresolved requires a reason")
         entry = self.entries.get(uid)
@@ -119,6 +121,17 @@ class ApplicationTracker:
         entry = self.entries.get(uid)
         if not entry:
             raise TrackerError("unknown uid: " + uid)
+        if entry.status == STATUS_ELIGIBILITY_UNRESOLVED:
+            # SKIP = the owner saying "don't show this again" - allowed even
+            # when eligibility is unresolved. APPROVE/EDIT stay blocked:
+            # approving a held card without new verification is the failure
+            # this status exists to prevent.
+            if decision is CardDecision.SKIP:
+                entry.status = STATUS_SKIPPED
+                return entry
+            raise TrackerError(
+                "uid {} is eligibility_unresolved: approve/edit blocked until "
+                "re-verified; only explicit skip allowed".format(uid))
         if entry.status != STATUS_PENDING:
             raise TrackerError("uid {} already {}".format(uid, entry.status))
         if decision is CardDecision.APPROVE:
