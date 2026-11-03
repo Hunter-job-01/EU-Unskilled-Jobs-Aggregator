@@ -417,6 +417,25 @@ TITLE_AR_VOCAB.update({
     "welder": "لحّام",
     "carpenter": "نجّار",
     "packing operator": "مشغل تعبئة",
+    # Batch 15 (2026-11-03). Sources: kitchen porter = TERMIUM kitchen
+    # helper/worker, rolecatcher kitchen porter; electronics technician =
+    # ar.wikipedia / arabdict; machinist = PONS en-ar; medical secretary =
+    # Saudi SSCO 3344; general operative = Randstad UK job profile.
+    "kitchen porter": "مساعد مطبخ (غسل الأواني والتنظيف)",
+    "kitchen assistant": "مساعد مطبخ",
+    "general operative": "عامل عام",
+    "warehouse operative": "عامل مستودع",
+    "warehouse team leader": "قائد فريق مستودع",
+    "team leader": "قائد فريق",
+    "packaging specialist": "أخصائي تعبئة وتغليف",
+    "packaging operator": "مشغل تعبئة وتغليف",
+    "food packaging worker": "عامل تعبئة وتغليف أغذية",
+    "electronics technician": "فني إلكترونيات",
+    "metalworker": "عامل معادن",
+    "machinist": "مشغل ماكينات",
+    "medical secretary": "سكرتير طبي",
+    "analytical chemist": "كيميائي تحليلي",
+    "service employee": "موظف خدمة",
     "full-time": "دوام كامل",
     "part-time": "دوام جزئي",
     "night shift": "وردية ليلية",

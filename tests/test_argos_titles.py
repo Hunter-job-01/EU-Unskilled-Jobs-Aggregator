@@ -281,3 +281,12 @@ def test_delivery_person_is_not_rendered_as_driver():
     out = arabic_for_english_title("Delivery person (m/f/d) 6522 Prutz")
     assert "عامل توصيل" in out and "سائق" not in out
     assert "سائق توصيل" in arabic_for_english_title("Delivery driver (m/f/d)")
+
+
+def test_batch15_reviewed_terms_render_expected_arabic():
+    from src.argos_titles import arabic_for_english_title
+    assert arabic_for_english_title("Kitchen Porter") == "مساعد مطبخ (غسل الأواني والتنظيف)"
+    assert arabic_for_english_title("Warehouse team leader") == "قائد فريق مستودع"
+    # skilled trade term must stay explicitly partial when words are uncovered
+    out = arabic_for_english_title("Fitter / Metalworker (m/f/d) from 18.50 EUR")
+    assert "عامل معادن" in out and "ترجمة جزئية" in out
