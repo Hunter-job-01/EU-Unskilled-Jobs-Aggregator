@@ -108,14 +108,6 @@
     return node;
   }
 
-  function flagEmoji(iso) {
-    if (!/^[A-Z]{2}$/.test(iso || '')) return '';
-    var base = 0x1F1E6;
-    return String.fromCodePoint(
-      base + iso.charCodeAt(0) - 65,
-      base + iso.charCodeAt(1) - 65
-    );
-  }
 
   function sourceLabel(source) {
     return SOURCE_LABELS[source] || source || 'Unknown';
@@ -273,7 +265,7 @@
 
       var chip = el('span', 'country-health');
       chip.appendChild(el('span', 'dot dot-' + health));
-      chip.appendChild(el('span', null, flagEmoji(code) + ' ' + code));
+      chip.appendChild(el('span', null, code));
       chip.appendChild(el('span', 'health-fetched', String(fetched)));
 
       var detail = Object.keys(sources).map(function (src) {
@@ -322,9 +314,8 @@
 
     var top = el('div', 'job-top');
     var code = (job.country || '').toUpperCase();
-    var flag = flagEmoji(code);
     top.appendChild(el('span', 'badge badge-country',
-      (flag ? flag + ' ' : '') + (code || '??') + ' - ' + countryName(code)));
+      (code || '??') + ' - ' + countryName(code)));
     var tier = countryTier(code);
     top.appendChild(el('span', 'badge badge-tier',
       tier ? 'Tier ' + tier : 'Tier unknown'));
