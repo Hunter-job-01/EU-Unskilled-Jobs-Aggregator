@@ -140,15 +140,31 @@ def test_uncovered_words_make_gloss_explicitly_partial():
 
 def test_vocab_arabic_marks_partial_in_pipeline():
     from src.argos_titles import translate_title_argos, _PARTIAL_MARK
-    _fake_argos({("warehouse worker / Kompletar objednavek - full-time, Brno",
+    _fake_argos({("warehouse worker / order picker - full-time, Brno",
                   "cs", "en"):
                  "Warehouse Worker / Order Picker - Full-time, Brno"})
     en, ar = translate_title_argos(
         'Skladnik / Kompletar objednavek - HPP, Brno', 'cs')
-    assert _PARTIAL_MARK in ar
+    assert 'عامل مستودع' in ar and 'عامل تجميع الطلبات' in ar
+    assert 'دوام كامل' in ar
+    assert _PARTIAL_MARK in ar  # Brno uncovered -> partial
 
 
 def test_hpp_qualifier_gets_full_time_arabic():
     from src.argos_titles import arabic_gloss
     gloss, full = arabic_gloss('Warehouse Worker - Full-time')
     assert 'دوام كامل' in gloss
+
+
+def test_ambiguous_terms_never_render_full():
+    from src.argos_titles import arabic_gloss
+    gloss, full = arabic_gloss('Terminal Worker')
+    assert not full and 'عامل محطة فرز' in gloss
+    gloss, full = arabic_gloss('Operator')
+    assert not full
+
+
+def test_kompletar_objednavek_is_order_picker():
+    from src.argos_titles import prepass_title
+    assert 'order picker' in prepass_title(
+        'Skladnik / Kompletar objednavek - HPP', 'cs')

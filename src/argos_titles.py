@@ -49,6 +49,8 @@ TITLE_PREPASS = {
         ("skladnik", "warehouse worker"),
         ("vyrobni pracovnik", "production worker"),
         ("operator vyroby", "production operator"),
+        ("kompletar objednavek", "order picker"),
+        ("kompletar", "order picker"),
         ("kompletace", "order picking"),
         ("manipulacni", "warehouse handler"),
         ("obsluha", "operator"),
@@ -276,6 +278,12 @@ TITLE_AR_VOCAB.update({
 })
 _PARTIAL_MARK = " (ترجمة جزئية للمسمى - راجع العنوان الأصلي)"
 
+# Context-sensitive roles: their Arabic is one possible reading, so a
+# gloss containing any of them is NEVER declared full on word coverage
+# alone. Only independent context could upgrade them; absent that, they
+# stay explicitly partial.
+_AMBIGUOUS_AR = frozenset({"عامل محطة فرز", "مشغل", "عامل مناولة بضائع"})
+
 
 def arabic_gloss(title_en: str):
     """Reviewed Arabic for a translated English title.
@@ -307,6 +315,8 @@ def arabic_gloss(title_en: str):
         return any(s <= pos and pos + len(word) <= e for s, e, _ in hits)
     full = all(covered(pos, w) or _IGNORABLE.match(w)
                for pos, w in words) if words else False
+    if full and any(a in _AMBIGUOUS_AR for _, _, a in hits):
+        full = False
     return gloss, full
 
 
