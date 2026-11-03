@@ -8,9 +8,20 @@ jobs:
   cancel:
     runs-on: ubuntu-latest
     steps:
-      - name: Cancel deployment 7522865785 (stuck in-progress for 04328cc)
+      - name: Diagnose and unstick deployment 7522865785
         run: |
-          curl -fL -X POST \
-            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/pages/deployments/7522865785/cancel"
+          H_AUTH="Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}"
+          H_ACC="Accept: application/vnd.github+json"
+          R="${{ github.repository }}"
+          echo "--- GET deployment"
+          curl -s -o /tmp/d.json -w "%{http_code}\n" -H "$H_AUTH" -H "$H_ACC" "https://api.github.com/repos/$R/deployments/7522865785"
+          cat /tmp/d.json | head -c 400; echo
+          echo "--- POST status inactive"
+          curl -s -o /tmp/s.json -w "%{http_code}\n" -X POST -H "$H_AUTH" -H "$H_ACC" \
+            -d '{"state":"inactive","description":"unstick: locking pages deploys since 04328cc"}' \
+            "https://api.github.com/repos/$R/deployments/7522865785/statuses"
+          cat /tmp/s.json | head -c 300; echo
+          echo "--- POST pages cancel"
+          curl -s -o /tmp/c.json -w "%{http_code}\n" -X POST -H "$H_AUTH" -H "$H_ACC" \
+            "https://api.github.com/repos/$R/pages/deployments/7522865785/cancel"
+          cat /tmp/c.json | head -c 300; echo
