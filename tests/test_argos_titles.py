@@ -272,3 +272,12 @@ def test_main_gates_unattended_model_writes():
     assert 'publish_model_ar' in todo_line
     en_gate = next(l for l in src.splitlines() if 'if mt_enabled and' in l)
     assert 'publish_model_en' in en_gate
+
+
+def test_delivery_person_is_not_rendered_as_driver():
+    """German Zusteller titles do not state a driving role: 'delivery
+    person' must map to a non-driver reviewed Arabic term."""
+    from src.argos_titles import arabic_for_english_title
+    out = arabic_for_english_title("Delivery person (m/f/d) 6522 Prutz")
+    assert "عامل توصيل" in out and "سائق" not in out
+    assert "سائق توصيل" in arabic_for_english_title("Delivery driver (m/f/d)")

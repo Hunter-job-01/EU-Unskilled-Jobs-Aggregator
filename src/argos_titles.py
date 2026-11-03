@@ -408,6 +408,15 @@ _IGNORABLE = __import__("re").compile(
 # material qualifiers, so they have their own reviewed Arabic and count
 # toward coverage instead of silently disappearing.
 TITLE_AR_VOCAB.update({
+    # Added 2026-11-03 (batch 13, reviewed manual Arabic). "delivery
+    # person" is deliberately NOT "driver": German Zusteller titles do not
+    # state a driving role.
+    "delivery person": "عامل توصيل",
+    "kitchen employee": "عامل مطبخ",
+    "warehouse employee": "عامل مستودع",
+    "welder": "لحّام",
+    "carpenter": "نجّار",
+    "packing operator": "مشغل تعبئة",
     "full-time": "دوام كامل",
     "part-time": "دوام جزئي",
     "night shift": "وردية ليلية",
