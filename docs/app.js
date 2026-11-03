@@ -309,6 +309,20 @@
     return 'score-low';
   }
 
+  // Mirror of src/scorer.py looks_english (ASCII + English role hint word,
+  // no known foreign role tokens). Keep the two in sync.
+  var EN_HINTS = ['warehouse', 'worker', 'operator', 'picker', 'packer', 'production',
+    'factory', 'cleaner', 'sorter', 'loader', 'helper', 'the', 'and', 'for', 'with',
+    'required', 'job', 'staff', 'kitchen', 'porter', 'employee', 'operative',
+    'assistant', 'driver', 'delivery', 'logistics', 'packaging', 'technician'];
+  var NON_EN_RX = /maszyn|produkcji|pracownik|magazynier|pakowacz|okleiniark|drukark|wtryskark|operatork|operator\/ka|ansvarlig|fakturering|lagermedarbejder|magazijnmedewerker|siivooja|medewerker|mitarbeiter|lagerhelfer/i;
+  function looksEnglishTitle(t) {
+    t = String(t || '').replace(/[\u2013\u2014]/g, '-');
+    if (!t || /[^\x00-\x7f]/.test(t) || NON_EN_RX.test(t)) return false;
+    var words = String(t).toLowerCase().match(/[a-z]+/g) || [];
+    return words.some(function (w) { return EN_HINTS.indexOf(w) >= 0; });
+  }
+
   function renderCard(job) {
     var card = el('article', 'job-card');
 
@@ -333,7 +347,9 @@
       titles.appendChild(el('p', 'job-title-orig', job.title));
     } else {
       titles.appendChild(el('h3', 'job-title-orig', job.title || '(untitled posting)'));
-      if (job.title_en === job.title && job.title) {
+      // title_en === title is a legacy failure-copy only when the title is
+      // NOT English; an English source title legitimately passes through.
+      if (job.title_en === job.title && job.title && !looksEnglishTitle(job.title)) {
         titles.appendChild(el('p', 'job-title-pending', 'Translation pending'));
       }
     }

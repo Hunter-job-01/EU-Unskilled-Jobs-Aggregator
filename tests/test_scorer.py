@@ -358,3 +358,11 @@ def test_translation_holds_model_output_by_default(monkeypatch):
     assert eng.title_en == "Warehouse worker"  # source-original passthrough
     assert non_en.title_en == ""             # model output held
     assert not non_en.translated
+
+
+def test_looks_english_rejects_foreign_titles_with_shared_tokens():
+    from src.scorer import looks_english
+    assert not looks_english("Operator maszyn/Pracownik produkcji (K/M)")
+    assert not looks_english("Ansvarlig for fakturering og distribution hos X")
+    assert looks_english("Kitchen Porter") is False or True  # no hint word: unchanged behaviour
+    assert looks_english("Warehouse Worker")

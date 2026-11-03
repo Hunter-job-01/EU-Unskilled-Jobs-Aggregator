@@ -191,18 +191,31 @@ class Scorer:
 _EN_HINTS = {
     "warehouse", "worker", "operator", "picker", "packer", "production",
     "factory", "cleaner", "sorter", "loader", "helper", "the", "and",
-    "for", "with", "required", "job", "staff",
+    "for", "with", "required", "job", "staff", "kitchen", "porter",
+    "employee", "operative", "assistant", "driver", "delivery",
+    "logistics", "packaging", "technician",
 }
+
+
+_NON_EN_RX = re.compile(
+    r"maszyn|produkcji|pracownik|magazynier|pakowacz|okleiniark|drukark|"
+    r"wtryskark|operatork|operator/ka|ansvarlig|fakturering|lagermedarbejder|"
+    r"magazijnmedewerker|siivooja|medewerker|mitarbeiter|lagerhelfer",
+    re.I)
 
 
 def looks_english(title: str) -> bool:
     if not title:
         return True
     try:
-        title.encode("ascii")
+        title.replace("\u2013", "-").replace("\u2014", "-").encode("ascii")
     except UnicodeEncodeError:
         return False
     words = set(re.findall(r"[a-z]+", title.lower()))
+    # Polish/Danish/Dutch/Finnish role words next to a shared token such as
+    # "operator" made foreign titles pass as English (2026-11-03 audit).
+    if _NON_EN_RX.search(title):
+        return False
     return bool(words & _EN_HINTS)
 
 

@@ -436,6 +436,7 @@ TITLE_AR_VOCAB.update({
     "medical secretary": "سكرتير طبي",
     "analytical chemist": "كيميائي تحليلي",
     "service employee": "موظف خدمة",
+    "forklift driver": "مشغل رافعة شوكية",
     "full-time": "دوام كامل",
     "part-time": "دوام جزئي",
     "night shift": "وردية ليلية",
@@ -448,6 +449,10 @@ _PARTIAL_MARK = " (ترجمة جزئية للمسمى - راجع العنوان 
 # stay explicitly partial.
 _AMBIGUOUS_AR = frozenset({"عامل محطة فرز", "مشغل", "عامل مناولة بضائع"})
 
+
+_FORM_ONLY_AR = frozenset({
+    "سكن", "دوام كامل", "دوام جزئي", "وردية ليلية",
+    "متحول مهني (بدون خبرة سابقة)"})
 
 _ROLE_QUALIFIERS = frozenset({
     "junior", "senior", "experienced", "trainee", "apprentice", "intern",
@@ -483,6 +488,10 @@ def arabic_gloss(title_en: str):
              __import__("re").finditer(r"[a-z]+", folded)]
     def covered(pos, word):
         return any(s <= pos and pos + len(word) <= e for s, e, _ in hits)
+    # A gloss made only of employment-form terms (part-time, accommodation,
+    # shift...) names no role at all: never publish it as a title.
+    if all(a in _FORM_ONLY_AR for _, _, a in hits):
+        return "", False
     full = all(covered(pos, w) or _IGNORABLE.match(w)
                for pos, w in words) if words else False
     # Role-level qualifiers (seniority, age limit, trade split, product

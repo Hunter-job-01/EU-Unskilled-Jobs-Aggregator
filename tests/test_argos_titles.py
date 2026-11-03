@@ -237,9 +237,9 @@ def test_scheduled_layer_holds_free_model_output(monkeypatch):
     calls = {
         'Magazynier': ('Warehouse worker', 'عامل مستودع'),      # free-model output
         # scorer.looks_english misses this genuine-English title (its
-        # hint set lacks 'kitchen'/'porter'); the evidence check lets
+        # hint set lacks 'cashier'); the evidence check lets
         # the layer copy the source through.
-        'Kitchen Porter': ('Kitchen Porter', 'عامل مطبخ'),
+        'Cashier': ('Cashier', 'أمين صندوق'),
     }
     monkeypatch.setattr(at, 'translate_title_argos',
                         lambda title, lang: calls[title])
@@ -247,7 +247,7 @@ def test_scheduled_layer_holds_free_model_output(monkeypatch):
         SimpleNamespace(title='Magazynier', title_en='', title_ar='',
                         score=70, excluded=False, country='PL',
                         source_language='pl', translated=False),
-        SimpleNamespace(title='Kitchen Porter', title_en='', title_ar='',
+        SimpleNamespace(title='Cashier', title_en='', title_ar='',
                         score=80, excluded=False, country='IE',
                         source_language='en', translated=False),
     ]
@@ -256,8 +256,8 @@ def test_scheduled_layer_holds_free_model_output(monkeypatch):
     assert jobs[0].title_en == '' and jobs[0].title_ar == ''
     assert not jobs[0].translated
     # Source-original English passthrough + reviewed-vocab gloss publish.
-    assert jobs[1].title_en == 'Kitchen Porter'
-    assert jobs[1].title_ar == 'عامل مطبخ'
+    assert jobs[1].title_en == 'Cashier'
+    assert jobs[1].title_ar == 'أمين صندوق'
     assert (en_done, ar_done) == (1, 1)
 
 
@@ -304,3 +304,10 @@ def test_machinist_gloss_is_metal_machining_not_generic_operator():
     from src.argos_titles import arabic_for_english_title
     out = arabic_for_english_title("Cutting machine mechanic / machinist (Zerspanungsmechaniker)")
     assert "فني تشغيل معادن" in out and "مشغل ماكينات" not in out
+
+
+def test_forms_only_and_forklift_gloss():
+    from src.argos_titles import arabic_for_english_title
+    assert arabic_for_english_title("Part-time pre-sorting worker (w/m/d)") == ""
+    assert arabic_for_english_title("Part-time local logistics specialist") == ""
+    assert "رافعة شوكية" in arabic_for_english_title("Forklift driver m/f/d - Tempelhof")
