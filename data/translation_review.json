@@ -7,7 +7,12 @@
   "job i madrid - er du vores næste vært eller værtinde? - 1.500 eur i opstartsbonus.",
   "operátor/ka výroby | až 33 500 kč | ubytko zajištěno | nástup ihned",
   "addetto/a al confezionamento per rete di negozi",
-  "chauffør til hjælpemiddeldepotet"
+  "chauffør til hjælpemiddeldepotet",
+  "vsetín | práce ve výrobě | stabilní mzda | ubytování zdarma",
+  "praca w magazynie znanej dogerii",
+  "árukiadó/komissiózó - megváltozott munkaképességűeknek",
+  "operatore/trice di magazzino per commercio all'ingrosso",
+  "job på malta - har du selvtillid og lækkert hår? vi betaler for fly og de første 3 uger på hotel."
  ],
  "reasons": {
   "elektroniker": "model output garbled parenthetical ('Electronicia'); reviewed 2026-11-03",
@@ -17,6 +22,11 @@
   "job i madrid - er du vores næste vært eller værtinde? - 1.500 eur i opstartsbonus.": "Google no-op garble: appended stray \"uel\" suffix; held honest-empty pending review (2026-11-03)",
   "operátor/ka výroby | až 33 500 kč | ubytko zajištěno | nástup ihned": "Argos garble (batch 2026-11-03): runaway \"CZK 124;\" repetition garble",
   "addetto/a al confezionamento per rete di negozi": "Argos garble (batch 2026-11-03): role noun mistranslated (adapter for clerk)",
-  "chauffør til hjælpemiddeldepotet": "Argos garble (batch 2026-11-03): qualifier mistranslated (assistive-equipment depot -> Relief Depot)"
+  "chauffør til hjælpemiddeldepotet": "Argos garble (batch 2026-11-03): qualifier mistranslated (assistive-equipment depot -> Relief Depot)",
+  "vsetín | práce ve výrobě | stabilní mzda | ubytování zdarma": "Argos output unfaithful (2026-11-03 audit): runaway \"ih124;\" repetition (peer-flagged)",
+  "praca w magazynie znanej dogerii": "Argos output unfaithful (2026-11-03 audit): source typo drogerii->doggery nonsense (peer-flagged)",
+  "árukiadó/komissiózó - megváltozott munkaképességűeknek": "Argos output unfaithful (2026-11-03 audit): non-word \"Comissizer\" + Exporter role drift (peer-flagged)",
+  "operatore/trice di magazzino per commercio all'ingrosso": "Argos output unfaithful (2026-11-03 audit): spurious \"/machine\" artifact",
+  "job på malta - har du selvtillid og lækkert hår? vi betaler for fly og de første 3 uger på hotel.": "Argos output unfaithful (2026-11-03 audit): Danish ad in MT feed: country-map MT->en passthrough of untranslated source"
  }
 }
