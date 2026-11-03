@@ -45,6 +45,14 @@ def _detect_language(text: str) -> str:
     try:
         from langdetect import DetectorFactory, detect
         DetectorFactory.seed = 0  # deterministic; langdetect is unseeded by default
+        # Portal chrome (menus, cookie bars) is often English and can fill
+        # the head of the page; detect on the longest substantial block -
+        # the job body - before falling back to the raw head.
+        blocks = sorted(
+            (b.strip() for b in text.split("\n") if len(b.strip()) >= 200),
+            key=len, reverse=True)
+        if blocks:
+            return detect(blocks[0][:4000]) or ""
         return detect(text[:2000]) or ""
     except Exception:
         return ""

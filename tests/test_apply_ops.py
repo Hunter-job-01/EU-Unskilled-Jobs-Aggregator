@@ -2,6 +2,7 @@
 tailoring, and the HITL approval-card state machine."""
 import time
 
+from src.apply_ops.extractor import _detect_language
 from src.apply_ops import (
     ApprovalCard, CardStore, Route, classify_route, select_cv_variant,
     tailor_message, CVVariant,
@@ -217,3 +218,17 @@ def test_tailor_local_language_owed_note():
     m2 = _tailor(local_language="pl", body_draft_local="Szanowni Państwo...")
     assert m2.body_draft_local.startswith("Szanowni")
     assert "لم تُجهّز" not in m2.card_text_ar
+
+
+def test_cv_variant_german_production_stems():
+    assert select_cv_variant("Maschinenbediener m/w/d").variant is CVVariant.FACTORY_PRODUCTION
+    assert select_cv_variant("Produktionsmitarbeiter (m/w/d)").variant is CVVariant.FACTORY_PRODUCTION
+    assert select_cv_variant("Kommissionierer (m/w/d)").variant is CVVariant.WAREHOUSE_LOGISTICS
+
+
+def test_detect_language_skips_portal_chrome():
+    chrome = ("Go to main content An official website of the European Union "
+              "Search Home Jobseekers Employers Contact Accept all cookies ") * 6
+    body = ("Wir suchen ab sofort motivierte Maschinenbediener in der Kunststoffindustrie. "
+            "Sie bedienen die Maschinen und achten auf die Qualität der Produkte. ") * 5
+    assert _detect_language(chrome + "\n" + body) == "de"

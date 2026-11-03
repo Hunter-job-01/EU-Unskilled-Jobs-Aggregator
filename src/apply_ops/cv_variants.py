@@ -36,7 +36,8 @@ _STEMS = [
     ]),
     (CVVariant.FACTORY_PRODUCTION, [
         "production", "factory", "assembly", "manufactur", "food process",
-        "produkc", "vyrob", "gamyb", "montaz", "produktions",
+        "produkc", "vyrob", "gamyb", "montaz", "produkt", "maschinen",
+        "anlagenfuhr", "fertigung", "machine operator",
     ]),
     (CVVariant.HOSPITALITY_GENERAL, [
         "kitchen", "dishwash", "housekeep", "clean", "hotel", "hospitality",
