@@ -45,7 +45,8 @@ def test_summary_ar_deterministic_and_qualified():
     out = compose_summary_ar(job)
     assert "Warehouse helper" not in out  # title is never repackaged as tasks
     assert "المهام الأساسية" not in out
-    assert "يذكر الإعلان: سكن" in out  # mention-level, never "housing provided"
+    assert "سكن" in out  # mention-level, never "housing provided"
+    assert "المزايا المذكورة في نص الإعلان: سكن" in out  # single prefix, no duplicated boilerplate
     assert "سكن متوفر" not in out
     assert "وكالة توظيف" in out
     assert "14 EUR/h" in out

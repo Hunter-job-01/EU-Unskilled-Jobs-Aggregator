@@ -18,12 +18,12 @@ import re
 from .glossary import gloss_lines
 
 _AR_MENTION = {
-    "no_exp_or_training_mention": "يذكر الإعلان: لا خبرة مطلوبة / تدريب",
-    "housing_keyword_mention": "يذكر الإعلان: سكن",
-    "permit_keyword_mention": "يذكر الإعلان: تصريح عمل",
-    "language_flex_keyword_mention": "يذكر الإعلان: مرونة في اللغة",
+    "no_exp_or_training_mention": "لا خبرة مطلوبة / تدريب",
+    "housing_keyword_mention": "سكن",
+    "permit_keyword_mention": "تصريح عمل",
+    "language_flex_keyword_mention": "مرونة في اللغة",
     "employment_agency_source": "المصدر وكالة توظيف (حقيقة عن المصدر)",
-    "agency_relocation_text_mention": "يذكر الإعلان: وكالة/إعادة توطين",
+    "agency_relocation_text_mention": "وكالة/إعادة توطين",
 }
 _VERIFY_NOTE = "مذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل."
 

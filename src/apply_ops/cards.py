@@ -24,8 +24,7 @@ from .route_classifier import Route
 from .tracker import ApplicationTracker, TrackerEntry
 from ..role_labels import arabic_role_label
 
-# Candidate facts supplied by the owner through their authenticated chat
-# (v5 CV draft review rounds). The templates
+# Candidate background lines for the letter templates. The templates
 # may assert ONLY these; target-role variants never become experience.
 BACKGROUND_LINE_EN = ("My background includes four years in mobile phone sales "
                       "(2020-2024), warehouse work, and my current work in a "
