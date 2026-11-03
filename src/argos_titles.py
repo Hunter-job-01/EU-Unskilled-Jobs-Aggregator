@@ -419,7 +419,7 @@ TITLE_AR_VOCAB.update({
     "packing operator": "مشغل تعبئة",
     # Batch 15 (2026-11-03). Sources: kitchen porter = TERMIUM kitchen
     # helper/worker, rolecatcher kitchen porter; electronics technician =
-    # ar.wikipedia / arabdict; machinist = PONS en-ar; medical secretary =
+    # Saudi SSCO 3114 (فنيو إلكترونيات) / ar.wikipedia; machinist = lak24 ar (turning/milling/CNC metal parts) and wazfni.com ar machinists page (فني تشغيل معادن), not PONS generic مشغل الماكنة; medical secretary =
     # Saudi SSCO 3344; general operative = Randstad UK job profile.
     "kitchen porter": "مساعد مطبخ (غسل الأواني والتنظيف)",
     "kitchen assistant": "مساعد مطبخ",
@@ -432,7 +432,7 @@ TITLE_AR_VOCAB.update({
     "food packaging worker": "عامل تعبئة وتغليف أغذية",
     "electronics technician": "فني إلكترونيات",
     "metalworker": "عامل معادن",
-    "machinist": "مشغل ماكينات",
+    "machinist": "فني تشغيل معادن بالآلات",
     "medical secretary": "سكرتير طبي",
     "analytical chemist": "كيميائي تحليلي",
     "service employee": "موظف خدمة",

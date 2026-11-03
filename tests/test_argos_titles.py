@@ -290,3 +290,9 @@ def test_batch15_reviewed_terms_render_expected_arabic():
     # skilled trade term must stay explicitly partial when words are uncovered
     out = arabic_for_english_title("Fitter / Metalworker (m/f/d) from 18.50 EUR")
     assert "عامل معادن" in out and "ترجمة جزئية" in out
+
+
+def test_machinist_gloss_is_metal_machining_not_generic_operator():
+    from src.argos_titles import arabic_for_english_title
+    out = arabic_for_english_title("Cutting machine mechanic / machinist (Zerspanungsmechaniker)")
+    assert "فني تشغيل معادن" in out and "مشغل ماكينات" not in out
