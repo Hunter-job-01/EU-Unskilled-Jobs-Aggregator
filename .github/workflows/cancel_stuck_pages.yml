@@ -1,0 +1,16 @@
+name: Cancel stuck Pages deployment
+on:
+  workflow_dispatch:
+permissions:
+  pages: write
+  deployments: write
+jobs:
+  cancel:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel deployment 7522865785 (stuck in-progress for 04328cc)
+        run: |
+          curl -fL -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/deployments/7522865785/cancel"
