@@ -30,7 +30,7 @@ def test_full_card_built_with_local_letter_and_tracker(tmp_path):
                                contact_line="mustafa@example.com")
     assert b and b.method == "direct_email" and b.contact == "hr@acme-logistics.pl"
     assert b.card.recipient == "hr@acme-logistics.pl"
-    assert "Szanowni Państwu" in b.card.draft_body  # PL letter leads the body
+    assert "Szanowni Państwo," in b.card.draft_body  # PL letter leads the body
     assert "Dear" in b.card.draft_body  # EN body follows
     assert "لم تُجهّز" not in b.card_text_ar  # local letter not owed
     assert tracker.get("u1").status == "pending_approval"

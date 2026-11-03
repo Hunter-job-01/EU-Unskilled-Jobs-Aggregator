@@ -73,6 +73,8 @@ def _tailor(**kw):
         country="NL", route=Route.EMAIL, source_ref="jobs@example.com",
         cv_variant=CVVariant.WAREHOUSE_LOGISTICS, candidate_name="M S",
         contact_line="m@example.com",
+        background_line="My background includes four years in mobile phone sales (2020-2024), warehouse work, and my current work in a computer shop (since September 2025).",
+        auth_question_line="I am based in Egypt and would require legal work authorization. Could you let me know whether you can consider or support a candidate from outside the EU?",
     )
     args.update(kw)
     return tailor_message(**args)
@@ -81,12 +83,18 @@ def _tailor(**kw):
 def test_tailor_bilingual_and_no_unstated_claims():
     m = _tailor()
     assert "Warehouse employee" in m.subject
-    assert "warehouse, order picking, packing and logistics" in m.body_draft
+    # verified background only; target-variant duties never become experience
+    assert "four years in mobile phone sales" in m.body_draft
+    assert "logistics work" not in m.body_draft
+    assert "assembly" not in m.body_draft
+    # honest Egypt-resident work-authorization question, no immediate start
+    assert "would require legal work authorization" in m.body_draft
+    assert "outside the EU" in m.body_draft
+    low = m.body_draft.lower()
+    assert "immediately" not in low and "sponsor" not in low
+    assert "available to relocate" not in low
     assert "بطاقة تقديم" in m.card_text_ar
     assert "1" in m.card_text_ar and "2" in m.card_text_ar and "3" in m.card_text_ar
-    # no permit/sponsorship assertions in the draft
-    low = m.body_draft.lower()
-    assert "permit" not in low and "sponsor" not in low
     assert m.claims_used == []
 
 
@@ -208,6 +216,20 @@ def test_send_ledger_idempotent():
     # a changed recipient is a different send entirely
     key2 = idempotency_key("u1", "other@firma.pl", "owner@gmail.com", "mh", "cvh")
     assert key2 != key and not ledger.already_sent(key2)
+
+
+def test_local_letters_no_immediate_start_and_pl_salutation():
+    from src.apply_ops.message_tailor import draft_local_letter
+    for lang in ("pl", "de", "nl"):
+        letter = draft_local_letter(lang, role="R", source_ref="S",
+                                    candidate_name="M", contact_line="c")
+        low = letter.lower()
+        assert "sofort" not in low and "od zaraz" not in low and "direct beschikbaar" not in low
+    pl = draft_local_letter("pl", role="R", source_ref="S", candidate_name="M", contact_line="c")
+    assert pl.startswith("Szanowni Państwo,")
+    assert "Szanowni Państwu" not in pl
+    de = draft_local_letter("de", role="R", source_ref="S", candidate_name="M", contact_line="c")
+    assert "Arbeitserlaubnis" in de
 
 
 def test_tailor_local_language_owed_note():

@@ -21,6 +21,32 @@ from .hitl import ApprovalCard, CardStore
 from .message_tailor import draft_local_letter, tailor_message
 from .route_classifier import Route
 from .tracker import ApplicationTracker, TrackerEntry
+from ..role_labels import arabic_role_label
+
+# Verified candidate facts (v5 CV draft, owner-reviewed). The templates
+# may assert ONLY these; target-role variants never become experience.
+BACKGROUND_LINE_EN = ("My background includes four years in mobile phone sales "
+                      "(2020-2024), warehouse work, and my current work in a "
+                      "computer shop (since September 2025).")
+AUTH_QUESTION_EN = ("I am based in Egypt and would require legal work "
+                    "authorization. Could you let me know whether you can "
+                    "consider or support a candidate from outside the EU?")
+BACKGROUND_LINE_AR = ("خبرتي تشمل أربع سنوات في مبيعات الهواتف المحمولة "
+                      "(2020-2024)، وعملاً في المخازن، وعملي الحالي في محل "
+                      "كمبيوتر (منذ سبتمبر 2025).")
+AUTH_QUESTION_AR = ("أنا مقيم في مصر وأحتاج إلى تصريح عمل قانوني. هل يمكنكم "
+                    "النظر في مرشح من خارج الاتحاد الأوروبي أو دعمه؟")
+
+def _facts_summary(ext) -> str:
+    """Literal facts only, from the extractor's evidence-backed offer
+    points. Missing = 'غير مذكور'. Never claims a benefit that is absent."""
+    points = getattr(ext, "key_offer_points", {}) or {}
+    salary = points.get("salary", "")
+    parts = ["الراتب: " + (salary if salary else "غير مذكور")]
+    for key, label in (("housing", "السكن"), ("work_permit", "دعم تصريح العمل"),
+                       ("training_or_no_experience", "التدريب/بدون خبرة")):
+        parts.append(f"{label}: {'مذكور في الإعلان - يُتحقق مباشرة' if key in points else 'غير مذكور'}")
+    return " | ".join(parts)
 
 _AGGREGATOR_HOSTS = ("europa.eu", "indeed.", "linkedin.", "glassdoor.",
                      "jooble.", "pracuj.", "stepstone.", "monster.")
@@ -52,6 +78,7 @@ def build_application_card(job, *, fetch, search, card_store: CardStore,
                            tracker: ApplicationTracker, source_ref: str,
                            candidate_name: str, contact_line: str,
                            sending_account: str = "",
+                           cv_hash: str = "",
                            eligibility_note: str = "") -> "BuiltCard | None":
     ext = extract_application_details(job, fetch)
     if not ext.eligible:
@@ -83,12 +110,22 @@ def build_application_card(job, *, fetch, search, card_store: CardStore,
     local_letter = draft_local_letter(
         local_lang, role=getattr(job, "title", ""), source_ref=source_ref,
         candidate_name=candidate_name, contact_line=contact_line) if local_lang else ""
+    title_ar_label = arabic_role_label({
+        "title": getattr(job, "title_ar", "") or getattr(job, "title", ""),
+        "title_ar": getattr(job, "title_ar", "") or "",
+        "title_en": getattr(job, "title_en", "") or "",
+    })
     kwargs = dict(
         card_id=getattr(job, "uid", "") or getattr(job, "url", ""),
         title=getattr(job, "title", ""), company=getattr(job, "company", ""),
         country=getattr(job, "country", ""), route=route, source_ref=source_ref,
         cv_variant=match.variant, candidate_name=candidate_name,
         contact_line=contact_line,
+        background_line=BACKGROUND_LINE_EN, auth_question_line=AUTH_QUESTION_EN,
+        background_line_ar=BACKGROUND_LINE_AR, auth_question_line_ar=AUTH_QUESTION_AR,
+        title_ar_label=title_ar_label, score=int(getattr(job, "score", 0) or 0),
+        facts_summary=_facts_summary(ext),
+        recipient=contact, sending_account=sending_account, cv_hash=cv_hash,
         body_draft_local=local_letter, local_language=local_lang,
     )
     if eligibility_note:

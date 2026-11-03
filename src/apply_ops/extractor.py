@@ -39,6 +39,7 @@ class Extraction:
     employer_language: str = ""
     key_offer_points: dict = field(default_factory=dict)
     evidence: str = ""
+    page_text: str = ""  # the fetched posting text (for fact extraction)
 
 
 def _detect_language(text: str) -> str:
@@ -89,6 +90,7 @@ def extract_application_details(job, fetch: FetchFn) -> Extraction:
         return Extraction(reason="page text empty or too short to trust")
     result = Extraction(eligible=True,
                         employer_language=_detect_language(text),
+                        page_text=text,
                         key_offer_points=_offer_points(job))
     route = classify_route(text, url)
     if not route:
