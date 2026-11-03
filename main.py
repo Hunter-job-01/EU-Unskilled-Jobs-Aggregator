@@ -261,6 +261,21 @@ def main(argv=None) -> int:
                 ar_done += 1
     added, updated = store.merge(scored_jobs)
     pruned = store.prune()
+    # Honest per-source yield: "kept" in source_health is counted BEFORE
+    # merge/prune. A posting whose posted_date is older than the retention
+    # window is merged and then pruned in the same run, so it never reaches
+    # the dashboard. Record both numbers separately (retention unchanged).
+    _live = getattr(store, "_store", None) or {}
+    _kept_uids, _retained_uids = {}, {}
+    for _j in scored_jobs:
+        _kept_uids[_j.uid] = _j.source
+        if _j.uid in _live:
+            _retained_uids[_j.uid] = _j.source
+    source_retention = {"kept_pre_prune": {}, "retained_post_prune": {}}
+    for _src in _kept_uids.values():
+        source_retention["kept_pre_prune"][_src] = source_retention["kept_pre_prune"].get(_src, 0) + 1
+    for _src in _retained_uids.values():
+        source_retention["retained_post_prune"][_src] = source_retention["retained_post_prune"].get(_src, 0) + 1
     active = store.save()
     exported = store.export_csv(cfg["tiers"])
 
@@ -288,6 +303,7 @@ def main(argv=None) -> int:
                        updated=updated, pruned=pruned, active=active,
                        notified_telegram=notified),
         "countries": statuses,
+        "source_retention": source_retention,
     }
     store.write_run_status(run_status)
 
