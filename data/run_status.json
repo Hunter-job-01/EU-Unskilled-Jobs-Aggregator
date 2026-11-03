@@ -1,9 +1,9 @@
 {
   "countries": {
-    "CY": {
-      "anyworkanywhere": {
+    "CZ": {
+      "czech_mpsv": {
         "errors": [],
-        "fetched": 0,
+        "fetched": 50,
         "notes": [],
         "status": "ok"
       },
@@ -13,199 +13,7 @@
         "notes": [],
         "status": "ok"
       },
-      "hobij": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for CY"
-        ],
-        "status": "skipped"
-      },
       "jobspy": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "indeed: CY not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
-      },
-      "nl_jobs": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [],
-        "status": "ok"
-      },
-      "ottoworkforce": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for CY"
-        ],
-        "status": "skipped"
-      },
-      "pl_cbop": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "CBOP is the Polish national board (PL only); skipped for CY"
-        ],
-        "status": "skipped"
-      }
-    },
-    "LT": {
-      "anyworkanywhere": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 1491 sitemap urls fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "eures": {
-        "errors": [],
-        "fetched": 9,
-        "notes": [
-          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
-        ],
-        "status": "ok"
-      },
-      "hobij": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for LT"
-        ],
-        "status": "skipped"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "indeed: LT not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
-      },
-      "nl_jobs": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "ottoworkforce": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for LT"
-        ],
-        "status": "skipped"
-      },
-      "pl_cbop": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "CBOP is the Polish national board (PL only); skipped for LT"
-        ],
-        "status": "skipped"
-      }
-    },
-    "NL": {
-      "anyworkanywhere": {
-        "errors": [],
-        "fetched": 1,
-        "notes": [
-          "reused 1491 sitemap urls fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "hobij": {
-        "errors": [],
-        "fetched": 10,
-        "notes": [],
-        "status": "ok"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "nl_jobs": {
-        "errors": [],
-        "fetched": 6,
-        "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "ottoworkforce": {
-        "errors": [],
-        "fetched": 9,
-        "notes": [],
-        "status": "ok"
-      },
-      "pl_cbop": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "CBOP is the Polish national board (PL only); skipped for NL"
-        ],
-        "status": "skipped"
-      }
-    },
-    "PL": {
-      "anyworkanywhere": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 1491 sitemap urls fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "hobij": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for PL"
-        ],
-        "status": "skipped"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "nl_jobs": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "ottoworkforce": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for PL"
-        ],
-        "status": "skipped"
-      },
-      "pl_cbop": {
         "errors": [],
         "fetched": 50,
         "notes": [],
@@ -213,8 +21,8 @@
       }
     }
   },
-  "duration_sec": 440.0,
-  "last_run_utc": "2026-11-03T13:51:24+00:00",
+  "duration_sec": 41.2,
+  "last_run_utc": "2026-11-03T13:56:42+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-03T03:37:41+00:00",
@@ -389,8 +197,14 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-03T06:13:59+00:00",
+      "checked_at_utc": "2026-11-03T13:56:42+00:00",
       "sources": {
+        "czech_mpsv": {
+          "errors": [],
+          "fetched": 50,
+          "notes": [],
+          "status": "ok"
+        },
         "eures": {
           "errors": [],
           "fetched": 50,
@@ -1246,34 +1060,27 @@
   },
   "parameters": {
     "countries": [
-      "CY",
-      "LT",
-      "PL",
-      "NL"
+      "CZ"
     ],
     "max_jobs": 50,
     "min_score": 20,
     "sources": [
-      "anyworkanywhere",
+      "czech_mpsv",
       "eures",
-      "hobij",
-      "jobspy",
-      "nl_jobs",
-      "ottoworkforce",
-      "pl_cbop"
+      "jobspy"
     ],
     "tier": "1"
   },
   "totals": {
-    "active": 1565,
-    "below_min_score": 9,
-    "excluded": 109,
-    "fetched": 335,
-    "new": 107,
+    "active": 1572,
+    "below_min_score": 3,
+    "excluded": 69,
+    "fetched": 150,
+    "new": 8,
     "notified_telegram": 0,
-    "pruned": 21,
-    "translated_ar": 40,
+    "pruned": 1,
+    "translated_ar": 0,
     "translated_titles": 0,
-    "updated": 99
+    "updated": 57
   }
 }

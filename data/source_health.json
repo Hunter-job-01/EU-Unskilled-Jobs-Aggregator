@@ -530,6 +530,21 @@
       },
       "status": "ok"
     },
+    "czech_mpsv|CZ": {
+      "checked_at_utc": "2026-11-03T13:56:42+00:00",
+      "country": "CZ",
+      "duration_sec": 2.4,
+      "errors": [],
+      "fetched": 50,
+      "kept": 5,
+      "notes": [],
+      "source": "czech_mpsv",
+      "stats": {
+        "quarantined": 1111,
+        "rows_streamed": 1162
+      },
+      "status": "ok"
+    },
     "eures|AT": {
       "checked_at_utc": "2026-11-03T03:37:41+00:00",
       "country": "AT",
@@ -579,9 +594,9 @@
       "status": "ok"
     },
     "eures|CZ": {
-      "checked_at_utc": "2026-11-03T06:13:59+00:00",
+      "checked_at_utc": "2026-11-03T13:56:42+00:00",
       "country": "CZ",
-      "duration_sec": 3.2,
+      "duration_sec": 4.7,
       "errors": [],
       "fetched": 50,
       "kept": 38,
@@ -969,12 +984,12 @@
       "status": "skipped"
     },
     "jobspy|CZ": {
-      "checked_at_utc": "2026-11-03T06:13:59+00:00",
+      "checked_at_utc": "2026-11-03T13:56:42+00:00",
       "country": "CZ",
-      "duration_sec": 8.5,
+      "duration_sec": 11.4,
       "errors": [],
       "fetched": 50,
-      "kept": 34,
+      "kept": 35,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -2202,6 +2217,12 @@
   },
   "recent_runs": [
     {
+      "checked_at_utc": "2026-11-03T13:56:42+00:00",
+      "failing": 0,
+      "label": "tier=1 sources=czech_mpsv,eures,jobspy",
+      "source_country_records": 3
+    },
+    {
       "checked_at_utc": "2026-11-03T13:51:24+00:00",
       "failing": 0,
       "label": "tier=1 sources=anyworkanywhere,eures,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop",
@@ -2268,5 +2289,5 @@
       "source_country_records": 8
     }
   ],
-  "updated_utc": "2026-11-03T13:51:24+00:00"
+  "updated_utc": "2026-11-03T13:56:42+00:00"
 }
