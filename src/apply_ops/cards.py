@@ -13,12 +13,13 @@ sends anything.
 from __future__ import annotations
 
 from dataclasses import dataclass
+import re
 
 from .cv_variants import select_cv_variant
 from .discovery import find_official_page
 from .extractor import extract_application_details
 from .hitl import ApprovalCard, CardStore
-from .message_tailor import draft_local_letter, tailor_message
+from .message_tailor import draft_local_letter, local_letter_arabic, tailor_message
 from .route_classifier import Route
 from .tracker import ApplicationTracker, TrackerEntry
 from ..role_labels import arabic_role_label
@@ -37,15 +38,73 @@ BACKGROUND_LINE_AR = ("خبرتي تشمل أربع سنوات في مبيعات
 AUTH_QUESTION_AR = ("أنا مقيم في مصر وأحتاج إلى تصريح عمل قانوني. هل يمكنكم "
                     "النظر في مرشح من خارج الاتحاد الأوروبي أو دعمه؟")
 
+_CHECKS = (
+    ("السكن", ("unterkunft", "accommodation", "zakwaterowanie", "housing",
+               "huisvesting", "logement", "kwaterunek", "hostel", "mieszkanie")),
+    ("دعم تصريح العمل", ("arbeitserlaubnis", "work permit", "zezwolenie na prac",
+                         "werkvergunning", "permis de travail", "visa sponsorship")),
+    ("قبول بدون خبرة", ("no experience", "ohne erfahrung", "bez doświadczenia",
+                        "zonder ervaring", "sans expérience", "bez wykształcenia")),
+    ("قبول المتحولين مهنيا", ("quereinsteiger", "career changer", "berufswechsler",
+                              "przekwalifikow", "zmiana branży", "zij-instroom")),
+    ("تدريب مقدم من جهة العمل", ("training provided", "we train", "schulung",
+                                 "szkolenie", "opleiding", "przyucz", "formation")),
+)
+
+
+_PAY_WORDS = ("vergütung", "stundenlohn", "lohn", "gehalt", "entlohnung",
+              "wynagrodzenie", "stawka", "płaca", "brutto", "salary",
+              "per hour", "pro stunde", "/std")
+_HOUSING_WORDS = ("hostel", "zakwaterowanie", "kwaterunek", "mieszkanie",
+                  "unterkunft", "accommodation", "housing")
+
+
+def _page_salary(text: str) -> str:
+    """Verbatim salary fragment from the posting text: a window around a
+    pay word that also contains a currency or decimal amount, excluding
+    windows about housing cost. Returns '' when nothing qualifies."""
+    if not text:
+        return ""
+    pay_re = re.compile("|".join(re.escape(w) for w in _PAY_WORDS), re.IGNORECASE)
+    money_re = re.compile(r"(€|eur\b|zł|pln\b|\d+[,.]\d+)", re.IGNORECASE)
+    for m in pay_re.finditer(text):
+        window = text[m.start(): m.end() + 120]
+        low = window.lower()
+        if any(h in low for h in _HOUSING_WORDS):
+            continue
+        mm = money_re.search(low)
+        if mm:
+            window = " ".join(window.split())
+            mm = money_re.search(window)
+            end = len(window)
+            close = window.find(")", mm.end(), mm.end() + 60)
+            if close != -1:
+                end = close + 1
+            else:
+                tail = re.search(r"[.\n]|- ", window[mm.end():])
+                if tail:
+                    end = mm.end() + tail.start()
+            return window[:end].strip()
+    return ""
+
+
 def _facts_summary(ext) -> str:
-    """Literal facts only, from the extractor's evidence-backed offer
-    points. Missing = 'غير مذكور'. Never claims a benefit that is absent."""
-    points = getattr(ext, "key_offer_points", {}) or {}
-    salary = points.get("salary", "")
+    """Literal facts only. Salary verbatim from the record, falling back
+    to a verbatim pay fragment from the fetched posting; each benefit
+    checked independently with word-boundary matching. Missing =
+    'غير مذكور'. Career-changer acceptance is NEVER reported as a
+    training guarantee."""
+    salary = (getattr(ext, "key_offer_points", {}) or {}).get("salary", "")
+    page = getattr(ext, "page_text", "") or ""
+    if not salary:
+        frag = _page_salary(page)
+        salary = (frag + " (نص الإعلان حرفيا)") if frag else ""
     parts = ["الراتب: " + (salary if salary else "غير مذكور")]
-    for key, label in (("housing", "السكن"), ("work_permit", "دعم تصريح العمل"),
-                       ("training_or_no_experience", "التدريب/بدون خبرة")):
-        parts.append(f"{label}: {'مذكور في الإعلان - يُتحقق مباشرة' if key in points else 'غير مذكور'}")
+    low = page.lower()
+    for label, words in _CHECKS:
+        hit = any(re.search(r"(?<![A-Za-ząćęłńóśźżäöü])" + re.escape(w), low)
+                  for w in words)
+        parts.append(f"{label}: {'مذكور في الإعلان - يُتحقق مباشرة' if hit else 'غير مذكور'}")
     return " | ".join(parts)
 
 _AGGREGATOR_HOSTS = ("europa.eu", "indeed.", "linkedin.", "glassdoor.",
@@ -79,6 +138,8 @@ def build_application_card(job, *, fetch, search, card_store: CardStore,
                            candidate_name: str, contact_line: str,
                            sending_account: str = "",
                            cv_hash: str = "",
+                           title_en_manual: str = "",
+                           title_ar_manual: str = "",
                            eligibility_note: str = "") -> "BuiltCard | None":
     ext = extract_application_details(job, fetch)
     if not ext.eligible:
@@ -110,11 +171,17 @@ def build_application_card(job, *, fetch, search, card_store: CardStore,
     local_letter = draft_local_letter(
         local_lang, role=getattr(job, "title", ""), source_ref=source_ref,
         candidate_name=candidate_name, contact_line=contact_line) if local_lang else ""
-    title_ar_label = arabic_role_label({
-        "title": getattr(job, "title_ar", "") or getattr(job, "title", ""),
-        "title_ar": getattr(job, "title_ar", "") or "",
-        "title_en": getattr(job, "title_en", "") or "",
-    })
+    if title_ar_manual:
+        title_ar_label = title_ar_manual + " (ترجمة يدوية مراجعة)"
+    else:
+        title_ar_label = arabic_role_label({
+            "title": getattr(job, "title_ar", "") or getattr(job, "title", ""),
+            "title_ar": getattr(job, "title_ar", "") or "",
+            "title_en": getattr(job, "title_en", "") or "",
+        })
+    title_en_label = ((title_en_manual + " (manual reviewed translation)")
+                      if title_en_manual else
+                      (getattr(job, "title_en", "") or "ترجمة إنجليزية غير متاحة بعد"))
     kwargs = dict(
         card_id=getattr(job, "uid", "") or getattr(job, "url", ""),
         title=getattr(job, "title", ""), company=getattr(job, "company", ""),
@@ -123,7 +190,8 @@ def build_application_card(job, *, fetch, search, card_store: CardStore,
         contact_line=contact_line,
         background_line=BACKGROUND_LINE_EN, auth_question_line=AUTH_QUESTION_EN,
         background_line_ar=BACKGROUND_LINE_AR, auth_question_line_ar=AUTH_QUESTION_AR,
-        title_ar_label=title_ar_label, score=int(getattr(job, "score", 0) or 0),
+        title_ar_label=title_ar_label, title_en_label=title_en_label,
+        score=int(getattr(job, "score", 0) or 0),
         facts_summary=_facts_summary(ext),
         recipient=contact, sending_account=sending_account, cv_hash=cv_hash,
         body_draft_local=local_letter, local_language=local_lang,
@@ -137,7 +205,11 @@ def build_application_card(job, *, fetch, search, card_store: CardStore,
         full_body = tailored.body_draft_local + "\n\n-----\n\n" + tailored.body_draft
         # The user approves from the Arabic card: show the local-language
         # letter too, not only the English draft.
-        local_block = "--- (" + local_lang + ") ---\n" + tailored.body_draft_local
+        local_block = ("--- (" + local_lang + ") ---\n" + tailored.body_draft_local
+                       + "\n--- ترجمة الخطاب (" + local_lang + ") إلى العربية ---\n"
+                       + local_letter_arabic(local_lang, role=getattr(job, "title", ""),
+                                             source_ref=source_ref,
+                                             candidate_name=candidate_name))
         # Insert the local-language letter before the 1/2/3 footer so the
         # footer stays last.
         marker = "للموافقة على الإرسال"

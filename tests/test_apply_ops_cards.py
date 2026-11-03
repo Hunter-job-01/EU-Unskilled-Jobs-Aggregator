@@ -81,3 +81,54 @@ def test_unsupported_language_marks_letter_owed(tmp_path):
                                source_ref="EURES", candidate_name="M", contact_line="c")
     if b and b.local_language:  # only when detection yields an unsupported lang
         assert b.local_letter_owed and "لم تُجهّز" in b.card_text_ar
+
+
+class TestCardV32:
+    """Manual reviewed titles, separated fact checks, AR letter rendering."""
+
+    def _card(self, page_text, tmp_path, **kw):
+        store, tracker = CardStore(), ApplicationTracker(tmp_path / "t.json")
+        return build_application_card(
+            job(title=kw.pop("title", "Kommissionierer (m/w/d)"),
+                company="SYNERGIE", country="DE", title_ar=""),
+            fetch=lambda u: page_text, search=None, card_store=store,
+            tracker=tracker, source_ref="EURES", candidate_name="Mustafa Saleh",
+            contact_line="mustafa@example.com", **kw)
+
+    def test_manual_titles_labeled(self, tmp_path):
+        b = self._card(PAGE_EMAIL, tmp_path,
+                       title_en_manual="Order picker",
+                       title_ar_manual="عامل تجهيز طلبات")
+        t = b.card_text_ar
+        assert "عامل تجهيز طلبات (ترجمة يدوية مراجعة)" in t
+        assert "Job title (EN): Order picker (manual reviewed translation)" in t
+        assert "العنوان الأصلي: Kommissionierer (m/w/d)" in t
+
+    def test_en_pending_honest_when_no_manual(self, tmp_path):
+        b = self._card(PAGE_EMAIL, tmp_path)
+        assert "ترجمة إنجليزية غير متاحة بعد" in b.card_text_ar
+
+    def test_career_changer_not_training(self, tmp_path):
+        page = PAGE_EMAIL + " Wir suchen auch Quereinsteiger."
+        b = self._card(page, tmp_path)
+        assert "قبول المتحولين مهنيا: مذكور" in b.card_text_ar
+        assert "تدريب مقدم من جهة العمل: غير مذكور" in b.card_text_ar
+
+    def test_local_letter_arabic_rendering(self, tmp_path):
+        page = ("Maschinenbediener gesucht. Bewerbung per E-Mail an "
+                "jobs@tritec.example. " * 3)
+        b = self._card(page, tmp_path, title="Maschinenbediener (m/w/d)")
+        assert b.local_language == "de"
+        assert "ترجمة الخطاب (de) إلى العربية" in b.card_text_ar
+        assert "أعيش في مصر" in b.card_text_ar
+
+    def test_salary_fragment_verbatim(self, tmp_path):
+        page = ("Kommissionierer gesucht. Apply by email to hr@acme-logistics.pl. "
+                "Wir bieten: Übertarifliche Vergütung ab 15,50 €/Std. und mehr. " * 2)
+        b = self._card(page, tmp_path)
+        assert "Vergütung ab 15,50 €/Std" in b.card_text_ar
+
+    def test_information_is_not_training(self, tmp_path):
+        page = PAGE_EMAIL + " Information about the company follows."
+        b = self._card(page, tmp_path)
+        assert "تدريب مقدم من جهة العمل: غير مذكور" in b.card_text_ar

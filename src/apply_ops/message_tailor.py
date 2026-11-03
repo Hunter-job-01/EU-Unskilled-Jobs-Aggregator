@@ -42,7 +42,8 @@ _BODY_AR = (
 _CARD_AR = (
     "بطاقة تقديم #{card_id}\n"
     "المسمى الوظيفي: {title_ar_label}\n"
-    "Job title: {title}\n"
+    "Job title (EN): {title_en_label}\n"
+    "العنوان الأصلي: {title}\n"
     "الدولة والشركة: {company} ({country}) | التقييم: {score}/100\n"
     "الحقائق من الإعلان: {facts_summary}\n"
     "طريقة التقديم: {route_desc}\n"
@@ -89,6 +90,7 @@ def tailor_message(
     background_line_ar: str = "",
     auth_question_line_ar: str = "",
     title_ar_label: str = "",
+    title_en_label: str = "",
     score: int = 0,
     facts_summary: str = "غير مذكور",
     recipient: str = "",
@@ -127,6 +129,7 @@ def tailor_message(
     card = _CARD_AR.format(
         card_id=card_id, title=title, company=company, country=country,
         title_ar_label=title_ar_label or "ترجمة العنوان غير متاحة؛ راجع العنوان الأصلي",
+        title_en_label=title_en_label or "EN translation not yet available",
         score=score, facts_summary=facts_summary,
         route_desc=_ROUTE_AR[route], cv_variant_ar=_CV_VARIANT_AR[cv_variant],
         recipient=recipient or "غير محدد", sending_account=sending_account or "غير محدد",
@@ -181,7 +184,36 @@ Met vriendelijke groet,
 {contact_line}
 """,
 }
+_LOCAL_LETTER_AR = {
+    "pl": """السادة المحترمون،
+اسمي {candidate_name} وأتقدم لوظيفة {role} (الإعلان: {source_ref}).
+سيرتي الذاتية مرفقة. أنا مقيم في مصر وأحتاج إلى تصريح عمل -
+هل يمكنكم النظر في مرشح من خارج الاتحاد الأوروبي؟
+يسعدني الرد على أي أسئلة.""",
+    "de": """السادة المحترمون،
+اسمي {candidate_name} وأتقدم لوظيفة {role} (الإعلان: {source_ref}).
+سيرتي الذاتية مرفقة. أنا أعيش في مصر وأحتاج إلى تصريح عمل -
+هل يمكنكم إخباري ما إذا كنتم تنظرون في مرشحين من خارج الاتحاد الأوروبي؟
+يسعدني الرد على أسئلتكم.""",
+    "nl": """السادة المحترمون،
+اسمي {candidate_name} وأتقدم لوظيفة {role} (الإعلان: {source_ref}).
+سيرتي الذاتية مرفقة. أنا أعيش في مصر وأحتاج إلى تصريح عمل -
+هل يمكنكم إخباري ما إذا كنتم تنظرون في مرشحين من خارج الاتحاد الأوروبي؟
+يسعدني الرد على أسئلتكم.""",
+}
 LOCAL_LETTER_LANGS = tuple(sorted(_LOCAL_LETTER))
+
+
+def local_letter_arabic(language: str, *, role: str, source_ref: str,
+                        candidate_name: str) -> str:
+    """Arabic rendering of the exact local-language letter, so the owner
+    approves knowing what the DE/PL/NL text says. Deterministic mirror of
+    _LOCAL_LETTER; "" when the language has no reviewed template."""
+    template = _LOCAL_LETTER_AR.get((language or "").lower())
+    if not template:
+        return ""
+    return template.format(role=role, source_ref=source_ref,
+                           candidate_name=candidate_name).strip()
 
 
 def draft_local_letter(language: str, *, role: str, source_ref: str,
