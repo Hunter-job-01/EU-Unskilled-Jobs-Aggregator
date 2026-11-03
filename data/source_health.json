@@ -714,9 +714,9 @@
       "status": "ok"
     },
     "eures|PL": {
-      "checked_at_utc": "2026-11-03T12:00:28+00:00",
+      "checked_at_utc": "2026-11-03T12:05:32+00:00",
       "country": "PL",
-      "duration_sec": 5.3,
+      "duration_sec": 8.7,
       "errors": [],
       "fetched": 10,
       "kept": 10,
@@ -1054,9 +1054,9 @@
       "status": "ok"
     },
     "jobspy|PL": {
-      "checked_at_utc": "2026-11-03T12:00:28+00:00",
+      "checked_at_utc": "2026-11-03T12:05:32+00:00",
       "country": "PL",
-      "duration_sec": 3.1,
+      "duration_sec": 4.2,
       "errors": [],
       "fetched": 10,
       "kept": 7,
@@ -1888,6 +1888,12 @@
   },
   "recent_runs": [
     {
+      "checked_at_utc": "2026-11-03T12:05:32+00:00",
+      "failing": 0,
+      "label": "tier=1 sources=eures,jobspy",
+      "source_country_records": 2
+    },
+    {
       "checked_at_utc": "2026-11-03T12:00:28+00:00",
       "failing": 0,
       "label": "tier=1 sources=eures,jobspy",
@@ -1942,5 +1948,5 @@
       "source_country_records": 8
     }
   ],
-  "updated_utc": "2026-11-03T12:00:28+00:00"
+  "updated_utc": "2026-11-03T12:05:32+00:00"
 }

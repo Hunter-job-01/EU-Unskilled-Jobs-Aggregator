@@ -15,8 +15,8 @@
       }
     }
   },
-  "duration_sec": 31.0,
-  "last_run_utc": "2026-11-03T12:00:28+00:00",
+  "duration_sec": 13.0,
+  "last_run_utc": "2026-11-03T12:05:32+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-03T03:37:41+00:00",
@@ -750,7 +750,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-03T12:00:28+00:00",
+      "checked_at_utc": "2026-11-03T12:05:32+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -937,11 +937,11 @@
     "below_min_score": 1,
     "excluded": 2,
     "fetched": 20,
-    "new": 3,
+    "new": 0,
     "notified_telegram": 0,
-    "pruned": 1,
-    "translated_ar": 4,
+    "pruned": 0,
+    "translated_ar": 0,
     "translated_titles": 0,
-    "updated": 12
+    "updated": 14
   }
 }
