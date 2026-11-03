@@ -201,3 +201,12 @@ def test_reviewed_rejected_title_fails_honest_empty():
     _fake_argos({})
     for title in list(rejected):
         assert translate_title_argos(title, 'de') == ('', '')
+
+
+def test_faithful_english_rejects_repeated_token_runaway():
+    from src.argos_titles import faithful_english
+    assert not faithful_english(
+        "Operátor/ka výroby | až 33 500 Kč | ubytko zajištěno | nástup ihned",
+        "Operator of production CZK 124; up to CZK 33,500) 124; accommodation provided 124; boarding immediately")
+    # Legitimate titles with at most two repeated tokens still pass.
+    assert faithful_english("Skladník/ce", "Warehouse worker warehouse")

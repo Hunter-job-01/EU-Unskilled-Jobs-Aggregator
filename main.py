@@ -197,9 +197,9 @@ def main(argv=None) -> int:
         langs = country_meta.get("languages", [])
         annotate_glossary(job, langs[0] if langs else "")
         job.summary_ar = compose_summary_ar(job)
-    # Offline title layer (Argos CPU + reviewed Arabic vocab): runs before
-    # any network translator so hosted quota is spent only on titles the
-    # offline layer could not fill. Highest score first. A missing
+    # Offline title layer (Argos CPU + reviewed Arabic vocab): runs after
+    # the keyless Google route and fills titles that route could not
+    # (failures, throttling, cap). Highest score first. A missing
     # argostranslate install skips the layer explicitly, never silently.
     from src.offline_translation import translate_titles_offline
     off_en, off_ar = translate_titles_offline(ar_candidates, cfg)

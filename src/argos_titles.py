@@ -230,6 +230,14 @@ def faithful_english(title: str, en: str) -> bool:
     # Model-artifact symbols never appear in real job titles.
     if any(c in en for c in "♪♫★☆●■"):
         return False
+    # Repeated-token runaway (measured 2026-11-03: 'CZK 124; ... 124; ...
+    # 124;'): any non-function token occurring 3+ times is a generation
+    # loop, not a real title.
+    import collections as _c
+    _toks = __import__("re").findall(r"[a-z0-9]+", low)
+    _func = {"the", "and", "for", "a", "de", "und", "en", "of", "m", "w", "d"}
+    if any(n >= 3 for t, n in _c.Counter(_toks).items() if t not in _func):
+        return False
     folded_src = _fold(title)
     folded_en = _fold(en)
     for src_forms, en_forms in _QUALIFIERS:
