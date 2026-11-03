@@ -26,10 +26,10 @@ from src.notifier import send_digest, ensure_state_file
 from src.scorer import Scorer, translate_titles
 from src import source_health
 from src.scrapers import (
-    AnyworkAnywhereScraper, ArbeitnowScraper, AtsPublicScraper,
-    CzechMpsvScraper, EuresScraper, HobijScraper, HttpClient, JobSpyScraper,
-    LatviaNvaScraper, NlJobsScraper, OttoWorkforceScraper, PlCbopScraper,
-    SwedenJobSearchScraper, polite_sleep,
+    AbMiddenScraper, AnyworkAnywhereScraper, ArbeitnowScraper, AtsPublicScraper,
+    CoveboScraper, CzechMpsvScraper, EuresScraper, GoodmorningScraper,
+    HobijScraper, HttpClient, JobSpyScraper, LatviaNvaScraper, NlJobsScraper,
+    OttoWorkforceScraper, PlCbopScraper, SwedenJobSearchScraper, polite_sleep,
 )
 from src.storage import JobStore
 
@@ -81,7 +81,8 @@ def main(argv=None) -> int:
     known_sources = {"eures", "jobspy", "arbeitnow", "sweden_jobsearch",
                      "czech_mpsv", "latvia_nva", "ats_public",
                      "ottoworkforce", "anyworkanywhere", "pl_cbop",
-                     "nl_jobs", "hobij"}
+                     "nl_jobs", "hobij", "covebo", "ab_midden",
+                     "goodmorning"}
     unknown = requested - known_sources
     if unknown:
         log.error("unknown source(s): %s (valid: %s)", ", ".join(sorted(unknown)),
@@ -136,6 +137,12 @@ def main(argv=None) -> int:
         scrapers.append(NlJobsScraper(cfg, http))
     if "hobij" in requested:
         scrapers.append(HobijScraper(cfg, http))
+    if "covebo" in requested:
+        scrapers.append(CoveboScraper(cfg, http))
+    if "ab_midden" in requested:
+        scrapers.append(AbMiddenScraper(cfg, http))
+    if "goodmorning" in requested:
+        scrapers.append(GoodmorningScraper(cfg, http))
 
     store = JobStore(cfg["storage"])
     ensure_state_file(store, cfg)

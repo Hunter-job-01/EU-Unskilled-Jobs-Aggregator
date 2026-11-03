@@ -13,10 +13,13 @@ from .anyworkanywhere import AnyworkAnywhereScraper
 from .pl_cbop import PlCbopScraper
 from .nl_jobs import NlJobsScraper
 from .hobij import HobijScraper
+from .covebo import CoveboScraper
+from .ab_midden import AbMiddenScraper
+from .goodmorning import GoodmorningScraper
 
 __all__ = [
     "HttpClient", "ScrapeResult", "ScraperError", "polite_sleep", "strip_html",
     "EuresScraper", "JobSpyScraper",
     "ArbeitnowScraper", "SwedenJobSearchScraper", "CzechMpsvScraper",
-    "LatviaNvaScraper", "AtsPublicScraper", "OttoWorkforceScraper", "AnyworkAnywhereScraper", "PlCbopScraper", "NlJobsScraper", "HobijScraper",
+    "LatviaNvaScraper", "AtsPublicScraper", "OttoWorkforceScraper", "AnyworkAnywhereScraper", "PlCbopScraper", "NlJobsScraper", "HobijScraper", "CoveboScraper", "AbMiddenScraper", "GoodmorningScraper",
 ]

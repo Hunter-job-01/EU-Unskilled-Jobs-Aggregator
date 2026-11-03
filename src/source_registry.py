@@ -39,6 +39,7 @@ KNOWN_CATEGORIES = frozenset({
 IMPLEMENTED_ADAPTERS = frozenset({
     "arbeitnow", "sweden_jobsearch", "czech_mpsv", "latvia_nva", "ats_public",
     "ottoworkforce", "anyworkanywhere", "pl_cbop", "nl_jobs", "hobij",
+    "covebo", "ab_midden", "goodmorning",
 })
 
 ACTIVATION_GATES = frozenset({

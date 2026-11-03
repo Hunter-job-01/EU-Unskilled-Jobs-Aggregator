@@ -41,7 +41,7 @@ def test_closed_source_stays_excluded(registry):
 
 def test_implemented_adapters_gated(registry):
     gated = [s for s in registry["sources"] if s.get("repo_adapter")]
-    assert len(gated) == 14  # 10 expansion adapters + 2 ATS + eures + indeed
+    assert len(gated) == 17  # 13 expansion adapters + 2 ATS + eures + indeed
     for s in gated:
         assert s["activation_gate"] in ("probe_then_owner_approval", "active_existing")
 

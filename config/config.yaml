@@ -454,6 +454,18 @@ sources:
     enabled: true                    # HOBIJ agency; vacancy-sitemap + JobPosting JSON-LD probe-verified 2026-11-03
     sitemap_url: "https://hobij.com/vacancy-sitemap.xml"
     max_pages: 10                    # bounded polite budget per run
+  covebo:
+    enabled: false                   # Covebo agency; job-sitemap + JobPosting JSON-LD probe-verified 2026-11-03; gated on terms review + owner approval
+    sitemap_url: "https://www.covebo.nl/job-sitemap.xml"
+    max_pages: 10                    # bounded polite budget per run
+  ab_midden:
+    enabled: false                   # AB Midden Nederland; vacancy-sitemap + JobPosting JSON-LD probe-verified 2026-11-03; gated on terms review + owner approval
+    sitemap_url: "https://www.abmiddennederland.nl/vacancy-sitemap.xml"
+    max_pages: 10
+  goodmorning:
+    enabled: false                   # Goodmorning; vacancy-sitemap + JobPosting JSON-LD probe-verified 2026-11-03; gated on terms review + owner approval
+    sitemap_url: "https://goodmorning.eu/vacancy-sitemap.xml"
+    max_pages: 10
   ats_public:
     enabled: false                    # Greenhouse/Lever/SmartRecruiters PUBLIC postings
     max_postings_per_tenant: 100
