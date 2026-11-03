@@ -209,7 +209,13 @@ def main(argv=None) -> int:
     # contact-scrubbed) covering up to 40 titles at once.
     ar_done = off_ar
     mt_enabled = bool(cfg.get("translation", {}).get("enabled", False))
-    todo = [j for j in ar_candidates if not j.title_ar][:40] if mt_enabled else []
+    # Publication containment (pipeline policy 2026-11-03): unattended
+    # free-model ARABIC output is NOT published either - same policy for
+    # all languages. Arabic publishes only from the reviewed TITLE_AR_VOCAB
+    # (offline layer above); the Gemini batch and the keyless layer-2
+    # route stay off unless explicitly re-enabled.
+    publish_model_ar = bool(cfg.get("translation", {}).get("publish_model_output_ar", False))
+    todo = [j for j in ar_candidates if not j.title_ar][:40] if (mt_enabled and publish_model_ar) else []
     # title_en Gemini fallback: non-English titles the keyless route left
     # untranslated (it is 429-throttled on both sandbox and hosted egress).
     # One Translator instance => the per-run call cap is SHARED by both

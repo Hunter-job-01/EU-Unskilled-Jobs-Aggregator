@@ -259,3 +259,16 @@ def test_scheduled_layer_holds_free_model_output(monkeypatch):
     assert jobs[1].title_en == 'Kitchen Porter'
     assert jobs[1].title_ar == 'عامل مطبخ'
     assert (en_done, ar_done) == (1, 1)
+
+
+def test_main_gates_unattended_model_writes():
+    """main.py must keep both unattended free-model title layers behind
+    explicit opt-in flags (containment, 2026-11-03). Static guard so a
+    refactor cannot silently re-enable unattended publication."""
+    import pathlib
+    src = pathlib.Path('main.py').read_text(encoding='utf-8')
+    assert 'publish_model_output_en' in src and 'publish_model_output_ar' in src
+    todo_line = next(l for l in src.splitlines() if 'ar_candidates if not j.title_ar' in l)
+    assert 'publish_model_ar' in todo_line
+    en_gate = next(l for l in src.splitlines() if 'if mt_enabled and' in l)
+    assert 'publish_model_en' in en_gate
