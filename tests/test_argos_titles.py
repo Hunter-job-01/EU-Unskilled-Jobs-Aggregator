@@ -311,3 +311,15 @@ def test_forms_only_and_forklift_gloss():
     assert arabic_for_english_title("Part-time pre-sorting worker (w/m/d)") == ""
     assert arabic_for_english_title("Part-time local logistics specialist") == ""
     assert "رافعة شوكية" in arabic_for_english_title("Forklift driver m/f/d - Tempelhof")
+
+
+def test_shift_hours_and_pay_figures_block_full_coverage():
+    from src.argos_titles import arabic_for_english_title
+    out = arabic_for_english_title("Order Picker & Packer (14:30 - 23:30)")
+    assert "ترجمة جزئية" in out
+    assert "ترجمة جزئية" in arabic_for_english_title("Warehouse worker 18.50 EUR")
+
+
+def test_spelled_out_gender_markers_are_ignorable():
+    from src.argos_titles import arabic_for_english_title
+    assert arabic_for_english_title("Warehouse Worker (male/female)") == "عامل مستودع"

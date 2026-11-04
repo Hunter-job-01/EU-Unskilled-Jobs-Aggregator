@@ -402,7 +402,7 @@ def translate_title_argos(title: str, source_lang: str):
 # they carry no role meaning of their own. Locations and any other word
 # DO count: an uncovered word makes the gloss explicitly partial.
 _IGNORABLE = __import__("re").compile(
-    r"^(m/w/d|w/m/d|m/f/d|h/f|f/h|k/m|m/k|m/z|m/f/x|d/m/w|\d+.*|.)$")
+    r"^(m/w/d|w/m/d|m/f/d|h/f|f/h|k/m|m/k|m/z|m/f/x|d/m/w|male|female|\d+.*|.)$")
 
 # Employment-form vocab: HPP (Czech full-time) and shift forms are
 # material qualifiers, so they have their own reviewed Arabic and count
@@ -501,6 +501,12 @@ def arabic_gloss(title_en: str):
                         for pos, w in words):
         return "", False
     if full and any(a in _AMBIGUOUS_AR for _, _, a in hits):
+        full = False
+    # Clock-time spans (shift hours like 14:30 - 23:30) and decimal pay
+    # figures are schedule/pay qualifiers no reviewed term covers; only
+    # letter-words feed the coverage check, so mark them explicitly:
+    # their presence must never allow a "full" claim.
+    if full and __import__("re").search(r"\d{1,2}[:.]\d{2}", folded):
         full = False
     return gloss, full
 
