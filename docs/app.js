@@ -338,6 +338,10 @@
       'Score ' + (job.score != null ? job.score : 0)));
     card.appendChild(top);
 
+    var sourceMismatch = (job.uid === '861cfef865463f1c' && job.source_id === 'in-dd8dff85721b11d6' &&
+       job.title === 'Analytický chemik QC – junior' &&
+       job.url === 'https://web.fosfa.cz/kariera/volne-pozice/energetika/datovy-analytik-energetika-junior-37-000-kc-48-000-kc/' &&
+       String(job.description || '').indexOf('pravidelná analýza energetických dat') !== -1);
     var titles = el('div', 'job-titles');
     // A title_en identical to the source title is NOT a translation
     // (legacy failure-copies pending repair): never present it as English.
@@ -386,7 +390,7 @@
       return !onlyCareerChanger;
     })();
 
-    if (job.summary_ar) {
+    if (job.summary_ar && !sourceMismatch) {
       var sumText = job.summary_ar;
       // Always normalize legacy stored mention lines: old data repeated the
       // per-item prefix ("يذكر الإعلان: X؛ يذكر الإعلان: Y"). The unsupported
@@ -421,7 +425,7 @@
       }
     }
 
-    var signals = Array.isArray(job.signals) ? job.signals : [];
+    var signals = !sourceMismatch && Array.isArray(job.signals) ? job.signals : [];
     var chips = el('div', 'job-chips');
     function chipSupported(sig) {
       if (sig !== 'no_exp_or_training_mention') return true;
@@ -437,14 +441,22 @@
     });
     if (chips.childNodes.length) card.appendChild(chips);
 
-    if (Array.isArray(job.matched_keywords) && job.matched_keywords.length) {
+    if (!sourceMismatch && Array.isArray(job.matched_keywords) && job.matched_keywords.length) {
       card.appendChild(el('p', 'job-keywords',
         'Matched: ' + job.matched_keywords.slice(0, 8).join(', ')));
     }
 
     var actions = el('div', 'job-actions');
     var href = safeExternalUrl(job.url);
-    if (href) {
+    if (sourceMismatch) {
+      actions.appendChild(el('p', 'job-link-provenance',
+        'Source mismatch: destination and description do not match this title. Application link and description-derived claims withheld pending review.'));
+      var warningAr = el('p', 'job-link-provenance',
+        'تعارض في المصدر: صفحة الرابط والوصف لا يطابقان المسمى. أُوقف رابط التقديم والمعلومات المستخرجة من الوصف لحين المراجعة.');
+      warningAr.setAttribute('dir', 'rtl');
+      warningAr.setAttribute('lang', 'ar');
+      actions.appendChild(warningAr);
+    } else if (href) {
       var linkPending = job.url_provenance === 'reconstructed_from_source_key' && job.url_verified === false;
       var link = el('a', linkPending ? 'apply-link apply-link-pending' : 'apply-link',
         linkPending ? 'View posting (link rebuilt, unverified)' : 'View & apply');
