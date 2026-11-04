@@ -901,37 +901,6 @@
     "uid": "04a8fd5072db0709",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NzQ2NDI4NyAxMDI?lang=en"
   },
-  "04e1afcbd98c9e25": {
-    "company": "Domestiko",
-    "country": "ES",
-    "description": "Se busca mozo de almacén para realizar tareas propias del puesto, como carga y descarga de mercancías, clasificación y revisión de productos, control de stock y manejo de maquinaria. Es necesario contar con carnet de operador de carretilla elevadora, imprescindible para el desempeño de las funciones, y disponer de vehículo propio para desplazarse al lugar de trabajo.\n  \n  \nLa jornada será completa, con horario partido de 08:30 a 13:30 y de 16:00 a 19:00. Se ofrece contrato laboral indefinido y un salario de 1.800 euros brutos mensuales, sin prorrata, con dos pagas extraordinarias de 1.800 euros cada una.\n  \n  \nEl puesto requiere responsabilidad, atención al detalle y capacidad para trabajar de forma organizada en un entorno dinámico.",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-02",
-    "languages": [],
-    "last_seen": "2026-11-02",
-    "location": "Albacete, CM, Spain",
-    "matched_keywords": [
-      "mozo de almacen",
-      "sera"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-04",
-    "score": 37,
-    "signals": [
-      "unskilled_role_match",
-      "tier_2_country"
-    ],
-    "source": "jobspy_indeed",
-    "source_id": "in-833a6df2441f6cfe",
-    "summary_ar": "الموقع: Albacete, CM, Spain\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "Mozo de almacen con carnet de carretilla elevadora",
-    "title_en": "",
-    "translated": false,
-    "uid": "04e1afcbd98c9e25",
-    "url": "https://www.domestiko.com/empleo/oferta/albacete-mozo-de-almacen-con-carnet-de-carretilla-elevadora-0vei/"
-  },
   "04f1dcf0ea7c7a03": {
     "company": "Hohenhaus Precision Manufacturing GmbH",
     "country": "DE",
@@ -1177,8 +1146,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Luxembourg",
     "matched_keywords": [
       "magasinier"
@@ -1186,7 +1156,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-27",
-    "score": 36,
+    "score": 33,
     "signals": [
       "unskilled_role_match",
       "tier_3_country",
@@ -1196,10 +1166,13 @@
     "source_id": "in-e9c0858561c74c05",
     "summary_ar": "الموقع: Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magasinier [m/f/d]",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "065563471a3bf29d",
-    "url": "https://career.losch-group.lu/fr/offres-d-emploi/detail/magasinier-mfd/vn2202"
+    "url": "https://career.losch-group.lu/fr/offres-d-emploi/detail/magasinier-mfd/vn2202",
+    "url_provenance": "",
+    "url_verified": null
   },
   "06d124a9c9bae9e4": {
     "company": "Szihn GmbH",
@@ -1597,10 +1570,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -1609,20 +1583,24 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-26",
-    "score": 46,
+    "score": 43,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "eures",
     "source_id": "MTY2Njc5MyA4",
+    "summary_ar": "",
     "title": "Tõstukijuht-laotöötaja",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "09de0aee4ef2e4fd",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2Njc5MyA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2Njc5MyA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "0a0afb5662f0f800": {
     "company": "Luxair",
@@ -1631,8 +1609,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Luxembourg",
     "matched_keywords": [
       "magasinier"
@@ -1640,7 +1619,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-27",
-    "score": 36,
+    "score": 33,
     "signals": [
       "unskilled_role_match",
       "tier_3_country",
@@ -1650,10 +1629,13 @@
     "source_id": "in-82c6178eb9ba9441",
     "summary_ar": "الموقع: Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magasinier (m/f/x) - CDD 6 mois",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "0a0afb5662f0f800",
-    "url": "https://luxair.csod.com/ux/ats/careersite/27/home/requisition/5383?c=luxair"
+    "url": "https://luxair.csod.com/ux/ats/careersite/27/home/requisition/5383?c=luxair",
+    "url_provenance": "",
+    "url_verified": null
   },
   "0a5f269327cdf4f0": {
     "company": "siehe Beschreibung",
@@ -2807,8 +2789,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Ettelbruck, L0D, Luxembourg",
     "matched_keywords": [
       "ett",
@@ -2820,17 +2803,20 @@
     "score": 40,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-619cf7332f2639fa",
     "summary_ar": "الموقع: Ettelbruck, L0D, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Gestionnaire Parc Automobile / Magasinier",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "100b6c15f9bb2439",
-    "url": "https://app.skeeled.com/offer/c/6ac3a2b7de604f88b9406e5e?show_description=true&language=fr"
+    "url": "https://app.skeeled.com/offer/c/6ac3a2b7de604f88b9406e5e?show_description=true&language=fr",
+    "url_provenance": "",
+    "url_verified": null
   },
   "104d77a6ce9fe0ef": {
     "company": "HART SP. Z O.O.",
@@ -6480,6 +6466,44 @@
     "uid": "1d37157021b0ecd7",
     "url": "https://karriere.post.at/job/Ebensee-Teilzeit-Zustellerin-%28wmd%29-4802-Ebensee-%28ab-25-Wst_%29-Ober-4802/1453341733/"
   },
+  "1d39c4fec46d39e4": {
+    "company": "OÜ Kartuliait",
+    "country": "EE",
+    "description": "Füüsiline vastupidavus on oluline, raskuste tõstmine kuni 15 kg Tööülesanded: Võrkkottide ladumine aluseleKauba sorteerimine Kauba laadimine elektriroklaga autole Kahveltõstukiga kauba liigutamine Omalt poolt pakume: Kindel sissetulekSoe lõunasöök Kvaliteetne kohv Head töötingimused - uued olme- ja puhkeruumid (sh saun) Muud nõuded: Kasuks tuleb: töötahe; hea füüsiline vorm; iseseisev mõtlemine.Ära kandideeri kui: Sa ei jõua tööle kokkulepitud ajal; Sul on probleeme sõltuvusainetega; Sa ei ole huvitatud töötegemisest. Kodus töötamise võimalus: Ei",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-04",
+    "glossary": [],
+    "languages": [
+      "et"
+    ],
+    "last_seen": "2026-11-04",
+    "location": "",
+    "matched_keywords": [
+      "komplekteerija",
+      "laotootaja"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-02",
+    "score": 45,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTY2NzU4MCA4",
+    "summary_ar": "",
+    "title": "Laotöötaja-komplekteerija",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "1d39c4fec46d39e4",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzU4MCA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "1d5f07fd71d9599f": {
     "company": "People Partners",
     "country": "PL",
@@ -8946,10 +8970,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "fr"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "magasinier"
@@ -8964,11 +8989,15 @@
     ],
     "source": "eures",
     "source_id": "MTA2MDM3IDEx",
+    "summary_ar": "",
     "title": "Magasinier / Opérateur logistique (m/f)",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "2972ef0ca7bed985",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTA2MDM3IDEx?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTA2MDM3IDEx?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "297d7776c4601d7a": {
     "company": "Scandic Hotels",
@@ -9258,10 +9287,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "komplekteerija",
@@ -9270,19 +9300,22 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-20",
-    "score": 38,
+    "score": 35,
     "signals": [
       "unskilled_role_match",
-      "tier_3_country",
-      "fresh_posting"
+      "tier_3_country"
     ],
     "source": "eures",
     "source_id": "MTY2NjI4OCA4",
+    "summary_ar": "",
     "title": "Laotöötaja",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "2ab85710f2457b86",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjI4OCA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjI4OCA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "2abc14459ec2650a": {
     "company": "SOCCO GROUP GmbH NL Schorndorf",
@@ -9384,44 +9417,6 @@
     "translated": false,
     "uid": "2aec557d3cc16356",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NTg5NDU0ODE1IDE0MQ?lang=en"
-  },
-  "2b0280bbe4edbe89": {
-    "company": "OK Plus Kolding Sommerfuglevej",
-    "country": "DK",
-    "description": "Studiejob eller deltidsjob hos OK Plus Sommerfuglevej\n\nEr du over 18 år og leder du efter et studiejob eller et mindre deltidsjob? Så er det måske dig, vi søger til vores team hos **OK Plus på Sommerfuglevej i Kolding**.\n\nVi søger engagerede butiksassistenter til ca. **8-10 timer om ugen**, med mulighed for flere timer efter behov.\n\nArbejdstiderne vil primært være eftermiddag- og aftentimerne i hverdage, og weekendvagter.\n\nDine arbejdsopgaver vil blandt andet være:\n\n* Betjening og servicering af kunder\n* Kassebetjening\n* Smøring af sandwiches\n* Modtagelse og udlevering af pakker\n* Opfyldning af varer\n* Oprydning og lettere rengøring\n* Diverse daglige opgaver i butikken\n\nVi søger dig, der er **smilende, mødestabil og serviceminded**, og som trives med kundekontakt og en hverdag, hvor der kan være travlt.\n\nErfaring fra butik er en fordel, men ikke et krav, vi sørger for, at du bliver lært godt op.\n\nLyder det som noget for dig? Så send en ansøgning på 607@ok.dk eller her via. Indeed.\n\nForventet timeantal: 8.0-10.0 pr. uge\n\nArbejdssted: Personligt fremmøde",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-02",
-    "glossary": [],
-    "languages": [],
-    "last_seen": "2026-11-03",
-    "location": "Kolding, D83, Denmark",
-    "matched_keywords": [
-      "butiksassistent",
-      "ett",
-      "pakker",
-      "rengoring"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-04",
-    "score": 50,
-    "signals": [
-      "unskilled_role_match",
-      "agency_relocation_text_mention",
-      "tier_3_country"
-    ],
-    "source": "jobspy_indeed",
-    "source_id": "in-dd9ca81d2e08709b",
-    "summary_ar": "عبارات وردت في نص الإعلان: يذكر الإعلان: وكالة/إعادة توطين\nالموقع: Kolding, D83, Denmark\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "Butiksassistent STUDIEJOB",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
-    "uid": "2b0280bbe4edbe89",
-    "url": "https://dk.indeed.com/viewjob?jk=dd9ca81d2e08709b",
-    "url_provenance": "reconstructed_from_source_key",
-    "url_verified": false
   },
   "2b0d54efffab0080": {
     "company": "SIMC",
@@ -10138,10 +10133,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "fr"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "magasinier",
@@ -10157,11 +10153,15 @@
     ],
     "source": "eures",
     "source_id": "Nzk5MjY1NiA5",
+    "summary_ar": "",
     "title": "Magasinier (H/F)",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "2e04a38886b6067f",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/Nzk5MjY1NiA5?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/Nzk5MjY1NiA5?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "2e1b33948b1848fb": {
     "company": "CAR AVENUE",
@@ -10226,37 +10226,6 @@
     "translated": false,
     "uid": "2e48cadc05b83ffc",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkyOTc3MiAxOQ?lang=en"
-  },
-  "2e5b6675484b17b3": {
-    "company": "Voyages Vandivinit, Sàrl",
-    "country": "LU",
-    "description": "Mission- réception, contrôle, rangement des pièces- préparation des commandes- assurer la gestion et suivi du stock- identifier et rechercher les références des pièces, poids lourds- inventaire + assurer la bonne tenue du magasin- commander auprès des fournisseurs + suivi des livraisonsProfil:DAPOffice",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-02",
-    "languages": [
-      "fr"
-    ],
-    "last_seen": "2026-11-02",
-    "location": "",
-    "matched_keywords": [
-      "magasinier"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-04",
-    "score": 30,
-    "signals": [
-      "unskilled_role_match",
-      "tier_3_country"
-    ],
-    "source": "eures",
-    "source_id": "MTA1NjUyIDEx",
-    "title": "Magasinier poids lourds (m/f)",
-    "title_en": "",
-    "translated": false,
-    "uid": "2e5b6675484b17b3",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTA1NjUyIDEx?lang=en"
   },
   "2e83713b34fe83da": {
     "company": "ATA Henkilöstöpalvelut Oy",
@@ -10627,21 +10596,21 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Ehsh-sjur-Al'zet, ES, Luxembourg",
     "matched_keywords": [
       "ett",
-      "magasinier",
-      "sera"
+      "magasinier"
     ],
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-22",
-    "score": 48,
+    "score": 43,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
@@ -10649,10 +10618,13 @@
     "source_id": "in-03c7bda6484f0403",
     "summary_ar": "الموقع: Ehsh-sjur-Al'zet, ES, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magasinier (m/f/d) CDI 100%",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "2feca08f0bbd477f",
-    "url": "https://app.skeeled.com/offer/c/6ad9b451ff0fcaf9ab245a8e"
+    "url": "https://app.skeeled.com/offer/c/6ad9b451ff0fcaf9ab245a8e",
+    "url_provenance": "",
+    "url_verified": null
   },
   "3007895b2727835e": {
     "company": "",
@@ -10866,6 +10838,42 @@
     "url": "https://it.indeed.com/viewjob?jk=0a6d82de08f50369",
     "url_provenance": "reconstructed_from_source_key",
     "url_verified": false
+  },
+  "30fe534851db99d0": {
+    "company": "Regler Systems GmbH",
+    "country": "LU",
+    "description": "Nous te recherchons (h/f/d)!Nous te recherchons (h/f/d)!Nous recrutons pour le compte de notre filiale REGLER FeltenStein S.A.:REGLER FeltenStein S.A. est un partenaire expérimenté pour la gestion électronique des documents. De la capture et de la numérisation jusqu’à la gestion, l’archivage et à l’impression, l’entreprise accompagne ses clients tout au long du processus documentaire.Grâce à une expertise approfondie et à de nombreuses années d’expérience, REGLER FeltenStein a équipé de nombreuses entreprises de solutions innovantes d’impression, de copie et multifonctions, en développant ainsi une compréhension fine des besoins spécifiques et des processus opérationnels.Un haut niveau d’exigence en matière de qualité ainsi qu’une approche orientées client sont toujours au cœur de ses priorités.Tu es doté(e) d’un excellent sens de l’organisation, tu gardes une vision d’ensemble même lorsque plusieurs tâches doivent être gérées en parallèle et tu veilles à ce que tout fonctionne parfaitement en arrière-plan?Alors, REGLER FeltenStein est fait pour toi !Nous recherchons dès que possible un(e) employé(e) à temps plein (40 heures par semaine). Wir suchen dich (m/w/d)!Wir suchen im Auftrag für unser Tochterunternehmen REGLER FeltenStein S.A.:Die REGLER FeltenStein S.A. ist ein erfahrener Partner für ganzheitliches elektronisches Dokumentenmanagement. Von der Erfassung und Digitalisierung über das Management und die Archivierung bis hin zum Druck unterstützt das Unternehmen seine Kunden entlang des gesamten Dokumentenprozesses. Mit fundierter Expertise und langjähriger Erfahrung hat REGLER FeltenStein zahlreiche Unternehmen mit innovativen Druck-, Kopier- und Multifunktionslösungen ausgestattet und dabei ein tiefes Verständnis für individuelle Anforderungen und betriebliche Abläufe entwickelt. Ein hoher Qualitätsanspruch sowie kundenorientierte Lösungen stehen dabei stets im Mittelpunkt.Du bist organisatorisch stark, behältst auch bei vielen parallelen Vorgängen den Überblick und sorgst dafür, dass im Hintergrund alles reibungslos läuft?Dann bist du bei REGLER FeltenStein genau richtig!Wir suchen zum nächstmöglichen Zeitpunkt eine Vollzeitkraft für 40 Wochenstunden.Voici tes missions:- Réception et coordination des appels techniques (répartition des tickets clients)- Collaboration étroite avec les équipes techniques afin d’assurer une résolution rapide et efficace des demandes clients- Réception, contrôle et stockage adéquat des marchandises- Préparation des commandes (picking) et organisation des expéditions selon les consignes- Réalisation de contrôles de stock et d’inventaires- Entretien, rangement et organisation du stock ainsi que de la zone de stockage- Documentation et enregistrement des entrées et sorties de marchandises dans le système de gestion des stocks ou ERP- Participation à l’optimisation des processus de stockage et de logistiqueDas sind deine Aufgaben:﻿- Entgegennahme und Koordination von technischen Anrufen (Dispatch von Kundentickets)- Enge Zusammenarbeit mit technischen Teams zur schnellen und effektiven Lösung von Kundenanfragen- Bestellung, Annahme, Kontrolle sowie sachgerechte Einlagerung von Waren- Kommissionierung und Versandvorbereitung von Aufträgen nach Vorgaben- Durchführung von Bestandskontrollen und Inventuren- Pflege, Ordnung und Organisation des Lagerbestands sowie des Lagerbereichs- Dokumentation und Buchung von Warenein- und -ausgängen im Warenwirtschafts- bzw. ERP-System- Mitarbeit bei der Optimierung von Lager- und LogistikprozessenVoici ce que tu apportes:- Formation professionnelle complétée dans le domaine de la logistique de stockage (p. ex. magasinier(ère)) ou dans un domaine technique, un atout mais non obl",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-04",
+    "glossary": [],
+    "languages": [
+      "de"
+    ],
+    "last_seen": "2026-11-04",
+    "location": "",
+    "matched_keywords": [
+      "magasinier"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-20",
+    "score": 30,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country"
+    ],
+    "source": "eures",
+    "source_id": "MTM4ODQtMzMyNzY2LVMgMQ",
+    "summary_ar": "",
+    "title": "Dispatch technique - Magasinier/ère - Mitarbeiter:in im ... (Fachlagerist/in)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "30fe534851db99d0",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTM4ODQtMzMyNzY2LVMgMQ?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "3171c49791068085": {
     "company": "PerZukunft Arbeitsvermittlung GmbH & Co. KG",
@@ -11429,8 +11437,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Wasserbillig, GR, Luxembourg",
     "matched_keywords": [
       "agent de nettoyage",
@@ -11443,19 +11452,20 @@
     "score": 45,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-8223cd90df7e9e97",
-    "summary_ar": "الموقع: Wasserbillig, GR, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Wasserbillig, GR, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Agent de nettoyage H/F",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "343170eea4bf5254",
     "url": "https://lu.indeed.com/viewjob?jk=8223cd90df7e9e97",
-    "url_provenance": "reconstructed_from_source_key",
-    "url_verified": false
+    "url_provenance": "",
+    "url_verified": null
   },
   "343d6ee7cbfaa23b": {
     "company": "PRM-Trade Oy",
@@ -11569,10 +11579,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -11587,19 +11598,21 @@
     "signals": [
       "unskilled_role_match",
       "no_exp_or_training_mention",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "eures",
     "source_id": "MTY2NzI2MyA4",
-    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب؛ وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Laotöötaja",
     "title_ar": "عامل مستودع",
     "title_en": "Warehouse worker",
-    "translated": true,
+    "translated": false,
     "uid": "34e69737b3d759c4",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzI2MyA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzI2MyA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "354f12907060b330": {
     "company": "REVA SANTE",
@@ -11857,8 +11870,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Rosport, L0G, Luxembourg",
     "matched_keywords": [
       "ett",
@@ -11868,21 +11882,24 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-30",
-    "score": 55,
+    "score": 51,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-5a1f54b6a0682b3c",
-    "summary_ar": "الموقع: Rosport, L0G, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Rosport, L0G, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magasinier / Manutentionnaire - Permis C (H/F/X)",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "36073bbff45558f4",
-    "url": "https://app.skeeled.com/offer/c/6ae49fedbd86f0caca0ea416"
+    "url": "https://app.skeeled.com/offer/c/6ae49fedbd86f0caca0ea416",
+    "url_provenance": "",
+    "url_verified": null
   },
   "362178a7eba53935": {
     "company": "Lidl",
@@ -12713,10 +12730,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "laotootaja",
@@ -12725,21 +12743,23 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-19",
-    "score": 48,
+    "score": 45,
     "signals": [
       "unskilled_role_match",
       "no_exp_or_training_mention",
-      "tier_3_country",
-      "fresh_posting"
+      "tier_3_country"
     ],
     "source": "eures",
     "source_id": "MTY2NjA1NCA4",
     "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Laotöötaja",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "3a0a52e13b06b9fa",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjA1NCA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjA1NCA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "3a36c8891f8ad767": {
     "company": "Office People GmbH Niederlassung Düsseldorf Personalmanagement",
@@ -15915,10 +15935,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -15931,17 +15952,21 @@
     "score": 51,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "eures",
     "source_id": "MTY2NzE4NCA4",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Laotöötaja-komplekteerija",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "4a4d1e8469e7e31f",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzE4NCA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzE4NCA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "4a6eba726f1860ce": {
     "company": "Bemanningspoolen i Värnamo AB",
@@ -16277,10 +16302,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -16295,19 +16321,21 @@
     "signals": [
       "unskilled_role_match",
       "no_exp_or_training_mention",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "eures",
     "source_id": "MTY2NjY0MiA4",
-    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب؛ وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Laotöötaja-komplekteerija",
     "title_ar": "عامل مستودع (ترجمة جزئية للمسمى - راجع العنوان الأصلي)",
     "title_en": "Warehouse worker-picker",
-    "translated": true,
+    "translated": false,
     "uid": "4b76efbf82dbedbe",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjY0MiA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjY0MiA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "4b993402328c3864": {
     "company": "Powiatowy Urząd Pracy",
@@ -16907,10 +16935,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "fr"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -16923,17 +16952,21 @@
     "score": 48,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "eures",
     "source_id": "MTA2NDY1IDEx",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Préparateur de commandes / Magasinier cariste (H/F) – 32 h",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "4e7e63b5fe4a8ce9",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTA2NDY1IDEx?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTA2NDY1IDEx?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "4e8a64740c8b9cfd": {
     "company": "siehe Beschreibung",
@@ -18132,6 +18165,44 @@
     "translated": false,
     "uid": "53e9cd796b14f266",
     "url": "https://rejoindre.groupe-aubery.com/job/FREJUS-Magasinier-Automobile-%28HF%29-83600/1375041855/"
+  },
+  "53ea31b1ef85c122": {
+    "company": "Osaühing TNC-Components",
+    "country": "EE",
+    "description": "Komplekteerija mööblitootmise kesklaos Tööülesanded: - Tellimuste komplekteerimine (mööblikomponendid ja furnituur);- Komponentide kokkukorjamine; - Valmistoodangu kaubaalusele asetamine vastavalt kontrollehele ja seejärel kilesse/kartongi pakendamine; - Dokumentatsiooni ja laoprogrammi täitmine. Omalt poolt pakume: - Pikaajalist ja stabiilset töösuhet.- Häid töö- ja olmetingimusi. - Toetavat meeskonda. Muud nõuded: Hea füüsiline vorm; kohusetundlikkus ja korrektsus; head eeldused meeskonna- ja iseseisvaks tööks. Kodus töötamise võimalus: Ei",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-04",
+    "glossary": [],
+    "languages": [
+      "et"
+    ],
+    "last_seen": "2026-11-04",
+    "location": "",
+    "matched_keywords": [
+      "komplekteerija",
+      "laotootaja"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-03",
+    "score": 45,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTY2Nzg0NyA4",
+    "summary_ar": "",
+    "title": "Laotöötaja-komplekteerija",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "53ea31b1ef85c122",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2Nzg0NyA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "53ec7b07931229fa": {
     "company": "Adamcy Service s.r.o.",
@@ -19406,6 +19477,46 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "597aa6251eaa208d": {
+    "company": "Power Technology OÜ",
+    "country": "EE",
+    "description": "Tööülesanded: Kauba vastuvõtt, lahtipakkimine ja kontroll;kauba paigutamine riiulitele; tellimuste komplekteerimine ja pakkimine; saadetiste ettevalmistamine väljastamiseks. Omalt poolt pakume: Stabiilset töökohta kiiresti arenevas ettevõttes.Konkurentsivõimelist töötasu. Võimalus kasvada areneva ettevõttes. Muud nõuded: Vene keele oskus suhtlustasandil.Valmisolek aktiivseks ja füüsiliseks tööks. Täpsus, vastutus- ja kohusetundlikus. Eelnevav kogemust tuleb kasuks, kuid pole otsustav. Microsoft Office tundmine. 1C tarkvara tundmine. Kodus töötamise võimalus: Ei",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-04",
+    "glossary": [],
+    "languages": [
+      "et"
+    ],
+    "last_seen": "2026-11-04",
+    "location": "",
+    "matched_keywords": [
+      "ett",
+      "komplekteerija",
+      "laotootaja"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-03",
+    "score": 55,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTY2Nzg1OCA4",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Laotöötaja-komplekteerija",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "597aa6251eaa208d",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2Nzg1OCA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "597db96929d00c1a": {
     "company": "FRICON",
     "country": "PT",
@@ -19692,10 +19803,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "da"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -19709,18 +19821,21 @@
     "score": 58,
     "signals": [
       "no_exp_or_training_mention",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "eures",
     "source_id": "OTQ5N2Q0NTItODE2MS00ZGRiLTgwNjktNTNiYmEzZDUwY2Q1IDc",
-    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب؛ وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Kundeservicemedarbejder til international virksomhed i Sofia, Bulgarien",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "5ae7785a3633711f",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/OTQ5N2Q0NTItODE2MS00ZGRiLTgwNjktNTNiYmEzZDUwY2Q1IDc?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/OTQ5N2Q0NTItODE2MS00ZGRiLTgwNjktNTNiYmEzZDUwY2Q1IDc?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "5ae829d4c7663a50": {
     "company": "POWERJOBS Sp. z o.o.",
@@ -20863,10 +20978,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "abitooline",
@@ -20883,11 +20999,15 @@
     ],
     "source": "eures",
     "source_id": "MTY2NzQ2MyA4",
+    "summary_ar": "",
     "title": "Kaminapuude pakkija",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "611050691a3d9375",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzQ2MyA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzQ2MyA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "6111cce0986f5c14": {
     "company": "TRADYCJA FABRYKA OKIEN",
@@ -21938,6 +22058,47 @@
     "uid": "647ccf3422970c97",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM2OTI2MiAxMjE?lang=en"
   },
+  "649481ec164b61c1": {
+    "company": "MAXIMA Eesti OÜ",
+    "country": "EE",
+    "description": "Logistikakeskuses kaubaaluste ja konteinerite peale laadimine veoautodesse Tööülesanded: Kui Sa oled unistanud tööst Eesti ühes suurimas ja modernseimas logistikakeskuses, oled kiire ja korrektne ning kohusetundlik, siis rakenda oma oskusi Maximas TRANSPORTTÖÖLISENA.Oled oodatud meie toredasse meeskonda: • kui pead hea töö tegemist auasjaks, • kui talud pinget hästi, • kui puitalused ja konteinerid kerkivad Sinu tõstuki abil vajalikesse kõrgustesse ja saavad alati õigesse kohta paigutatud, • kui hoolitsed selle eest, et kaubad jõuaksid õigeks ajaks kauplustesse, • kui Sa oled kiire ja täpne, • kui Sulle sobib füüsiline ja vahetustega töö. Omalt poolt pakume: Meie poolt on Sulle:• huvitav töö Eesti ühes suurimas logistikakeskuses ja ajakohased töövahendid, • ettevõtte korraldatud väljaõpe, • lisatasu heade tulemuste korral, • vormiriided ning transport tööle, • tasuta soe lõuna, • lisaks pakume Sulle igal aastal tasuta gripivaktsiini ning võimalust kasutada Maxima partnerpakkumisi, • majutus. Muud nõuded: Sinult ootame· eelnevat töökogemust laotöötaja või transporttöötajana; · valmisolekut füüsiliseks tööks ja soovi töötada graafiku alusel; · kohusetundlikkust, töökust ja head pingetaluvust. Kasuks tuleb tõstukijuhi lubade olemasolu. Kodus töötamise võimalus: Ei Koormus, vahetused: öösiti",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-04",
+    "glossary": [],
+    "languages": [
+      "et"
+    ],
+    "last_seen": "2026-11-04",
+    "location": "",
+    "matched_keywords": [
+      "ett",
+      "laotootaja",
+      "valjaope"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-03",
+    "score": 65,
+    "signals": [
+      "unskilled_role_match",
+      "no_exp_or_training_mention",
+      "agency_relocation_text_mention",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTY2Nzc5NSA4",
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب؛ وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Lao transporttöötaja",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "649481ec164b61c1",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2Nzc5NSA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "64d79c450b7e5f10": {
     "company": "Leertouwer Soest B.V.",
     "country": "NL",
@@ -22657,6 +22818,45 @@
     "uid": "683c0f1ebb2aa196",
     "url": "https://skk.erecruiter.pl/Offer.aspx?oid=5021143&cfg=B21101D855194D90A4E5DBB7B8A297B8&ejoId=830110&ejorId=557888&comId=18800911"
   },
+  "6850015e846be6c9": {
+    "company": "OÜ TÕITOJA PUIT",
+    "country": "EE",
+    "description": "30 cm küttepuude pakkimine võrkkottidesse Tööülesanded: Küttepuude tootmine, lõhkumine (30 cm). Omalt poolt pakume: Väljaõpet kohapeal Kodus töötamise võimalus: Ei",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-04",
+    "glossary": [],
+    "languages": [
+      "et"
+    ],
+    "last_seen": "2026-11-04",
+    "location": "",
+    "matched_keywords": [
+      "pakkija",
+      "valjaope"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-02",
+    "score": 55,
+    "signals": [
+      "unskilled_role_match",
+      "no_exp_or_training_mention",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTY2NzYwOSA4",
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Kaminapuude pakkija",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "6850015e846be6c9",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzYwOSA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "68934fd66127a68e": {
     "company": "ELESHOP",
     "country": "NL",
@@ -23146,10 +23346,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "fr"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -23162,16 +23363,20 @@
     "score": 45,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country"
     ],
     "source": "eures",
     "source_id": "NzkzNzkwMiA5",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Vendeur-magasinier / secteur du bâtiment (H/F)",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "6a5dcc2d06fb2f03",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NzkzNzkwMiA5?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NzkzNzkwMiA5?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "6a92c508701236c1": {
     "company": "Moravian & Rabbit s.r.o.",
@@ -23723,10 +23928,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "laotootaja",
@@ -23746,10 +23952,13 @@
     "source_id": "MTY2NzExOSA4",
     "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Laotöötaja",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "6c3fc0a31880ea26",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzExOSA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzExOSA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "6c84b5ae344c3abc": {
     "company": "JOB IMPULSE POLSKA Sp. z o. o.",
@@ -24662,10 +24871,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "fr"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "magasinier"
@@ -24680,11 +24890,15 @@
     ],
     "source": "eures",
     "source_id": "NzczNTk3NSA5",
+    "summary_ar": "",
     "title": "Gestionnaire Parc Automobile / Magasinier (H/F)",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "70455edad064464f",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NzczNTk3NSA5?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NzczNTk3NSA5?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "706b75a38ddab4ab": {
     "company": "Mediterena B.V.",
@@ -24828,44 +25042,6 @@
     "translated": false,
     "uid": "70b49f1b9aa699f6",
     "url": "https://www.stenarecycling.com/sv/karriar/lediga-tjanster/ledig-tjanst/produktionsarbetare-onsite-se-3438"
-  },
-  "70b622d37f0c4148": {
-    "company": "OK Plus Kolding Sommerfuglevej",
-    "country": "DK",
-    "description": "**VI SØGER 2 BUTIKSASSISTENTER OVER 18 ÅR TIL MIN. 20 TIMER I UGEN.**\n\nEr du serviceminded, mødestabil og kan du lide en hverdag, hvor der sker noget? Så søger vi dig til vores team hos OK Plus på Sommerfuglevej i Kolding.\n\nVi søger 2 butiksassistenter over 18 år til ca. 20 timer om ugen. Arbejdstiderne ligger mellem kl. 05.00 og 21.00, dog vil dine timer oftest være placeret i dagstimerne, men der vil også kunne forekomme aften- og weekendvagter.\n\n***Dine arbejdsopgaver vil blandt andet være:***\n\n- Betjening og servicering af kunder\n\n- Kassebetjening\n\n- Smøring af sandwiches\n\n- Modtagelse og udlevering af pakker\n\n- Opfyldning af varer\n\n- Oprydning og lettere rengøring\n\n- Diverse daglige opgaver i butikken\n\nVi søger dig, der er positiv, ansvarsbevidst og fleksibel, og som kan arbejde både selvstændigt og som en del af et team. Erfaring fra butik er en fordel, men ikke et krav. Det vigtigste for os er egentlig, at du vil være med til at sørge for den bedste service for vores kunder.\n\nVi tilbyder en varieret hverdag, gode kollegaer og et job med masser af kundekontakt.\n\nLyder det som noget for dig? Så send en ansøgning på 607@ok.dk eller her via. Indeed.\n\nArbejdssted: Personligt fremmøde",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-02",
-    "glossary": [],
-    "languages": [],
-    "last_seen": "2026-11-03",
-    "location": "Kolding, D83, Denmark",
-    "matched_keywords": [
-      "butiksassistent",
-      "ett",
-      "pakker",
-      "rengoring"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-04",
-    "score": 50,
-    "signals": [
-      "unskilled_role_match",
-      "agency_relocation_text_mention",
-      "tier_3_country"
-    ],
-    "source": "jobspy_indeed",
-    "source_id": "in-8e26ec96991c9d31",
-    "summary_ar": "عبارات وردت في نص الإعلان: يذكر الإعلان: وكالة/إعادة توطين\nالموقع: Kolding, D83, Denmark\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "Butiksassistent søges til min. 20 timer ugentlig",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
-    "uid": "70b622d37f0c4148",
-    "url": "https://dk.indeed.com/viewjob?jk=8e26ec96991c9d31",
-    "url_provenance": "reconstructed_from_source_key",
-    "url_verified": false
   },
   "70db0ede05fe5fe5": {
     "company": "M&M Object Security s.r.o.",
@@ -25185,34 +25361,37 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Bertrange, L0L, Luxembourg",
     "matched_keywords": [
       "ett",
       "housekeeping",
       "magasinier",
-      "nettoyage",
-      "sera"
+      "nettoyage"
     ],
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-27",
-    "score": 61,
+    "score": 53,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-7f0a4b4c9d8a70a3",
-    "summary_ar": "الموقع: Bertrange, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Bertrange, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Handyman / Agent·e Polyvalent·e Technique (m/f/x) - CDI, 40h/semaine",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "72702074e5c90cb2",
-    "url": "https://jobs.lu.sodexo.com/fr/vacature/reference/LUINLUF126507/application-form.aspx"
+    "url": "https://jobs.lu.sodexo.com/fr/vacature/reference/LUINLUF126507/application-form.aspx",
+    "url_provenance": "",
+    "url_verified": null
   },
   "7284e36e80d64bec": {
     "company": "Monday Merch",
@@ -25660,6 +25839,43 @@
     "translated": false,
     "uid": "73d9b50928feb6da",
     "url": "https://de.indeed.com/viewjob?jk=745db5f8ab3d3899",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "73ff67a09103b707": {
+    "company": "MAXAUTO Osaühing",
+    "country": "EE",
+    "description": "Tööülesanded: Kauba vastuvõtt, ladustamine ja väljastamine laos. Omalt poolt pakume: Stabiilset tööd ja sõbralikku kollektiivi. Kodus töötamise võimalus: Ei",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-04",
+    "glossary": [],
+    "languages": [
+      "et"
+    ],
+    "last_seen": "2026-11-04",
+    "location": "",
+    "matched_keywords": [
+      "laotootaja"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-02",
+    "score": 40,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTY2NzY0MCA4",
+    "summary_ar": "",
+    "title": "Laotöötaja",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "73ff67a09103b707",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzY0MCA4?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -27097,8 +27313,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Bascharage, L0L, Luxembourg",
     "matched_keywords": [
       "ett",
@@ -27107,23 +27324,23 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-19",
-    "score": 43,
+    "score": 40,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
-      "tier_3_country",
-      "fresh_posting"
+      "agency_relocation_text_mention",
+      "tier_3_country"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-01a59244a38c5367",
     "summary_ar": "الموقع: Bascharage, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Manutentionnaire CACES 3",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "7ad0cf9fd18b5ef1",
     "url": "https://lu.indeed.com/viewjob?jk=01a59244a38c5367",
-    "url_provenance": "reconstructed_from_source_key",
-    "url_verified": false
+    "url_provenance": "",
+    "url_verified": null
   },
   "7adedb625c17b6d5": {
     "company": "ODLEWNIA CIŚNIENIOWA META-ZEL SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
@@ -28575,8 +28792,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Luxembourg",
     "matched_keywords": [
       "ett",
@@ -28586,21 +28804,24 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-27",
-    "score": 51,
+    "score": 48,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-a672c97acfef2efe",
-    "summary_ar": "الموقع: Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Chauffeur Manutentionnaire Catering (m/f/x) - CDD 6 mois",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "81889fee1bd9ec2c",
-    "url": "https://luxair.csod.com/ux/ats/careersite/27/home/requisition/5382?c=luxair"
+    "url": "https://luxair.csod.com/ux/ats/careersite/27/home/requisition/5382?c=luxair",
+    "url_provenance": "",
+    "url_verified": null
   },
   "81ab97edbd4f7c71": {
     "company": "Getränkehandel Weber GmbH",
@@ -29030,10 +29251,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "laotootaja"
@@ -29049,11 +29271,15 @@
     ],
     "source": "eures",
     "source_id": "MTY2NjY2NiA4",
+    "summary_ar": "",
     "title": "Tõstukijuht-laotöötaja",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "8492348c4b1b8452",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjY2NiA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjY2NiA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "849a1656027c5630": {
     "company": "AGO JOBS & HR RECRUITMENT",
@@ -29683,41 +29909,6 @@
     "uid": "87f5a242d16153ce",
     "url": "https://karriere.post.at/job/Bezau-Zustellerin-%28wmd%29-6870-Bezau-Vora-6870/1451658333/"
   },
-  "880cda80591f6a93": {
-    "company": "MAXIMA Eesti OÜ",
-    "country": "EE",
-    "description": "Viljandi Maxima Tööülesanded: Kui sulle meeldib vaheldusrikas töö ja tunned end inimeste ja kaupade keskel mugavalt, siis rakenda oma oskusi Maximas. Kaupluse töötajana usaldame sulle: klientide suurepärase teenindamise kassas, saalis ja letis; kauba väljapaneku ja korrastamise müügisaalis; müügisaali ja laoruumide puhtuse ning korrashoiu; kauba vastuvõtmise ja paigutamise laos. Omalt poolt pakume: Tööalast väljaõpet ja koolitusi, karjäärivõimalusi, tööd graafiku alusel, erinevaid motivatsioonipakette ja ettevõtte poolt organiseeritud tasuta lõunasööki. Muud nõuded: Ootused sulle: soovid pakkuda viisakat ja kliendisõbralikku teenindust; räägid vähemalt suhtlustasandil eesti keelt; sobib vahetustega töö graafiku alusel; omandad uusi teadmisi ja oskusi kiirelt ning oled töökas. Kodus töötamise võimalus: Ei",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-02",
-    "languages": [
-      "et"
-    ],
-    "last_seen": "2026-11-02",
-    "location": "",
-    "matched_keywords": [
-      "ett",
-      "valjaope"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-26",
-    "score": 61,
-    "signals": [
-      "no_exp_or_training_mention",
-      "agency_or_relocation_mention",
-      "tier_3_country",
-      "fresh_posting"
-    ],
-    "source": "eures",
-    "source_id": "MTY2NzAwNSA4",
-    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "Kaupluse töötaja",
-    "title_en": "",
-    "translated": false,
-    "uid": "880cda80591f6a93",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzAwNSA4?lang=en"
-  },
   "88202d06366e970e": {
     "company": "PerZukunft Arbeitsvermittlung GmbH & Co. KG",
     "country": "DE",
@@ -30002,8 +30193,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Mamer, L0L, Luxembourg",
     "matched_keywords": [
       "ett",
@@ -30015,18 +30207,21 @@
     "score": 46,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-1d71e28f02a33e9f",
-    "summary_ar": "الموقع: Mamer, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Mamer, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magasinier Façonnage (f/m/d)",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "88cd9d403c8cd089",
-    "url": "https://myhr.wd3.myworkdayjobs.com/en-US/PlanseeGroup_Career/job/Mamer-Luxembourg/Magasinier-Faonnage---f-m-d-_JR-12569-1"
+    "url": "https://myhr.wd3.myworkdayjobs.com/en-US/PlanseeGroup_Career/job/Mamer-Luxembourg/Magasinier-Faonnage---f-m-d-_JR-12569-1",
+    "url_provenance": "",
+    "url_verified": null
   },
   "88f678ed5f36a065": {
     "company": "Enteria",
@@ -31936,10 +32131,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "valjaope"
@@ -31957,10 +32153,13 @@
     "source_id": "MTY2NzQwNCA4",
     "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Hooajaline pakiautomaadi haldur",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "904fd34ca045c388",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzQwNCA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzQwNCA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "906a3adc0aab683e": {
     "company": "KNAUF INTERFER SE",
@@ -32720,32 +32919,35 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Roeser, L0L, Luxembourg",
     "matched_keywords": [
       "ett",
-      "nettoyage",
-      "sera"
+      "nettoyage"
     ],
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-31",
-    "score": 55,
+    "score": 46,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-8430e1d4e5ffc765",
-    "summary_ar": "الموقع: Roeser, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Roeser, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "AGENT POLYVALENT",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "92e4ce2d4d7b6fe8",
-    "url": "https://app.skeeled.com/offer/c/6ae1a2d7344480fbb1771e97"
+    "url": "https://app.skeeled.com/offer/c/6ae1a2d7344480fbb1771e97",
+    "url_provenance": "",
+    "url_verified": null
   },
   "9395c573b4e68ff5": {
     "company": "\"BOWIM\" SPÓŁKA AKCYJNA",
@@ -33194,38 +33396,6 @@
     "uid": "9615504192abfb75",
     "url": "https://assaabloy.jobs2web.com/job/Dublin-General-Operative-D24-WY49/1447604033/"
   },
-  "966cd50eb4a1324f": {
-    "company": "MELTAL IS, trgovina, proizvodnja in storitve, d.o.o., Gosposvetska cesta 84 , 2000 MARIBOR",
-    "country": "SI",
-    "description": "SKLADIŠČNIK, poskusno delo , Določen čas, 6 mesecev, Polni delovni čas, 40, upravljanje s CNC upogibnim strojem, kontroliranje in evidentiranje procesov na stroju, skrb za kvalitetno izdelavo izdelkov, delo z viličarjem, opravljanje skladiščnih del, opravljanje drugih del po nalogah nadrejenega, ,",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-02",
-    "languages": [
-      "sl"
-    ],
-    "last_seen": "2026-11-02",
-    "location": "SI031",
-    "matched_keywords": [
-      "skladiscnik"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-04",
-    "score": 30,
-    "signals": [
-      "unskilled_role_match",
-      "tier_3_country"
-    ],
-    "source": "eures",
-    "source_id": "MzQ4ODI4NCAxNA",
-    "summary_ar": "الموقع: SI031\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "SKLADIŠČNIK - KLEPAR - M/Ž",
-    "title_en": "",
-    "translated": false,
-    "uid": "966cd50eb4a1324f",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ4ODI4NCAxNA?lang=en"
-  },
   "96746cbd0af135b5": {
     "company": "Fábrica de Tintas 2000 S.A",
     "country": "PT",
@@ -33545,10 +33715,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "fr"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "magasinier"
@@ -33564,11 +33735,15 @@
     ],
     "source": "eures",
     "source_id": "MTA2Mzg0IDEx",
+    "summary_ar": "",
     "title": "Lagerist (m/w/d)",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "976385e23d1abbbe",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTA2Mzg0IDEx?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTA2Mzg0IDEx?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "9779474377375cba": {
     "company": "GRAND DESIGN SRL",
@@ -33719,10 +33894,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -33730,20 +33906,25 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-10-07",
-    "score": 40,
+    "posted_date": "2026-11-03",
+    "score": 50,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
-      "tier_3_country"
+      "agency_relocation_text_mention",
+      "tier_3_country",
+      "fresh_posting"
     ],
     "source": "eures",
-    "source_id": "MTY2NDg0MyA4",
+    "source_id": "MTY2NzgwMSA4",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Laotöötaja",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "97f1598bb1546fba",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NDg0MyA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzgwMSA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "980c5bef20c78389": {
     "company": "VENATIO D.O.O.",
@@ -34344,8 +34525,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Mondorf-les-Bains, L0G, Luxembourg",
     "matched_keywords": [
       "agent d'entretien",
@@ -34358,19 +34540,20 @@
     "score": 45,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-327f5288f9637cc1",
-    "summary_ar": "الموقع: Mondorf-les-Bains, L0G, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Mondorf-les-Bains, L0G, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Agent d'entretien H/F",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "9b20b8844aeae9e7",
     "url": "https://lu.indeed.com/viewjob?jk=327f5288f9637cc1",
-    "url_provenance": "reconstructed_from_source_key",
-    "url_verified": false
+    "url_provenance": "",
+    "url_verified": null
   },
   "9b318e7702afd7f7": {
     "company": "Comac Jobs s.r.o.",
@@ -36647,8 +36830,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Bertrange, L0L, Luxembourg",
     "matched_keywords": [
       "ett",
@@ -36660,7 +36844,7 @@
     "score": 43,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
@@ -36668,10 +36852,13 @@
     "source_id": "in-34f7df1c4d26dfa9",
     "summary_ar": "الموقع: Bertrange, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Gestionnaire achat et magasinier",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "a56fb4285c05a08c",
-    "url": "https://www.co-labor.lu/en_GB/jobs/detail/gestionnaire-achat-et-magasinier-382"
+    "url": "https://www.co-labor.lu/en_GB/jobs/detail/gestionnaire-achat-et-magasinier-382",
+    "url_provenance": "",
+    "url_verified": null
   },
   "a589b73c9c3ca282": {
     "company": "PerZukunft Arbeitsvermittlung GmbH & Co. KG",
@@ -36938,10 +37125,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -36955,17 +37143,20 @@
     "signals": [
       "unskilled_role_match",
       "no_exp_or_training_mention",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country"
     ],
     "source": "eures",
     "source_id": "MTY2NTgzNyA4",
-    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب؛ وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Veoautojuht",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "a666c572a72896d9",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NTgzNyA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NTgzNyA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "a6851389ad3e28a9": {
     "company": "Luís Simões",
@@ -38805,14 +38996,15 @@
   "ad565fd457eaf3e8": {
     "company": "Aktsiaselts Eesti Post",
     "country": "EE",
-    "description": "(Tallinn) Tööülesanded: Oleme rõõmuga valmis Sulle pakkuma:- täiskohaga tööd; - liikuvat tööd sorteerides ja kohale toimetades postisaadetisi (lihtpost, perioodika, reklaam, tähitud kirjad, kullerpakid); - töötamiseks vajalikku turvalist autot, mugavaid tööriideid ning jalatsite ostuks kompensatsiooni; - töökohta meie heatujulises ja üksteist toetavas meekonnas; - tööd, mille tööpäev algab ja lõppeb seal, kus rõõm saab alguse – Omniva jaotuspunktis Pallasti 28, Tallinn. Omalt poolt pakume: Rõõmu jagades tagame Sulle:- tasustatud töövarjupäeva enne tööle asumist, - õiglase ja stabiilselt laekuva töötasu ning kord kuus tulemustasu heade töötulemuste eest, - väljaõpet ja võimalusi teha ettevõttesisest karjääri, - rahalisi toetusi oluliste isiklike sündmuste puhul, - soodustusi koostööpartneritelt, - sporditoetust või tervisekindlustust läbi Stebby keskkonna, - tööstaažipõhist 5-päevast lisapuhkust. Muud nõuded: Ootame Sind oma tiimi, kui Sa:- omad B-kategooria juhiluba ja oskad juhtida manuaalkäigukastiga autot ning oled oskuslik liikleja; - valdad eesti keelt suhtlustasandil; - oled meeskonnamängija, vastutustundlik, abivalmis ja täpne; - oskad kasutada nutiseadmeid; - naudid liikuvat tööd, oled heas füüsilises vormis ning ei karda raskemate saadetiste tõstmist. Kodus töötamise võimalus: Ei",
+    "description": "(Pärnu) Tööülesanded: Otsime inimest, kellele on kingitud täpsust ning hoolast meelt. Tule jaga rõõmu Omniva postikullerina Pärnus! Omalt poolt pakume: Oleme rõõmuga valmis Sulle pakkuma: - täiskohaga tööd graafiku alusel E-L algusega 7:30 - liikuvat tööd sorteerides ja kohale toimetades postisaadetisi (lihtpost, perioodika, reklaam, tähitud kirjad, kullerpakid) - töötamiseks vajalikku turvalist autot, mugavaid tööriideid ning -jalatseid - töökohta meie heatujulises ja üksteist toetavas meekonnas - tööd, mille tööpäev algab ja lõppeb Omniva jaotuspunktis Suur-Jõe 77, Pärnu Rõõmu jagades tagame Sulle: - tasustatud töövarjupäeva enne tööle asumist - õiglase ja stabiilselt laekuva töötasu ning kord kuus tulemustasu heade töötulemuste eest - väljaõpet ja võimalusi teha ettevõttesisest karjääri - rahalisi toetusi oluliste isiklike sündmuste puhul - soodustusi koostööpartneritelt - sporditoetust või tervisekindlustust läbi Stebby keskkonna - tööstaažipõhist 5-päevast lisapuhkust Muud nõuded: Ootame Sind oma tiimi, kui Sa: - omad B-kategooria juhiluba (manuaalkäigukast) ja oled oskuslik liikleja - valdad heal tasemel eesti keelt - oled meeskonnamängija, vastutustundlik, abivalmis ja täpne - oskad kasutada nutiseadmeid - naudid liikuvat tööd ja oled heas füüsilises vormis Kodus töötamise võimalus: Ei",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -38820,22 +39012,25 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-10-28",
-    "score": 61,
+    "posted_date": "2026-11-02",
+    "score": 65,
     "signals": [
       "no_exp_or_training_mention",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "eures",
-    "source_id": "MTY2NzI5NiA4",
-    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "source_id": "MTY2NzY5NyA4",
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب؛ وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Postikuller",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "ad565fd457eaf3e8",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzI5NiA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzY5NyA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "ad80e2a92be5f016": {
     "company": "UPS",
@@ -38947,8 +39142,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Dudelange, L0L, Luxembourg",
     "matched_keywords": [
       "ett",
@@ -38957,21 +39153,24 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-30",
-    "score": 50,
+    "score": 46,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-d25d6a33994bbdb5",
-    "summary_ar": "الموقع: Dudelange, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Dudelange, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Préparateur de commandes - Entrepôt (H-F)",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "adc86988d7272e8a",
-    "url": "https://app.skeeled.com/offer/c/6ae44b75875f42c605a95e88"
+    "url": "https://app.skeeled.com/offer/c/6ae44b75875f42c605a95e88",
+    "url_provenance": "",
+    "url_verified": null
   },
   "adcc431c3d1b7562": {
     "company": "EinEtikette Group s.r.o.",
@@ -39017,10 +39216,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -39031,23 +39231,24 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-19",
-    "score": 63,
+    "score": 60,
     "signals": [
       "unskilled_role_match",
       "no_exp_or_training_mention",
-      "agency_or_relocation_mention",
-      "tier_3_country",
-      "fresh_posting"
+      "agency_relocation_text_mention",
+      "tier_3_country"
     ],
     "source": "eures",
     "source_id": "MTY2NjAzOCA4",
-    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب؛ وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Laotöötaja-komplekteerija",
     "title_ar": "عامل مستودع (ترجمة جزئية للمسمى - راجع العنوان الأصلي)",
     "title_en": "Warehouse worker-picker",
-    "translated": true,
+    "translated": false,
     "uid": "addb80815685bf3c",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjAzOCA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjAzOCA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "addf7b38e09b5197": {
     "company": "Select Tech Group",
@@ -39921,8 +40122,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Luxembourg",
     "matched_keywords": [
       "ett",
@@ -39935,19 +40137,20 @@
     "score": 45,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-244ba741197d1035",
-    "summary_ar": "الموقع: Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Opérateur de production et d'emballage / Livreur H/F",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "b100c35ebaf9a951",
     "url": "https://lu.indeed.com/viewjob?jk=244ba741197d1035",
-    "url_provenance": "reconstructed_from_source_key",
-    "url_verified": false
+    "url_provenance": "",
+    "url_verified": null
   },
   "b13876954ddb9855": {
     "company": "Allo Event AB",
@@ -40927,6 +41130,47 @@
     "uid": "b4bcc030f42b6f15",
     "url": "https://www.wemag.de/de/karriere/stellenangebote/lagerhelfer-fulda/"
   },
+  "b4de32d2261afe46": {
+    "company": "Osaühing Ametro Personalirent",
+    "country": "EE",
+    "description": "pabertoodete tootmine Tööülesanded: Tööpinkide tööks ettevalmistamine.Tootmisliini operaatorite ja pakkijate abistamine. Valmistoodangu komplekteerimine alustele. Aluste paigutamine pakkimismasina juurde ja valmistoodangu transportimine lattu. Praagi kaalumine. Omalt poolt pakume: Füüsiliselt aktiivset tööd.Stabiilset töökohta karjäärialase kasvu võimalustega. Väljaõpet kohapeal. Lisatasu teenimise võimalust. Muud nõuded: Valmisolek töötada mitmes vahetusesTehniline taiplikkus, täpsus, õppimisvõime. Oskus iseseisvalt töötada. Hea füüsiline vorm (kuni 10 kg pakkide tõstmine). Kodus töötamise võimalus: Ei Koormus, vahetused: öösiti",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-04",
+    "glossary": [],
+    "languages": [
+      "et"
+    ],
+    "last_seen": "2026-11-04",
+    "location": "",
+    "matched_keywords": [
+      "ett",
+      "pakkija",
+      "valjaope"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-03",
+    "score": 65,
+    "signals": [
+      "unskilled_role_match",
+      "no_exp_or_training_mention",
+      "agency_relocation_text_mention",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTY2NzgxOCA4",
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب؛ وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Tootmisliini operaatori abi",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "b4de32d2261afe46",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzgxOCA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "b4f681ae5272fccc": {
     "company": "Aputeam",
     "country": "FI",
@@ -41518,8 +41762,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Bettembourg, L0L, Luxembourg",
     "matched_keywords": [
       "ett",
@@ -41532,18 +41777,21 @@
     "score": 51,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-cc3b6aebf73e47ce",
-    "summary_ar": "الموقع: Bettembourg, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Bettembourg, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Manutentionnaire (H/F) – Findel",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "b86e1cc9c4957462",
-    "url": "https://app.skeeled.com/offer/c/6adb29e33961c045a395d2f9"
+    "url": "https://app.skeeled.com/offer/c/6adb29e33961c045a395d2f9",
+    "url_provenance": "",
+    "url_verified": null
   },
   "b8cf47c44f48cb80": {
     "company": "Semler",
@@ -42594,10 +42842,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "fr"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -42606,20 +42855,24 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-30",
-    "score": 50,
+    "score": 46,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "eures",
     "source_id": "ODQxMTA2MCA5",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magasinier Façonnage (f/m/d) (H/F)",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "bd68120432aab77a",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/ODQxMTA2MCA5?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/ODQxMTA2MCA5?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "bd7be796a65bb9e6": {
     "company": "SUPER U OLEMPS",
@@ -48741,10 +48994,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "et"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -48754,20 +49008,23 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-20",
-    "score": 48,
+    "score": 45,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
-      "tier_3_country",
-      "fresh_posting"
+      "agency_relocation_text_mention",
+      "tier_3_country"
     ],
     "source": "eures",
     "source_id": "MTY2NjI5MyA4",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Laotöötaja-komplekteerija",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "d781c913d399763c",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjI5MyA4?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjI5MyA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "d7b0423f917c923d": {
     "company": "Primark",
@@ -48842,8 +49099,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Dudelange, L0L, Luxembourg",
     "matched_keywords": [
       "ett",
@@ -48852,21 +49110,24 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-30",
-    "score": 50,
+    "score": 46,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-2f61f0d0aae5e2fd",
-    "summary_ar": "الموقع: Dudelange, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Dudelange, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Etudiant - Préparateur de commandes Drive (H-F)",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "d7cf8915031b3b75",
-    "url": "https://app.skeeled.com/offer/c/6ae4998b3b6dbc16de4d9023"
+    "url": "https://app.skeeled.com/offer/c/6ae4998b3b6dbc16de4d9023",
+    "url_provenance": "",
+    "url_verified": null
   },
   "d7f8bae41e3164e6": {
     "company": "Remondis Infinitum AB",
@@ -49895,43 +50156,6 @@
     "uid": "dd0b83064f8ad259",
     "url": "https://www.jenprace.cz/nabidka/op9pq4/operator-ka-vyroby2-smeny-25-dni-dovolene-mesicni-bonusy"
   },
-  "dd4444e595f09534": {
-    "company": "OK Plus Kolding",
-    "country": "DK",
-    "description": "**Ungarbejder søges til pakkehåndtering hos OK Plus Sommerfuglevej**\n\nEr du mindst **14 år**, og har du lyst til et fritidsjob, hvor du får ansvar og en varieret arbejdsdag?\n\nVi søger pakke medarbejdere under 18 år til vores OK Plus team på Sommerfuglevej i Kolding.\n\nDine primære opgaver vil være:\n\n* Udlevering af pakker til kunder\n* Opsætning og sortering af pakker\n* Hjælpe med at holde orden i pakkeområdet\n* Lettere opgaver i butikken efter behov\n\nVi søger dig, der er mødestabil**,** ansvarsbevidstogserviceminded, og som kan lide at have kontakt med kunder. Du skal kunne arbejde selvstændigt og samtidig være en god del af teamet.\n\nDine arbejdstider vil i hverdagene være i tidsrummet fra 14-19 og i weekender mellem 8-19.\n\nStillingen er oplagt som fritidsjob vedsidenaf skole, og arbejdstiderne aftales efter behov og din skoleplan.\n\n**Minimum 14 år.**\n\nHar du lyst til at blive en del af vores team? Så send en ansøgning til 607@ok.dk eller her via. Indeed.\n\nForventet timeantal: Ikke mere end 8.0 pr. uge\n\nArbejdssted: Personligt fremmøde",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-02",
-    "glossary": [],
-    "languages": [],
-    "last_seen": "2026-11-03",
-    "location": "Kolding, D83, Denmark",
-    "matched_keywords": [
-      "ett",
-      "pakker",
-      "sorter"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-04",
-    "score": 45,
-    "signals": [
-      "unskilled_role_match",
-      "agency_relocation_text_mention",
-      "tier_3_country"
-    ],
-    "source": "jobspy_indeed",
-    "source_id": "in-2b70dbe35ded0751",
-    "summary_ar": "عبارات وردت في نص الإعلان: يذكر الإعلان: وكالة/إعادة توطين\nالموقع: Kolding, D83, Denmark\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "Ungarbejder søges til Pakkehåndtering",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
-    "uid": "dd4444e595f09534",
-    "url": "https://dk.indeed.com/viewjob?jk=2b70dbe35ded0751",
-    "url_provenance": "reconstructed_from_source_key",
-    "url_verified": false
-  },
   "dd58c25b7e073663": {
     "company": "Selekt Vikar og Rekruttering ApS",
     "country": "DK",
@@ -49968,38 +50192,6 @@
     "translated": false,
     "uid": "dd58c25b7e073663",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/Nzc3Y2IwYTAtYTM3Mi00YzUzLWE5MjUtZDQyZGUzZmZlNjcwIDc?lang=en"
-  },
-  "ddf155165d9624ec": {
-    "company": "EUROMARK - TRGOVINA IN MARKETING, D.O.O. KOPER, Vojkovo nabrežje 32 , 6000 KOPER - CAPODISTRIA",
-    "country": "SI",
-    "description": "SKLADIŠČNIK, poskusno delo 3 mesece, Določen čas, 12 mesecev, Polni delovni čas, 40, Zadolžitve: • razkladanje in nakladanje blaga z viličarjem • prevzem blaga in izdaja blaga • priprava in izdaja blaga v skladu z naročili • inventura blaga • skrb za red in čistočo • ostala dela po navodilih nadrejenihPričakujemo: • najmanj osnovno računalniško znanje • izpit za viličarja (ni pogoj, lahko se ga opravi naknadno) • najmanj 1 leto izkušenj z upravljanjem viličarja (pogoj) • zanesljivost in odgovornost do delaNudimo: • enoizmensko delo, od ponedeljka do petka • možnost sklenitve pogodbe za nedoločen čas • delo v urejenem okolju in podjetju, , enoizmensko delo, od ponedeljka do petka",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-02",
-    "languages": [
-      "sl"
-    ],
-    "last_seen": "2026-11-02",
-    "location": "SI044",
-    "matched_keywords": [
-      "skladiscnik"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-04",
-    "score": 30,
-    "signals": [
-      "unskilled_role_match",
-      "tier_3_country"
-    ],
-    "source": "eures",
-    "source_id": "MzQ4ODU2NSAxNA",
-    "summary_ar": "الموقع: SI044\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "SKLADIŠČNIK - M/Ž",
-    "title_en": "",
-    "translated": false,
-    "uid": "ddf155165d9624ec",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ4ODU2NSAxNA?lang=en"
   },
   "ddf16c30a638e4ec": {
     "company": "Sam Dennigan",
@@ -50696,6 +50888,42 @@
     "translated": false,
     "uid": "e0dcb0410f1934c5",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTc0MDQzNDggNDM?lang=en"
+  },
+  "e0e66d29144e8c6c": {
+    "company": "Sodexo",
+    "country": "LU",
+    "description": "### **Société**\n\n**Travailler chez Sodexo, c'est plus qu'un job, c'est faire partie d'une aventure humaine où nos actions du quotidien ont un impact fort.**\n\n**C'est Appartenir à une équipe qui vous permet d'Agir avec conviction et de Grandir au quotidien.**\n\n### **Fonction**\n\nEn tant qu'Agent·e de service à mi-temps chez An de Wisen à Bettembourg, vos talents seront mis à profit au quotidien pour la réalisation de tâches polyvalentes, telles que :\n\n* Assurer le **service à table au restaurant et à la cafétéria** dans le respect des standards de qualité.\n* Dresser et débarrasser les tables afin de garantir un **environnement accueillant pour les convives.**\n* Accueillir et orienter les résident·e·s et visiteurs avec **courtoisie et professionnalisme.**\n* Participer au réassort et à la bonne **organisation des espaces de restauration.**\n* Participer au **nettoyage** et à l’entretien des postes de travail, des locaux et du matériel.\n* Être garant de la **qualité** de notre prestation.\n* Appliquer les normes **HACCP** pour veiller au respect de l'hygiène alimentaire.\n\n### **Profil**\n\n* Idéalement, vous disposez d’une **première expérience professionnelle** dans le milieu de la restauration collective.\n* **Serviable et dynamique**, vous cherchez à satisfaire les attentes des convives.\n* Le **travail en équipe** est une valeur importante pour vous.\n* Vous maîtrisez le **français** (oral et écrit).\n* Polyvalent et flexible, vous êtes disponible **entre 9.00 h et 21.00 h du lundi au dimanche** (2 weekends par mois maximum).\n\n### **Offre**\n\n* Un CDI de 20h/semaine.\n* Des horaires continus répartis entre 9h00 et 21h00 du lundi au dimanche.\n* Un parking gratuit et la proximité de la gare.\n* Des formations continues pour développer vos compétences.\n* Un poste au sein d'une équipe soudée avec des valeurs humaines fortes, dans une ambiance chaleureuse.\n* Un employeur socialement engagé, favorisant l'équilibre entre vie professionnelle et vie privée.\n* L’opportunité d’évoluer dans un groupe international en pleine croissance, avec des perspectives selon vos compétences et votre motivation.\n\n**Besoin d’un accompagnement pendant votre candidature ou votre entretien ?**\n\nNotre équipe recrutement est à votre disposition pour vous aider. Chez Sodexo, nous veillons à ce que chaque étape du processus soit équitable et accessible à tous.\n\nNous traiterons les candidatures dans un respect de la confidentialité des données.\n\nVeuillez noter qu'un extrait de casier judiciaire vous sera demandé.\n\n**Rejoignez une entreprise engagée !** **Chez Sodexo, nous plaçons la responsabilité sociétale, la diversité et l’inclusion au cœur de notre mission. Ensemble, construisons un avenir plus juste et durable !**\n\nRetrouvez toutes nos offres d'emploi sur https://jobs.lu.sodexo.com/index.aspx",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-04",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-04",
+    "location": "Bertrange, L0L, Luxembourg",
+    "matched_keywords": [
+      "ett",
+      "nettoyage"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-09",
+    "score": 40,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_3_country"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-dc68893453f873b8",
+    "summary_ar": "",
+    "title": "Agent de service (m/f/x) - CDD, 20h/semaine",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "e0e66d29144e8c6c",
+    "url": "https://jobs.lu.sodexo.com/fr/vacature/reference/LUINLUF126265/application-form.aspx",
+    "url_provenance": "",
+    "url_verified": null
   },
   "e11ba405d089636a": {
     "company": "Roerink Food Family",
@@ -52407,10 +52635,11 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [
       "da"
     ],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "",
     "matched_keywords": [
       "ett",
@@ -52419,21 +52648,23 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-19",
-    "score": 58,
+    "score": 55,
     "signals": [
       "no_exp_or_training_mention",
-      "agency_or_relocation_mention",
-      "tier_3_country",
-      "fresh_posting"
+      "agency_relocation_text_mention",
+      "tier_3_country"
     ],
     "source": "eures",
     "source_id": "MTU5ZThjN2MtNDc3Yy00OGYzLWEwOGUtYmU5NjYzYzUxN2NlIDc",
-    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب؛ وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Taler du islandsk? Vi søger dig lige nu til en stilling i Bulgarien - Flyttepakke tilbydes!",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "e9749c4d8b44cced",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTU5ZThjN2MtNDc3Yy00OGYzLWEwOGUtYmU5NjYzYzUxN2NlIDc?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTU5ZThjN2MtNDc3Yy00OGYzLWEwOGUtYmU5NjYzYzUxN2NlIDc?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "e9987d88739e9357": {
     "company": "PCO - Montážní dílna, s.r.o.",
@@ -52966,38 +53197,6 @@
     "uid": "ec354a17171d4c11",
     "url": "https://arbetsformedlingen.se/platsbanken/annonser/31645912"
   },
-  "ec58065655aa5993": {
-    "company": "ORPI TRGOVINA, MARKETING, SVETOVANJE, D.O.O., Morava 45 , 1338 KOČEVSKA REKA",
-    "country": "SI",
-    "description": "VOZNIK LAHKEGA DOSTAVNEGA VOZILA, poskusno delo , Določen čas, 2 meseca oz. po potrebi, Polni delovni čas, 40, Razvoz in dostava blaga po Sloveniji. Pomoč v skladišču, priprava materiala po dobavnicah. Skladiščenje in priprava pirotehnike., , Občasno po potrebi tudi bolj gibljiv urnik",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-02",
-    "languages": [
-      "sl"
-    ],
-    "last_seen": "2026-11-02",
-    "location": "SI037",
-    "matched_keywords": [
-      "skladiscnik"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-04",
-    "score": 30,
-    "signals": [
-      "unskilled_role_match",
-      "tier_3_country"
-    ],
-    "source": "eures",
-    "source_id": "MzQ4ODQ0NSAxNA",
-    "summary_ar": "الموقع: SI037\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "VOZNIK - SKLADIŠČNIK - M/Ž",
-    "title_en": "",
-    "translated": false,
-    "uid": "ec58065655aa5993",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ4ODQ0NSAxNA?lang=en"
-  },
   "ec7e6a9111a6f229": {
     "company": "ROCKWOOL Group",
     "country": "DK",
@@ -53513,6 +53712,44 @@
     "translated": false,
     "uid": "ee168f4a92d6ad42",
     "url": "https://fr.indeed.com/viewjob?jk=0b329d387eea68da"
+  },
+  "ee2265b080958edd": {
+    "company": "Non renseigné",
+    "country": "LU",
+    "description": "Pour le compte d'une institution financier/ière de référence sur la place bancaire luxembourgeoise, Le Grand & Associates recrute un(e) Contrôleur des opérations de fonds (F/H).Au sein du département dédié aux investissements non cotés (Private Debt & Real Assets), vous rejoignez une équipe d'experts à taille humaine. Vous agissez en véritable pivot opérationnel entre le Front Office, les gérants de portefeuille, la banque dépositaire et les contreparties de marché.Missions & Responsabilités Oversight & Supervision des NAV : Contrôle de second niveau des valeurs liquidatives produites par l'administrateur central, revue des modèles de valorisation et coordination des reportings financiers destinés aux investisseurs institutionnels. Gestion du cycle de vie du crédit (Loan Operations) : Suivi administratif et financier des facilités de crédit (appels de fonds, tirages d'emprunts, calcul des intérêts/coupons, amortissements et remboursements de capital). Cash Management & Trésorerie : Pilotage des flux bancaires, suivi de la liquidité, réconciliation des comptes dépositaires et suivi des lignes de financement de court terme (subscription facilities). Coordination des transactions & Structuration : Support opérationnel aux opérations de closing, participation à l'implémentation de nouveaux s d'investissement (SCSp, RAIF, SICAV) et sécurisation des flux de souscription/rachat. Pilotage des prestataires & Relations tiers : Suivi qualitatif des dépositaires, agents de transfert et auditeurs dans le respect des accords de niveau de service (SLA/KPI). Efficacité opérationnelle & Projets : Rationalisation des circuits d'information, fiabilisation des référentiels de données et participation active aux projets d'automatisation des processus. Profil recherché Formation : Bac+5 (Master 2, École de Commerce ou Université) avec spécialisation en Finance d'entreprise, Banque ou Marchés financiers. Expérience : 3 à 5 ans sur des fonctions similaires (Middle Office, Fund Operations, Administration de fonds) au sein d'un établissement bancaire, d'une AIFM ou d'un asset servicer, avec une exposition concrète aux stratégies de dette privée ou de marchés privés. Compétences techniques : Maîtrise des instruments de dette, des flux de règlement/livraison, de la réconciliation bancaire et des principes comptables applicables aux fonds alternatifs luxembourgeois. Qualités : Rigueur opérationnelle, esprit de synthèse, posture proactive et capacité à dialoguer avec des interlocuteurs de haut niveau (Gérants, Direction des risques, Auditeurs). Langues : Maîtrise professionnelle courant/ante du français et de l'anglais, à l'écrit comme à l'oral. Avantages & Environnement Rémunération : Package salarial compétitif avec bonus annuel à la performance. Avantages extralégaux : Plan de pension complémentaire, couverture /prévoyance complète, chèques-repas. Organisation : Cadre de travail flexible avec accords de télétravail. Contexte : Visibilité directe sur les opérations au sein d'une équipe resserrée, combinant l'agilité d'une structure dédiée et la solidité d'un grand groupe bancaire. Envie de relever ce défi ou d'explorer d'autres horizons ? Que cette opportunité corresponde exactement à vos attentes ou que vous soyez simplement à l'écoute du marché pour d'autres postes en finance, n'hésitez pas à nous contacter. Transmettez-nous votre CV en toute confidentialité ou écrivez-nous pour échanger sur votre projet professionnel à l'adresse suivant/ante :",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-04",
+    "glossary": [],
+    "languages": [
+      "fr"
+    ],
+    "last_seen": "2026-11-04",
+    "location": "",
+    "matched_keywords": [
+      "ett",
+      "serre"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-19",
+    "score": 40,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_3_country"
+    ],
+    "source": "eures",
+    "source_id": "ODA0NTEyNiA5",
+    "summary_ar": "",
+    "title": "Contrôleur des opérations de fonds (F/H)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "ee2265b080958edd",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/ODA0NTEyNiA5?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "ee5632e1025056e0": {
     "company": "Auchan",
@@ -54191,8 +54428,9 @@
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-04",
     "location": "Bascharage, L0L, Luxembourg",
     "matched_keywords": [
       "operateur de production"
@@ -54209,12 +54447,13 @@
     "source_id": "in-01c30d2140e0da42",
     "summary_ar": "الموقع: Bascharage, L0L, Luxembourg\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Opérateur de production (H/F)",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "f19584a4f309ff53",
     "url": "https://lu.indeed.com/viewjob?jk=01c30d2140e0da42",
-    "url_provenance": "reconstructed_from_source_key",
-    "url_verified": false
+    "url_provenance": "",
+    "url_verified": null
   },
   "f1c8626cabe11e70": {
     "company": "Office People GmbH Niederlassung Chemnitz Personaldienstleitungen",
@@ -54689,38 +54928,6 @@
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MjE1MzQgMTI?lang=en",
     "url_provenance": "",
     "url_verified": null
-  },
-  "f45fd5e71a544242": {
-    "company": "MIX, PODJETJE ZA TRGOVINO Z GRADBENIM IN INSTALACIJSKIM MATERIALOM IN PREVOZNE STORITVE D.O.O., Stegne 15 , 1000 LJUBLJANA",
-    "country": "SI",
-    "description": "SKLADIŠČNIK, poskusno delo 6 mesecev, Nedoločen čas , Polni delovni čas, 40, Sprejemanje in izdajanje blaga, nalaganje blaga na vozila, urejanje skladišča ter komunikacija s strankami., ,",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-02",
-    "languages": [
-      "sl"
-    ],
-    "last_seen": "2026-11-02",
-    "location": "SI041",
-    "matched_keywords": [
-      "skladiscnik"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-04",
-    "score": 30,
-    "signals": [
-      "unskilled_role_match",
-      "tier_3_country"
-    ],
-    "source": "eures",
-    "source_id": "MzQ4ODQxNyAxNA",
-    "summary_ar": "الموقع: SI041\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "SKLADIŠČNIK - M/Ž",
-    "title_en": "",
-    "translated": false,
-    "uid": "f45fd5e71a544242",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ4ODQxNyAxNA?lang=en"
   },
   "f48fb109d471e065": {
     "company": "Ramexo Invest OÜ",
