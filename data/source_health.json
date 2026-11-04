@@ -53,14 +53,14 @@
       "status": "ok"
     },
     "anyworkanywhere|CZ": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "CZ",
-      "duration_sec": 21.4,
+      "duration_sec": 21.7,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1499 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
@@ -71,14 +71,14 @@
       "status": "ok"
     },
     "anyworkanywhere|DE": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "DE",
-      "duration_sec": 22.1,
+      "duration_sec": 21.3,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1499 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
@@ -142,14 +142,14 @@
       "status": "ok"
     },
     "anyworkanywhere|HU": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "HU",
-      "duration_sec": 21.2,
+      "duration_sec": 21.9,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1499 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
@@ -197,14 +197,14 @@
       "status": "ok"
     },
     "anyworkanywhere|LT": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "LT",
-      "duration_sec": 21.3,
+      "duration_sec": 21.7,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1499 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
@@ -233,14 +233,14 @@
       "status": "ok"
     },
     "anyworkanywhere|NL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "NL",
-      "duration_sec": 22.0,
+      "duration_sec": 21.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1499 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
@@ -251,18 +251,18 @@
       "status": "ok"
     },
     "anyworkanywhere|PL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "PL",
-      "duration_sec": 54.2,
+      "duration_sec": 58.2,
       "errors": [],
-      "fetched": 1,
+      "fetched": 0,
       "kept": 0,
       "notes": [],
       "source": "anyworkanywhere",
       "stats": {
-        "other_country": 9,
+        "other_country": 10,
         "pages_fetched": 10,
-        "sitemap_urls": 1499,
+        "sitemap_urls": 1502,
         "urls_consumed": 10
       },
       "status": "ok"
@@ -286,38 +286,38 @@
       "status": "ok"
     },
     "anyworkanywhere|RO": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "RO",
-      "duration_sec": 21.1,
+      "duration_sec": 21.4,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1499 sitemap urls fetched earlier this run"
-      ],
-      "source": "anyworkanywhere",
-      "stats": {
-        "other_country": 10,
-        "pages_fetched": 10,
-        "urls_consumed": 60
-      },
-      "status": "ok"
-    },
-    "anyworkanywhere|SK": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
-      "country": "SK",
-      "duration_sec": 21.3,
-      "errors": [],
-      "fetched": 0,
-      "kept": 0,
-      "notes": [
-        "reused 1499 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
         "other_country": 9,
         "pages_fetched": 10,
         "unparsable_pages": 1,
+        "urls_consumed": 60
+      },
+      "status": "ok"
+    },
+    "anyworkanywhere|SK": {
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
+      "country": "SK",
+      "duration_sec": 21.3,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "reused 1502 sitemap urls fetched earlier this run"
+      ],
+      "source": "anyworkanywhere",
+      "stats": {
+        "other_country": 10,
+        "pages_fetched": 10,
         "urls_consumed": 70
       },
       "status": "ok"
@@ -810,7 +810,7 @@
       "status": "skipped"
     },
     "covebo|CZ": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -824,7 +824,7 @@
       "status": "skipped"
     },
     "covebo|DE": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -880,7 +880,7 @@
       "status": "skipped"
     },
     "covebo|HU": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -922,7 +922,7 @@
       "status": "skipped"
     },
     "covebo|LT": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -950,9 +950,9 @@
       "status": "skipped"
     },
     "covebo|NL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "NL",
-      "duration_sec": 35.8,
+      "duration_sec": 41.2,
       "errors": [],
       "fetched": 10,
       "kept": 2,
@@ -961,12 +961,12 @@
       "stats": {
         "country_assumed_from_source": "NL",
         "pages_fetched": 10,
-        "sitemap_urls": 286
+        "sitemap_urls": 289
       },
       "status": "ok"
     },
     "covebo|PL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -994,7 +994,7 @@
       "status": "skipped"
     },
     "covebo|RO": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -1008,7 +1008,7 @@
       "status": "skipped"
     },
     "covebo|SK": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -1085,9 +1085,9 @@
       "status": "ok"
     },
     "eures|CZ": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "CZ",
-      "duration_sec": 4.9,
+      "duration_sec": 3.4,
       "errors": [],
       "fetched": 50,
       "kept": 37,
@@ -1097,12 +1097,12 @@
       "status": "ok"
     },
     "eures|DE": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "DE",
-      "duration_sec": 3.9,
+      "duration_sec": 5.6,
       "errors": [],
       "fetched": 50,
-      "kept": 48,
+      "kept": 45,
       "notes": [],
       "source": "eures",
       "stats": {},
@@ -1193,9 +1193,9 @@
       "status": "ok"
     },
     "eures|HU": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "HU",
-      "duration_sec": 11.0,
+      "duration_sec": 9.6,
       "errors": [],
       "fetched": 50,
       "kept": 4,
@@ -1229,11 +1229,11 @@
       "status": "ok"
     },
     "eures|LT": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "LT",
-      "duration_sec": 71.7,
+      "duration_sec": 73.3,
       "errors": [],
-      "fetched": 9,
+      "fetched": 8,
       "kept": 2,
       "notes": [
         "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
@@ -1279,9 +1279,9 @@
       "status": "ok"
     },
     "eures|NL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "NL",
-      "duration_sec": 7.7,
+      "duration_sec": 3.8,
       "errors": [],
       "fetched": 50,
       "kept": 40,
@@ -1291,12 +1291,12 @@
       "status": "ok"
     },
     "eures|PL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "PL",
-      "duration_sec": 3.0,
+      "duration_sec": 5.2,
       "errors": [],
       "fetched": 50,
-      "kept": 41,
+      "kept": 38,
       "notes": [],
       "source": "eures",
       "stats": {},
@@ -1315,12 +1315,12 @@
       "status": "ok"
     },
     "eures|RO": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "RO",
-      "duration_sec": 6.1,
+      "duration_sec": 5.3,
       "errors": [],
       "fetched": 50,
-      "kept": 37,
+      "kept": 36,
       "notes": [],
       "source": "eures",
       "stats": {},
@@ -1351,9 +1351,9 @@
       "status": "ok"
     },
     "eures|SK": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "SK",
-      "duration_sec": 5.7,
+      "duration_sec": 5.3,
       "errors": [],
       "fetched": 50,
       "kept": 14,
@@ -1393,7 +1393,7 @@
       "status": "skipped"
     },
     "goodmorning|CZ": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -1407,7 +1407,7 @@
       "status": "skipped"
     },
     "goodmorning|DE": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1463,7 +1463,7 @@
       "status": "skipped"
     },
     "goodmorning|HU": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -1505,7 +1505,7 @@
       "status": "skipped"
     },
     "goodmorning|LT": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1533,9 +1533,9 @@
       "status": "skipped"
     },
     "goodmorning|NL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "NL",
-      "duration_sec": 36.1,
+      "duration_sec": 45.1,
       "errors": [],
       "fetched": 10,
       "kept": 9,
@@ -1549,7 +1549,7 @@
       "status": "ok"
     },
     "goodmorning|PL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -1577,7 +1577,7 @@
       "status": "skipped"
     },
     "goodmorning|RO": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -1591,7 +1591,7 @@
       "status": "skipped"
     },
     "goodmorning|SK": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -1647,7 +1647,7 @@
       "status": "skipped"
     },
     "hobij|CZ": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -1661,7 +1661,7 @@
       "status": "skipped"
     },
     "hobij|DE": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1717,7 +1717,7 @@
       "status": "skipped"
     },
     "hobij|HU": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -1759,7 +1759,7 @@
       "status": "skipped"
     },
     "hobij|LT": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1787,9 +1787,9 @@
       "status": "skipped"
     },
     "hobij|NL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "NL",
-      "duration_sec": 42.6,
+      "duration_sec": 50.1,
       "errors": [],
       "fetched": 10,
       "kept": 6,
@@ -1803,7 +1803,7 @@
       "status": "ok"
     },
     "hobij|PL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -1831,7 +1831,7 @@
       "status": "skipped"
     },
     "hobij|RO": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -1845,7 +1845,7 @@
       "status": "skipped"
     },
     "hobij|SK": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -1911,24 +1911,24 @@
       "status": "skipped"
     },
     "jobspy|CZ": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "CZ",
-      "duration_sec": 7.3,
+      "duration_sec": 5.8,
       "errors": [],
       "fetched": 50,
-      "kept": 37,
+      "kept": 36,
       "notes": [],
       "source": "jobspy",
       "stats": {},
       "status": "ok"
     },
     "jobspy|DE": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "DE",
-      "duration_sec": 10.6,
+      "duration_sec": 5.8,
       "errors": [],
       "fetched": 50,
-      "kept": 46,
+      "kept": 47,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -2023,9 +2023,9 @@
       "status": "skipped"
     },
     "jobspy|HU": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "HU",
-      "duration_sec": 21.7,
+      "duration_sec": 23.6,
       "errors": [],
       "fetched": 33,
       "kept": 25,
@@ -2059,7 +2059,7 @@
       "status": "ok"
     },
     "jobspy|LT": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2113,24 +2113,24 @@
       "status": "skipped"
     },
     "jobspy|NL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "NL",
-      "duration_sec": 11.3,
+      "duration_sec": 10.5,
       "errors": [],
       "fetched": 50,
-      "kept": 35,
+      "kept": 37,
       "notes": [],
       "source": "jobspy",
       "stats": {},
       "status": "ok"
     },
     "jobspy|PL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "PL",
-      "duration_sec": 15.3,
+      "duration_sec": 12.4,
       "errors": [],
       "fetched": 50,
-      "kept": 20,
+      "kept": 24,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -2149,12 +2149,12 @@
       "status": "ok"
     },
     "jobspy|RO": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "RO",
-      "duration_sec": 26.3,
+      "duration_sec": 22.4,
       "errors": [],
-      "fetched": 11,
-      "kept": 6,
+      "fetched": 14,
+      "kept": 8,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -2187,7 +2187,7 @@
       "status": "skipped"
     },
     "jobspy|SK": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -2633,9 +2633,9 @@
       "status": "ok"
     },
     "nl_jobs|CZ": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "CZ",
-      "duration_sec": 4.2,
+      "duration_sec": 4.9,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -2651,9 +2651,9 @@
       "status": "ok"
     },
     "nl_jobs|DE": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "DE",
-      "duration_sec": 4.2,
+      "duration_sec": 5.7,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -2722,9 +2722,9 @@
       "status": "ok"
     },
     "nl_jobs|HU": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "HU",
-      "duration_sec": 5.1,
+      "duration_sec": 6.2,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -2776,9 +2776,9 @@
       "status": "ok"
     },
     "nl_jobs|LT": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "LT",
-      "duration_sec": 4.9,
+      "duration_sec": 5.7,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -2812,9 +2812,9 @@
       "status": "ok"
     },
     "nl_jobs|NL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "NL",
-      "duration_sec": 19.7,
+      "duration_sec": 24.5,
       "errors": [],
       "fetched": 6,
       "kept": 6,
@@ -2829,9 +2829,9 @@
       "status": "ok"
     },
     "nl_jobs|PL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "PL",
-      "duration_sec": 5.3,
+      "duration_sec": 6.1,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -2864,9 +2864,9 @@
       "status": "ok"
     },
     "nl_jobs|RO": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "RO",
-      "duration_sec": 4.5,
+      "duration_sec": 5.9,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -2882,9 +2882,9 @@
       "status": "ok"
     },
     "nl_jobs|SK": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "SK",
-      "duration_sec": 4.9,
+      "duration_sec": 5.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -2942,7 +2942,7 @@
       "status": "skipped"
     },
     "ottoworkforce|CZ": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -2956,7 +2956,7 @@
       "status": "skipped"
     },
     "ottoworkforce|DE": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -3012,7 +3012,7 @@
       "status": "skipped"
     },
     "ottoworkforce|HU": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -3054,7 +3054,7 @@
       "status": "skipped"
     },
     "ottoworkforce|LT": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -3082,9 +3082,9 @@
       "status": "skipped"
     },
     "ottoworkforce|NL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "NL",
-      "duration_sec": 52.4,
+      "duration_sec": 278.3,
       "errors": [],
       "fetched": 9,
       "kept": 3,
@@ -3094,12 +3094,12 @@
         "country_assumed_from_source": "NL",
         "early_title_excluded": 1,
         "pages_fetched": 10,
-        "sitemap_urls": 160
+        "sitemap_urls": 161
       },
       "status": "ok"
     },
     "ottoworkforce|PL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -3127,7 +3127,7 @@
       "status": "skipped"
     },
     "ottoworkforce|RO": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -3141,7 +3141,7 @@
       "status": "skipped"
     },
     "ottoworkforce|SK": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -3197,7 +3197,7 @@
       "status": "skipped"
     },
     "pl_cbop|CZ": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -3211,7 +3211,7 @@
       "status": "skipped"
     },
     "pl_cbop|DE": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -3267,7 +3267,7 @@
       "status": "skipped"
     },
     "pl_cbop|HU": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -3309,7 +3309,7 @@
       "status": "skipped"
     },
     "pl_cbop|LT": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -3337,7 +3337,7 @@
       "status": "skipped"
     },
     "pl_cbop|NL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "NL",
       "duration_sec": 0.0,
       "errors": [],
@@ -3351,9 +3351,9 @@
       "status": "skipped"
     },
     "pl_cbop|PL": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "PL",
-      "duration_sec": 22.4,
+      "duration_sec": 24.8,
       "errors": [],
       "fetched": 50,
       "kept": 50,
@@ -3379,7 +3379,7 @@
       "status": "skipped"
     },
     "pl_cbop|RO": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -3393,7 +3393,7 @@
       "status": "skipped"
     },
     "pl_cbop|SK": {
-      "checked_at_utc": "2026-11-04T06:29:21+00:00",
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -3785,6 +3785,12 @@
   },
   "recent_runs": [
     {
+      "checked_at_utc": "2026-11-04T18:24:39+00:00",
+      "failing": 0,
+      "label": "tier=1 sources=anyworkanywhere,covebo,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop",
+      "source_country_records": 72
+    },
+    {
       "checked_at_utc": "2026-11-04T06:29:21+00:00",
       "failing": 0,
       "label": "tier=1 sources=anyworkanywhere,covebo,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop",
@@ -3881,5 +3887,5 @@
       "source_country_records": 8
     }
   ],
-  "updated_utc": "2026-11-04T06:29:21+00:00"
+  "updated_utc": "2026-11-04T18:24:39+00:00"
 }
