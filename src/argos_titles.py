@@ -456,8 +456,10 @@ _FORM_ONLY_AR = frozenset({
 
 _ROLE_QUALIFIERS = frozenset({
     "junior", "senior", "experienced", "trainee", "apprentice", "intern",
-    "under", "over", "qc", "fitter", "fashion", "clothing", "production",
-    "supervisor", "manager", "lead", "chief", "head"})
+    "under", "over", "qc", "qa", "fitter", "fashion", "clothing",
+    "production", "supervisor", "manager", "lead", "chief", "head",
+    "inspector", "specialist", "controller", "coordinator", "technician",
+    "engineer", "assistant", "technical"})
 
 
 def arabic_gloss(title_en: str):
@@ -503,11 +505,13 @@ def arabic_gloss(title_en: str):
     if full and any(a in _AMBIGUOUS_AR for _, _, a in hits):
         full = False
     # Clock-time spans (shift hours like 14:30 - 23:30) and decimal pay
-    # figures are schedule/pay qualifiers no reviewed term covers; only
-    # letter-words feed the coverage check, so mark them explicitly:
-    # their presence must never allow a "full" claim.
-    if full and __import__("re").search(r"\d{1,2}[:.]\d{2}", folded):
-        full = False
+    # figures are material schedule/pay qualifiers no reviewed term covers
+    # and only letter-words feed the coverage check. Never drop them
+    # silently and never hide them behind a partial label: carry the exact
+    # digits verbatim into the gloss.
+    spans = __import__("re").findall(r"\d{1,2}[:.]\d{2}", folded)
+    if spans:
+        gloss = gloss + " (" + " - ".join(spans) + ")"
     return gloss, full
 
 

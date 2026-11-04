@@ -313,11 +313,24 @@ def test_forms_only_and_forklift_gloss():
     assert "رافعة شوكية" in arabic_for_english_title("Forklift driver m/f/d - Tempelhof")
 
 
-def test_shift_hours_and_pay_figures_block_full_coverage():
+def test_shift_hours_and_pay_figures_carried_verbatim():
     from src.argos_titles import arabic_for_english_title
     out = arabic_for_english_title("Order Picker & Packer (14:30 - 23:30)")
-    assert "ترجمة جزئية" in out
-    assert "ترجمة جزئية" in arabic_for_english_title("Warehouse worker 18.50 EUR")
+    assert out == "عامل تجميع الطلبات / عامل تعبئة (14:30 - 23:30)"
+    # pay digits preserved verbatim; EUR word uncovered keeps partial marker
+    out2 = arabic_for_english_title("Warehouse worker 18.50 EUR")
+    assert "18.50" in out2 and "ترجمة جزئية" in out2
+
+
+def test_role_level_words_never_dropped_behind_partial():
+    from src.argos_titles import arabic_for_english_title
+    for t in ("QA Inspector/Packer",
+              "WAREHOUSE OPERATIVE SPECIALIST - DC BOLOGNA",
+              "Warehouse Operative/Stock Controller",
+              "Manufacturing Technician/General Operative/Site Operatives",
+              "Technical warehouse employee E/W",
+              "Delivery Driver/ Warehouse Assistant"):
+        assert arabic_for_english_title(t) == "", t
 
 
 def test_spelled_out_gender_markers_are_ignorable():
