@@ -132,7 +132,6 @@ TITLE_AR_VOCAB = {
     "transport worker": "عامل نقل",
     "terminal worker": "عامل محطة فرز",
     "production operator": "مشغل إنتاج",
-    "driver": "سائق",
     "salesperson": "بائع",
 }
 
