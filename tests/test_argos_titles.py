@@ -316,7 +316,7 @@ def test_forms_only_and_forklift_gloss():
 def test_shift_hours_and_pay_figures_carried_verbatim():
     from src.argos_titles import arabic_for_english_title
     out = arabic_for_english_title("Order Picker & Packer (14:30 - 23:30)")
-    assert out == "عامل تجميع الطلبات / عامل تعبئة (14:30 - 23:30)"
+    assert out == "عامل تجميع الطلبات / عامل تعبئة (\u206614:30 - 23:30\u2069)"
     # pay digits preserved verbatim; EUR word uncovered keeps partial marker
     out2 = arabic_for_english_title("Warehouse worker 18.50 EUR")
     assert "18.50" in out2 and "ترجمة جزئية" in out2

@@ -511,7 +511,7 @@ def arabic_gloss(title_en: str):
     # digits verbatim into the gloss.
     spans = __import__("re").findall(r"\d{1,2}[:.]\d{2}", folded)
     if spans:
-        gloss = gloss + " (" + " - ".join(spans) + ")"
+        gloss = gloss + " (\u2066" + " - ".join(spans) + "\u2069)"
     return gloss, full
 
 
