@@ -336,3 +336,19 @@ def test_role_level_words_never_dropped_behind_partial():
 def test_spelled_out_gender_markers_are_ignorable():
     from src.argos_titles import arabic_for_english_title
     assert arabic_for_english_title("Warehouse Worker (male/female)") == "عامل مستودع"
+
+
+def test_driving_duties_and_career_paths_fail_pending():
+    from src.argos_titles import arabic_for_english_title
+    for title in (
+        "Warehouse operative (with some van driver duties)",
+        "Warehouse worker with driving duties",
+        "Warehouse worker / van driver",
+        "Order picker | Growth to Reach Truck Driver | Benthuizen",
+        "Order picker progression to forklift driver",
+        "Warehouse worker with delivery driver duties",
+    ):
+        assert arabic_for_english_title(title) == "", title
+    # Direct role names are still allowed; no blanket ban on driver roles.
+    assert arabic_for_english_title("Delivery driver") == "سائق توصيل"
+    assert arabic_for_english_title("Forklift driver") == "مشغل رافعة شوكية"

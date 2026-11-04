@@ -458,7 +458,7 @@ _ROLE_QUALIFIERS = frozenset({
     "under", "over", "qc", "qa", "fitter", "fashion", "clothing",
     "production", "supervisor", "manager", "lead", "chief", "head",
     "inspector", "specialist", "controller", "coordinator", "technician",
-    "engineer", "assistant", "technical"})
+    "engineer", "assistant", "technical", "driver", "driving", "drive"})
 
 
 def arabic_gloss(title_en: str):
@@ -472,6 +472,13 @@ def arabic_gloss(title_en: str):
     never present it as a full translation. Empty gloss when nothing
     matches."""
     folded = _fold(title_en)
+    # A driver's title can describe a current duty or only a future career
+    # path. Token matching cannot preserve that relation: fail pending,
+    # even when a reviewed driver term appears inside the phrase.
+    if (__import__("re").search(r"\b(?:driver|driving|drive)\b", folded)
+            and __import__("re").search(
+                r"\b(?:duties|duty|growth|progression|become|training)\b", folded)):
+        return "", False
     terms = sorted(TITLE_AR_VOCAB.items(), key=lambda kv: -len(kv[0]))
     hits = []  # (start, end, arabic)
     for term, arabic in terms:
