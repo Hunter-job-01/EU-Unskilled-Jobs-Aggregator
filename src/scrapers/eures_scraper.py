@@ -173,6 +173,15 @@ class EuresScraper:
                 seen_ids.add(jv_id)
                 job = self.map_vacancy(jv, country_code)
                 if job.title:
+                    # v6 stage C (L1): cheap title gate before scoring,
+                    # same verdict the other adapters apply
+                    # (disqualifier in title, or skilled/senior with no
+                    # unskilled keyword).
+                    reason = self.matrix.early_title_exclusion(job.title)
+                    if reason:
+                        result.stats["early_title_excluded"] = (
+                            result.stats.get("early_title_excluded", 0) + 1)
+                        continue
                     result.jobs.append(job)
             polite_sleep(self.req_delay)
         if result.errors:
