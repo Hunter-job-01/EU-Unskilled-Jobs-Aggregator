@@ -1,9 +1,27 @@
 """Reviewed-fills pipeline step: guards, idempotence, fail-safety."""
 import json
 
+from src.models import Job
 from src.reviewed_fills import apply_reviewed_fills
 from src.storage import JobStore
-from tests.test_storage import make_job, store_cfg
+
+
+def store_cfg(tmp_path):
+    return {
+        "data_dir": "data",
+        "active_jobs_file": "active_jobs.json",
+        "export_csv": "latest_export.csv",
+        "run_status_file": "run_status.json",
+        "retention_days": 30,
+    }
+
+
+def make_job(uid_seed, **kw):
+    base = dict(title=f"Magazynier {uid_seed}", company="ACME", country="PL",
+                source="eures", url=f"https://example.test/{uid_seed}",
+                uid=f"uid{uid_seed}", score=70)
+    base.update(kw)
+    return Job(**base)
 
 
 def _fill(uid, **kw):
