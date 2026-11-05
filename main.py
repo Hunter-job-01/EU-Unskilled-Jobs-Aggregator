@@ -150,6 +150,21 @@ def main(argv=None) -> int:
     started = time.time()
     statuses = {}
     scored_jobs = []
+    # v6 delta scraping: hand each scraper the store's source_ids for its
+    # source so pagination can early-stop on fully-known pages (EURES).
+    pre_store = store.load()
+    store._store = pre_store
+    known_ids_by_source = {}
+    for _rec in pre_store.values():
+        if _rec.get("source_id"):
+            known_ids_by_source.setdefault(_rec.get("source"), set()).add(_rec["source_id"])
+    for scraper in scrapers:
+        scraper.known_ids = set().union(
+            *(ids for name, ids in known_ids_by_source.items()
+              if name == scraper.name or name.startswith(scraper.name + "_"))) \
+        if any(name == scraper.name or name.startswith(scraper.name + "_")
+               for name in known_ids_by_source) else set()
+    results_by_pair = {}
     totals = {"fetched": 0, "excluded": 0, "below_min_score": 0}
 
     print("Running countries: {} | sources: {} | max-jobs/country/source: {}".format(
@@ -163,6 +178,7 @@ def main(argv=None) -> int:
             result = scraper.scrape_country(country, args.max_jobs)
             duration = time.time() - t0
             statuses[country][scraper.name] = result.to_status()
+            results_by_pair[(scraper.name, country)] = result
             totals["fetched"] += result.fetched
             kept = 0
             for job in result.jobs:
@@ -261,6 +277,32 @@ def main(argv=None) -> int:
                 job.title_ar = out
                 ar_done += 1
     added, updated = store.merge(scored_jobs)
+
+    # v6 lifecycle/dead-link tracking. A miss only counts against pairs
+    # this run covered fully (source ok/partial, not capped by max_jobs,
+    # not delta early-stopped); anything less is not evidence a posting
+    # is gone. Deactivation needs consecutive covered misses or
+    # consecutive confirmed-dead live checks (default 2 each).
+    seen_uids = {j.uid for j in scored_jobs}
+    covered_pairs = {
+        (sname, country)
+        for (sname, country), res in results_by_pair.items()
+        if res.status in ("ok", "partial")
+        and not res.stats.get("early_stopped")
+        and res.fetched < args.max_jobs
+    }
+    lc_cfg = cfg.get("lifecycle", {}) or {}
+    lc_counts = {"deactivated": 0, "reactivated": 0, "missed": 0,
+                 "dead_confirmed": 0, "live_confirmed": 0, "deactivated_total": 0}
+    if lc_cfg.get("enabled", True):
+        from src.lifecycle import run_dead_link_sweep
+        dead_uids, live_uids = run_dead_link_sweep(
+            store, http, seen_uids,
+            limit=int(lc_cfg.get("dead_link_checks_per_run", 40)))
+        lc_counts = store.update_lifecycle(
+            seen_uids, covered_pairs, dead_uids, live_uids,
+            miss_threshold=int(lc_cfg.get("missed_runs_threshold", 2)),
+            dead_threshold=int(lc_cfg.get("dead_link_failures_threshold", 2)))
     pruned = store.prune()
     # Reviewed manual title fills (data/reviewed_title_fills.json) are
     # applied by the pipeline, not by editing the multi-MB store by
@@ -307,7 +349,12 @@ def main(argv=None) -> int:
         "totals": dict(totals, translated_titles=translated, translated_ar=ar_done, new=added,
                        updated=updated, pruned=pruned, active=active,
                        notified_telegram=notified,
-                       reviewed_fills=fill_counts.get("applied", 0)),
+                       reviewed_fills=fill_counts.get("applied", 0),
+                       lifecycle_deactivated=lc_counts.get("deactivated", 0),
+                       lifecycle_reactivated=lc_counts.get("reactivated", 0),
+                       lifecycle_deactivated_total=lc_counts.get("deactivated_total", 0),
+                       lifecycle_dead_confirmed=lc_counts.get("dead_confirmed", 0),
+                       lifecycle_live_confirmed=lc_counts.get("live_confirmed", 0)),
         "countries": statuses,
         "source_retention": source_retention,
     }
