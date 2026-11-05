@@ -166,7 +166,11 @@ def main(argv=None) -> int:
         if any(name == scraper.name or name.startswith(scraper.name + "_")
                for name in known_ids_by_source) else set()
     results_by_pair = {}
-    totals = {"fetched": 0, "excluded": 0, "below_min_score": 0}
+    totals = {"fetched": 0, "excluded": 0, "below_min_score": 0,
+              "l1_dropped": 0, "l2_language_excluded": 0,
+              "contacts_extracted": 0}
+
+    from src.contact_extract import extract_channels, has_direct_channel
 
     print("Running countries: {} | sources: {} | max-jobs/country/source: {}".format(
         ", ".join(country_list), ", ".join(s.name for s in scrapers), args.max_jobs))
@@ -191,10 +195,19 @@ def main(argv=None) -> int:
                 scorer.score(job)
                 if job.excluded:
                     totals["excluded"] += 1
+                    if job.exclusion_reason.startswith(
+                            "strict local language requirement"):
+                        totals["l2_language_excluded"] += 1
                     continue
                 if job.score < min_score:
                     totals["below_min_score"] += 1
                     continue
+                # v6 stage C (L2): extract direct application channels
+                # from the posting text (data only, never outreach).
+                job.apply_channels = extract_channels(
+                    job.description or "")
+                if has_direct_channel(job.apply_channels):
+                    totals["contacts_extracted"] += 1
                 scored_jobs.append(job)
                 kept += 1
             health_records.append(
@@ -206,6 +219,11 @@ def main(argv=None) -> int:
                 print("      ! {}".format(err))
         if idx < len(country_list) - 1:
             polite_sleep(tuple(cfg["batch"].get("delay_between_countries_sec", [5, 12])))
+
+    # v6 stage C (L1): title-gate drops recorded per scraper/country.
+    totals["l1_dropped"] = sum(
+        (res.stats or {}).get("early_title_excluded", 0)
+        for res in results_by_pair.values())
 
     # Eligible set + cap priority use the run's effective min_score.
     translated = translate_titles(scored_jobs, cfg, min_score=min_score)
@@ -374,7 +392,8 @@ def main(argv=None) -> int:
         health_records)
 
     print("\nDone in {:.1f}s".format(time.time() - started))
-    print("  fetched={fetched} excluded={excluded} below_min={below_min_score} "
+    print("  fetched={fetched} l1_dropped={l1_dropped} excluded={excluded} "
+          "l2_lang={l2_language_excluded} below_min={below_min_score} "
           "new={new} updated={updated} pruned={pruned} active={active} "
           "notified={notified_telegram}".format(**run_status["totals"]))
     top = sorted(scored_jobs, key=lambda j: -j.score)[:5]
