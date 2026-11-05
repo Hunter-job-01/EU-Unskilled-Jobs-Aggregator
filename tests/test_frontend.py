@@ -33,6 +33,7 @@ JOB_DATACLASS_FIELDS = {
     "score", "signals", "matched_keywords",
     "excluded", "exclusion_reason", "notified_telegram", "notified_at",
     "first_seen", "last_seen", "url_provenance", "url_verified", "source_review",
+    "lifecycle",
 }
 
 RUN_STATUS_KEYS = {"last_run_utc", "duration_sec", "parameters",
