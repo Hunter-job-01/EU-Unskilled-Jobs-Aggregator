@@ -995,13 +995,19 @@
       "automation_enabled": false,
       "implementation_status": "catalog_only",
       "priority": "P1",
-      "free_access_status": "homepage_reachable_plain_http; listing endpoint discovery pending",
-      "access_or_limits": "bounded probe 2026-11-03: robots.txt allows /web*/sitemap.xml (crawl-delay 10) but that sitemap holds 1029 Drupal content pages, no job ads; /et/toopakkumised? search routes are explicitly Disallow'ed and the plain listing page renders vacancies via JS only - no allowed sitemap/JSON-LD vacancy route established. Activation needs site permission for the search route or a documented API; stays catalog_only.",
+      "free_access_status": "job_sitemap_verified; detail API path robots-disallowed; direct access agreement/feed clarification needed",
+      "access_or_limits": "Bounded 2026-11-04: official job sitemap index has3pages; sampled page2000multilingualURLs, not unique job count. One browser detail renders real role/duties/pay. Site assets identify publicJobOfferQuery at /web/graphql, but robots Disallow:/web/ except sitemap, so API NOT called. No allowed plain structured detail route established. Official job-mediation page says public vacancies freely distributable but also says partner portals display by agreement. Reuse/automated-feed clarification remains gate; no activation. Official page says all public vacancies sent to EURES, existing connector is safe current alternative; coverage completeness not proven.",
       "verification": "live_probe",
       "evidence_urls": [
-        "https://www.tootukassa.ee/en"
+        "https://www.tootukassa.ee/robots.txt",
+        "https://www.tootukassa.ee/web/joboffers/sitemap.xml",
+        "https://www.tootukassa.ee/web/sitemaps/joboffers/sitemap.xml?page=1",
+        "https://www.tootukassa.ee/et/toopakkumised/puhastusteenindaja-843017",
+        "https://www.tootukassa.ee/et/teenused/tooandjatele/toovahendus",
+        "https://www.tootukassa.ee/chunk-DWZSYQAV.js",
+        "https://www.tootukassa.ee/chunk-IKKJD754.js"
       ],
-      "checked_on": "2026-11-03",
+      "checked_on": "2026-11-04",
       "live_connector_test": "homepage_probe_2026-11-03",
       "applicant_from_egypt": "not_assessed",
       "fit_ar": "بحث عام ورسمي؛ فرز المهن البسيطة محليًا",
@@ -1017,7 +1023,7 @@
       "repo_adapter": null,
       "activation_gate": "terms_review",
       "terms_checked_on": "2026-11-02",
-      "last_probe": "2026-11-03",
+      "last_probe": "2026-11-04",
       "last_successful_run": null
     },
     {
