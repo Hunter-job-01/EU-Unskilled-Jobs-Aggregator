@@ -34,7 +34,9 @@ def test_negative_and_disqualifiers(matrix):
     assert "manager" in matrix.match_negative("Warehouse shift manager")
     assert matrix.match_disqualifiers("Only EU citizens may apply")
     assert matrix.match_disqualifiers("Wymagane obywatelstwo UE: tylko obywatele UE")
-    assert matrix.match_disqualifiers("English C1 level required for this role")
+    # "English C1 required" moved to the negation-aware L2 language gate
+    # (v6 stage C, src/language_gate.py) - see tests/test_language_gate.py.
+    assert not matrix.match_disqualifiers("English C1 level required for this role")
     assert not matrix.match_disqualifiers("Magazynier, zakwaterowanie gratis")
 
 
