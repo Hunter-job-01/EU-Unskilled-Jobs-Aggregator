@@ -521,6 +521,10 @@
 
     var filtered = allJobs.filter(function (job) {
       if (job.excluded === true) return false;
+      // v6 lifecycle: deactivated postings (likely expired - not seen in
+      // consecutive fully-covered runs, or a confirmed dead link) stay in
+      // the data file for provenance but are hidden from the board.
+      if (job.lifecycle && job.lifecycle.status === 'deactivated') return false;
       if (country && job.country !== country) return false;
       if (tier && String(countryTier(job.country)) !== tier) return false;
       if (source && job.source !== source) return false;
