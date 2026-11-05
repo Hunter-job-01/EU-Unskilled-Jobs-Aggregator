@@ -1,6 +1,6 @@
 {
   "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json and data/title_review_batch19.json.",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json.",
   "updated_on": "2026-11-05",
   "fills": [
     {
@@ -153,6 +153,69 @@
         "original_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDI2IDEwMQ?lang=en"
       },
       "review": "data/title_review_batch19.json"
+    },
+    {
+      "uid": "343d6ee7cbfaa23b",
+      "expected_title": "Warehouse Worker – E-commerce Picking and Packing",
+      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDJkNDUzMzAtYTkyYS00Y2Y3LWJiZWUtMjc3MWNjM2Y0YTJkIDgx?lang=en",
+      "title_en": "Warehouse Worker – E-commerce Picking and Packing",
+      "title_ar": "عامل مستودع - تجميع وتعبئة طلبات التجارة الإلكترونية",
+      "translated": true,
+      "review": "data/title_review_batch20.json"
+    },
+    {
+      "uid": "41971d4d3a3c6e9e",
+      "expected_title": "CONSTRUCTION CLEANER",
+      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU4ODI1IDEwMQ?lang=en",
+      "title_en": "CONSTRUCTION CLEANER",
+      "title_ar": "عامل تنظيف مواقع بناء",
+      "translated": true,
+      "review": "data/title_review_batch20.json"
+    },
+    {
+      "uid": "5e047fa9a042d44f",
+      "expected_title": "Van Loader",
+      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6ZGUyMjY4NDc3YjU1NDdmYjhjOTI3YTQ1ZmE5ZmIzZTYgMTg?lang=en",
+      "title_en": "Van Loader",
+      "title_ar": "عامل تحميل شاحنات التوصيل",
+      "translated": true,
+      "review": "data/title_review_batch20.json"
+    },
+    {
+      "uid": "f2a63374f83961b1",
+      "expected_title": "Assistant / Assistante service clients",
+      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1UkRYTCA5?lang=en",
+      "title_en": "Assistant / Assistante service clients",
+      "title_ar": "مساعد خدمة عملاء",
+      "translated": true,
+      "review": "data/title_review_batch20.json"
+    },
+    {
+      "uid": "75b915e2945f2aaf",
+      "expected_title": "Delivery Driver/ Warehouse Assistant",
+      "expected_url": "https://careers.lkqeurope.com/job/Cavan-Delivery-Driver-Warehouse-Assistant/1374584455/",
+      "title_en": "Delivery Driver/ Warehouse Assistant",
+      "title_ar": "سائق توصيل / مساعد مستودع",
+      "translated": true,
+      "review": "data/title_review_batch20.json"
+    },
+    {
+      "uid": "a238148e0f59f924",
+      "expected_title": "Magasinier Automobiles Mercedes-Benz Confirmé H/F",
+      "expected_url": "https://groupe-clim.nous-recrutons.fr/poste/z3kxue5gf1-magasinier-automobiles-mercedes-benz-confirme-h-f/",
+      "title_en": "Experienced warehouse worker Automobiles Mercedes-Benz H/F",
+      "title_ar": "عامل مستودع قطع غيار ذو خبرة - مرسيدس-بنز",
+      "translated": true,
+      "review": "data/title_review_batch20.json"
+    },
+    {
+      "uid": "86f59685121495c6",
+      "expected_title": "Retail Assistant - Operador de Loja (m/f)",
+      "expected_url": "https://jobs.smartrecruiters.com/Primark/744000159190840-retail-assistant-operador-de-loja-m-f-",
+      "title_en": "Retail Assistant - Operador de Loja (m/f)",
+      "title_ar": "مساعد متجر تجزئة",
+      "translated": true,
+      "review": "data/title_review_batch20.json"
     }
   ]
 }
