@@ -338,7 +338,8 @@
       'Score ' + (job.score != null ? job.score : 0)));
     card.appendChild(top);
 
-    var sourceMismatch = (job.uid === '861cfef865463f1c' && job.source_id === 'in-dd8dff85721b11d6' &&
+    var sourceMismatch = (job.source_review && job.source_review.status === 'destination_mismatch') ||
+      (job.uid === '861cfef865463f1c' && job.source_id === 'in-dd8dff85721b11d6' &&
        job.title === 'Analytický chemik QC – junior' &&
        job.url === 'https://web.fosfa.cz/kariera/volne-pozice/energetika/datovy-analytik-energetika-junior-37-000-kc-48-000-kc/' &&
        String(job.description || '').indexOf('pravidelná analýza energetických dat') !== -1);
