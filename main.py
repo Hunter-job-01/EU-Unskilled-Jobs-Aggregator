@@ -29,7 +29,8 @@ from src.scrapers import (
     AbMiddenScraper, AnyworkAnywhereScraper, ArbeitnowScraper, AtsPublicScraper,
     CoveboScraper, CzechMpsvScraper, EuresScraper, GoodmorningScraper,
     HobijScraper, HttpClient, JobSpyScraper, LatviaNvaScraper, NlJobsScraper,
-    OttoWorkforceScraper, PlCbopScraper, SwedenJobSearchScraper, polite_sleep,
+    OttoWorkforceScraper, PlCbopScraper, SwedenJobSearchScraper,
+    TelegramChannelsScraper, polite_sleep,
 )
 from src.storage import JobStore
 from src.reviewed_fills import apply_reviewed_fills
@@ -83,7 +84,7 @@ def main(argv=None) -> int:
                      "czech_mpsv", "latvia_nva", "ats_public",
                      "ottoworkforce", "anyworkanywhere", "pl_cbop",
                      "nl_jobs", "hobij", "covebo", "ab_midden",
-                     "goodmorning"}
+                     "goodmorning", "telegram_channels"}
     unknown = requested - known_sources
     if unknown:
         log.error("unknown source(s): %s (valid: %s)", ", ".join(sorted(unknown)),
@@ -144,6 +145,8 @@ def main(argv=None) -> int:
         scrapers.append(AbMiddenScraper(cfg, http))
     if "goodmorning" in requested:
         scrapers.append(GoodmorningScraper(cfg, http))
+    if "telegram_channels" in requested:
+        scrapers.append(TelegramChannelsScraper(cfg, http))
 
     store = JobStore(cfg["storage"])
     ensure_state_file(store, cfg)
