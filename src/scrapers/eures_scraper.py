@@ -74,6 +74,13 @@ class EuresScraper:
         if unknown:
             log.warning("batch.eures_boost.countries has unknown code(s): %s",
                         ", ".join(sorted(unknown)))
+        # v6 delta scraping: main.py sets ``known_ids`` to the store's
+        # source_ids for this source before the run. Pagination for a
+        # keyword stops at the first FULL page of already-known postings
+        # (results are sorted MOST_RECENT, so everything deeper is older
+        # and already stored). An early-stopped run marks the pair
+        # early_stopped in result.stats so lifecycle miss-counting does
+        # not treat an unrefetched live posting as evidence of removal.
 
     def limits_for(self, country_code: str):
         # (keyword cap, max pages per keyword, boosted?) for a country.
@@ -131,6 +138,12 @@ class EuresScraper:
             total = data.get("numberRecords") or 0
             if not jvs or len(collected) >= min(total, want):
                 break
+            known = getattr(self, "known_ids", None)
+            if (known and len(jvs) >= self.page_size
+                    and all(str(j.get("id") or "") in known for j in jvs)):
+                self._early_stopped = True
+                log.info("early stop %r page %d: full page already stored", keyword, page)
+                break
             polite_sleep(self.req_delay)
         return collected
 
@@ -138,6 +151,7 @@ class EuresScraper:
         country_code = country_code.upper()
         country_cfg = self.cfg["countries"][country_code]
         result = ScrapeResult(source=self.name, country=country_code)
+        self._early_stopped = False
         kw_cap, max_pages, boosted = self.limits_for(country_code)
         if boosted:
             result.notes.append(
@@ -170,4 +184,9 @@ class EuresScraper:
             polite_sleep(self.req_delay)
         if result.errors:
             result.status = "partial" if result.jobs else "failed"
+        if self._early_stopped:
+            result.stats["early_stopped"] = True
+            result.notes.append(
+                "delta early stop: one or more keywords hit a fully-known page; "
+                "live postings beyond that page were not refetched this run")
         return result
