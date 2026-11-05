@@ -389,6 +389,17 @@ storage:
   export_csv: latest_export.csv
   run_status_file: run_status.json
   retention_days: 30
+
+# v6 lifecycle / dead-link tracking. Deactivation hides a posting from
+# the dashboard and digests without deleting it; re-scrape reactivates.
+# Safeguards: a miss only counts when the run fully covered that
+# source+country (no failures, no max-jobs cap, no delta early stop),
+# and dead-link deactivation needs consecutive hard 404/410 checks.
+lifecycle:
+  enabled: true
+  missed_runs_threshold: 2
+  dead_link_checks_per_run: 40
+  dead_link_failures_threshold: 2
   # Tombstone registry: prune() records every pruned uid here, and merge()
   # skips tombstoned uids, so a posting still live on EURES/Indeed shortly
   # after retention expiry is not re-ingested as brand new (no duplicate
