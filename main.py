@@ -32,6 +32,7 @@ from src.scrapers import (
     OttoWorkforceScraper, PlCbopScraper, SwedenJobSearchScraper, polite_sleep,
 )
 from src.storage import JobStore
+from src.reviewed_fills import apply_reviewed_fills
 
 log = logging.getLogger("aggregator")
 
@@ -261,6 +262,10 @@ def main(argv=None) -> int:
                 ar_done += 1
     added, updated = store.merge(scored_jobs)
     pruned = store.prune()
+    # Reviewed manual title fills (data/reviewed_title_fills.json) are
+    # applied by the pipeline, not by editing the multi-MB store by
+    # hand. Fail-safe: a missing/malformed file is a logged no-op.
+    fill_counts = apply_reviewed_fills(store)
     # Honest per-source yield: "kept" in source_health is counted BEFORE
     # merge/prune. A posting whose posted_date is older than the retention
     # window is merged and then pruned in the same run, so it never reaches
@@ -301,7 +306,8 @@ def main(argv=None) -> int:
         },
         "totals": dict(totals, translated_titles=translated, translated_ar=ar_done, new=added,
                        updated=updated, pruned=pruned, active=active,
-                       notified_telegram=notified),
+                       notified_telegram=notified,
+                       reviewed_fills=fill_counts.get("applied", 0)),
         "countries": statuses,
         "source_retention": source_retention,
     }
