@@ -96,7 +96,11 @@ keywords:
     fi: [varastotyontekija, pakkaaja, tuotantotyontekija, keraaja, siivooja, keittioapulainen, hotellisiivooja, kasvihuone, maataloustyontekija, pesula, myymalaapulainen, tiskari]
     et: [laotootaja, pakkija, tootmisoperaator, komplekteerija, koristaja, abitooline, toateenindaja, kasvuhoone, pollumajandus, pesumaja, koogi abiline, poode aitaja]
     lv: [noliktavas darbinieks, pakotajs, razosanas darbinieks, komplektetajs, uzkupejs, paligstradnieks, virtuves paligs, istabene, siltumnica, tiritajs, velas mazgatava, zemkopiba]
-    el: [εργατης αποθηκης, συσκευαστης, εργατης παραγωγης, καθαριστης, βοηθος κουζινας, καμαριερα, θερμοκηπιο, γεωργια, γεωργοκτηνοτροφια, πλυντηριο, υπαλληλος ξενοδοχειου]
+    # Inflected forms added 2026-11-05 from live CY EURES titles: the
+    # singular stems alone excluded real plural/feminine cleaner and
+    # chambermaid postings ("no unskilled role keyword match" on 8/12
+    # sampled live CY vacancies).
+    el: [εργατης αποθηκης, συσκευαστης, εργατης παραγωγης, καθαριστης, καθαριστες, καθαριστρια, καθαριστριες, βοηθος κουζινας, καμαριερα, καμαριερες, θερμοκηπιο, γεωργια, γεωργοκτηνοτροφια, πλυντηριο, υπαλληλος ξενοδοχειου]
     bg: [складов работник, опаковчик, работник в производство, общ работник, чистач, кухненски помощник, камериерка, оранжерия, земеделие, пералня, хотелски служител]
     hr: [skladistar, paker, operater proizvodnje, pomocni radnik, cistac, kuhinjski pomocnik, sobarica, staklenik, poljoprivreda, praonica, hotelski djelatnik]
     sl: [skladiscnik, pakiralec, proizvodni delavec, pomozni delavec, cistilec, pomocnik, kuhinjski pomocnik, sobarica, rastlinjak, pralnica, kmetijstvo, hotelski delavec]
