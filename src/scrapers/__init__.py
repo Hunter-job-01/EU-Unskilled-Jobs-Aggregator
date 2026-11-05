@@ -16,10 +16,12 @@ from .hobij import HobijScraper
 from .covebo import CoveboScraper
 from .ab_midden import AbMiddenScraper
 from .goodmorning import GoodmorningScraper
+from .telegram_channels import TelegramChannelsScraper
 
 __all__ = [
     "HttpClient", "ScrapeResult", "ScraperError", "polite_sleep", "strip_html",
     "EuresScraper", "JobSpyScraper",
     "ArbeitnowScraper", "SwedenJobSearchScraper", "CzechMpsvScraper",
     "LatviaNvaScraper", "AtsPublicScraper", "OttoWorkforceScraper", "AnyworkAnywhereScraper", "PlCbopScraper", "NlJobsScraper", "HobijScraper", "CoveboScraper", "AbMiddenScraper", "GoodmorningScraper",
+    "TelegramChannelsScraper"
 ]
