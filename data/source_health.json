@@ -123,6 +123,25 @@
       },
       "status": "ok"
     },
+    "anyworkanywhere|FI": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "FI",
+      "duration_sec": 21.1,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "reused 1488 sitemap urls fetched earlier this run"
+      ],
+      "source": "anyworkanywhere",
+      "stats": {
+        "expired_skipped": 1,
+        "other_country": 9,
+        "pages_fetched": 10,
+        "urls_consumed": 20
+      },
+      "status": "ok"
+    },
     "anyworkanywhere|FR": {
       "checked_at_utc": "2026-11-04T05:45:13+00:00",
       "country": "FR",
@@ -138,6 +157,23 @@
         "other_country": 10,
         "pages_fetched": 10,
         "urls_consumed": 30
+      },
+      "status": "ok"
+    },
+    "anyworkanywhere|HR": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "HR",
+      "duration_sec": 54.2,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [],
+      "source": "anyworkanywhere",
+      "stats": {
+        "other_country": 10,
+        "pages_fetched": 10,
+        "sitemap_urls": 1488,
+        "urls_consumed": 10
       },
       "status": "ok"
     },
@@ -227,6 +263,24 @@
       "source": "anyworkanywhere",
       "stats": {
         "other_country": 10,
+        "pages_fetched": 10,
+        "urls_consumed": 30
+      },
+      "status": "ok"
+    },
+    "anyworkanywhere|MT": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "MT",
+      "duration_sec": 24.4,
+      "errors": [],
+      "fetched": 1,
+      "kept": 1,
+      "notes": [
+        "reused 1488 sitemap urls fetched earlier this run"
+      ],
+      "source": "anyworkanywhere",
+      "stats": {
+        "other_country": 9,
         "pages_fetched": 10,
         "urls_consumed": 30
       },
@@ -865,6 +919,20 @@
       "stats": {},
       "status": "skipped"
     },
+    "covebo|FI": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "FI",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "Covebo board placements are NL (source-level, Dutch agency); skipped for FI"
+      ],
+      "source": "covebo",
+      "stats": {},
+      "status": "skipped"
+    },
     "covebo|FR": {
       "checked_at_utc": "2026-11-04T05:45:13+00:00",
       "country": "FR",
@@ -874,6 +942,20 @@
       "kept": 0,
       "notes": [
         "Covebo board placements are NL (source-level, Dutch agency); skipped for FR"
+      ],
+      "source": "covebo",
+      "stats": {},
+      "status": "skipped"
+    },
+    "covebo|HR": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "HR",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "Covebo board placements are NL (source-level, Dutch agency); skipped for HR"
       ],
       "source": "covebo",
       "stats": {},
@@ -944,6 +1026,20 @@
       "kept": 0,
       "notes": [
         "Covebo board placements are NL (source-level, Dutch agency); skipped for LU"
+      ],
+      "source": "covebo",
+      "stats": {},
+      "status": "skipped"
+    },
+    "covebo|MT": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "MT",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "Covebo board placements are NL (source-level, Dutch agency); skipped for MT"
       ],
       "source": "covebo",
       "stats": {},
@@ -1145,9 +1241,9 @@
       "status": "ok"
     },
     "eures|FI": {
-      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
       "country": "FI",
-      "duration_sec": 5.6,
+      "duration_sec": 6.1,
       "errors": [],
       "fetched": 50,
       "kept": 37,
@@ -1181,12 +1277,12 @@
       "status": "ok"
     },
     "eures|HR": {
-      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
       "country": "HR",
-      "duration_sec": 5.6,
+      "duration_sec": 4.6,
       "errors": [],
       "fetched": 50,
-      "kept": 37,
+      "kept": 33,
       "notes": [],
       "source": "eures",
       "stats": {},
@@ -1267,12 +1363,12 @@
       "status": "ok"
     },
     "eures|MT": {
-      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
       "country": "MT",
-      "duration_sec": 5.1,
+      "duration_sec": 5.4,
       "errors": [],
       "fetched": 50,
-      "kept": 8,
+      "kept": 11,
       "notes": [],
       "source": "eures",
       "stats": {},
@@ -1448,6 +1544,20 @@
       "stats": {},
       "status": "skipped"
     },
+    "goodmorning|FI": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "FI",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "Goodmorning board placements are NL (source-level, Dutch agency); skipped for FI"
+      ],
+      "source": "goodmorning",
+      "stats": {},
+      "status": "skipped"
+    },
     "goodmorning|FR": {
       "checked_at_utc": "2026-11-04T05:45:13+00:00",
       "country": "FR",
@@ -1457,6 +1567,20 @@
       "kept": 0,
       "notes": [
         "Goodmorning board placements are NL (source-level, Dutch agency); skipped for FR"
+      ],
+      "source": "goodmorning",
+      "stats": {},
+      "status": "skipped"
+    },
+    "goodmorning|HR": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "HR",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "Goodmorning board placements are NL (source-level, Dutch agency); skipped for HR"
       ],
       "source": "goodmorning",
       "stats": {},
@@ -1527,6 +1651,20 @@
       "kept": 0,
       "notes": [
         "Goodmorning board placements are NL (source-level, Dutch agency); skipped for LU"
+      ],
+      "source": "goodmorning",
+      "stats": {},
+      "status": "skipped"
+    },
+    "goodmorning|MT": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "MT",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "Goodmorning board placements are NL (source-level, Dutch agency); skipped for MT"
       ],
       "source": "goodmorning",
       "stats": {},
@@ -1702,6 +1840,20 @@
       "stats": {},
       "status": "skipped"
     },
+    "hobij|FI": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "FI",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "HOBIJ board placements are NL (source-level, Dutch agency); skipped for FI"
+      ],
+      "source": "hobij",
+      "stats": {},
+      "status": "skipped"
+    },
     "hobij|FR": {
       "checked_at_utc": "2026-11-04T05:45:13+00:00",
       "country": "FR",
@@ -1711,6 +1863,20 @@
       "kept": 0,
       "notes": [
         "HOBIJ board placements are NL (source-level, Dutch agency); skipped for FR"
+      ],
+      "source": "hobij",
+      "stats": {},
+      "status": "skipped"
+    },
+    "hobij|HR": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "HR",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "HOBIJ board placements are NL (source-level, Dutch agency); skipped for HR"
       ],
       "source": "hobij",
       "stats": {},
@@ -1781,6 +1947,20 @@
       "kept": 0,
       "notes": [
         "HOBIJ board placements are NL (source-level, Dutch agency); skipped for LU"
+      ],
+      "source": "hobij",
+      "stats": {},
+      "status": "skipped"
+    },
+    "hobij|MT": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "MT",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "HOBIJ board placements are NL (source-level, Dutch agency); skipped for MT"
       ],
       "source": "hobij",
       "stats": {},
@@ -1973,12 +2153,12 @@
       "status": "ok"
     },
     "jobspy|FI": {
-      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
       "country": "FI",
-      "duration_sec": 22.2,
+      "duration_sec": 23.5,
       "errors": [],
-      "fetched": 20,
-      "kept": 20,
+      "fetched": 21,
+      "kept": 21,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -2009,9 +2189,9 @@
       "status": "ok"
     },
     "jobspy|HR": {
-      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
       "country": "HR",
-      "duration_sec": 0.0,
+      "duration_sec": 1.2,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -2099,7 +2279,7 @@
       "status": "skipped"
     },
     "jobspy|MT": {
-      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
       "country": "MT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2327,7 +2507,7 @@
       "status": "skipped"
     },
     "latvia_nva|FI": {
-      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
       "country": "FI",
       "duration_sec": 0.0,
       "errors": [],
@@ -2369,7 +2549,7 @@
       "status": "skipped"
     },
     "latvia_nva|HR": {
-      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
       "country": "HR",
       "duration_sec": 0.0,
       "errors": [],
@@ -2469,7 +2649,7 @@
       "status": "ok"
     },
     "latvia_nva|MT": {
-      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
       "country": "MT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2703,6 +2883,24 @@
       },
       "status": "ok"
     },
+    "nl_jobs|FI": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "FI",
+      "duration_sec": 5.7,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "reused 17 sitemap urls fetched earlier this run"
+      ],
+      "source": "nl_jobs",
+      "stats": {
+        "other_country": 6,
+        "pages_fetched": 10,
+        "unparsable_pages": 4
+      },
+      "status": "ok"
+    },
     "nl_jobs|FR": {
       "checked_at_utc": "2026-11-04T05:45:13+00:00",
       "country": "FR",
@@ -2717,6 +2915,23 @@
       "stats": {
         "other_country": 6,
         "pages_fetched": 10,
+        "unparsable_pages": 4
+      },
+      "status": "ok"
+    },
+    "nl_jobs|HR": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "HR",
+      "duration_sec": 6.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [],
+      "source": "nl_jobs",
+      "stats": {
+        "other_country": 6,
+        "pages_fetched": 10,
+        "sitemap_urls": 17,
         "unparsable_pages": 4
       },
       "status": "ok"
@@ -2797,6 +3012,24 @@
       "checked_at_utc": "2026-11-04T03:37:26+00:00",
       "country": "LU",
       "duration_sec": 5.1,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "reused 17 sitemap urls fetched earlier this run"
+      ],
+      "source": "nl_jobs",
+      "stats": {
+        "other_country": 6,
+        "pages_fetched": 10,
+        "unparsable_pages": 4
+      },
+      "status": "ok"
+    },
+    "nl_jobs|MT": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "MT",
+      "duration_sec": 4.8,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -2997,6 +3230,20 @@
       "stats": {},
       "status": "skipped"
     },
+    "ottoworkforce|FI": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "FI",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "OTTO board placements are NL (source-level, Dutch agency); skipped for FI"
+      ],
+      "source": "ottoworkforce",
+      "stats": {},
+      "status": "skipped"
+    },
     "ottoworkforce|FR": {
       "checked_at_utc": "2026-11-04T05:45:13+00:00",
       "country": "FR",
@@ -3006,6 +3253,20 @@
       "kept": 0,
       "notes": [
         "OTTO board placements are NL (source-level, Dutch agency); skipped for FR"
+      ],
+      "source": "ottoworkforce",
+      "stats": {},
+      "status": "skipped"
+    },
+    "ottoworkforce|HR": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "HR",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "OTTO board placements are NL (source-level, Dutch agency); skipped for HR"
       ],
       "source": "ottoworkforce",
       "stats": {},
@@ -3076,6 +3337,20 @@
       "kept": 0,
       "notes": [
         "OTTO board placements are NL (source-level, Dutch agency); skipped for LU"
+      ],
+      "source": "ottoworkforce",
+      "stats": {},
+      "status": "skipped"
+    },
+    "ottoworkforce|MT": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "MT",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "OTTO board placements are NL (source-level, Dutch agency); skipped for MT"
       ],
       "source": "ottoworkforce",
       "stats": {},
@@ -3252,6 +3527,20 @@
       "stats": {},
       "status": "skipped"
     },
+    "pl_cbop|FI": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "FI",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "CBOP is the Polish national board (PL only); skipped for FI"
+      ],
+      "source": "pl_cbop",
+      "stats": {},
+      "status": "skipped"
+    },
     "pl_cbop|FR": {
       "checked_at_utc": "2026-11-04T05:45:13+00:00",
       "country": "FR",
@@ -3261,6 +3550,20 @@
       "kept": 0,
       "notes": [
         "CBOP is the Polish national board (PL only); skipped for FR"
+      ],
+      "source": "pl_cbop",
+      "stats": {},
+      "status": "skipped"
+    },
+    "pl_cbop|HR": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "HR",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "CBOP is the Polish national board (PL only); skipped for HR"
       ],
       "source": "pl_cbop",
       "stats": {},
@@ -3331,6 +3634,20 @@
       "kept": 0,
       "notes": [
         "CBOP is the Polish national board (PL only); skipped for LU"
+      ],
+      "source": "pl_cbop",
+      "stats": {},
+      "status": "skipped"
+    },
+    "pl_cbop|MT": {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "country": "MT",
+      "duration_sec": 0.0,
+      "errors": [],
+      "fetched": 0,
+      "kept": 0,
+      "notes": [
+        "CBOP is the Polish national board (PL only); skipped for MT"
       ],
       "source": "pl_cbop",
       "stats": {},
@@ -3533,7 +3850,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|FI": {
-      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
       "country": "FI",
       "duration_sec": 0.0,
       "errors": [],
@@ -3575,7 +3892,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|HR": {
-      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
       "country": "HR",
       "duration_sec": 0.0,
       "errors": [],
@@ -3673,7 +3990,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|MT": {
-      "checked_at_utc": "2026-11-02T18:30:47+00:00",
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
       "country": "MT",
       "duration_sec": 0.0,
       "errors": [],
@@ -3785,6 +4102,12 @@
   },
   "recent_runs": [
     {
+      "checked_at_utc": "2026-11-05T03:44:54+00:00",
+      "failing": 0,
+      "label": "tier=3 sources=anyworkanywhere,covebo,eures,goodmorning,hobij,jobspy,latvia_nva,nl_jobs,ottoworkforce,pl_cbop,sweden_jobsearch",
+      "source_country_records": 33
+    },
+    {
       "checked_at_utc": "2026-11-04T18:24:39+00:00",
       "failing": 0,
       "label": "tier=1 sources=anyworkanywhere,covebo,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop",
@@ -3887,5 +4210,5 @@
       "source_country_records": 8
     }
   ],
-  "updated_utc": "2026-11-04T18:24:39+00:00"
+  "updated_utc": "2026-11-05T03:44:54+00:00"
 }
