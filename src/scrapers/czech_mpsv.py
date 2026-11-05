@@ -136,11 +136,25 @@ class CzechMpsvScraper:
             country="CZ",
             source=self.name,
             source_id=str(record.get("referencniCislo") or record.get("id") or ""),
-            url=str(record.get("urlAdresa") or "").strip(),
+            url=self._normalized_url(record.get("urlAdresa")),
             description=description,
             location=self._workplace_text(record),
             posted_date=str(record.get("datumVlozeni") or "")[:10] or None,
         )
+
+    @staticmethod
+    def _normalized_url(raw) -> str:
+        """urlAdresa often lacks a scheme ("www.pco.cz"). Add https:// to
+        domain-shaped values; anything else is unusable link text and the
+        record is quarantined by the no-link rule downstream."""
+        url = str(raw or "").strip()
+        if not url:
+            return ""
+        if url.lower().startswith(("http://", "https://")):
+            return url
+        if re.match(r"^[\w.-]+\.[a-z]{2,}(/\S*)?$", url, re.IGNORECASE):
+            return "https://" + url
+        return ""
 
     def scrape_country(self, country_code: str, max_jobs: int) -> ScrapeResult:
         country_code = country_code.upper()
