@@ -150,8 +150,9 @@ def main(argv=None) -> int:
     started = time.time()
     statuses = {}
     scored_jobs = []
-    # v6 delta scraping: hand each scraper the store's source_ids for its
-    # source so pagination can early-stop on fully-known pages (EURES).
+    # v6 delta observability: hand each scraper the store's source_ids for
+    # its source (new-vs-known diff logging; no pagination early-stop -
+    # EURES MOST_RECENT proved not date-ordered on 2026-11-05).
     pre_store = store.load()
     store._store = pre_store
     known_ids_by_source = {}
@@ -179,6 +180,11 @@ def main(argv=None) -> int:
             duration = time.time() - t0
             statuses[country][scraper.name] = result.to_status()
             results_by_pair[(scraper.name, country)] = result
+            _known = getattr(scraper, "known_ids", None)
+            if _known is not None and result.jobs:
+                _new = sum(1 for _j in result.jobs if _j.source_id and _j.source_id not in _known)
+                print("  delta {} {}: collected {} slugs, {} new".format(
+                    country, scraper.name, len(result.jobs), _new))
             totals["fetched"] += result.fetched
             kept = 0
             for job in result.jobs:
@@ -288,7 +294,6 @@ def main(argv=None) -> int:
         (sname, country)
         for (sname, country), res in results_by_pair.items()
         if res.status in ("ok", "partial")
-        and not res.stats.get("early_stopped")
         and res.fetched < args.max_jobs
     }
     lc_cfg = cfg.get("lifecycle", {}) or {}
