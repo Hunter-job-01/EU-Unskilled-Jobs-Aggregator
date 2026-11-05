@@ -47,6 +47,12 @@ class Job:
     url_provenance: str = ""
     url_verified: Optional[bool] = None
     source_review: dict = field(default_factory=dict)
+    # v6 lifecycle/dead-link state. Owned by JobStore.update_lifecycle;
+    # fresh scrape objects carry an empty dict, merge preserves the
+    # stored record's state. Keys: status ("active"/"deactivated"),
+    # missed_runs, dead_checks, deactivated_at, deactivation_reason,
+    # reactivations.
+    lifecycle: dict = field(default_factory=dict)
     first_seen: str = ""
     last_seen: str = ""
 
