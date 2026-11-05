@@ -50,7 +50,7 @@ on:
         default: 'eures,jobspy'
         type: choice
         options: ['eures,jobspy', 'eures', 'jobspy', 'eures,jobspy,czech_mpsv',
-                  'eures,jobspy,czech_mpsv,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning',
+                  'eures,jobspy,czech_mpsv,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning,telegram_channels',
                   'eures,jobspy,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning',
                   'eures,jobspy,sweden_jobsearch,latvia_nva,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning',
                   'eures,jobspy,sweden_jobsearch,latvia_nva',
@@ -169,7 +169,7 @@ jobs:
             # Scheduled run: identify which cron fired from the payload.
             SCHEDULED_CRON="$(jq -r '.schedule // ""' "$EVENT_PAYLOAD")"
             COUNTRIES=""
-            SOURCES="eures,jobspy,czech_mpsv,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning"
+            SOURCES="eures,jobspy,czech_mpsv,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning,telegram_channels"
             # Approved 2026-11-02: verified free/keyless/CC0 sources join the
             # tiers that contain their countries. Czech MPSV licence label
             # confirmed 2026-11-05 via the NKOD (data.gov.cz) terms record:
@@ -223,7 +223,7 @@ jobs:
           if [ -n "$COUNTRIES" ] && ! printf '%s' "$COUNTRIES" | grep -Eq '^[A-Za-z]{2}(,[A-Za-z]{2})*$'; then
             echo "::error::bad countries '$COUNTRIES' (expected ISO codes like PL,CZ,DE)"; exit 1
           fi
-          case "$SOURCES" in eures,jobspy|eures|jobspy|eures,jobspy,czech_mpsv|eures,jobspy,czech_mpsv,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning|eures,jobspy,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning|eures,jobspy,sweden_jobsearch,latvia_nva,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning|eures,jobspy,arbeitnow,sweden_jobsearch,latvia_nva) ;; *) echo "::error::bad sources '$SOURCES'"; exit 1;; esac
+          case "$SOURCES" in eures,jobspy|eures|jobspy|eures,jobspy,czech_mpsv|eures,jobspy,czech_mpsv,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning,telegram_channels|eures,jobspy,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning|eures,jobspy,sweden_jobsearch,latvia_nva,pl_cbop,ottoworkforce,anyworkanywhere,nl_jobs,hobij,covebo,goodmorning|eures,jobspy,arbeitnow,sweden_jobsearch,latvia_nva) ;; *) echo "::error::bad sources '$SOURCES'"; exit 1;; esac
           case "$MAX_JOBS" in ''|*[!0-9]*) echo "::error::max_jobs not a number"; exit 1;; esac
           case "$MIN_SCORE" in ''|*[!0-9]*) echo "::error::min_score not a number"; exit 1;; esac
           case "$NO_NOTIFY" in true|false) ;; *) echo "::error::bad no_notify '$NO_NOTIFY'"; exit 1;; esac
