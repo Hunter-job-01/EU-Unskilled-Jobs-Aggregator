@@ -121,8 +121,8 @@
       }
     }
   },
-  "duration_sec": 369.1,
-  "last_run_utc": "2026-11-05T11:22:12+00:00",
+  "duration_sec": 276.1,
+  "last_run_utc": "2026-11-05T11:43:21+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-03T03:37:41+00:00",
@@ -373,7 +373,7 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-05T11:22:12+00:00",
+      "checked_at_utc": "2026-11-05T11:43:21+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -390,7 +390,7 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-05T11:22:12+00:00",
+      "checked_at_utc": "2026-11-05T11:43:21+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -890,7 +890,7 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-05T11:22:12+00:00",
+      "checked_at_utc": "2026-11-05T11:43:21+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -1053,7 +1053,7 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-05T11:22:12+00:00",
+      "checked_at_utc": "2026-11-05T11:43:21+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -1287,7 +1287,7 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-05T11:22:12+00:00",
+      "checked_at_utc": "2026-11-05T11:43:21+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -1304,7 +1304,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-05T11:22:12+00:00",
+      "checked_at_utc": "2026-11-05T11:43:21+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -1394,7 +1394,7 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-05T11:22:12+00:00",
+      "checked_at_utc": "2026-11-05T11:43:21+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -1485,7 +1485,7 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-05T11:22:12+00:00",
+      "checked_at_utc": "2026-11-05T11:43:21+00:00",
       "sources": {
         "eures": {
           "errors": [],
@@ -1527,25 +1527,25 @@
   },
   "source_retention": {
     "kept_pre_prune": {
-      "eures": 196,
-      "jobspy_indeed": 170
+      "eures": 198,
+      "jobspy_indeed": 179
     },
     "retained_post_prune": {
-      "eures": 166,
-      "jobspy_indeed": 170
+      "eures": 163,
+      "jobspy_indeed": 179
     }
   },
   "totals": {
-    "active": 2043,
-    "below_min_score": 19,
-    "excluded": 206,
+    "active": 2054,
+    "below_min_score": 26,
+    "excluded": 187,
     "fetched": 605,
-    "new": 31,
+    "new": 15,
     "notified_telegram": 0,
-    "pruned": 3,
-    "reviewed_fills": 8,
+    "pruned": 4,
+    "reviewed_fills": 9,
     "translated_ar": 0,
     "translated_titles": 0,
-    "updated": 313
+    "updated": 335
   }
 }

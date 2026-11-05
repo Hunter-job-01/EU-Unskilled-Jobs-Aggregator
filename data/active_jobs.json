@@ -80,7 +80,7 @@
   "001cc6210a9fef05": {
     "company": "PRZEDSIĘBIORSTWO HANDLOWE \"AGRO-TERS\" EDWARD SOLAK I STANISŁAW SOLAK SPÓŁKA JAWNA",
     "country": "PL",
-    "description": "Zakres obowiązków: Przyjmowanie i wydawanie towarów. Wymagania: - wykształcenie: zasadnicze zawodowe - konieczne; średnie ogólnokształcące - pożądane; średnie branżowe - pożądane; średnie zawodowe 4-letnie - pożądane; średnie zawodowe - pożądane; zasadnicze branżowe - pożądane - umiejętności: pracowitość - konieczne; uprawnienia na wózek widłowy - pożądane - inne zawody: Magazynier - pożądane - pozostałe: Wykształcenie min. zawodowe. KONTAKT W SPRAWIE OFERTY PRACY:- osobisty: ul. Rampa Brzeska 3, 22-100 Chełm- można również przesyłać CV drogą e-mailową na adres: beata.hajduk@agro-ters.pl Sposób aplikowania: - bezpośrednio do pracodawcy - wymagane dokumenty: CV - języki aplikowania: polski Przeznaczone wyłącznie dla osób zarejestrowanych w urzędzie pracy: NIE",
+    "description": "Zakres obowiązków: Przyjmowanie i wydawanie towarów. Wymagania: - wykształcenie: zasadnicze zawodowe - konieczne; średnie branżowe - pożądane; średnie zawodowe - pożądane; zasadnicze branżowe - pożądane; średnie ogólnokształcące - pożądane; średnie zawodowe 4-letnie - pożądane - umiejętności: pracowitość - konieczne; uprawnienia na wózek widłowy - pożądane - inne zawody: Magazynier - pożądane - pozostałe: Wykształcenie min. zawodowe. KONTAKT W SPRAWIE OFERTY PRACY:- osobisty: ul. Rampa Brzeska 3, 22-100 Chełm- można również przesyłać CV drogą e-mailową na adres: beata.hajduk@agro-ters.pl Sposób aplikowania: - bezpośrednio do pracodawcy - wymagane dokumenty: CV - języki aplikowania: polski Przeznaczone wyłącznie dla osób zarejestrowanych w urzędzie pracy: NIE",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -88,7 +88,7 @@
     "languages": [
       "pl"
     ],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "PL81",
     "matched_keywords": [
       "magazynier"
@@ -96,7 +96,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-28",
-    "score": 40,
+    "score": 38,
     "signals": [
       "unskilled_role_match",
       "tier_1_country",
@@ -104,6 +104,7 @@
     ],
     "source": "eures",
     "source_id": "MTQ5MzE2MTUgMTI",
+    "source_review": {},
     "summary_ar": "الموقع: PL81\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier/magazynierka",
     "title_ar": "",
@@ -801,6 +802,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-b5e5b2d8b414302d",
+    "source_review": {},
     "summary_ar": "الموقع: Łyszkowice, LO, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier/ Magazynierka",
     "title_ar": "",
@@ -1242,7 +1244,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Pforzheim, BW, Germany",
     "matched_keywords": [
       "produktionshelfer"
@@ -1250,7 +1252,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-28",
-    "score": 40,
+    "score": 38,
     "signals": [
       "unskilled_role_match",
       "tier_1_country",
@@ -1258,6 +1260,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-a7f7514300d09ada",
+    "source_review": {},
     "summary_ar": "الموقع: Pforzheim, BW, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer (m/w/d) in Voll- und Teilzeit",
     "title_ar": "",
@@ -1949,6 +1952,12 @@
     ],
     "source": "eures",
     "source_id": "NDU5MDI2IDEwMQ",
+    "source_review": {
+      "checked_on": "2026-11-05",
+      "original_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDI2IDEwMQ?lang=en",
+      "reason": "Source-internal mismatch: live EURES/Jobsplus record 459026 (SYNERGY 6 MALTA LTD.) carries the title KITCHEN ASSISTANT while its own description is a bartender role (preparing and serving drinks, checking IDs, bar cleanliness). The card faithfully mirrors the inconsistent source; the apply link and description-derived claims are withheld pending a source fix or re-review.",
+      "status": "destination_mismatch"
+    },
     "summary_ar": "",
     "title": "KITCHEN ASSISTANT",
     "title_ar": "",
@@ -2615,7 +2624,7 @@
     "languages": [
       "pl"
     ],
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-05",
     "location": "PL51",
     "matched_keywords": [
       "magazynier"
@@ -2631,13 +2640,16 @@
     ],
     "source": "eures",
     "source_id": "MTQ5MzE3NjMgMTI",
+    "source_review": {},
     "summary_ar": "الموقع: PL51\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier (k/m)",
     "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "0b2e35afa9bc708b",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzE3NjMgMTI?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzE3NjMgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "0b488153be9f4fcb": {
     "company": "Parapet SRL",
@@ -3287,6 +3299,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-827ca8c5ce729627",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Breda, NB, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazijnmedewerker",
     "title_ar": "",
@@ -5538,6 +5551,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-f0d449f921e2905b",
+    "source_review": {},
     "summary_ar": "الموقع: Sławków, SL, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier(-ka)",
     "title_ar": "",
@@ -7131,6 +7145,44 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "17c05f33fd84e825": {
+    "company": "ZAKŁAD HANDLOWO - USŁUGOWY ZYGMUNT ŻARNA",
+    "country": "PL",
+    "description": "Zakres obowiązków: - przyjęcie i wydawanie wyrobów gotowych i półfabrykatów, - rozkładanie zapasów na magazynie, - kompletacja zapasów na magazynie,- wystawianie dokumentów magazynowych, - współpraca z działem produkcji, - prowadzenie inwentaryzacji. Godziny pracy: 6-14 i 7-15 Wymagania: - wykształcenie: zasadnicze zawodowe - konieczne - pozostałe: Podstawowe doświadczenie w pracy na magazynie,uprawnienia na wózek widłowy, doświadczenie jazdy na wózku widłowym, podstawowa znajomość obiegu dokumentacji magazynowej, podstawowa znajomość programu MS OFFICE, praca w systemie ERP przedsiębiorstwa,uczciwość i odpowiedzialność, umiejętność pracy w zespole, systematyczność i dokładność, sumienność i zaangażowanie w pracę, aktywność, przedsiębiorczość i dynamika w działaniu Sposób aplikowania: - bezpośrednio do pracodawcy - wymagane dokumenty: - - języki aplikowania: polski Przeznaczone wyłącznie dla osób zarejestrowanych w urzędzie pracy: NIE",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-05",
+    "glossary": [],
+    "languages": [
+      "pl"
+    ],
+    "last_seen": "2026-11-05",
+    "location": "PL62",
+    "matched_keywords": [
+      "pracownik magazynu"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-22",
+    "score": 38,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTQ5Mjc3MzkgMTI",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Pracownik magazynu wyrobów gotowych (k/m)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "17c05f33fd84e825",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5Mjc3MzkgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "17e55356a0e0528a": {
     "company": "PLUVIN CONSULT SRL",
     "country": "RO",
@@ -7707,7 +7759,7 @@
     "languages": [
       "pl"
     ],
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-05",
     "location": "PL22",
     "matched_keywords": [
       "magazynier"
@@ -7723,13 +7775,16 @@
     ],
     "source": "eures",
     "source_id": "MTQ5Mjc4OTAgMTI",
+    "source_review": {},
     "summary_ar": "الموقع: PL22\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier (k/m)",
     "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "19bbdc4884683a89",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5Mjc4OTAgMTI?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5Mjc4OTAgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "1a05589aed251882": {
     "company": "Pro Clean Sec Kft",
@@ -10708,7 +10763,7 @@
     "first_seen": "2026-11-04",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Lobith, GE, Netherlands",
     "matched_keywords": [
       "ett",
@@ -10725,6 +10780,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-f7ca19d332beade7",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Lobith, GE, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Allround logistiek medewerker",
     "title_ar": "",
@@ -11444,7 +11500,7 @@
     "languages": [
       "pl"
     ],
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-05",
     "location": "PL52",
     "matched_keywords": [
       "pakowanie"
@@ -11459,6 +11515,7 @@
     ],
     "source": "eures",
     "source_id": "MTQ5MTczOTUgMTI",
+    "source_review": {},
     "summary_ar": "الموقع: PL52\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Osoba do kompletowania zamówień i prac magazynowych (m/k)",
     "title_ar": "",
@@ -12317,7 +12374,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Würzburg, BY, Germany",
     "matched_keywords": [
       "packer",
@@ -12333,6 +12390,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-19249cac19da639c",
+    "source_review": {},
     "summary_ar": "الموقع: Würzburg, BY, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer (m/w/d)",
     "title_ar": "",
@@ -12703,6 +12761,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-75ce312eea01220f",
+    "source_review": {},
     "summary_ar": "الموقع: Opole, OP, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Ogłoszenie na stanowisko_ Magazynier_Magazynierka (PDF | 1,21MB)",
     "title_ar": "إعلان لشغل وظيفة_ أمين مستودع_أمينة مستودع (PDF | 1,21 ميجابايت) (ترجمة جزئية للمسمى - راجع العنوان الأصلي)",
@@ -13116,30 +13175,33 @@
     "exclusion_reason": "",
     "first_seen": "2026-11-03",
     "glossary": [],
-    "languages": [],
+    "languages": [
+      "pl"
+    ],
     "last_seen": "2026-11-05",
-    "location": "Morawica, małopolskie",
+    "location": "PL21",
     "matched_keywords": [
       "magazynier"
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": null,
-    "score": 34,
+    "posted_date": "2026-10-26",
+    "score": 38,
     "signals": [
       "unskilled_role_match",
       "tier_1_country",
-      "source_eligibility_unknown"
+      "fresh_posting"
     ],
-    "source": "pl_cbop",
-    "source_id": "ebadf341e8885365b792f9a3044b331a",
+    "source": "eures",
+    "source_id": "MTQ5Mjk0NTMgMTI",
+    "source_review": {},
     "summary_ar": "الموقع: Morawica, małopolskie\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Kierowca - Magazynier (kat. B) K/M",
     "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "2ceaaf1c7f888bad",
-    "url": "https://oferty.praca.gov.pl/portal/wyszukiwarka-ofert/oferta?id=ebadf341e8885365b792f9a3044b331a",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5Mjk0NTMgMTI?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -14447,6 +14509,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-8acde028f412b120",
+    "source_review": {},
     "summary_ar": "الموقع: Łowicz, LO, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Kierowca/Kierowczyni - Magazynier/Magazynierka",
     "title_ar": "",
@@ -16536,13 +16599,13 @@
   "39918637d1b4749b": {
     "company": "Karl Eidmann GmbH & Co. KG",
     "country": "DE",
-    "description": "Art der Stelle: Vollzeit, Festanstellung\n\n**Über uns:**\n\nSeit 1914 sorgen wir in Bruchköbel für das leibliche Wohl unserer Kunden – und das mit Leib und Seele. Dabei verbinden wir als Manufaktur die Liebe zum Handwerk mit modernster Technik. So können wir unsere ausgewählten und frischen Rohstoffe aus kontrollierter Herkunft mit hoher Produktsicherheit zu den besten Wurst und Fleischspezialitäten weiterverarbeiten. Das schmeckt man mit jedem Bissen.\n\n**Wir bieten Ihnen:**\n\n* Leistungsgerechte Vergütung\n* Persönliche Betreuung und Einarbeitung durch feste Ansprechpartner\n* Betriebliche Altersvorsorge\n* Kostenfreie Stellung und Reinigung von Arbeitskleidung\n* Personalrabatt in unserem Werksverkauf mit großer Auswahl an Lebensmitteln\n* Betriebseigene Kantine mit frischer und abwechslungsreicher Küche (Frühstück & Mittagessen)\n* Echte Handwerksqualität seit 1914\n* Ein tolles Team in einem Familienunternehmen mit Systemrelevanz\n* Sie produzieren und verkaufen Produkte, auf die Sie stolz sein können\n\n**Ihre täglichen Aufgaben:**\n\n* Sie unterstützen unser Team bei allen anfallenden Aufgaben\n* Bestücken und Bedienen der Maschinen nach Einweisung\n\n**Das bringen Sie mit:**\n\n* Flexibilität\n* Selbstständiges und sauberes Arbeiten\n* Teamfähigkeit, Pünktlichkeit und Zuverlässigkeit\n* Gute Deutschkenntnisse\n\n**Wir wollen Sie kennen lernen!**\n\nSenden Sie uns Ihre vollständige Bewerbungsunterlagen unter Angabe Ihres frühestmöglichen Eintrittstermins per E-Mail an: ed.nnamdieobfsctd-14a718@lanosrep oder kontaktieren uns telefonisch unter: 06181 9700-0",
+    "description": "Art der Stelle: Vollzeit, Festanstellung\n\n**Über uns:**\n\nSeit 1914 sorgen wir in Bruchköbel für das leibliche Wohl unserer Kunden – und das mit Leib und Seele. Dabei verbinden wir als Manufaktur die Liebe zum Handwerk mit modernster Technik. So können wir unsere ausgewählten und frischen Rohstoffe aus kontrollierter Herkunft mit hoher Produktsicherheit zu den besten Wurst und Fleischspezialitäten weiterverarbeiten. Das schmeckt man mit jedem Bissen.\n\n**Wir bieten Ihnen:**\n\n* Leistungsgerechte Vergütung\n* Persönliche Betreuung und Einarbeitung durch feste Ansprechpartner\n* Betriebliche Altersvorsorge\n* Kostenfreie Stellung und Reinigung von Arbeitskleidung\n* Personalrabatt in unserem Werksverkauf mit großer Auswahl an Lebensmitteln\n* Betriebseigene Kantine mit frischer und abwechslungsreicher Küche (Frühstück & Mittagessen)\n* Echte Handwerksqualität seit 1914\n* Ein tolles Team in einem Familienunternehmen mit Systemrelevanz\n* Sie produzieren und verkaufen Produkte, auf die Sie stolz sein können\n\n**Ihre täglichen Aufgaben:**\n\n* Sie unterstützen unser Team bei allen anfallenden Aufgaben\n* Bestücken und Bedienen der Maschinen nach Einweisung\n\n**Das bringen Sie mit:**\n\n* Flexibilität\n* Selbstständiges und sauberes Arbeiten\n* Teamfähigkeit, Pünktlichkeit und Zuverlässigkeit\n* Gute Deutschkenntnisse\n\n**Wir wollen Sie kennen lernen!**\n\nSenden Sie uns Ihre vollständige Bewerbungsunterlagen unter Angabe Ihres frühestmöglichen Eintrittstermins per E-Mail an: ed.nnamdieobfsctd-2392c6@lanosrep oder kontaktieren uns telefonisch unter: 06181 9700-0",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Bruchköbel, HE, Germany",
     "matched_keywords": [
       "produktionshelfer"
@@ -16557,6 +16620,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-293615caddd59987",
+    "source_review": {},
     "summary_ar": "الموقع: Bruchköbel, HE, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer (m/w/d)",
     "title_ar": "",
@@ -16940,6 +17004,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-c05e1493d215eb26",
+    "source_review": {},
     "summary_ar": "الموقع: Velká Bystřice, OL, Czech Republic\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Skladník Velká Bystřice",
     "title_ar": "",
@@ -17567,7 +17632,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Edewecht, NI, Germany",
     "matched_keywords": [
       "ett",
@@ -17584,6 +17649,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-d5158096e7d878e4",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Edewecht, NI, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer Standort Edewecht (m/w/d)",
     "title_ar": "",
@@ -19113,7 +19179,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Zoetermeer, ZH, Netherlands",
     "matched_keywords": [
       "ett",
@@ -19131,6 +19197,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-be8dc44b4050cb73",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Zoetermeer, ZH, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazijnmedewerker 32-38 uur p/w",
     "title_ar": "",
@@ -21255,6 +21322,45 @@
     "uid": "4b265a10881bf231",
     "url": "https://pt.indeed.com/viewjob?jk=033a66ad2960fe07"
   },
+  "4b3030e256640050": {
+    "company": "ROBERT BOBEK F.H. KABANOSIK",
+    "country": "PL",
+    "description": "Zakres obowiązków: Pakowanie, ważenie i rozwożenie towaru wg ustalonych zamówień i tras. Wymagania: - wykształcenie: brak lub niepełne podstawowe - konieczne - pozostałe: Sposób aplikowania: - bezpośrednio do pracodawcy - wymagane dokumenty: link aplikacyjny: https://www.aplikuj.pl/oferta/3370179/kierowca-magazynier-k-m-umowa-o-prace-robert-bobek-f-h-kabanosik - języki aplikowania: polski Przeznaczone wyłącznie dla osób zarejestrowanych w urzędzie pracy: NIE",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-05",
+    "glossary": [],
+    "languages": [
+      "pl"
+    ],
+    "last_seen": "2026-11-05",
+    "location": "PL21",
+    "matched_keywords": [
+      "magazynier",
+      "pakowanie"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-04",
+    "score": 50,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTQ5MzUxMjQgMTI",
+    "source_review": {},
+    "summary_ar": "الموقع: PL21\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Magazynier-kierowca kat. B (K/M)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "4b3030e256640050",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzUxMjQgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "4b5c0bcd4e55a04f": {
     "company": "MIVESOF",
     "country": "RO",
@@ -21348,7 +21454,7 @@
     "languages": [
       "pl"
     ],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "PL71",
     "matched_keywords": [
       "magazynier"
@@ -21363,6 +21469,7 @@
     ],
     "source": "eures",
     "source_id": "MTQ5MjUzMDEgMTI",
+    "source_review": {},
     "summary_ar": "",
     "title": "Magazynier M/K",
     "title_ar": "",
@@ -22570,7 +22677,7 @@
     "languages": [
       "pl"
     ],
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-05",
     "location": "PL21",
     "matched_keywords": [
       "magazynier",
@@ -22579,14 +22686,14 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-21",
-    "score": 43,
+    "score": 40,
     "signals": [
       "unskilled_role_match",
-      "tier_1_country",
-      "fresh_posting"
+      "tier_1_country"
     ],
     "source": "eures",
     "source_id": "MTQ5MjY4ODYgMTI",
+    "source_review": {},
     "summary_ar": "الموقع: PL21\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier-logistyk (k/m)",
     "title_ar": "",
@@ -22820,7 +22927,7 @@
     "glossary": [],
     "languages": [],
     "last_seen": "2026-11-05",
-    "location": "Hungary",
+    "location": "Sopronkövesd, GS, Hungary",
     "matched_keywords": [
       "angol nyelv",
       "csomagolo",
@@ -22838,9 +22945,9 @@
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-2e9b6aeb271de5f3",
+    "source_id": "in-a441a35675a8160d",
     "source_review": {},
-    "summary_ar": "عبارات وردت في نص الإعلان: مرونة في اللغة؛ وكالة/إعادة توطين\nالموقع: Hungary\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: مرونة في اللغة؛ وكالة/إعادة توطين\nالموقع: Sopronkövesd, GS, Hungary\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Logisztikus / Vevői csomagolás",
     "title_ar": "",
     "title_en": "",
@@ -22943,6 +23050,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-59bbd6157c24e30b",
+    "source_review": {},
     "summary_ar": "",
     "title": "Magazynier - wózkowy",
     "title_ar": "",
@@ -23017,9 +23125,9 @@
     "source_id": "SlY6ZTkwYTkwOWRhZThlNDE5Y2JmY2FmMzBmZmNkMDNlYWUgMTg",
     "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Food Service Assistant",
-    "title_ar": "",
+    "title_ar": "مساعد خدمة أغذية",
     "title_en": "Food Service Assistant",
-    "translated": false,
+    "translated": true,
     "uid": "50cb346affcd4df7",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6ZTkwYTkwOWRhZThlNDE5Y2JmY2FmMzBmZmNkMDNlYWUgMTg?lang=en",
     "url_provenance": "",
@@ -23625,9 +23733,9 @@
     "source_id": "NDU5MDAwIDEwMQ",
     "summary_ar": "",
     "title": "KITCHEN HELPER",
-    "title_ar": "",
+    "title_ar": "مساعد مطبخ",
     "title_en": "KITCHEN HELPER",
-    "translated": false,
+    "translated": true,
     "uid": "53473d1fcc22e9f0",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDAwIDEwMQ?lang=en",
     "url_provenance": "",
@@ -23783,6 +23891,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-e4cb1d3452b970cc",
+    "source_review": {},
     "summary_ar": "الموقع: Winschoten, GR, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Logistiek medewerker",
     "title_ar": "",
@@ -24648,7 +24757,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Unterhaching, BY, Germany",
     "matched_keywords": [
       "produktionshelfer"
@@ -24664,6 +24773,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-b0ea4e33ab35ea1b",
+    "source_review": {},
     "summary_ar": "الموقع: Unterhaching, BY, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer (m/w/d) im Schichtbetrieb",
     "title_ar": "",
@@ -24839,6 +24949,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-d98eb9bee5930d0b",
+    "source_review": {},
     "summary_ar": "الموقع: Piotrków Trybunalski, LO, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Kierowca/Magazynier - Piotrków Trybunalski",
     "title_ar": "",
@@ -25248,9 +25359,9 @@
     "source_id": "SlY6NDgzNzk4NThiYzI3NGJhYmEyY2I5ZTk4ZjM0OWFhOTggMTg",
     "summary_ar": "",
     "title": "Meat Processing Operative",
-    "title_ar": "",
+    "title_ar": "عامل تصنيع لحوم",
     "title_en": "Meat Processing Operative",
-    "translated": false,
+    "translated": true,
     "uid": "5868dcb4a8437d30",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6NDgzNzk4NThiYzI3NGJhYmEyY2I5ZTk4ZjM0OWFhOTggMTg?lang=en",
     "url_provenance": "",
@@ -26549,7 +26660,7 @@
       }
     ],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Ochsenhausen, BW, Germany",
     "matched_keywords": [
       "ett",
@@ -26567,6 +26678,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-34038df2fde9fbc3",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Ochsenhausen, BW, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer Kabelfertigung (m/w/d)",
     "title_ar": "",
@@ -27547,6 +27659,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-c290bb3f62f494ce",
+    "source_review": {},
     "summary_ar": "الموقع: Nowy Sącz, ML, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier",
     "title_ar": "",
@@ -29032,6 +29145,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-cc7d981e0500bfca",
+    "source_review": {},
     "summary_ar": "الموقع: Głogów Małopolski, PP, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Operator / Operatorka Maszyn/Magazynier / Magazynierka",
     "title_ar": "",
@@ -29174,7 +29288,7 @@
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-95c7bba941e8945b",
+    "source_id": "in-713fbd9d2b6e603b",
     "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب؛ وكالة/إعادة توطين\nالموقع: Újhartyán, PE, Hungary\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Csomagoló operátor – Újhartyán",
@@ -29182,7 +29296,7 @@
     "title_en": "Packing operator - Újhartyán",
     "translated": false,
     "uid": "662ab5534f3cb2f8",
-    "url": "https://hu.indeed.com/viewjob?jk=95c7bba941e8945b",
+    "url": "https://hu.indeed.com/viewjob?jk=713fbd9d2b6e603b",
     "url_provenance": "",
     "url_verified": null
   },
@@ -29618,6 +29732,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-7d5d800af3e637f0",
+    "source_review": {},
     "summary_ar": "الموقع: Rzeszów, PP, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "magazynier [k/m/d] Scania S.A. - Rzeszów",
     "title_ar": "",
@@ -30248,7 +30363,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Pohlheim, HE, Germany",
     "matched_keywords": [
       "ett",
@@ -30257,15 +30372,15 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-21",
-    "score": 49,
+    "score": 46,
     "signals": [
       "unskilled_role_match",
       "agency_relocation_text_mention",
-      "tier_1_country",
-      "fresh_posting"
+      "tier_1_country"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-352dad8adff09b70",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Pohlheim, HE, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer in der Garten- und Landschaftspflege (w/m/d)",
     "title_ar": "",
@@ -31281,7 +31396,7 @@
     "languages": [
       "pl"
     ],
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-05",
     "location": "PL21",
     "matched_keywords": [
       "magazynier",
@@ -31298,13 +31413,16 @@
     ],
     "source": "eures",
     "source_id": "MTQ5Mjk0NTUgMTI",
+    "source_review": {},
     "summary_ar": "الموقع: PL21\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Operator drukarki cyfrowej- magazynier K/M",
     "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "6ced96e73ef8b4d9",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5Mjk0NTUgMTI?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5Mjk0NTUgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "6d098cc52e086a41": {
     "company": "Powiatowy Urząd Pracy",
@@ -33978,7 +34096,7 @@
     "languages": [
       "pl"
     ],
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-05",
     "location": "PL71",
     "matched_keywords": [
       "magazynier",
@@ -33988,7 +34106,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-27",
-    "score": 63,
+    "score": 60,
     "signals": [
       "unskilled_role_match",
       "no_exp_or_training_mention",
@@ -33997,6 +34115,7 @@
     ],
     "source": "eures",
     "source_id": "MTQ5MzAzODIgMTI",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: PL71\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier (K/M)",
     "title_ar": "أمين مستودع (ذكر/أنثى)",
@@ -34594,6 +34713,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-432dd6ad1797c441",
+    "source_review": {},
     "summary_ar": "الموقع: Wrocław, DO, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier",
     "title_ar": "",
@@ -34795,6 +34915,42 @@
     "translated": false,
     "uid": "78644a4643fc6944",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6YjFiM2Y1OTMyMmVmNDIwN2E5MTlhYjdmZTRiMGRkYjUgMTg?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "786a9aa5a020619d": {
+    "company": "Verbo B.V.",
+    "country": "NL",
+    "description": "**Productiemedewerker (3 ploegen)**\n\nWil jij werken in een gezellig team met materialen van hoge kwaliteit? Verbo is een van Europa’s toonaangevende producenten op het gebied van tijdelijke vloerbescherming. Je bent direct betrokken bij de productie van onze stucloper. De producten waar jij aan bijdraagt zullen uiteindelijk in meer dan 20 landen te vinden zijn!\n\nWe zijn gevestigd aan de Jules de Beerstraat in Tilburg. Vanuit hier werken we elke dag aan een betere toekomst met ons Professional Waste Solution programma. Hierbij worden gebruikte materialen opnieuw ingezet en verwerkt tot een zuivere grondstof.\n\n**Wat ga je doen binnen dit proces?**\n\n- Je zorgt voor het beladen van de machine en het afvoeren van producten en restmaterialen.  \n- Je zorgt dat het product klaar gemaakt wordt volgens de wensen en eisen van de afdeling productie/planning.  \n- Je zorgt ervoor dat de machines zo worden ingezet dat deze een optimaal rendement opleveren.  \n- Je bent alert op storingen en kwaliteitsafwijkingen en weet deze op de juiste manier te melden.  \n- Zorgen voor naleving van bedrijfs- en veiligheidsvoorschriften.\n\n**Wat moet je hiervoor kunnen?**\n\n- Je bent collegiaals, behulpzaam en hebt respect voor iedereen.\n\n- Je hebt een gemotiveerde en nieuwsgierige houding.\n\n- Ervaring met of een certificaat voor het besturen van een heftruck is een pré.\n\n- Je voelt je verantwoordelijk voor het eindproduct.\n\n**Wat krijg je ervoor terug?**\n\n- Een contract voor bepaalde tijd, met uitzicht op een vast dienstverband.\n\n- Een marktconformsalaris met 20% ploegentoeslag.\n\n- Goede secundaire arbeidsvoorwaarden.\n\n- Gezellige collega’s in een snel groeiend bedrijf.\n\nWe zijn er ons van bewust dat bepaalde dingen ook te leren zijn. Dus herken jij jezelf niet in alle bovenstaande punten maar houd je wel van een gezellig Brabants familiebedrijf waar ook hard gewerkt wordt? Dan zien we jouw sollicitatie met evenveel enthousiasme tegemoet!\n\nBij interesse of vragen kan je contact opnemen met Gijs Willems via gijs@verbonet.com of 013-463 2555.\n\nSoort dienstverband: Fulltime\n\nArbeidsvoorwaarden:\n\n* Pensioen\n* Reiskostenvergoeding\n\nWerklocatie: Fysiek",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-05",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-05",
+    "location": "Tilburg, NB, Netherlands",
+    "matched_keywords": [
+      "productiemedewerker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-05",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-3c95b59f4220f795",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Productiemedewerker (3 ploegen)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "786a9aa5a020619d",
+    "url": "https://nl.indeed.com/viewjob?jk=3c95b59f4220f795",
     "url_provenance": "",
     "url_verified": null
   },
@@ -36616,6 +36772,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-5e4b5059b7ce9cf2",
+    "source_review": {},
     "summary_ar": "الموقع: Konin, WP, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Pracownik zespołu monterskiego / Magazynier (k/m/n)",
     "title_ar": "",
@@ -36733,7 +36890,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Verl, NW, Germany",
     "matched_keywords": [
       "produktionshelfer"
@@ -36749,6 +36906,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-ea12ac375ea6458e",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: يذكر الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Verl, NW, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer:in (m/w/d)",
     "title_ar": "",
@@ -36902,6 +37060,43 @@
     "translated": false,
     "uid": "80ae3e3bf5b7196d",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTgyMjMtMVEyNTkyQUtOVlpDWjVWUy1TIDE?lang=en"
+  },
+  "80bd0e24066513f6": {
+    "company": "Zakłady Mięsne Nowak sp. z o.o.",
+    "country": "PL",
+    "description": "Zakres obowiązków: Kontrola przyjmowanego i wydawanego surowca, obsługa wózka widłowego wysokiego składowania, ważenie przypraw zgodnie z recepturą, wydawanie przypraw do innych działów, wydawanie innych materiałów pomocniczych, utrzymanie porządku w miejscu pracy, przestrzeganie standardów magazynowych, rozładunek towaru, dbanie o właściwe składowanie i przechowywanie towarów w magazynie, dbałość o porządek w magazynie i na terenie przyległym, dbanie o terminowy rozładunek, prowadzenie dokumentacji magazynowej. Praca zgodnie z grafikiem ustalonym z pracodawcą. Wymagania: - wykształcenie: brak lub niepełne podstawowe - pożądane - pozostałe: -Książeczka do celów sanitarno-epidemiologicznych lub gotowość do jej wyrobienia.-Aktualne uprawnienia UDT. Sposób aplikowania: - bezpośrednio do pracodawcy - wymagane dokumenty: CV - języki aplikowania: polski Przeznaczone wyłącznie dla osób zarejestrowanych w urzędzie pracy: NIE",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-05",
+    "glossary": [],
+    "languages": [
+      "pl"
+    ],
+    "last_seen": "2026-11-05",
+    "location": "PL63",
+    "matched_keywords": [
+      "magazynier"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-16",
+    "score": 34,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country"
+    ],
+    "source": "eures",
+    "source_id": "MTQ5MjQ0MTQgMTI",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Magazynier mroźni/działu przypraw (k/m)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "80bd0e24066513f6",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MjQ0MTQgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "80c0c0949fb55700": {
     "company": "ROLGRAF tiskarna d.o.o., Litostrojska cesta 58 , 1000 LJUBLJANA",
@@ -37346,6 +37541,43 @@
     "uid": "81ab97edbd4f7c71",
     "url": "https://join.com/companies/getraenke-weber/16891234-lagermitarbeiter-in-vollzeit?pid=a13795120131dbe48464"
   },
+  "81af22ae3a581fad": {
+    "company": "Powiatowy Urząd Pracy",
+    "country": "PL",
+    "description": "Zakres obowiązków: - przyjmowanie dostaw i wprowadzanie do systemu, - obsługa kasy fiskalnej, - obsługa klientów sklepu. Wymagania: - wykształcenie: średnie ogólnokształcące - konieczne - języki obce: polski - w mowie: A1 - początkujący, w piśmie: A1 - początkujący - konieczne; rosyjski - w mowie: B2 - wyższy średnio zaawansowany, w piśmie: B2 - wyższy średnio zaawansowany - konieczne - inne zawody: Pozostali sprzedawcy sklepowi (ekspedienci) - konieczne - pozostałe: - biegła obsługa komputera i internetu, - dokładność, - odporność na stres, - obsługa kasy fiskalnej i terminala płatniczego, - znajomość języka polskiego na poziomie A1 oraz języka rosyjskiego na poziomie B2 (ze względu na obsługę klientów rosyjskojęzycznych). Sposób aplikowania: - kontakt przez Powiatowy Urząd Pracy Urząd Pracy Miasta Stołecznego WarszawyGrochowska 171bWarszawa 04111 - wymagane dokumenty: Po uzgodnieniu z pracodawcą - języki aplikowania: polski Przeznaczone wyłącznie dla osób zarejestrowanych w urzędzie pracy: TAK",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-05",
+    "glossary": [],
+    "languages": [
+      "pl"
+    ],
+    "last_seen": "2026-11-05",
+    "location": "PL9",
+    "matched_keywords": [
+      "magazynier"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-12",
+    "score": 34,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country"
+    ],
+    "source": "eures",
+    "source_id": "MTQ5MjExMTEgMTI",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Sprzedawca-magazynier K/M",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "81af22ae3a581fad",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MjExMTEgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "821b202bdaab6853": {
     "company": "Peterson Den Helder",
     "country": "NL",
@@ -37408,6 +37640,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-9b44e85b069c282e",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Oudeschild, NH, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazijnmedewerker",
     "title_ar": "",
@@ -38830,7 +39063,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Lüneburg, NI, Germany",
     "matched_keywords": [
       "produktionshelfer"
@@ -38845,6 +39078,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-e2c77d5c2566f055",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: يذكر الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Lüneburg, NI, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer (m/w/d) Lüneburg",
     "title_ar": "",
@@ -39171,6 +39405,52 @@
     "translated": false,
     "uid": "88cd9d403c8cd089",
     "url": "https://myhr.wd3.myworkdayjobs.com/en-US/PlanseeGroup_Career/job/Mamer-Luxembourg/Magasinier-Faonnage---f-m-d-_JR-12569-1",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "88eaa70f7921ecd0": {
+    "company": "GRUPA LUXPOL WOLEK SPÓŁKA KOMANDYTOWA",
+    "country": "PL",
+    "description": "Zakres obowiązków: - pomoc drukarzom na każdym etapie pracy;- pomoc drukarzom w utrzymaniu ciągłości produkcji, w miarę możliwości bez postojów, tj. przynoszenie, docinanie, nakładanie i ściąganie materiałów z maszyny;- kontrola jakości wydruków i zadrukowanego materiału;- dbałość o narzędzia pracy;- utrzymanie porządku na stanowisku pracy, w jego otoczeniu oraz w magazynie;- przyjmowanie oraz wydawanie towaru;- przygotowanie towaru do wysyłki oraz dla klientów przy odbiorze osobistym;- wykonywanie innych obowiązków zleconych przez przełożonego.* praca w systemie 2-zmianowym: 06:00-14:00, 14:00-22:00. Wymagania: - wykształcenie: zasadnicze zawodowe - konieczne - pozostałe: wykształcenie min. zawodowe, doświadczenie nie jest wymagane. Sposób aplikowania: - bezpośrednio do pracodawcy - wymagane dokumenty: CV - życiorys zawodowy wraz ze zgodą na przetwarzanie danych osobowych - języki aplikowania: polski Dodatkowy opis: OfPr/26/1520 | wykształcenie min. zawodowe, doświadczenie nie jest wymagane. Przeznaczone wyłącznie dla osób zarejestrowanych w urzędzie pracy: NIE",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-05",
+    "glossary": [
+      {
+        "ar": "بيان صاحب العمل (مصطلح إجرائي بولندي)",
+        "en": "employer's statement (Polish hiring procedure term)",
+        "term": "oświadczenie"
+      }
+    ],
+    "languages": [
+      "pl"
+    ],
+    "last_seen": "2026-11-05",
+    "location": "PL22",
+    "matched_keywords": [
+      "doswiadczenie nie jest wymagane",
+      "pomocnik"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-02",
+    "score": 62,
+    "signals": [
+      "unskilled_role_match",
+      "no_exp_or_training_mention",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTQ5MzM2MTUgMTI",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: PL22\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Pomocnik drukarza (k/m)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "88eaa70f7921ecd0",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzM2MTUgMTI?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -39637,6 +39917,51 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "8a45466d95f98cfd": {
+    "company": "CHLE-MAR MACIEJ CHLEBDA SPÓŁKA KOMANDYTOWA",
+    "country": "PL",
+    "description": "Zakres obowiązków: przyjmowanie i wydawanie towaru z magazynu według ustalonych standardówkompletowanie i pakowanie zamówieńrozładunek i załadunek dostawrozmieszczanie towaru w magazyniedbanie o porządek i organizację miejsca pracykontrola stanów magazynowychudział w okresowych inwentaryzacjach Wymagania: - wykształcenie: podstawowe - dodatkowe - pozostałe: sumienność i dokładnośćprzestrzeganie zasad BHPdobra organizacja pracyumiejętność pracy w zespolegotowość do pracy fizycznejdoświadczenie na podobnym stanowiskuuprawnienia na wózki widłowe i podesty ruchome Sposób aplikowania: - bezpośrednio do pracodawcy - wymagane dokumenty: cv, kontakt telefoniczny, kontakt e-mail, - języki aplikowania: polski Przeznaczone wyłącznie dla osób zarejestrowanych w urzędzie pracy: NIE",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-05",
+    "glossary": [
+      {
+        "ar": "بيان صاحب العمل (مصطلح إجرائي بولندي)",
+        "en": "employer's statement (Polish hiring procedure term)",
+        "term": "oświadczenie"
+      }
+    ],
+    "languages": [
+      "pl"
+    ],
+    "last_seen": "2026-11-05",
+    "location": "PL21",
+    "matched_keywords": [
+      "magazynier",
+      "pakowanie"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-03",
+    "score": 50,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTQ5MzQzNDQgMTI",
+    "source_review": {},
+    "summary_ar": "الموقع: PL21\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Magazynier K/M",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "8a45466d95f98cfd",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzQzNDQgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "8a5114eed9e9a664": {
     "company": "Powiatowy Urząd Pracy",
     "country": "PL",
@@ -40072,7 +40397,7 @@
     "first_seen": "2026-11-03",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Neuenrade, NW, Germany",
     "matched_keywords": [
       "produktionshelfer"
@@ -40087,6 +40412,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-f4a8c2251d7eaf68",
+    "source_review": {},
     "summary_ar": "الموقع: Neuenrade, NW, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "PRODUKTIONSHELFER (M/W/D)",
     "title_ar": "",
@@ -41171,29 +41497,30 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-03",
-    "location": "Gorzów Wielkopolski, LU, Poland",
+    "last_seen": "2026-11-05",
+    "location": "Słupsk, PM, Poland",
     "matched_keywords": [
       "magazynier"
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-02",
-    "score": 44,
+    "posted_date": "2026-10-30",
+    "score": 40,
     "signals": [
       "unskilled_role_match",
       "tier_1_country",
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-be37d00cc8d39af0",
+    "source_id": "in-6b982cb459e829db",
+    "source_review": {},
     "summary_ar": "الموقع: Gorzów Wielkopolski, LU, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier/Magazynierka DPD Polska",
     "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "8e5428953a1f17fd",
-    "url": "https://skk.erecruiter.pl/Offer.aspx?oid=5021981&cfg=FA54905FAA184F7D85C4BCF6780F127D&ejoId=830340&ejorId=554001&comId=480",
+    "url": "https://skk.erecruiter.pl/Offer.aspx?oid=5020612&cfg=FA54905FAA184F7D85C4BCF6780F127D&ejoId=830046&ejorId=557830&comId=480",
     "url_provenance": "",
     "url_verified": null
   },
@@ -42514,9 +42841,9 @@
     "source_id": "MjE1SkNZUyA5",
     "summary_ar": "",
     "title": "Assistant magasinier (H/F)",
-    "title_ar": "",
+    "title_ar": "مساعد مستودع",
     "title_en": "Assistant magasinier (H/F)",
-    "translated": false,
+    "translated": true,
     "uid": "939f944f48631423",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1SkNZUyA5?lang=en",
     "url_provenance": "",
@@ -43147,6 +43474,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-5421e99db3ed0b53",
+    "source_review": {},
     "summary_ar": "الموقع: Rzeszów, PP, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier (k/m)",
     "title_ar": "",
@@ -43491,7 +43819,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Gallin, MV, Germany",
     "matched_keywords": [
       "produktionshelfer"
@@ -43507,6 +43835,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-b337d0ab540e18ac",
+    "source_review": {},
     "summary_ar": "الموقع: Gallin, MV, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer (m/w/d)",
     "title_ar": "",
@@ -47110,7 +47439,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Laasdorf, TH, Germany",
     "matched_keywords": [
       "maschinenbediener",
@@ -47126,6 +47455,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-d56620f8e2d65ada",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: يذكر الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Laasdorf, TH, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer / Maschinenbediener (m/w/d)",
     "title_ar": "",
@@ -47164,9 +47494,9 @@
     "source_id": "NDU3MDA1IDEwMQ",
     "summary_ar": "",
     "title": "KITCHEN HELPER",
-    "title_ar": "",
+    "title_ar": "مساعد مطبخ",
     "title_en": "KITCHEN HELPER",
-    "translated": false,
+    "translated": true,
     "uid": "a330657667dd6118",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU3MDA1IDEwMQ?lang=en",
     "url_provenance": "",
@@ -49191,7 +49521,7 @@
     "first_seen": "2026-11-03",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-05",
     "location": "Cham, BY, Germany",
     "matched_keywords": [
       "anlernkraft",
@@ -49208,6 +49538,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-abea8c5619cfddab",
+    "source_review": {},
     "summary_ar": "",
     "title": "Produktionshelfer / Anlernkräfte (m/w/d) - befristet",
     "title_ar": "",
@@ -50273,7 +50604,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Schloß Holte-Stukenbrock, NW, Germany",
     "matched_keywords": [
       "produktionshelfer"
@@ -50288,6 +50619,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-21b9d64cb3da1963",
+    "source_review": {},
     "summary_ar": "الموقع: Schloß Holte-Stukenbrock, NW, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer in der Kunststoffverarbeitung (m/w/d), unbefristet",
     "title_ar": "",
@@ -50322,6 +50654,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-7b20508bebb65d9b",
+    "source_review": {},
     "summary_ar": "الموقع: Płock, MZ, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier",
     "title_ar": "",
@@ -50401,6 +50734,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-a6cbe8e703f8ecab",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Eindhoven, NB, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Logistiek medewerker",
     "title_ar": "عامل لوجستيات",
@@ -50793,6 +51127,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-4d0e6484edd26b36",
+    "source_review": {},
     "summary_ar": "الموقع: Budel, NB, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Ervaren magazijnmedewerker/beheerder",
     "title_ar": "",
@@ -50982,7 +51317,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Leutershausen, BY, Germany",
     "matched_keywords": [
       "produktionshelfer"
@@ -50997,6 +51332,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-c8db87099b466ee7",
+    "source_review": {},
     "summary_ar": "الموقع: Leutershausen, BY, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer*in (m/w/d)",
     "title_ar": "",
@@ -51144,6 +51480,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-39a19ad51c32c0a3",
+    "source_review": {},
     "summary_ar": "الموقع: Katowice, SL, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier/Magazynierka",
     "title_ar": "",
@@ -52098,6 +52435,44 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "b2cad2e2f5a1aac5": {
+    "company": "Piekarnia Karpińscy s.c. Agnieszka Karpińska Andrzej Karpiński",
+    "country": "PL",
+    "description": "Zakres obowiązków: Pomoc na magazynie. Praca od poniedziałku do niedzieli, w godzinach nocnych: 21:00-06:00. Wymagania: - wykształcenie: średnie zawodowe - pożądane - umiejętności: prawo jazdy kat. B - pożądane - pozostałe: zaangażowanie, gotowość do podjęcia pracy, systematyczność. Mile widziana książeczka do celów sanitarno-epidemiologicznych. Sposób aplikowania: - bezpośrednio do pracodawcy - wymagane dokumenty: - - języki aplikowania: polski Przeznaczone wyłącznie dla osób zarejestrowanych w urzędzie pracy: NIE",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-05",
+    "glossary": [],
+    "languages": [
+      "pl"
+    ],
+    "last_seen": "2026-11-05",
+    "location": "PL63",
+    "matched_keywords": [
+      "magazynier"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-03",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTQ5MzQ3NDcgMTI",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Magazynier/ka",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "b2cad2e2f5a1aac5",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzQ3NDcgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "b2cea2469bf206e8": {
     "company": "PostNord Group AB",
     "country": "SE",
@@ -52513,6 +52888,44 @@
     "translated": false,
     "uid": "b3da94699d8fe263",
     "url": "https://www.multibier.nl/werken-bij/word-jij-onze-productiemedewerker/",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "b3ed2de405833c4c": {
+    "company": "KREON Sp. z o.o.",
+    "country": "PL",
+    "description": "Zakres obowiązków: Obsługa wtryskarki i wprowadzanie parametrów procesu wtrysku. Przygotowanie stanowiska pracy oraz urządzeń do podawania surowców. Składanie i czyszczenia form wtrysku. Kontrola jakości: Sprawdzanie wyprodukowanych elementów pod kątem zgodności z normami oraz eliminowanie wad. Praca na magazynie. Pakowanie i segregacja. Odbieranie gotowych wyrobów i ich sortowanie oraz wstępne pakowanie.Obsługa komputera. Wymagania: - języki obce: polski - w mowie: C2 - biegły, w piśmie: C2 - biegły - konieczne - pozostałe: Możliwość przyuczenia się. Sposób aplikowania: - bezpośrednio do pracodawcy - języki aplikowania: polski Przeznaczone wyłącznie dla osób zarejestrowanych w urzędzie pracy: NIE",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-05",
+    "glossary": [],
+    "languages": [
+      "pl"
+    ],
+    "last_seen": "2026-11-05",
+    "location": "PL22",
+    "matched_keywords": [
+      "pakowanie"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-03",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTQ5Mjg0NjYgMTI",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "operator/ka wtryskarki",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "b3ed2de405833c4c",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5Mjg0NjYgMTI?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -53259,6 +53672,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-2d513ababf1edaed",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Bleskensgraaf, ZH, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Logistiek Medewerker (Student/Oproep)",
     "title_ar": "",
@@ -53311,7 +53725,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Aurach, BY, Germany",
     "matched_keywords": [
       "ett",
@@ -53328,6 +53742,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-9e4b2fa89c254976",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Aurach, BY, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer (m/w/d)",
     "title_ar": "",
@@ -54747,28 +55162,28 @@
     "glossary": [],
     "languages": [],
     "last_seen": "2026-11-05",
-    "location": "Tarnowiec, ML, Poland",
+    "location": "Nowy Sącz, ML, Poland",
     "matched_keywords": [
       "magazynier"
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-10-22",
-    "score": 38,
+    "posted_date": "2026-10-21",
+    "score": 34,
     "signals": [
       "unskilled_role_match",
-      "tier_1_country",
-      "fresh_posting"
+      "tier_1_country"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-04b4e4c6b51fcb15",
+    "source_id": "in-e10bb0d8c5ef967d",
+    "source_review": {},
     "summary_ar": "الموقع: Tarnowiec, ML, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier (k/m)",
     "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "bbe665ff8488b7fc",
-    "url": "https://careers.fedex.com/pl-pl/magazynier-k-m/job/D41D74E592B8A8F0062703F597D2ECEB?utm_domicile=unspecified&utm_persona=unspecified&utm_trackedsource=srm_indeed_org&utm_subco=FECEU",
+    "url": "https://careers.fedex.com/pl-pl/magazynier-k-m/job/D8F5B5E1428191C22315B718C72D34AD?utm_domicile=unspecified&utm_persona=unspecified&utm_trackedsource=srm_indeed_org&utm_subco=FECEU",
     "url_provenance": "",
     "url_verified": null
   },
@@ -56223,28 +56638,28 @@
     "glossary": [],
     "languages": [],
     "last_seen": "2026-11-05",
-    "location": "Mysłowice, SL, Poland",
+    "location": "Stryków, LO, Poland",
     "matched_keywords": [
       "magazynier"
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-02",
-    "score": 44,
+    "posted_date": "2026-10-10",
+    "score": 34,
     "signals": [
       "unskilled_role_match",
-      "tier_1_country",
-      "fresh_posting"
+      "tier_1_country"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-428c4fdf9ca1cd2d",
+    "source_id": "in-91891d54ac7f7d49",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Ożarowice, SL, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "magazynier",
     "title_ar": "أمين مستودع",
     "title_en": "warehouse worker",
     "translated": false,
     "uid": "c07314b07be9ddee",
-    "url": "https://www.jobs-ups.com/eeu/pl/job/UPBUPSGLOBALR26040903EXTERNALPLEEU/magazynier?utm_source=indeed&utm_medium=phenom-feeds",
+    "url": "https://www.jobs-ups.com/eeu/pl/job/UPBUPSGLOBALR26012372EXTERNALPLEEU/magazynier?utm_source=indeed&utm_medium=phenom-feeds",
     "url_provenance": "",
     "url_verified": null
   },
@@ -58025,7 +58440,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Lübbecke, NW, Germany",
     "matched_keywords": [
       "produktionshelfer"
@@ -58040,6 +58455,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-7ff15f3f5022accc",
+    "source_review": {},
     "summary_ar": "الموقع: Lübbecke, NW, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktions- / Metallhelfer mit frei wählbarer Arbeitszeit und 400 Euro Gesundheitsbonus (m/w/d)",
     "title_ar": "",
@@ -61505,15 +61921,15 @@
     "glossary": [],
     "languages": [],
     "last_seen": "2026-11-05",
-    "location": "Nieuwegein, UT, Netherlands",
+    "location": "Groningen, GR, Netherlands",
     "matched_keywords": [
       "ett",
       "magazijnmedewerker"
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-05",
-    "score": 56,
+    "posted_date": "2026-10-28",
+    "score": 49,
     "signals": [
       "unskilled_role_match",
       "agency_relocation_text_mention",
@@ -61521,15 +61937,15 @@
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-1891de5e8ce8f210",
+    "source_id": "in-11cd4aac6b153e17",
     "source_review": {},
-    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Nieuwegein, UT, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Groningen, GR, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazijnmedewerker DC",
     "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "d234ee29e3b4045b",
-    "url": "https://emp.jobylon.com/jobs/395215-bmn-magazijnmedewerker-dc/?source=Indeed&utm_source=indeed&utm_medium=jobserializer",
+    "url": "https://emp.jobylon.com/jobs/386455-bmn-magazijnmedewerker-dc/?source=Indeed&utm_source=indeed&utm_medium=jobserializer",
     "url_provenance": "",
     "url_verified": null
   },
@@ -62143,9 +62559,9 @@
     "source_id": "NDU2ODYyIDEwMQ",
     "summary_ar": "",
     "title": "KITCHEN HELPER",
-    "title_ar": "",
+    "title_ar": "مساعد مطبخ",
     "title_en": "KITCHEN HELPER",
-    "translated": false,
+    "translated": true,
     "uid": "d3d60ab6f87e02af",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU2ODYyIDEwMQ?lang=en",
     "url_provenance": "",
@@ -62416,7 +62832,7 @@
   "d4a5d9a73aa15b51": {
     "company": "UCO Contactlenzen",
     "country": "NL",
-    "description": "Maatwerkcontactlenzen | Wieringerwerf | 20–32 uur per week\n\n**Jouw precisie maakt het verschil!**\n\nWerk je graag met je handen, heb je gevoel voor techniek en oog voor detail? Bij UCO Contactlenzen leer je een specialistisch vak: het produceren van contactlenzen op maat. Met jouw werk draag je direct bij aan beter zicht voor onze lensdragers.\n\nVoor onze productielocatie in Wieringerwerf zoeken we een betrokken collega voor 20–32 uur per week. Ervaring met het maken van contactlenzen is niet nodig: wij leren je het vak. Woon je in Wieringerwerf, Schagen, Hoorn of omgeving? Dan maak je bij ons kennis met bijzonder precisiewerk in jouw regio.\n\n**Over UCO Contactlenzen**\n\nUCO produceert sinds 1968 maatwerkcontactlenzen voor opticiens, optometristen en oogspecialisten in Nederland en daarbuiten. Ons team beschikt over jarenlange vakkennis. Die ervaring combineren we met de verdere ontwikkeling van onze producten en productieprocessen. Kwaliteit, persoonlijke service en betrouwbare levering staan daarbij centraal.\n\n**Jouw werkzaamheden**\n\nJe werkt aan verschillende stappen binnen de productie van contactlenzen. Onder begeleiding van ervaren collega’s leer je onze machines, materialen en kwaliteitsnormen kennen. Je bouwt je vaardigheden stapsgewijs op, waaronder het instellen en bedienen van onze productiemachines.\n\n**Je werkzaamheden bestaan onder meer uit:**\n\n* Instellen en bedienen van precisieproductiemachines.\n* Bewerken, polijsten en afwerken van contactlenzen.\n* Uitvoeren van controles op maatvoering en oppervlaktekwaliteit.\n* Zorgvuldig registreren van productie- en controlegegevens.\n* Signaleren en bespreken van afwijkingen.\n* Bijdragen aan een schone, georganiseerde werkomgeving en het verbeteren van werkprocessen.\n\n**Jouw profiel**\n\nJe hebt affiniteit met techniek en werkt geconcentreerd en nauwkeurig. Je begrijpt dat kleine details bepalend kunnen zijn voor de kwaliteit van het eindproduct.\n\n**Daarnaast**:\n\n* Werk je gestructureerd en volgens vastgestelde instructies.\n* Beschik je over een goede fijne motoriek.\n* Ben je leergierig en bereid een specialistisch vak te leren.\n* Neem je verantwoordelijkheid voor je werk en overleg je tijdig met collega’s.\n* Ben je beschikbaar voor 20–32 uur per week.\n\nErvaring in een technische productieomgeving, fijnmechanica of kwaliteitscontrole is een pré. Specifieke ervaring met contactlenzen is niet noodzakelijk; wij begeleiden je bij het leren van het vak.\n\n**Wat je van ons kunt verwachten**\n\n* Een specialistische en afwisselende functie binnen een ervaren team.\n* Een werkweek van 20–32 uur, met werkdagen en uren in overleg.\n* Werk op maandag tot en met vrijdag, tussen 08.00 en 17.00 uur.\n* Geen avond-, nacht- of weekenddiensten.\n* Een zorgvuldig inwerktraject en begeleiding op de werkvloer.\n* Ruimte om je vakkennis te ontwikkelen en mee te denken over verbeteringen.\n* Een salaris passend bij je kennis en ervaring.\n* 8% vakantiegeld en 25 vakantiedagen op basis van een 40-urige werkweek, naar rato van je dienstverband.\n\n**Kennismaken?**\n\nWil je meer weten over het werk en de mogelijkheden bij UCO? We maken graag kennis met je.\n\nStuur je cv en een korte toelichting naar , ter attentie van Jeffrey van Beek. Vertel ons wat je aanspreekt in deze functie en welke ervaring of vaardigheden je meebrengt.\n\nHeb je eerst een vraag? Bel Jeffrey via\n\n0227-601837\n\nUCO Contactlenzen\n\nHoekvaartweg 21 · Wieringerwerf\n\nArbeidsvoorwaarden:\n\n* Pensioen\n* Reiskostenvergoeding\n\nWerklocatie: Fysiek",
+    "description": "Maatwerkcontactlenzen | Wieringerwerf | 20–32 uur per week\n\n**Jouw precisie maakt het verschil!**\n\nWerk je graag met je handen, heb je gevoel voor techniek en oog voor detail? Bij UCO Contactlenzen leer je een specialistisch vak: het produceren van contactlenzen op maat. Met jouw werk draag je direct bij aan beter zicht voor onze lensdragers.\n\nVoor onze productielocatie in Wieringerwerf zoeken we een betrokken collega voor 20–32 uur per week. Ervaring met het maken van contactlenzen is niet nodig: wij leren je het vak. Woon je in Wieringerwerf, Schagen, Hoorn of omgeving? Dan maak je bij ons kennis met bijzonder precisiewerk in jouw regio.\n\n**Over UCO Contactlenzen**\n\nUCO produceert sinds 1968 maatwerkcontactlenzen voor opticiens, optometristen en oogspecialisten in Nederland en daarbuiten. Ons team beschikt over jarenlange vakkennis. Die ervaring combineren we met de verdere ontwikkeling van onze producten en productieprocessen. Kwaliteit, persoonlijke service en betrouwbare levering staan daarbij centraal.\n\n**Jouw werkzaamheden**\n\nJe werkt aan verschillende stappen binnen de productie van contactlenzen. Onder begeleiding van ervaren collega’s leer je onze machines, materialen en kwaliteitsnormen kennen. Je bouwt je vaardigheden stapsgewijs op, waaronder het instellen en bedienen van onze productiemachines.\n\n**Je werkzaamheden bestaan onder meer uit:**\n\n* Instellen en bedienen van precisieproductiemachines.\n* Bewerken, polijsten en afwerken van contactlenzen.\n* Uitvoeren van controles op maatvoering en oppervlaktekwaliteit.\n* Zorgvuldig registreren van productie- en controlegegevens.\n* Signaleren en bespreken van afwijkingen.\n* Bijdragen aan een schone, georganiseerde werkomgeving en het verbeteren van werkprocessen.\n\n**Jouw profiel**\n\nJe hebt affiniteit met techniek en werkt geconcentreerd en nauwkeurig. Je begrijpt dat kleine details bepalend kunnen zijn voor de kwaliteit van het eindproduct.\n\n**Daarnaast**:\n\n* Werk je gestructureerd en volgens vastgestelde instructies.\n* Beschik je over een goede fijne motoriek.\n* Ben je leergierig en bereid een specialistisch vak te leren.\n* Neem je verantwoordelijkheid voor je werk en overleg je tijdig met collega’s.\n* Ben je beschikbaar voor 20–32 uur per week.\n\nErvaring in een technische productieomgeving, fijnmechanica of kwaliteitscontrole is een pré. Specifieke ervaring met contactlenzen is niet noodzakelijk; wij begeleiden je bij het leren van het vak.\n\n**Wat je van ons kunt verwachten**\n\n* Een zorgvuldig inwerktraject en begeleiding op de werkvloer.\n* Een werkweek van 20–32 uur, met werkdagen en uren in overleg.\n* Werk op maandag tot en met vrijdag, tussen 08.00 en 17.00 uur.\n* Geen avond-, nacht- of weekenddiensten.\n* Een specialistische en afwisselende functie binnen een ervaren team.\n* Ruimte om je vakkennis te ontwikkelen en mee te denken over verbeteringen.\n* Een salaris passend bij je kennis en ervaring.\n* 8% vakantiegeld en 25 vakantiedagen op basis van een 40-urige werkweek, naar rato van je dienstverband.\n\n**Kennismaken?**\n\nWil je meer weten over het werk en de mogelijkheden bij UCO? We maken graag kennis met je.\n\nStuur je cv en een korte toelichting naar jeffrey@ucocontactlenzen.nl, ter attentie van Jeffrey van Beek. Vertel ons wat je aanspreekt in deze functie en welke ervaring of vaardigheden je meebrengt.\n\n**Heb je eerst een vraag?**\n\nMail Jeffrey via jeffrey@ucocontactlenzen.nl of bel naar 0227-601837\n\nUCO Contactlenzen\n\nHoekvaartweg 21 · Wieringerwerf\n\nVerwacht aantal uur: 20.0 – 32.0 per week\n\nArbeidsvoorwaarden:\n\n* Pensioen\n* Reiskostenvergoeding\n\nWerklocatie: Fysiek",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-05",
@@ -62447,6 +62863,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-54dad7f58f80f6d8",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Wieringerwerf, NH, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Productiemedewerker / Machineoperator",
     "title_ar": "",
@@ -62901,6 +63318,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-286630a604a2937b",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Giessen, NB, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazijnmedewerk(st)er (avond/nacht)",
     "title_ar": "",
@@ -63007,6 +63425,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-2f20bb861c955991",
+    "source_review": {},
     "summary_ar": "الموقع: Dąbrówka Wielka, WM, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier/Magazynierka",
     "title_ar": "",
@@ -64182,6 +64601,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-6a0917c454475db5",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Bemmel, GE, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazijnmedewerker",
     "title_ar": "",
@@ -65629,6 +66049,42 @@
     "uid": "e050286daa4cfc0f",
     "url": "https://www.domestiko.com/empleo/oferta/picassent-operario-a-de-produccion-sector-alimentario-u67a/"
   },
+  "e0562485e3cfaba4": {
+    "company": "Pon",
+    "country": "NL",
+    "description": "**Lekker actief bezig zijn, werken met fijne collega’s en aan het einde van de dag zien wat je samen hebt gedaan? Bij Pon Logistics in Veenendaal zorg jij dat bestellingen op tijd de deur uitgaan.**\n\nJe werkt 32 tot 40 uur per week in een modern en overzichtelijk magazijn. Je werktijden liggen tussen10.30 en 19.00 uur.\n\n**Jouw baan bij Pon Logistics**\n\nAls Logistiek Medewerker zorg je er samen met je collega’s voor dat alle goederen correct worden ontvangen, verwerkt en verzonden. Je werkt in een modern en overzichtelijk magazijn voor verschillende bekende klanten en merken.\n\nDankzij jouw inzet komen bestellingen compleet, onbeschadigd en op tijd op de juiste bestemming aan.\n\n**Wat ga je doen?**\n\n* Laden, lossen en verwerken van goederen\n* Verzamelen van bestellingen met behulp van een scanner\n* Controleren of orders compleet en onbeschadigd zijn\n* Inpakken en verzendklaar maken van bestellingen\n* Verwerken en controleren van retourzendingen\n* Uitvoeren van kwaliteitschecks\n* Signaleren van fouten of afwijkingen\n* Netjes, veilig en overzichtelijk houden van het magazijn\n\n**Over het bedrijf**\n\nMet Pon Logistics Veenendaal aan je zij is geen logistieke uitdaging onmogelijk. Door onze proactieve houding en kennis van iedere logistieke uitdaging, leveren we maatwerk. Als onze klant kan jij rekenen op een service die je verwachtingen overtreft. Elke klant is anders, elk product is anders en iedere logistieke vraag is net anders. En daar weten wij op in te spelen. We bieden klantspecifieke oplossingen in fysieke distributie, value added logistic services, supply chain management en consultancy.\n\nGeen logistieke uitdaging is te groot met Pon Logistics Veenendaal aan je zijde. Dankzij onze proactieve houding en uitgebreide kennis van diverse logistieke vraagstukken, leveren wij maatwerkoplossingen die aan al jouw verwachtingen voldoen.\n\n**Wat we jou bieden**\n\n* Een start salaris tussen € 2.608 en € 3.000 bruto per maand op basis van 40 uur, afhankelijk van jouw ervaring.\n* Een Individueel Keuzebudget (IKB) met daarin onder andere 8% vakantiegeld, 4,15% eindejaarsuitkering en 4,15% vaste bonus. Je kunt ervoor kiezen om deze bedragen maandelijks te laten uitbetalen, zodat je iedere maand extra inkomen ontvangt boven op je salaris.\n* Vakantie- en ADV-uren passend bij jouw dienstverband\n* Interne opleidingen en doorgroeimogelijkheden\n* De mogelijkheid om certificaten via Pon te behalen\n* Personeelskorting op onder andere auto’s, fietsen, private lease, onderhoud en onderdelen\n* Deelname aan Pon Fit, gericht op sport en gezondheid\n* Uitzicht op een vast contract\n\nJe komt terecht in een gezellig en nuchter team waarin collega’s elkaar helpen en samen de klus klaren. Je werkt in een moderne, schone en overzichtelijke omgeving met goede hulpmiddelen. Veiligheid, kwaliteit en samenwerking staan voorop.",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-05",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-05",
+    "location": "Leusden, UT, Netherlands",
+    "matched_keywords": [
+      "logistiek medewerker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-28",
+    "score": 38,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-78d3bf6d57272ef1",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Logistiek medewerker Pon Logistics Veenendaal",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "e0562485e3cfaba4",
+    "url": "https://jobsatpon.com/vacature-overzicht#/nl/vacancies/37585-logistiek-medewerker-pon-logistics-veenendaal-4",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "e0a16b074fe7e91b": {
     "company": "PerZukunft Arbeitsvermittlung GmbH & Co. KG",
     "country": "DE",
@@ -66050,7 +66506,7 @@
     "languages": [
       "pl"
     ],
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-05",
     "location": "PL62",
     "matched_keywords": [
       "magazynier"
@@ -66066,13 +66522,16 @@
     ],
     "source": "eures",
     "source_id": "MTQ5MzI1OTcgMTI",
+    "source_review": {},
     "summary_ar": "الموقع: PL62\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier (kobieta/mężczyzna)",
     "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "e21bf0bcab339857",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzI1OTcgMTI?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzI1OTcgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "e2303c5ff92cfb5e": {
     "company": "OTTO Work Force",
@@ -66100,9 +66559,9 @@
     "source_id": "2272-production-employee-vepo-cheese",
     "summary_ar": "الموقع: Bodegraven\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Production employee at Vepo Cheese",
-    "title_ar": "",
+    "title_ar": "عامل إنتاج لدى Vepo Cheese",
     "title_en": "Production employee at Vepo Cheese",
-    "translated": false,
+    "translated": true,
     "uid": "e2303c5ff92cfb5e",
     "url": "https://ottoworkforce.eu/en/jobs/2272-production-employee-vepo-cheese",
     "url_provenance": "",
@@ -67587,7 +68046,7 @@
     "languages": [
       "pl"
     ],
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-05",
     "location": "PL22",
     "matched_keywords": [
       "magazynier"
@@ -67602,6 +68061,7 @@
     ],
     "source": "eures",
     "source_id": "MTQ5MTg1NTkgMTI",
+    "source_review": {},
     "summary_ar": "الموقع: PL22\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier (K/M)",
     "title_ar": "",
@@ -68386,6 +68846,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-57b34e34a39a0df8",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Sint-Oedenrode, NB, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Logistiek medewerker ft locatie St. Oedenrode",
     "title_ar": "عامل لوجستيات / دوام كامل (ترجمة جزئية للمسمى - راجع العنوان الأصلي)",
@@ -69341,7 +69802,7 @@
     "languages": [
       "pl"
     ],
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-05",
     "location": "PL21",
     "matched_keywords": [
       "magazynier",
@@ -69357,6 +69818,7 @@
     ],
     "source": "eures",
     "source_id": "MTQ5MTkzNzEgMTI",
+    "source_review": {},
     "summary_ar": "الموقع: PL21\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Pracownik Magazynu Centrum dystrybucji Lidl Skawina (Kopanka) (k/m)",
     "title_ar": "",
@@ -70784,6 +71246,44 @@
     "translated": false,
     "uid": "f2ed2e88b9140e92",
     "url": "https://hu.indeed.com/viewjob?jk=9d7ad06f007ae01f",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "f2f0e09cc64648c4": {
+    "company": "Easy Life International B.V.",
+    "country": "NL",
+    "description": "**Vacature: Productiemedewerker**\n\n**Locatie:** Duiven  \n**Bedrijf:** Easy Life International B.V. – Spoorallee 18 – Duiven\n\nProductiemedewerker – Easy Life International\n\n**Fulltime | 40 uur per week | Regio Arnhem**\n\nEasy Life International ontwikkelt en produceert hoogwaardige producten voor aquarium- en vijverliefhebbers. Van waterbehandelingsmiddelen tot plantenvoeding: onze producten worden wereldwijd gebruikt door aquariumliefhebbers om hun aquarium en planten in optimale conditie te houden. Samen met ons dochterbedrijf Salifert International B.V. leveren wij aquariumproducten wereldwijd in zo'n 65 landen!\n\nVoor onze Easy Life International B.V. zijn wij op zoek naar een **enthousiaste en nauwkeurige productiemedewerker** die ons team fulltime komt versterken.\n\nWat ga je doen?\n\nAls productiemedewerker ben je een belangrijke schakel in ons productieproces. Je werkt mee aan het volledige proces: van het afvullen, verpakken tot verzendklaar maken.\n\nJe werkzaamheden bestaan onder andere uit:\n\n* Het afvullen van vloeistoffen zoals waterbehandelingsmiddelen en plantenvoeding.\n* Het bedienen van productie- en afvulmachines.\n* Het vullen, etiketteren en verpakken van flessen.\n* Het controleren van producten en verpakkingen op kwaliteit.\n* Het schoon en netjes houden van de werkplek en productieruimte.\n* Het werken volgens vaste werkinstructies en kwaliteitsprocedures.\n\nGeen dag is precies hetzelfde. Je bent actief bezig en krijgt een afwisselend takenpakket binnen verschillende onderdelen van onze productie.\n\nWie zoeken wij?\n\nWij zoeken iemand die **graag praktisch bezig is, nauwkeurig werkt en verantwoordelijkheid neemt voor zijn of haar werk**.\n\nErvaring in een productieomgeving is prettig, maar zeker geen vereiste. Een goede werkhouding en motivatie vinden wij belangrijker.\n\nJe herkent jezelf in het volgende:\n\n* Je bent praktisch ingesteld en werkt nauwkeurig.\n* Je bent betrouwbaar en komt afspraken na.\n* Je kunt zelfstandig werken, maar functioneert ook goed binnen een klein team.\n* Je hebt oog voor kwaliteit, orde en hygiëne.\n* Je bent gemotiveerd om nieuwe werkzaamheden en processen te leren.\n* Je vindt het prettig om een actieve, praktische functie te hebben.\n\nWat bieden wij?\n\nJe komt terecht in een **klein, betrokken team** binnen een internationaal bedrijf met een eigen productielijn.\n\nWij bieden:\n\n* Een **fulltime functie van 40 uur per week in dagdienst.**\n* Een afwisselende baan binnen een groeiend internationaal bedrijf.\n* Een prettige en informele werkomgeving.\n* Een marktconform salaris, afhankelijk van ervaring en kennis.\n* Een goede en praktische inwerkperiode.\n* Veel zelfstandigheid in je dagelijkse werkzaamheden.\n* De mogelijkheid om verschillende onderdelen van het productieproces te leren.\n* Een functie met uitzicht op een langdurige samenwerking.\n* Je bent in het bezit van een geldig heftruckcertificaat, of bent bereid dit op onze kosten te behalen.\n\nInteresse?\n\nLijkt het je leuk om mee te werken aan producten die wereldwijd worden verkocht en gebruikt door aquarium- en plantenliefhebbers?\n\n**Dan maken we graag kennis met je!**\n\nStuur je CV en een korte motivatie naar Easy Life International B.V., EMAIL: daal@easylife.nl\n\nSoort dienstverband: Fulltime, Uitzicht op vast\n\nSalaris: €2.500,00 - €3.000,00 per maand\n\nWerklocatie: Fysiek",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-05",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-05",
+    "location": "Duiven, GE, Netherlands",
+    "matched_keywords": [
+      "ett",
+      "productiemedewerker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-05",
+    "score": 56,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-780de4528e503e96",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Duiven, GE, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Productiemedewerker",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "f2f0e09cc64648c4",
+    "url": "https://nl.indeed.com/viewjob?jk=780de4528e503e96",
     "url_provenance": "",
     "url_verified": null
   },
@@ -72412,7 +72912,7 @@
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-05",
     "location": "Bruchstedt, TH, Germany",
     "matched_keywords": [
       "produktionshelfer"
@@ -72428,6 +72928,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-c4058d9b3c666c44",
+    "source_review": {},
     "summary_ar": "الموقع: Bruchstedt, TH, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "eine/n Produktionshelfer/in und",
     "title_ar": "",
@@ -74176,9 +74677,9 @@
     "source_id": "NDU5MDE4IDEwMQ",
     "summary_ar": "",
     "title": "KITCHEN ASSISTANT",
-    "title_ar": "",
+    "title_ar": "مساعد مطبخ",
     "title_en": "KITCHEN ASSISTANT",
-    "translated": false,
+    "translated": true,
     "uid": "fe6f3995019c60fb",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDE4IDEwMQ?lang=en",
     "url_provenance": "",
