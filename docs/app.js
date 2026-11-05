@@ -450,10 +450,23 @@
     var actions = el('div', 'job-actions');
     var href = safeExternalUrl(job.url);
     if (sourceMismatch) {
-      actions.appendChild(el('p', 'job-link-provenance',
-        'Source mismatch: destination and description do not match this title. Application link and description-derived claims withheld pending review.'));
-      var warningAr = el('p', 'job-link-provenance',
-        'تعارض في المصدر: صفحة الرابط والوصف لا يطابقان المسمى. أُوقف رابط التقديم والمعلومات المستخرجة من الوصف لحين المراجعة.');
+      // Two distinct mismatch shapes share the destination_mismatch status:
+      // the posting moved (Fosfa: link destination is a different job) and a
+      // source-internal conflict (same posting, its own description does not
+      // match its title). Pick the honest wording for the recorded case;
+      // the Fosfa wording stays the default for moved postings.
+      var reviewKind = (job.source_review && job.source_review.kind) || '';
+      var reviewReason = (job.source_review && job.source_review.reason) || '';
+      var sourceInternal = reviewKind === 'source_internal_title_body' ||
+        reviewReason.indexOf('Source-internal mismatch') === 0;
+      var warnEn = sourceInternal
+        ? "Source mismatch: this posting's own description does not match its title at the source. Application link and description-derived claims withheld pending review."
+        : 'Source mismatch: destination and description do not match this title. Application link and description-derived claims withheld pending review.';
+      var warnArText = sourceInternal
+        ? 'تعارض في المصدر: وصف الإعلان نفسه لا يطابق مسماه لدى المصدر. أُوقف رابط التقديم والمعلومات المستخرجة من الوصف لحين المراجعة.'
+        : 'تعارض في المصدر: صفحة الرابط والوصف لا يطابقان المسمى. أُوقف رابط التقديم والمعلومات المستخرجة من الوصف لحين المراجعة.';
+      actions.appendChild(el('p', 'job-link-provenance', warnEn));
+      var warningAr = el('p', 'job-link-provenance', warnArText);
       warningAr.setAttribute('dir', 'rtl');
       warningAr.setAttribute('lang', 'ar');
       actions.appendChild(warningAr);
