@@ -32,7 +32,7 @@ JOB_DATACLASS_FIELDS = {
     "title_en", "title_ar", "summary_ar", "glossary", "translated",
     "score", "signals", "matched_keywords",
     "excluded", "exclusion_reason", "notified_telegram", "notified_at",
-    "first_seen", "last_seen", "url_provenance", "url_verified",
+    "first_seen", "last_seen", "url_provenance", "url_verified", "source_review",
 }
 
 RUN_STATUS_KEYS = {"last_run_utc", "duration_sec", "parameters",
@@ -361,3 +361,13 @@ def test_no_exp_filter_checkbox_and_chip():
     app = APPJS.read_text(encoding="utf-8")
     assert "no_exp_or_training_mention" in app
     assert "No experience / Training" in app
+
+
+def test_source_mismatch_withholds_action_and_claims():
+    from pathlib import Path
+    app = Path("docs/app.js").read_text()
+    assert "if (job.summary_ar && !sourceMismatch)" in app
+    assert "!sourceMismatch && Array.isArray(job.signals)" in app
+    assert "if (sourceMismatch) {" in app
+    assert "} else if (href) {" in app
+    assert "Application link and description-derived claims withheld" in app
