@@ -285,7 +285,6 @@ keywords:
     - only eu citizens
     - eu[- ]passport
     - native speaker (only|required)
-    - \b(c1|c2)\b.{0,30}(required|erforderlich|wymagane|pozadovano|richiesto|requis|necesario)
     - tylko obywatele ue
     - obywatelstwo ue wymagane
     - eu-staatsburgerschaft erforderlich
@@ -297,6 +296,29 @@ keywords:
     - doar cetateni ue
     - csak eu-s allampolgarok
     - apenas cidadaos da ue
+
+# -------------------- L2 language gate (v6 stage C) ------------------
+# Strict local-language requirement detection (src/language_gate.py).
+# Excludes ONLY when one sentence names a local language, a proficiency
+# level and a requirement verb together, with no negation cue governing
+# the requirement ("keine ... erforderlich", "no German required",
+# offered courses never match).
+language_requirements:
+  languages:
+    english: [english, englisch, angielski, angielskiego, anglictina, inglese, anglais, engels, ingles]
+    german: [german, deutsch, deutschkenntnisse, deutschsprachig, niemiecki, niemieckiego, nemcina, tedesco, allemand, duits, aleman, tysk]
+    polish: [polish, polnisch, polski, polskiego, polstina, polacco, polonais, pools, polaco]
+    czech: [czech, tschechisch, czeski, czeskiego, cestina, ceco, tcheque, tsjechisch, checo]
+    dutch: [dutch, niederlandisch, holenderski, nizozemstina, olandese, neerlandais, nederlands, neerlandes]
+    french: [french, franzosisch, francuski, francouzstina, francese, francais, frans, frances]
+  levels: [fluent, fluently, b1, b2, c1, c2, advanced, sehr gute, sehr guter, sehr gut,
+           verhandlungssicher, fliessend, biegla, biegly, zaawansowana, zaawansowany,
+           vloeiend, courant, couramment, professioneel]
+  requirement_verbs: [required, requirement, erforderlich, vorausgesetzt, wymagana, wymagane,
+                      wymagany, vereist, verplicht, obligatoire, requis, richiesto, richiesta,
+                      necesario, obligatorio, pozadovano, pozadovana]
+  negation_cues: [no, not, kein, keine, keiner, keinen, nicht, ohne, bez, nie, geen, niet,
+                  non, ne, sans]
 
 # --------------------------- Scoring ---------------------------------
 # The score is RELEVANCE evidence (does this look like entry-level,
