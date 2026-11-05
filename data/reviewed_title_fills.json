@@ -1,0 +1,73 @@
+{
+  "schema": "reviewed_title_fills/v1",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json.",
+  "updated_on": "2026-11-04",
+  "fills": [
+    {
+      "uid": "2765ea841f84dd71",
+      "expected_title": "OPERAIO/A GENERICO/A",
+      "title_en": "General production worker",
+      "title_ar": "عامل إنتاج عام",
+      "translated": true,
+      "review": "data/title_review_batch18.json"
+    },
+    {
+      "uid": "39be4b5ab858df11",
+      "expected_title": "Orderpicker - 2 ploegen - Gent",
+      "title_en": "Order picker - 2-shift system - Ghent",
+      "title_ar": "عامل تجميع الطلبات - نظام ورديتين - غنت",
+      "translated": true,
+      "review": "data/title_review_batch18.json"
+    },
+    {
+      "uid": "649481ec164b61c1",
+      "expected_title": "Lao transporttöötaja",
+      "title_en": "Warehouse transport worker",
+      "translated": true,
+      "review": "data/title_review_batch18.json"
+    },
+    {
+      "uid": "98b5d5db05a9ea50",
+      "expected_title": "Teilzeit fachlicher Hilfsdienst (w/m/d) 8010 Graz (30 Wst.)",
+      "title_en": "Part-time sorting support worker (m/f/d), 8010 Graz (30 hours/week)",
+      "title_ar": "عامل مساعد لفرز البريد بدوام جزئي - غراتس 8010 - 30 ساعة أسبوعيًا",
+      "translated": true,
+      "review": "data/title_review_batch18.json"
+    },
+    {
+      "uid": "ad565fd457eaf3e8",
+      "expected_title": "Postikuller",
+      "title_en": "Postal courier",
+      "translated": true,
+      "review": "data/title_review_batch18.json"
+    },
+    {
+      "uid": "b4de32d2261afe46",
+      "expected_title": "Tootmisliini operaatori abi",
+      "title_en": "Production line operator assistant",
+      "title_ar": "مساعد مشغل خط إنتاج",
+      "translated": true,
+      "review": "data/title_review_batch18.json"
+    },
+    {
+      "uid": "78f6ab7137831516",
+      "expected_title": "Servicemedarbejder under 18 år",
+      "title_ar": "موظف خدمة بعمر أقل من 18 عامًا",
+      "translated": true,
+      "review": "data/title_review_batch18.json"
+    },
+    {
+      "uid": "861cfef865463f1c",
+      "expected_title": "Analytický chemik QC – junior",
+      "expected_url": "https://web.fosfa.cz/kariera/volne-pozice/energetika/datovy-analytik-energetika-junior-37-000-kc-48-000-kc/",
+      "source_review": {
+        "status": "destination_mismatch",
+        "checked_on": "2026-11-04",
+        "reason": "Original title is chemist QC junior; stored URL and body are energy data analyst. Present before reconstructed-link publication. Original source identity not independently recovered.",
+        "original_url": "https://web.fosfa.cz/kariera/volne-pozice/energetika/datovy-analytik-energetika-junior-37-000-kc-48-000-kc/",
+        "recovery_lead_url": "https://web.fosfa.cz/kariera/volne-pozice/kvalita-a-zivotni-prostredi/analyticky-chemik-qc-junior-34-000-kc-46-000-kc/"
+      },
+      "review": "data/title_review_batch18.json"
+    }
+  ]
+}
