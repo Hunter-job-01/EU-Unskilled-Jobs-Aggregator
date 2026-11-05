@@ -46,6 +46,7 @@ class Job:
     # live-checked, so the dashboard never shows it as a plain apply link.
     url_provenance: str = ""
     url_verified: Optional[bool] = None
+    source_review: dict = field(default_factory=dict)
     first_seen: str = ""
     last_seen: str = ""
 
