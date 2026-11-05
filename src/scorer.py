@@ -49,6 +49,11 @@ class Scorer:
         # Optional source registry for per-source applicant-eligibility
         # labels (exclusion for operator-restricted, unknown-label else).
         self.registry = registry
+        # v6 stage C (L2) strict-language gate; None when unconfigured.
+        from .language_gate import LanguageGate
+        self._lang_gate = (
+            LanguageGate(cfg["language_requirements"])
+            if cfg.get("language_requirements") else None)
 
     def tier_of(self, country: str):
         for tier, members in self.tiers.items():
@@ -91,6 +96,19 @@ class Scorer:
             job.exclusion_reason = "disqualifier: {}".format(disq[0])
             job.score = 0
             return job
+
+        # v6 stage C (L2): strict local-language requirement gate.
+        # Negation-aware: "keine Deutschkenntnisse erforderlich" or an
+        # offered course never excludes (see src/language_gate.py).
+        if self._lang_gate is not None:
+            lang_hit = self._lang_gate.strict_requirement(text)
+            if lang_hit:
+                job.excluded = True
+                job.exclusion_reason = (
+                    "strict local language requirement: {}".format(lang_hit))
+                job.signals = ["strict_language_requirement"]
+                job.score = 0
+                return job
 
         # EURES `availableLanguages` describes the portal offer languages, not
         # the posting text language: CY/LT postings carry languages=["en"]
