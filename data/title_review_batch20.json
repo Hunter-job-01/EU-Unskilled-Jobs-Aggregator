@@ -1,0 +1,50 @@
+{
+  "checked_on": "2026-11-05",
+  "method": "manual source review, not model output",
+  "reviews": [
+    {
+      "uid": "343d6ee7cbfaa23b",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDJkNDUzMzAtYTkyYS00Y2Y3LWJiZWUtMjc3MWNjM2Y0YTJkIDgx?lang=en",
+      "note": "Live EURES title matches; body confirms online-store warehouse in Lappeenranta with order picking and packing duties. e-commerce kept explicit."
+    },
+    {
+      "uid": "41971d4d3a3c6e9e",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU4ODI1IDEwMQ?lang=en",
+      "note": "Live Jobsplus/EURES title CONSTRUCTION CLEANER; body confirms cleaning after building and renovation work."
+    },
+    {
+      "uid": "5e047fa9a042d44f",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6ZGUyMjY4NDc3YjU1NDdmYjhjOTI3YTQ1ZmE5ZmIzZTYgMTg?lang=en",
+      "note": "Live EURES title Van Loader (FTBI, Rathcoole); body confirms loading goods onto delivery vans from a warehouse team."
+    },
+    {
+      "uid": "f2a63374f83961b1",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1UkRYTCA5?lang=en",
+      "note": "Live EURES title Assistant / Assistante service clients; body confirms after-sales client file follow-up (order to invoicing) - client service role, title and body agree."
+    },
+    {
+      "uid": "75b915e2945f2aaf",
+      "source_url": "https://careers.lkqeurope.com/job/Cavan-Delivery-Driver-Warehouse-Assistant/1374584455/",
+      "note": "Live LKQ Europe careers page confirms Delivery Driver/ Warehouse Assistant; body requires a full driving licence - driving nature preserved explicitly in the gloss."
+    },
+    {
+      "uid": "a238148e0f59f924",
+      "source_url": "https://groupe-clim.nous-recrutons.fr/poste/z3kxue5gf1-magasinier-automobiles-mercedes-benz-confirme-h-f/",
+      "note": "Live Groupe Clim page confirms Magasinier pieces detachees Mercedes-Benz Comptoir et Atelier H/F (Confirme); experienced + spare-parts + brand qualifiers preserved."
+    },
+    {
+      "uid": "86f59685121495c6",
+      "source_url": "https://jobs.smartrecruiters.com/Primark/744000159190840-retail-assistant-operador-de-loja-m-f-",
+      "note": "Live Primark/SmartRecruiters page confirms Retail Assistant - Operador de Loja (m/f), part-time; gender marker kept in EN, omitted in AR per batch-18 precedent."
+    }
+  ],
+  "held": [
+    "78644a4643fc6944: Healthcare Assistant - Limerick - live body requires driving licence B, 2 years experience and qualified/experienced HCAs; a plain AR title would read as an unskilled support role (Postikuller licence precedent)",
+    "f85c042ba7045336: Flexi-job orderpicker bakkerij - EURES API returns 404, posting gone at source; left for natural pruning",
+    "94f938f0d555286a: Seasonal eCommerce Assistant - careers page 404, posting gone at source; left for natural pruning",
+    "5863ae1b3c2f5759: Delivery Logistics Operator - Allegro careers page shows only a cookie wall server-side; role body unreadable, not verified",
+    "d21cd48b Packaging Line Operator (Workday), d722ff00 Yard/Warehouse Operative (workforceready), e64c34b5 Warehouse Operative van duties (occupop), 733c8188 Store to Home Picker (icims): pages render JS-only/generic/maintenance content server-side; not verified this round",
+    "7 Indeed-direct cards (08b9a6f3, 3664c910, 4f2aba50, 4bc5695e, b8d35357, edcce4fa, 46f9410b): ie/nl.indeed.com answers 401 server-side and Cloudflare Additional Verification in a datacenter browser; source body not verifiable without an interactive session"
+  ],
+  "no_eligibility_endorsement": true
+}
