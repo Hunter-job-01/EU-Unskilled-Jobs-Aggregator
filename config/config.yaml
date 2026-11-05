@@ -104,6 +104,11 @@ keywords:
     bg: [складов работник, опаковчик, работник в производство, общ работник, чистач, кухненски помощник, камериерка, оранжерия, земеделие, пералня, хотелски служител]
     hr: [skladistar, paker, operater proizvodnje, pomocni radnik, cistac, kuhinjski pomocnik, sobarica, staklenik, poljoprivreda, praonica, hotelski djelatnik]
     sl: [skladiscnik, pakiralec, proizvodni delavec, pomozni delavec, cistilec, pomocnik, kuhinjski pomocnik, sobarica, rastlinjak, pralnica, kmetijstvo, hotelski delavec]
+    # uk/ru added 2026-11-05 for the Telegram channel source (v6 stage E),
+    # measured from 94 live t.me/s posts: multi-word forms preferred;
+    # "магазин" deliberately excluded (shop vs warehouse ambiguity).
+    uk: [працівник складу, комірник, пакувальник, сортувальник, виробництво, збір, пакування, сортування, розвантажувач, прибиральник, помічник, комплектувальник, оператор лінії]
+    ru: [работник склада, комплектовщик, упаковщик, сортировщик, производство, сбор, упаковка, сортировка, грузчик, уборщик, помощник, разнорабочий, оператор линии]
 
   # Positive foreign-hiring signals. A match is a HINT for manual review,
   # never proof of sponsorship or of eligibility for non-EU citizens.
@@ -123,6 +128,8 @@ keywords:
       nl: [zonder ervaring, zonder werkervaring, geen ervaring vereist, geen ervaring nodig, inwerktraject, wij leren je het vak, wordt ingewerkt]
       es: [sin experiencia, no se requiere experiencia, con formacion, formacion a cargo de la empresa, sin experiencia previa]
       it: [senza esperienza, con formazione, formazione fornita, primo impiego, non e richiesta esperienza]
+      uk: [без досвіду, без досвіду роботи, навчаємо, навчання надається, можна без досвіду]
+      ru: [без опыта, без опыта работы, обучаем, обучение предоставляется, можно без опыта]
       fr: [sans experience, debutant accepte, formation assuree, sans experience prealable, experience non requise]
       pt: [sem experiencia, com formacao, sem experiencia necessaria, formacao fornecida, nao requer experiencia]
       sv: [ingen erfarenhet, utan erfarenhet, ingen erfarenhet kravs, utbildning ges, vi lar dig]
@@ -174,6 +181,8 @@ keywords:
       lt: [be kalbos reikalavimu, anglu kalba]
       hu: [nyelvtudas nelkul, angol nyelv]
       ro: [fara limba, engleza suficienta]
+      uk: [без знання мови, без знання польської, мова не потрібна]
+      ru: [без знания языка, знание польского языка не требуется, язык не требуется]
       nl: [geen taalvereiste, engels voldoende]
       es: [sin idioma, ingles suficiente, no se requiere espanol]
       it: [senza lingua, inglese sufficiente]
@@ -296,6 +305,17 @@ keywords:
     - doar cetateni ue
     - csak eu-s allampolgarok
     - apenas cidadaos da ue
+    # uk/ru exclusive forms only (v6 stage E): inclusive nationality lists
+    # ("принимаем граждан украины, молдовы, граждан евросоюза...") must NOT
+    # match - only explicit exclusivity excludes.
+    - тільки громадяни єс
+    - лише громадяни єс
+    - тільки для громадян єс
+    - только граждане ес
+    - только для граждан ес
+    - тільки з тимчасовим захистом
+    - только с временной защитой
+    - потрібен тимчасовий захист
 
 # -------------------- L2 language gate (v6 stage C) ------------------
 # Strict local-language requirement detection (src/language_gate.py).
@@ -449,6 +469,28 @@ lifecycle:
 # No source here creates accounts, keys, billing or paid access; the
 # ATS route only ever reads public postings of reviewed employer boards.
 sources:
+  # v6 stage E: public Telegram job channels via the public web preview
+  # (https://t.me/s/<channel>) - plain HTTP, no keys, no account, no login.
+  # Channels vetted 2026-11-05 (public preview readable, posted same day,
+  # real vacancy posts). Posts are LEADS, not verified employers; contact
+  # details stay unverified data. Cursor state is failure-safe; backlog
+  # gaps beyond the ~20-message preview window are counted and reported.
+  telegram_channels:
+    enabled: true
+    state_file: "data/telegram_channel_state.json"
+    channels:
+      - username: ukraincydopracy
+        display: "Робота в Польщі і ЄС"
+        country: PL
+        language: uk
+      - username: polandworkportal
+        display: "Poland Work Portal"
+        country: PL
+        language: uk
+      - username: teealpl
+        display: "TEEAL - Робота в Польщі"
+        country: PL
+        language: ru
   arbeitnow:
     enabled: true
     api_url: "https://www.arbeitnow.com/api/job-board-api"
