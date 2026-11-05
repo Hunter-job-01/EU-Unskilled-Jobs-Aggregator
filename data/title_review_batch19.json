@@ -1,0 +1,58 @@
+{
+  "checked_on": "2026-11-05",
+  "method": "manual source review, not model output",
+  "reviews": [
+    {
+      "uid": "a330657667dd6118",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU3MDA1IDEwMQ?lang=en",
+      "note": "Live Jobsplus/EURES title KITCHEN HELPER; body confirms back-of-house kitchen support duties."
+    },
+    {
+      "uid": "d3d60ab6f87e02af",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU2ODYyIDEwMQ?lang=en",
+      "note": "Live Jobsplus/EURES title KITCHEN HELPER; body confirms food preparation and kitchen cleaning support."
+    },
+    {
+      "uid": "53473d1fcc22e9f0",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDAwIDEwMQ?lang=en",
+      "note": "Live Jobsplus/EURES title KITCHEN HELPER; body confirms kitchen support in production environment."
+    },
+    {
+      "uid": "fe6f3995019c60fb",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDE4IDEwMQ?lang=en",
+      "note": "Live Jobsplus/EURES title KITCHEN ASSISTANT; body confirms food preparation and kitchen hygiene support."
+    },
+    {
+      "uid": "5868dcb4a8437d30",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6NDgzNzk4NThiYzI3NGJhYmEyY2I5ZTk4ZjM0OWFhOTggMTg?lang=en",
+      "note": "Live EURES title Meat Processing Operative at Ballon Meats; body confirms meat processing factory work."
+    },
+    {
+      "uid": "939f944f48631423",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1SkNZUyA5?lang=en",
+      "note": "Live EURES title Assistant magasinier (H/F); body confirms warehouse support (returns handling, parcel preparation). Gender marker kept in EN, omitted in AR per batch-18 precedent."
+    },
+    {
+      "uid": "e2303c5ff92cfb5e",
+      "source_url": "https://ottoworkforce.eu/en/jobs/2272-production-employee-vepo-cheese",
+      "note": "Live Otto Work Force page confirms Production employee at Vepo Cheese, production/assembly, full time. Employer name kept verbatim."
+    },
+    {
+      "uid": "50cb346affcd4df7",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6ZTkwYTkwOWRhZThlNDE5Y2JmY2FmMzBmZmNkMDNlYWUgMTg?lang=en",
+      "note": "Live EURES title Food Service Assistant (Sodexo, Limerick, part-time canteen food service). Gloss composed from reviewed food/service terms."
+    }
+  ],
+  "held": [
+    "qualifier-heavy below-65 titles (construction cleaner, technical warehouse, stock controller, yard/dispatch/dual roles, e-commerce compounds, hours/pay/specialist) remain held: material qualifiers not preservable from reviewed terms alone"
+  ],
+  "no_eligibility_endorsement": true,
+  "contained": [
+    {
+      "uid": "08e42d2f5e3748fe",
+      "status": "destination_mismatch guard applied",
+      "evidence": "Live EURES API record (source_id NDU5MDI2IDEwMQ, Jobsplus ref 459026, employer SYNERGY 6 MALTA LTD.) title KITCHEN ASSISTANT vs its own bartender description; stored card mirrors both faithfully.",
+      "containment": "source_review guard on the record: dashboard shows the bilingual source-mismatch warning, suppresses the apply link and description-derived claims; storage carry-forward auto-drops the guard if the source title/url/body changes; no AR title fill."
+    }
+  ]
+}
