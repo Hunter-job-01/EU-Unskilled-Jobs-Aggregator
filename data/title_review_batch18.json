@@ -1,0 +1,46 @@
+{
+  "checked_on": "2026-11-04",
+  "method": "manual source review, not model output",
+  "reviews": [
+    {
+      "uid": "2765ea841f84dd71",
+      "source_url": "https://e-workspa.intervieweb.it/annunci.php?l=operaioa-genericoa-4082&lang=it&d=indeed",
+      "note": "Live title and production category; buttons production/packing in stored source body."
+    },
+    {
+      "uid": "39be4b5ab858df11",
+      "source_url": "https://europa.eu/eures/api/jv-searchengine/public/jv/id/ZDUwNWRjNTUtNWQ1Yi00MGU3LTk3NDEtYTQ1NDQzYjUwMmM3IDM",
+      "note": "Live Dutch title and body confirm order-picking and 2-shift system."
+    },
+    {
+      "uid": "649481ec164b61c1",
+      "source_url": "https://europa.eu/eures/api/jv-searchengine/public/jv/id/MTY2Nzc5NSA4",
+      "note": "Warehouse transport worker; forklift handling in body, AR held to avoid oversimplification."
+    },
+    {
+      "uid": "98b5d5db05a9ea50",
+      "source_url": "https://karriere.post.at/job/Graz-Teilzeit-fachlicher-Hilfsdienst-%28wmd%29-8010-Graz-%2830-Wst_%29-Stei-8020/1452826633/",
+      "note": "Live body identifies sorting support; title 30 Wst means 30 weekly hours, part-time and postal location retained."
+    },
+    {
+      "uid": "ad565fd457eaf3e8",
+      "source_url": "https://europa.eu/eures/api/jv-searchengine/public/jv/id/MTY2NzY5NyA4",
+      "note": "Postal courier; B manual licence required in live body. AR held, not generic non-driving delivery person."
+    },
+    {
+      "uid": "b4de32d2261afe46",
+      "source_url": "https://europa.eu/eures/api/jv-searchengine/public/jv/id/MTY2NzgxOCA4",
+      "note": "Production line operator assistant; title and body agree, assistant role retained."
+    },
+    {
+      "uid": "78f6ab7137831516",
+      "source_url": "https://app.elvium.com/da/positions/37108/job_posting",
+      "note": "Live under-18 service role. Arabic explicitly preserves age limit, not suitable for owner age20."
+    }
+  ],
+  "held": [
+    "48fb665e15c5308c: specialist French distanciation residential-care concept unresolved",
+    "bff9807dfe724cef: hospital operating-theatre logistics, current page content unavailable; do not flatten to generic warehouse"
+  ],
+  "no_eligibility_endorsement": true
+}
