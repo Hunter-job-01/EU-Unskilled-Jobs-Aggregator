@@ -157,6 +157,10 @@ class JobStore:
                 # re-scrape must never reset an already-sent digest flag.
                 record["notified_telegram"] = bool(existing.get("notified_telegram", False))
                 record["notified_at"] = existing.get("notified_at")
+                # Lifecycle state belongs to the stored record: a re-scrape
+                # carries an empty dict and must never wipe it. Reactivation
+                # is decided by update_lifecycle, not here.
+                record["lifecycle"] = dict(existing.get("lifecycle") or {})
                 # Translation fields belong to the stored record too: a
                 # re-scrape must never erase a verified translation when
                 # this run did not re-translate (quota stop, throttle,
@@ -202,6 +206,98 @@ class JobStore:
             self._record_tombstones(removed, today)
         self._store = keep
         return len(removed)
+
+
+    # -- lifecycle / dead-link tracking (v6) -----------------------------
+    @staticmethod
+    def _pair_covered(record, covered_pairs) -> bool:
+        """True when this run fully covered the record's source+country.
+
+        ``covered_pairs`` holds scraper names; a record's ``source`` may
+        carry a suffix (jobspy -> jobspy_indeed), so match by prefix.
+        """
+        src = record.get("source") or ""
+        ctry = (record.get("country") or "").upper()
+        for name, country in covered_pairs:
+            if str(country).upper() != ctry:
+                continue
+            if src == name or src.startswith(name + "_"):
+                return True
+        return False
+
+    def update_lifecycle(self, seen_uids, covered_pairs, dead_uids=(),
+                         live_uids=(), today=None, miss_threshold=2,
+                         dead_threshold=2):
+        """Apply v6 lifecycle transitions. Returns honest counters.
+
+        False-deactivation safeguards:
+        - A miss only counts when the record's source+country was FULLY
+          covered this run (source ok/partial, not capped, not
+          early-stopped). A failed, skipped, capped or delta-truncated
+          fetch is not evidence the posting is gone.
+        - Deactivation needs ``miss_threshold`` consecutive covered
+          misses, or ``dead_threshold`` consecutive confirmed-dead live
+          checks (hard 404/410 only; soft-404 and errors are
+          inconclusive and never count).
+        - Re-scrape of a deactivated record reactivates it (missed_runs
+          and dead_checks reset, reactivations + 1).
+
+        Deactivated records stay in the store (hidden on the dashboard,
+        excluded from digests) and still age out via prune().
+        """
+        today = today or _today()
+        store = getattr(self, "_store", None)
+        if store is None:
+            store = self.load()
+        now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        counts = {"deactivated": 0, "reactivated": 0, "missed": 0,
+                  "dead_confirmed": 0, "live_confirmed": 0,
+                  "deactivated_total": 0}
+        seen_uids = set(seen_uids)
+        dead_uids = set(dead_uids)
+        live_uids = set(live_uids)
+        for uid, record in store.items():
+            lc = record.get("lifecycle")
+            if not isinstance(lc, dict):
+                lc = {}
+                record["lifecycle"] = lc
+            status = lc.setdefault("status", "active")
+            if uid in seen_uids:
+                lc["missed_runs"] = 0
+                if status == "deactivated":
+                    lc["status"] = "active"
+                    lc["deactivated_at"] = None
+                    lc["deactivation_reason"] = None
+                    lc["reactivations"] = int(lc.get("reactivations") or 0) + 1
+                    counts["reactivated"] += 1
+                else:
+                    lc.setdefault("status", "active")
+            elif status == "active" and self._pair_covered(record, covered_pairs):
+                lc["missed_runs"] = int(lc.get("missed_runs") or 0) + 1
+                counts["missed"] += 1
+                if lc["missed_runs"] >= miss_threshold:
+                    lc["status"] = "deactivated"
+                    lc["deactivated_at"] = now
+                    lc["deactivation_reason"] = (
+                        "not_seen_in_%d_covered_runs" % lc["missed_runs"])
+                    counts["deactivated"] += 1
+            if uid in live_uids:
+                lc["dead_checks"] = 0
+                lc["last_live_check"] = now
+                counts["live_confirmed"] += 1
+            elif uid in dead_uids:
+                lc["dead_checks"] = int(lc.get("dead_checks") or 0) + 1
+                lc["last_live_check"] = now
+                if lc["dead_checks"] >= dead_threshold and lc.get("status", "active") == "active":
+                    lc["status"] = "deactivated"
+                    lc["deactivated_at"] = now
+                    lc["deactivation_reason"] = "dead_link_confirmed"
+                    counts["deactivated"] += 1
+                counts["dead_confirmed"] += 1
+            if lc.get("status") == "deactivated":
+                counts["deactivated_total"] += 1
+        self._store = store
+        return counts
 
     def save(self) -> int:
         store = getattr(self, "_store", None)
