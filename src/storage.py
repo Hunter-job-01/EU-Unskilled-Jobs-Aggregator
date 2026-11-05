@@ -150,7 +150,8 @@ class JobStore:
             else:
                 record["first_seen"] = existing.get("first_seen") or today.isoformat()
                 record["last_seen"] = today.isoformat()
-                if len(existing.get("description") or "") > len(record.get("description") or ""):
+                if ((existing.get("source_review") or {}).get("status") != "destination_mismatch"
+                        and len(existing.get("description") or "") > len(record.get("description") or "")):
                     record["description"] = existing["description"]
                 # Notification state belongs to the stored record: a
                 # re-scrape must never reset an already-sent digest flag.
@@ -164,8 +165,17 @@ class JobStore:
                 # translation and must go back through the pipeline.
                 if (existing.get("title") or "") == (record.get("title") or ""):
                     for field in ("title_en", "title_ar", "summary_ar"):
+                        if field == "summary_ar" and (existing.get("source_review") or {}).get("status") == "destination_mismatch":
+                            continue  # never revive claims derived from the wrong body
                         if not (record.get(field) or "").strip() and (existing.get(field) or "").strip():
                             record[field] = existing[field]
+                # A source mismatch review is tied to exact title/URL/body,
+                # not permanently to the UID. New evidence must be reviewed anew.
+                review = existing.get("source_review") or {}
+                if (review.get("status") == "destination_mismatch"
+                        and all((existing.get(k) or "") == (getattr(job, k, "") or "")
+                                for k in ("title", "url", "description", "source", "source_id"))):
+                    record["source_review"] = review
                 store[job.uid] = record
                 updated += 1
         if skipped_tombstoned:
