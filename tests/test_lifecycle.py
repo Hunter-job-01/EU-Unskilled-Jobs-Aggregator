@@ -120,7 +120,10 @@ def test_select_candidates_skips_seen_and_deactivated():
     assert uids == ["b"]  # a seen, c deactivated, d uncheckable
 
 
-def test_eures_early_stop(monkeypatch):
+def test_eures_no_early_stop_on_known_pages(monkeypatch):
+    """2026-11-05 live probe: EURES MOST_RECENT is NOT creationDate-ordered,
+    so a fully-known page proves nothing about deeper pages. Pagination
+    must continue to max_pages even when every id on a page is stored."""
     from src.scrapers.eures_scraper import EuresScraper
 
     class FakeHttp:
@@ -129,7 +132,6 @@ def test_eures_early_stop(monkeypatch):
 
         def post_json(self, url, payload):
             self.calls += 1
-            # Two full pages of already-known postings.
             return {"jvs": [{"id": "K1"}, {"id": "K2"}],
                     "numberRecords": 100}
 
@@ -140,6 +142,5 @@ def test_eures_early_stop(monkeypatch):
     scraper = EuresScraper(cfg, FakeHttp(), matrix)
     scraper.known_ids = {"K1", "K2"}
     result = scraper.scrape_country("NL", max_jobs=50)
-    assert result.stats.get("early_stopped") is True
-    assert scraper.http.calls == 1  # page 1 is full and fully known -> stop immediately
-    assert any("early stop" in n for n in result.notes)
+    assert scraper.http.calls == 5  # all pages fetched despite fully-known pages
+    assert not result.stats.get("early_stopped")
