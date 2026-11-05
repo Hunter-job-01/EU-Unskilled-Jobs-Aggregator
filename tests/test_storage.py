@@ -214,3 +214,17 @@ def test_translation_fields_dropped_when_source_title_changes(tmp_path):
     rec = store._store["uid1"]
     assert rec["title_en"] == ""
     assert rec["title_ar"] == ""
+
+
+def test_source_mismatch_review_tracks_exact_content(tmp_path):
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    job = make_job(1, description="wrong content")
+    store.merge([job])
+    flag = {"status": "destination_mismatch", "checked_on": "2026-11-04"}
+    store._store[job.uid]["source_review"] = flag
+    store.merge([job])
+    assert store._store[job.uid]["source_review"] == flag
+    job.description = "new source evidence content"
+    store.merge([job])
+    assert store._store[job.uid]["source_review"] == {}
+    assert store._store[job.uid]["description"] == job.description
