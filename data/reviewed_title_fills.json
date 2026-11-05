@@ -1,7 +1,7 @@
 {
   "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json.",
-  "updated_on": "2026-11-04",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json and data/title_review_batch19.json.",
+  "updated_on": "2026-11-05",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -68,6 +68,90 @@
         "recovery_lead_url": "https://web.fosfa.cz/kariera/volne-pozice/kvalita-a-zivotni-prostredi/analyticky-chemik-qc-junior-34-000-kc-46-000-kc/"
       },
       "review": "data/title_review_batch18.json"
+    },
+    {
+      "uid": "a330657667dd6118",
+      "expected_title": "KITCHEN HELPER",
+      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU3MDA1IDEwMQ?lang=en",
+      "title_en": "KITCHEN HELPER",
+      "title_ar": "مساعد مطبخ",
+      "translated": true,
+      "review": "data/title_review_batch19.json"
+    },
+    {
+      "uid": "d3d60ab6f87e02af",
+      "expected_title": "KITCHEN HELPER",
+      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU2ODYyIDEwMQ?lang=en",
+      "title_en": "KITCHEN HELPER",
+      "title_ar": "مساعد مطبخ",
+      "translated": true,
+      "review": "data/title_review_batch19.json"
+    },
+    {
+      "uid": "53473d1fcc22e9f0",
+      "expected_title": "KITCHEN HELPER",
+      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDAwIDEwMQ?lang=en",
+      "title_en": "KITCHEN HELPER",
+      "title_ar": "مساعد مطبخ",
+      "translated": true,
+      "review": "data/title_review_batch19.json"
+    },
+    {
+      "uid": "fe6f3995019c60fb",
+      "expected_title": "KITCHEN ASSISTANT",
+      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDE4IDEwMQ?lang=en",
+      "title_en": "KITCHEN ASSISTANT",
+      "title_ar": "مساعد مطبخ",
+      "translated": true,
+      "review": "data/title_review_batch19.json"
+    },
+    {
+      "uid": "5868dcb4a8437d30",
+      "expected_title": "Meat Processing Operative",
+      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6NDgzNzk4NThiYzI3NGJhYmEyY2I5ZTk4ZjM0OWFhOTggMTg?lang=en",
+      "title_en": "Meat Processing Operative",
+      "title_ar": "عامل تصنيع لحوم",
+      "translated": true,
+      "review": "data/title_review_batch19.json"
+    },
+    {
+      "uid": "939f944f48631423",
+      "expected_title": "Assistant magasinier (H/F)",
+      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1SkNZUyA5?lang=en",
+      "title_en": "Assistant magasinier (H/F)",
+      "title_ar": "مساعد مستودع",
+      "translated": true,
+      "review": "data/title_review_batch19.json"
+    },
+    {
+      "uid": "e2303c5ff92cfb5e",
+      "expected_title": "Production employee at Vepo Cheese",
+      "expected_url": "https://ottoworkforce.eu/en/jobs/2272-production-employee-vepo-cheese",
+      "title_en": "Production employee at Vepo Cheese",
+      "title_ar": "عامل إنتاج لدى Vepo Cheese",
+      "translated": true,
+      "review": "data/title_review_batch19.json"
+    },
+    {
+      "uid": "50cb346affcd4df7",
+      "expected_title": "Food Service Assistant",
+      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6ZTkwYTkwOWRhZThlNDE5Y2JmY2FmMzBmZmNkMDNlYWUgMTg?lang=en",
+      "title_en": "Food Service Assistant",
+      "title_ar": "مساعد خدمة أغذية",
+      "translated": true,
+      "review": "data/title_review_batch19.json"
+    },
+    {
+      "uid": "08e42d2f5e3748fe",
+      "expected_title": "KITCHEN ASSISTANT",
+      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDI2IDEwMQ?lang=en",
+      "source_review": {
+        "status": "destination_mismatch",
+        "checked_on": "2026-11-05",
+        "reason": "Source-internal mismatch: live EURES/Jobsplus record 459026 (SYNERGY 6 MALTA LTD.) carries the title KITCHEN ASSISTANT while its own description is a bartender role (preparing and serving drinks, checking IDs, bar cleanliness). The card faithfully mirrors the inconsistent source; the apply link and description-derived claims are withheld pending a source fix or re-review.",
+        "original_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDI2IDEwMQ?lang=en"
+      },
+      "review": "data/title_review_batch19.json"
     }
   ]
 }
