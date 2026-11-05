@@ -53,6 +53,10 @@ class Job:
     # missed_runs, dead_checks, deactivated_at, deactivation_reason,
     # reactivations.
     lifecycle: dict = field(default_factory=dict)
+    # v6 stage C (L2): direct application channels extracted from the
+    # posting text by src/contact_extract (emails/phones/whatsapp flag).
+    # Data only; empty dict when the posting lists no direct channel.
+    apply_channels: dict = field(default_factory=dict)
     first_seen: str = ""
     last_seen: str = ""
 
