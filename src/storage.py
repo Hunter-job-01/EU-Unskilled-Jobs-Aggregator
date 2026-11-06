@@ -145,11 +145,18 @@ class JobStore:
             if existing is None:
                 record["first_seen"] = today.isoformat()
                 record["last_seen"] = today.isoformat()
+                # Detail anchor (v6 stage A): merge only ever receives
+                # freshly fetched detail records, so stamp the fetch
+                # day. Seen-marking must never move it - src/delta.py.
+                record["detail_fetched_at"] = today.isoformat()
                 store[job.uid] = record
                 added += 1
             else:
                 record["first_seen"] = existing.get("first_seen") or today.isoformat()
                 record["last_seen"] = today.isoformat()
+                # Fresh detail was fetched for this record: restamp the
+                # detail anchor (v6 stage A recheck window, src/delta.py).
+                record["detail_fetched_at"] = today.isoformat()
                 if ((existing.get("source_review") or {}).get("status") != "destination_mismatch"
                         and len(existing.get("description") or "") > len(record.get("description") or "")):
                     record["description"] = existing["description"]
