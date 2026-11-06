@@ -246,9 +246,30 @@ def main(argv=None) -> int:
     # (failures, throttling, cap). Highest score first. A missing
     # argostranslate install skips the layer explicitly, never silently.
     from src.offline_translation import translate_titles_offline
-    off_en, off_ar = translate_titles_offline(ar_candidates, cfg)
+    held_translations = []
+    off_en, off_ar = translate_titles_offline(ar_candidates, cfg,
+                                              held=held_translations)
     if off_en or off_ar:
         log.info("offline titles: %d en, %d ar", off_en, off_ar)
+    # Data-only review queue for the user's validated-backlog goal
+    # (v6): gate-passed free-model English that containment holds back
+    # is persisted OUTSIDE data/ (never committed, never on Pages) and
+    # ships only as a private Actions artifact for manual semantic
+    # review. Titles and scores only - no contacts, no descriptions.
+    if held_translations:
+        import json as _json
+        import os as _os
+        _os.makedirs("review", exist_ok=True)
+        held_translations.sort(key=lambda h: -h.get("score", 0))
+        with open(_os.path.join("review", "translation_candidates.json"),
+                  "w", encoding="utf-8") as _fh:
+            _json.dump({"candidates": held_translations[:200],
+                        "note": "Unreviewed free-model output. Data-only; "
+                                "never publish without manual semantic "
+                                "review."}, _fh, ensure_ascii=False,
+                       indent=1)
+        log.info("translation review queue: %d held candidates",
+                 len(held_translations))
     # title_ar layer 1: one batched Gemini free call (keyed, bounded,
     # contact-scrubbed) covering up to 40 titles at once.
     ar_done = off_ar
