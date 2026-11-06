@@ -66,6 +66,12 @@ class NlJobsScraper:
             body = self.http.get(self.sitemap_url).text
         except ScraperError as exc:
             result.errors.append("sitemap: {}".format(exc))
+            # A failed index enumeration is NO lifecycle coverage
+            # evidence (v6 stage A): without this flag main.py would
+            # treat the pair as covered via index_count == 0 and a
+            # transient sitemap outage would read as mass removals.
+            self._index_failed = True
+            result.stats["index_failed"] = True
             return []
         urls = list(dict.fromkeys(_LOC_RE.findall(body or "")))
         result.stats["sitemap_urls"] = len(urls)
@@ -126,9 +132,11 @@ class NlJobsScraper:
         else:
             result.notes.append("reused {} sitemap urls fetched earlier this run".format(len(self._urls)))
         result.stats["index_count"] = len(self._urls)
+        if getattr(self, "_index_failed", False):
+            result.stats["index_failed"] = True
         # v6 stage A (slug-first delta): postings the store already holds
-        # fresh (last_seen within the recheck window) are not re-fetched;
-        # the sitemap index above is still fully enumerated, so lifecycle
+        # fresh (detail fetched within the recheck window) skip
+        # the detail re-fetch; the sitemap index above is still fully enumerated, so lifecycle
         # coverage and removal detection stay honest. Skipped slugs are
         # reported so main.py can mark them seen. Records older than the
         # window rotate back in for a bounded-staleness recheck.
