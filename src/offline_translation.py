@@ -148,7 +148,12 @@ def translate_titles_offline(jobs, cfg, log=None):
     langs.discard("")
     langs.discard("en")
     try:
-        ensure_packages(sorted(langs), log=log.info)
+        # Full pair set, not only the country languages: the per-title
+        # language override (guess_title_lang) can route a posting through
+        # another model (e.g. Ukrainian text in a PL feed -> uk->en), and
+        # that model must exist locally. Cached models make this cheap
+        # after the first install.
+        ensure_packages(log=log.info)
     except Exception as exc:  # noqa: BLE001 - offline layer never breaks a run
         log.warning("argos model setup failed: %s; offline titles skipped", exc)
         return 0, 0
