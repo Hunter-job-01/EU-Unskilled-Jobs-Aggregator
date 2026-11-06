@@ -162,15 +162,15 @@ def main(argv=None) -> int:
     for _rec in pre_store.values():
         if _rec.get("source_id"):
             known_ids_by_source.setdefault(_rec.get("source"), set()).add(_rec["source_id"])
-    # v6 stage A: slugs whose stored record is still inside the recheck
-    # window are delta-skipped by sitemap-index scrapers (no detail
-    # re-fetch); older records rotate back in for a bounded-staleness
-    # recheck. 7 days is well inside the 30-day prune window.
-    _fresh_cutoff = (date.today() - timedelta(days=7)).isoformat()
-    known_fresh_by_source = {}
-    for _rec in pre_store.values():
-        if _rec.get("source_id") and (_rec.get("last_seen") or "") >= _fresh_cutoff:
-            known_fresh_by_source.setdefault(_rec.get("source"), set()).add(_rec["source_id"])
+    # v6 stage A: slugs whose stored DETAIL data is still inside the
+    # recheck window are delta-skipped by sitemap-index scrapers (no
+    # detail re-fetch); older records rotate back in for a
+    # bounded-staleness recheck. The anchor is detail_fetched_at
+    # (stamped only when a fresh detail record is merged), never
+    # last_seen - seen-marking runs every run and must not extend the
+    # window. 7 days is well inside the 30-day prune window.
+    from src.delta import known_fresh_ids as _known_fresh_map
+    known_fresh_by_source = _known_fresh_map(pre_store.values())
     for scraper in scrapers:
         scraper.known_ids = set().union(
             *(ids for name, ids in known_ids_by_source.items()
@@ -358,16 +358,14 @@ def main(argv=None) -> int:
     # consecutive confirmed-dead live checks (default 2 each).
     seen_uids = {j.uid for j in scored_jobs}
     covered_pairs = set()
+    from src.delta import pair_covered as _pair_covered
     for (sname, country), res in results_by_pair.items():
-        if res.status not in ("ok", "partial"):
-            continue
-        if (res.stats or {}).get("index_count") is not None:
-            # v6 stage A: sitemap-index sources enumerate the FULL URL
-            # inventory every run; detail fetches are delta-limited, so
-            # coverage evidence is the enumerated index, not the count
-            # of detail fetches.
-            covered_pairs.add((sname, country))
-        elif res.fetched < args.max_jobs:
+        # v6 stage A: sitemap-index sources enumerate the FULL URL
+        # inventory every run; detail fetches are delta-limited, so
+        # coverage evidence is the enumerated index, not the count of
+        # detail fetches. A FAILED index enumeration (index_failed) is
+        # no evidence at all, and neither is a max_jobs-capped fetch.
+        if _pair_covered(res.status, res.stats, res.fetched, args.max_jobs):
             covered_pairs.add((sname, country))
     # Delta-skipped postings are still listed in the source index, so
     # they count as seen for lifecycle when their own (source, country)
