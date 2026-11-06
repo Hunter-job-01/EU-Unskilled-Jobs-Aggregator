@@ -17,11 +17,34 @@ PHONE_RX = re.compile(r"\+?[0-9][0-9 .()/-]{7,18}[0-9]")
 _WHATSAPP_HINT = re.compile(r"\bwhats\s?app\b", re.IGNORECASE)
 
 
+# Date-like shapes (26.11.2026, 05-10.11/16-19.11), shift ranges
+# (08.30 - 17.00) and thousands-salary figures (23.000 - 28.000) matched
+# the old phone pattern and were persisted as recruiter phones on
+# 2026-11-05/06 (113 stored records affected). A phone is never a dotted
+# date/time group, a slash date, or a multi-slash shift list - but real
+# EU phones DO use a single slash (0630/674-3549, 05741/ 3485 - 0), so
+# one slash with enough digits stays.
+_DATE_SLASH = re.compile(r"^\d{1,2}/\d{1,2}/\d{2,4}$")
+_DOTTED = re.compile(r"\d\.\d")
+_FR_MOBILE = re.compile(r"0\d(\.\d{2}){4}")
+
+
 def _clean_phone(raw: str) -> str:
-    digits = re.sub(r"\D", "", raw)
-    if not 8 <= len(digits) <= 15:
+    cand = raw.strip(" .()/-")
+    digits = re.sub(r"\D", "", cand)
+    if not 9 <= len(digits) <= 15:
         return ""
-    return raw.strip(" .()/-")
+    if cand.count("/") > 1:
+        return ""  # shift list or dd/mm/yyyy
+    if _DATE_SLASH.fullmatch(cand):
+        return ""
+    if _DOTTED.search(cand):
+        # Dotted groups are dates, times or thousands separators - never
+        # phones in the observed sources, except the French 0X.XX.XX.XX.XX
+        # mobile shape.
+        if not _FR_MOBILE.fullmatch(cand):
+            return ""
+    return cand
 
 
 def extract_channels(text: str) -> dict:
