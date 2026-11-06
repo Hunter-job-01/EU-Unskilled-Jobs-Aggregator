@@ -5,7 +5,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1491 sitemap urls fetched earlier this run"
+          "reused 0 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -87,7 +87,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1491 sitemap urls fetched earlier this run"
+          "reused 0 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -171,7 +171,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1491 sitemap urls fetched earlier this run"
+          "reused 0 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -215,7 +215,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 23,
+        "fetched": 33,
         "notes": [],
         "status": "ok"
       },
@@ -255,7 +255,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1491 sitemap urls fetched earlier this run"
+          "reused 0 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -343,7 +343,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1491 sitemap urls fetched earlier this run"
+          "reused 0 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -416,10 +416,18 @@
     },
     "PL": {
       "anyworkanywhere": {
-        "errors": [],
+        "errors": [
+          "sitemap 7: GET https://www.anyworkanywhere.com/job-sitemap7.xml failed after 3 attempts: transient HTTP 500",
+          "sitemap 6: GET https://www.anyworkanywhere.com/job-sitemap6.xml failed after 3 attempts: transient HTTP 500",
+          "sitemap 5: GET https://www.anyworkanywhere.com/job-sitemap5.xml failed after 3 attempts: transient HTTP 500",
+          "sitemap 4: GET https://www.anyworkanywhere.com/job-sitemap4.xml failed after 3 attempts: transient HTTP 500",
+          "sitemap 3: GET https://www.anyworkanywhere.com/job-sitemap3.xml failed after 3 attempts: transient HTTP 500",
+          "sitemap 2: GET https://www.anyworkanywhere.com/job-sitemap2.xml failed after 3 attempts: transient HTTP 500",
+          "sitemap 1: GET https://www.anyworkanywhere.com/job-sitemap1.xml failed after 3 attempts: transient HTTP 500"
+        ],
         "fetched": 0,
         "notes": [],
-        "status": "ok"
+        "status": "failed"
       },
       "covebo": {
         "errors": [],
@@ -487,8 +495,10 @@
       },
       "telegram_channels": {
         "errors": [],
-        "fetched": 50,
-        "notes": [],
+        "fetched": 27,
+        "notes": [
+          "teealpl: backlog gap of ~8 messages older than the preview window (cursor 47968, oldest visible 47977) - missed, not caught up"
+        ],
         "status": "ok"
       }
     },
@@ -497,7 +507,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1491 sitemap urls fetched earlier this run"
+          "reused 0 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -581,7 +591,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1491 sitemap urls fetched earlier this run"
+          "reused 0 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -665,8 +675,8 @@
       }
     }
   },
-  "duration_sec": 873.3,
-  "last_run_utc": "2026-11-06T06:31:04+00:00",
+  "duration_sec": 806.4,
+  "last_run_utc": "2026-11-06T18:13:54+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-03T03:37:41+00:00",
@@ -963,13 +973,13 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-06T06:31:04+00:00",
+      "checked_at_utc": "2026-11-06T18:13:54+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1491 sitemap urls fetched earlier this run"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1048,13 +1058,13 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-06T06:31:04+00:00",
+      "checked_at_utc": "2026-11-06T18:13:54+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1491 sitemap urls fetched earlier this run"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1694,13 +1704,13 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-06T06:31:04+00:00",
+      "checked_at_utc": "2026-11-06T18:13:54+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1491 sitemap urls fetched earlier this run"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1744,7 +1754,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 23,
+          "fetched": 33,
           "notes": [],
           "status": "ok"
         },
@@ -1955,13 +1965,13 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-06T06:31:04+00:00",
+      "checked_at_utc": "2026-11-06T18:13:54+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1491 sitemap urls fetched earlier this run"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2259,13 +2269,13 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-06T06:31:04+00:00",
+      "checked_at_utc": "2026-11-06T18:13:54+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1491 sitemap urls fetched earlier this run"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2338,13 +2348,21 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-06T06:31:04+00:00",
+      "checked_at_utc": "2026-11-06T18:13:54+00:00",
       "sources": {
         "anyworkanywhere": {
-          "errors": [],
+          "errors": [
+            "sitemap 7: GET https://www.anyworkanywhere.com/job-sitemap7.xml failed after 3 attempts: transient HTTP 500",
+            "sitemap 6: GET https://www.anyworkanywhere.com/job-sitemap6.xml failed after 3 attempts: transient HTTP 500",
+            "sitemap 5: GET https://www.anyworkanywhere.com/job-sitemap5.xml failed after 3 attempts: transient HTTP 500",
+            "sitemap 4: GET https://www.anyworkanywhere.com/job-sitemap4.xml failed after 3 attempts: transient HTTP 500",
+            "sitemap 3: GET https://www.anyworkanywhere.com/job-sitemap3.xml failed after 3 attempts: transient HTTP 500",
+            "sitemap 2: GET https://www.anyworkanywhere.com/job-sitemap2.xml failed after 3 attempts: transient HTTP 500",
+            "sitemap 1: GET https://www.anyworkanywhere.com/job-sitemap1.xml failed after 3 attempts: transient HTTP 500"
+          ],
           "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "covebo": {
           "errors": [],
@@ -2412,8 +2430,10 @@
         },
         "telegram_channels": {
           "errors": [],
-          "fetched": 50,
-          "notes": [],
+          "fetched": 27,
+          "notes": [
+            "teealpl: backlog gap of ~8 messages older than the preview window (cursor 47968, oldest visible 47977) - missed, not caught up"
+          ],
           "status": "ok"
         }
       }
@@ -2506,13 +2526,13 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-06T06:31:04+00:00",
+      "checked_at_utc": "2026-11-06T18:13:54+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1491 sitemap urls fetched earlier this run"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2715,13 +2735,13 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-06T06:31:04+00:00",
+      "checked_at_utc": "2026-11-06T18:13:54+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1491 sitemap urls fetched earlier this run"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2838,46 +2858,44 @@
     "kept_pre_prune": {
       "covebo": 1,
       "czech_mpsv": 1,
-      "eures": 193,
+      "eures": 189,
       "goodmorning": 7,
       "hobij": 5,
-      "jobspy_indeed": 173,
-      "nl_jobs": 6,
-      "ottoworkforce": 3,
+      "jobspy_indeed": 189,
+      "nl_jobs": 5,
       "pl_cbop": 50,
-      "telegram_polandworkportal": 7,
-      "telegram_ukraincydopracy": 2
+      "telegram_polandworkportal": 4,
+      "telegram_teealpl": 5
     },
     "retained_post_prune": {
       "czech_mpsv": 1,
-      "eures": 157,
-      "jobspy_indeed": 173,
-      "nl_jobs": 5,
-      "ottoworkforce": 3,
+      "eures": 145,
+      "jobspy_indeed": 189,
+      "nl_jobs": 4,
       "pl_cbop": 50,
-      "telegram_polandworkportal": 7,
-      "telegram_ukraincydopracy": 2
+      "telegram_polandworkportal": 4,
+      "telegram_teealpl": 5
     }
   },
   "totals": {
-    "active": 2296,
-    "below_min_score": 26,
-    "contacts_extracted": 217,
-    "excluded": 289,
-    "fetched": 790,
+    "active": 2343,
+    "below_min_score": 23,
+    "contacts_extracted": 142,
+    "excluded": 269,
+    "fetched": 777,
     "l1_dropped": 4,
-    "l2_language_excluded": 2,
-    "lifecycle_deactivated": 0,
-    "lifecycle_deactivated_total": 0,
+    "l2_language_excluded": 1,
+    "lifecycle_deactivated": 7,
+    "lifecycle_deactivated_total": 7,
     "lifecycle_dead_confirmed": 0,
-    "lifecycle_live_confirmed": 40,
+    "lifecycle_live_confirmed": 39,
     "lifecycle_reactivated": 0,
-    "new": 72,
+    "new": 59,
     "notified_telegram": 0,
-    "pruned": 3,
-    "reviewed_fills": 1,
+    "pruned": 12,
+    "reviewed_fills": 17,
     "translated_ar": 0,
     "translated_titles": 0,
-    "updated": 342
+    "updated": 360
   }
 }
