@@ -334,6 +334,21 @@ def main(argv=None) -> int:
     # applied by the pipeline, not by editing the multi-MB store by
     # hand. Fail-safe: a missing/malformed file is a logged no-op.
     fill_counts = apply_reviewed_fills(store)
+    # Derived-data repair: apply_channels is recomputed from the stored
+    # description with the CURRENT extractor every run, so extractor fixes
+    # (e.g. the 2026-11-06 date-as-phone false positives) self-heal the
+    # store instead of persisting stale derived values. Contacts remain
+    # unverified data; nothing here sends anything.
+    _channels_repaired = 0
+    for _rec in (getattr(store, "_store", None) or {}).values():
+        _desc = _rec.get("description") or ""
+        _fresh = extract_channels(_desc)
+        if _rec.get("apply_channels") != _fresh:
+            _rec["apply_channels"] = _fresh
+            _channels_repaired += 1
+    if _channels_repaired:
+        log.info("apply_channels recomputed for %d stored records",
+                 _channels_repaired)
     # Honest per-source yield: "kept" in source_health is counted BEFORE
     # merge/prune. A posting whose posted_date is older than the retention
     # window is merged and then pruned in the same run, so it never reaches
