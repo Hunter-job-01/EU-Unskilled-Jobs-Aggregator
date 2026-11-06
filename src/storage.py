@@ -211,6 +211,18 @@ class JobStore:
         removed = [uid for uid in store if uid not in keep]
         if removed:
             self._record_tombstones(removed, today)
+            # Observability: name what was pruned and which date decided
+            # it. Without this line a same-run merge+prune is invisible:
+            # the record never reaches the store, the export or the
+            # dashboard, and the payload that carried the date is gone.
+            detail = ", ".join(
+                "{}:{}".format(
+                    uid,
+                    (_parse_day(store[uid].get("posted_date"))
+                     or _parse_day(store[uid].get("first_seen"))))
+                for uid in removed[:50])
+            log.info("pruned %d record(s) at retention cutoff %s: %s",
+                     len(removed), cutoff.isoformat(), detail)
         self._store = keep
         return len(removed)
 
