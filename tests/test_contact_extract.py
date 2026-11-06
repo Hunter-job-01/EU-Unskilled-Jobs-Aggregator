@@ -25,6 +25,25 @@ def test_whatsapp_flag_and_dedup():
     assert out["phones"] == ["+31 6 1234 5678"]
 
 
+def test_dates_and_ranges_are_not_phones():
+    # Regression 2026-11-06: these persisted as recruiter phones on a
+    # telegram record before the fix.
+    out = extract_channels("Приїзд 05-10.11/16-19.11. Вихід 26.11.2026.")
+    assert out["phones"] == []
+    assert extract_channels("26.11.2026")["phones"] == []
+    assert extract_channels("05.10.2026")["phones"] == []
+
+
+def test_real_phones_still_extracted():
+    out = extract_channels("Call +48 123 456 789 or +380936408993.")
+    assert out["phones"] == ["+48 123 456 789", "+380936408993"]
+    assert extract_channels("tel. +48791123543")["phones"] == ["+48791123543"]
+    # Single-slash EU formats are real phones and must survive.
+    assert extract_channels("Tel: 0630/674-3549")["phones"] == ["0630/674-3549"]
+    assert extract_channels("Tel. 05741/ 3485 - 0")["phones"] == ["05741/ 3485 - 0"]
+    assert extract_channels("0 38 31 / 28 81 - 0")["phones"] == ["0 38 31 / 28 81 - 0"]
+
+
 def test_no_channel_means_empty():
     out = extract_channels("Warehouse work with housing and training.")
     assert out == {"emails": [], "phones": [], "whatsapp_mentioned": False}
