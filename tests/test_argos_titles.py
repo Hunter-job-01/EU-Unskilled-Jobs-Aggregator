@@ -194,6 +194,19 @@ def test_title_language_overrides_country_on_strong_signal():
     assert en.startswith('Social escort')  # fr model, not es
 
 
+def test_cyrillic_uk_ru_bg_detection_not_blanket_bulgarian():
+    # Regression 2026-11-06: hosted tier-1 routed Ukrainian telegram
+    # titles through bg->en ('Біля Ополе...' -> '♪ ♪' garbage). Cyrillic
+    # script alone must not pick a language; unique letters decide.
+    from src.argos_titles import guess_title_lang
+    assert guess_title_lang('Біля Ополе та недалеко Глівіце') == 'uk'
+    assert guess_title_lang('Пакувальник на склад і збір') == 'uk'
+    assert guess_title_lang('Разнорабочий на выставке') == 'ru'
+    assert guess_title_lang('Търся работници за склад') == 'bg'
+    # Cyrillic without a decisive letter keeps the country mapping.
+    assert guess_title_lang('Склад одяг Swarzędz') is None
+
+
 def test_reviewed_rejected_title_fails_honest_empty():
     from src.argos_titles import translate_title_argos, _fold, _rejected_titles
     rejected = _rejected_titles()
@@ -233,7 +246,7 @@ def test_scheduled_layer_holds_free_model_output(monkeypatch):
     import src.argos_titles as at
     from src.offline_translation import translate_titles_offline
 
-    monkeypatch.setattr(at, 'ensure_packages', lambda langs, log=None: [])
+    monkeypatch.setattr(at, 'ensure_packages', lambda langs=None, log=None: [])
     calls = {
         'Magazynier': ('Warehouse worker', 'عامل مستودع'),      # free-model output
         # scorer.looks_english misses this genuine-English title (its
