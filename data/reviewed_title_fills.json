@@ -285,7 +285,13 @@
       "expected_title": "Orderpickers",
       "title_en": "Order pickers",
       "translated": true,
-      "review": "data/title_review_batch21.json"
+      "review": "data/title_review_batch21.json",
+      "source_review": {
+        "status": "destination_mismatch",
+        "kind": "source_internal_title_body",
+        "reason": "Source-internal mismatch: EURES title 'Orderpickers' but the source body is a multi-role bundle (orderpickers Bleiswijk, Lidl Online Venlo warehouse, Hessing roles) that also includes certified reach-truck forklift driver roles requiring a forklift certificate and English or Dutch. The title alone would present an ordinary picker role while certificate requirements sit hidden in the bundle. Reviewed 2026-11-06 (batch21): English title fill kept (it translates the source title faithfully); application link and description-derived claims withheld via the dashboard mismatch treatment.",
+        "checked_on": "2026-11-06"
+      }
     },
     {
       "uid": "37c82cf5ab706426",
