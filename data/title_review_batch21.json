@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-06",
+  "method": "manual source review via the live EURES public JSON API and live source pages, not model output. Indeed and Telegram candidates were HELD this batch (login wall / JS-only preview - no live verification).",
+  "reviews": [
+    {
+      "uid": "0cb006509afd6edd",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTM1NzMtRlhHUTlNU0NHUUFON04zVy1TIDE?lang=en",
+      "note": "Live EURES title matches stored, including a source-side '- Copy' duplication artifact (dropped from the English as noise, no meaning). Body confirms sorting and separating recycling materials, removing contaminants, simple conveyor work, for a client in Wegberg; temp agency with takeover option."
+    },
+    {
+      "uid": "84b0ddda5ebfe708",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTMxMzAtMTM5MTY3MjMtUyAx?lang=en",
+      "note": "Live EURES title matches. Body (PASIT staffing, Munich area) confirms warehouse helper/order picker roles, no experience required, immediate or later start."
+    },
+    {
+      "uid": "48fb665e15c5308c",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1WUJaUCA5?lang=en",
+      "note": "Live EURES title matches. Body confirms accompanying adolescents (daily support, school follow-up, sports/cultural activities) on distancing stays; a youth social-care role, not manual work. Arabic left unfilled - no reviewed vocab for this role."
+    },
+    {
+      "uid": "3b3f2a7ff8cce7d8",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTExMTktNDk4MTk0MzYwMy1TIDE?lang=en",
+      "note": "Live EURES title matches. Body (Randstad, Lutherstadt Wittenberg) confirms production work for a client; simple application."
+    },
+    {
+      "uid": "024391fe575c4fc3",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTMxMzAtMTM5MTY3NTQtUyAx?lang=en",
+      "note": "Live EURES title matches; 'Mehrere' = several positions kept. Body (PASIT staffing) confirms picking/packing/warehouse helper roles handling pharmaceuticals."
+    },
+    {
+      "uid": "751c9e5bfc99338e",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU4MjI1NTMtUyAx?lang=en",
+      "note": "Live EURES title matches (OHNE Erfahrung kept). Body confirms a drugstore in Berlin-Hohenschonhausen, full-time 2-shift warehouse helper."
+    },
+    {
+      "uid": "31ebe87fa29de484",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTM0MTQtUTdJRDM3MzBBQ0RaTzlONS1TIDE?lang=en",
+      "note": "Live EURES title matches. Body confirms order picking and packing at a premium partner in Neukirchen/Pleisse."
+    },
+    {
+      "uid": "9e24fad4f51b4179",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQzODU2YzItNzQ3ZS1jOTM0LWUwNjMtNjg5M2IyMGE0ZjNlIDQy?lang=en",
+      "note": "Live EURES title matches. Body confirms Lidl Online warehouse in Venlo, collecting non-food products, shift work; EPT = electric pallet truck."
+    },
+    {
+      "uid": "ae66a14c328cfee1",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQzODU2YzItNzI5NS1jOTM0LWUwNjMtNjg5M2IyMGE0ZjNlIDQy?lang=en",
+      "note": "Live EURES title matches ('Orderpickers'). DIVERGENCE: the body actually describes certified reach-truck forklift drivers (Heerenveen, Tiel, Oosterhout, Almere, Weert, Waddinxveen) requiring a forklift certificate and English or Dutch. English fill translates the title faithfully; Arabic withheld given the title/body mismatch."
+    },
+    {
+      "uid": "37c82cf5ab706426",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI3MDQtN05NVzFGS0pVVkNPMkUzUC1TIDE?lang=en",
+      "note": "Live EURES title matches. Body (SYNERGIE temp work) confirms forklift driving in Ludwigsfelde."
+    },
+    {
+      "uid": "9df04d2464e4e8e3",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI2OTktMzQ5NkVZRzNJV05OUFdCRy1TIDE?lang=en",
+      "note": "Live EURES title matches. Body confirms several forklift drivers/palletizers for air freight handling at Munich Airport, full-time 2-shift."
+    },
+    {
+      "uid": "429151d01c7d85d6",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI3MDQtN1ZWTDUwUzZOSzdPVlBQNC1TIDE?lang=en",
+      "note": "Live EURES title matches. Fachkraft/Fachlagerist is a SKILLED warehouse role; 'mit Staplerschein' (with forklift license) requirement kept explicit."
+    },
+    {
+      "uid": "0aca6364139bd2c7",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI3MzktWFk4TUpDMUpQQlQxWFc0Ti1TIDE?lang=en",
+      "note": "Live EURES title matches. Body (ACCURAT temp work) confirms production helper work at client sites; electrical-industry category kept."
+    },
+    {
+      "uid": "a84b8e1324926d83",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU4MjI1MjgtUyAx?lang=en",
+      "note": "Live EURES title matches. Body confirms warehouse worker for a fashion chain in the Berlin area, full-time 2-shift, starting pay 13.75 EUR/h stated in body (not added to title)."
+    },
+    {
+      "uid": "64391f7fe2a417a6",
+      "source_url": "https://www.anyworkanywhere.com/job/swedish-speaking-sales-agent/",
+      "note": "Live anyworkanywhere page title matches. Title is already English; fill normalizes the hyphen only. Arabic left unfilled - no reviewed vocab for this role."
+    },
+    {
+      "uid": "fbc4ee4780a1358f",
+      "source_url": "https://www.jenprace.cz/nabidka/p4sxtq/skladnik-skladnice-pouze-ranni-smena",
+      "note": "Live jenprace.cz page title matches stored (emoji dropped from English as decoration). Body confirms Teta drogerie (drugstore) warehouse in Olomouc; 'pouze ranni smena' = morning shift only, kept."
+    },
+    {
+      "uid": "1ff0cc494f420944",
+      "source_url": "https://www.jenprace.cz/nabidka/qw2b27/operator-vyroby-i-bez-praxe-naborovy-prispevek-20-000-kc",
+      "note": "Live jenprace.cz page title matches. 'i bez praxe' = also without experience, 'naborovy prispevek 20 000 Kc' = hiring bonus 20,000 CZK - both qualifiers kept. Location Mosnov."
+    },
+    {
+      "uid": "f61255f8f1f5b77d",
+      "source_url": "https://vacatures.werkenbijvivisol.nl/vacaturebeschrijving-2/bijbaan-logistiek-magazijn-medewerker",
+      "note": "Live vivisol careers page title matches. 'Bijbaan' = student side job (part-time); body confirms Tilburg, minimum 12 h/week, warehouse logistics for a care supplier."
+    }
+  ]
+}
