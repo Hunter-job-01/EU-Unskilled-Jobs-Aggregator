@@ -138,7 +138,8 @@ TITLE_AR_VOCAB = {
 _PAIRS = [("pl","en"),("de","en"),("cs","en"),("nl","en"),("sv","en"),
           ("es","en"),("it","en"),("fr","en"),("pt","en"),("ro","en"),
           ("hu","en"),("lt","en"),("lv","en"),("et","en"),("sk","en"),
-          ("bg","en"),("el","en"),("fi","en"),("da","en"),("en","ar")]
+          ("bg","en"),("uk","en"),("ru","en"),
+          ("el","en"),("fi","en"),("da","en"),("en","ar")]
 
 
 def ensure_packages(langs=None, log=print):
@@ -253,7 +254,16 @@ import os as _os
 # with. Signals are deliberately strong only (script, gender markers,
 # unique diacritics, function-word majority): anything weaker keeps the
 # country language, and a missing model still fails honest-empty.
-_SCRIPT_LANGS = [("\u0370-\u03ff", "el"), ("\u0400-\u04ff", "bg")]
+_SCRIPT_LANGS = [("\u0370-\u03ff", "el")]  # Greek script is decisive
+# Cyrillic is shared by Bulgarian, Russian and Ukrainian, so the script
+# alone is NOT a language signal. Measured on the hosted tier-1 run of
+# 2026-11-06: Ukrainian telegram titles were routed through the bg->en
+# model and produced garbage ('Bilia Opole...' -> 'note note'). Only
+# language-unique letters may override the country mapping:
+# uk has i-dotted/ye/yi/ghe, ru has yery/e/yo, bg has the big yus.
+_CYRILLIC_UNIQUE = [("\u0456\u0457\u0454\u0491", "uk"),
+                    ("\u044b\u044d\u0451", "ru"),
+                    ("\u044a", "bg")]
 _MARKERS = [("h/f", "fr"), ("f/h", "fr"), ("(m/w/d)", "de"),
             ("(w/m/d)", "de"), ("k/m", "pl"), ("(m/k)", "pl"),
             ("(m/z)", "cs")]
@@ -286,7 +296,13 @@ def guess_title_lang(title: str):
             votes[lang] = votes.get(lang, 0) + w
     for rng, lang in _SCRIPT_LANGS:
         if _re.search("[" + rng + "]", title or ""):
-            return lang  # script alone is decisive
+            return lang  # Greek script alone is decisive
+    if _re.search("[\u0400-\u04ff]", title or ""):
+        _tl = (title or "").lower()
+        for _chars, _lang in _CYRILLIC_UNIQUE:
+            if any(c in _tl for c in _chars):
+                return _lang
+        return None  # shared script, no decisive letter: keep country
     for marker, lang in _MARKERS:
         if marker in low:
             bump(lang, 3)
