@@ -136,10 +136,23 @@ class GoodmorningScraper:
         else:
             result.notes.append("reused {} sitemap urls fetched earlier this run".format(len(self._urls)))
         result.stats["country_assumed_from_source"] = _COUNTRY
+        result.stats["index_count"] = len(self._urls)
+        # v6 stage A (slug-first delta): postings the store already holds
+        # fresh (last_seen within the recheck window) are not re-fetched;
+        # the sitemap index above is still fully enumerated, so lifecycle
+        # coverage and removal detection stay honest. Skipped slugs are
+        # reported so main.py can mark them seen. Records older than the
+        # window rotate back in for a bounded-staleness recheck.
+        _known_fresh = getattr(self, "known_fresh_ids", None) or set()
         fetched = 0
         for url in self._urls:
             if result.fetched >= max_jobs or fetched >= self.max_pages:
                 break
+            _slug = url.rstrip("/").rsplit("/", 1)[-1]
+            if _slug in _known_fresh:
+                result.stats["delta_skipped"] = result.stats.get("delta_skipped", 0) + 1
+                result.stats.setdefault("delta_skipped_ids", []).append(_slug)
+                continue
             try:
                 body = self.http.get(url).text
             except ScraperError as exc:
