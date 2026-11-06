@@ -264,7 +264,13 @@ def test_scheduled_layer_holds_free_model_output(monkeypatch):
                         score=80, excluded=False, country='IE',
                         source_language='en', translated=False),
     ]
-    en_done, ar_done = translate_titles_offline(jobs, {'translation': {'enabled': True}})
+    held = []
+    en_done, ar_done = translate_titles_offline(
+        jobs, {'translation': {'enabled': True}}, held=held)
+    # Held raw model output is captured data-only for review, never
+    # published: uid/title/lang/computed_en/score, nothing else.
+    assert held == [{'uid': '', 'title': 'Magazynier', 'source_lang': 'pl',
+                     'computed_en': 'Warehouse worker', 'score': 70}]
     # Free-model output held: honest-empty, never published unattended.
     assert jobs[0].title_en == '' and jobs[0].title_ar == ''
     assert not jobs[0].translated
