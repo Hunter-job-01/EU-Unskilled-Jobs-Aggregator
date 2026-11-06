@@ -16,7 +16,7 @@ import argparse
 import logging
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 
 sys.path.insert(0, __file__.rsplit("/", 1)[0])  # repo root on path
 
@@ -162,12 +162,26 @@ def main(argv=None) -> int:
     for _rec in pre_store.values():
         if _rec.get("source_id"):
             known_ids_by_source.setdefault(_rec.get("source"), set()).add(_rec["source_id"])
+    # v6 stage A: slugs whose stored record is still inside the recheck
+    # window are delta-skipped by sitemap-index scrapers (no detail
+    # re-fetch); older records rotate back in for a bounded-staleness
+    # recheck. 7 days is well inside the 30-day prune window.
+    _fresh_cutoff = (date.today() - timedelta(days=7)).isoformat()
+    known_fresh_by_source = {}
+    for _rec in pre_store.values():
+        if _rec.get("source_id") and (_rec.get("last_seen") or "") >= _fresh_cutoff:
+            known_fresh_by_source.setdefault(_rec.get("source"), set()).add(_rec["source_id"])
     for scraper in scrapers:
         scraper.known_ids = set().union(
             *(ids for name, ids in known_ids_by_source.items()
               if name == scraper.name or name.startswith(scraper.name + "_"))) \
         if any(name == scraper.name or name.startswith(scraper.name + "_")
                for name in known_ids_by_source) else set()
+        scraper.known_fresh_ids = set().union(
+            *(ids for name, ids in known_fresh_by_source.items()
+              if name == scraper.name or name.startswith(scraper.name + "_"))) \
+        if any(name == scraper.name or name.startswith(scraper.name + "_")
+               for name in known_fresh_by_source) else set()
     results_by_pair = {}
     totals = {"fetched": 0, "excluded": 0, "below_min_score": 0,
               "l1_dropped": 0, "l2_language_excluded": 0,
@@ -332,12 +346,30 @@ def main(argv=None) -> int:
     # is gone. Deactivation needs consecutive covered misses or
     # consecutive confirmed-dead live checks (default 2 each).
     seen_uids = {j.uid for j in scored_jobs}
-    covered_pairs = {
-        (sname, country)
-        for (sname, country), res in results_by_pair.items()
-        if res.status in ("ok", "partial")
-        and res.fetched < args.max_jobs
-    }
+    covered_pairs = set()
+    for (sname, country), res in results_by_pair.items():
+        if res.status not in ("ok", "partial"):
+            continue
+        if (res.stats or {}).get("index_count") is not None:
+            # v6 stage A: sitemap-index sources enumerate the FULL URL
+            # inventory every run; detail fetches are delta-limited, so
+            # coverage evidence is the enumerated index, not the count
+            # of detail fetches.
+            covered_pairs.add((sname, country))
+        elif res.fetched < args.max_jobs:
+            covered_pairs.add((sname, country))
+    # Delta-skipped postings are still listed in the source index, so
+    # they count as seen for lifecycle when their own (source, country)
+    # pair is covered; a posting dropped from the index is a real miss.
+    _by_sid = {}
+    for _uid, _rec in pre_store.items():
+        if _rec.get("source_id"):
+            _by_sid[(_rec.get("source"), _rec["source_id"])] = (_uid, _rec)
+    for (sname, country), res in results_by_pair.items():
+        for _slug in (res.stats or {}).get("delta_skipped_ids") or []:
+            _hit = _by_sid.get((sname, _slug))
+            if _hit and (sname, _hit[1].get("country")) in covered_pairs:
+                seen_uids.add(_hit[0])
     lc_cfg = cfg.get("lifecycle", {}) or {}
     lc_counts = {"deactivated": 0, "reactivated": 0, "missed": 0,
                  "dead_confirmed": 0, "live_confirmed": 0, "deactivated_total": 0}
