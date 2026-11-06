@@ -335,5 +335,6 @@ jobs:
           path: |
             data/latest_export.csv
             data/run_status.json
+            review/translation_candidates.json
           retention-days: 14
           if-no-files-found: warn
