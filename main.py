@@ -270,9 +270,11 @@ def main(argv=None) -> int:
     # is persisted OUTSIDE data/ (never committed, never on Pages) and
     # ships only as a private Actions artifact for manual semantic
     # review. Titles and scores only - no contacts, no descriptions.
+    review_queue_manifest = None
     if held_translations:
         import json as _json
         import os as _os
+        import hashlib as _hashlib
         # Public repo: artifacts and data/ are world-readable, so the
         # queue ships SEALED with the same JOB_FIT_STATE_KEY as private
         # notification state. Without the key the plaintext is never
@@ -283,15 +285,33 @@ def main(argv=None) -> int:
             from src.private_state import seal as _seal
             held_translations.sort(key=lambda h: -h.get("score", 0))
             _os.makedirs("review", exist_ok=True)
+            _sealed = _seal({"candidates": held_translations[:200],
+                             "note": "Unreviewed free-model output; "
+                                     "manual semantic review only."},
+                            _key)
+            _payload = _json.dumps(_sealed).encode("utf-8")
             with open(_os.path.join("review", "translation_candidates.json"),
-                      "w", encoding="utf-8") as _fh:
-                _json.dump(_seal({"candidates": held_translations[:200],
-                                  "note": "Unreviewed free-model output; "
-                                          "manual semantic review only."},
-                                 _key), _fh)
+                      "wb") as _fh:
+                _fh.write(_payload)
+            # Non-sensitive producer attestation (published in
+            # run_status.json): proves the queue shipped sealed and pins
+            # the exact sealed bytes uploaded as the run artifact. Not
+            # independent payload inspection; no plaintext, no key.
+            review_queue_manifest = {
+                "sealed": True,
+                "candidates_stored": len(held_translations[:200]),
+                "candidates_held_total": len(held_translations),
+                "sha256": _hashlib.sha256(_payload).hexdigest(),
+            }
             log.info("translation review queue: %d held candidates (sealed)",
                      len(held_translations))
         else:
+            review_queue_manifest = {
+                "sealed": False,
+                "candidates_stored": 0,
+                "candidates_held_total": len(held_translations),
+                "sha256": None,
+            }
             log.info("translation review queue: %d held candidates NOT "
                      "persisted (JOB_FIT_STATE_KEY unset)",
                      len(held_translations))
@@ -460,6 +480,7 @@ def main(argv=None) -> int:
                        lifecycle_live_confirmed=lc_counts.get("live_confirmed", 0)),
         "countries": statuses,
         "source_retention": source_retention,
+        "review_queue": review_queue_manifest,
     }
     store.write_run_status(run_status)
 
