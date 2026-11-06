@@ -273,17 +273,28 @@ def main(argv=None) -> int:
     if held_translations:
         import json as _json
         import os as _os
-        _os.makedirs("review", exist_ok=True)
-        held_translations.sort(key=lambda h: -h.get("score", 0))
-        with open(_os.path.join("review", "translation_candidates.json"),
-                  "w", encoding="utf-8") as _fh:
-            _json.dump({"candidates": held_translations[:200],
-                        "note": "Unreviewed free-model output. Data-only; "
-                                "never publish without manual semantic "
-                                "review."}, _fh, ensure_ascii=False,
-                       indent=1)
-        log.info("translation review queue: %d held candidates",
-                 len(held_translations))
+        # Public repo: artifacts and data/ are world-readable, so the
+        # queue ships SEALED with the same JOB_FIT_STATE_KEY as private
+        # notification state. Without the key the plaintext is never
+        # written anywhere - unreviewed model output stays unpublished
+        # in the strong sense, not just out of the store.
+        _key = _os.environ.get("JOB_FIT_STATE_KEY", "")
+        if _key:
+            from src.private_state import seal as _seal
+            held_translations.sort(key=lambda h: -h.get("score", 0))
+            _os.makedirs("review", exist_ok=True)
+            with open(_os.path.join("review", "translation_candidates.json"),
+                      "w", encoding="utf-8") as _fh:
+                _json.dump(_seal({"candidates": held_translations[:200],
+                                  "note": "Unreviewed free-model output; "
+                                          "manual semantic review only."},
+                                 _key), _fh)
+            log.info("translation review queue: %d held candidates (sealed)",
+                     len(held_translations))
+        else:
+            log.info("translation review queue: %d held candidates NOT "
+                     "persisted (JOB_FIT_STATE_KEY unset)",
+                     len(held_translations))
     # title_ar layer 1: one batched Gemini free call (keyed, bounded,
     # contact-scrubbed) covering up to 40 titles at once.
     ar_done = off_ar
