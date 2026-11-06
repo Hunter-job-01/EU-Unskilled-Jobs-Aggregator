@@ -1,0 +1,91 @@
+{
+ "checked_on": "2026-11-06",
+ "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. One French candidate (uid 00cfb0e9af186fce) was HELD this batch: the live API returned no posting (no longer published), so no fill was written.",
+ "reviews": [
+  {
+   "uid": "0014986e9e06a1cd",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU4MDIyNjQtUyAx?lang=en",
+   "note": "Live EURES title matches stored. Body (perzukunft temp agency, Marzahn-Berlin) confirms metal-industry warehouse helper: packing metal components, preparing goods for dispatch, sorting and labeling, loading trucks, 19.58 EUR/hour."
+  },
+  {
+   "uid": "001cc6210a9fef05",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzE2MTUgMTI?lang=en",
+   "note": "Live EURES title matches stored (Magazynier/magazynierka = warehouse worker, masculine/feminine forms). Body confirms receiving and issuing goods; forklift license desirable, not required."
+  },
+  {
+   "uid": "0106b1eb3771db5d",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ODliNTZkNmMtYjc0OS00OTM5LTgzOWUtMjFkZTA1ODZjNDViIDM?lang=en",
+   "note": "Live EURES title matches stored. Body (Dreamland toy store distribution centre, Bilzen) confirms an all-round order picking role in a dynamic logistics environment."
+  },
+  {
+   "uid": "01faaa65e849eca9",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NzZlMWYwNjAtM2FlNy00MWJlLTg4OGQtNTAzY2VkOWVmYmI5IDc?lang=en",
+   "note": "Live EURES title matches stored (Danish). Body (FIRMAVIKAR staffing for a client in Ishøj) confirms pick and pack, goods handling and general warehouse work."
+  },
+  {
+   "uid": "0204e21da72ae648",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUxNzg3NjA3OTAgNg?lang=en",
+   "note": "Live EURES title matches stored (Czech). Body confirms handling and refilling pressing material, transport from the press, packing; three-shift working regime."
+  },
+  {
+   "uid": "0263fdfafed4bd6a",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/YWE1ZjM1MDctZjk3ZS00YmYyLTk0NTYtOWMwYjljOGFlMDNhIDM?lang=en",
+   "note": "Live EURES title matches stored (English title on a Dutch-profile posting); marketing slogan in the title tail dropped as noise, employer SKF and pay rate kept. Body confirms night-shift order picking at SKF (bearings/seals), high order accuracy."
+  },
+  {
+   "uid": "027cca23c28da410",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI4MjYtU0EwMTQ4NzAyX0pCNTI4ODQ4My1TIDE?lang=en",
+   "note": "Live EURES title matches stored. Body (Piening Personal, medical-industry client, Mettlach) confirms warehouse work, 14.96 EUR/hour, temporary agency employment with permanent contract via agency."
+  },
+  {
+   "uid": "044343c221243f9a",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzQ3NDQgMTI?lang=en",
+   "note": "Live EURES title matches stored (k/m = kobieta/mezczyzna, f/m). Body confirms delivery receipt and checking, high-rack placement, picking with scanner and WMS, inventories - forklift operation central to the role."
+  },
+  {
+   "uid": "044e37ea0c60a714",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTE3NTNlZjItZmM5MC00MzY1LWI3YjItMjI0MzBhNmZjYWE1IDc?lang=en",
+   "note": "Live EURES title matches stored (Danish; Restaurantansvarlig = restaurant manager/person in charge). Body confirms daily operations leadership role at Ralphy's Fried Chicken, Norre Alle, Aarhus, start 1 December 2026."
+  },
+  {
+   "uid": "04918f21b35da5b1",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkyODEzOSAxOQ?lang=en",
+   "note": "Live EURES title matches stored (Croatian cistac/cistacica = cleaner, masculine/feminine). Body (Zagorski vodovod water utility, Zabok) confirms a cleaning position, permanent contract with 3-month probation."
+  },
+  {
+   "uid": "04a8fd5072db0709",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NzQ2NDI4NyAxMDI?lang=en",
+   "note": "Live EURES title matches stored (Spanish peon agropecuario = agricultural/livestock laborer). Body confirms digging, plowing, cleaning ditches, loading/unloading harvests, feeding and caring for animals; permanent full-time contract in San Pedro de Merida."
+  },
+  {
+   "uid": "0517185ecee98ab9",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzM3MCA4?lang=en",
+   "note": "Live EURES title matches stored (Estonian; Sauel is the locative form of Saua). Body confirms maintenance cleaning of a production building including floor washing by machine and by hand; part-time workload."
+  },
+  {
+   "uid": "05ce3213aebb1a73",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ3NGIwNDYtM2I3Ny05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy?lang=en",
+   "note": "Live EURES title matches stored (Dutch Magazijnmedewerker Avond = warehouse worker evening). Body (GLS Wijchen) adds evening AND night shift, 8-40 hours/week, 14.99-16.47 EUR/hour; title-faithful fill keeps the evening designation."
+  },
+  {
+   "uid": "05e4a18c5545394d",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ5Mjk5NiAxNA?lang=en",
+   "note": "Live EURES title matches stored (Slovenian skladiscnik = warehouse worker, m/z = m/f). Body confirms receiving, storing, issuing and preparing materials and finished goods, stock records, packing and dispatch; fixed-term 3 months, full-time 40h."
+  },
+  {
+   "uid": "05f682342d955eae",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI4MjYtU0EwMTUwODIyX0pCNTI4ODQxMS1TIDE?lang=en",
+   "note": "Live EURES title matches stored. Body confirms two long-fork forklift positions in Wuppertal: in-house goods transport and truck loading/unloading with a long-fork truck; body quotes 16.08 EUR/hour (title number kept in the fill as source title is the anchor)."
+  },
+  {
+   "uid": "06ff779f954a72d1",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6ZmJjN2ZjMmM5YmVlNDU2NjkyMThhOGZmYWIzMjMyOTEgMTg?lang=en",
+   "note": "Source title already English; live EURES title matches stored exactly. Body (Matthews Frozen Foods, Ashbourne, County Meath) confirms picking, packing and preparing customer orders in a frozen-food warehouse."
+  },
+  {
+   "uid": "072d808e0f1a1aa5",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTkwMTEtSkw3TVpEMDdQNENZSE01WC1TIDE?lang=en",
+   "note": "Live EURES title matches stored. Body (client in clothing/fashion logistics, Überherrn) confirms order picking and sorting support, 15.50 EUR/hour, 2-shift system, 35-40 hours/week."
+  }
+ ]
+}
