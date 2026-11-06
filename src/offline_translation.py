@@ -120,12 +120,17 @@ def _job_source_lang(job, cfg):
     return (langs[0] or "").strip().lower() if langs else ""
 
 
-def translate_titles_offline(jobs, cfg, log=None):
+def translate_titles_offline(jobs, cfg, log=None, held=None):
     """Fill title_en/title_ar offline for scored jobs, in place.
 
     Returns (en_done, ar_done). Skips entirely (returning (0, 0)) when
     translation is disabled in config or argostranslate is not
     installed; both states are explicit, never silent failures.
+
+    When ``held`` (a list) is given, gate-passed free-model English that
+    containment keeps UNPUBLISHED is appended as data-only review
+    candidates {uid, title, source_lang, computed_en, score} - never
+    contacts, never descriptions, never published to the store.
     """
     import logging
     log = log or logging.getLogger(__name__)
@@ -175,6 +180,14 @@ def translate_titles_offline(jobs, cfg, log=None):
         # Existing values are never touched here. The English-evidence
         # check is bounded: false negatives just stay empty (safe).
         is_source_copy = bool(en) and en == (job.title or "").strip()
+        if held is not None and en and need_en and not is_source_copy:
+            held.append({
+                "uid": getattr(job, "uid", ""),
+                "title": (job.title or "").strip(),
+                "source_lang": lang,
+                "computed_en": en,
+                "score": getattr(job, "score", 0),
+            })
         if en and need_en and is_source_copy:
             job.title_en = en
             job.translated = True
