@@ -1,368 +1,504 @@
 {
-  "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json.",
-  "updated_on": "2026-11-06",
-  "fills": [
-    {
-      "uid": "2765ea841f84dd71",
-      "expected_title": "OPERAIO/A GENERICO/A",
-      "title_en": "General production worker",
-      "title_ar": "عامل إنتاج عام",
-      "translated": true,
-      "review": "data/title_review_batch18.json"
-    },
-    {
-      "uid": "39be4b5ab858df11",
-      "expected_title": "Orderpicker - 2 ploegen - Gent",
-      "title_en": "Order picker - 2-shift system - Ghent",
-      "title_ar": "عامل تجميع الطلبات - نظام ورديتين - غنت",
-      "translated": true,
-      "review": "data/title_review_batch18.json"
-    },
-    {
-      "uid": "649481ec164b61c1",
-      "expected_title": "Lao transporttöötaja",
-      "title_en": "Warehouse transport worker",
-      "translated": true,
-      "review": "data/title_review_batch18.json"
-    },
-    {
-      "uid": "98b5d5db05a9ea50",
-      "expected_title": "Teilzeit fachlicher Hilfsdienst (w/m/d) 8010 Graz (30 Wst.)",
-      "title_en": "Part-time sorting support worker (m/f/d), 8010 Graz (30 hours/week)",
-      "title_ar": "عامل مساعد لفرز البريد بدوام جزئي - غراتس 8010 - 30 ساعة أسبوعيًا",
-      "translated": true,
-      "review": "data/title_review_batch18.json"
-    },
-    {
-      "uid": "ad565fd457eaf3e8",
-      "expected_title": "Postikuller",
-      "title_en": "Postal courier",
-      "translated": true,
-      "review": "data/title_review_batch18.json"
-    },
-    {
-      "uid": "b4de32d2261afe46",
-      "expected_title": "Tootmisliini operaatori abi",
-      "title_en": "Production line operator assistant",
-      "title_ar": "مساعد مشغل خط إنتاج",
-      "translated": true,
-      "review": "data/title_review_batch18.json"
-    },
-    {
-      "uid": "78f6ab7137831516",
-      "expected_title": "Servicemedarbejder under 18 år",
-      "title_ar": "موظف خدمة بعمر أقل من 18 عامًا",
-      "translated": true,
-      "review": "data/title_review_batch18.json"
-    },
-    {
-      "uid": "861cfef865463f1c",
-      "expected_title": "Analytický chemik QC – junior",
-      "expected_url": "https://web.fosfa.cz/kariera/volne-pozice/energetika/datovy-analytik-energetika-junior-37-000-kc-48-000-kc/",
-      "source_review": {
-        "status": "destination_mismatch",
-        "checked_on": "2026-11-04",
-        "reason": "Original title is chemist QC junior; stored URL and body are energy data analyst. Present before reconstructed-link publication. Original source identity not independently recovered.",
-        "original_url": "https://web.fosfa.cz/kariera/volne-pozice/energetika/datovy-analytik-energetika-junior-37-000-kc-48-000-kc/",
-        "recovery_lead_url": "https://web.fosfa.cz/kariera/volne-pozice/kvalita-a-zivotni-prostredi/analyticky-chemik-qc-junior-34-000-kc-46-000-kc/"
-      },
-      "review": "data/title_review_batch18.json"
-    },
-    {
-      "uid": "a330657667dd6118",
-      "expected_title": "KITCHEN HELPER",
-      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU3MDA1IDEwMQ?lang=en",
-      "title_en": "KITCHEN HELPER",
-      "title_ar": "مساعد مطبخ",
-      "translated": true,
-      "review": "data/title_review_batch19.json"
-    },
-    {
-      "uid": "d3d60ab6f87e02af",
-      "expected_title": "KITCHEN HELPER",
-      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU2ODYyIDEwMQ?lang=en",
-      "title_en": "KITCHEN HELPER",
-      "title_ar": "مساعد مطبخ",
-      "translated": true,
-      "review": "data/title_review_batch19.json"
-    },
-    {
-      "uid": "53473d1fcc22e9f0",
-      "expected_title": "KITCHEN HELPER",
-      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDAwIDEwMQ?lang=en",
-      "title_en": "KITCHEN HELPER",
-      "title_ar": "مساعد مطبخ",
-      "translated": true,
-      "review": "data/title_review_batch19.json"
-    },
-    {
-      "uid": "fe6f3995019c60fb",
-      "expected_title": "KITCHEN ASSISTANT",
-      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDE4IDEwMQ?lang=en",
-      "title_en": "KITCHEN ASSISTANT",
-      "title_ar": "مساعد مطبخ",
-      "translated": true,
-      "review": "data/title_review_batch19.json"
-    },
-    {
-      "uid": "5868dcb4a8437d30",
-      "expected_title": "Meat Processing Operative",
-      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6NDgzNzk4NThiYzI3NGJhYmEyY2I5ZTk4ZjM0OWFhOTggMTg?lang=en",
-      "title_en": "Meat Processing Operative",
-      "title_ar": "عامل تصنيع لحوم",
-      "translated": true,
-      "review": "data/title_review_batch19.json"
-    },
-    {
-      "uid": "939f944f48631423",
-      "expected_title": "Assistant magasinier (H/F)",
-      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1SkNZUyA5?lang=en",
-      "title_en": "Assistant magasinier (H/F)",
-      "title_ar": "مساعد مستودع",
-      "translated": true,
-      "review": "data/title_review_batch19.json"
-    },
-    {
-      "uid": "e2303c5ff92cfb5e",
-      "expected_title": "Production employee at Vepo Cheese",
-      "expected_url": "https://ottoworkforce.eu/en/jobs/2272-production-employee-vepo-cheese",
-      "title_en": "Production employee at Vepo Cheese",
-      "title_ar": "عامل إنتاج لدى Vepo Cheese",
-      "translated": true,
-      "review": "data/title_review_batch19.json"
-    },
-    {
-      "uid": "50cb346affcd4df7",
-      "expected_title": "Food Service Assistant",
-      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6ZTkwYTkwOWRhZThlNDE5Y2JmY2FmMzBmZmNkMDNlYWUgMTg?lang=en",
-      "title_en": "Food Service Assistant",
-      "title_ar": "مساعد خدمة أغذية",
-      "translated": true,
-      "review": "data/title_review_batch19.json"
-    },
-    {
-      "uid": "08e42d2f5e3748fe",
-      "expected_title": "KITCHEN ASSISTANT",
-      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDI2IDEwMQ?lang=en",
-      "source_review": {
-        "status": "destination_mismatch",
-        "kind": "source_internal_title_body",
-        "checked_on": "2026-11-05",
-        "reason": "Source-internal mismatch: live EURES/Jobsplus record 459026 (SYNERGY 6 MALTA LTD.) carries the title KITCHEN ASSISTANT while its own description is a bartender role (preparing and serving drinks, checking IDs, bar cleanliness). The card faithfully mirrors the inconsistent source; the apply link and description-derived claims are withheld pending a source fix or re-review.",
-        "original_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDI2IDEwMQ?lang=en"
-      },
-      "review": "data/title_review_batch19.json"
-    },
-    {
-      "uid": "343d6ee7cbfaa23b",
-      "expected_title": "Warehouse Worker – E-commerce Picking and Packing",
-      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDJkNDUzMzAtYTkyYS00Y2Y3LWJiZWUtMjc3MWNjM2Y0YTJkIDgx?lang=en",
-      "title_en": "Warehouse Worker – E-commerce Picking and Packing",
-      "title_ar": "عامل مستودع - تجميع وتعبئة طلبات التجارة الإلكترونية",
-      "translated": true,
-      "review": "data/title_review_batch20.json"
-    },
-    {
-      "uid": "41971d4d3a3c6e9e",
-      "expected_title": "CONSTRUCTION CLEANER",
-      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU4ODI1IDEwMQ?lang=en",
-      "title_en": "CONSTRUCTION CLEANER",
-      "title_ar": "عامل تنظيف مواقع بناء",
-      "translated": true,
-      "review": "data/title_review_batch20.json"
-    },
-    {
-      "uid": "5e047fa9a042d44f",
-      "expected_title": "Van Loader",
-      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6ZGUyMjY4NDc3YjU1NDdmYjhjOTI3YTQ1ZmE5ZmIzZTYgMTg?lang=en",
-      "title_en": "Van Loader",
-      "title_ar": "عامل تحميل شاحنات التوصيل",
-      "translated": true,
-      "review": "data/title_review_batch20.json"
-    },
-    {
-      "uid": "f2a63374f83961b1",
-      "expected_title": "Assistant / Assistante service clients",
-      "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1UkRYTCA5?lang=en",
-      "title_en": "Assistant / Assistante service clients",
-      "title_ar": "مساعد خدمة عملاء",
-      "translated": true,
-      "review": "data/title_review_batch20.json"
-    },
-    {
-      "uid": "75b915e2945f2aaf",
-      "expected_title": "Delivery Driver/ Warehouse Assistant",
-      "expected_url": "https://careers.lkqeurope.com/job/Cavan-Delivery-Driver-Warehouse-Assistant/1374584455/",
-      "title_en": "Delivery Driver/ Warehouse Assistant",
-      "title_ar": "سائق توصيل / مساعد مستودع",
-      "translated": true,
-      "review": "data/title_review_batch20.json"
-    },
-    {
-      "uid": "a238148e0f59f924",
-      "expected_title": "Magasinier Automobiles Mercedes-Benz Confirmé H/F",
-      "expected_url": "https://groupe-clim.nous-recrutons.fr/poste/z3kxue5gf1-magasinier-automobiles-mercedes-benz-confirme-h-f/",
-      "title_en": "Experienced warehouse worker Automobiles Mercedes-Benz H/F",
-      "title_ar": "عامل مستودع قطع غيار ذو خبرة - مرسيدس-بنز",
-      "translated": true,
-      "review": "data/title_review_batch20.json"
-    },
-    {
-      "uid": "86f59685121495c6",
-      "expected_title": "Retail Assistant - Operador de Loja (m/f)",
-      "expected_url": "https://jobs.smartrecruiters.com/Primark/744000159190840-retail-assistant-operador-de-loja-m-f-",
-      "title_en": "Retail Assistant - Operador de Loja (m/f)",
-      "title_ar": "مساعد متجر تجزئة",
-      "translated": true,
-      "review": "data/title_review_batch20.json"
-    },
-    {
-      "uid": "0cb006509afd6edd",
-      "expected_title": "Sortierer (m/w/d) - Copy (Helfer/in - Lagerwirtschaft, Transport)",
-      "title_en": "Sorter (m/f/d) (helper - warehousing and transport)",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "عامل فرز (مستودع ونقل)"
-    },
-    {
-      "uid": "84b0ddda5ebfe708",
-      "expected_title": "Lagerhelfer / Kommissionierer / Lagermitarbeiter ohne Erfahrung (m/w/d) (Helfer/in - Lagerwirtschaft, Transport)",
-      "title_en": "Warehouse helper / order picker / warehouse worker - no experience required (m/f/d) (helper - warehousing and transport)",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "مساعد مستودع / عامل تجميع الطلبات - بدون خبرة"
-    },
-    {
-      "uid": "48fb665e15c5308c",
-      "expected_title": "Accompagnateur social en séjours de distanciation (H/F) Espagne",
-      "title_en": "Social support worker for distancing stays (M/F) - Spain",
-      "translated": true,
-      "review": "data/title_review_batch21.json"
-    },
-    {
-      "uid": "3b3f2a7ff8cce7d8",
-      "expected_title": "Produktionshelfer (m/w/d) (Helfer/in - Kunststoff, Kautschuk)",
-      "title_en": "Production helper (m/f/d) (helper - plastics and rubber)",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "مساعد إنتاج (بلاستيك ومطاط)"
-    },
-    {
-      "uid": "024391fe575c4fc3",
-      "expected_title": "Mehrere Kommissionierer / Verpacker / Lagerhelfer (m/w/d) für Medikamente (Helfer/in - Lagerwirtschaft, Transport)",
-      "title_en": "Several order pickers / packers / warehouse helpers (m/f/d) for pharmaceuticals (helper - warehousing and transport)",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "عامل تجميع طلبات / عامل تعبئة / مساعد مستودع - أدوية"
-    },
-    {
-      "uid": "751c9e5bfc99338e",
-      "expected_title": "Lagerhelfer m/w/d OHNE Erfahrung Drogeriemarkt (Helfer/in - Lagerwirtschaft, Transport)",
-      "title_en": "Warehouse helper (m/f/d) - no experience required - drugstore (helper - warehousing and transport)",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "مساعد مستودع - بدون خبرة - متجر مستلزمات"
-    },
-    {
-      "uid": "31ebe87fa29de484",
-      "expected_title": "Kommissionierer (m/w/d) (Kommissionierer/in)",
-      "title_en": "Order picker (m/f/d)",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "عامل تجميع الطلبات"
-    },
-    {
-      "uid": "9e24fad4f51b4179",
-      "expected_title": "Magazijnmedewerker / EPT Heftruckchauffeur",
-      "title_en": "Warehouse worker / EPT (electric pallet truck) operator",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "عامل مستودع / مشغل رافعة كهربائية (EPT)"
-    },
-    {
-      "uid": "ae66a14c328cfee1",
-      "expected_title": "Orderpickers",
-      "title_en": "Order pickers",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "source_review": {
-        "status": "destination_mismatch",
-        "kind": "source_internal_title_body",
-        "reason": "Source-internal mismatch: EURES title 'Orderpickers' but the source body is a multi-role bundle (orderpickers Bleiswijk, Lidl Online Venlo warehouse, Hessing roles) that also includes certified reach-truck forklift driver roles requiring a forklift certificate and English or Dutch. The title alone would present an ordinary picker role while certificate requirements sit hidden in the bundle. Reviewed 2026-11-06 (batch21): English title fill kept (it translates the source title faithfully); application link and description-derived claims withheld via the dashboard mismatch treatment.",
-        "checked_on": "2026-11-06"
-      }
-    },
-    {
-      "uid": "37c82cf5ab706426",
-      "expected_title": "Staplerfahrer (m/w/d) 14974 Ludwigsfelde (Gabelstaplerfahrer/in)",
-      "title_en": "Forklift driver (m/f/d) - 14974 Ludwigsfelde",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "مشغل رافعة شوكية - لودفيغسفيلده"
-    },
-    {
-      "uid": "9df04d2464e4e8e3",
-      "expected_title": "Staplerfahrer (m/w/d) Luftfracht Cargo (Gabelstaplerfahrer/in)",
-      "title_en": "Forklift driver (m/f/d) - air freight cargo",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "مشغل رافعة شوكية - شحن جوي"
-    },
-    {
-      "uid": "429151d01c7d85d6",
-      "expected_title": "Lagerfachkraft / Fachlagerist (m/w/d) mit Staplerschein in Ludwigsfelde 14974 (Gabelstaplerfahrer/in)",
-      "title_en": "Warehouse specialist / warehouse clerk (m/f/d) with forklift license - Ludwigsfelde 14974",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "أخصائي مستودع - برخصة رافعة شوكية - لودفيغسفيلده"
-    },
-    {
-      "uid": "0aca6364139bd2c7",
-      "expected_title": "Produktionshelfer / Produktionshelferin (m/w/d) (Helfer/in - Elektro)",
-      "title_en": "Production helper (m/f/d) (helper - electrical industry)",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "مساعد إنتاج (صناعة كهربائية)"
-    },
-    {
-      "uid": "a84b8e1324926d83",
-      "expected_title": "Lagerhelfer (m/w/d) - Textilbranche - Vollzeit (Helfer/in - Lagerwirtschaft, Transport)",
-      "title_en": "Warehouse helper (m/f/d) - textile industry - full-time (helper - warehousing and transport)",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "مساعد مستودع - قطاع المنسوجات - دوام كامل"
-    },
-    {
-      "uid": "64391f7fe2a417a6",
-      "expected_title": "Swedish speaking Sales Agent",
-      "title_en": "Swedish-speaking Sales Agent",
-      "translated": true,
-      "review": "data/title_review_batch21.json"
-    },
-    {
-      "uid": "fbc4ee4780a1358f",
-      "expected_title": "SKLADNÍK/SKLADNICE - (pouze ranní směna) ✨",
-      "title_en": "Warehouse worker (M/F) - morning shift only",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "عامل مستودع - وردية صباحية فقط"
-    },
-    {
-      "uid": "1ff0cc494f420944",
-      "expected_title": "Operátor výroby i bez praxe - náborový příspěvek 20 000 Kč!",
-      "title_en": "Production operator - no experience required - hiring bonus 20,000 CZK",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "مشغل إنتاج - بدون خبرة - مكافأة توظيف 20,000 كرونة تشيكية"
-    },
-    {
-      "uid": "f61255f8f1f5b77d",
-      "expected_title": "Bijbaan Logistiek / Magazijn Medewerker",
-      "title_en": "Side job (part-time) logistics / warehouse worker",
-      "translated": true,
-      "review": "data/title_review_batch21.json",
-      "title_ar": "عامل لوجستيات / عامل مستودع - دوام جزئي"
-    }
-  ]
+ "schema": "reviewed_title_fills/v1",
+ "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json.",
+ "updated_on": "2026-11-06",
+ "fills": [
+  {
+   "uid": "2765ea841f84dd71",
+   "expected_title": "OPERAIO/A GENERICO/A",
+   "title_en": "General production worker",
+   "title_ar": "عامل إنتاج عام",
+   "translated": true,
+   "review": "data/title_review_batch18.json"
+  },
+  {
+   "uid": "39be4b5ab858df11",
+   "expected_title": "Orderpicker - 2 ploegen - Gent",
+   "title_en": "Order picker - 2-shift system - Ghent",
+   "title_ar": "عامل تجميع الطلبات - نظام ورديتين - غنت",
+   "translated": true,
+   "review": "data/title_review_batch18.json"
+  },
+  {
+   "uid": "649481ec164b61c1",
+   "expected_title": "Lao transporttöötaja",
+   "title_en": "Warehouse transport worker",
+   "translated": true,
+   "review": "data/title_review_batch18.json"
+  },
+  {
+   "uid": "98b5d5db05a9ea50",
+   "expected_title": "Teilzeit fachlicher Hilfsdienst (w/m/d) 8010 Graz (30 Wst.)",
+   "title_en": "Part-time sorting support worker (m/f/d), 8010 Graz (30 hours/week)",
+   "title_ar": "عامل مساعد لفرز البريد بدوام جزئي - غراتس 8010 - 30 ساعة أسبوعيًا",
+   "translated": true,
+   "review": "data/title_review_batch18.json"
+  },
+  {
+   "uid": "ad565fd457eaf3e8",
+   "expected_title": "Postikuller",
+   "title_en": "Postal courier",
+   "translated": true,
+   "review": "data/title_review_batch18.json"
+  },
+  {
+   "uid": "b4de32d2261afe46",
+   "expected_title": "Tootmisliini operaatori abi",
+   "title_en": "Production line operator assistant",
+   "title_ar": "مساعد مشغل خط إنتاج",
+   "translated": true,
+   "review": "data/title_review_batch18.json"
+  },
+  {
+   "uid": "78f6ab7137831516",
+   "expected_title": "Servicemedarbejder under 18 år",
+   "title_ar": "موظف خدمة بعمر أقل من 18 عامًا",
+   "translated": true,
+   "review": "data/title_review_batch18.json"
+  },
+  {
+   "uid": "861cfef865463f1c",
+   "expected_title": "Analytický chemik QC – junior",
+   "expected_url": "https://web.fosfa.cz/kariera/volne-pozice/energetika/datovy-analytik-energetika-junior-37-000-kc-48-000-kc/",
+   "source_review": {
+    "status": "destination_mismatch",
+    "checked_on": "2026-11-04",
+    "reason": "Original title is chemist QC junior; stored URL and body are energy data analyst. Present before reconstructed-link publication. Original source identity not independently recovered.",
+    "original_url": "https://web.fosfa.cz/kariera/volne-pozice/energetika/datovy-analytik-energetika-junior-37-000-kc-48-000-kc/",
+    "recovery_lead_url": "https://web.fosfa.cz/kariera/volne-pozice/kvalita-a-zivotni-prostredi/analyticky-chemik-qc-junior-34-000-kc-46-000-kc/"
+   },
+   "review": "data/title_review_batch18.json"
+  },
+  {
+   "uid": "a330657667dd6118",
+   "expected_title": "KITCHEN HELPER",
+   "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU3MDA1IDEwMQ?lang=en",
+   "title_en": "KITCHEN HELPER",
+   "title_ar": "مساعد مطبخ",
+   "translated": true,
+   "review": "data/title_review_batch19.json"
+  },
+  {
+   "uid": "d3d60ab6f87e02af",
+   "expected_title": "KITCHEN HELPER",
+   "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU2ODYyIDEwMQ?lang=en",
+   "title_en": "KITCHEN HELPER",
+   "title_ar": "مساعد مطبخ",
+   "translated": true,
+   "review": "data/title_review_batch19.json"
+  },
+  {
+   "uid": "53473d1fcc22e9f0",
+   "expected_title": "KITCHEN HELPER",
+   "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDAwIDEwMQ?lang=en",
+   "title_en": "KITCHEN HELPER",
+   "title_ar": "مساعد مطبخ",
+   "translated": true,
+   "review": "data/title_review_batch19.json"
+  },
+  {
+   "uid": "fe6f3995019c60fb",
+   "expected_title": "KITCHEN ASSISTANT",
+   "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDE4IDEwMQ?lang=en",
+   "title_en": "KITCHEN ASSISTANT",
+   "title_ar": "مساعد مطبخ",
+   "translated": true,
+   "review": "data/title_review_batch19.json"
+  },
+  {
+   "uid": "5868dcb4a8437d30",
+   "expected_title": "Meat Processing Operative",
+   "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6NDgzNzk4NThiYzI3NGJhYmEyY2I5ZTk4ZjM0OWFhOTggMTg?lang=en",
+   "title_en": "Meat Processing Operative",
+   "title_ar": "عامل تصنيع لحوم",
+   "translated": true,
+   "review": "data/title_review_batch19.json"
+  },
+  {
+   "uid": "939f944f48631423",
+   "expected_title": "Assistant magasinier (H/F)",
+   "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1SkNZUyA5?lang=en",
+   "title_en": "Assistant magasinier (H/F)",
+   "title_ar": "مساعد مستودع",
+   "translated": true,
+   "review": "data/title_review_batch19.json"
+  },
+  {
+   "uid": "e2303c5ff92cfb5e",
+   "expected_title": "Production employee at Vepo Cheese",
+   "expected_url": "https://ottoworkforce.eu/en/jobs/2272-production-employee-vepo-cheese",
+   "title_en": "Production employee at Vepo Cheese",
+   "title_ar": "عامل إنتاج لدى Vepo Cheese",
+   "translated": true,
+   "review": "data/title_review_batch19.json"
+  },
+  {
+   "uid": "50cb346affcd4df7",
+   "expected_title": "Food Service Assistant",
+   "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6ZTkwYTkwOWRhZThlNDE5Y2JmY2FmMzBmZmNkMDNlYWUgMTg?lang=en",
+   "title_en": "Food Service Assistant",
+   "title_ar": "مساعد خدمة أغذية",
+   "translated": true,
+   "review": "data/title_review_batch19.json"
+  },
+  {
+   "uid": "08e42d2f5e3748fe",
+   "expected_title": "KITCHEN ASSISTANT",
+   "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDI2IDEwMQ?lang=en",
+   "source_review": {
+    "status": "destination_mismatch",
+    "kind": "source_internal_title_body",
+    "checked_on": "2026-11-05",
+    "reason": "Source-internal mismatch: live EURES/Jobsplus record 459026 (SYNERGY 6 MALTA LTD.) carries the title KITCHEN ASSISTANT while its own description is a bartender role (preparing and serving drinks, checking IDs, bar cleanliness). The card faithfully mirrors the inconsistent source; the apply link and description-derived claims are withheld pending a source fix or re-review.",
+    "original_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5MDI2IDEwMQ?lang=en"
+   },
+   "review": "data/title_review_batch19.json"
+  },
+  {
+   "uid": "343d6ee7cbfaa23b",
+   "expected_title": "Warehouse Worker – E-commerce Picking and Packing",
+   "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDJkNDUzMzAtYTkyYS00Y2Y3LWJiZWUtMjc3MWNjM2Y0YTJkIDgx?lang=en",
+   "title_en": "Warehouse Worker – E-commerce Picking and Packing",
+   "title_ar": "عامل مستودع - تجميع وتعبئة طلبات التجارة الإلكترونية",
+   "translated": true,
+   "review": "data/title_review_batch20.json"
+  },
+  {
+   "uid": "41971d4d3a3c6e9e",
+   "expected_title": "CONSTRUCTION CLEANER",
+   "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU4ODI1IDEwMQ?lang=en",
+   "title_en": "CONSTRUCTION CLEANER",
+   "title_ar": "عامل تنظيف مواقع بناء",
+   "translated": true,
+   "review": "data/title_review_batch20.json"
+  },
+  {
+   "uid": "5e047fa9a042d44f",
+   "expected_title": "Van Loader",
+   "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6ZGUyMjY4NDc3YjU1NDdmYjhjOTI3YTQ1ZmE5ZmIzZTYgMTg?lang=en",
+   "title_en": "Van Loader",
+   "title_ar": "عامل تحميل شاحنات التوصيل",
+   "translated": true,
+   "review": "data/title_review_batch20.json"
+  },
+  {
+   "uid": "f2a63374f83961b1",
+   "expected_title": "Assistant / Assistante service clients",
+   "expected_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1UkRYTCA5?lang=en",
+   "title_en": "Assistant / Assistante service clients",
+   "title_ar": "مساعد خدمة عملاء",
+   "translated": true,
+   "review": "data/title_review_batch20.json"
+  },
+  {
+   "uid": "75b915e2945f2aaf",
+   "expected_title": "Delivery Driver/ Warehouse Assistant",
+   "expected_url": "https://careers.lkqeurope.com/job/Cavan-Delivery-Driver-Warehouse-Assistant/1374584455/",
+   "title_en": "Delivery Driver/ Warehouse Assistant",
+   "title_ar": "سائق توصيل / مساعد مستودع",
+   "translated": true,
+   "review": "data/title_review_batch20.json"
+  },
+  {
+   "uid": "a238148e0f59f924",
+   "expected_title": "Magasinier Automobiles Mercedes-Benz Confirmé H/F",
+   "expected_url": "https://groupe-clim.nous-recrutons.fr/poste/z3kxue5gf1-magasinier-automobiles-mercedes-benz-confirme-h-f/",
+   "title_en": "Experienced warehouse worker Automobiles Mercedes-Benz H/F",
+   "title_ar": "عامل مستودع قطع غيار ذو خبرة - مرسيدس-بنز",
+   "translated": true,
+   "review": "data/title_review_batch20.json"
+  },
+  {
+   "uid": "86f59685121495c6",
+   "expected_title": "Retail Assistant - Operador de Loja (m/f)",
+   "expected_url": "https://jobs.smartrecruiters.com/Primark/744000159190840-retail-assistant-operador-de-loja-m-f-",
+   "title_en": "Retail Assistant - Operador de Loja (m/f)",
+   "title_ar": "مساعد متجر تجزئة",
+   "translated": true,
+   "review": "data/title_review_batch20.json"
+  },
+  {
+   "uid": "0cb006509afd6edd",
+   "expected_title": "Sortierer (m/w/d) - Copy (Helfer/in - Lagerwirtschaft, Transport)",
+   "title_en": "Sorter (m/f/d) (helper - warehousing and transport)",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "عامل فرز (مستودع ونقل)"
+  },
+  {
+   "uid": "84b0ddda5ebfe708",
+   "expected_title": "Lagerhelfer / Kommissionierer / Lagermitarbeiter ohne Erfahrung (m/w/d) (Helfer/in - Lagerwirtschaft, Transport)",
+   "title_en": "Warehouse helper / order picker / warehouse worker - no experience required (m/f/d) (helper - warehousing and transport)",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "مساعد مستودع / عامل تجميع الطلبات - بدون خبرة"
+  },
+  {
+   "uid": "48fb665e15c5308c",
+   "expected_title": "Accompagnateur social en séjours de distanciation (H/F) Espagne",
+   "title_en": "Social support worker for distancing stays (M/F) - Spain",
+   "translated": true,
+   "review": "data/title_review_batch21.json"
+  },
+  {
+   "uid": "3b3f2a7ff8cce7d8",
+   "expected_title": "Produktionshelfer (m/w/d) (Helfer/in - Kunststoff, Kautschuk)",
+   "title_en": "Production helper (m/f/d) (helper - plastics and rubber)",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "مساعد إنتاج (بلاستيك ومطاط)"
+  },
+  {
+   "uid": "024391fe575c4fc3",
+   "expected_title": "Mehrere Kommissionierer / Verpacker / Lagerhelfer (m/w/d) für Medikamente (Helfer/in - Lagerwirtschaft, Transport)",
+   "title_en": "Several order pickers / packers / warehouse helpers (m/f/d) for pharmaceuticals (helper - warehousing and transport)",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "عامل تجميع طلبات / عامل تعبئة / مساعد مستودع - أدوية"
+  },
+  {
+   "uid": "751c9e5bfc99338e",
+   "expected_title": "Lagerhelfer m/w/d OHNE Erfahrung Drogeriemarkt (Helfer/in - Lagerwirtschaft, Transport)",
+   "title_en": "Warehouse helper (m/f/d) - no experience required - drugstore (helper - warehousing and transport)",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "مساعد مستودع - بدون خبرة - متجر مستلزمات"
+  },
+  {
+   "uid": "31ebe87fa29de484",
+   "expected_title": "Kommissionierer (m/w/d) (Kommissionierer/in)",
+   "title_en": "Order picker (m/f/d)",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "عامل تجميع الطلبات"
+  },
+  {
+   "uid": "9e24fad4f51b4179",
+   "expected_title": "Magazijnmedewerker / EPT Heftruckchauffeur",
+   "title_en": "Warehouse worker / EPT (electric pallet truck) operator",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "عامل مستودع / مشغل رافعة كهربائية (EPT)"
+  },
+  {
+   "uid": "ae66a14c328cfee1",
+   "expected_title": "Orderpickers",
+   "title_en": "Order pickers",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "source_review": {
+    "status": "destination_mismatch",
+    "kind": "source_internal_title_body",
+    "reason": "Source-internal mismatch: EURES title 'Orderpickers' but the source body is a multi-role bundle (orderpickers Bleiswijk, Lidl Online Venlo warehouse, Hessing roles) that also includes certified reach-truck forklift driver roles requiring a forklift certificate and English or Dutch. The title alone would present an ordinary picker role while certificate requirements sit hidden in the bundle. Reviewed 2026-11-06 (batch21): English title fill kept (it translates the source title faithfully); application link and description-derived claims withheld via the dashboard mismatch treatment.",
+    "checked_on": "2026-11-06"
+   }
+  },
+  {
+   "uid": "37c82cf5ab706426",
+   "expected_title": "Staplerfahrer (m/w/d) 14974 Ludwigsfelde (Gabelstaplerfahrer/in)",
+   "title_en": "Forklift driver (m/f/d) - 14974 Ludwigsfelde",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "مشغل رافعة شوكية - لودفيغسفيلده"
+  },
+  {
+   "uid": "9df04d2464e4e8e3",
+   "expected_title": "Staplerfahrer (m/w/d) Luftfracht Cargo (Gabelstaplerfahrer/in)",
+   "title_en": "Forklift driver (m/f/d) - air freight cargo",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "مشغل رافعة شوكية - شحن جوي"
+  },
+  {
+   "uid": "429151d01c7d85d6",
+   "expected_title": "Lagerfachkraft / Fachlagerist (m/w/d) mit Staplerschein in Ludwigsfelde 14974 (Gabelstaplerfahrer/in)",
+   "title_en": "Warehouse specialist / warehouse clerk (m/f/d) with forklift license - Ludwigsfelde 14974",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "أخصائي مستودع - برخصة رافعة شوكية - لودفيغسفيلده"
+  },
+  {
+   "uid": "0aca6364139bd2c7",
+   "expected_title": "Produktionshelfer / Produktionshelferin (m/w/d) (Helfer/in - Elektro)",
+   "title_en": "Production helper (m/f/d) (helper - electrical industry)",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "مساعد إنتاج (صناعة كهربائية)"
+  },
+  {
+   "uid": "a84b8e1324926d83",
+   "expected_title": "Lagerhelfer (m/w/d) - Textilbranche - Vollzeit (Helfer/in - Lagerwirtschaft, Transport)",
+   "title_en": "Warehouse helper (m/f/d) - textile industry - full-time (helper - warehousing and transport)",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "مساعد مستودع - قطاع المنسوجات - دوام كامل"
+  },
+  {
+   "uid": "64391f7fe2a417a6",
+   "expected_title": "Swedish speaking Sales Agent",
+   "title_en": "Swedish-speaking Sales Agent",
+   "translated": true,
+   "review": "data/title_review_batch21.json"
+  },
+  {
+   "uid": "fbc4ee4780a1358f",
+   "expected_title": "SKLADNÍK/SKLADNICE - (pouze ranní směna) ✨",
+   "title_en": "Warehouse worker (M/F) - morning shift only",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "عامل مستودع - وردية صباحية فقط"
+  },
+  {
+   "uid": "1ff0cc494f420944",
+   "expected_title": "Operátor výroby i bez praxe - náborový příspěvek 20 000 Kč!",
+   "title_en": "Production operator - no experience required - hiring bonus 20,000 CZK",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "مشغل إنتاج - بدون خبرة - مكافأة توظيف 20,000 كرونة تشيكية"
+  },
+  {
+   "uid": "f61255f8f1f5b77d",
+   "expected_title": "Bijbaan Logistiek / Magazijn Medewerker",
+   "title_en": "Side job (part-time) logistics / warehouse worker",
+   "translated": true,
+   "review": "data/title_review_batch21.json",
+   "title_ar": "عامل لوجستيات / عامل مستودع - دوام جزئي"
+  },
+  {
+   "uid": "0014986e9e06a1cd",
+   "expected_title": "Helfer im Lager (m/w/d) 19,58 Euro Stundenlohn (Fachkraft - Lagerlogistik)",
+   "title_en": "Warehouse helper (m/f/d) - 19.58 EUR hourly wage (skilled worker - warehouse logistics)",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "مساعد مستودع - أجر 19.58 يورو بالساعة (لوجستيات المستودعات)"
+  },
+  {
+   "uid": "001cc6210a9fef05",
+   "expected_title": "Magazynier/magazynierka",
+   "title_en": "Warehouse worker (m/f)",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عامل مستودع"
+  },
+  {
+   "uid": "0106b1eb3771db5d",
+   "expected_title": "Allround orderpicker",
+   "title_en": "All-round order picker",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عامل تجميع طلبات متعدد المهام"
+  },
+  {
+   "uid": "01faaa65e849eca9",
+   "expected_title": "Lagermedarbejdere søges til pluk og pak i Ishøj",
+   "title_en": "Warehouse workers wanted for picking and packing in Ishøj",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عمال مستودع للتجميع والتعبئة في إيسهوي"
+  },
+  {
+   "uid": "0204e21da72ae648",
+   "expected_title": "Manipulační dělník - Sypač, Pomocní skladníci",
+   "title_en": "Material handling worker - bulk material filler, warehouse helpers",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عامل مناولة مواد - عامل تعبئة مواد سائبة / مساعد مستودع"
+  },
+  {
+   "uid": "0263fdfafed4bd6a",
+   "expected_title": "Orderpicker – Night Shift | Earn €20.85 per hour! – Become an essential link at SKF",
+   "title_en": "Order picker - night shift - 20.85 EUR per hour - SKF",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عامل تجميع طلبات - وردية ليلية - SKF"
+  },
+  {
+   "uid": "027cca23c28da410",
+   "expected_title": "Lagermitarbeiter (m/w/d) in Mettlach (Lager- und Transportarbeiter/in)",
+   "title_en": "Warehouse worker (m/f/d) in Mettlach (warehouse and transport worker)",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عامل مستودع في ميتلاخ (مستودعات ونقل)"
+  },
+  {
+   "uid": "044343c221243f9a",
+   "expected_title": "Magazynier- operator wózka widłowego (k/m)",
+   "title_en": "Warehouse worker - forklift operator (f/m)",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عامل مستودع - مشغل رافعة شوكية"
+  },
+  {
+   "uid": "044e37ea0c60a714",
+   "expected_title": "Restaurantansvarlig søges til Ralphy’s Fried Chicken i Aarhus",
+   "title_en": "Restaurant manager wanted for Ralphy's Fried Chicken in Aarhus",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "مسؤول مطعم لدى Ralphy's Fried Chicken في آرهوس"
+  },
+  {
+   "uid": "04918f21b35da5b1",
+   "expected_title": "ČISTAČ/ČISTAČICA",
+   "title_en": "Cleaner (m/f)",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عامل تنظيف"
+  },
+  {
+   "uid": "04a8fd5072db0709",
+   "expected_title": "PEÓN AGROPECUARIO",
+   "title_en": "Agricultural and livestock farm laborer",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عامل زراعي وتربية حيوانات"
+  },
+  {
+   "uid": "0517185ecee98ab9",
+   "expected_title": "Puhastusteenindaja tootmishoones Sauel",
+   "title_en": "Cleaning operative in a production building in Saua",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عامل تنظيف في مبنى إنتاج"
+  },
+  {
+   "uid": "05ce3213aebb1a73",
+   "expected_title": "Magazijnmedewerker Avond",
+   "title_en": "Warehouse worker - evening shift",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عامل مستودع - وردية مسائية"
+  },
+  {
+   "uid": "05e4a18c5545394d",
+   "expected_title": "SKLADIŠČNIK  - M/Ž",
+   "title_en": "Warehouse worker (m/f)",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عامل مستودع"
+  },
+  {
+   "uid": "05f682342d955eae",
+   "expected_title": "Staplerfahrer mit Langgabel (m/w/d)  16,00 EUR in Wuppertal (Fachkraft - Lagerwirtschaft)",
+   "title_en": "Forklift driver with long forks (m/f/d) - 16.00 EUR in Wuppertal (skilled worker - warehousing)",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "سائق رافعة شوكية بشوكات طويلة - فوبرتال"
+  },
+  {
+   "uid": "06ff779f954a72d1",
+   "expected_title": "Warehouse Operatives – Matthews Frozen Foods",
+   "title_en": "Warehouse Operatives - Matthews Frozen Foods",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "عمال مستودع - Matthews Frozen Foods"
+  },
+  {
+   "uid": "072d808e0f1a1aa5",
+   "expected_title": "Lagerhelfer / Kommissionierer (m/w/d) – Textillogistik (Helfer/in - Lagerwirtschaft, Transport)",
+   "title_en": "Warehouse helper / order picker (m/f/d) - textile logistics (helper - warehousing and transport)",
+   "translated": true,
+   "review": "data/title_review_batch22.json",
+   "title_ar": "مساعد مستودع / عامل تجميع الطلبات - لوجستيات المنسوجات"
+  }
+ ]
 }
