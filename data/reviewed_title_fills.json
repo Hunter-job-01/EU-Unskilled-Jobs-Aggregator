@@ -1,7 +1,7 @@
 {
   "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json.",
-  "updated_on": "2026-11-05",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json.",
+  "updated_on": "2026-11-06",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -216,6 +216,147 @@
       "title_ar": "مساعد متجر تجزئة",
       "translated": true,
       "review": "data/title_review_batch20.json"
+    },
+    {
+      "uid": "0cb006509afd6edd",
+      "expected_title": "Sortierer (m/w/d) - Copy (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Sorter (m/f/d) (helper - warehousing and transport)",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "عامل فرز (مستودع ونقل)"
+    },
+    {
+      "uid": "84b0ddda5ebfe708",
+      "expected_title": "Lagerhelfer / Kommissionierer / Lagermitarbeiter ohne Erfahrung (m/w/d) (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper / order picker / warehouse worker - no experience required (m/f/d) (helper - warehousing and transport)",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "مساعد مستودع / عامل تجميع الطلبات - بدون خبرة"
+    },
+    {
+      "uid": "48fb665e15c5308c",
+      "expected_title": "Accompagnateur social en séjours de distanciation (H/F) Espagne",
+      "title_en": "Social support worker for distancing stays (M/F) - Spain",
+      "translated": true,
+      "review": "data/title_review_batch21.json"
+    },
+    {
+      "uid": "3b3f2a7ff8cce7d8",
+      "expected_title": "Produktionshelfer (m/w/d) (Helfer/in - Kunststoff, Kautschuk)",
+      "title_en": "Production helper (m/f/d) (helper - plastics and rubber)",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "مساعد إنتاج (بلاستيك ومطاط)"
+    },
+    {
+      "uid": "024391fe575c4fc3",
+      "expected_title": "Mehrere Kommissionierer / Verpacker / Lagerhelfer (m/w/d) für Medikamente (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Several order pickers / packers / warehouse helpers (m/f/d) for pharmaceuticals (helper - warehousing and transport)",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "عامل تجميع طلبات / عامل تعبئة / مساعد مستودع - أدوية"
+    },
+    {
+      "uid": "751c9e5bfc99338e",
+      "expected_title": "Lagerhelfer m/w/d OHNE Erfahrung Drogeriemarkt (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper (m/f/d) - no experience required - drugstore (helper - warehousing and transport)",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "مساعد مستودع - بدون خبرة - متجر مستلزمات"
+    },
+    {
+      "uid": "31ebe87fa29de484",
+      "expected_title": "Kommissionierer (m/w/d) (Kommissionierer/in)",
+      "title_en": "Order picker (m/f/d)",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "عامل تجميع الطلبات"
+    },
+    {
+      "uid": "9e24fad4f51b4179",
+      "expected_title": "Magazijnmedewerker / EPT Heftruckchauffeur",
+      "title_en": "Warehouse worker / EPT (electric pallet truck) operator",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "عامل مستودع / مشغل رافعة كهربائية (EPT)"
+    },
+    {
+      "uid": "ae66a14c328cfee1",
+      "expected_title": "Orderpickers",
+      "title_en": "Order pickers",
+      "translated": true,
+      "review": "data/title_review_batch21.json"
+    },
+    {
+      "uid": "37c82cf5ab706426",
+      "expected_title": "Staplerfahrer (m/w/d) 14974 Ludwigsfelde (Gabelstaplerfahrer/in)",
+      "title_en": "Forklift driver (m/f/d) - 14974 Ludwigsfelde",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "مشغل رافعة شوكية - لودفيغسفيلده"
+    },
+    {
+      "uid": "9df04d2464e4e8e3",
+      "expected_title": "Staplerfahrer (m/w/d) Luftfracht Cargo (Gabelstaplerfahrer/in)",
+      "title_en": "Forklift driver (m/f/d) - air freight cargo",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "مشغل رافعة شوكية - شحن جوي"
+    },
+    {
+      "uid": "429151d01c7d85d6",
+      "expected_title": "Lagerfachkraft / Fachlagerist (m/w/d) mit Staplerschein in Ludwigsfelde 14974 (Gabelstaplerfahrer/in)",
+      "title_en": "Warehouse specialist / warehouse clerk (m/f/d) with forklift license - Ludwigsfelde 14974",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "أخصائي مستودع - برخصة رافعة شوكية - لودفيغسفيلده"
+    },
+    {
+      "uid": "0aca6364139bd2c7",
+      "expected_title": "Produktionshelfer / Produktionshelferin (m/w/d) (Helfer/in - Elektro)",
+      "title_en": "Production helper (m/f/d) (helper - electrical industry)",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "مساعد إنتاج (صناعة كهربائية)"
+    },
+    {
+      "uid": "a84b8e1324926d83",
+      "expected_title": "Lagerhelfer (m/w/d) - Textilbranche - Vollzeit (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper (m/f/d) - textile industry - full-time (helper - warehousing and transport)",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "مساعد مستودع - قطاع المنسوجات - دوام كامل"
+    },
+    {
+      "uid": "64391f7fe2a417a6",
+      "expected_title": "Swedish speaking Sales Agent",
+      "title_en": "Swedish-speaking Sales Agent",
+      "translated": true,
+      "review": "data/title_review_batch21.json"
+    },
+    {
+      "uid": "fbc4ee4780a1358f",
+      "expected_title": "SKLADNÍK/SKLADNICE - (pouze ranní směna) ✨",
+      "title_en": "Warehouse worker (M/F) - morning shift only",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "عامل مستودع - وردية صباحية فقط"
+    },
+    {
+      "uid": "1ff0cc494f420944",
+      "expected_title": "Operátor výroby i bez praxe - náborový příspěvek 20 000 Kč!",
+      "title_en": "Production operator - no experience required - hiring bonus 20,000 CZK",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "مشغل إنتاج - بدون خبرة - مكافأة توظيف 20,000 كرونة تشيكية"
+    },
+    {
+      "uid": "f61255f8f1f5b77d",
+      "expected_title": "Bijbaan Logistiek / Magazijn Medewerker",
+      "title_en": "Side job (part-time) logistics / warehouse worker",
+      "translated": true,
+      "review": "data/title_review_batch21.json",
+      "title_ar": "عامل لوجستيات / عامل مستودع - دوام جزئي"
     }
   ]
 }
