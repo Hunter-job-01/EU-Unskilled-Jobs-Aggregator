@@ -45,7 +45,7 @@
     {
       "uid": "ae66a14c328cfee1",
       "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQzODU2YzItNzI5NS1jOTM0LWUwNjMtNjg5M2IyMGE0ZjNlIDQy?lang=en",
-      "note": "Live EURES title matches ('Orderpickers'). DIVERGENCE: the body actually describes certified reach-truck forklift drivers (Heerenveen, Tiel, Oosterhout, Almere, Weert, Waddinxveen) requiring a forklift certificate and English or Dutch. English fill translates the title faithfully; Arabic withheld given the title/body mismatch."
+      "note": "Live EURES title matches ('Orderpickers'). The source body is a MULTI-ROLE BUNDLE: orderpickers (Bleiswijk, ForeignFlex), Lidl Online Venlo warehouse, Hessing vegetable roles, AND certified reach-truck forklift drivers (Heerenveen, Tiel, Oosterhout, Almere, Weert, Waddinxveen) requiring a forklift certificate and English or Dutch at EUR 14.99/h. Publishing the title alone would hide the certificate requirements. Containment applied via the fill's source_review (destination_mismatch / source_internal_title_body): the dashboard shows the bilingual source-mismatch warning, withholds the application link, and suppresses description-derived claims. English fill kept - it translates the source title faithfully; Arabic withheld."
     },
     {
       "uid": "37c82cf5ab706426",
