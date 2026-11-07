@@ -128,3 +128,18 @@ def test_translated_flag_requires_a_title_value(tmp_path):
     counts = apply_reviewed_fills(store, path)
     assert counts["applied"] == 0
     assert store._store[job.uid]["translated"] is False
+
+
+def test_overwrite_flag_replaces_existing_value(tmp_path):
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    job = make_job(1)
+    job.title_en = "Legacy partial gloss"
+    store.merge([job])
+    path = _write_fills(tmp_path, [
+        _fill(job.uid, expected_title=job.title,
+              title_en="Reviewed replacement", overwrite=True)])
+    counts = apply_reviewed_fills(store, path)
+    assert counts["overwritten"] == 1 and counts["conflict"] == 0
+    assert store._store[job.uid]["title_en"] == "Reviewed replacement"
+    counts = apply_reviewed_fills(store, path)
+    assert counts["overwritten"] == 0 and counts["noop"] == 1
