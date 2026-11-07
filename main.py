@@ -206,6 +206,18 @@ def main(argv=None) -> int:
                 _new = sum(1 for _j in result.jobs if _j.source_id and _j.source_id not in _known)
                 print("  delta {} {}: collected {} slugs, {} new".format(
                     country, scraper.name, len(result.jobs), _new))
+            # Surface the known-fresh detail skip itself: without this
+            # line the decision exists only in result.stats and leaves
+            # no runtime trace, so the recheck path is unverifiable.
+            _delta_skipped = (result.stats or {}).get("delta_skipped", 0)
+            if _delta_skipped:
+                print("  delta {} {}: skipped {} known-fresh detail "
+                      "fetch(es) (anchor detail_fetched_at)".format(
+                          country, scraper.name, _delta_skipped))
+                statuses[country][scraper.name].setdefault(
+                    "notes", []).append(
+                        "skipped {} known-fresh detail fetch(es) "
+                        "(detail_fetched_at anchor)".format(_delta_skipped))
             totals["fetched"] += result.fetched
             kept = 0
             for job in result.jobs:
