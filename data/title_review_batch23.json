@@ -1,0 +1,96 @@
+{
+ "checked_on": "2026-11-07",
+ "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. The batch22-held French posting (uid 00cfb0e9af186fce) remains held (no live posting) and was skipped ahead of this batch. No candidate in this batch carried a legacy partial-AR marker, so the reviewed-overwrite path (4e0c799) was not exercised here.",
+ "reviews": [
+  {
+   "uid": "05054aa257b06a60",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM3OTQxNSAxMjE?lang=en",
+   "note": "Live EURES title matches stored (Swedish; exclamation mark dropped as noise). Body confirms package sorting at DHL Express Cargo City Arlanda: Mondays 05:00-09:00, Tue-Fri 05:15-09:15 - a morning part-time role."
+  },
+  {
+   "uid": "077ec2fc39bf0ecc",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwMzk2NTAwMC1TIDE?lang=en",
+   "note": "Live EURES title matches stored. Body (JOB Zenit staffing agency, Hamburg area) confirms warehouse helper placement; agency context does not change the role."
+  },
+  {
+   "uid": "08a5dbd0eb8136da",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ5MTIwNCAxNA?lang=en",
+   "note": "Live EURES title matches stored (Slovenian skladiscnik, m/z = m/f). Body confirms sorting, preparing and unstacking material; 1-month probation, then permanent, full-time 40h."
+  },
+  {
+   "uid": "08e8ebb9bd31d6d2",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM3OTk5MyAxMjE?lang=en",
+   "note": "Live EURES title matches stored (Swedish). Body confirms terminal work: loading, unloading, sorting and registering packages; early morning shift in northern Stockholm."
+  },
+  {
+   "uid": "09259764c611170e",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM2ODgzNSAxMjE?lang=en",
+   "note": "Live EURES title matches stored (Swedish; extrajobb = part-time/side job). Body (Next Bemanning staffing for a client in Eskilstuna) confirms warehouse work in daily goods flow, high tempo."
+  },
+  {
+   "uid": "0933446a0430a4ad",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1WEJSWSA5?lang=en",
+   "note": "Live EURES title matches stored (French, H/F). Body confirms a versatile purchasing & logistics manager role based in Rungis (94)."
+  },
+  {
+   "uid": "098b982c34cae9a0",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI4OTgtUDEzODAwNTUtNDE0LVMgMQ?lang=en",
+   "note": "Live EURES title matches stored. Body (quip agency) confirms warehouse helper role with possible direct hire by the client company or start via temp agency with takeover option."
+  },
+  {
+   "uid": "09de0aee4ef2e4fd",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2Njc5MyA4?lang=en",
+   "note": "Live EURES title matches stored (Estonian tostukijuht = forklift driver, laotootaja = warehouse worker). Body confirms truck load loading/unloading, receiving and storing materials, checking delivery documents."
+  },
+  {
+   "uid": "0a5f269327cdf4f0",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTc0MDQ3MDQgNDM?lang=en",
+   "note": "Live EURES title matches stored (German, Kommissionierer:in = order picker). Body (TTI Austria staffing) confirms a full-time order picking role in Korneuburg."
+  },
+  {
+   "uid": "0a8031695b8899ad",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwMzk3MjM3Ny1TIDE?lang=en",
+   "note": "Live EURES title matches stored. Body confirms permanent full-time warehouse position with holiday and Christmas bonus, family-run company; Fachlagerist occupational category kept as warehouse operative."
+  },
+  {
+   "uid": "0aa4b6b5945d4750",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ODU3OTcxMiA5?lang=en",
+   "note": "Live EURES title matches stored (French magasinier pieces poids lourds F/H). Body (Alliance Automotive Group) confirms warehouse role distributing heavy-vehicle spare parts."
+  },
+  {
+   "uid": "0af2c6ac05fa1a5a",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzUyODQgMTI?lang=en",
+   "note": "Live EURES title matches stored (Polish magazynier K/M = warehouse worker f/m). Body confirms end-to-end goods flow from delivery receipt to issue; training offered; Sokołow Małopolski / Trzebos."
+  },
+  {
+   "uid": "0b1e62aea3123833",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUxODU3MTA3NDMgNg?lang=en",
+   "note": "Live EURES title matches stored (Czech skladnik/skladnice = warehouse worker m/f, pomocni skladnici = warehouse helpers). Body confirms three-shift pattern, pallet transport to production, truck loading with forklift, scanner records."
+  },
+  {
+   "uid": "0b2974a87dd969f7",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTMxNDktSlRINTFLMldYOEY0SDJQWi1TIDE?lang=en",
+   "note": "Live EURES title matches stored (Staplerfahrer = Gabelstaplerfahrer/in, forklift driver). Body (Noerpel-Gruppe logistics, Marktoberdorf) confirms full-time forklift role, 7-8 hours/day."
+  },
+  {
+   "uid": "0b2e35afa9bc708b",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzE3NjMgMTI?lang=en",
+   "note": "Live EURES title matches stored (Polish, k/m = f/m). Body confirms receiving, issuing, transport, placement and labeling of goods, order picking with mobile terminal, warehouse automation, inventories."
+  },
+  {
+   "uid": "0ba565ad863ef3d4",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQzODUtNDk4LTI2NTMyNTQtMjYtUyAx?lang=en",
+   "note": "Live EURES title matches stored (dringend = urgent, kept as qualifier). Body (ARWA Personaldienstleistungen, temp agency) confirms 15.33 EUR/hour, Hassfurt, full-time packing/warehouse helper role."
+  },
+  {
+   "uid": "0bc152365095b993",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5Mjg3OTQgMTI?lang=en",
+   "note": "Live EURES title matches stored (Polish magazynier-logistyk). Body confirms warehouse-logistics role; requirements include German A2 and English, computer skills."
+  },
+  {
+   "uid": "0c00b0893b76e627",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1RkdYRyA5?lang=en",
+   "note": "Live EURES title matches stored (French magasinier f/h). Body (Ambares agency branch) confirms order preparation and customer order pickup, manual or equipment-assisted."
+  }
+ ]
+}
