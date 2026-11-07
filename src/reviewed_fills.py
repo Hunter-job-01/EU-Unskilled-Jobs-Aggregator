@@ -15,7 +15,10 @@ Safety rules:
   fill is skipped - a changed source invalidates the old review, the
   same principle as the source_review carry-forward in storage.py.
 - Existing non-empty values are never overwritten by a different fill
-  value; a conflict is logged and skipped for re-review.
+  value; a conflict is logged and skipped for re-review. A fill that
+  carries "overwrite": true is that re-review's resolution: the reviewer
+  has seen the conflict and the reviewed value replaces the existing
+  one, logged as an overwrite.
 - Only reviewed manual fills belong in the file. Unreviewed model
   output stays unpublished (pipeline policy 2026-11-03).
 """
@@ -55,7 +58,8 @@ def apply_reviewed_fills(store, path: str = None) -> dict:
     """
     path = path or os.path.join(store.data_dir, FILLS_FILE)
     fills = _load_fills(path)
-    counts = {"applied": 0, "noop": 0, "absent": 0, "mismatch": 0, "conflict": 0}
+    counts = {"applied": 0, "noop": 0, "absent": 0, "mismatch": 0,
+              "conflict": 0, "overwritten": 0}
     if not fills:
         return counts
     records = getattr(store, "_store", None)
@@ -80,6 +84,7 @@ def apply_reviewed_fills(store, path: str = None) -> dict:
             log.warning("reviewed fill %s: url changed since review - skipped", uid)
             continue
         changed = False
+        overwrite = fill.get("overwrite") is True
         for field in TITLE_FIELDS:
             value = (fill.get(field) or "").strip()
             if not value:
@@ -89,8 +94,15 @@ def apply_reviewed_fills(store, path: str = None) -> dict:
                 record[field] = value
                 changed = True
             elif current != value:
-                counts["conflict"] += 1
-                log.warning("reviewed fill %s: existing %s differs - kept existing", uid, field)
+                if overwrite:
+                    record[field] = value
+                    changed = True
+                    counts["overwritten"] += 1
+                    log.info("reviewed fill %s: reviewed overwrite replaced %s",
+                             uid, field)
+                else:
+                    counts["conflict"] += 1
+                    log.warning("reviewed fill %s: existing %s differs - kept existing", uid, field)
         source_review = fill.get("source_review")
         if isinstance(source_review, dict) and source_review:
             if record.get("source_review") != source_review:
@@ -104,7 +116,7 @@ def apply_reviewed_fills(store, path: str = None) -> dict:
                 changed = True
         counts["applied" if changed else "noop"] += 1
     if counts["applied"]:
-        log.info("reviewed fills applied: %d (noop=%d absent=%d mismatch=%d conflict=%d)",
+        log.info("reviewed fills applied: %d (noop=%d absent=%d mismatch=%d conflict=%d overwritten=%d)",
                  counts["applied"], counts["noop"], counts["absent"],
-                 counts["mismatch"], counts["conflict"])
+                 counts["mismatch"], counts["conflict"], counts["overwritten"])
     return counts
