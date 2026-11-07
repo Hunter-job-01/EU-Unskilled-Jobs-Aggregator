@@ -55,7 +55,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -139,7 +140,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -215,7 +217,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 33,
+        "fetched": 32,
         "notes": [],
         "status": "ok"
       },
@@ -223,7 +225,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -277,7 +280,7 @@
       },
       "eures": {
         "errors": [],
-        "fetched": 8,
+        "fetched": 6,
         "notes": [
           "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
         ],
@@ -311,7 +314,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -387,16 +391,19 @@
       },
       "nl_jobs": {
         "errors": [],
-        "fetched": 4,
+        "fetched": 2,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
       "ottoworkforce": {
         "errors": [],
         "fetched": 9,
-        "notes": [],
+        "notes": [
+          "skipped 3 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+        ],
         "status": "ok"
       },
       "pl_cbop": {
@@ -468,7 +475,9 @@
       "nl_jobs": {
         "errors": [],
         "fetched": 0,
-        "notes": [],
+        "notes": [
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+        ],
         "status": "ok"
       },
       "ottoworkforce": {
@@ -487,7 +496,7 @@
       },
       "telegram_channels": {
         "errors": [],
-        "fetched": 1,
+        "fetched": 6,
         "notes": [],
         "status": "ok"
       }
@@ -549,7 +558,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -637,7 +647,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -665,8 +676,8 @@
       }
     }
   },
-  "duration_sec": 817.2,
-  "last_run_utc": "2026-11-07T06:15:25+00:00",
+  "duration_sec": 766.4,
+  "last_run_utc": "2026-11-07T18:04:33+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-07T03:39:53+00:00",
@@ -1015,7 +1026,7 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-07T06:15:25+00:00",
+      "checked_at_utc": "2026-11-07T18:04:33+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1071,7 +1082,8 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -1100,7 +1112,7 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-07T06:15:25+00:00",
+      "checked_at_utc": "2026-11-07T18:04:33+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1158,7 +1170,8 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -1802,7 +1815,7 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-07T06:15:25+00:00",
+      "checked_at_utc": "2026-11-07T18:04:33+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1852,7 +1865,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 33,
+          "fetched": 32,
           "notes": [],
           "status": "ok"
         },
@@ -1860,7 +1873,8 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2063,7 +2077,7 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-07T06:15:25+00:00",
+      "checked_at_utc": "2026-11-07T18:04:33+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2091,7 +2105,7 @@
         },
         "eures": {
           "errors": [],
-          "fetched": 8,
+          "fetched": 6,
           "notes": [
             "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
           ],
@@ -2125,7 +2139,8 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2423,7 +2438,7 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-07T06:15:25+00:00",
+      "checked_at_utc": "2026-11-07T18:04:33+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2473,16 +2488,19 @@
         },
         "nl_jobs": {
           "errors": [],
-          "fetched": 4,
+          "fetched": 2,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
         "ottoworkforce": {
           "errors": [],
           "fetched": 9,
-          "notes": [],
+          "notes": [
+            "skipped 3 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          ],
           "status": "ok"
         },
         "pl_cbop": {
@@ -2502,7 +2520,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-07T06:15:25+00:00",
+      "checked_at_utc": "2026-11-07T18:04:33+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2557,7 +2575,9 @@
         "nl_jobs": {
           "errors": [],
           "fetched": 0,
-          "notes": [],
+          "notes": [
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          ],
           "status": "ok"
         },
         "ottoworkforce": {
@@ -2576,7 +2596,7 @@
         },
         "telegram_channels": {
           "errors": [],
-          "fetched": 1,
+          "fetched": 6,
           "notes": [],
           "status": "ok"
         }
@@ -2670,7 +2690,7 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-07T06:15:25+00:00",
+      "checked_at_utc": "2026-11-07T18:04:33+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2728,7 +2748,8 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2935,7 +2956,7 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-07T06:15:25+00:00",
+      "checked_at_utc": "2026-11-07T18:04:33+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2997,7 +3018,8 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -3055,49 +3077,50 @@
     "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 179,
-    "candidates_stored": 179,
+    "candidates_held_total": 166,
+    "candidates_stored": 166,
     "sealed": true,
-    "sha256": "3e15f92bd9d12f3704db9de74097d4f0e96017304ce8fd21b74c3cb2a56ad87b"
+    "sha256": "bc39f5adccd1db477be3cf6a07f8b101ca58aeb8ddc837de0e00c84cdb57c6bd"
   },
   "source_retention": {
     "kept_pre_prune": {
       "covebo": 1,
       "czech_mpsv": 2,
-      "eures": 182,
+      "eures": 185,
       "goodmorning": 7,
       "hobij": 5,
-      "jobspy_indeed": 185,
-      "nl_jobs": 3,
-      "pl_cbop": 50
+      "jobspy_indeed": 184,
+      "nl_jobs": 1,
+      "pl_cbop": 50,
+      "telegram_teealpl": 1
     },
     "retained_post_prune": {
       "czech_mpsv": 1,
-      "eures": 147,
-      "jobspy_indeed": 185,
-      "nl_jobs": 2,
-      "pl_cbop": 50
+      "eures": 155,
+      "jobspy_indeed": 184,
+      "pl_cbop": 50,
+      "telegram_teealpl": 1
     }
   },
   "totals": {
-    "active": 2449,
-    "below_min_score": 19,
-    "contacts_extracted": 139,
+    "active": 2472,
+    "below_min_score": 21,
+    "contacts_extracted": 129,
     "excluded": 265,
     "fetched": 749,
-    "l1_dropped": 2,
+    "l1_dropped": 1,
     "l2_language_excluded": 1,
     "lifecycle_deactivated": 0,
     "lifecycle_deactivated_total": 7,
-    "lifecycle_dead_confirmed": 0,
-    "lifecycle_live_confirmed": 40,
+    "lifecycle_dead_confirmed": 2,
+    "lifecycle_live_confirmed": 38,
     "lifecycle_reactivated": 0,
-    "new": 65,
+    "new": 27,
     "notified_telegram": 0,
-    "pruned": 3,
-    "reviewed_fills": 4,
+    "pruned": 4,
+    "reviewed_fills": 23,
     "translated_ar": 0,
     "translated_titles": 0,
-    "updated": 333
+    "updated": 378
   }
 }

@@ -1173,7 +1173,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Prutz, T, Austria",
@@ -1664,9 +1664,9 @@
     "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: SE110\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Extrajobb på morgonen som paketsorterare hos DHL Express Arlanda!",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل فرز طرود بدوام جزئي - وردية صباحية - DHL Express أرلاندا",
+    "title_en": "Part-time morning job as package sorter at DHL Express Arlanda",
+    "translated": true,
     "uid": "05054aa257b06a60",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM3OTQxNSAxMjE?lang=en",
     "url_provenance": "",
@@ -2111,7 +2111,7 @@
     "source_id": "SlY6ZmJjN2ZjMmM5YmVlNDU2NjkyMThhOGZmYWIzMjMyOTEgMTg",
     "summary_ar": "",
     "title": "Warehouse Operatives – Matthews Frozen Foods",
-    "title_ar": "عامل مستودع (ترجمة جزئية للمسمى - راجع العنوان الأصلي)",
+    "title_ar": "عمال مستودع - Matthews Frozen Foods",
     "title_en": "Warehouse Operatives – Matthews Frozen Foods",
     "translated": true,
     "uid": "06ff779f954a72d1",
@@ -2214,9 +2214,9 @@
     "source_review": {},
     "summary_ar": "",
     "title": "Lagerhelfer m/w/d (Lager- und Transportarbeiter/in)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "مساعد مستودع (مستودعات ونقل)",
+    "title_en": "Warehouse helper (m/f/d) (warehouse and transport worker)",
+    "translated": true,
     "uid": "077ec2fc39bf0ecc",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwMzk2NTAwMC1TIDE?lang=en",
     "url_provenance": "",
@@ -2401,9 +2401,9 @@
     "source_review": {},
     "summary_ar": "الموقع: SI034\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "SKLADIŠČNIK - M/Ž",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مستودع",
+    "title_en": "Warehouse worker (m/f)",
+    "translated": true,
     "uid": "08a5dbd0eb8136da",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ5MTIwNCAxNA?lang=en",
     "url_provenance": "",
@@ -2594,9 +2594,9 @@
     "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: SE110\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Terminalarbete i norra Sthlm - tidig morgonskift",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل محطة طرود في شمال ستوكهولم - وردية صباحية مبكرة",
+    "title_en": "Terminal worker in northern Stockholm - early morning shift",
+    "translated": true,
     "uid": "08e8ebb9bd31d6d2",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM3OTk5MyAxMjE?lang=en",
     "url_provenance": "",
@@ -2642,9 +2642,9 @@
     "source_id": "NjM2ODgzNSAxMjE",
     "summary_ar": "عبارات وردت في نص الإعلان: يذكر الإعلان: وكالة/إعادة توطين\nالموقع: SE122\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Lagerarbetare till Eskilstuna sökes – Extrajobb",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مستودع في إسكيلستونا - دوام جزئي",
+    "title_en": "Warehouse worker wanted in Eskilstuna - part-time job",
+    "translated": true,
     "uid": "09259764c611170e",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM2ODgzNSAxMjE?lang=en"
   },
@@ -2733,8 +2733,9 @@
     "source_id": "MjE1WEJSWSA5",
     "summary_ar": "الموقع: FR107\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Gestionnaire Achats & Logistique (H/F)",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "مسؤول مشتريات ولوجستيات",
+    "title_en": "Purchasing & Logistics manager (m/f)",
+    "translated": true,
     "uid": "0933446a0430a4ad",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1WEJSWSA5?lang=en"
   },
@@ -2778,9 +2779,9 @@
     "source_id": "MTI4OTgtUDEzODAwNTUtNDE0LVMgMQ",
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: DEA27\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Lagerhelfer (m/w/d) (Helfer/in - Lagerwirtschaft, Transport)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "مساعد مستودع (مستودعات ونقل)",
+    "title_en": "Warehouse helper (m/f/d) (helper - warehousing and transport)",
+    "translated": true,
     "uid": "098b982c34cae9a0",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI4OTgtUDEzODAwNTUtNDE0LVMgMQ?lang=en",
     "url_provenance": "",
@@ -2873,9 +2874,9 @@
     "source_id": "MTY2Njc5MyA4",
     "summary_ar": "",
     "title": "Tõstukijuht-laotöötaja",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "سائق رافعة شوكية - عامل مستودع",
+    "title_en": "Forklift driver - warehouse worker",
+    "translated": true,
     "uid": "09de0aee4ef2e4fd",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2Njc5MyA4?lang=en",
     "url_provenance": "",
@@ -2966,9 +2967,9 @@
     "source_review": {},
     "summary_ar": "الموقع: AT126\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Kommissionierer:in Korneuburg Vollzeit (m/w/d)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل تجميع الطلبات - كورنويبورغ - دوام كامل",
+    "title_en": "Order picker (m/f/d) - Korneuburg - full-time",
+    "translated": true,
     "uid": "0a5f269327cdf4f0",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTc0MDQ3MDQgNDM?lang=en",
     "url_provenance": "",
@@ -3147,9 +3148,9 @@
     "source_review": {},
     "summary_ar": "الموقع: DEA5C\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Lagermitarbeiter/Lagerhelfer ab sofort in Vollzeit gesucht (m/w/d) (Fachlagerist/in)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مستودع / مساعد مستودع - فوري - دوام كامل",
+    "title_en": "Warehouse worker / warehouse helper wanted immediately - full-time (m/f/d) (warehouse operative)",
+    "translated": true,
     "uid": "0a8031695b8899ad",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwMzk3MjM3Ny1TIDE?lang=en",
     "url_provenance": "",
@@ -3194,9 +3195,9 @@
     "source_review": {},
     "summary_ar": "",
     "title": "MAGASINIER PIECES POIDS LOURDS F/H",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مستودع قطع غيار شاحنات",
+    "title_en": "Warehouse worker - heavy vehicle parts (m/f)",
+    "translated": true,
     "uid": "0aa4b6b5945d4750",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/ODU3OTcxMiA5?lang=en",
     "url_provenance": "",
@@ -3429,9 +3430,9 @@
     "source_review": {},
     "summary_ar": "",
     "title": "magazynier K/M",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مستودع",
+    "title_en": "Warehouse worker (f/m)",
+    "translated": true,
     "uid": "0af2c6ac05fa1a5a",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzUyODQgMTI?lang=en",
     "url_provenance": "",
@@ -3576,9 +3577,9 @@
     "source_review": {},
     "summary_ar": "",
     "title": "Skladník / skladnice, Pomocní skladníci",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مستودع / مساعد مستودع",
+    "title_en": "Warehouse worker (m/f) / warehouse helper",
+    "translated": true,
     "uid": "0b1e62aea3123833",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUxODU3MTA3NDMgNg?lang=en",
     "url_provenance": "",
@@ -3629,9 +3630,9 @@
     "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: DE27B\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Staplerfahrer (m/w/d) (Gabelstaplerfahrer/in)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "سائق رافعة شوكية",
+    "title_en": "Forklift driver (m/f/d)",
+    "translated": true,
     "uid": "0b2974a87dd969f7",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTMxNDktSlRINTFLMldYOEY0SDJQWi1TIDE?lang=en",
     "url_provenance": "",
@@ -3675,9 +3676,9 @@
     "source_review": {},
     "summary_ar": "الموقع: PL51\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier (k/m)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مستودع",
+    "title_en": "Warehouse worker (f/m)",
+    "translated": true,
     "uid": "0b2e35afa9bc708b",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzE3NjMgMTI?lang=en",
     "url_provenance": "",
@@ -3835,9 +3836,9 @@
     "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: DE267\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Lagerhelfer - Verpacker (m/w/d) dringend (Lager- und Transportarbeiter/in)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "مساعد مستودع - عامل تعبئة",
+    "title_en": "Warehouse helper - packer (m/f/d), urgently wanted (warehouse and transport worker)",
+    "translated": true,
     "uid": "0ba565ad863ef3d4",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQzODUtNDk4LTI2NTMyNTQtMjYtUyAx?lang=en",
     "url_provenance": "",
@@ -3930,9 +3931,9 @@
     "source_id": "MTQ5Mjg3OTQgMTI",
     "summary_ar": "الموقع: PL41\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier-logistyk",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مستودع - لوجستيات",
+    "title_en": "Warehouse worker - logistics",
+    "translated": true,
     "uid": "0bc152365095b993",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5Mjg3OTQgMTI?lang=en",
     "url_provenance": "",
@@ -4169,9 +4170,9 @@
     "source_review": {},
     "summary_ar": "",
     "title": "Magasinier f/h (H/F)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مستودع",
+    "title_en": "Warehouse worker (m/f)",
+    "translated": true,
     "uid": "0c00b0893b76e627",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1RkdYRyA5?lang=en",
     "url_provenance": "",
@@ -4399,7 +4400,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DEA29",
@@ -4588,12 +4589,18 @@
     },
     "company": "",
     "country": "NL",
-    "description": "Parttime Magazijnmedewerker bij PostNL in Zwolle YoungCapital Beschrijving Wil jij de ochtendspits liever vermijden en op je gemak aan de dag beginnen? Start als parttime magazijnmedewerker bij PostNL in Zwolle! Wat ga je doen? Houd jij van uitrusten of sporten in de ochtend, maar wil je 's middags lekker knallen in een gezellig team? Als magazijnmedewerker bij PostNL in Zwolle ben jij de motor achter een vlekkeloze postbezorging. In onze sorteerlocatie ga je aan de slag met het op de juiste straat en huisnummer sorteren van alle post. Om 11:15 uur start jouw dienst en rond 16:30 uur zit je werkdag er alweer op. Zo houd je nog een complete avond over! - Handmatig sorteren van brieven, kaarten en drukwerk op exacte straatnaam en huisnummer. - De gesorteerde post klaarmaken in kasten/bakken voor de postbezorgers. - Samen met je collega's zorgen voor een opgeruimde en gestroomlijnde werkomgeving op de locatie. Waarom ben jij de perfecte match? Je vindt het heerlijk om 's middags actief bezig te zijn in een dynamische omgeving. Je hebt oog voor detail: zelfs bij een hoog tempo zie je meteen het verschil tussen huisnummers en adressen. Als echte teamplayer breng je gezelligheid mee naar de werkvloer en vind je het fijn om fysiek in beweging te blijven. Werktijden en -dagen Als postvoorbereider werk je parttime in de middagdienst van 11:15 tot 16:30 uur . - Vaste werkdagen: Maandag t/m donderdag (ca. 16 tot 20 uur per week). - Vaste tijden: 11:15 - 16:30 uur. Werken bij PostNL betekent deel uitmaken van het bekendste logistieke netwerk van Nederland. We bieden een warme, multiculturele werksfeer waar teamgeest, een fijne werk-privébalans en werkplezier vooropstaan. Klinkt dit als jouw ideale bijbaan of parttime functie? Wat wij bieden - Uurloon van € 14,99 bruto per uur . - Reiskostenvergoeding voor jouw woon-werkverkeer. - Vaste middagdienst (ma t/m do), waardoor je de ochtenden én avonden helemaal vrij bent! - Snel starten bij ...",
+    "description": "Olympia Parttime Magazijnmedewerker - Olympia - Ede Olympia Jobid=638480239734623465 (0.05) Je gaat via Olympia aan de slag bij een internationale organisatie achter de bekende winkelketen Kruidvat en Trekpleister. Vanuit het distributiecentrum worden dagelijks duizenden producten verwerkt en verzonden. De sfeer is informeel, collega's helpen elkaar en nieuwe medewerkers worden goed begeleid door de teamleiders. In de kantine kan je ontspannen en is ruimte voor een praatje. Goede prestaties worden gezien en gewaardeerd, waardoor er voor gemotiveerde medewerkers mogelijkheden zijn om langer werkzaam te blijven. De standplaats is Ede. Goed bereikbaar vanuit Veenendaal, Wageningen, Arnhem, Bennekom, Rhenen, Barneveld, Heteren en Lunteren. De locatie is goed bereikbaar met de auto en het openbaar vervoer. Functieomschrijving Ben jij op zoek naar een parttime baan die goed te combineren is met je studie, gezin of andere werkzaamheden? Verdien € 16,11 bruto per uur met toeslagen tot € 23,61 per uur als Magazijnmedewerker. Wil jij zelf bepalen hoeveel dagen je werkt en tegelijkertijd goed verdienen? Als Parttime Magazijnmedewerker werk je 2, 3, 4 tot 5 dagen per week in een groot distributiecentrum. Je komt terecht in een gezellig team waar iedereen samenwerkt om bestellingen op tijd te verwerken. Als Parttime Magazijnmedewerker verzamel je producten met behulp van een scanner en headset. Daarnaast kun je helpen bij het controleren, verpakken en verzendklaar maken van bestellingen. Dankzij jouw inzet ontvangen winkels en klanten precies wat zij nodig hebben. Je hoeft geen ervaring te hebben om als Parttime Magazijnmedewerker te starten. Motivatie en inzet vinden wij belangrijker. Heb je al ervaring als orderpicker, logistiek medewerker of warehouse medewerker? Dan is dat mooi meegenomen. Deze functie is ideaal als je flexibel wilt werken naast een studie, gezin, andere baan. Maar ook als je een tussenjaar hebt of net bent afgestud...",
     "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
-    "glossary": [],
+    "glossary": [
+      {
+        "ar": "عامل تجهيز طلبيات",
+        "en": "order picker",
+        "term": "orderpicker"
+      }
+    ],
     "languages": [
       "nl"
     ],
@@ -4602,28 +4609,31 @@
       "missed_runs": 0,
       "status": "active"
     },
-    "location": "NL350",
+    "location": "NL221",
     "matched_keywords": [
-      "magazijnmedewerker"
+      "logistiek medewerker",
+      "magazijnmedewerker",
+      "orderpicker",
+      "picker"
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-10-17",
-    "score": 34,
+    "posted_date": "2026-10-09",
+    "score": 52,
     "signals": [
       "unskilled_role_match",
       "tier_1_country"
     ],
     "source": "eures",
-    "source_id": "NWUwMTgxMmEtMTc3Ni0xNDFkLWUwNjMtNjg5M2IyMGFkYjgxIDQy",
+    "source_id": "NWQ2MDkyNmUtNzRmYi1iZGZlLWUwNjMtNjg5M2IyMGEzOWY5IDQy",
     "source_review": {},
-    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: NL423\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "الموقع: NL221\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Parttime Magazijnmedewerker",
     "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "0d0d60b7f49c3c41",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWUwMTgxMmEtMTc3Ni0xNDFkLWUwNjMtNjg5M2IyMGFkYjgxIDQy?lang=en",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ2MDkyNmUtNzRmYi1iZGZlLWUwNjMtNjg5M2IyMGEzOWY5IDQy?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -6842,7 +6852,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE94E",
@@ -9173,6 +9183,53 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "1476bf7c88555828": {
+    "apply_channels": {
+      "emails": [
+        "werken@thestone.nl"
+      ],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "The Stone",
+    "country": "NL",
+    "description": "**Steek jij graag de handen uit de mouwen en werk je het liefst in een dynamische omgeving? Dan is de functie logistiek medewerker webshop bij The Stone iets voor jou!**\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\n**Wat ga je doen als logistiek medewerker webshop?**\n\nAls logistiek medewerker webshop ben jij samen met je collega’s verantwoordelijk voor het soepel laten verlopen van alle logistieke processen achter onze webshop. Geen dag is hetzelfde: van het verzamelen en verzendklaar maken van orders tot het verwerken van nieuwe collectie die binnenkomt. Je pakt artikelen uit, controleert en prijst ze en zorgt dat alles op de juiste plek terechtkomt. Ook houd je je bezig met retouren en zorg je ervoor dat deze netjes worden gecontroleerd en verwerkt. Daarnaast verdeel en scan je producten door naar onze winkels. Je werkt in een energiek team waarin samenwerken en aanpakken centraal staan.\n\n  \n  \n\n**Wie zijn wij?**\n\nThe Stone is al ruim 25 jaar dé multibrand retailer van Nederland. Wat begon met één winkel in Delft, is uitgegroeid tot een succesvolle formule met meer dan 50 winkels en een snelgroeiende webshop. We bieden een brede collectie dames- en herenkleding van meer dan 40 topmerken, zoals Airforce, Colourful Rebel, Refined Department, Geisha, Tramontana, Harper & Yve, PME Legend en No Excess. Zowel online als offline blijven we groeien – en daar hebben we jou bij nodig!\n\n  \n  \n\n**Wat wij vragen van een logistiek medewerker webshop:**\n\n✓ Je werkt gestructureerd en nauwkeurig;\n\n✓ Je bent een echte aanpakker en steekt graag de handen uit de mouwen;\n\n✓ Je kunt zowel zelfstandig als in teamverband werken;\n\n✓ Je hebt een proactieve werkhouding;\n\n✓ Je bent woonachtig in de omgeving van Delft;\n\n✓ Je bent minimaal 8 uur per week beschikbaar (parttime of fulltime tot 38 uur).\n\n  \n  \n\n**Wat wij bieden voor een logistiek medewerker webshop:**\n\n✓ Een marktconform salaris;\n\n✓ Een goede pensioenregeling;\n\n✓ Werken in een enthousiast en gezellig team;\n\n✓ Doorgroeimogelijkheden en ruimte voor eigen initiatief;\n\n✓ Personeelskorting op de gehele collectie;\n\n✓ Korting op je sportabonnement bij een sportschool naar keuze.\n\n  \n  \n\n**Herken jij jezelf in deze functie en wil jij onderdeel worden van ons team?** **Solliciteer via het sollicitatieformulier.**\n\nOf mail je motivatie met cv en foto naar\n\nwerken@thestone.nl\n\n  \n  \n*We zijn flexibel in het aantal uren per week, dus zowel parttime als fulltime kandidaten kunnen solliciteren.*",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Delft, ZH, Netherlands",
+    "matched_keywords": [
+      "logistiek medewerker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-14",
+    "score": 34,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-f93d81ae6d4798a4",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Zaterdaghulp logistiek medewerker The Stone Webshop",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "1476bf7c88555828",
+    "url": "https://www.thestone.nl/vacatures/zaterdaghulp-logistiek-medewerker-the-stone-webshop",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "147fcc83a741b8ea": {
     "apply_channels": {
       "emails": [],
@@ -10210,7 +10267,7 @@
     "company": "PERSUS Personal GmbH",
     "country": "DE",
     "description": "Über uns:Die PERSUS Personal GmbH – erfahren und authentisch.Wir sind ein dynamischer und innovativer Dienstleister, bei dem die Menschen im Fokus stehen. Unser Motto: “Wahres sagen, Vertrauen schaffen, Ziele erreichen”. Entdecke mit uns eine neue Dimension der Personaldienstleistung – persönlich, engagiert und erfolgsorientiert!Bewirb dich jetzt: Werde Teil unseres Erfolgs! Bewirb dich schnell und einfach (gerne ohne Anschreiben) über den „JETZT BEWERBEN“ Button.Lagerhelfer (m/w/d) TagschichtStandort: EuskirchenAnstellungsart(en): VollzeitDeine Chance:Du suchst eine neue Herausforderung im Lager? Dann bist Du bei uns genau richtig!Du bist motiviert, zuverlässig und packst gerne mit an? Dann haben wir genau den richtigen Job für Dich!Für unseren Kunden, ein renommiertes Logistikunternehmen in Euskirchen, suchen wir ab sofort mehrere engagierte Lagerhelfer (m/w/d).Dich erwartet nicht nur ein neuer Job, sondern auch die Möglichkeit, Deine Stärken einzubringen, neue Erfahrungen zu sammeln und Dich persönlich sowie beruflich weiterzuentwickeln.Vielseitige & interessante Aufgaben:Fachgerechtes Kommissionieren von WarenVerpacken und Versandvorbereitung der WareBearbeitung und Kontrolle von RetourenSortieren und Zuordnen von PaketsendungenUnterstützung bei der Durchführung von InventurenÜbernahme allgemeiner Lager- und LogistiktätigkeitenDein Profil das überzeugt:Erste Erfahrungen im Lager- und Logistikbereich sind wünschenswert, aber nicht zwingend erforderlichGute körperliche Belastbarkeit und FitnessFreude an der Zusammenarbeit im TeamSelbstständige, sorgfältige und zuverlässige ArbeitsweiseDas bieten wir:- Jobticket: Wir zahlen Dir die Hälfte deines Deutschlandtickets- Attraktive Vergütung: Übertarifliche Bezahlung ab 15,33€- Urlaubsanspruch: Bis zu 30 Tage Urlaub je nach Betriebszugehörigkeit- Urlaubs- und Weihnachtsgeld: nach Tarifvertrag- Zuverlässigkeit: Transparente Beratung und pünktliche Bezahlung- Stabilität: Langfristiger Einsatz mit Option auf Übernahme- Mitarbeiter werben Mitarbeiter: 200 € Prämie bei Werbung neuer Mitarbeiter- PERSUS Job App: modern und innovativKontaktdaten für StellenanzeigePERSUS Personal GmbHKölner Straße 1153879 EuskirchenTel.: 02251 914 000 - 0 bewerbung.euskirchen@persus.de Art(en) des Personalbedarfs: NeubesetzungTarifvertrag: GVP",
-    "detail_fetched_at": "2026-11-06",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
@@ -10218,7 +10275,7 @@
     "languages": [
       "de"
     ],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -10229,7 +10286,7 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-05",
+    "posted_date": "2026-11-06",
     "score": 44,
     "signals": [
       "unskilled_role_match",
@@ -10237,7 +10294,7 @@
       "fresh_posting"
     ],
     "source": "eures",
-    "source_id": "MTgyMjMtMkNFU01OWUlRNTVGMEZPNS1TIDE",
+    "source_id": "MTgyMjMtUk5EMU9ZRzUyUlg5OUJURy1TIDE",
     "source_review": {},
     "summary_ar": "",
     "title": "Lagerhelfer (m/w/d) Tagschicht (Helfer/in - Lagerwirtschaft, Transport)",
@@ -10245,7 +10302,7 @@
     "title_en": "",
     "translated": false,
     "uid": "16ab59a9e66ccfcd",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTgyMjMtMkNFU01OWUlRNTVGMEZPNS1TIDE?lang=en",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTgyMjMtUk5EMU9ZRzUyUlg5OUJURy1TIDE?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -10995,6 +11052,56 @@
     "translated": false,
     "uid": "17fcd277313aba6f",
     "url": "https://www.kariera.gr/jobs/logistics-or-warehouse-jobs/354712",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "17feb0a9a44bddd1": {
+    "apply_channels": {
+      "emails": [
+        "rodo@formaster.com"
+      ],
+      "phones": [
+        "0000080942"
+      ],
+      "whatsapp_mentioned": false
+    },
+    "company": "FORMASTER S.A.",
+    "country": "PL",
+    "description": "Poszukujemy osoby, która dołączy do naszego zespołu magazynowego i będzie odpowiedzialna za sprawną realizację procesów związanych z przyjęciem, składowaniem, kompletacją oraz wydawaniem materiałów i wyrobów.\n\n**Miejsce pracy**\n\n**Bilcza**\n\n  \n\n**GŁÓWNE ZADANIA**\n\n* Przyjmowanie dostaw surowców, półproduktów i wyrobów gotowych.\n* Kontrola ilościowa i wizualna przyjmowanych oraz wydawanych materiałów.\n* Przygotowywanie towarów do wysyłki, w tym pakowanie, zabezpieczanie i oznakowanie.\n* Wydawanie materiałów na produkcję oraz wyrobów gotowych do transportu.\n* Rejestrowanie operacji magazynowych w systemie ERP/WMS oraz prowadzenie dokumentacji magazynowej.\n* Obsługa wózków widłowych i innych urządzeń magazynowych zgodnie z posiadanymi uprawnieniami.\n* Udział w inwentaryzacjach oraz wyjaśnianie różnic inwentaryzacyjnych.\n* Dbanie o porządek w magazynie oraz przestrzeganie zasad BHP, PPOŻ. i standardów jakości.\n\n  \n\n**WYMAGANIA**\n\n* Uprawnienia UDT II WJO.\n* Doświadczenie w pracy na stanowisku magazyniera.\n* Umiejętność pracy z systemami ERP lub WMS.\n* Dokładność, odpowiedzialność i dobra organizacja pracy.\n* Gotowość do pracy fizycznej.\n\n  \n\n**MILE WIDZIANE**\n\n* Doświadczenie w magazynie produkcyjnym.\n* Znajomość zasad gospodarki magazynowej oraz FIFO.\n* Umiejętność przeprowadzania inwentaryzacji magazynowych.\n\n  \n\n**OFERUJEMY**\n\n* Kulturę organizacyjną nastawioną na rozwój, efektywność i wymianę wiedzy.\n* Prywatną opiekę medyczną.\n* Kartę sportową i grupowe ubezpieczenie na życie na preferencyjnych warunkach.\n* Dofinansowanie do wypoczynku.\n* Niezbędne narzędzia pracy oraz możliwość rozwoju kompetencji zawodowych.\n\n**Prosimy o aplikowanie na stanowisko \"Magazynier (M/K)\" poprzez wypełnienie formularza dostępnego pod poniższym linkiem:**\n\n**APLIKUJ**\n-----------\n\n##### **Aplikując na to stanowisko potwierdzasz zapoznanie się z klauzulą informacyjną. Proszę o zamieszczenie zgody na przetwarzanie danych osobowych.**\n\n**Proszę o zapoznanie się z poniższą klauzulą i zgodami, podpisanie oraz zamieszczenie ich w CV** **(zgodę dot. przyszłych rekrutacji proszę podpisać tylko w przypadku, gdy Państwa dane mają być wykorzystywane do celów przyszłych rekrutacji)** **Dokumenty bez załączników nie będą rozpatrywane**\n\n**Klauzula informacyjna dla kandydatów do pracy**\n\nZgodnie z Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych) zwany dalej RODO informuję, iż:\n\n* Administratorem Państwa danych osobowych jest Formaster S.A z siedzibą w Kielcach (25-818), ul. Fabryczna 24, wpisana do rejestru przedsiębiorców prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS: 0000080942, dalej jako „Spółka”.\n\n* W sprawach związanych z przetwarzaniem danych osobowych mogą się Państwo kontaktować z Koordynatorem ds. Ochrony Danych Osobowych w formie elektronicznej pod adresem: rodo@formaster.com lub pisemnie na adres administratora.\n\n* Państwa dane osobowe będą przetwarzane:\n\n* dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z art. 221 ustawy z dnia 26 czerwca 1974 r. - Kodeks pracy (Dz.U. z 2018 r. poz. 917), dalej jako: \"KP\";\n* w zakresie danych innych niż wskazane w art. 221 KP, na podstawie dobrowolnej zgody zgodnie z art. 6 ust. 1 lit. a) RODO;\n* w przypadku zatrudnienia na podstawie umowy cywilnoprawnej dane osobowe będą przetwarzane w celu niezbędnym do podjęcia działań na Pana/Pani żądanie przed zawarciem umowy zgodnie z art. 6 ust. 1 lit. b) RODO;\n* do celów ustalenia lub dochodzenia ewentualnych roszczeń oraz obrony przed takimi roszczeniami związanymi z procesem rekrutacji, które mogą zostać podniesione przez podmioty zewnętrzne świadczące usługi z zakresu rekrutacji na rzecz Spółki, wynikających z prawnie uzasadnionych interesów realizowanych przez Spółkę na podstawie art. 6 ust. 1 lit. f) RODO.\n\n* Państwa dane osobowe będą przetwarzane także w kolejnych naborach pracowników, jeżeli wyrażą Państwo na to zgodę (art. 6 ust. 1 lit. a RODO), która może być odwołana w dowolnym czasie.\n\n* Państwa dane osobowe przechowywane będą przez okres tej rekrutacji i 1 msc po jej zakończeniu.\n\n* W przypadku wyrażonej przez Państwa zgody na wykorzystywanie danych do celów przyszłych rekrutacji, Państwa dane osobowe przechowywane będą przez okres 1 roku licząc od daty wpływu CV.\n\n* Państwa dane osobowe nie będą przekazywane do państwa trzeciego.\n\n* Odbiorcami Państwa danych osobowych mogą być podmioty współpracujące ze Spółką w zakresie świadczonych na rzecz Spółki usług (np. podwykonawcy) oraz wspierania bieżących procesów biznesowych Spółki, a także podmioty współpracujące ze Spółką w procesie rekrutacji.\n\n* Posiadają Państwo prawo do:\n\n* dostępu do swoich danych osobowych,\n* sprostowania (poprawiania) swoich danych osobowych,\n* usunięcia,\n* ograniczenia przetwarzania swoich danych osobowych,\n* wniesienia sprzeciwu wobec przetwarzania swoich danych osobowych - w zakresie danych przetwarzanych dla potrzeb niezbędnych do celów wynikających z prawnie uzasadnionych interesów realizowanych przez Spółkę,\n* przenoszenia danych, obejmujące uprawnienie do otrzymania danych i przesłania ich innemu administratorowi lub do żądania, w razie możliwości technicznych, przesłania tych danych bezpośrednio innemu administratorowi – w zakresie danych przetwarzanych na podstawie zgody oraz umowy,\n* cofnięcia zgody w dowolnym momencie, kontaktując się ze Spółką pod adresem: rodo@formaster.com, co nie ma wpływu na zgodność z prawem przetwarzania dokonanego przed cofnięciem zgody,\n* wniesienia skargi do organu nadzorczego (tj. do Prezesa Urzędu Ochrony Danych Osobowych).\n\n* Podanie danych osobowych jest dobrowolne, ale brak podania danych wskazanych w art. 22.1 KP będzie skutkował brakiem możliwości wzięcia udziału w procesie rekrutacji.\n\n  \n\nPrzetwarzanie innych danych niż w art. 22.1 KP jest możliwe na podstawie Pana/Pani zgody na przetwarzanie danych osobowych, ale podanie tych danych nie jest obowiązkowe.\n\n  \n  \n\n..................................................\n  \nData,podpis\n\n  \n  \n  \n  \n  \n\n**Administratorem Pana/Pani danych osobowych jest Formaster S.A z siedzibą w Kielcach (25-818), ul. Fabryczna 24.** Pana/Pani dane osobowe będą przetwarzane dla potrzeb niezbędnych do realizacji procesu rekrutacji, a w przypadku dobrowolnej zgody – także w celach niezbędnych do realizacji przyszłych procesów rekrutacyjnych. Ma Pan/Pani prawo do dostępu do swoich danych osobowych, ich sprostowania, usunięcia lub ograniczenia przetwarzania oraz wniesienia skargi do organu nadzorczego w zakresie ochrony danych osobowych. W zakresie danych przetwarzanych na podstawie zgody lub na podstawie umowy przysługuje Panu/Pani także prawo do przenoszenia danych. Ma Pan/Pani prawo do wycofania zgody w dowolnym momencie, wycofanie zgody pozostaje bez wpływu na zgodność z prawem przetwarzania, którego dokonano na podstawie zgody przed jej cofnięciem W sprawach związanych z przetwarzaniem danych osobowych można się kontaktować pod adresem: rodo@formaster.com. Więcej informacji na temat przetwarzania danych osobowych w procesie rekrutacji można uzyskać pod adresem https://formaster.com/klauzula-informacyjna/",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Bilcza, SW, Poland",
+    "matched_keywords": [
+      "magazynier",
+      "pakowanie"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-21",
+    "score": 40,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-f9cd5195b92e2076",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Magazynier (M/K)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "17feb0a9a44bddd1",
+    "url": "https://www.formaster.com/?post_type=post&p=3712",
     "url_provenance": "",
     "url_verified": null
   },
@@ -11767,7 +11874,7 @@
     "title_en": "",
     "translated": false,
     "uid": "19b3d04256132df1",
-    "url": "https://www.teslaji.cz/59-nabidka-pracovnich-pozic.html?r=detail&id=67ff9cf8-f39c-47ab-a64c-6ec272fa7030&impressionId=ea03e28e-62e9-420a-9bcb-0fb2eab0dbdf",
+    "url": "https://www.teslaji.cz/59-nabidka-pracovnich-pozic.html?r=detail&id=67ff9cf8-f39c-47ab-a64c-6ec272fa7030&impressionId=f331a180-0568-4c2e-a301-ba0f5633d83d",
     "url_provenance": "",
     "url_verified": null
   },
@@ -13032,6 +13139,54 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "1c890ddd7140342b": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "",
+    "country": "NL",
+    "description": "Ben jij een echte aanpakker en stroop jij graag je mouwen op? Als magazijnmedewerker verdien je een lekker salaris en werk je in een gezellig team! Wil jij direct aan de slag en lekker cashen? Solliciteer dan snel als magazijnmedewerker!Wat bieden wij jou- Wekelijks uitbetaald!- Een vergoeding voor de reiskosten!- Direct pensioenopbouw vanaf de eerste dag!- Gezellig team!- Tijdelijke opdracht!Wie ben jijIn de technische groothandel heerst een echte bouw-cultuur: niet lullen, maar poetsen! Technische kennis is helemaal niet vereist, zolang jij maar een echte aanpakker bent die niet stil kan zitten. Je bent communicatief sterk en bent per direct klaar om te knallen. Om aan de slag te gaan als magazijnmedewerker is het volgende belangrijk:- Je bent 5 dagen in de week beschikbaar.- Je bent beschikbaar voor 32 uur.- Je spreekt Nederlands of Engels.- Je bent fulltime beschikbaar voor de dagdienst van 07:00 tot 16:00 uur of 08:00 tot 17:00 uur.- Je bent fysiek fit en steekt graag je handen uit de mouwen.Wat ga je doenAls magazijnmedewerker start je de dag natuurlijk met een verse kop koffie om het team bij te praten. Een werkdag is heerlijk afwisselend: een paar uur per dag ben je bezig in de winkel en het magazijn. Denk aan het inruimen van nieuwe voorraden, spiegelen en het tellen van de artikelen. Ook een stukje afvalverwerking hoort erbij, zodat de werkvloer altijd spik en span blijft! De overige tijd help je bij het herindelen van het magazijn, waar jouw extra handjes meer dan welkom zijn. Tussendoor is er uiteraard tijd voor een fijne lunchpauze met je collega's.Waar ga je werkenJe komt terecht bij een bekende speler in de regio Nijmegen waar de werksfeer informeel en direct is. Deze organisatie is een trotse werkgever in de technische groothandel met een raszogenaamde bouw-cultuur: iedereen helpt elkaar en hard werken wordt gecombineerd met een goede dosis humor. De werktijden zijn erg fijn en flexibel instelbaar: je werkt normaal gesproken v",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL226",
+    "matched_keywords": [
+      "magazijnmedewerker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-06",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "NWY5NGFjOTItYzM3Yi04NTZlLWUwNjMtNjg5M2IyMGE5NjlhIDQy",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Magazijnmedewerker (tijdelijk) (758609)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "1c890ddd7140342b",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWY5NGFjOTItYzM3Yi04NTZlLWUwNjMtNjg5M2IyMGE5NjlhIDQy?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "1cb67172dc25b1fc": {
     "apply_channels": {
       "emails": [
@@ -13419,7 +13574,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Ebensee, O, Austria",
@@ -13961,6 +14116,54 @@
     "translated": false,
     "uid": "1e4cfd3d9927dcba",
     "url": "https://nl.indeed.com/viewjob?jk=d98b09b21c7d687c",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "1e534606609fb8f2": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "",
+    "country": "NL",
+    "description": "Lekker knallen op de werkvloer van een nuchtere wereldspeler in Almelo! 💥 Bij dit carrosseriebedrijf worden de meest indrukwekkende autotransporters en aanhangwagens van staal en aluminium gebouwd. Als allround magazijnmedewerker ben jij de onmisbare schakel die ervoor zorgt dat alles achter de schermen op rolletjes loopt. Samen met de magazijnbeheerder bevoorraad je de productiehallen en zorg je dat elk onderdeel op de juiste plek ligt. Saai? Nope! ❌ Juist de dynamiek van grote onderdelen buiten combineren met het kleinste montagemateriaal binnen maakt jouw dag super afwisselend.Wat bieden wij jou- Een goed salaris afhankelijk van ervaring!- Elke vrijdag om 15:15 uur weg!- Kans op een vast contract voor de toekomst! ✍️- 40 uur per week!- Elke dag gratis vers fruit en de leukste uitjes!- Veel afwisseling in je baan!Wie ben jijOm deze baan goed uit te kunnen voeren, voldoe je als Magazijnmedewerker aan de volgende eisen:- Je spreekt Nederlands- Je bent 40 uur per week beschikbaar- Je bent beschikbaar van maandag tot en met vrijdag- Je bent bereid om in Almelo te werken- Je hebt ervaring in een magazijn of logistieke functie- Je beschikt over een rijbewijs B- Je bent in staat om dozen en onderdelen tot 20 kilo te tillenWat ga je doenGas erop! ⚡ Jouw werkdag in de dagdienst begint gezellig met een bak koffie en een korte afstemming met je team. Daarna stroop je de mouwen op! Je controleert binnenkomende goederen en registreert deze nauwkeurig in het ERP-systeem. Vervolgens verzamel en verpak je orders zodat de collega's van de montage altijd op tijd hun materialen hebben. Komen er klanten producten bestellen of ophalen? Jij helpt ze met een grote glimlach! Je werkt tussen 07:30 en 16:30 uur, maar op vrijdag begint het weekend om 15:15 uur al. Tijd voor een feestje! ⏰Waar ga je werkenJe stapt binnen bij een prachtig MKB-familiebedrijf in Almelo waar vakmanschap en kwaliteit samenkomen. De bedrijfscultuur is stabiel, heel open en de lijntjes zi",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL213",
+    "matched_keywords": [
+      "magazijnmedewerker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-29",
+    "score": 38,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "NWVmM2JkZDYtOTMyYS1lZmIyLWUwNjMtNjg5M2IyMGFmODJkIDQy",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Magazijnmedewerker (757671)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "1e534606609fb8f2",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWVmM2JkZDYtOTMyYS1lZmIyLWUwNjMtNjg5M2IyMGFmODJkIDQy?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -17279,7 +17482,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Nossen, SN, Germany",
@@ -18258,6 +18461,62 @@
     "translated": false,
     "uid": "289e759394eb8765",
     "url": "https://nothegger-karriere.at/",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "28a9d16cde2a1236": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "B & W Personal GbR Michael Braune Sylvia Weis",
+    "country": "DE",
+    "description": "Wir suchenLagehelfer (m/w/d)Leipzig - Vollzeitab sofortWillkommen bei BW Personal – Ihr Partner für professionelle Personalvermittlung und maßgeschneiderte Personallösungen!BW Personal ist ein dynamisches und zukunftsorientiertes Unternehmen, das sich auf die Vermittlung von qualifizierten Fachkräften und die Bereitstellung innovativer Personaldienstleistungen spezialisiert hat. Unser Ziel ist es, Unternehmen dabei zu unterstützen, die besten Talente zu finden und gleichzeitig Bewerbern neue berufliche Perspektiven zu bieten. Dabei legen wir großen Wert auf eine enge Zusammenarbeit mit unseren Kunden und eine persönliche Betreuung unserer Kandidaten.Unsere Unternehmenskultur zeichnet sich durch Offenheit, Vertrauen und eine starke Teamorientierung aus. Bei uns wird jeder Mitarbeitende als wertvolles Mitglied gesehen, das aktiv zur Entwicklung und zum Erfolg unseres Unternehmens beiträgt. Wir fördern ein Arbeitsumfeld, in dem Ideen ausgetauscht werden, Eigeninitiative geschätzt wird und der Erfolg des Einzelnen als Erfolg des gesamten Teams gefeiert wird.Wenn Sie Teil eines engagierten und freundlichen Teams werden möchten, das es sich zur Aufgabe gemacht hat, Menschen und Unternehmen zusammenzubringen, freuen wir uns auf Ihre Bewerbung!Für unseren renommierten Kunden aus Taucha suchen wir zum nächstmöglichen Zeitpunkt im Rahmen der Arbeitnehmerüberlassung Lagerhelfer (m/w/d/x/i).Dein Aufgabengebiet als Lagehelfer (m/w/d)• Verpackungsarbeiten• Vorbereitung der Verpackungs-, und Hilfsmittel zur Verpackung• Verpackung von kommissionierten Aufträgen anhand von Packvorschriften• Buchen der verpackten Umfänge im SAP System• Allgemeine LagertätigkeitenIhr Profil als Lagehelfer (m/w/d)• Erste Berufserfahrung im Lager von Vorteil aber keine Bedingung• Bereitschaft zur Schichtarbeit (2 Schichten) 06:00-14:30 Uhr, 14:30-23:00 Uhr• Gute EDV Kenntnisse wünschenswertHä? Passt doch gar nicht!Du möchtest eigentlich gerne etwas anderes tun, aber auch Deine Berufserfahrung nutzen?Wir suchen Quereinsteiger mit Deinen Kenntnissen. Alles, was Du dafür wissen musst, lernst Du bei uns in Leipzig.Das ist uns sehr wichtigWir haben einen sehr hohen Anspruch an unseren Kundenservice.Offenheit, Freundlichkeit und Geduld sollten daher zu Deinen Grundeigenschaften gehören. Der Umgang mit den unterschiedlichsten Menschen bereitet Dir Freude.Durch unsere Entwicklungsgeschwindigkeit bleibt die Arbeit immer interessant. Daher ist es wichtig, dass Du gerne konstant Neues lernst.Vorteile in Leipzig• Unbefristetes Anstellungsverhältnis in Vollzeit• EG2a 14,31 EUR• Arbeitsplatz ist mit öffentlichen Verkehrsmitteln zu erreichen• Einstieg ist ab sofort möglich• Weiterbildungsangebote entsprechend deiner Entwicklungspotentiale• Entlohnung nach GVP Tarifvertrag plus Zuschläge und Prämien• Urlaubs- und Weihnachtsgeld• Persönliche Betreuung in einem familiären BetriebsklimaSo geht es weiterBewirb Dich bitte direkt online als Lagehelfer (m/w/d) in Leipzig, indem Du auf den Jetzt-auf-diese Stelle-bewerben-Button klickst.Nutze bei Fragen vorab die Kontaktdaten Deines Ansprechpartners.Wir vereinbaren einen Telefontermin für ein kurzes Interview. Anschließend lernen wir uns persönlich kennen und besprechen alle Einzelheiten.Du möchtest wechseln? Das bleibt unter uns!- Falls Du Dich in einem ungekündigten Arbeitsverhältnis befindest, sichern wir Dir natürlich höchste Vertraulichkeit Deiner Bewerbung zu.- Telefoninterviews und Vorstellungsgespräche gerne auch nach Feierabend oder am Wochenende.Klingt das gut?Dann bewirb Dich jetzt als Lagehelfer (m/w/d) in Leipzig.Klicke direkt unten auf den Button.Wir freuen uns auf Dich!",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [
+      {
+        "ar": "مُتحوّل مهني (مصطلح لمن يغيّر مجال عمله؛ الشروط تختلف من صاحب عمل لآخر)",
+        "en": "career changer (term used for applicants switching fields; conditions vary by employer)",
+        "term": "quereinsteiger"
+      }
+    ],
+    "languages": [
+      "de"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "DED51",
+    "matched_keywords": [
+      "arbeitnehmeruberlassung",
+      "lagerhelfer"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-06",
+    "score": 56,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTg4MjItazYwOTEyLjIyMDQtUyAx",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: DED51\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Lagehelfer (m/w/d) (Lager- und Transportarbeiter/in)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "28a9d16cde2a1236",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTg4MjItazYwOTEyLjIyMDQtUyAx?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -19474,7 +19733,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE94F",
@@ -19520,12 +19779,13 @@
     "company": "Uniwersytecki Szpital Kliniczny w Opolu",
     "country": "PL",
     "description": "O nas,\n  \nUniwersytecki Szpital Kliniczny (USK) w Opolu rozwija się dynamicznie jako jednostka kliniczna. Rozszerzamy\n  \nzakres świadczeń medycznych, co daje pole do rozwoju zawodowego w wielu profesjach medycznych i\n  \nniemedycznych. Zmodernizowaliśmy i doposażyliśmy w nowoczesny sprzęt nasze miejsca pracy, oddaliśmy do\n  \nużytku centra badawcze, w których prowadzone są badania kliniczne. To korzyść dla pacjentów, ale także dla\n  \nchcących rozwijać się naukowo i poszukujących atrakcyjnego miejsca pracy. USK w Opolu w 2021r. został\n  \nlaureatem m. in. Opolskiej Nagrody Jakości oraz uzyskał certyfikat ministra zdrowia potwierdzający spełnienie\n  \nstandardów akredytacyjnych dla leczenia szpitalnego, a w 2024r. zajął II miejsce w ogólnopolskim konkursie\n  \n„Hipokrates” w kategorii Szpital Roku. Nasza kadra doceniana jest za swoje osiągnięcia nie tylko w kraju, ale i\n  \nna arenie międzynarodowej. Zapraszamy do naszych zespołów! Jesteś zainteresowana/y? Aplikuj!\n\nSTANOWISKO: Magazynier/ magazynierka\n  \n  \nRODZAJ ZATRUDNIENIA: Umowa o pracę\n  \n  \nWYMAGANIA PRACODAWCY:\n  \n  \nPoszukujemy osoby zaradnej, samodzielnej, odpowiedzialnej i dobrze zorganizowanej, która będzie mogła\n  \nwykazać się:\n\n Wykształceniem minimum zawodowym lub średnim,\n  \n Podstawową znajomością obsługi komputera i programów magazynowych,\n  \n Umiejętnością prowadzenia ewidencji magazynowej,\n  \n Umiejętnością współpracy w zespole,\n  \n Terminowością, sumiennością i zaangażowaniem.\n\nMile widziane jest doświadczenie w pracy na stanowisku magazynowym oraz posiadanie uprawnień do obsługi\n  \nwózków jezdniowych podnośnikowych (UDT).\n  \n  \nODPOWIEDZIALNOŚĆ ZA:\n\n Przyjmowanie i wydawanie towarów zgodnie z dokumentacją magazynową.\n  \n Kontrola ilościowa i jakościowa przyjmowanych dostaw.\n  \n Kompletowanie, pakowanie i przygotowywanie zamówień do wysyłki na oddziały i pozostałe komórki\n\norganizacyjne.\n  \n Rozmieszczanie i składowanie towarów zgodnie z obowiązującymi zasadami gospodarki\n\nmagazynowej.\n  \n Prowadzenie dokumentacji magazynowej oraz obsługa dokumentów PZ, RW i innych związanych\n\nz obrotem magazynowym.\n  \n Kontrola stanów magazynowych i udział w inwentaryzacjach.\n  \n Obsługa sprzętu w tym wózków podnośnikowych zgodnie z posiadanymi uprawnieniami.\n  \n Utrzymywanie porządku i przestrzeganie zasad BHP na stanowisku pracy.\n\n  \n\nOFERUJEMY:\n\n Pracę w skróconym wymiarze czasu pracy od poniedziałku do piątku, w godzinach 7:25-15:00,\n  \n Perspektywę nawiązania dłuższej współpracy z jednostką o stabilnym położeniu gospodarczo-\n\nfinansowym,\n  \n Szansę wzbogacenia doświadczeń zawodowych oraz rozszerzenia umiejętności praktycznych zgodnie\n\nz charakterystyką stanowiska oraz miejsca pracy, \n  \n Środowisko wysoko wykwalifikowanych specjalistów, uznanych w świecie medyków, ludzi\n\nzaangażowanych w procesy,\n  \n Wdrożenie w strukturę organizacji,\n  \n Parking pracowniczy,\n  \n Pracę w szpitalu, który systematycznie rozwija jakość usług oraz standardy Zintegrowanego Systemu\n\nZarządzania – ich potwierdzeniem są liczne nagrody, certyfikaty ISO, certyfikaty akredytacyjne,\n  \n  \nDodatkowo, naszym pracownikom zaoferować możemy także:\n\n Dofinansowanie do dalszego kształcenia, podnoszenia kwalifikacji zawodowych,\n  \n Dodatek do wynagrodzenia za wysługę lat,\n  \n Premię roczną,\n  \n Nagrodę jubileuszową,\n  \n Pakiet socjalny (m.in. „wczasy pod gruszą”, dofinansowania do wypoczynku dla dzieci, zapomogi\n\nlosowe, pożyczki mieszkaniowe),\n  \n Ubezpieczenie grupowe PZU,\n  \n Kartę sportową z dofinansowaniem pracodawcy.\n\n  \n\nKONTAKT:\n  \n  \nJeśli rozważasz zmianę oraz chęć poszerzenia swych doświadczeń zawodowych w dynamicznym środowisku, jakie\n  \ntworzy nasz szpital to serdecznie zapraszamy do złożenia swej aplikacji (CV wraz z listem motywacyjnym) na\n  \nadres e-mail: rekrutacja@usk.opole.pl\n  \nPytania kierować można pod nr tel.: (77) 45 20 133, (77) 45 20 125. Zapraszamy do nawiązania współpracy!\n  \n  \nInformujemy, że w związku z prowadzoną rekrutacją będziemy przetwarzać Państwa dane osobowe. Szczegółowe informacje\n  \nznajdziecie Państwo w \"Klauzuli informacyjnej dla kandydatów do pracy\" dostępnej na naszej stronie internetowej\n  \nhttp://www.usk.opole.pl w zakładce RODO: : RODO/GDPR - Uniwersytecki Szpital Kliniczny w Opolu (usk.opole.pl)",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -21154,8 +21414,8 @@
     ],
     "last_seen": "2026-11-03",
     "lifecycle": {
-      "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "dead_checks": 1,
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE136",
@@ -21532,7 +21792,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE736",
@@ -24693,7 +24953,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "FRH01",
@@ -25635,7 +25895,7 @@
     },
     "company": "Karl Eidmann GmbH & Co. KG",
     "country": "DE",
-    "description": "Art der Stelle: Vollzeit, Festanstellung\n\n**Über uns:**\n\nSeit 1914 sorgen wir in Bruchköbel für das leibliche Wohl unserer Kunden – und das mit Leib und Seele. Dabei verbinden wir als Manufaktur die Liebe zum Handwerk mit modernster Technik. So können wir unsere ausgewählten und frischen Rohstoffe aus kontrollierter Herkunft mit hoher Produktsicherheit zu den besten Wurst und Fleischspezialitäten weiterverarbeiten. Das schmeckt man mit jedem Bissen.\n\n**Wir bieten Ihnen:**\n\n* Leistungsgerechte Vergütung\n* Persönliche Betreuung und Einarbeitung durch feste Ansprechpartner\n* Betriebliche Altersvorsorge\n* Kostenfreie Stellung und Reinigung von Arbeitskleidung\n* Personalrabatt in unserem Werksverkauf mit großer Auswahl an Lebensmitteln\n* Betriebseigene Kantine mit frischer und abwechslungsreicher Küche (Frühstück & Mittagessen)\n* Echte Handwerksqualität seit 1914\n* Ein tolles Team in einem Familienunternehmen mit Systemrelevanz\n* Sie produzieren und verkaufen Produkte, auf die Sie stolz sein können\n\n**Ihre täglichen Aufgaben:**\n\n* Sie unterstützen unser Team bei allen anfallenden Aufgaben\n* Bestücken und Bedienen der Maschinen nach Einweisung\n\n**Das bringen Sie mit:**\n\n* Flexibilität\n* Selbstständiges und sauberes Arbeiten\n* Teamfähigkeit, Pünktlichkeit und Zuverlässigkeit\n* Gute Deutschkenntnisse\n\n**Wir wollen Sie kennen lernen!**\n\nSenden Sie uns Ihre vollständige Bewerbungsunterlagen unter Angabe Ihres frühestmöglichen Eintrittstermins per E-Mail an: ed.nnamdieobfsctd-262e62@lanosrep oder kontaktieren uns telefonisch unter: 06181 9700-0",
+    "description": "Art der Stelle: Vollzeit, Festanstellung\n\n**Über uns:**\n\nSeit 1914 sorgen wir in Bruchköbel für das leibliche Wohl unserer Kunden – und das mit Leib und Seele. Dabei verbinden wir als Manufaktur die Liebe zum Handwerk mit modernster Technik. So können wir unsere ausgewählten und frischen Rohstoffe aus kontrollierter Herkunft mit hoher Produktsicherheit zu den besten Wurst und Fleischspezialitäten weiterverarbeiten. Das schmeckt man mit jedem Bissen.\n\n**Wir bieten Ihnen:**\n\n* Leistungsgerechte Vergütung\n* Persönliche Betreuung und Einarbeitung durch feste Ansprechpartner\n* Betriebliche Altersvorsorge\n* Kostenfreie Stellung und Reinigung von Arbeitskleidung\n* Personalrabatt in unserem Werksverkauf mit großer Auswahl an Lebensmitteln\n* Betriebseigene Kantine mit frischer und abwechslungsreicher Küche (Frühstück & Mittagessen)\n* Echte Handwerksqualität seit 1914\n* Ein tolles Team in einem Familienunternehmen mit Systemrelevanz\n* Sie produzieren und verkaufen Produkte, auf die Sie stolz sein können\n\n**Ihre täglichen Aufgaben:**\n\n* Sie unterstützen unser Team bei allen anfallenden Aufgaben\n* Bestücken und Bedienen der Maschinen nach Einweisung\n\n**Das bringen Sie mit:**\n\n* Flexibilität\n* Selbstständiges und sauberes Arbeiten\n* Teamfähigkeit, Pünktlichkeit und Zuverlässigkeit\n* Gute Deutschkenntnisse\n\n**Wir wollen Sie kennen lernen!**\n\nSenden Sie uns Ihre vollständige Bewerbungsunterlagen unter Angabe Ihres frühestmöglichen Eintrittstermins per E-Mail an: ed.nnamdieobfsctd-569b6c@lanosrep oder kontaktieren uns telefonisch unter: 06181 9700-0",
     "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
@@ -26338,7 +26598,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -26941,6 +27201,7 @@
     "company": "",
     "country": "NL",
     "description": "Heb je ervaring als rangeerder en werk je graag op onregelmatige tijden? Stap in als rangeerder!!!Alles wat je moet wetenWaar ga je aan de slag?Bij Rabelink Logistics werken ze aan een duurzame logistieke toekomst en daar hebben ze de beste mensen voor nodig. Ze hebben al ongeveer 600 toppers die hier samen aan werken en hopelijk ben jij de nieuwste topper die het team komt versterken! Rabelink is een bedrijf met een duidelijke identiteit en waarden. Ook wanneer ze bezig zijn met het oplossen van complexe logistieke vraagstukken voor klanten, houden ze altijd rekening met de kernwaarden:• Het draait om mensen• Stop nooit met leren• Ga voor kwaliteit• Denk aan de wereldWat ga je doen?Als rangeerder ben jij de spil in het logistieke proces op het terrein. Je zorgt ervoor dat trailers op tijd aan het juiste dock staan voor laden en lossen. Met behulp van een terminaltrekker verplaats je opleggers veilig en effici&euml;nt. Jij houdt het overzicht, werkt nauw samen met magazijnmedewerkers en chauffeurs, en zorgt ervoor dat alles op rolletjes loopt. Indien het wat rustiger is met rangeerwerk ga je de collega's op het Crossdock helpen of een pendelrit rijden. Je werkt altijd samen met de collega's op het crossdock, een gezellig, hardwerkend team waarbij iedereen voor elkaar klaar staat. Er wordt gewerkt in een 4 ploegendienst:• 06.00 - 14.30 uur• 08.00 - 16.30 uur• 16.30 - 01.00 uur• 22.00 - 06.00 uurWat vragen wij van jou?Wat breng je mee?• Ervaring als rangeerder of chauffeur is een pr&eacute;• Rijbewijs C/CE of een B rijbewijs incl. trekker rijbewijs en rangeer certificaat (het rangeercertificaat is eventueel via Seesing Flex te behalen).• Je bent verantwoordelijk, stressbestendig en werkt graag buiten• Bereidheid om in ploegendienst te werken (dag/avond/nacht)• Veiligheidsbewust en nauwkeurig• Woonachtig in de omgeving van Wehl• Het is een pre als je ook ervaring hebt met het werken op een EPT, hef- en/ of reachtruckWat bieden wij jou?",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-04",
@@ -26948,8 +27209,9 @@
     "languages": [
       "nl"
     ],
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-07",
     "lifecycle": {
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "NL225",
@@ -26967,6 +27229,7 @@
     ],
     "source": "eures",
     "source_id": "NWViNzY0NGYtY2JlZC04MTFjLWUwNjMtNjg5M2IyMGFlOGU5IDQy",
+    "source_review": {},
     "summary_ar": "",
     "title": "Rangeerder 4 ploegendienst",
     "title_ar": "",
@@ -27300,6 +27563,56 @@
     "translated": false,
     "uid": "3e7dfeb832cbdeff",
     "url": "https://www.molecule.be/jobs",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "3eb54b24d6964fb1": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "",
+    "country": "NL",
+    "description": "Luba Amsterdam €2.608 - €2.810 40 uur VMBO/MAVO Vandaag Bewaar vacature Open in nieuwe tab Magazijnmedewerker en springer chauffeur CE solliciteren Salaris €2.608 - €2.810 Uren 40 uur Dienstverband Vast Werklocatie Amsterdam Opleidingsniveau VMBO/MAVO Branche Industrie Functieomschrijving Ga aan de slag als springer chauffeur ce in Amsterdam, fulltime bij de grootste bouwmaterialenhandel. Ontdek de voordelen en sollicitatiemogelijkheden. Over het werk Als springer chauffeur ce ben je in de basis actief als magazijnmedewerker. Je zorgt samen met je collega's voor het soepel verlopen van alle magazijnprocessen: het ontvangen, opslaan en klaarzetten van bouwmaterialen voor transport. Je werkt fulltime binnen een vast rooster en krijgt volop mogelijkheden om door te groeien en trainingen te volgen via de interne academie. De functie is voor langere tijd bij een stabiele werkgever binnen de bouwsector. Wat deze functie bijzonder maakt, is dat je naast je magazijnwerk ook flexibel wordt ingezet als chauffeur. Je beschikt over het juiste rijbewijs om op de bus of vrachtwagen te rijden en springt bij zodra dat nodig is. Hoe vaak je op de weg zit, verschilt per week, maar je staat altijd klaar om collega's te ondersteunen wanneer er extra transportcapaciteit nodig is. Zo blijft je werk afwisselend en uitdagend. Wil jij een veelzijdige functie waarbij je het magazijnwerk combineert met het chauffeursvak? Solliciteer dan snel op deze functie als springer chauffeur ce en ontdek hoe jij kunt bijdragen aan het succes van deze organisatie. Wat wij bieden - Bruto maandsalaris tussen € 2.608,26 en € 2.809,99 (fulltime) - 37 vrije dagen bij een fulltime dienstverband - 8% vakantiegeld, jaarlijks of maandelijks uit te keren - Goede pensioenregeling en reiskostenvergoeding vanaf 10 km enkele reis - Toegang tot opleidingen en trainingen voor persoonlijke ontwikkeling Wat wij vragen - In het bezit van rijbewijs CE en geldi...",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL32B",
+    "matched_keywords": [
+      "ett",
+      "magazijnmedewerker",
+      "magazijnwerk"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-10",
+    "score": 52,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country"
+    ],
+    "source": "eures",
+    "source_id": "NWQ3NGIwNDYtNGViYi05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: NL32B\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Springer Chauffeur CE",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "3eb54b24d6964fb1",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ3NGIwNDYtNGViYi05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -28714,7 +29027,7 @@
     "company": "Zentiva",
     "country": "CZ",
     "description": "Hledáte práci, která má smysl? V Zentivě vyrábíme kvalitní a cenově dostupné léky pro více než 100 milionů lidí ve 40 zemích. **Přidejte se k našemu týmu v Praze a buďte součástí výroby**, která má skutečný dopad na zdraví lidí.\n\nRozšiřujeme náš výrobní tým a hledáme nového kolegu nebo kolegyni na pozici **Skladník**.\n\nMáte zkušenosti ze skladu, nebo se chcete v této oblasti teprve rozvíjet? Čeká Vás **manipulace s materiálem, kontrola kompletnosti a správnosti dodávek, práce se skladovou technikou a spolupráce s kolegy napříč výrobou**. Důležitá je pro nás především spolehlivost, pečlivost a zodpovědný přístup k práci. Na pozici Vás důkladně zaškolíme a vše potřebné Vás naučíme.\n\n**Co u nás budete dělat?**\n--------------------------\n\n* Kontrolování kompletnosti, obsahu a značení dodávek vydávaného materiálu\n* Předávka informací a dat o průběhu\n* Provádění inventarizačních prací (přesná identifikace materiálu a skladového místa, počítání, měření, vážení včetně související manipulace s materiálem a dokumentace procesu)\n* Příprava a manipulace s objednávkou, vychystávání a balení zboží\n* Práce se čtečkou a paletovým vozíkem\n\n**Jste náš člověk, pokud:**\n---------------------------\n\n* Máte zkušenost s prací ve skladu nebo s přípravou zboží\n* Ochotu pracovat ve **dvousměnném provozu (6.00-14.00hod, 14.00-22.00hod)**\n* Chuť se učit nové věci a aktivně přistupovat k práci\n* Svědomitost, samostatnost a pracovitost\n\n**Co vám nabízíme?**\n--------------------\n\n* **Jistotu práce u stabilního zaměstnavatele**. Zentiva navazuje na 100letou historii výroby léčiv v Praze - Dolních Měcholupech. Dlouhodobě se také řadíme mezi oceňované zaměstnavatele v České republice.\n* Zapomeňte na horké haly nebo práci venku. Pracovat budete ve velmi čistém prostředí s celoroční teplotou okolo 22 °C..\n* K tomu získáte **12 000 Kč ročně na benefity prostřednictvím Cafeterie eBenefity**. Částku čerpáte formou 12 000 bodů, které můžete využít na dovolenou, v lékárnách, sportovních zařízeních, na kulturu i knihy.\n* Týden dovolené navíc (celkem 25 dní) pro zasloužený odpočinek. K tomu ještě **tři dny zdravotního volna** ročně.\n* Volný čas si můžete zpestřit i díky **Multisport kartě, na kterou přispíváme** – díky tomu vás bude stát pouze 390 Kč měsíčně.\n* Příspěvek na stravování – na účet vám každý měsíc vyplatíme stravenkový paušál, a to v hodnotě 115 Kč za odpracovaný den.\n* Přímo v budově máme **kantýnu se snídaněmi, několika druhy obědů**\n* Přispějeme vám na **penzijní doplňkové spoření/ dlouhodobý investiční produkt (DIP) a životní pojištění**.\n* **Relokační bonus** – pokud se za prací u nás stěhujete z oblasti mimo Středočeský kraj, budeme vám prvního půl roku vyplácet 6 000 Kč měsíčně navíc do výplaty.\n* Nehodíme vás do vody. Hned na začátku vás čeká **důkladné proškolení a následně podpora od zkušeného kolegy** pro váš pohodový start. Bezpečnost při práci je pro nás vždy na prvním místě.\n* Veškeré **pracovní vybavení, od oblečení až po obuv**, od nás samozřejmě dostanete zdarma. A o praní pracovního oblečení se postaráme.\n* **Nástup je možný ihned**. Pracovní smlouvu uzavíráte se Zentivou, nejprve na 1 rok. Při oboustranné spokojenosti vám smlouvu rádi prodloužíme na neurčito.\n\n**Jak probíhá výběrové řízení?**\n--------------------------------\n\n* **Pošlete nám svůj životopis** a my se na něj co nejdříve podíváme.\n* Pokud budete splňovat naše požadavky, **pozveme vás na osobní pohovor spojený s prohlídkou výroby**. Dozvíte se vše potřebné k nabízené pozici a budete mít prostor zeptat se na vše, co vás zajímá.\n\nTěšíme se na vás!",
-    "detail_fetched_at": "2026-11-06",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
@@ -28726,7 +29039,7 @@
       }
     ],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -29424,6 +29737,7 @@
     "company": "Deutsche Post & DHL",
     "country": "DE",
     "description": "**Werde Lagermitarbeiter in Neumünster**\n\n**Was wir bieten**\n\n* **16,01 € Tarif-Stundenlohn** inkl. 50% Weihnachtsgeld\n* **+ 25% Nachtzulage steuerfrei** schon ab 20:00 Uhr (bis 6:00 Uhr, entspricht **19,05 € Stundenlohn**)\n* **Weitere 50% Weihnachtsgeld** im November\n* **+ bis zu 332 € Urlaubsgeld** im Juli ab dem 2. Jahr\n* Du kannst sofort **in Teilzeit** starten, **20 - 25** **Stunden/Woche**\n* Ein **krisensicherer Arbeitsplatz, garantierte Gehaltssteigerung** gemäß Tarifvertrag und **pünktliche Gehaltszahlungen**\n* **Bezahlte Einarbeitung** – in vielen Sprachen möglich\n* **Kostenlose Ausstattung**, wie z.B. Sicherheitsschuhe und Schutzhandschuhe\n* **Übernahme** bei guten Leistungen und offenen Positionen **möglich**\n* **Attraktive Mitarbeiterangebote**, wie z.B. Rabatte bei Mobilfunkanbietern, Fitnessstudios, Modemarken etc.\n\n**Deine Aufgaben als Lagerhelfer bei uns**\n\n* **Ausladen** von Roll-Containern oder losen verladenen Paketen\n* **Auflegen** von Paketen auf unsere Paketsortieranlagen\n* **Einladen** von Paketen in Rollcontainer oder Fahrzeuge\n* **Platzsparendes Stapeln** der Pakete zur optimalen Auslastung der Transportkapazität\n* Beachtung von **V****orschriften zur Ladungssicherung**\n* Unsere **Einsatzzeiten:**\n* + 11:00 - 20:45 Uhr (Spätschicht)\n\n**Was du als Verlader bietest**\n\n* Du kannst anpacken und hast Spaß an **körperlicher Arbeit**\n* Du arbeitest **zuverlässig** und bist engagiert\n* Du arbeitest gern im **Team**\n\n**Werde Lagermitarbeiter bei Deutsche Post DHL**\n\nOhne unsere **Verlader** käme keine Sendung pünktlich an! Wenn du gerne die Ärmel hochkrempelst und körperlich fit bist, können wir dich beim **Be- und Entladen** unserer Lkws gut gebrauchen. Trage mit deinem täglichen Einsatz in deinem **Lager Job** maßgeblich zur Kundenzufriedenheit und somit zum Erfolg des Unternehmens bei.  \nAuch **Quereinsteiger**, **Rentner** oder **Studenten** sind bei uns herzlich willkommen, denn du zählst, wie du bist!\n\nWir freuen uns auf deine Bewerbung als **Lagermitarbeiter**, am besten **online!** Klicke dazu einfach auf den 'Bewerben' Button - auch ganz ohne Lebenslauf.\n\n**MENSCHEN VERBINDEN, LEBEN VERBESSERN**\n\n#werdeeinervonuns  \n#werdeeinervonunslagerhelfer  \n#werdeeinervonunsverlader\n\n#jobsnlkiel\n\n#F1Lager",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -29435,7 +29749,7 @@
       }
     ],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -31287,12 +31601,13 @@
     "company": "OKE GROUP",
     "country": "DE",
     "description": "* OKE Automotive GmbH & Co. KG\n* DE - Hörstel\n\n* Produktion, Fertigung\n* Vollzeit\n\n**Wer sich wohl fühlt, macht einen guten Job.** Als Teil der OKE-Unternehmensgruppe entwickelt und produziert **OKE Automotive** technische Kunststoffkomponenten für die Automobil-, Elektronik- oder Möbelindustrie. Mit innovativen Technologien, internationaler Ausrichtung und starken Teams werden Lösungen geschaffen, die weltweit im Einsatz sind. Und die Zeichen stehen nach wie vor auf Wachstum.\n\n**Warum du dich wohlfühlen wirst:**\n-----------------------------------\n\n* **13 Monatsgehälter und 30 Tage** **Urlaub**\n* Eigenes, top ausgestattetes **Fitnessstudio**\n* **Außensportgelände**, Mountainbikeverleih, Fahrradleasing\n* Gutes Essen, frisch und regional, im **Betriebsrestaurant** „Schlemmerland“\n* **Weiterbildungsangebote** im „Lernwerk“\n* Strukturierte, umfassende **Einarbeitung**\n* Betriebliches **Gesundheitsmanagement** mit Betriebsarzt, Physiotherapeut und Friseurin\n* **Sicherheit** eines inhabergeführten, international agierenden Mittelständlers.\n\n**Darum gehts:**\n----------------\n\n* Unterstützung der Maschinenführer und der Teamleitung bei der Betreuung unserer Produktionsanlagen\n* Bedienung und Überwachung des Produktionsprozesses nach Vorgabe\n* Kontrolle der gefertigten Artikel auf einwandfreie Qualität\n* Nacharbeit und Verpackung der Fertigwaren\n* Vorbereitung der benötigten Kartonagen und Abtransport der fertigen Kartons\n* Sicherstellung des Materialnachschubs an den Anlagen\n* Regelmäßige Reinigung der Maschinen sowie Sicherstellung von Ordnung und Sauberkeit am Arbeitsplatz\n* Einsatz im Wechsel zwischen **Früh- und Spätschicht**\n\n**Das brauchst du dafür:**\n--------------------------\n\n* Freude an der Arbeit mit Maschinen und in einem Team mit guter Stimmung\n* Technisches Verständnis und Bereitschaft, dich in die Bedienung unserer Produktionsanlagen einzuarbeiten\n* Gutes Gespür für Qualität, Ordnung und Sauberkeit\n* Zuverlässige und sorgfältige Arbeitsweise\n* Bereitschaft zur Arbeit in wechselnden Früh- und Spätschichten\n* Keine abgeschlossene Ausbildung erforderlich, wir arbeiten dich umfassend ein\n* Erfahrung in der Produktion oder Kunststoffverarbeitung von Vorteil, aber kein Muss\n\n**Die Chance auf gutes Arbeiten und gutes Leben:**\n--------------------------------------------------\n\n**\"Wir mögen Menschen\"** ist der erste Grundsatz des Leitbildes der OKE Unternehmensgruppe. Damit sind alle gemeint. Entsprechend sind Bewerbungen jedes Alters oder Geschlechtes sowie jeder Religion, Herkunft oder sexuellen Orientierung willkommen. Kurzum: Es geht darum, **DICH** kennenzulernen!\n  \n  \n**Dein Ansprechpartner ist:**\n  \nTheresa Lange\n\nHR Service Center\n  \nOKE Group GmbH\n  \nNobelstr. 7\n  \n48477 Hörstel\n  \nT +49 5459 914-0\n\n* Theresa Lange\n* HR Business Partner - Headquarters Hörstel",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-05",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -31707,7 +32022,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "",
@@ -31879,7 +32194,7 @@
     "title_en": "",
     "translated": false,
     "uid": "492c867fae0e818f",
-    "url": "https://www.uzeninypribram.cz/kariera?r=detail&id=e5b1f0d5-711f-49f9-b08a-2e22fb081e48&impressionId=8b9851b3-143a-4550-ad56-af9fef680fa5",
+    "url": "https://www.uzeninypribram.cz/kariera?r=detail&id=e5b1f0d5-711f-49f9-b08a-2e22fb081e48&impressionId=82fc4969-190b-4080-ba4a-5a3c23e733f3",
     "url_provenance": "",
     "url_verified": null
   },
@@ -34754,7 +35069,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DEG01",
@@ -37103,13 +37418,15 @@
     "company": "Huuskes",
     "country": "NL",
     "description": "**Locatie:** Winschoten, M.J. van Olmstraat 12  \n**Uren:** 40 uur per week (parttime mogelijk)  \n**Salaris:** € 2.608,26 – € 2.940,62 bruto per maand\\*  \n**Toeslagen:** koude- en onregelmatigheidstoeslag  \n**Eindejaarsuitkering:** € 1.200,00  \n**Vakantie:** 32 vakantiedagen per jaar  \n\n* *Geldig vanaf 21 jaar*",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-07",
     "lifecycle": {
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "Winschoten, GR, Netherlands",
@@ -37119,7 +37436,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-29",
-    "score": 40,
+    "score": 38,
     "signals": [
       "unskilled_role_match",
       "tier_1_country",
@@ -38330,7 +38647,7 @@
     "title_en": "",
     "translated": false,
     "uid": "55e58e95e0437a9c",
-    "url": "https://www.uzeninypribram.cz/kariera?r=detail&id=f6d93215-3bd0-460b-84d3-bd23b636d0dc&impressionId=8b9851b3-143a-4550-ad56-af9fef680fa5",
+    "url": "https://www.uzeninypribram.cz/kariera?r=detail&id=f6d93215-3bd0-460b-84d3-bd23b636d0dc&impressionId=82fc4969-190b-4080-ba4a-5a3c23e733f3",
     "url_provenance": "",
     "url_verified": null
   },
@@ -40207,7 +40524,7 @@
       "tier_1_country"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-018aeb49e0aa7245",
+    "source_id": "in-14eb38d39d7e486d",
     "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Pobiedziska, WP, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Praca na produkcji – sezonowa z możliwością stałej współpracy",
@@ -40215,7 +40532,7 @@
     "title_en": "Production work – seasonal with the possibility of permanent cooperation",
     "translated": false,
     "uid": "59d5fcae3dc690d0",
-    "url": "https://pl.indeed.com/viewjob?jk=018aeb49e0aa7245",
+    "url": "https://pl.indeed.com/viewjob?jk=14eb38d39d7e486d",
     "url_provenance": "",
     "url_verified": null
   },
@@ -42126,6 +42443,56 @@
     "uid": "5e5595f21896c1fd",
     "url": "https://app.skeeled.com/offer/c/6ad23ce2ff0fcaf9abf4491c"
   },
+  "5e65b8ea48a1e0eb": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "",
+    "country": "NL",
+    "description": "Als Magazijnmedewerker Aanrijder bij Action rapporteer je direct aan de voorman. Je bent er verantwoordelijk voor dat binnengekomen pallets bij de inkomende docks snel en efficiënt leeggereden worden met behulp van de EPT. Je transporteert de pallets naar de juiste locaties in het magazijn en scant deze zorgvuldig bij het neerzetten, zodat de reachtruckchauffeurs exact weten welke pallets zij in de stellingen kunnen plaatsen.Wat zijn je verantwoordelijkheden?• Vlot leegrijden en verplaatsen van binnenkomende pallets vanaf de inkomende docks;• Veilig bedienen van de Elektrische Pallettruck (EPT) op de magazijnvloer;• Nauwkeurig transporteren van goederen naar de toegewezen magazijnlocaties;• Zorgvuldig scannen van de verplaatste pallets voor een correcte voorraadregistratie;• Tijdige signaalafgifte aan de reachtruckchauffeurs voor het inruimen van de stellingen;• Direct rapporteren van de dagelijkse voortgang en bijzonderheden aan de voorman;• Strikt naleven van de veiligheidsvoorschriften en het dragen van veiligheidsschoenen;• Schoon, geordend en overzichtelijk houden van de inkomende dockzones.Zoek jij een actieve logistieke functie bij een bekende winkelketen? Solliciteer dan direct voor deze functie in Echt!Functie-eisen:Je wordt onderdeel van een professionele, betrokken familie waarin veiligheid, collegialiteit en actieve werkopvolging vooropstaan. Omdat je op de eerste dag een veiligheidstest inclusief instructies aflegt en veel op de EPT staat, zoeken we een verantwoordelijke collega die fysiek fit is.• Je beschikt over LBO/VMBO werk- en denkniveau;• Je bent minimaal 18 jaar oud en flexibel inzetbaar qua werktijden;• Je hebt bij voorkeur ervaring met het rijden op een EPT (Elektrische Pallettruck);• Je hebt een goede beheersing van de Nederlandse of Engelse taal;• Je hebt een actieve, nauwkeurige werkhouding en staat open voor een veiligheidstest op je eerste werkdag;• Je bent bij voorkeur woonachtig in (de directe omgeving van) Ech",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL422",
+    "matched_keywords": [
+      "ett",
+      "magazijnmedewerker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-28",
+    "score": 49,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "NWVkZjlmZmYtMDU3My1iOGJiLWUwNjMtNjg5M2IyMGEwYTczIDQy",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: NL422\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Magazijnmedewerker Aanrijder",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "5e65b8ea48a1e0eb",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWVkZjlmZmYtMDU3My1iOGJiLWUwNjMtNjg5M2IyMGEwYTczIDQy?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "5e80d7bc2ddae662": {
     "apply_channels": {
       "emails": [],
@@ -42608,6 +42975,101 @@
     "translated": false,
     "uid": "601bb80dcab5e37e",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTczOTY0OTYgNDM?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "606784867cbe9f77": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Green TC GmbH",
+    "country": "DE",
+    "description": "Die **Green TC GmbH** ist ein führender Großhändler für Photovoltaik-Produkte und ein starker Partner in der Solarbranche für Fachbetriebe und Installateure. Zur Verstärkung unseres Teams suchen wir einen engagierten **Lagerhelfer (m/w)**, der die Warenannahme, -ausgabe und Kommissionierung übernimmt und somit einen reibungslosen Ablauf im Lager sicherstellt.\n\n**Aufgaben**\n------------\n\n* Warenannahme und Warenausgabe\n* Kommissionieren von Bestellungen\n* Allgemeine Lagertätigkeiten\n\n**Qualifikation**\n-----------------\n\n* Zuverlässigkeit und Teamgeist\n* Körperliche Belastbarkeit und Einsatzbereitschaft\n* Motivation, sich kontinuierlich weiterzuentwickeln und Neues zu erlernen\n* Gute Deutschkenntnisse\n\n**Benefits**\n------------\n\n* **Einstiegsgehalt von 2.500€:** Plus Bonuszahlungen\n* **Kein Schichtbetrieb:** Geregelte Arbeitszeiten für eine gute Work-Life-Balance\n* **Keine Vorkenntnisse erforderlich:** Wir arbeiten dich umfassend ein\n* **Zukunftssicherer Arbeitsplatz:** Arbeiten in einem stetig wachsenden Unternehmen und einer nachhaltigen Branche\n\nWir bei der **Green TC GmbH** glauben an langfristige Partnerschaften – sowohl mit unseren Kunden als auch mit unseren Mitarbeitenden. Wenn du gerne anpackst und in einer zukunftsorientierten Branche arbeiten möchten, bist du bei uns genau richtig. Werde Teil unseres Teams und unterstütze uns aktiv im Lagerbereich!\n\nWir freuen uns auf deine Bewerbung.",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Paderborn, NW, Germany",
+    "matched_keywords": [
+      "keine vorkenntnisse",
+      "lagerhelfer"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-07",
+    "score": 62,
+    "signals": [
+      "unskilled_role_match",
+      "no_exp_or_training_mention",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-6c39a0ad78005a90",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Paderborn, NW, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Lagerhelfer (m/w/d) - Vollzeit",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "606784867cbe9f77",
+    "url": "https://join.com/companies/green-tc/16922807-lagerhelfer-m-w-d-vollzeit?pid=a13795120131dbe48464",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "609484e5dd50f941": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "",
+    "country": "NL",
+    "description": "- ik zoek een baan - werkgevers - mijn carrière - over randstad Nieuw bij Randstad? Magazijnmedewerker Bijbaan - Doetinchem - € 15,57 per uur - 8 - 20 uur - Geen - Rensa - 09 oktober 2026 - vacaturenummer: 755449 - 09 oktober 2026 - vacaturenummer: 755449 Op zoek naar een leuke magazijnmedewerker bijbaan in Doetinchem? Bij Rensa verdien je tot € 15,57 per uur. Ook krijg je in de avond een extra ploegentoeslag tot wel 12% én € 0,23 reiskostenvergoeding per kilometer! Je bepaalt zelf hoeveel uren je in de week werkt. wat bieden wij jou Startsalaris tot € 15,57 per uur Toeslagen van 3% tot 12% in de avond Reiskostenvergoeding van € 0,23 per kilometer Zelf bepalen wanneer je in de avond werkt Kansen om extra werk te leren Een actieve en leuke werkomgeving wie ben jij Om het magazijn draaiende te houden, is het belangrijk dat je als magazijnmedewerker aan de volgende eisen voldoet: - Je bent bereid om in Doetinchem te werken - Je bent minimaal 2 avonden per week beschikbaar - Je bent beschikbaar op donderdagavond of vrijdagavond - Je kunt werken tussen 18:00 en 22:00 uur - Je spreekt de Nederlandse taal - Je bent 17 jaar of ouder - Je beschikt over eigen vervoer - Je bent fysiek in staat om producten tot 20 kilo te tillen wat ga je doen Als je start met deze magazijnmedewerker bijbaan, zorg je dat alle buizen voor cv-ketels en airco's op de juiste plek liggen. Je start jouw werkdag meestal rond 18:00 uur. Eerder beginnen? Dat kan zeker in overleg met jou! Tijdens je werk houd je de hal mooi schoon. Waar het nodig is, help je jouw collega's. - Buizen naar de juiste locatie in de hal brengen - Zorgen voor een netjes en schoon magazijn - Helpen van collega's op andere afdelingen waar ga je werken Je gaat werken bij Technisch Handelsbureau Rensa B.V. Dit is een bekende technische groothandel in Doetinchem. Het bedrijf levert onder meer airco's, radiatoren en cv-ketels. De sfeer op de vloer is heel gezellig. Je...",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL225",
+    "matched_keywords": [
+      "magazijnmedewerker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-10",
+    "score": 34,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country"
+    ],
+    "source": "eures",
+    "source_id": "NWQ3NGIwNDYtNGRlNi05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Magazijnmedewerker Bijbaan",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "609484e5dd50f941",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ3NGIwNDYtNGRlNi05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -44614,6 +45076,63 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "638296631732e99d": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": true
+    },
+    "company": "",
+    "country": "NL",
+    "description": "- ik zoek een baan - werkgevers - mijn carrière - over randstad Nieuw bij Randstad? Orderpicker Nachtdienst - Tijdelijk werk - Roosendaal - € 18,98 - 22,78 per uur - 24 - 40 uur - Geen - Active Ants - 23 oktober 2026 - vacaturenummer: 757153 - 23 oktober 2026 - vacaturenummer: 757153 Wil je aan de slag als magazijnmedewerker in de nachtdienst? En in een korte tijd heel veel verdienen? Lees dan snel verder! We zijn namelijk bij Active Ants op zoek naar magazijnmedewerkers die graag in de nacht werken. wat bieden wij jou € 15,19 Bruto per uur excl. toeslag Toeslag nachtdienst: +20% ma tm vrij +50% za&zo Een tijdelijke baan in nachtdienst Nachtdiensten van 1.00 - 7.00 Roosendaal - vlak bij het station Orderpicken wat ga je doen Week 48 en week 49 zijn bij Active Ants de drukste weken van het jaar. Daarom werken ze deze weken ook in de nachtdienst. Jouw werkzaamheden zijn orderpicken, inpakken en pakketjes sorteren. waar ga je werken Je gaat aan de slag bij Active Ants in Roosendaal. Dit is een modern magazijn vlakbij het centrum. Active Ants verzorgt de logistiek voor meer dan honderd bekende webshops en merken. Je werkt met producten van Basic-Fit, Paula's Choice en Mr. Marvis. Bij Active Ants werk je samen met slimme robots die het werk zo makkelijk mogelijk maken. De sfeer op de werkvloer is informeel, open en erg vriendelijk. Je komt terecht in een enthousiast, multicultureel team waar collega's elkaar altijd graag helpen. Bovendien biedt het bedrijf je mooie kansen om te groeien en jezelf verder te ontwikkelen! contact Team Active Ants Inhouse - Randstad Randstad Inhouse - Active Ants Wij nemen zo snel mogelijk contact met je op. Heb je vragen? Bel of WhatsApp ons gerust. download de randstad nl app",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [
+      {
+        "ar": "عامل تجهيز طلبيات",
+        "en": "order picker",
+        "term": "orderpicker"
+      }
+    ],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL411",
+    "matched_keywords": [
+      "magazijnmedewerker",
+      "orderpicker",
+      "picker",
+      "sorter"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-24",
+    "score": 55,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "NWU4ZTUyMGQtYTk3MC1iN2M4LWUwNjMtNjg5M2IyMGFmMTYyIDQy",
+    "source_review": {},
+    "summary_ar": "الموقع: NL411\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Orderpicker Nachtdienst",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "638296631732e99d",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWU4ZTUyMGQtYTk3MC1iN2M4LWUwNjMtNjg5M2IyMGFmMTYyIDQy?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "63a087facbe8d610": {
     "apply_channels": {
       "emails": [
@@ -44963,7 +45482,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "",
@@ -49248,6 +49767,53 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "6d26a7c8e7070a44": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "",
+    "country": "NL",
+    "description": "Wiertz Company Logo Iedereen is talentvol. Daarom is er voor jou altijd wel een passende vacature beschikbaar. Ontdek jouw nieuwe uitdaging in onze vacaturebank. Iedereen verdient een baan! Website Headers 2350x900 2 Onze dienstverlening Wiertz Company is een bedrijf van mensen voor mensen. Met onze waarden als familiebedrijf, onze visie en onze onafhankelijkheid zorgen wij voor de beste oplossingen voor iedereen op het gebied van werk. Onze dienstverlening Laat ons voor jou werken! Over Wiertz Wiertz Company is een bedrijf van mensen voor mensen. Met onze waarden als familiebedrijf, onze visie en onze onafhankelijkheid zorgen wij voor de beste oplossingen voor iedereen op het gebied van werk. Wiertz Company Over 1 Contact Hoofdkantoor Wiertz Company Kloosterraderstraat 20 6461 CD, Kerkrade Terug naar overzicht Meewerkend Voorman/vrouw inpakafdeling - 2 ploegendienst - Brunssum - MBO - 33 - 40 - €2990,35 - €3868,02 per maand Ben jij onze nieuwe Meewerkend Voorman in Brunssum? Ben jij een ervaren productiemedewerker die graag verantwoordelijkheid neemt en collega's weet te motiveren en aan te sturen? Als Meewerkend Voorman ben jij het verlengstuk van de Teamleider op de werkvloer. Je zorgt ervoor dat de werkzaamheden goed verlopen, de productie blijft draaien en veiligheid en kwaliteit altijd voorop staan. Daarnaast werk je zelf actief mee op de werkvloer. Een mooie combinatie van aansturen, samenwerken en aanpakken ! Afbeelding bij vacature Meewerkend Voorman/vrouw inpakafdeling 2 ploegendienst Wat ga je doen? Heb jij de ambitie om onze Meewerkend Voorman/vrouw inpakafdeling - 2 ploegendienst te worden? Als Meewerkend Voorman zorg jij samen met de Teamleider en het team voor een soepel verloop van de productie. - Je verdeelt en coördineert de werkzaamheden binnen het team - Je stuurt medewerkers aan, motiveert en coacht hen op de werkvloer - Je begeleidt en traint nieuwe en bestaande medewerkers...",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL423",
+    "matched_keywords": [
+      "productiemedewerker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-13",
+    "score": 34,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country"
+    ],
+    "source": "eures",
+    "source_id": "NWRiMTA5Y2QtMTVjMC02Yzk4LWUwNjMtNjg5M2IyMGE1MzhkIDQy",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Meewerkend Voorman",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "6d26a7c8e7070a44",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWRiMTA5Y2QtMTVjMC02Yzk4LWUwNjMtNjg5M2IyMGE1MzhkIDQy?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "6d342912aaf86455": {
     "apply_channels": {
       "emails": [],
@@ -50513,7 +51079,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE922, DE94D, DE94F",
@@ -51236,7 +51802,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DEB35",
@@ -51606,13 +52172,15 @@
     "company": "Monday Merch",
     "country": "NL",
     "description": "**Join Our Warehouse Team !**  \nJoin our warehouse team, and you’ll be part of a fast-moving scale-up where your contributions truly matter.\n\nAt **Monday Merch**, we’re shaking up the merchandise industry with a young, innovative, and fast-growing team. Partnering with global brands like Uber, Netflix, and Sixt, we deliver premium-quality merchandise and tech-driven solutions. Our warehouse is at the heart of ensuring every customer gets the ultimate experience.\n\nNote: This role requires availability during standard business hours. We also have weekend shifts available in Q4 (Oct-Dec).\n\n### **What You’ll Be Doing**\n\n* **Friendly international team:** Work in a supportive and welcoming environment.\n* **Hands-on experience:** Learn how a growing international e-commerce brand operates behind the scenes.\n* **No experience required:** We'll provide training for engraving, packing, and stock management.\n* **Make an impact:** Help us deliver thousands of meaningful gifts during the most important season of the year.\n\n### **Why You’ll Love It Here**\n\n* **Dynamic student-friendly environment:** Work in a young, fun, and international team.\n* **Part time 24-30 hours contract**: Perfect for balancing with your study schedule.\n* **Weekends optional:** Our warehouse is usually closed on Saturdays and Sundays. Only in Q4 we have weekend shifts.\n* **Career opportunities:** Grow with us into new roles across Monday Merch.\n* Ranked in the **LinkedIn 10 top startups** of The Netherlands of 2025.\n\n### **What Makes You a Great Fit**\n\n* You're available between **mid-November and mid-December 2026**, ideally several days per week.\n* You are available 4-5 hours everyday\n* You're detail-oriented and enjoy working carefully with your hands.\n* You're organised, reliable, and comfortable performing practical tasks.\n* You enjoy working in a team and can keep up in a fast-paced environment.\n* You're comfortable communicating in English.\n* Previous experience in warehouse operations, order fulfilment, or engraving is a plus, but not required.\n\n### **Why Monday Merch?**\n\nOur team is all about energy, innovation, and creating impact. Join us, and you’ll be part of a fast-moving scale-up where your contributions truly matter.\n\n**Location:** Rotterdam warehouse, Vareseweg 130, 3047AV  \nApply now and be part of our exciting journey to revolutionize the merchandise world!\n\n  \n\n* You live in the Rotterdam area with an easy travel to our warehouse Vareseweg 130, 3047AV\n* You are available 4-5 hours everyday\n* You enjoy hands-on tasks and working in a team.\n* You thrive in a fast-paced, English-speaking environment (no Dutch required).\n* You’re available part-time or full-time to contribute to our team.",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-04",
+    "last_seen": "2026-11-07",
     "lifecycle": {
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "Rotterdam, ZH, Netherlands",
@@ -51630,6 +52198,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-74546baf9268b8e8",
+    "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Rotterdam, ZH, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Warehouse Job | Engraving, Picking & Packing | Fast Growing Scale Up | Rotterdam",
     "title_ar": "",
@@ -54366,7 +54935,7 @@
     "title_en": "",
     "translated": false,
     "uid": "7807ff3c703fc415",
-    "url": "https://www.jip-potraviny.cz/kariera/?r=detail&id=21542861-b7cd-4d93-a718-e61ce3407c92&impressionId=a7939115-7b2d-47f8-a17f-94d464a6690f",
+    "url": "https://www.jip-potraviny.cz/kariera/?r=detail&id=21542861-b7cd-4d93-a718-e61ce3407c92&impressionId=3b4f8d5f-8ab1-4e57-a048-b8dbb118ca47",
     "url_provenance": "",
     "url_verified": null
   },
@@ -54778,7 +55347,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -55844,7 +56413,7 @@
     },
     "company": "Rhenus Warehousing Solutions Boleslawiec Sp. z o.o.",
     "country": "PL",
-    "description": "**What You Can Expect** **:**\n\n- Please follow this format and only use bullet points for the job description - Job task 1 - Job task 2 - Job task 3\n\n**What You Bring:**\n\n- Please follow this format and only use bullet points for the additional job description - Job requirement 1 - Job requirement 2 - Job requirement 3",
+    "description": "**What You Can Expect** **:**\n\nPrzemieszcza towary wewnątrz magazynu, w tym:\n\nPrzyjmuje dostawę poprzez weryfikację dokumentacji;\n\nIlościow o sprawdz a liczb ę palet/paczek/sztuk;\n\nJakościow o kontrol uje stan opakowań;\n\nSporządz a protoko ły rozbieżności, jeśli zostaną stwierdzone;\n\nPrzew ozi towar y do miejsc składowania, zgodnie z lokalizacją, wskazaną przez skaner.\n\nKomplet uje i pakuje zamówienia klientów .\n\nAlokuje i relokuje towary wewnątrz magazynu zgodnie z ustaleniami .\n\nDba o czystość i porządek w miejscu pracy.\n\nDba o bezpieczne i zgodne z przepisami BHP i normami prawa użytkowanie maszyn, urządzeń i wyposażenia oddziału.\n\nRealizuje politykę jakości i środowiskową.\n\nOdpowiada za przestrzeganie wewnętrznych polityk oraz przepisów (m.in. regulaminów, procedur, instrukcji, zasad Compliance ) oraz wymagań zewnętrznych (w szczególności w zakresie BHP i p. poż .).\n\n**What You Bring:**\n\n**Wykształcenie**\n\n* preferowane średnie\n\n**Doświadczenie**\n\n* min. 1 roczne doświadczenie zawodowe w pracy magazynowej lub produkcji w dużej firmie ;\n\n* mile widziane doświadczenie w obsłudze wózka widłowego ;\n\n* z załadunkiem i rozładunkiem samochodów;\n\n**Wiedza**\n\n* uprawnienia do obsługi wózka widłowego\n\n* s prawne liczenia\n\n* obsługa komputera – Outlook, Excel podstawy i skanera\n\n**K** **ompetencje**\n\n* dokładność, skrupulatność\n\n* umiejętność pracy w zespole\n\n* poczucie odpowiedzialnosci za powierzone zadania",
     "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
@@ -55870,7 +56439,7 @@
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-26ce4f54370813af",
+    "source_id": "in-4496abde7ece36e7",
     "source_review": {},
     "summary_ar": "",
     "title": "Magazynier",
@@ -55878,7 +56447,7 @@
     "title_en": "",
     "translated": false,
     "uid": "7b7073f8d68e1cd3",
-    "url": "https://rhe.wd3.myworkdayjobs.com/en-US/R1111/job/Boleslawiec-Poland/Magazynier_JR123210",
+    "url": "https://rhe.wd3.myworkdayjobs.com/en-US/R1111/job/Boleslawiec-Poland/Magazynier_JR122926-1",
     "url_provenance": "",
     "url_verified": null
   },
@@ -56296,6 +56865,54 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "7c522f1559b10d23": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "TEEAL - Робота в Польщі",
+    "country": "PL",
+    "description": "➡️ Производство вафлей из рисовой муки, SONKO\nПриезды (13.11.26 - 10 мест, 20.11.26 - 10 мест)\n🚈 55-040 Bielany Wrocławskie ul.Magazynowa 5\n👨👩 Для женщин, мужчин до 50 лет\n📄 Любой тип документов\n💰 Ставка 32,50 зл брутто /час\n🕒 Рабочих часов в месяц  168-200\nhttps://teeal.pl/?p=33107",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [
+      "ru"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "",
+    "matched_keywords": [
+      "производство"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-07",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "telegram_teealpl",
+    "source_id": "teealpl/48000",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "➡️ Производство вафлей из рисовой муки, SONKO",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "7c522f1559b10d23",
+    "url": "https://t.me/teealpl/48000",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "7c543560044caf78": {
     "apply_channels": {
       "emails": [],
@@ -56595,7 +57212,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Linz, O, Austria",
@@ -56909,6 +57526,55 @@
     "translated": false,
     "uid": "7e62ed7f1077004b",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzI0NzMgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "7e6c7b2f62c77dba": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "",
+    "country": "NL",
+    "description": "WerkTalent Assistent voorman logistiek | Tot €2800 Als Assistent Voorman Logistiek ben je de rechterhand van de voorman en zorg je dat het logistieke proces soepel verloopt. Je werkt actief mee in het magazijn, stuurt collega's aan waar nodig en bewaakt planning, veiligheid, kwaliteit en samenwerking. Je krijgt een bruto maandsalaris tussen de €2700 en €2800, reiskostenvergoeding, goede secundaire arbeidsvoorwaarden en uitzicht op een vast dienstverband. - 38 uren per week - tussen €2700 en €2800 per maand - Uitzendbasis, uitzicht op vaste dienst Van meewerken naar aansturen. Jij weet hoe het magazijn draait en bent klaar om net een stapje extra verantwoordelijkheid te pakken. Niet vanaf kantoor, maar gewoon tussen de mensen op de vloer. Dan is dit jouw moment. 1 Dit ga je doen Als Assistent Voorman ben je de rechterhand van de voorman en zorg je dat het logistieke proces soepel verloopt. Je werkt actief mee in het magazijn en houdt ondertussen het overzicht. Je stuurt collega's aan waar nodig, bewaakt de planning en springt bij als het druk is. Je verdeelt werkzaamheden, houdt de voortgang in de gaten en zorgt dat orders op tijd en correct worden verwerkt. Zie je knelpunten of verbeterkansen? Dan trek je aan de bel en denk je mee in oplossingen. Veiligheid, kwaliteit en samenwerking staan daarbij centraal. 2 Dit krijg je • Een bruto maandsalaris tussen de €2700 en €2800 afhankelijk van ervaring • Werken bij een stabiele organisatie met een informele werksfeer • Reiskostenvergoeding en goede secundaire arbeidsvoorwaarden • Uitzicht op een vast dienstverband bij goed functioneren 3 Dit ben je • Ervaring in de logistiek, bijvoorbeeld als magazijnmedewerker of meewerkend voorman • Natuurlijk overwicht en een proactieve houding • In staat om overzicht te bewaren, ook tijdens piekmomenten • Duidelijk in communicatie en prettig in de samenwerking • Bereid om in ploegendienst te werken indien nodig 4 Hier ga je werk...",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL411",
+    "matched_keywords": [
+      "ett",
+      "magazijnmedewerker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-09",
+    "score": 46,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country"
+    ],
+    "source": "eures",
+    "source_id": "NWQ2MDkyNmUtNzcyYS1iZGZlLWUwNjMtNjg5M2IyMGEzOWY5IDQy",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: NL411\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Assistent Voorman Logistiek",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "7e6c7b2f62c77dba",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ2MDkyNmUtNzcyYS1iZGZlLWUwNjMtNjg5M2IyMGEzOWY5IDQy?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -58044,6 +58710,61 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "8124aa23697594ec": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "",
+    "country": "NL",
+    "description": "Are you looking for a stable job in a professional and pleasant working environment? We are recruiting an orderpicker for anl organisation in Sevenum who enjoys working with precision.You’ll be working in a clean, well-organised and modern warehouse stocking dental products, where quality and teamwork are key. Why choose this role?- Work in the growing healthcare sector with high-quality dental products- A clean, modern and well-organised warehouse- The prospect of a permanent contract and long-term job security- Opportunities for personal development and career progression- Working hours from 10:00 to 19:00, a good work-life balance, with every weekend offWorking a staggered day shift from January 2027: one week from 10:00 to 19:00 and the next week from 09:00 to 18:00What are you going to do?As a warehouse assistant, you’ll work alongside your colleagues to ensure that orders are processed correctly and on time.- Picking, checking and carefully packing orders- Checking consignments and preparing them for dispatch- Working as part of a supportive and committed team- Working in a calm and organised environment- Contributing to a smooth logistics process- No high pressure or strict targets- Evenings and weekends off for a good work-life balanceAre you looking for a job where you can develop your skills over the long term within a stable organisation? Then we’d love to meet you!What do we offer?- A gross hourly wage of €14.99- 28 days’ holiday and 8% holiday pay- Weekly payment via Adecco- Travel allowance of €0.25 per kilometre- Access to free online training courses via the Adecco Academy- Opportunity to obtain various certificates (forklift, reach truck or EPT), paid for by Adecco- An attractive package offering both job security and opportunities for personal development.Where will you work?You’ll be working in a modern, clean and quiet warehouse in Sevenum, where everything is well organised. The atmosphere is informa",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [
+      {
+        "ar": "عامل تجهيز طلبيات",
+        "en": "order picker",
+        "term": "orderpicker"
+      }
+    ],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL421",
+    "matched_keywords": [
+      "orderpicker",
+      "picker",
+      "warehouse assistant"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-16",
+    "score": 46,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country"
+    ],
+    "source": "eures",
+    "source_id": "NWRlZDYzNTQtMDg3Ny0zMzQ1LWUwNjMtNjg5M2IyMGE5NjU4IDQy",
+    "source_review": {},
+    "summary_ar": "الموقع: NL421\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Warehouse Employee dayshift PRE (JN-0031213)",
+    "title_ar": "",
+    "title_en": "Warehouse Employee dayshift PRE (JN-0031213)",
+    "translated": false,
+    "uid": "8124aa23697594ec",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWRlZDYzNTQtMDg3Ny0zMzQ1LWUwNjMtNjg5M2IyMGE5NjU4IDQy?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "812efeef1cf81b11": {
     "apply_channels": {
       "emails": [
@@ -58295,6 +59016,7 @@
     "company": "",
     "country": "NL",
     "description": "Zoek jij een afwisselende baan waarbij je de hele dag lekker actief bezig bent? Als magazijnmedewerker zorg jij dat alle goederen tijdig en veilig klaarstaan voor verzending. Je krijgt de kans om in een fijne omgeving aan de slag te gaan waar jouw inzet echt wordt gezien. Het is een mooie plek voor aanpakkers die graag verantwoordelijkheid nemen en houden van een praktische daginvulling. Samen met je collega's zorg je voor een soepel verloop van het logistieke proces. Start vandaag nog aan deze uitdaging en bouw aan jouw loopbaan in de regio Rosmalen.Over dit bedrijfDeze organisatie ontwikkelt en produceert hoogwaardige kunststofcomponenten en technische afdichtingen voor diverse industriële klanten. Het bedrijf combineert ouderwets vakmanschap met een modern machinepark. De werksfeer is informeel met korte communicatielijnen en een echte aanpakkersmentaliteit. Binnen het team staat het vinden van oplossingen voor de klant centraal. De werkplaats is schoon en technologisch goed uitgerust. Medewerkers krijgen hier de ruimte om hun technische vaardigheden optimaal in te zetten bij het bedienen van diverse CNC-gestuurde machines. Het werk is zeer gevarieerd, waarbij opdrachten variëren van kleine aantallen tot grote series. Dit zorgt voor een stabiele, betrouwbare werkomgeving waar medewerkers de kans krijgen om hun talenten verder te ontplooien.Functieomschrijving:Als magazijnmedewerker ben je een onmisbare schakel binnen het logistieke proces in Rosmalen. Je houdt je bezig met het inpakken van zendingen en het gereedmaken van materialen voor transport. Het intern verplaatsen van voorraden en het zorgvuldig klaarzetten van orders behoren tot jouw dagelijkse takenpakket. Hierbij maak je regelmatig gebruik van de heftruck om goederen efficiënt te verplaatsen.Naast de logistieke werkzaamheden voer je ook bewerkingen uit aan metalen en ijzerwaren, zoals het zagen van materialen. Je controleert binnengekomen goederen op kwaliteit en verwerkt deze administratief.",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-05",
@@ -58302,7 +59024,7 @@
     "languages": [
       "nl"
     ],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -59423,6 +60145,56 @@
     "uid": "83d11200bb0fdf61",
     "url": "https://pt.indeed.com/viewjob?jk=c3baed9cdf97d7bb"
   },
+  "83d72b5fe766a23a": {
+    "apply_channels": {
+      "emails": [
+        "mustapha@octa.nl",
+        "richelle.jansen@octa.nl"
+      ],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "OCTA Farmacie Groep",
+    "country": "NL",
+    "description": "**Wie zijn wij?**\n\nDe OCTA Farmacie Groep is een grote organisatie in de zorg, met meer dan 900 medewerkers in heel Nederland. OCTA bestaat uit groothandels, hubs (een soort kleine magazijnen) en meer dan 50 apotheken.\n\nJe gaat werken bij Fresco Farma, dat hoort bij OCTA.\n\nVanuit onze hubs pakken wij medicijnen voor onze eigen apotheken door het hele land. Zo zorgen we ervoor dat medicijnen veilig, op tijd en op de goede manier bij de apotheken aankomen.\n\n**Jouw rol**\n\nOnze vestiging in Heteren zoekt logistiek medewerkers die ons team komen versterken.\n\nJe gaat aan de slag met het sorteren, picken en packen van medicijnen zodat deze op de juiste wijze kunnen worden vervoerd naar ons apotheken in het land. Dit werk vereist weinig spierkracht. Wel nauwkeurigheid, staan en lopen.\n\nDe werkplek wordt nieuw ingericht en het is in de Farmacie. Dit betekent dat de werkomstandigheden erg goed zijn. Schoon, warm, veilig en gezond. Geen last van schadelijke geluiden of gevaarlijke stoffen.\n\n**Wat ga je doen?**\n\n- Sorteren van medicijnen\n\n- Picken en verpakken van orders\n\n- Klaarmaken van medicijnen voor verzending naar apotheken\n\n- Ervoor zorgen dat alles netjes en op tijd klaarstaat\n\n**Wat breng je mee?**\n\n- Nauwkeurigheid en oog voor detail\n\n- Bereidheid om te staan en te lopen\n\n- We willen graag dat er onderling (verbaal) gecommuniceerd kan worden in het NL.\n\n- Flexibiliteit en een positieve werkhouding\n\n**Wat bieden wij?**\n\n- Salaris van €2.600 – €2.800 per maand\n\n- Fulltimebaan, met uitzicht op een vast contract\n\n- Reiskostenvergoeding\n\n- Gratis parkeren\n\n- Doorgroeimogelijkheden\n\n- Werken in een schone en veilige omgeving\n\n- Pensioenregeling via a.s.r.\n\n- 8% vakantiegeld\n\n**Solliciteren**\n\nHeb je interesse of wil je meer weten?  \nStuur een mail naar **Mustapha Mourid** via **mustapha@octa.nl**.of naar Richelle Jansen (Corporate recruiter) via richelle.jansen@octa.nl.\n\nSalaris: €2.600,00 - €2.800,00 per maand\n\nArbeidsvoorwaarden:\n\n* Kerstpakket\n* Pensioen\n* Reiskostenvergoeding\n\nWerklocatie: Fysiek",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Heteren, GE, Netherlands",
+    "matched_keywords": [
+      "logistiek medewerker",
+      "sorter"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-06",
+    "score": 50,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-13e52218fe848f06",
+    "source_review": {},
+    "summary_ar": "الموقع: Heteren, GE, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Allround Logistiek Medewerkers -Farmacie",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "83d72b5fe766a23a",
+    "url": "https://nl.indeed.com/viewjob?jk=13e52218fe848f06",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "843e6ec7584fb60f": {
     "apply_channels": {
       "emails": [],
@@ -59693,7 +60465,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE212, DE218, DE21H",
@@ -60400,7 +61172,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Poštorná, JM, Czech Republic",
@@ -60995,7 +61767,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Bezau, V, Austria",
@@ -61203,7 +61975,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE600",
@@ -63074,7 +63846,7 @@
     "last_seen": "2026-11-07",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -63117,13 +63889,13 @@
     "company": "Kersten Hulpmiddelen",
     "country": "NL",
     "description": "**Logistiek Medewerker**\n------------------------\n\nLocatie: Haarlem\n\nSalaris: € 2.817,00 tot maximaal € 3.296,00 bruto per maand op basis van 38 uur per week.\n\nUren: 32-38u per week\n\n### **Jouw impact**\n\nBij Kersten Hulpmiddelen draait het om mensen. Als Logistiek Medewerker zorg jij ervoor dat hulpmiddelen op tijd en op de juiste plek zijn. Daarmee lever je een directe bijdrage aan de zorg en ondersteuning van cliënten die afhankelijk zijn van hulpmiddelen zoals rolstoelen, aangepaste fietsen en douchestoelen.\n\n### **Wat ga je doen?**\n\nIn deze rol ben je een belangrijke schakel in het logistieke proces.\n\n* Je zorgt dat hulpmiddelen en onderdelen correct en tijdig klaarstaan voor verzending\n* Je bereidt verzenddocumenten en labels voor\n* Je controleert zendingen op juistheid en volledigheid\n* Je boekt binnenkomende goederen in\n* Je zorgt voor een efficiënt ingericht en opgeruimd magazijn\n* Jij houdt overzicht: administratief en fysiek is duidelijk waar alles staat\n* Je communiceert met transporteurs en andere externe partijen\n* Je ondersteunt bij het laden en lossen van goederen\n\n### **Wat breng jij mee?**\n\n* MBO‑werk‑ en denkniveau (niveau 3 of 4), bij voorkeur in logistieke richting\n* Technische en/of logistieke affiniteit\n* Je werkt nauwkeurig en voelt je verantwoordelijk voor kwaliteit\n* Je schakelt makkelijk tussen verschillende werkzaamheden\n* Je neemt initiatief, ziet werk liggen en pakt dit zelfstandig op\n* Je biedt hulp waar nodig en vraagt zelf ook om hulp\n* Je denkt mee over hoe werkzaamheden slimmer en beter kunnen\n\n### **Werken bij Kersten**\n\nBij Kersten vinden we het belangrijk dat iedereen mee kan doen. We kijken naar jouw talenten en wat jij kunt bijdragen – niet naar leeftijd, achtergrond, gender of andere verschillen. Diversiteit maakt ons sterker en inclusie maakt ons beter.\n\nVanuit ons DNA hebben we extra aandacht voor mensen met een afstand tot de arbeidsmarkt. We bieden een veilige, respectvolle werkomgeving waarin je jezelf kunt zijn.\n\n### **Wat mag je van ons verwachten?**\n\n* Een functie met maatschappelijke betekenis\n* Een salaris tussen € 2.817 en € 3.296 bruto per maand (38 uur, peildatum 1 februari 2026)\n* 24 vakantiedagen en ADV volgens cao Motorvoertuigen‑ & Tweewielerbedrijf\n* Een uitstekende pensioenregeling via PMT (Kersten betaalt 2/3 van de premie)\n* Jaarlijks vrij op 5 mei\n* Een jaarlijkse inzetbaarheidsbonus van € 200 netto\n* Bijdrage aan je fitnessabonnement\n* Een fietsplan\n* Ruimte voor opleiding, coaching en e‑learning\n\n### **Klaar om bij te dragen?**\n\nWil jij werken in een logistieke rol waarin jouw werk er écht toe doet? Dan maken we graag kennis met je.\n\n*Wij waarderen directe sollicitaties. Acquisitie door bureaus en ZZP’ers wordt niet opgevolgd.*",
-    "detail_fetched_at": "2026-11-06",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -63560,13 +64332,15 @@
     "company": "BOKI Industries",
     "country": "CZ",
     "description": "BOKI Industries a.s. je úspěšná, ryze česká společnost, která se zabývá zakázkovou strojírenskou výrobou, zpracováním plechů a výrobou konvektorů. Do našeho skladu ve Zruči nad Sázavou hledáme nového kolegu/kolegyni na pozici SKLADNÍK.\n\n* Dohodou\n* Zruč nad Sázavou\n* Práce na plný úvazek (HPP)\n\nHledáme další posily do našeho týmu, budeš to ty?\n\nMáš rád/a věci pod kontrolou a víš, co kde leží? Jsi spolehlivý/á, zodpovědný/á a práce s vysokozdvižným vozíkem je pro tebe hračka? Pak hledáme právě TEBE!\n\n**Co tě u nás čeká?**\n\n* Akční prostředí: Nuda u nás nehrozí! Budeš mít na starosti příjem, uskladnění, vychystávání a expedici zboží.\n* Klíčová role: Bez tebe by se náš sklad neobešel! Budeš důležitým článkem našeho výrobního a logistického řetězce.\n* Práce s moderní technikou: VZV bude tvůj parťák! Pokud máš platný průkaz, jsi u nás vítán/a s otevřenou náručí.\n\n**Co od tebe očekáváme?**\n\n* Zkušenosti ze skladu: Už jsi někdy pracoval/a ve skladu a víš, jak to tam chodí? Skvělé! Tvoje zkušenosti u nás oceníme.\n* Řidičák na VZV: Bez něj to u nás nepůjde. Bezpečná a efektivní manipulace se zbožím je pro nás priorita.\n* Spolehlivost a pečlivost: Na tvou práci se musí dát spolehnout. Důslednost a smysl pro pořádek jsou u nás důležité.\n* Chuť do práce: Hledáme někoho, kdo se nebojí práce a je ochotný/á se učit novým věcem.\n* Týmový hráč: U nás táhneme za jeden provaz!\n\n**Co ti nabízíme:**\n\n* Profesionální zázemí\n* Zodpovědnou a perspektivní práci v dynamické a rozvíjející se české firmě\n* Možnost dalšího vzdělávání, profesního růstu a seberealizace\n* Odpovídající finanční ohodnocení podle kvality a výsledků odvedené práce\n* 5 týdnů dovolené\n* Příspěvek zaměstnavatele na stravování\n* Příspěvek na penzijní připojištění\n\na další benefity",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-05",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-07",
     "lifecycle": {
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "Zruč nad Sázavou, ST, Czech Republic",
@@ -65182,7 +65956,7 @@
     "title_en": "",
     "translated": false,
     "uid": "8e9a69904de6a6f0",
-    "url": "https://career55.sapsf.eu/career?career%5fns=job%5flisting&company=tomsgruppe&navBarLevel=JOB%5fSEARCH&rcm%5fsite%5flocale=en%5fUS&career_job_req_id=1122&selected_lang=pl_PL&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&browserTimeZone=America/Chicago&_s.crb=Qa9tvjrwXljn0JZ0ZBHExcfO3hqTKVirXagOlO6%2f%2fQE%3d",
+    "url": "https://career55.sapsf.eu/career?career%5fns=job%5flisting&company=tomsgruppe&navBarLevel=JOB%5fSEARCH&rcm%5fsite%5flocale=en%5fUS&career_job_req_id=1122&selected_lang=pl_PL&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&browserTimeZone=America/Chicago&_s.crb=%2fm8CkMik2gKaat8WTUaIt889SC09jh5iH82R%2fscD9EU%3d",
     "url_provenance": "",
     "url_verified": null
   },
@@ -65249,6 +66023,7 @@
     "company": "Decom",
     "country": "NL",
     "description": "Veiligheid eerst! Als Magazijnmedewerker bij Enexis, prioriteren we veilig werken. Met of zonder reachtruck, ben jij de sleutel tot soepele logistiek. Verwerk orders, verzamel artikelen zowel binnen als buiten en zorg voor betrouwbare voorraden. Doe mee en maak het verschil!Enexis heeft veiligheid voorop staan dus het allerbelangrijkste wat je gaat doen is veilig werken. Als Magazijnmedewerker ben je werkzaam in ons distributiecentrum en op het buitenterrein en ben je bezig met allerlei logistieke taken met of zonder reachtruck of zijlader. Aangezien de te lossen, te picken en te laden producten op het buitenterrein lang en of robuust zijn is het van belang dat je weet hoe om te gaan met een grotere last op de lepels van jouw heftruck of zijlader.Dit zijn jouw verantwoordelijkheden:Verwerken uitgaande orders, dit zijn grote en kleine colli'sVerzamelen van artikelen met behulp van een reachtruck, stapelaar of zijlader (5tonners, 7tonners)Lossen van inkomende zendingen met daarop artikelen die na controle de voorraad in moetenKlaarzetten van orders voor transportLaden van open vrachtwagens met een zijlader/heftruckVerrichten van voorraadtellingen zodat de voorraad betrouwbaar is.Verrichten van bijkomende werkzaamhedenOpruimen en schoonhouden van de werkplekZo pak jij het aanGedreven, goed kunnen werken in teamverband en lol hebben in je werk. Daarnaast ben je voor deze functie kwaliteits- en klantgericht, flexibel, accuraat en werk je op een veilige manier in het magazijn.Verder heb je:Gecertificeerd en aantoonbare ervaring met een EPT, hef- en reachtruckErvaring met magazijnwerkzaamheden en orderpickenGoede beheersing van de Nederlandse taalPre: ervaring met SAP/handscannersBereid tot het behalen van een zijlader certificaatSuper mooie baan bij Enexis in Veldhoven!!!",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -65256,7 +66031,7 @@
     "languages": [
       "nl"
     ],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -68074,7 +68849,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE948, DE94F",
@@ -68303,7 +69078,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Riezlern, V, Austria",
@@ -69307,13 +70082,15 @@
     "company": "ticodo GmbH",
     "country": "DE",
     "description": "**Stellenbeschreibung**\n\nAls Lagerhelfer (m/w/d) unterstützen Sie die Warenverteilung und sorgen dafür, dass Bestellungen sorgfältig zusammengestellt und für die weitere Bearbeitung vorbereitet werden. Sie arbeiten umsichtig mit Waren und Geräten und tragen zu geordneten Abläufen im Lager bei. Ihr Beitrag: Sorgfältig zusammengestellte Bestellungen erleichtern Ihren Kolleg:innen die anschließende Bearbeitung.\n\n**Aufgaben**\n\n* Unterstützen Sie die Warenverteilung und bewegen Sie Waren innerhalb des Lagers.\n* Stellen Sie Bestellungen anhand der vorliegenden Angaben zusammen und achten Sie auf eine sorgfältige Auswahl.\n* Bedienen Sie bei entsprechender Befähigung einen Gabelstapler und weitere geeignete Geräte umsichtig.\n* Halten Sie die Arbeitsabläufe bei der Kommissionierung geordnet und gehen Sie verantwortungsvoll mit Waren und Arbeitsmitteln um.\n\n**Qualifikationen**\n\nErforderlich: Sie arbeiten sorgfältig und umsichtig, können Bestellungen zuverlässig kommissionieren und bringen praktische Fähigkeiten für die Warenverteilung mit. Wünschenswert: Erfahrung im Umgang mit Gabelstaplern oder anderen schweren Geräten sowie zusätzliche Praxis in der Kommissionierung. Sie gehen verantwortungsvoll mit Waren und Arbeitsmitteln um und unterstützen eine strukturierte Zusammenarbeit im Lager.\n\nGehalt: 15,33€ - 16,00€ pro Stunde\n\nErwartete Arbeitsstunden: 40.0 pro Woche\n\nLeistungen:\n\n* Betriebsarzt/Betriebsärztin\n* Firmenevents\n* Kostenlose Getränke\n* Kostenloser Parkplatz\n* Weiterbildungsprogramme\n\nArbeitsort: Vor Ort",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-05",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-07",
     "lifecycle": {
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "Unna, NW, Germany",
@@ -70729,7 +71506,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE300",
@@ -72014,6 +72791,52 @@
     "translated": false,
     "uid": "9faa8248abaacf66",
     "url": "https://de.indeed.com/viewjob?jk=1edcec2fa159565d",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "a01d42514b15433a": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Biedronka",
+    "country": "PL",
+    "description": "Region: Sokołów Małopolski\n\n**TWÓJ ZAKRES OBOWIĄZKÓW**\n--------------------------\n\nW Biedronce wierzymy, że każdy ma szansę. Zachęcamy do aplikowania wszystkie osoby pełnoletnie, niezależnie od płci i niepełnosprawności.\n\n  \n\nAktualnie prowadzimy rekrutację na stanowisko **Magazynier / Magazynierka.**\n\n  \n\n**Sekcja kompletacji**\n\n* Kompletowanie towarów zgodnie z zamówieniami ze sklepów;\n* Praca z systemem głosowym voice-picking;\n* Obsługa wózka unoszącego do 30 cm.\n  \n\n**Sekcja załadunku**\n\n* Pobieranie dokumentów transportowych za pomocą skanera ręcznego;\n* Załadunek towarów do naczep;\n* Ocena jakości nośników transportowych (palety, kontenery chłodnicze);\n* Obsługa wózka unoszącego do 30 cm.\n  \n\n**Sekcja przyjęć towarów**\n\n* Przyjęcie, liczenie i kontrola towarów oraz opakowań za pomocą skanera ręcznego;\n* Rozładunek dostaw oraz wywożenie towarów w odpowiednie miejsca magazynowania;\n* Obsługa wózka unoszącego do 30 cm.\n  \n\n**Sekcja operacji wysokiego składowania**\n\n* Uzupełnianie lokalizacji towarów na regałach do 8m;\n* Obsługa wózka podnośnikowego (wymagane uprawnienia UDT);\n* Przestrzeganie zasad BHP, GMP, GHP i HACCP.\n  \n\n**Sekcja reklamacji i opakowań**\n\n* Rozładunek zwrotów i reklamacji ze sklepów;\n* Przyjęcie, liczenie, kontrola towarów i opakowań za pomocą skanera ręcznego;\n* Kontrola i przygotowanie towarów do zwrotu lub ponownej wysyłki;\n* Obsługa wózka unoszącego do 30 cm.\n  \n\n**Sekcja wsparcia pracy magazynu**\n\n* Obsługa owijarek;\n* Przeprowadzanie inwentaryzacji za pomocą skanera ręcznego;\n* Obsługa wózka unoszącego do 30 cm;\n* Dbanie o porządek i bezpieczeństwo w miejscu pracy.\n\n**NASZE WYMAGANIA**\n-------------------\n\n* Gotowość do pracy fizycznej w systemie zmianowym – również w nocy, weekendy i święta;\n* Nastawienie na pracę zespołową i współdziałanie z innymi;\n* Działanie zgodnie z jasnymi zasadami oraz korzystanie ze wsparcia Specjalistów i Liderów.\n  \n\nMile widziane:\n\n* Uprawnienia UDT;\n* Aktualne badania sanitarno-epidemiologiczne;\n* Doświadczenie w pracach magazynowych.\n  \n\n**Oferujemy:**\n\n  \n\n* Godziny nocne rozliczane po wyższych stawkach niż ustawowe;\n* Posiłek w trakcie dnia pracy;\n* Dodatkowe wsparcie finansowe m.in.: zasilenia e-kodów środkami finansowymi do wykorzystania na zakupy w Biedronce i Hebe, vouchery rabatowe, zniżki na oferty znanych marek, jak np.: cateringi dietetyczne, hotele, atrakcje dla dzieci i wiele więcej;\n* Ponad 20 benefitów, m.in.: dostęp do prywatnej opieki medycznej na preferencyjnych warunkach, dostęp do kart sportowych na preferencyjnych warunkach, coroczne badania krwi, bezzwrotne wsparcie finansowe dla tych, którzy zmagają się z nagłymi problemami losowymi, nieoprocentowana pożyczka na cele mieszkaniowe, dostęp do ubezpieczenia na życie na preferencyjnych warunkach, paczka świąteczna dla pracowników i ich dzieci;\n* Stabilną pracę u największego pracodawcy w Polsce: 30 lat na rynku, ponad 85 tysięcy pracowników, sklepy w ponad 1300 miejscowościach;\n* Jasny zakres obowiązków i oceny pracy;\n* Jasna ścieżka kariery: rozwój wsparty procesami oceny, przeglądami potencjału i programami liderskimi.\n  \n\n**Jak wygląda proces rekrutacji?**\n\n  \n\n* Prześlij aplikację przez nasz system (konieczność posiadania adresu e-mailowego).\n\n* Na Twój e-mail wyślemy grę rekrutacyjną, której wypełnienie zajmie 5–7 minut.\n\n* Po pozytywnej selekcji i weryfikacji zgłoszenia, Rekruter skontaktuje się z Tobą telefonicznie i przeprowadzi wstępną rozmowę rekrutacyjną i zaprosi na spotkanie w Centrum Dystrybucyjnym połączone z obchodem.\n\n* Po spotkaniu otrzymasz od nas informację zwrotną, niezależnie od decyzji.\n\nTu znajdziesz link do wyciągu z Regulaminu Wynagradzania: https://pracawbiedronce.pl/wyciag-z-regulaminu-wynagradzania-jeronimo-martins-polska/\n\n  \n\nWyniki testu przetwarzane są przez Spółkę na podstawie prawnie uzasadnionego interesu Administratora (art. 6 ust. 1 lit. f RODO).\n  \nPodczas rozpatrywania podań w ramach procesu rekrutacji, indywidualne decyzje w sprawie Kandydatów mogą być podejmowane w sposób zautomatyzowany, wspomniane przetwarzanie jest konieczne do celów związanych z przetwarzaniem danych przed zawarciem umowy (art. 22 ust. 2 lit. c RODO).",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Sokołów Małopolski, PP, Poland",
+    "matched_keywords": [
+      "magazynier"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-06",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-1f176496416ba9ee",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Magazynier (m/k) Biedronka I Sokołów Małopolski IMile widziane osoby z niepełnosprawnością",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "a01d42514b15433a",
+    "url": "https://careers.jeronimomartins.com/Biedronka/job/Soko%C5%82%C3%B3w-Ma%C5%82opolski-Magazynier-%28mk%29-Biedronka-I-Soko%C5%82%C3%B3w-Ma%C5%82opolski-IMile-widziane-osoby-z-niepe%C5%82nosprawno%C5%9Bci%C4%85-Podk/1376011155/",
     "url_provenance": "",
     "url_verified": null
   },
@@ -73531,7 +74354,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DED45",
@@ -74115,7 +74938,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Berlin, BE, Germany",
@@ -77083,7 +77906,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -78216,7 +79039,8 @@
     },
     "company": "",
     "country": "NL",
-    "description": "Zoek jij een actieve baan waarbij je fysiek bezig bent in een moderne omgeving? Wil jij bijdragen aan een soepel verloop van het logistieke proces en deel uitmaken van een hecht team? Deze vacature biedt jou de kans om aan de slag te gaan in een omgeving waar jouw inzet echt telt. Je krijgt de ruimte om jezelf te verbeteren en nieuwe vaardigheden op te doen binnen een groeiende organisatie. Zie jij jezelf al werken in deze rol? Dan kijken wij uit naar jouw reactie op deze interessante positie.Over dit bedrijfDit bedrijf hecht grote waarde aan een fijne werksfeer waarin iedereen gelijk is. Je komt terecht in een organisatie waar de lijnen kort zijn en de onderlinge banden sterk. Hier vieren we successen gezamenlijk en krijgt iedereen de ruimte om te groeien. De werkgever biedt een stabiele basis en kijkt echt naar de persoon achter de medewerker. Door de prettige werktijden ben je op vrijdagmiddag al vrij, waardoor je altijd een lang weekend hebt. Het is een uitstekende plek voor mensen die houden van een open cultuur en samen mooie resultaten willen neerzetten binnen een moderne magazijnomgeving.Functieomschrijving:Als magazijnmedewerker ben je een onmisbare schakel in het logistieke proces. Jouw voornaamste taak is het verzamelen en verwerken van diverse goederenstromen. Je werkt met moderne digitale systemen en handscanners om bestellingen foutloos gereed te maken voor transport. Elke dag help je mee om de logistieke planning te realiseren en zorg je voor een opgeruimde werkvloer.Naast het picken van orders houd je je bezig met het controleren van de kwaliteit en het correct inpakken van producten. Je ondersteunt bij het beheer van de voorraad en zorgt ervoor dat inkomende goederen op de juiste plek belanden. Omdat je in een modern magazijn werkt, zijn de processen goed gestroomlijnd. Je krijgt volop kansen om andere taken in het logistieke proces te leren, zodat je als magazijnmedewerker breed inzetbaar wordt binnen de organisatie.Functievereisten:",
+    "description": "Ben jij op zoek naar een actieve baan waarbij je de hele dag in beweging bent? Als magazijnmedewerker speel je een onmisbare rol bij het verwerken van bestellingen. Jouw inzet zorgt ervoor dat klanten hun pakketten op tijd ontvangen. Het is een mooie kans om bij te dragen aan een soepel proces in een omgeving waar jouw inspanningen echt worden gewaardeerd. Geniet van de vrijheid in je taken en ontwikkel jezelf binnen een hecht team. Jouw nieuwe uitdaging start hier, waarbij elke dag weer voorbij vliegt door de fijne werksfeer en de gezamenlijke doelen die we met elkaar bereiken.Over dit bedrijfOnze opdrachtgever richt zich op slimme methodes voor verkoopondersteuning en klantcontact. In deze omgeving staan data en resultaten centraal voor uiteenlopende organisaties. Je komt terecht in een ambitieuze groep mensen die van aanpakken houdt en plezier belangrijk vindt. Er is veel aandacht voor jouw persoonlijke groei door middel van gerichte trainingen en coaching. De cultuur is open en direct, waarbij iedereen bijdraagt aan het gezamenlijke succes. In de moderne kantooromgeving geniet je van uitstekende koffie en leuke teamuitjes. Het is een plek waar verantwoordelijkheid en kwaliteit voorop staan, en waar successen altijd uitgebreid worden gevierd met het hele team.Functieomschrijving:Als magazijnmedewerker in Valkenswaard ben je de spil in het logistieke proces. Jouw dagelijkse taken bestaan uit het zorgvuldig verzamelen van diverse goederen en het gereedmaken van zendingen voor transport. Je controleert binnengekomen producten op hun kwaliteit en kijkt of de aantallen kloppen met de pakbonnen. Mocht je beschadigingen of afwijkingen tegenkomen, dan meld je dit direct bij de juiste collega's.Daarnaast draag je bij aan een geordende werkomgeving door het magazijn netjes te houden. Omdat je in deze magazijnmedewerker functie veel eigen verantwoordelijkheid krijgt, denk je actief mee over hoe processen efficiënter kunnen verlopen. Je werkt in een magazijnmedewe",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -78224,8 +79048,9 @@
     "languages": [
       "nl"
     ],
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-07",
     "lifecycle": {
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "NL414",
@@ -78235,7 +79060,7 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-10-24",
+    "posted_date": "2026-10-29",
     "score": 49,
     "signals": [
       "unskilled_role_match",
@@ -78244,14 +79069,17 @@
       "fresh_posting"
     ],
     "source": "eures",
-    "source_id": "NWU4ZTUyMGQtYWQxYy1iN2M4LWUwNjMtNjg5M2IyMGFmMTYyIDQy",
-    "summary_ar": "عبارات وردت في نص الإعلان: يذكر الإعلان: وكالة/إعادة توطين\nالموقع: NL414\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "source_id": "NWVmM2JkZDYtOGMzMy1lZmIyLWUwNjMtNjg5M2IyMGFmODJkIDQy",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: NL414\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazijnmedewerker Valkenswaard",
     "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "ad249a0f445acdf8",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWU4ZTUyMGQtYWQxYy1iN2M4LWUwNjMtNjg5M2IyMGFmMTYyIDQy?lang=en"
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWVmM2JkZDYtOGMzMy1lZmIyLWUwNjMtNjg5M2IyMGFmODJkIDQy?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "ad281a2d93b7dce5": {
     "apply_channels": {
@@ -79062,7 +79890,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE948",
@@ -79844,7 +80672,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Vyšší Brod, JC, Czech Republic",
@@ -79937,7 +80765,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Mautern, N, Austria",
@@ -80641,7 +81469,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE922, DE948, DE94D, DE94F",
@@ -82785,7 +83613,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Mullingar, WH, Ireland",
@@ -84425,7 +85253,7 @@
     "languages": [],
     "last_seen": "2026-11-07",
     "lifecycle": {
-      "missed_runs": 0,
+      "missed_runs": 1,
       "status": "active"
     },
     "location": "Budakalász, PE, Hungary",
@@ -90164,6 +90992,63 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "c6c411374225c204": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "",
+    "country": "NL",
+    "description": "140.000 Reviews + 400.000 tevreden klanten Voor 23:59 Besteld = Morgen in huis!** Visdeal Visdeal in een nieuw jasje! Een frisse nieuwe look. - Vacature - Magazijnmedewerker (Zondag) Ben jij op zoek naar een bijbaan in ons magazijn? Wil je op zondagen werken als inpakmedewerker, orderpicker, of pakketsorteerder bij de grootste hengelsportwebshop van Europa? Dan hebben wij de perfecte functie voor jou! Ons bijna 10.000m2 grote hengelsportmagazijn in Vianen draait op volle toeren en wij zoeken extra handen om te zorgen dat alle bestellingen en inkomende goederen snel en netjes worden verwerkt. Visdeal is met verschillende webshops in een groot aantal Europese landen actief, zoals bijvoorbeeld Nederland, Duitsland, Frankrijk en meer. Met scherpe dagelijkse hengelsportdeals en acties maken we vissen toegankelijk en betaalbaar voor iedereen. Ons doel is om marktleider te worden in heel Europa. Bij Visdeal kom je terecht in een team van enthousiaste en hardwerkende collega's waar werkplezier voorop staat. Wil jij als magazijnmedewerker meebouwen aan onze internationale groei en deel uitmaken van een team dat barst van de energie en ambitie? Dan is Visdeal de plek voor jou! Wat ga je doen? - Bestellingen verzamelen (picken) en inpakken - Pakketten verzendklaar maken - Binnengekomen goederen tellen en controleren - Voorraad aanvullen in het magazijn Wat zoeken wij? - Je werkt nauwkeurig en steekt graag de handen uit de mouwen - Je bent minimaal 2 zondagen per maand beschikbaar. - Je woont in Vianen of omgeving - Je spreekt Nederlands of Engels - Vanaf 16 jaar en ouder Wat bieden wij? - Salaris €7,73 tot €17,54 (bruto inclusief vakantiedagen en vakantiegeld) - 150% toeslag op zondagen - Directe uitbetaling van vakantiegeld en -dagen - Pensioenregeling - Zondagse werktijden van 09:00 - 17:00 - Goede bereikbaarheid met auto, fiets of scooter - Kosteloos parkeren - Personeelskorting op ons assortiment - Soort dienstverband: Flexib...",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [
+      {
+        "ar": "عامل تجهيز طلبيات",
+        "en": "order picker",
+        "term": "orderpicker"
+      }
+    ],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL350",
+    "matched_keywords": [
+      "ett",
+      "magazijnmedewerker",
+      "orderpicker",
+      "picker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-13",
+    "score": 57,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country"
+    ],
+    "source": "eures",
+    "source_id": "NWRiMTA5Y2QtMTI0Yy02Yzk4LWUwNjMtNjg5M2IyMGE1MzhkIDQy",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: NL350\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Magazijnmedewerker (Zondag)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "c6c411374225c204",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWRiMTA5Y2QtMTI0Yy02Yzk4LWUwNjMtNjg5M2IyMGE1MzhkIDQy?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "c6e7f8933ed2eb83": {
     "apply_channels": {
       "emails": [],
@@ -90663,8 +91548,8 @@
     ],
     "last_seen": "2026-11-07",
     "lifecycle": {
-      "dead_checks": 0,
-      "last_live_check": "2026-11-07T03:38:14+00:00",
+      "dead_checks": 1,
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -93353,7 +94238,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Katsch an der Mur, ST, Austria",
@@ -94012,12 +94897,13 @@
     "company": "BHC International s.r.o.",
     "country": "CZ",
     "description": "**O nás**\n---------\n\nJsme velkoobchod s dlouholetým působením na trhu v oblasti prodeje kancelářské techniky a souvisejícího spotřebního materiálu. Do našeho skladu v Bečvárech hledáme kolegu na pozici skladníka.\n\n**Náplň práce:**\n----------------\n\n* příjem a manipulace se zbožím\n* příprava zboží k expedici\n* obsluha provozu\n* související administrativa\n\n**Co od Vás očekáváme:**\n------------------------\n\n* fyzickou zdatnost\n* spolehlivost\n* samostatný přístup k práci\n\n**Co Vám můžeme nabídnout:**\n----------------------------\n\n* jednosměnný provoz PO - PÁ\n* pracovní dobu od 8 do 16.30 hod\n* odpovídající platové ohodnocení\n* zázemí stabilní firmy\n* pracovní pomůcky / oblečení\n* menší přátelský kolektiv\n* nástup možný ihned\n\nPokud Vás nabídka zaujala, pošlete nám svůj životopis. Těšíme se na Vás!\n\n  \n  \n\n**Benefity**\n------------\n\n* Dovolená navíc\n* Pracovní zařízení (mobil, PC, notebook...)\n* Přátelské prostředí",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -96552,13 +97438,15 @@
     "company": "KGHM International Ltd.",
     "country": "PL",
     "description": "**MERCUS Logistyka Sp. z o.o.**\n\nMercus Logistyka sp. z o.o. od ponad 30 lat buduje swoją pozycję na rynku, jako: - operator logistyczny KGHM Polska Miedź S.A. i Spółek Grupy Kapitałowej KGHM Polska Miedź S.A., - wiodący partner realizujący sprzedaż materiałów, towarów i usług będących w obrocie z Grupą Kapitałową KGHM na rzecz rynku zewnętrznego, z zachowaniem najwyższych standardów jakości i konkurencyjności, Producent wiązek przewodów elektrycznych i okablowań dla producentów sektora elektroenergetycznego, wysokich technologii i biotechnologii oraz przewodów hydraulicznych pod potrzeby m.in. maszyn górniczych. Doświadczony przewoźnik osób w ruchu krajowym i zagranicznym.\n\n**Jednostka organizacyjna:** MERCUS Logistyka Sp. z o.o., Magazyn Odzieżowy M050\n\n**Poszukujemy osoby na stanowisko\\*:**\n\n**Magazynier**\n\n**Miejsce pracy:** Polkowice, ul. Kopalniana 11\n\n**Twój zakres obowiązków:**\n\n* przyjmowanie dostaw: rozładunek towarów, sprawdzanie ich ilości i stanu oraz wprowadzanie danych do systemu\n* przechowywanie: rozmieszczanie towarów na regałach zgodnie z zasadami logistyki (np. FIFO) i ich zabezpieczanie\n* kompletowanie i wysyłka: zbieranie produktów według zamówień, pakowanie, etykietowanie i załadunek do transportu\n* prace kontrolne: udział w inwentaryzacjach, liczenie stanów magazynowych oraz dbanie o czystość i porządek w strefach roboczych\n* obsługa wózka jezdniowego i urządzeń transportu bliskiego\n* dbałość o przestrzeganie zasad BHP\n\n**Nasze wymagania:**\n\n* wykształcenie - zasadnicze zawodowe/branżowe lub inne\n* wymagany staż - 12 miesięcy\n* uprawnienia UDT do kierowania wózkiem jezdniowym\n* umiejętność pracy w zespole\n* dbałość o realizację zadań\n\n**Mile widziane:**\n\n* znajomość obsługi programu SAP\n\n**OPIEKA ZDROWOTNA**\n\nAbonamentowa opieka medyczna\n\n**UBEZPIECZENIE NA ŻYCIE**\n\nGrupowe ubezpieczenie na życie\n\n**PAKIET DLA RODZINY**\n\nDopłata do żłobków i przedszkoli\n\nDofinansowanie wypoczynku dla dzieci\n\nEkwiwalent na pokrycie wydatków szkolnych\n\n**PRACOWNICZY PROGRAM EMERYTALNY**\n\nPracowniczy Program Emerytalny\n\n**IMPREZY KULTURALNO-OŚWIATOWE**\n\nDofinansowanie do imprez kulturalno-oświatowych\n\n**DOJAZDY DO PRACY**\n\nDofinansowanie dojazdów do pracy\n\nZorganizowany transport do pracy\n\n**SPORT I REKREACJA**\n\nDofinansowanie do karty Multisport lub Medicover\n\nDofinansowanie do imprez sportowo-rekreacyjnych\n\n**POŻYCZKI**\n\nPracownicza Kasa Zapomogowo-Pożyczkowa\n\nPożyczka na cele mieszkaniowe\n\n**SZKOLENIA I ROZWÓJ**\n\nSzkolenia oraz inne formy podnoszenia kwalifikacji zawodowych\n\n**ATRAKCYJNE WYNAGRODZENIE**\n\nNagroda urlopowa\n\nNagroda świąteczna\n\nNagroda jubileuszowa\n\nOdprawa emerytalno-rentowa zgodnie z ZUZP\n\n* Nazwa stanowiska, niezależnie od formy gramatycznej, odnosi się do wszystkich osób, bez względu na płeć.\n\nJeśli zainteresowała Cię nasza oferta i spełniasz wymagania,\n\nW sprawie zakwalifikowania do kolejnego etapu rekrutacji skontaktujemy się z Tobą do dnia 30.11.2026 r.",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-03",
+    "last_seen": "2026-11-07",
     "lifecycle": {
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "Polkowice, DO, Poland",
@@ -96569,7 +97457,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-29",
-    "score": 46,
+    "score": 43,
     "signals": [
       "unskilled_role_match",
       "tier_1_country",
@@ -96577,6 +97465,7 @@
     ],
     "source": "jobspy_indeed",
     "source_id": "in-e6b42bd2cb718444",
+    "source_review": {},
     "summary_ar": "الموقع: Polkowice, DO, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magazynier",
     "title_ar": "أمين مستودع",
@@ -97535,6 +98424,54 @@
     "translated": false,
     "uid": "d7512c72913e95cd",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM3MDA4NiAxMjE?lang=en"
+  },
+  "d76699df9bbaed66": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "B & W Personal GbR Michael Braune Sylvia Weis",
+    "country": "DE",
+    "description": "Wir suchenLagerhelfer (m/w/d) in Wurzen gesuchtWurzen - Vollzeit, Schicht / Nacht / Wochenendeab sofortWillkommen bei B&W Personal – Ihr Partner für professionelle Personalvermittlung und maßgeschneiderte Personallösungen!B&W Personal ist ein dynamisches und zukunftsorientiertes Unternehmen, das sich auf die Vermittlung von qualifizierten Fachkräften und die Bereitstellung innovativer Personaldienstleistungen spezialisiert hat. Unser Ziel ist es, Unternehmen dabei zu unterstützen, die besten Talente zu finden und gleichzeitig Bewerbern neue berufliche Perspektiven zu bieten. Dabei legen wir großen Wert auf eine enge Zusammenarbeit mit unseren Kunden und eine persönliche Betreuung unserer Kandidaten.Unsere Unternehmenskultur zeichnet sich durch Offenheit, Vertrauen und eine starke Teamorientierung aus. Bei uns wird jeder Mitarbeitende als wertvolles Mitglied gesehen, das aktiv zur Entwicklung und zum Erfolg unseres Unternehmens beiträgt. Wir fördern ein Arbeitsumfeld, in dem Ideen ausgetauscht werden, Eigeninitiative geschätzt wird und der Erfolg des Einzelnen als Erfolg des gesamten Teams gefeiert wird.Wenn Sie Teil eines engagierten und freundlichen Teams werden möchten, das es sich zur Aufgabe gemacht hat, Menschen und Unternehmen zusammenzubringen, freuen wir uns auf Ihre Bewerbung!Für unseren Kunden sind wir am Standort Wurzen auf der Suche nach einem Lagerhelfer (m/w/d).Dein Aufgabengebiet als Lagerhelfer (m/w/d) in Wurzen gesucht- Reinigung der Geräte vor der Auslieferung, teilweise auch in Höhen über 2 Metern- Sicheres Verpacken der Geräte mit Stretch- und Schweißfolie- Einbau und Austausch von Filtern- Zusammenstellung und Bereitstellung der benötigten Unterlagen- Einsatz der vorhandenen Transport- und Hilfsmittel- Bedienung verschiedener Reinigungsgeräte sowie fachgerechter Einsatz der Reinigungsmaterialien- Dokumentation abgeschlossener Aufträge in den vorgesehenen IT-Systemen- Eigenständige Qualitätskontrolle nach den geltenden Arbeitsanweisungen- Sicherstellung der vorgegebenen Qualitätsanforderungen- Aktive Mitarbeit bei der kontinuierlichen Verbesserung von Arbeitsabläufen und ProzessenIhr Profil als Lagerhelfer (m/w/d) in Wurzen gesucht- Abgeschlossene gewerbliche Ausbildung- Erfahrung im Umgang mit Einschweißbrennern von Vorteil- Kenntnisse im Umgang mit Flurförderzeugen wünschenswert- Bereitschaft zur Arbeit im 2-Schicht-System- Bereitschaft zu einer Wochenarbeitszeit von bis zu 42 Stunden- Führerschein der Klasse B sowie eigener PKW zwingend erforderlich- Sicherer Umgang mit MS Office sowie Kenntnisse in ERP-Systemen von Vorteil- Teamfähigkeit, selbstständige Arbeitsweise und ein hohes Maß an Engagement und ZuverlässigkeitHä? Passt doch gar nicht!Du möchtest eigentlich gerne etwas anderes tun, aber auch Deine Berufserfahrung nutzen?Wir suchen Quereinsteiger mit Deinen Kenntnissen. Alles, was Du dafür wissen musst, lernst Du bei uns in Wurzen.Das ist uns sehr wichtigWir haben einen sehr hohen Anspruch an unseren Kundenservice.Offenheit, Freundlichkeit und Geduld sollten daher zu Deinen Grundeigenschaften gehören. Der Umgang mit den unterschiedlichsten Menschen bereitet Dir Freude.Durch unsere Entwicklungsgeschwindigkeit bleibt die Arbeit immer interessant. Daher ist es wichtig, dass Du gerne konstant Neues lernst.Vorteile in Wurzen- Unbefristetes Arbeitsverhältnis auf Grundlage des GVP-Tarifvertrags- Attraktive, übertarifliche Vergütung- Urlaubs- und Weihnachtsgeld- Geplante Übernahme durch unser Kundenunternehmen- Moderne und angenehme Arbeitsumgebung- Kurze Entscheidungswege sowie persönliche und zuverlässige Betreuung durch Ihren PersonaldienstleisterSo geht es weiterBewirb Dich bitte direkt online als Lagerhelfer (m/w/d) in Wurzen gesucht in Wurzen, indem Du auf den Jetzt-auf-diese Stelle-bewerben-Button klickst.Nutze bei Fragen vorab die Kontaktdaten Deines Ansprechpartners.Wir vereinbaren einen Telefontermin für ein kurzes Interview. Anschließend lernen wir uns persönlich kennen und besprechen alle Einzelheiten.Du möchtest wechseln? Das bleibt unter uns!- Falls Du Dich in einem ungekündigten Arbeitsverhältnis befindest, sichern wir Dir natürlich höchste Vertraulichkeit Deiner Bewerbung zu.- Telefoninterviews und Vorstellungsgespräche gerne auch nach Feierabend oder am Wochenende.Klingt das gut?Dann bewirb Dich jetzt als Lagerhelfer (m/w/d) in Wurzen gesucht in Wurzen.Klicke direkt unten auf den Button.Wir freuen uns auf Dich!",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [
+      "de"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "DED52",
+    "matched_keywords": [
+      "lagerhelfer"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-06",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTg4MjItazYwOTEyLjIyMjctUyAx",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Lagerhelfer (m/w/d) in Wurzen gesucht (Lager- und Transportarbeiter/in)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "d76699df9bbaed66",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTg4MjItazYwOTEyLjIyMjctUyAx?lang=en",
+    "url_provenance": "",
+    "url_verified": null
   },
   "d781c913d399763c": {
     "apply_channels": {
@@ -98678,7 +99615,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Görlitz, SN, Germany",
@@ -99103,7 +100040,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Pelkosenniemi, F11, Finland",
@@ -99227,6 +100164,56 @@
     "translated": false,
     "uid": "da7ef2c299ce8cae",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MjA2MTAgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "da9268527c69e06e": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "",
+    "country": "NL",
+    "description": "Westerduin - › Medewerker Magazijn €2.700 - €3.000 Elst ⏰ 40 uur Fulltime Logistiek Schone werkomgeving Werken in een hecht team Mooi product Over de functie Heb jij ervaring in de logistiek en voel jij je thuis in een magazijnomgeving? Ben je daarnaast op zoek naar een functie met kans op een vast dienstverband? Lees dan snel verder! Als magazijnmedewerker speel je een belangrijke rol binnen het logistieke proces. Jij zorgt ervoor dat goederen op de juiste manier worden verwerkt en opgeslagen. Je werkzaamheden bestaan onder andere uit: - Laden en lossen van vrachtwagens met behulp van een heftruck; - Transporteren en opslaan van goederen binnen het magazijn; - Verzamelen van bestellingen en verzendklaar maken van orders; - Controleren van inkomende en uitgaande goederen en voorraadniveaus; - Zorgen voor een nette, veilige en georganiseerde werkomgeving. Je komt terecht in een klein team van drie collega's. Samen zijn jullie verantwoordelijk voor een efficiënt verloop van alle magazijnwerkzaamheden. De functie wordt uitgevoerd in een dagdienstrooster. Jouw nieuwe werkplek Je gaat aan de slag bij een organisatie in Elst die gespecialiseerd is in het produceren van maatwerkproducten voor de zonweringsindustrie. Binnen het bedrijf heerst een informele werksfeer en staan samenwerking en collegialiteit centraal. De locatie is eenvoudig bereikbaar vanuit onder andere Nijmegen en Arnhem. Daarnaast bevindt het bedrijf zich op korte afstand van station Elst. Dit bieden wij jou - Een bruto maandsalaris tussen €2.700 en €3.000; - Kans op een vast contract bij de opdrachtgever; - 25 vakantiedagen per jaar; - 8% vakantiegeld; - Pensioenopbouw vanaf je eerste werkdag; - Werken in dagdienst met stabiele werktijden; - Gratis veiligheidsschoenen via Westerduin. Dit vragen wij van jou - Je beschikt over een geldig heftruckcertificaat; - Je beheerst de Nederlandse en/of Engelse taal; - Je neemt graag initiatief en hebt een groot ve...",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL226",
+    "matched_keywords": [
+      "ett",
+      "magazijnmedewerker",
+      "magazijnwerk"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-10",
+    "score": 52,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country"
+    ],
+    "source": "eures",
+    "source_id": "NWQ3NGIwNDYtNGU1OS05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: NL226\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Medewerker Magazijn",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "da9268527c69e06e",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ3NGIwNDYtNGU1OS05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -99374,13 +100361,13 @@
     "company": "Perla Polska Sp. z o.o. Sp. Komandytowa",
     "country": "PL",
     "description": "**Praca zmianowa | Umowa o pracę | Uprawnienia UDT I WJO | Wdrożenie do pracy | Podstawa + premia**\n\n  \n\n**JAK WYGLĄDA PRACA?**\n\nPracujesz w zespole magazynowym odpowiedzialnym za przyjmowanie, przechowywanie i sprawny przepływ surowców niezbędnych do bieżącej produkcji.\n\nTwoja praca ma bezpośredni wpływ na terminowe zaopatrzenie produkcji i ciągłość procesów w naszym zakładzie.\n\n  \n\nNie musisz znać wszystkich naszych procesów od początku – zapewniamy wdrożenie i przeszkolenie do pracy na stanowisku.\n\n  \nNA CZYM POLEGA PRACA?\n\nNa tym stanowisku będziesz:\n\n* przyjmować i wydawać surowce wykorzystywane w produkcji,\n* transportować i dostarczać surowce na potrzeby poszczególnych działów produkcyjnych,\n* obsługiwać wózki widłowe, w tym wózki jezdniowe podnośnikowe specjalizowane,\n* kontrolować zgodność dostaw z dokumentacją,\n* dbać o prawidłowe rozmieszczenie i składowanie surowców w magazynie,\n* monitorować stany magazynowe i zgłaszać ewentualne niezgodności,\n* współpracować z działem produkcji oraz innymi pracownikami magazynu,\n* dbać o porządek i bezpieczeństwo w miejscu pracy.\n\n  \nKOGO SZUKAMY?\n\n* uprawnienia UDT kategorii I WJO,\n* gotowość do pracy zmianowej,\n* dokładność i odpowiedzialność,\n* dobra organizacja pracy,\n* umiejętność współpracy w zespole,\n* zaangażowanie i sumienność.\n\n  \n\n**Mile widziane:**\n\n* doświadczenie w pracy magazynowej,\n* doświadczenie w obsłudze magazynu surowców,\n* doświadczenie w pracy w zakładzie produkcyjnym.\n\n  \nCO OFERUJEMY?  \n\n* umowę o pracę od pierwszego dnia,\n* terminowo wypłacane wynagrodzenie (podstawa+premia)\n* prywatną opiekę medyczną,\n* możliwość dołączenia do ubezpieczenia grupowego,\n* zniżki na półkolonie i ferie zimowe dla dzieci w Klubie Sportowym Perla,\n* bonus świąteczny,\n* zniżkę na produkty firmowe,\n* wdrożenie i wsparcie na stanowisku pracy.\n\n**NASZA FIRMA**\n\n  \n\n**PERLA** to firma spożywcza ze Słupska specjalizująca się w produkcji gotowych dań i przekąsek chłodzonych. W naszych zakładach (Głobino, Słupsk) powstają m.in. hummusy, antipasti, sałatki, wrapy, kanapki i inne produkty dostępne w dużych sieciach handlowych w Polsce i na rynkach zagranicznych.\n\n  \n\n**PERLA to:**\n\n* ponad **1500 pracowników**,\n* **4 fabryki**,\n* produkty obecne na **5 kontynentach**,\n* ponad **20 lat doświadczenia**.\n\n  \n\nZa gotowym produktem stoją zgrane zespoły! Dołącz do jednego z nich.",
-    "detail_fetched_at": "2026-11-06",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-03",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -99392,7 +100379,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-03",
-    "score": 44,
+    "score": 40,
     "signals": [
       "unskilled_role_match",
       "tier_1_country",
@@ -100181,13 +101168,13 @@
     "company": "ALDI",
     "country": "PL",
     "description": "**Twoje zadania**\n-----------------\n\n**Twoje zadania**\n\nNa stanowisku magazyniera (m/k/x):\n\n* pakujesz towary zgodnie z zamówieniami,\n* przygotowujesz towar do wysyłki,\n* opisujesz i zabezpieczasz palety,\n* bierzesz udział w inwentaryzacjach i innych pracach magazynowych,\n* dbasz o porządek w miejscu pracy.\n\n**Twoje wynagrodzenie**\n\n* ¾ etatu - **4 275,00 zł + premia do 1875 zł brutto,**\n* ½ etatu - **2 850,00 zł + premia do 1250 zł brutto,**\n* ¼ etatu - **1 425,00 zł + premia do 625 zł brutto.**\n\n**Premia** **już od pierwszego miesiąca w zależności od indywidualnych wyników kompletacji.**\n\n**Nasze oczekiwania**\n---------------------\n\n**Nasze oczekiwania**\n\nAplikuj do nas na stanowisko magazyniera (m/k/x), jeśli:\n\n* możesz pracować w systemie zmianowym (również w nocy) i w weekendy,\n* lubisz pracować w zespole,\n* dokładnie wykonujesz swoją pracę,\n* masz prawo jazdy.\n\nNie wymagamy doświadczenia, wszystkiego Cię nauczymy!\n\n**To oferujemy**\n----------------\n\n* Umowę o pracę od pierwszego dnia pracy,\n* Umowę na czas nieokreślony po roku,\n* Gwarantowane podwyżki stażowe – pierwszą dostaniesz już po roku pracy,\n* Dodatkową premię za pakowanie towaru,\n* Kartę przedpłaconą z comiesięcznym zasileniem – wykorzystasz ją w sklepach ALDI,\n* Możliwości rozwoju – możesz brać udział w rekrutacjach wewnętrznych i szkoleniach,\n* Benefity dla Ciebie i Twojej rodziny – mamy prywatną opiekę medyczną już od 1 zł, darmowy pakiet sportowy, ubezpieczenie na życie,\n* Bonus finansowy – jeśli polecisz pracownika do ALDI.\n\n**O ALDI**\n----------\n\nJesteśmy jedną z wiodących firm handlowych w Europie. Od ponad 110 lat sprawiamy, że zakupy są tak proste, jak to tylko możliwe – wszędzie i dla każdego.\n\n  \n\n**Compliance**  \n  \nJeśli chcesz zapoznać się z naszą procedurą zgłoszeń wewnętrznych, wejdź na stronę https://do.aldi.pl/compliance\n\n**Proces rekrutacji**\n---------------------\n\n**Złóż aplikację**\n\nKliknij przycisk aplikuj po prawej stronie w tym ogłoszeniu i wypełnij formularz.\n\n**Poczekaj na kontakt**\n\nDzwonimy do wybranych kandydatów i zapraszamy ich na spotkanie rekrutacyjne.\n\n**Spotkaj się z nami**\n\nNa spotkaniu opowiesz nam o sobie i swoim doświadczeniu. Dowiesz się też więcej o pracy na stanowisku, na które aplikujesz.\n\n**Poczekaj na decyzję**\n\nPo spotkaniu skontaktujemy się z Tobą i przekażemy Ci naszą decyzję.\n\n### **Podsumowanie**\n\nIdentyfikator oferty pracy\n\nPL\\_SL02787\n\nLokalizacja\n\n05-250 Emilianów\n\nForma współpracy\n\nUmowa o pracę\n\nWymiar czasu pracy\n\nCzęść etatu\n\nGodziny pracy\n\nRóżne wymiary etatów\n\n**O nas**\n---------\n\n**Jesteśmy Top Employer 2026!**\n-------------------------------\n\nW ALDI dbamy o atmosferę, dobre relacje i jasne zasady. Oferujemy stabilne warunki, realne wsparcie i benefity, które odpowiadają na codzienne potrzeby - Twoje i Twojej rodziny. Sprawdź, co dostajesz u nas oprócz wynagrodzenia w przypadku zatrudnienia na umowę o pracę.\n\n**Benefity**\n------------\n\n* Umowa o pracę od pierwszego dnia\n* Umowa na czas nieokreślony po roku\n* Karta przedpłacona na zakupy w ALDI\n* Prywatna opieka medyczna i ubezpieczenie na życie\n* Pakiet sportowy",
-    "detail_fetched_at": "2026-11-06",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-05",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -105087,13 +106074,15 @@
     "company": "CTIBŮREK VÝTAHY s.r.o.",
     "country": "CZ",
     "description": "**O nás**\n---------\n\n**Hledáte změnu? Jistotu dlouhodobé práce a příjemný kolektiv v rodinné firmě vážící si svých zaměstnanců?**\n------------------------------------------------------------------------------------------------------------\n\n**Jsme ryze českou společností** a zabýváme se činnostmi v oblasti výtahové techniky, a to poskytováním komplexních služeb včetně projektování, výroby komponent (rozvaděče a elektro výzbroj výtahů), instalací a servisu všech typů výtahových zařízení. Specializujeme se zejména na náhrady dříve instalovaných výtahů v bytových domech.\n\n**Náplň práce:**\n----------------\n\nHledáme zaměstnance na přípravu a přesun materiálu mezi skladem a výrobními akcemi po Praze. Příprava, nakládka a vykládka materiálu na stavbě, odvoz materiálu ze stavby.\n\n**Co od Vás očekáváme:**\n------------------------\n\n* zručnost\n* spolehlivost a pečlivost\n* dobrý zdravotní stav, fyzická zdatnost\n* ochotu učit se\n* zkušenosti s vysokozdvižným vozíkem výhodou, ale ne podmínkou\n* řidičský průkaz sk. B výhodou, ne podmínkou\n\n**Co Vám můžeme nabídnout:**\n----------------------------\n\nNabízíme práci v zavedné české firmě v příjemném kolektivu, prémie, příspěvek na stravování a sport, pracovní oblečení, sick days, v případě oboustranné spokojenosti další benefity.\n\nPráce na pracovní smlouvu nebo na ŽL. Mzda na základě kvalifikace, zručnosti a schopností.\n\n  \n  \n\n**Benefity**\n------------\n\n* Sickdays\n* Finanční bonusy a prémie\n* 13., případně 14. plat\n* Firemní akce\n* Pracovní zařízení (mobil, PC, notebook...)\n* Zvýhodněné půjčky\n* Příspěvek na sport\n* Příspěvek na stravování\n* Příspěvek na spoření a pojištění\n* Příspěvek na mobilní tarif\n* Občerstvení na pracovišti",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-07",
     "lifecycle": {
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "Praha, A, Czech Republic",
@@ -105103,7 +106092,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-29",
-    "score": 40,
+    "score": 38,
     "signals": [
       "unskilled_role_match",
       "tier_1_country",
@@ -108229,6 +109218,51 @@
     "uid": "eeb85ac3d4a64cbd",
     "url": "https://handfest-berlin.de/job-detailseite?id=2860847"
   },
+  "eeb92b46db1c7e1d": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "REGESTA S.A.",
+    "country": "PL",
+    "description": "**Są ogłoszenia, które trzeba długo analizować. To nie jest jedno z nich.**\n\n  \n\nJeśli magazyn znasz od praktycznej strony, prawdopodobnie już po pierwszych słowach będziesz wiedział, że mówimy właśnie do Ciebie.\n\n  \n\n**Palety, załadunki, rozładunki, wózek widłowy i UDT.** Jeśli to Twoja codzienność, przejdźmy do konkretów.\n\nCzym będziesz się zajmować?\n\n* Załadunkiem i rozładunkiem towaru,\n* Przyjmowaniem dostaw oraz rozmieszczaniem towaru w magazynie,\n* Obsługą wózka widłowego podczas codziennych operacji magazynowych,\n* Przygotowywaniem towaru do wysyłki zgodnie z dokumentacją,\n* Dbaniem o sprawny przepływ towarów i porządek w strefach magazynowych,\n\nCo jest dla nas ważne?\n\n* Uprawnienia UDT do obsługi wózków widłowych;\n* Rzetelność i umiejętność pracy w zespole,\n* Gotowość do pracy w systemie 2 - zmianowym (6-14;14-22),\n\n  \n\n* Mile widziane doświadczenie na podobnym stanowisku,\n\nDołącz do nas, bo mamy dla Ciebie:\n\n* Stabilne zatrudnienie na pełny etat na podstawie umowy o pracę w stabilnej firmie o ugruntowanej pozycji na rynku - ponad 30 lat doświadczenia w branży TSL,\n* Atrakcyjne wynagrodzenie podstawowe i system premiowy,\n* Pełne szkolenie wdrożeniowe,\n* Dofinansowanie posiłków,\n\n* Dostęp do platformy, do nauki języków obcych - eTutor,\n* Możliwość przystąpienia do ubezpieczenia grupowego na preferencyjnych warunkach w dwóch różnych wariantach - w obu pokrywamy część kwoty,\n* Karta paliwowa MOL - stały rabat na paliwa, usługi i produkty - bez względu na sytuację, która panuje na rynku,\n\n* Wysoką kulturę organizacyjną /akcje charytatywne, spotkania i eventy integracyjne, sekcje sportowe.",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Wrocław, DO, Poland",
+    "matched_keywords": [
+      "magazynier"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-12",
+    "score": 34,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-c80e077b2178f119",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "MAGAZYNIER – OPERATOR WÓZKA WIDŁOWEGO LUB MAGAZYNIERKA - OPERATORKA WÓZKA WIDŁOWEGO",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "eeb92b46db1c7e1d",
+    "url": "https://regesta.elevato.net/pl/magazynier-operator-wozka-widlowego-lub-magazynierka-operatorka-wozka-widlowego,j,1297?source=Indeed",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "ef38e0bd80bcab70": {
     "apply_channels": {
       "emails": [],
@@ -108875,7 +109909,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE94F",
@@ -110151,6 +111185,63 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "f3d2b748560decee": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "B & W Personal GbR Michael Braune Sylvia Weis",
+    "country": "DE",
+    "description": "Wir suchenLagermitarbeiter (m/w/d)Taucha - Vollzeitab sofortWillkommen bei BW Personal – Ihr Partner für professionelle Personalvermittlung und maßgeschneiderte Personallösungen!BW Personal ist ein dynamisches und zukunftsorientiertes Unternehmen, das sich auf die Vermittlung von qualifizierten Fachkräften und die Bereitstellung innovativer Personaldienstleistungen spezialisiert hat. Unser Ziel ist es, Unternehmen dabei zu unterstützen, die besten Talente zu finden und gleichzeitig Bewerbern neue berufliche Perspektiven zu bieten. Dabei legen wir großen Wert auf eine enge Zusammenarbeit mit unseren Kunden und eine persönliche Betreuung unserer Kandidaten.Unsere Unternehmenskultur zeichnet sich durch Offenheit, Vertrauen und eine starke Teamorientierung aus. Bei uns wird jeder Mitarbeitende als wertvolles Mitglied gesehen, das aktiv zur Entwicklung und zum Erfolg unseres Unternehmens beiträgt. Wir fördern ein Arbeitsumfeld, in dem Ideen ausgetauscht werden, Eigeninitiative geschätzt wird und der Erfolg des Einzelnen als Erfolg des gesamten Teams gefeiert wird.Wenn Sie Teil eines engagierten und freundlichen Teams werden möchten, das es sich zur Aufgabe gemacht hat, Menschen und Unternehmen zusammenzubringen, freuen wir uns auf Ihre Bewerbung!Für unseren renommierten Kunden aus Taucha suchen wir zum nächstmöglichen Zeitpunkt im Rahmen der Arbeitnehmerüberlassung Lagerhelfer (m/w/d/x/i).Dein Aufgabengebiet als Lagermitarbeiter (m/w/d)- Kommissionierung der Aufträge- Sicherstellung der korrekten Lagerung- Verpackung und Bereitstellung der Waren für den Versand- Bearbeitung von Wareneingängen und ArtikelrückläufenIhr Profil als Lagermitarbeiter (m/w/d)- Erste Erfahrungen im Lagerbereich von Vorteil- Freundliches Auftreten und Teamfähigkeit- Bereitschaft zur Arbeit in einem 2 Schichtsystem- Zuverlässige und teamorientierte Arbeitsweise- Berufserfahrung im Lagerbereich wünschenswertHä? Passt doch gar nicht!Du möchtest eigentlich gerne etwas anderes tun, aber auch Deine Berufserfahrung nutzen?Wir suchen Quereinsteiger mit Deinen Kenntnissen. Alles, was Du dafür wissen musst, lernst Du bei uns in Taucha.Das ist uns sehr wichtigWir haben einen sehr hohen Anspruch an unseren Kundenservice.Offenheit, Freundlichkeit und Geduld sollten daher zu Deinen Grundeigenschaften gehören. Der Umgang mit den unterschiedlichsten Menschen bereitet Dir Freude.Durch unsere Entwicklungsgeschwindigkeit bleibt die Arbeit immer interessant. Daher ist es wichtig, dass Du gerne konstant Neues lernst.Vorteile in Taucha- Unbefristetes Arbeitsverhältnis- Übertarifliche Entlohnung- Intensive Einarbeitung- Weihnachts- und Urlaubsgeld nach 6monatiger Betriebszugehörigkeit- WeiterentwicklungsmöglichkeitenSo geht es weiterBewirb Dich bitte direkt online als Lagermitarbeiter (m/w/d) in Taucha, indem Du auf den Jetzt-auf-diese Stelle-bewerben-Button klickst.Nutze bei Fragen vorab die Kontaktdaten Deines Ansprechpartners.Wir vereinbaren einen Telefontermin für ein kurzes Interview. Anschließend lernen wir uns persönlich kennen und besprechen alle Einzelheiten.Du möchtest wechseln? Das bleibt unter uns!- Falls Du Dich in einem ungekündigten Arbeitsverhältnis befindest, sichern wir Dir natürlich höchste Vertraulichkeit Deiner Bewerbung zu.- Telefoninterviews und Vorstellungsgespräche gerne auch nach Feierabend oder am Wochenende.Klingt das gut?Dann bewirb Dich jetzt als Lagermitarbeiter (m/w/d) in Taucha.Klicke direkt unten auf den Button.Wir freuen uns auf Dich!",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [
+      {
+        "ar": "مُتحوّل مهني (مصطلح لمن يغيّر مجال عمله؛ الشروط تختلف من صاحب عمل لآخر)",
+        "en": "career changer (term used for applicants switching fields; conditions vary by employer)",
+        "term": "quereinsteiger"
+      }
+    ],
+    "languages": [
+      "de"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "DED53",
+    "matched_keywords": [
+      "arbeitnehmeruberlassung",
+      "lagerhelfer",
+      "lagermitarbeiter"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-06",
+    "score": 62,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MTg4MjItazYwOTEyLjIyMDMtUyAx",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: DED53\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Lagermitarbeiter (m/w/d) (Lager- und Transportarbeiter/in)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "f3d2b748560decee",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTg4MjItazYwOTEyLjIyMDMtUyAx?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "f3e2a1e1071f7259": {
     "apply_channels": {
       "emails": [
@@ -110229,7 +111320,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "Wilhelmsburg, N, Austria",
@@ -111452,6 +112543,7 @@
     "company": "Van Gelder Groep",
     "country": "NL",
     "description": "* + Elburg\n  + €2.500 - €2.700\n* + Van Gelder Groep\n  + 32 - 40 uur\n\n  \n\n**Wat ga je doen?**\n-------------------\n\nJe werkt binnen de Materieeldienst en bent onderdeel van de verhuurdesk. Wat deze rol bijzonder maakt, is dat jij de enige Orderpicker bent. Dat betekent veel vrijheid, vertrouwen en verantwoordelijkheid. Je regelt je werk zelfstandig, maar staat continu in contact met collega’s van de verhuurdesk en interne klanten die hun materialen bij jou ophalen.\n  \n  \n**Hoe ziet jouw dag eruit?**\n\nJe start je dag als Orderpicker in Elburg samen met de verhuurdesk, waar je de prioriteiten bespreekt. Daarna ga je aan de slag met je handheld en verzamel je de orders. Gedurende de dag komen collega’s langs om hun bestellingen op te halen en zorg jij dat alles klaarstaat. Van een boormachine tot een complete directiekeet, geen dag is hetzelfde en juist die afwisseling houdt het werk interessant.\n\n* Als Orderpicker ben je onder andere verantwoordelijk voor:\n* Het verzamelen en gereedmaken van orders met behulp van een handheld.\n* Het afstemmen van prioriteiten met de verhuurdesk en interne klanten.\n* Het controleren van orders en zorgen dat alles compleet is.\n* Het onderhouden van contact met interne klanten en zorgen voor een goede service.\n* Het bijdragen aan een overzichtelijk en goed georganiseerd magazijn.\n\nIn deze rol als Orderpicker in Elburg zorg jij ervoor dat jouw collega’s buiten door kunnen. Jouw werk is direct zichtbaar en van grote waarde voor de organisatie. Klinkt dit als jouw volgende stap? Lees dan verder.\n\n**Wat wij bieden**\n------------------\n\nJe krijgt bij Van Gelder meer dan alleen een functie als Orderpicker in Elburg. Je komt terecht in een team waar eigenaarschap centraal staat en waar jouw inzet echt wordt gezien.\n\nVerder kun je het volgende verwachten:\n\n* Een salaris tussen de € 2.500,- en € 2.700,- bruto per maand, afhankelijk van jouw ervaring.\n* Een functie voor 32 tot 40 uur per week.\n* 25 vakantiedagen en 13 adv-dagen volgens de cao Metaal en Techniek.\n* 8% vakantiegeld, maandelijks of in mei uitbetaald.\n* Veel zelfstandigheid en verantwoordelijkheid in jouw rol als Orderpicker in Elburg.\n* Werken in een betrokken team met korte lijnen en een sterke focus op samenwerking.\n\n**Wie ben jij?**\n----------------\n\nAls Orderpicker in Elburg ben jij iemand die overzicht houdt en graag de handen uit de mouwen steekt. Je werkt nauwkeurig en vindt het belangrijk dat collega’s op jou kunnen rekenen. Je schakelt makkelijk met interne klanten en zorgt dat zij goed en snel geholpen worden. Het geeft jou energie dat jouw werk direct bijdraagt aan het draaiende houden van de organisatie.\n\nDaarnaast herken jij jezelf in het volgende:\n\n* Mbo werk- en denkniveau.\n* Ervaring in een logistieke omgeving.\n* Je kunt goed overweg met systemen.\n* Je bent fysiek fit en vindt het prettig om actief bezig te zijn.\n\n  \n\n**Vragen?**\n-----------\n\nIk help je graag verder\n\n### **Martijn** **van der Kammen**\n\nRecruitment Business Partner\n\n0614752092",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-03",
@@ -111463,7 +112555,7 @@
       }
     ],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -113177,6 +114269,56 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "f9aa90a0fe9b5f04": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "",
+    "country": "NL",
+    "description": "Zoek jij de ideale combinatie tussen de weg op gaan en fysiek bezig zijn in het magazijn? Voor onze locatie in Venlo zoeken wij een flexibele vrachtwagenchauffeur C. In deze veelzijdige rol zorg jij ervoor dat onze logistieke operatie altijd doorgaat. Geen dag is hetzelfde! Verdien een gunstig salaris tussen de € 17,35 en € 19,00.Wat bieden wij jou- Een goed salaris tussen € 17,36 en € 19- Een fulltime baan van 40 uur per week- Een fijne balans tussen werk en privé behoudt- Gunstige tijden tussen 06:00/07:00 en 16:00- Een afwisselende functie- Korte lijntjes en in gezellig en warm team werkenWie ben jijBen jij de gemotiveerde vrachtwagenchauffeur C die wij zoeken? Je hoeft nog niet eens heel veel ervaring te hebben, want je leert het hier snel! Om de baan goed te kunnen doen, vragen we het volgende van je:- Je hebt rijbewijs C en een geldige code 95.- Je hebt een geldige bestuurderskaart op zak.- Je spreekt en schrijft goed Nederlands.- Je vindt het prettig om af te wisselen tussen de cabine en de werkvloer.Wat ga je doenJouw dag als vrachtwagenchauffeur C begint lekker vroeg om 06:00 uur op de standplaats. Je controleert samen met je logistieke collega's de vracht. Daarna stap je in de vrachtwagen om de klanten in noord en zuid Limburg te bezoeken. Je rijdt geen lange afstanden, want je maakt gemiddeld 20 korte stops per dag. Het werk is fysiek goed te doen en het in- en uitstappen houdt je lekker actief. Omdat je geen zwaar sjouwwerk hebt, blijft het werk van de vrachtwagenchauffeur C leuk en afwisselend. Rond 16:00 uur ben je alweer klaar en heb je de hele avond voor jezelf of je gezin. Rijd je een dagje niet? Dan ben je te vinden in het hart van het bedrijf: het magazijn. Hier zorg je samen met het team dat alles op rolletjes loopt, van orderpicken tot het verzendklaar maken van goederen. Rond 16:00 uur ben je alweer klaar en heb je de hele avond voor jezelf of je gezin.Waar ga je werkenJe gaat werken bij de Technische Unie in Venlo. Dit",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL421",
+    "matched_keywords": [
+      "ett",
+      "magazijnmedewerker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-31",
+    "score": 52,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "NWYxYmY5ODQtNzQwNC1jMWVkLWUwNjMtNjg5M2IyMGE3NWU4IDQy",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: NL421\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Vrachtwagenchauffeur C en magazijnmedewerker (736727)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "f9aa90a0fe9b5f04",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWYxYmY5ODQtNzQwNC1jMWVkLWUwNjMtNjg5M2IyMGE3NWU4IDQy?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "f9dfb5f376bd4aac": {
     "apply_channels": {
       "emails": [],
@@ -113533,7 +114675,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-07T06:14:19+00:00",
+      "last_live_check": "2026-11-07T18:03:31+00:00",
       "status": "active"
     },
     "location": "DE94F",
@@ -114413,6 +115555,55 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "fd3472ebebee2fda": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [
+        "2800 - 3600 - 40"
+      ],
+      "whatsapp_mentioned": false
+    },
+    "company": "",
+    "country": "NL",
+    "description": "Shiftleader Logistiek Zaltbommel - 2800 - 3600 - 40 - Zaltbommel MBO Trainingen en cursussen Doorgroeimogelijkheden 40 per week wie ben jij? - Je hebt ruime ervaring binnen de logistieke sector en goede kennis van logistieke processen zoals inbound, outbound, orderpicking en expeditie. - Je hebt bij voorkeur ervaring met het aansturen of begeleiden van medewerkers en weet mensen te motiveren en aan te spreken. - Je beschikt over goede communicatieve vaardigheden, bent stressbestendig en besluitvaardig en werkt praktisch, oplossingsgericht en flexibel in teamverband. wat ga je doen? Als shiftleader Logistiek geef jij dagelijks leiding aan een team van circa 15 tot 20 logistiek medewerkers en sta je zelf midden in de operatie. Je houdt toezicht op de voortgang, kwaliteit en efficiëntie van de logistieke stromen en grijpt in waar dat nodig is. Omdat je overzicht hebt over meerdere afdelingen, zet je medewerkers flexibel in en zorg je dat het werk ononderbroken doorloopt. Leiderschap, verantwoordelijkheidsgevoel en het vermogen om snel te schakelen zijn in deze rol onmisbaar. Daarnaast ben je verantwoordelijk voor: - Het leiden, coachen en enthousiasmeren van het logistieke team op de werkvloer. - Het zelf actief meedraaien in de operationele logistieke werkzaamheden. - Het bewaken van de werkzaamheden over de verschillende afdelingen heen en het herverdelen van medewerkers waar nodig. - Het tijdig herkennen van knelpunten en hier proactief op inspelen. - Het monitoren van productiviteit, kwaliteit en werktijden. - Het waarborgen van de naleving van veiligheids-, arbo- en bedrijfsvoorschriften. - Het fungeren als eerste aanspreekpunt voor medewerkers en het afstemmen met leidinggevenden en andere afdelingen. waar ga je werken? Je komt te werken bij een grote technische groothandel in de regio Rivierenland. Het bedrijf levert een uitgebreid assortiment op het gebied van sanitair, verwarming, installatie, ventila...",
+    "detail_fetched_at": "2026-11-07",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-07",
+    "glossary": [],
+    "languages": [
+      "nl"
+    ],
+    "last_seen": "2026-11-07",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "NL226",
+    "matched_keywords": [
+      "logistiek medewerker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-12",
+    "score": 34,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country"
+    ],
+    "source": "eures",
+    "source_id": "NWQ5Y2ViZjUtN2JiOS1mNzYyLWUwNjMtNjg5M2IyMGExM2RmIDQy",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Shiftleader Logistiek",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "fd3472ebebee2fda",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ5Y2ViZjUtN2JiOS1mNzYyLWUwNjMtNjg5M2IyMGExM2RmIDQy?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "fd63263d417597e8": {
     "apply_channels": {
       "emails": [],
@@ -115167,13 +116358,15 @@
     "company": "Lebenshilfe Landesverband Hessen e.V.",
     "country": "DE",
     "description": "21.10.2026 10:55\n\n### **39 Std./Woche, für mind. 6 Monate**\n\nFür unsere **Limeswerkstatt** in Pohlheim-Garbenteichsuchen wir **zum nächstmöglichen Zeitpunkt**\n\n**Produktionshelfer in der Garten- und Landschaftspflege (w/m/d)**\n\nals Krankheitsvertretung in Vollzeit für 39 Std. wöchentlich, für mind. 6 Monate\n\nDie Limeswerkstatt, in der überwiegend Menschen mit einer geistigen Behinderung tätig sind, verfolgt die Zielsetzung der beruflichen Eingliederung. Mit 200 Werkstattplätzen ist sie in den Bereichen Industriemontage, Lohnverpackung, Aktenvernichtung, Eigenprodukte, Holz- und Kunststoffbearbeitung, Garten- und Landschaftspflege, und Bürodienstleistung tätig.\n\n**Sie bringen mit:**\n\n* Eine abgeschlossene Berufsausbildung im handwerklichen Bereich wäre wünschenswert\n* Ein positives, wertschätzendes und ressourcenorientiertes Menschenbild\n* Ein hohes Maß an Teamfähigkeit und kooperativer Zusammenarbeit\n* Die Fähigkeit eigenverantwortlich und flexibel zu handeln\n* Produktionstechnisches Interesse und Verständnis\n* Führerscheinklasse B (3)\n\n**Zu Ihren Aufgaben gehören:**\n\n* Abwicklung von Produktionsaufträgen in unserer Garten- und Landschaftspflege Gruppe gemeinsam mit den MitarbeiterInnen (Menschen mit Behinderung) bei unseren Kunden\n* Grünflächen- und Anlagenpflege\n* Pflegearbeiten im Forst\n* Bedienung und Wartung von Maschinen und Geräten\n* Unterstützung der Gruppenleitung im produktionstechnischen Bereich\n\n**Wir bieten Ihnen:**\n\n* Gute Zusammenarbeit in einem engagierten Team\n* Geregelte Arbeitszeiten\n* Eigenständiges Bearbeiten von verantwortungsvollen und abwechslungsreichen Aufgaben\n* Betriebliches Gesundheitsmanagement, Weiterbildungs- und Qualifizierungsmöglichkeiten\n* Sechs Wochen Jahresurlaub\n* Entgelt in Anlehnung an den TVöD VKA EG 2\n* Entdecken Sie viele weitere Vorteile in unserem modernen Sozialunternehmen unter: http://benefits.lhgi.de\n\nBewerber\\*innen mit Schwerbehinderung werden bei gleicher Qualifikation und Eignung bevorzugt.\n\n**Für Ihre Bewerbung verwenden Sie bitte ausschließlich unser Bewerberportal unter** **www.lebenshilfe-giessen.de****.**\n\n**Postalische Einsendungen oder Bewerbungen per E-Mail können nicht berücksichtigt werden. Die Bewerbungsfrist endet am 08.11.2026.**\n\nFür telefonische Rückfragen **zur Stellenausschreibung** wenden Sie sich bitte an:\n\nJörg Stommel\n\nLimeswerkstatt Pohlheim-Garbenteich\n\n06404/804-151\n\nEhrenamtliches Engagement in Hilfsorganisationen wie Feuerwehr oder Rettungsdienst wird in unserem Betrieb gefördert. Soweit Sie ehrenamtlich tätig sind, wird gebeten, dies in den Bewerbungsunterlagen anzugeben. Im Ehrenamt erworbene Erfahrungen und Fähigkeiten können gegebenenfalls im Rahmen von Eignung, Befähigung und fachlicher Leistung positiv berücksichtigt werden, wenn sie für die vorgesehene Tätigkeit dienlich sind.",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-05",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-05",
+    "last_seen": "2026-11-07",
     "lifecycle": {
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "Gießen, HE, Germany",
@@ -115700,13 +116893,13 @@
     "company": "DP Consulting Danuta Szczepania",
     "country": "PL",
     "description": "Mieszkasz w Śremie albo gdzieś w okolicy i chcesz wreszcie mieć stałą pracę na pełen etat? Mamy dla Ciebie propozycję. Pracujemy w Swarzędzu (Jasin), a dojazd z Śremu masz za darmo, bo uruchomimy autobus pracowniczy. Doświadczenia nie potrzebujesz, wszystkiego Cię nauczymy.\n\nCo będziesz robić?\n\n- Kompletować zamówienia z odzieżą\n\n- Pakować paczki i przygotowywać je do wysyłki\n\n- Skanować kody produktów ręcznym skanerem\n\nCo dostajesz w zamian?\n\n- Umowę o pracę bezpośrednio z pracodawcą, 5 100 zł brutto + premia 450 zł brutto\n\n- Darmowy dojazd autobusem ze Śremu do Swarzędza\n\n- Prywatną opiekę medyczną Medicover, którą możesz objąć też rodzinę\n\n- Karty podarunkowe do sklepów odzieżowych, premie świąteczne i nagrody rzeczowe\n\n- Dofinansowanie do MultiSport i ubezpieczenie grupowe\n\n- Realną szansę na awans, bo większość liderów u nas zaczynała właśnie na magazynie\n\nCzego od Ciebie oczekujemy?\n\n- Że odnajdziesz się w pracy na 3 zmiany (6-14 / 14-22 / 22-6)\n\n- Że masz chęć do pracy i lubisz działać w zespole\n\n- Od osób spoza Polski: bardzo dobrej znajomości polskiego i pozwolenia na pracę\n\nSpotkamy się w Śremie, a pracować będziesz w Swarzędzu (Jasin).\n\nWystarczy, że wypełnisz formularz: [https://dpcon.pl/oferty-pracy/pracownik-magazynu/] – zadzwonimy i umówimy się na spotkanie :)\n\nWynagrodzenie: 5 100,00zł - 5 550,00zł miesięcznie (brutto)\n\nŚwiadczenia dodatkowe:\n\n* Bony i paczki świąteczne\n* Darmowy parking\n* Imprezy firmowe\n* Pakiety i karty sportowe\n* Program poleceń pracowniczych\n* Program wdrożeniowy\n* Prywatna opieka medyczna\n* Ubezpieczenie na życie\n\nMiejsce pracy: Stacjonarna",
-    "detail_fetched_at": "2026-11-06",
+    "detail_fetched_at": "2026-11-07",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-07",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
