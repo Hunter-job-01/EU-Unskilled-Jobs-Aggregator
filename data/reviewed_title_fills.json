@@ -500,6 +500,150 @@
    "translated": true,
    "review": "data/title_review_batch22.json",
    "title_ar": "مساعد مستودع / عامل تجميع الطلبات - لوجستيات المنسوجات"
+  },
+  {
+   "uid": "05054aa257b06a60",
+   "expected_title": "Extrajobb på morgonen som paketsorterare hos DHL Express Arlanda!",
+   "title_en": "Part-time morning job as package sorter at DHL Express Arlanda",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "عامل فرز طرود بدوام جزئي - وردية صباحية - DHL Express أرلاندا"
+  },
+  {
+   "uid": "077ec2fc39bf0ecc",
+   "expected_title": "Lagerhelfer m/w/d (Lager- und Transportarbeiter/in)",
+   "title_en": "Warehouse helper (m/f/d) (warehouse and transport worker)",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "مساعد مستودع (مستودعات ونقل)"
+  },
+  {
+   "uid": "08a5dbd0eb8136da",
+   "expected_title": "SKLADIŠČNIK - M/Ž",
+   "title_en": "Warehouse worker (m/f)",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "عامل مستودع"
+  },
+  {
+   "uid": "08e8ebb9bd31d6d2",
+   "expected_title": "Terminalarbete i norra Sthlm - tidig morgonskift",
+   "title_en": "Terminal worker in northern Stockholm - early morning shift",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "عامل محطة طرود في شمال ستوكهولم - وردية صباحية مبكرة"
+  },
+  {
+   "uid": "09259764c611170e",
+   "expected_title": "Lagerarbetare till Eskilstuna sökes – Extrajobb",
+   "title_en": "Warehouse worker wanted in Eskilstuna - part-time job",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "عامل مستودع في إسكيلستونا - دوام جزئي"
+  },
+  {
+   "uid": "0933446a0430a4ad",
+   "expected_title": "Gestionnaire Achats & Logistique (H/F)",
+   "title_en": "Purchasing & Logistics manager (m/f)",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "مسؤول مشتريات ولوجستيات"
+  },
+  {
+   "uid": "098b982c34cae9a0",
+   "expected_title": "Lagerhelfer (m/w/d) (Helfer/in - Lagerwirtschaft, Transport)",
+   "title_en": "Warehouse helper (m/f/d) (helper - warehousing and transport)",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "مساعد مستودع (مستودعات ونقل)"
+  },
+  {
+   "uid": "09de0aee4ef2e4fd",
+   "expected_title": "Tõstukijuht-laotöötaja",
+   "title_en": "Forklift driver - warehouse worker",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "سائق رافعة شوكية - عامل مستودع"
+  },
+  {
+   "uid": "0a5f269327cdf4f0",
+   "expected_title": "Kommissionierer:in Korneuburg Vollzeit (m/w/d)",
+   "title_en": "Order picker (m/f/d) - Korneuburg - full-time",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "عامل تجميع الطلبات - كورنويبورغ - دوام كامل"
+  },
+  {
+   "uid": "0a8031695b8899ad",
+   "expected_title": "Lagermitarbeiter/Lagerhelfer ab sofort in Vollzeit gesucht (m/w/d) (Fachlagerist/in)",
+   "title_en": "Warehouse worker / warehouse helper wanted immediately - full-time (m/f/d) (warehouse operative)",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "عامل مستودع / مساعد مستودع - فوري - دوام كامل"
+  },
+  {
+   "uid": "0aa4b6b5945d4750",
+   "expected_title": "MAGASINIER PIECES POIDS LOURDS F/H",
+   "title_en": "Warehouse worker - heavy vehicle parts (m/f)",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "عامل مستودع قطع غيار شاحنات"
+  },
+  {
+   "uid": "0af2c6ac05fa1a5a",
+   "expected_title": "magazynier K/M",
+   "title_en": "Warehouse worker (f/m)",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "عامل مستودع"
+  },
+  {
+   "uid": "0b1e62aea3123833",
+   "expected_title": "Skladník / skladnice, Pomocní skladníci",
+   "title_en": "Warehouse worker (m/f) / warehouse helper",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "عامل مستودع / مساعد مستودع"
+  },
+  {
+   "uid": "0b2974a87dd969f7",
+   "expected_title": "Staplerfahrer (m/w/d) (Gabelstaplerfahrer/in)",
+   "title_en": "Forklift driver (m/f/d)",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "سائق رافعة شوكية"
+  },
+  {
+   "uid": "0b2e35afa9bc708b",
+   "expected_title": "Magazynier (k/m)",
+   "title_en": "Warehouse worker (f/m)",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "عامل مستودع"
+  },
+  {
+   "uid": "0ba565ad863ef3d4",
+   "expected_title": "Lagerhelfer - Verpacker (m/w/d) dringend (Lager- und Transportarbeiter/in)",
+   "title_en": "Warehouse helper - packer (m/f/d), urgently wanted (warehouse and transport worker)",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "مساعد مستودع - عامل تعبئة"
+  },
+  {
+   "uid": "0bc152365095b993",
+   "expected_title": "Magazynier-logistyk",
+   "title_en": "Warehouse worker - logistics",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "عامل مستودع - لوجستيات"
+  },
+  {
+   "uid": "0c00b0893b76e627",
+   "expected_title": "Magasinier f/h (H/F)",
+   "title_en": "Warehouse worker (m/f)",
+   "translated": true,
+   "review": "data/title_review_batch23.json",
+   "title_ar": "عامل مستودع"
   }
  ]
 }
