@@ -170,7 +170,11 @@ class JobStore:
                     (existing.get(k) or "") == (record.get(k) or "")
                     for k in ("url", "description", "source", "source_id"))
                 if ((existing.get("source_review") or {}).get("status") != "destination_mismatch"
+                        and (existing.get("url") or "") == (record.get("url") or "")
                         and len(existing.get("description") or "") > len(record.get("description") or "")):
+                    # Only reconcile bodies of the SAME posting: when the
+                    # url changed (repost / identity drift) the old body
+                    # describes a different posting and must not be kept.
                     record["description"] = existing["description"]
                 # Notification state belongs to the stored record: a
                 # re-scrape must never reset an already-sent digest flag.
