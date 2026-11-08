@@ -108,6 +108,16 @@ def apply_reviewed_fills(store, path: str = None) -> dict:
             if record.get("source_review") != source_review:
                 record["source_review"] = source_review
                 changed = True
+            if (source_review.get("status") == "destination_mismatch"
+                    and (record.get("summary_ar") or "").strip()):
+                # The flag withholds body-derived claims in the UI; the
+                # stored summary is itself such a claim from the pre-drift
+                # body, so drop it here - the CSV export and any other
+                # consumer must not keep presenting it. Re-derivable by a
+                # fresh review, so the deletion is bounded.
+                record["summary_ar"] = ""
+                changed = True
+                log.info("reviewed fill %s: cleared stale summary_ar under destination_mismatch", uid)
         if fill.get("translated") and (
                 (record.get("title_en") or "").strip()
                 or (record.get("title_ar") or "").strip()):
