@@ -157,6 +157,18 @@ class JobStore:
                 # Fresh detail was fetched for this record: restamp the
                 # detail anchor (v6 stage A recheck window, src/delta.py).
                 record["detail_fetched_at"] = today.isoformat()
+                # Description-derived claims (summary_ar) need a stronger
+                # guard than title-derived ones: when a posting is reposted
+                # under the same title at a different URL/body (identity
+                # drift, e.g. Primark JR-16151 -> JR-16177 under one uid),
+                # a summary generated from the old body goes stale while the
+                # title guard alone still passes. Compute the identity match
+                # before the description reconciliation below rewrites
+                # record["description"], and bind it to the same tuple the
+                # source_review carry-forward uses.
+                same_source_identity = all(
+                    (existing.get(k) or "") == (record.get(k) or "")
+                    for k in ("url", "description", "source", "source_id"))
                 if ((existing.get("source_review") or {}).get("status") != "destination_mismatch"
                         and len(existing.get("description") or "") > len(record.get("description") or "")):
                     record["description"] = existing["description"]
@@ -174,10 +186,17 @@ class JobStore:
                 # missing key). Only carry forward while the source title
                 # is unchanged - a changed title invalidates its old
                 # translation and must go back through the pipeline.
+                # summary_ar additionally requires the full source identity
+                # (url/description/source/source_id) to be unchanged: it is
+                # derived from the posting body, so an identity drift with an
+                # unchanged title must drop it rather than present claims
+                # about a different posting.
                 if (existing.get("title") or "") == (record.get("title") or ""):
                     for field in ("title_en", "title_ar", "summary_ar"):
                         if field == "summary_ar" and (existing.get("source_review") or {}).get("status") == "destination_mismatch":
                             continue  # never revive claims derived from the wrong body
+                        if field == "summary_ar" and not same_source_identity:
+                            continue  # body-derived claim, posting identity changed
                         if not (record.get(field) or "").strip() and (existing.get(field) or "").strip():
                             record[field] = existing[field]
                 # A source mismatch review is tied to exact title/URL/body,
