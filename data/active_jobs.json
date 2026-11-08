@@ -767,7 +767,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE217",
@@ -1189,7 +1189,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Prutz, T, Austria",
@@ -4541,7 +4541,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DEA29",
@@ -5339,12 +5339,13 @@
     "company": "Anexx",
     "country": "PT",
     "description": "Funções\n\nOperação geral da função de armazém.\n\nOferta\n\n* Horário de trabalho: 8h30 às 17h30.\n\nA sua candidatura será tratada de acordo com o Regulamento Geral de Proteção de Dados no Regulamento (UE) 2016/679 de 27 de Abril de 2016.  \nEntendemos, que ao submeter a sua candidatura nos autoriza a tratar os dados pessoais para processos de candidatura e recrutamento.\n\nPagamento: 920,00€ - 950,00€ por mês\n\nLocalização do trabalho: Presencial",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-08",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -7147,7 +7148,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE94E",
@@ -12880,12 +12881,15 @@
     "company": "CAR AVENUE",
     "country": "FR",
     "description": "Maxéville\n\n**L'entreprise**\n----------------\n\nGroupe familial européen de distribution automobile et de services de mobilité, Car Avenue est présent au Luxembourg, en France, Belgique et Allemagne et accompagne particuliers et professionnels sur l’ensemble de leur parcours de mobilité.\n\n  \n\nAu cœur de l’Europe, **Car Avenue en 2025** représente :\n\n* Près de 3 000 collaborateurs\n\n* 160 concessions et services\n\n* 35 marques distribuées (autos, motos, camions)\n\n* 30 000 VN vendus\n\n* 22 000 VO vendus\n\n* 1 Million d’heures Après-Vente\n\n  \n\nNotre Groupe porte des valeurs fortes au service de nos Clients : Confiance – Proximité & Efficacité\n\n**À propos du poste**\n---------------------\n\nVous réalisez l’ensemble des activités de préparation des véhicules d'occasions et des véhicules neufs en vue de leur mise en vente ou en circulation. Vous serez notamment en charge de :\n\n* la préparation esthétique de véhicules (nettoyage, lustrage…),\n* du contrôle de l'état des véhicules,\n* l’utilisation de gammes de préparation,\n* de la réalisation d'opérations d'entretien des véhicules, de carrosserie et sellerie… ne nécessitant pas l'intervention d'un spécialiste,\n* du convoyage de véhicules,\n* préparation à la mise à la route.\n\n**Profil recherché**\n--------------------\n\nVous faites preuve de rigueur et de minutie.\n\nVous respectez les consignes de sécurité et de qualité.\n\nSoucieux de la satisfaction clients.\n\n**Compétences requises**\n------------------------\n\nContrôler la conformité des véhiculesDétecter d’éventuelles anomalies techniquesAppliquer les procédures qualitéRéaliser les préparations esthétiques des véhicules\n\n**Éléments nécessaires pour postuler**\n--------------------------------------\n\nDocument(s)\n\nCurriculum Vitæ\n\n**Caractéristiques du poste**\n-----------------------------\n\n#### **ℹ️ Infos de l'offre**\n\nPubliée le 02/11/2026\n\nCDITemps pleinExperience souhaitéePermis non obligatoireCAP / BEP\n\n#### **Salaire brut**\n\nÀ définir suivant profil\n\n#### **Prise de poste**\n\nDès que possible\n\n#### **Avantages**\n\nMutuelle",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-08",
     "lifecycle": {
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "Maxéville, GE, France",
@@ -12896,21 +12900,25 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-02",
-    "score": 52,
+    "score": 48,
     "signals": [
       "unskilled_role_match",
-      "agency_or_relocation_mention",
+      "agency_relocation_text_mention",
       "tier_2_country",
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-ff954d4a8b081a7b",
-    "summary_ar": "الموقع: Maxéville, GE, France\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Maxéville, GE, France\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Préparateur esthétique VN/VO - H/F",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "1a62d11d88fb1017",
-    "url": "https://caravenue.softy.pro/offers/226888"
+    "url": "https://caravenue.softy.pro/offers/226888",
+    "url_provenance": "",
+    "url_verified": null
   },
   "1a75e85af779e3fa": {
     "apply_channels": {
@@ -14492,7 +14500,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Ebensee, O, Austria",
@@ -18053,8 +18061,10 @@
     ],
     "last_seen": "2026-11-06",
     "lifecycle": {
-      "missed_runs": 1,
-      "status": "active"
+      "deactivated_at": "2026-11-08T05:38:46+00:00",
+      "deactivation_reason": "not_seen_in_2_covered_runs",
+      "missed_runs": 2,
+      "status": "deactivated"
     },
     "location": "ITH36",
     "matched_keywords": [
@@ -18628,7 +18638,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Nossen, SN, Germany",
@@ -21133,7 +21143,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE94F",
@@ -21511,6 +21521,8 @@
     ],
     "last_seen": "2026-11-04",
     "lifecycle": {
+      "dead_checks": 1,
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE278",
@@ -23256,7 +23268,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE736",
@@ -26536,7 +26548,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "FRH01",
@@ -27190,12 +27202,13 @@
     "company": "Grupo MCoutinho",
     "country": "PT",
     "description": "A inovação na oferta dos serviços e a criação de valor na relação com os Clientes são prioridade do GRUPO MCOUTINHO. Suportamos a nossa ambição na experiência de 70 anos no retalho automóvel. Faz parte de uma Equipa com mais de 1.400 colaboradores, onde o talento e a partilha de experiências constituem o nosso ADN. Contribui com a tua criatividade e irreverência para a construção do futuro da mobilidade.\n\nPara reforço da equipa de Logística, a MCOUTINHO Peças, em Camarate, está a recrutar um Operador de Armazém.\n\nSe o teu perfil combina com os nossos requisitos, participa:\n\n- Escolaridade mínima obrigatória;\n\n- Experiência de trabalho em armazéns (preferencial);\n\n- Forte capacidade de organização e planeamento;\n\n- Capacidade de atenção concentrada;\n\n- Boa capacidade física;\n\n- Disponibilidade para trabalhar por turnos;\n\n- Com residência em Camarate ou zonas limítrofes.\n\nDesafia-nos e faz parte da melhor oferta de marcas e serviços automóveis em Portugal:\n\n- Integra um Grupo nacional de referência;\n\n- Valoriza o teu talento com formação contínua e possibilidade de progressão;\n\n- Apoia-te num bom ambiente de trabalho e na integração numa equipa focada na inovação.\n\nLocalização do trabalho: Presencial",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-08",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -27380,6 +27393,53 @@
     "translated": false,
     "uid": "391faa4c9c5977e9",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NGY3ZGRmNmUtNGZiYS00MThlLWEwYTItODEwMWJkYWI5NjA3IDc?lang=en"
+  },
+  "393cae6ba2257b32": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Ballymaguire Foods",
+    "country": "IE",
+    "description": "**Department:** High Care, Low Care & Low Risk Production  \n**Location:** Ballymaguire Foods, Rathmooney, Lusk, Co. Dublin (On-Site)  \n**Reports To:** Supervisor/ Line Lead  \n**Employment Type:** Full-Time, Permanent,\n\n**We have positions available for our Evening & Night Shifts in the roles listed below:**\n\n* Soup Packing Operative\n* High Care Washroom Operative\n* Cooking Operator\n* Weighing Operator\n\n**Job Purpose**\n\nAt Ballymaguire Foods, we are committed to producing high-quality food products that meet the needs of our customers. We operate in a fast-paced, safety-conscious environment where teamwork and a focus on quality are key to our success**.**\n\nThe Food Production Operative plays a key role in supporting the efficient and safe production of high-quality food products. This position involves a range of manual and operational tasks within the production facility, ensuring that all processes meet company standards for safety, quality, and efficiency. The role requires adherence to strict food safety regulations, as well as a proactive approach to maintaining a clean and safe working environment.\n\n**Key Skills & Competencies**\n\n· **Attention to Detail:** Ability to identify and resolve quality issues during production.\n\n· **Physical Stamina:** Capacity to perform manual labour, including lifting, standing for long periods, and repetitive tasks.\n\n· **Communication:** Basic verbal and written communication skills to report issues, ask questions, and follow instructions effectively.\n\n· **Teamwork:** Ability to collaborate and work effectively with colleagues in a fast-paced production environment.\n\n· **Problem-Solving:** Ability to identify issues quickly and communicate them to supervisors or other team members.\n\n· **Time Management:** Ability to prioritize tasks efficiently to meet production deadlines.\n\n· **Adaptability:** Willingness to take on different tasks as required and adapt to changing production requirements.\n\n**Job Type:** Full-time *(evening & night shifts available)*\n\n\\*As our site location is remote, own transport is required.\n\n\\*Previous experience in the Food Production industry is ideal, but not essential.\n\nJob Type: Full-time\n\nPay: €15.24-€15.60 per hour\n\nBenefits:\n\n* Bike to work scheme\n* Employee assistance program\n* On-site parking\n\nApplication question(s):\n\n* What languages do you speak?\n* Are you available to work night shift?\n\nLicence/Certification:\n\n* A Driving License & own transport (required)\n\nWork authorisation:\n\n* Ireland (required)\n\nWork Location: In person",
+    "detail_fetched_at": "2026-11-08",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-08",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-08",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Lusk, D, Ireland",
+    "matched_keywords": [
+      "food production",
+      "packing operative"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-05",
+    "score": 47,
+    "signals": [
+      "unskilled_role_match",
+      "tier_2_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-7e02f9a62c960215",
+    "source_review": {},
+    "summary_ar": "الموقع: Lusk, D, Ireland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Food Production Operative - Night Shift",
+    "title_ar": "",
+    "title_en": "Food Production Operative - Night Shift",
+    "translated": false,
+    "uid": "393cae6ba2257b32",
+    "url": "https://ie.indeed.com/viewjob?jk=7e02f9a62c960215",
+    "url_provenance": "",
+    "url_verified": null
   },
   "394b14959be460d7": {
     "apply_channels": {
@@ -28386,10 +28446,12 @@
     ],
     "last_seen": "2026-11-06",
     "lifecycle": {
+      "deactivated_at": "2026-11-08T05:38:46+00:00",
+      "deactivation_reason": "not_seen_in_2_covered_runs",
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
-      "missed_runs": 1,
-      "status": "active"
+      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "missed_runs": 2,
+      "status": "deactivated"
     },
     "location": "",
     "matched_keywords": [
@@ -30690,6 +30752,52 @@
     "translated": false,
     "uid": "419b32d0f96ea162",
     "url": "http://pherecrute.com/poste/uq95aq774d"
+  },
+  "41a259d1937c3a15": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Furniture 1 Portugal, Lda",
+    "country": "PT",
+    "description": "**Motorista / Operador de Armazém - Região de Benavente**\n\nTodos os dias, o nosso principal foco não é apenas o mobiliário, mas também os nossos clientes. Acreditamos que o nosso papel é ajudar a criar conforto e bem-estar em casa dos nossos clientes, fazendo da sua satisfação a nossa maior prioridade.\n\nAcreditamos fortemente que a satisfação dos clientes está diretamente ligada à satisfação dos colaboradores. Por isso, damos grande importância ao crescimento, desenvolvimento e realização do potencial dos nossos colaboradores. A maioria dos nossos líderes de equipa iniciou o seu percurso profissional na empresa como estagiários ou especialistas juniores.\n\n***Responsabilidades:***\n\n* Entrega de mobiliário aos clientes de acordo com as rotas planeadas;\n* Carga e descarga de mobiliário;\n* Receção, organização e movimentação de mercadoria em armazém;\n* Preparação de encomendas para entrega;\n* Garantir a segurança da carga durante o transporte;\n* Prestar um atendimento profissional e cordial aos clientes;\n* Manter a limpeza e organização da viatura e do espaço de armazém.\n\n***Requisitos:***\n\n* Carta de condução categoria B válida;\n* Pessoa responsável, pontual e com boa condição física;\n* Capacidade de trabalhar em equipa;\n* Experiência anterior em função semelhante será valorizada.\n\n***Oferecemos:***\n\n* Emprego estável numa empresa em crescimento;\n* Equipa amigável e com espírito de entreajuda;\n* Todos os equipamentos de trabalho necessários fornecidos pela empresa;\n* Se é uma pessoa responsável e gostaria de fazer parte da nossa equipa, convidamo-lo(a) a juntar-se a nós.\n\n***Salário:***\n\nAproximadamente 1.900 € brutos/mês, correspondendo a cerca de 1.400 € líquidos/mês (x12), incluindo subsídios em duodécimos, possibilidade de bonus dependendo dos resultados obtidos. O valor líquido poderá variar consoante a situação fiscal do trabalhador.\n\nPagamento: 1 400,00€ por mês\n\nLocalização do trabalho: Presencial",
+    "detail_fetched_at": "2026-11-08",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-08",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-08",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Benavente, P14, Portugal",
+    "matched_keywords": [
+      "limpeza",
+      "operador de armazem"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-15",
+    "score": 37,
+    "signals": [
+      "unskilled_role_match",
+      "tier_2_country"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-91f174a0130c74a4",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Motorista / Operador de Armazém - Região de Benavente",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "41a259d1937c3a15",
+    "url": "https://pt.indeed.com/viewjob?jk=91f174a0130c74a4",
+    "url_provenance": "",
+    "url_verified": null
   },
   "41b436d237686bf5": {
     "apply_channels": {
@@ -34049,7 +34157,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "",
@@ -37371,7 +37479,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DEG01",
@@ -38463,12 +38571,13 @@
     "company": "Lost Wind LDA",
     "country": "PT",
     "description": "Oferta de Emprego – Operador(a) de Serviços Gerais\n\n**Local de trabalho: Armazém LOST WIND – Castanheira**\n\nA LOST WIND encontra-se a recrutar um(a) colaborador(a) para integrar a equipa do nosso armazém, localizado em Castanheira.\n\nProcuramos uma pessoa responsável, dinâmica, organizada e com vontade de trabalhar em equipa, para desempenhar funções de apoio às atividades diárias do armazém.\n\nPrincipais funções:\n\n* Limpeza e organização dos espaços do armazém;\n* Higienização de equipamentos, utensílios e áreas de trabalho;\n* Apoio na organização e arrumação de mercadorias;\n* Colaboração nas tarefas gerais de funcionamento do armazém;\n* Cumprimento das normas de higiene, segurança e limpeza alimentar.\n\nPerfil pretendido:\n\n* Sentido de responsabilidade e compromisso;\n* Pontualidade e assiduidade;\n* Capacidade de organização e trabalho em equipa;\n* Dinamismo e proatividade;\n* Vontade de aprender e disponibilidade para colaborar nas diferentes tarefas;\n* Carta de condução válida (fator preferencial).\n\nOferecemos:\n\n* Integração numa empresa em crescimento;\n* Ambiente de trabalho colaborativo;\n* Oportunidade de desenvolvimento profissional;\n* Integração numa equipa dinâmica.\n\n**Local de trabalho:** Armazém LOST WIND – Castanheira.\n\nSe procuras uma nova oportunidade profissional e queres fazer parte de uma equipa em crescimento, envia a tua candidatura!\n\n**Junta-te à equipa LOST WIND!**\n\n*A Arte do Bom Grelhado!*\n\nPagamento: 920,00€ - 1 530,00€ por mês\n\nBenefícios:\n\n* Estacionamento gratuito\n* Horário flexível\n* Subsídio de transporte\n\nLocalização do trabalho: Presencial",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-08",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -38480,7 +38589,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-04",
-    "score": 42,
+    "score": 38,
     "signals": [
       "unskilled_role_match",
       "tier_2_country",
@@ -48755,7 +48864,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "missed_runs": 1,
       "status": "active"
     },
@@ -53319,12 +53428,13 @@
     "company": "Fábrica de Tintas 2000 S.A",
     "country": "PT",
     "description": "No Grupo Tintas 2000 acreditamos que cada cor transforma um espaço e cada pessoa faz a diferença. Junte-se a nós e pinte o seu futuro connosco!\n\nAtualmente, a Tintas Marilina encontra-se a recrutar um(a) Operador(a) de Produção para integrar a sua equipa na Zona Industrial da Maia.\n\nTem o perfil indicado? Junte-se a nós e faça parte de uma equipa que valoriza talento, dedicação e crescimento!\n\n**Funções**\n\n* Realizar operações associadas ao processo de afinação e preparação de produtos;\n* Operar equipamentos e assegurar o seu correto funcionamento;\n* Efetuar a gestão e o controlo de stocks;\n* Efetuar o controlo e acompanhamento das atividades diárias do posto de trabalho;\n* Garantir o cumprimento dos procedimentos operacionais e de qualidade;\n* Assegurar a limpeza, organização e manutenção básica dos equipamentos e da área de trabalho;\n* Colaborar com as diferentes áreas da produção e da Direção Técnica, sempre que necessário;\n* Cumprir as normas de segurança e utilização dos Equipamentos de Proteção Individual (EPI's).\n\n**Requisitos**\n\n* Escolaridade mínima ao nível do 12.º ano;\n* Formação técnico profissional em Eletrónica, Mecânica e/ou Automação (fator preferencial);\n* Experiência em ambiente industrial ou de armazém (fator preferencial);\n* Capacidade de manuseamento de equipamentos de precisão e sistemas automáticos de doseamento e afinação;\n* Atitude dinâmica e proativa;\n* Disponibilidade Imediata;\n\n**Requisitos**\n\n* Experiência em ambiente industrial (fator preferencial);\n* Boa perceção de cores e atenção ao detalhe;\n* Robustez física adequada às exigências da função;\n* Disponibilidade imediata;\n* Capacidade de manuseamento de equipamentos de precisão e sistemas automáticos de doseamento e afinação;\n* Gosto pelo trabalho em armazém;\n\n**Competências**\n\n* Sentido de responsabilidade, dinamismo e proatividade;\n* Capacidade de organização e gestão de prioridades;\n* Boa capacidade de resolução de problemas;\n* Autonomia na execução das tarefas;\n* Espírito de equipa e facilidade de relacionamento interpessoal;\n* Facilidade na utilização de ferramentas informáticas de suporte à produção e ao laboratório;\n* Elevada atenção ao detalhe e foco na qualidade do trabalho realizado.\n\n**Oferta**\n\n* Tempo integral (Full-time);\n* Integração numa equipa dinâmica e especializada;\n* Formação profissional contínua;\n* Boas condições de trabalho;\n* Participação em iniciativas de Responsabilidade Social e Ambiental;\n* Integração num grupo empresarial em crescimento e expansão.\n\nSe corresponde ao perfil pretendido, envie o seu CV, colocando em assunto **\"Operador(a) de Produção\"**, para o e-mail **rh@tintas2000.pt**.\n\n**Notas:**\n\n1. Se não receber resposta no prazo de 1 mês a sua candidatura não foi selecionada.\n\n2. Para conhecimento da nossa política de privacidade consulte a nossa página:  \nhttps://tintas2000.pt/home/recursos-humanos/\n\n3. Caso pretenda que todos os seus dados pessoais sejam eliminados da nossa base de dados, após o encerramento deste processo de seleção, deverá incluir essa indicação no seu email de candidatura.\n\nPagamento: 1 000,00€ - 3 000,00€ por mês\n\nLocalização do trabalho: Presencial",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-08",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -53336,7 +53446,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-03",
-    "score": 42,
+    "score": 38,
     "signals": [
       "unskilled_role_match",
       "tier_2_country",
@@ -54630,7 +54740,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE922, DE94D, DE94F",
@@ -55404,7 +55514,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DEB35",
@@ -61597,7 +61707,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Linz, O, Austria",
@@ -65276,7 +65386,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE212, DE218, DE21H",
@@ -66091,7 +66201,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Poštorná, JM, Czech Republic",
@@ -66639,7 +66749,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Bezau, V, Austria",
@@ -66847,7 +66957,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE600",
@@ -68779,7 +68889,7 @@
     "last_seen": "2026-11-07",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -73970,7 +74080,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE948, DE94F",
@@ -74349,7 +74459,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Riezlern, V, Austria",
@@ -75679,6 +75789,52 @@
     "uid": "9999b273d08b7ab9",
     "url": "https://trianglerrhh.viterbit.site/mozo-de-almacen-h-m-x-eqkDa5L48e1J/?utm_source=indeed&utm_medium=job_board"
   },
+  "99cd7234939371b4": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Planet+",
+    "country": "PT",
+    "description": "**Cliente**\n\nA Pharmaplanet é um laboratório farmacêutico e também uma empresa que presta serviços especializados em áreas científicas e comerciais.\n\nProcuramos um profissional para desempenhar a função de Operador de Logística numa empresa especializada na comercialização e distribuição de dispositivos médicos.\n\n**Função**\n\n* Garantir a eficiência da cadeia de abastecimento e do ciclo de vida do produto, assegurando uma gestão rigorosa do stock e dos processos logísticos, com impacto direto na produtividade interna e na satisfação dos clientes.\n\n**Requisitos**\n\n* Escolaridade mínima ao nível do 12.º ano.\n* Experiência prévia em expedição, preferencialmente em operações com elevada exigência de precisão e cumprimento de prazos.\n* Experiência em armazém e utilização de ferramentas informáticas de logística serão valorizadas.\n* Rigor e atenção ao detalhe: conferir materiais, volumes e documentação para garantir envios completos e identificados.\n* Responsabilidade e compromisso: assegurar envios fiáveis, reconhecendo o seu impacto na atividade.\n* Organização e prioridades: planear tarefas e cumprir os horários das recolhas e entregas.\n* Capacidade física e segurança: movimentar e manusear cargas em segurança.\n* Trabalho em equipa e comunicação: colaborar e partilhar informação com clareza e atempadamente.\n\n**Oferta**\n\n* Contrato de trabalho diretamente com o cliente\n* Vencimento Base + S.A\n* Seguro de Saúde + Plataforma de benefícios\n* Integração num ambiente profissional dinâmico na área da saúde\n\nZona de trabalho: Agualva-Cacém\n\n**Nota:** Atendendo ao esperado elevado número de candidaturas, não nos vai ser operacionalmente possível dar feedback a todos os candidatos. Os candidatos selecionados serão contactados no prazo de 15 dias.\n\nAo enviar o seu currículo, está a concordar com o tratamento dos seus dados pessoais para efeitos de recrutamento, conforme a Política de Privacidade no nosso site. Os seus dados serão armazenados de forma segura e não partilhados com terceiros sem consentimento. Pode aceder, corrigir, eliminar, limitar ou opor-se ao tratamento dos seus dados. Os dados serão mantidos para este e futuros recrutamentos. Para mais informações ou exercer os seus direitos, consulte a Política de Privacidade.\n\nPagamento: 920,00€ - 3 930,00€ por mês\n\nBenefícios:\n\n* Cartão/Ticket refeição\n\nLocalização do trabalho: Presencial",
+    "detail_fetched_at": "2026-11-08",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-08",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-08",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Sintra, P11, Portugal",
+    "matched_keywords": [
+      "operador de logistica"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-06",
+    "score": 42,
+    "signals": [
+      "unskilled_role_match",
+      "tier_2_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-ab574b055f9d7309",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Operador de Logística (M/F) Agualva-Cacém",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "99cd7234939371b4",
+    "url": "https://pt.indeed.com/viewjob?jk=ab574b055f9d7309",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "99ea703527a82d8b": {
     "apply_channels": {
       "emails": [
@@ -76950,7 +77106,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE300",
@@ -79968,7 +80124,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DED45",
@@ -80555,7 +80711,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Berlin, BE, Germany",
@@ -83736,7 +83892,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -85882,7 +86038,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE948",
@@ -86667,7 +86823,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Vyšší Brod, JC, Czech Republic",
@@ -86760,7 +86916,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Mautern, N, Austria",
@@ -87470,7 +87626,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE922, DE948, DE94D, DE94F",
@@ -89490,7 +89646,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Mullingar, WH, Ireland",
@@ -89627,12 +89783,13 @@
     "company": "Aline Office Furniture Ltd",
     "country": "IE",
     "description": "We are looking for a trustworthy honest hard working person to join out team, Currently we have 8 employees and are growing.\n\nThe job will be varied with 80% of the time spent in the warehouse but on occasion will require collection from suppliers or to on jobs with our team of delivery drivers and installers.\n\nEssential that you have a full clean drivers license and are 25 years old so as to go on the company insurance.\n\n* Receive, check, and store incoming goods.\n* Pick, pack, and dispatch customer orders accurately and on time.\n* Load and unload delivery vehicles safely.\n* Maintain a clean, organised, and safe working environment.\n* Operate warehouse equipment (e.g., pallet trucks, forklifts – if trained and certified).\n* Carry out stock checks and report discrepancies.\n* Follow health & safety and company procedures at all times.\n* Clean chairs and stock with specialist equipment. Steam and Extractor\n\nJob Types: Full-time, Permanent\n\nPay: From €30,000.00 per year\n\nLicence/Certification:\n\n* Drivers license (required)\n\nWork Location: In person",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-08",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -93391,6 +93548,52 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "bee9fac0578f5090": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Furniture 1 Portugal, Lda",
+    "country": "PT",
+    "description": "**Ajudante de Motorista / Operador de Armazém - Região de Benavente**\n\nTodos os dias, o nosso principal foco não é apenas o mobiliário, mas também os nossos clientes. Acreditamos que o nosso papel é ajudar a criar conforto e bem-estar em casa dos nossos clientes, fazendo da sua satisfação a nossa maior prioridade.\n\nAcreditamos fortemente que a satisfação dos clientes está diretamente ligada à satisfação dos colaboradores. Por isso, damos grande importância ao crescimento, desenvolvimento e realização do potencial dos nossos colaboradores. A maioria dos nossos líderes de equipa iniciou o seu percurso profissional na empresa como estagiários ou especialistas juniores.\n\n***Responsabilidades:***\n\n* Entrega de mobiliário aos clientes de acordo com as rotas planeadas;\n* Carga e descarga de mobiliário;\n* Receção, organização e movimentação de mercadoria em armazém;\n* Preparação de encomendas para entrega;\n* Garantir a segurança da carga durante o transporte;\n* Prestar um atendimento profissional e cordial aos clientes;\n* Manter a limpeza e organização da viatura e do espaço de armazém.\n\n***Requisitos:***\n\n* Carta de condução categoria B válida;\n* Pessoa responsável, pontual e com boa condição física;\n* Capacidade de trabalhar em equipa;\n* Experiência anterior em função semelhante será valorizada.\n\n***Oferecemos:***\n\n* Emprego estável numa empresa em crescimento;\n* Equipa amigável e com espírito de entreajuda;\n* Todos os equipamentos de trabalho necessários fornecidos pela empresa;\n* Se é uma pessoa responsável e gostaria de fazer parte da nossa equipa, convidamo-lo(a) a juntar-se a nós.\n\n***Salário:***\n\nAproximadamente 1.500 € brutos/mês, correspondendo a cerca de 1.100 € líquidos/mês (x12), incluindo subsídios em duodécimos, possibilidade de bonus consoante os resultados obtidos. O valor líquido poderá variar consoante a situação fiscal do trabalhador.\n\nPagamento: 1 100,00€ por mês\n\nLocalização do trabalho: Presencial",
+    "detail_fetched_at": "2026-11-08",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-08",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-08",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Benavente, P14, Portugal",
+    "matched_keywords": [
+      "limpeza",
+      "operador de armazem"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-15",
+    "score": 37,
+    "signals": [
+      "unskilled_role_match",
+      "tier_2_country"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-02235c25708c0143",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Ajudante de Motorista / Operador de Armazém - Região de Benavente",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "bee9fac0578f5090",
+    "url": "https://pt.indeed.com/viewjob?jk=02235c25708c0143",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "bf3fcc3b07416d34": {
     "apply_channels": {
       "emails": [],
@@ -96518,7 +96721,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE145",
@@ -100315,7 +100518,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Katsch an der Mur, ST, Austria",
@@ -104182,6 +104385,52 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "d5337573d38bcfd1": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Craig Forde Electrical Wholesalers LTD",
+    "country": "IE",
+    "description": "Warehouse Operative – Full-Time Company Forde Electrical Wholesalers (FEW) Location Arklow, Co. Wicklow Hours Monday to Friday, 7:00 a.m. to 3:30 p.m. Forde Electrical Wholesalers is hiring a full-time warehouse operative for our Arklow warehouse. We supply electrical contractors with cable tray, trunking, strut, conduit and fixings. This is a very physically demanding role. You’ll spend most of the shift on your feet and regularly lift, carry and move heavy, long and bulky stock. You’ll load and unload vehicles and move materials around the warehouse and yard, using handling equipment and working with colleagues as needed. Main duties - Pick, check and pack customer orders for collection and delivery. - Load and unload vehicles and check incoming stock against delivery paperwork. - Put stock away in the correct locations and replenish picking areas. - Carry out regular stocktakes, record quantities accurately and report discrepancies. - Keep the warehouse and yard tidy and follow safe working procedures. Requirements - A full driving licence and your own transport are essential. - Comfortable with sustained physical work and safe handling of heavy and bulky stock. - Comfortable carrying out stocktakes and keeping accurate records. - Able to work independently and as part of a team. - Reliable, punctual and attentive to detail. Previous warehouse or trade counter experience is an advantage. Forklift experience is desirable but not essential. To apply, send us your CV or a short summary of your relevant experience.\n\nPay: €28,300.00-€34,800.00 per year\n\nBenefits:\n\n* On-site parking\n\nWork Location: In person",
+    "detail_fetched_at": "2026-11-08",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-08",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-08",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Arklow, WW, Ireland",
+    "matched_keywords": [
+      "warehouse operative"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-06",
+    "score": 42,
+    "signals": [
+      "unskilled_role_match",
+      "tier_2_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-57732d3385d623f2",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Warehouse operative",
+    "title_ar": "",
+    "title_en": "Warehouse operative",
+    "translated": false,
+    "uid": "d5337573d38bcfd1",
+    "url": "https://ie.indeed.com/viewjob?jk=57732d3385d623f2",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "d544250be6774363": {
     "apply_channels": {
       "emails": [],
@@ -106233,7 +106482,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Görlitz, SN, Germany",
@@ -109213,8 +109462,10 @@
     ],
     "last_seen": "2026-11-06",
     "lifecycle": {
-      "missed_runs": 1,
-      "status": "active"
+      "deactivated_at": "2026-11-08T05:38:46+00:00",
+      "deactivation_reason": "not_seen_in_2_covered_runs",
+      "missed_runs": 2,
+      "status": "deactivated"
     },
     "location": "ITI43",
     "matched_keywords": [
@@ -110821,7 +111072,7 @@
     "last_seen": "2026-11-08",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -117283,7 +117534,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE94F",
@@ -118847,7 +119098,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "Wilhelmsburg, N, Austria",
@@ -122403,7 +122654,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T05:38:46+00:00",
       "status": "active"
     },
     "location": "DE94F",
