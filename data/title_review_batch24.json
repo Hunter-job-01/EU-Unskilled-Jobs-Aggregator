@@ -45,7 +45,7 @@
     {
       "uid": "0dadca5f2482a492",
       "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/YjIxMzlmNzgtMzUzNy00OTE3LTllZjgtYTM0ODg5YmU4NDVjIDM?lang=en",
-      "note": "Live EURES title matches stored, including leading space and marketing suffix. Body (Actief Interim for SKF bearings, Tongeren) confirms night order picking with a high order-pick truck; the 20.85 EUR/hour and fixed-night qualifiers come from the title itself and are preserved."
+      "note": "Live EURES title matches stored, including leading space and marketing suffix. Body (Actief Interim for SKF bearings, Tongeren) confirms night order picking with a high order-pick truck; the 20.85 EUR/hour and fixed-night qualifiers come from the title itself and are preserved. Guard-expectation note (added 2026-11-08): the live API title carries a leading space (\" Orderpicker vaste nacht | ...\"); the store normalizes it stripped (\"Orderpicker vaste nacht | ...\"), which tripped the expected_title guard on first application. expected_title was corrected to the store-normalized form in commit 75ad13b; reviewed title_en/title_ar unchanged."
     },
     {
       "uid": "0dd9823824df961e",
