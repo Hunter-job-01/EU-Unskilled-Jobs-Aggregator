@@ -228,3 +228,45 @@ def test_source_mismatch_review_tracks_exact_content(tmp_path):
     store.merge([job])
     assert store._store[job.uid]["source_review"] == {}
     assert store._store[job.uid]["description"] == job.description
+# ---------------------------------------------------------------------
+# Fix 4: summary_ar must not survive posting identity drift
+# ---------------------------------------------------------------------
+
+def test_summary_ar_dropped_on_identity_drift_same_title(tmp_path):
+    # Repost drift: same title, same uid, but a different URL + body
+    # (the Primark JR-16151 -> JR-16177 collapse). Title-derived
+    # translations stay valid; the body-derived summary must not cross.
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    today = date(2026, 11, 2)
+    store.merge([make_job(1, score=90, description="Rio part-time body")], today=today)
+    rec = store._store["uid1"]
+    rec["title_en"] = "Warehouse worker"
+    rec["title_ar"] = "عامل مستودع"
+    rec["summary_ar"] = "ملخص قديم"
+
+    drifted = make_job(1, score=91, description="Montijo full-time body")
+    drifted.url = "https://example.test/1-reposted"
+    added, updated = store.merge([drifted], today=today + timedelta(days=1))
+    assert (added, updated) == (0, 1)
+    rec = store._store["uid1"]
+    assert rec["title_en"] == "Warehouse worker"
+    assert rec["title_ar"] == "عامل مستودع"
+    assert rec["summary_ar"] == ""
+
+
+def test_summary_ar_dropped_when_only_body_changes(tmp_path):
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    today = date(2026, 11, 2)
+    store.merge([make_job(1, description="old body")], today=today)
+    store._store["uid1"]["summary_ar"] = "ملخص قديم"
+    store.merge([make_job(1, description="edited body")], today=today + timedelta(days=1))
+    assert store._store["uid1"]["summary_ar"] == ""
+
+
+def test_summary_ar_preserved_when_identity_unchanged(tmp_path):
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    today = date(2026, 11, 2)
+    store.merge([make_job(1, description="same body")], today=today)
+    store._store["uid1"]["summary_ar"] = "ملخص"
+    store.merge([make_job(1, description="same body")], today=today + timedelta(days=1))
+    assert store._store["uid1"]["summary_ar"] == "ملخص"
