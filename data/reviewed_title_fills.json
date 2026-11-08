@@ -211,11 +211,19 @@
     {
       "uid": "86f59685121495c6",
       "expected_title": "Retail Assistant - Operador de Loja (m/f)",
-      "expected_url": "https://jobs.smartrecruiters.com/Primark/744000159190840-retail-assistant-operador-de-loja-m-f-",
+      "expected_url": "https://jobs.smartrecruiters.com/Primark/744000159164188-retail-assistant-operador-de-loja-m-f-",
       "title_en": "Retail Assistant - Operador de Loja (m/f)",
       "title_ar": "مساعد متجر تجزئة",
       "translated": true,
-      "review": "data/title_review_batch20.json"
+      "review": "data/title_review_batch20.json",
+      "source_review": {
+        "status": "destination_mismatch",
+        "kind": "identity_drift_repost",
+        "checked_on": "2026-11-08",
+        "original_url": "https://jobs.smartrecruiters.com/Primark/744000159190840-retail-assistant-operador-de-loja-m-f-",
+        "current_url": "https://jobs.smartrecruiters.com/Primark/744000159164188-retail-assistant-operador-de-loja-m-f-",
+        "reason": "Identity drift: uid is dedup_hash(company|title|country) in src/scorer.py, so two distinct Primark postings collapse to one record. Batch20 review bound the Rio de Mouro part-time posting (JR-16151, SmartRecruiters 744000159190840, verified live via SmartRecruiters public API); an Indeed re-scrape (source jobspy_indeed) moved the record to the Montijo full-time posting (JR-16177, 744000159164188, verified live). Record description/location/url now match the current posting, but summary_ar still derives from the old posting's body (stale 'Rio de Mouro' location line) and the title fills' review context no longer applies. Apply link and description-derived claims withheld pending a fresh review of the current posting."
+      }
     },
     {
       "uid": "0cb006509afd6edd",
