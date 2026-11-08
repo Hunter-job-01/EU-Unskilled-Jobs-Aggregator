@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-08",
+  "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. Two candidates in this window returned HTTP 404 on the live API (uid 0c10c84afe31213a AT Zusteller:in und Lagerhelfer:in, uid 0dad6f50ad84127b FR Magasinier #SEB26) and were held, joining the still-held French posting 00cfb0e9af186fce. One candidate (uid 0dd9823824df961e) carried the legacy partial-AR marker; its fill uses the reviewed-overwrite path (4e0c799) with overwrite:true so the reviewed Arabic replaces the marker.",
+  "reviews": [
+    {
+      "uid": "0c082259dd3dc2fa",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIzODQtOTgwODAwODIzLVMgMQ?lang=en",
+      "note": "Live EURES title matches stored. Body (Actief Personalmanagement staffing, Haßfurt area) lists goods receiving/checking/storing, picking and packing - loading warehouse helper role."
+    },
+    {
+      "uid": "0c2bce7b6d1ce15d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQzODUtNDc2LTI2NTE5NzYtMjYtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body (ARWA Personaldienstleistungen temp placement, Ziesar) confirms warehouse work with forklift license: unloading, sorting max 15 kg, goods-in checks; 15.33 EUR/h quoted in body, kept out of the title."
+    },
+    {
+      "uid": "0ced4a3ab1a6eb15",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MjA4MjQgMTI?lang=en",
+      "note": "Live EURES title matches stored. Body (research institute warehouse, 7:00-15:00) confirms senior storekeeper running materials stock; min 1 year similar experience required - seniority qualifier preserved."
+    },
+    {
+      "uid": "0cf43509cf0fe266",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/Y2Y3MDgxMDMtYTdjOS00MWU5LWEyNjItYTM3YWM5YmI4MDM4IDM?lang=en",
+      "note": "Live EURES title matches stored. Body (Konvert Interim, garden/timber/building department) combines customer service with loading/unloading by forklift and stock management - shop plus warehouse role."
+    },
+    {
+      "uid": "0d0b478b79a233ce",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzM5ODc1OCAxMw?lang=en",
+      "note": "Live EURES title matches stored (all-caps in source). Body (SC GALCIP CAR, Galicea Mare, Dolj) confirms unskilled breaking/cutting of construction materials, full-time, no experience needed."
+    },
+    {
+      "uid": "0d0d60b7f49c3c41",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ2MDkyNmUtNzRmYi1iZGZlLWUwNjMtNjg5M2IyMGEzOWY5IDQy?lang=en",
+      "note": "Live EURES title matches stored. Body (Olympia staffing, Ede DC behind Kruidvat/Trekpleister) confirms part-time warehouse work processing and shipping products."
+    },
+    {
+      "uid": "0d3b608c2bf0f39c",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1WExYRCA5?lang=en",
+      "note": "Live EURES title matches stored. Body confirms a 12-24 month apprenticeship (Bac pro Logistique) at FAREVA pharmaceutical plant learning warehouse/forklift work under the logistics manager - apprenticeship qualifier preserved."
+    },
+    {
+      "uid": "0d7755612b232c1c",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwMzk2OTc4OS1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body (Logo Personalservice, Horb am Neckar, 3-shift) confirms visual quality inspection of metal parts with magnifier/microscope plus sorting and packing."
+    },
+    {
+      "uid": "0dadca5f2482a492",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/YjIxMzlmNzgtMzUzNy00OTE3LTllZjgtYTM0ODg5YmU4NDVjIDM?lang=en",
+      "note": "Live EURES title matches stored, including leading space and marketing suffix. Body (Actief Interim for SKF bearings, Tongeren) confirms night order picking with a high order-pick truck; the 20.85 EUR/hour and fixed-night qualifiers come from the title itself and are preserved."
+    },
+    {
+      "uid": "0dd9823824df961e",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/YWE3YzhkZjEtYWI3MC00MzEwLWJiN2EtODZhZmM2NmFiMzkwIDM?lang=en",
+      "note": "Live EURES title matches stored. Body (SD Worx for a Waasland company, fixed day hours) confirms junior warehouse logistics tasks: receiving/unloading, stock support. Record carried the legacy partial-AR marker; reviewed fill carries overwrite:true to replace it."
+    },
+    {
+      "uid": "0de3c30a9286bb91",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzE1MDU3MTYtOGI3NC00YmRjLTk4MmYtNThmMDc1MDg5MTc4IDgx?lang=en",
+      "note": "Live EURES title matches stored. Body (Click Henkilostopalvelut for a Finnish terrace-glazing maker, Turku, weekday morning shift 37.5 h/week) confirms warehouse/production work: goods in/out, packing, counterbalance forklift."
+    },
+    {
+      "uid": "0e829061892016e1",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ODEzODc1MCA5?lang=en",
+      "note": "Live EURES title matches stored. Posted title is warehouse keeper for aeronautical parts at Airbus Toulouse; the body text leans on team-leader language but the posted title is what is translated, unchanged."
+    },
+    {
+      "uid": "0f10f04890f6181c",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU4NDY0ODgtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body (PerZukunft placement, central Berlin supermarket chain) confirms full-time warehouse helper at 18.82 EUR/h gross; pay qualifier from the title preserved."
+    },
+    {
+      "uid": "0f2f0ac3dbd14ef4",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTEwODEtVFg3SDI5S0Q4MUFRTzc5Uy1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body (Manpower for an international logistics company, Frankfurt am Main) confirms full-time letter-shipment sorting and picking up to 30 kg, B1 German required; pay from the title preserved."
+    },
+    {
+      "uid": "0f490ac8830e7a4c",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE2Q1dNQyA5?lang=en",
+      "note": "Live EURES title matches stored (double space in source). Body (MINITUBES via France Travail) confirms stock management: stock-level adjustment, purchase orders, receptions control, inventory planning."
+    },
+    {
+      "uid": "0f6625c60c974734",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjYxMTA1LTEzOCA0MDE?lang=en",
+      "note": "Live EURES title matches stored. Body (Latvijas Sarkanais Krusts social care center Valka) confirms a caregiver role (profession code 5322 02) in elderly social care - not a warehouse role, translated as posted."
+    },
+    {
+      "uid": "0f6ca8b8a33f8115",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ZGEyNzJmMTUtMmU1MC00YWI5LWJkMmYtYzk0N2FmOTRjMWNmIDc?lang=en",
+      "note": "Live EURES title matches stored. Body (FirmaVikar temp-to-hire for an industrial company in Lunderskov) confirms experienced warehouse work with goods receiving/shipping and ERP registrations; experience qualifiers preserved."
+    },
+    {
+      "uid": "0fb84bab0cda7bd3",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjYxMTA2LTU2IDQwMQ?lang=en",
+      "note": "Live EURES title matches stored (all-caps in source). Body (farm ŠŅEPSTU JAUNĀRES sawmill) confirms woodworking machine operation on a sawmill production line, Mon-Fri, from 1000 EUR plus bonuses."
+    }
+  ]
+}
