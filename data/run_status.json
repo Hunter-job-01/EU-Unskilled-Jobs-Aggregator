@@ -217,7 +217,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 28,
+        "fetched": 31,
         "notes": [],
         "status": "ok"
       },
@@ -676,8 +676,8 @@
       }
     }
   },
-  "duration_sec": 809.1,
-  "last_run_utc": "2026-11-08T06:17:12+00:00",
+  "duration_sec": 793.6,
+  "last_run_utc": "2026-11-08T18:04:37+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-08T04:38:39+00:00",
@@ -1085,7 +1085,7 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-08T06:17:12+00:00",
+      "checked_at_utc": "2026-11-08T18:04:37+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1171,7 +1171,7 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-08T06:17:12+00:00",
+      "checked_at_utc": "2026-11-08T18:04:37+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1966,7 +1966,7 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-08T06:17:12+00:00",
+      "checked_at_utc": "2026-11-08T18:04:37+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2016,7 +2016,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 28,
+          "fetched": 31,
           "notes": [],
           "status": "ok"
         },
@@ -2230,7 +2230,7 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-08T06:17:12+00:00",
+      "checked_at_utc": "2026-11-08T18:04:37+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2642,7 +2642,7 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-08T06:17:12+00:00",
+      "checked_at_utc": "2026-11-08T18:04:37+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2724,7 +2724,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-08T06:17:12+00:00",
+      "checked_at_utc": "2026-11-08T18:04:37+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2895,7 +2895,7 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-08T06:17:12+00:00",
+      "checked_at_utc": "2026-11-08T18:04:37+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3195,7 +3195,7 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-08T06:17:12+00:00",
+      "checked_at_utc": "2026-11-08T18:04:37+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3316,48 +3316,48 @@
     "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 163,
-    "candidates_stored": 163,
+    "candidates_held_total": 179,
+    "candidates_stored": 179,
     "sealed": true,
-    "sha256": "0b72992e31a06acf27be24a28e6f8239ce549c2b0062fe328f438e5e9957cf59"
+    "sha256": "f04809a08fdf46e289d7fe5c9138cd518335205cb72d55dc4f1708e815e67167"
   },
   "source_retention": {
     "kept_pre_prune": {
       "covebo": 1,
       "czech_mpsv": 2,
-      "eures": 183,
+      "eures": 192,
       "goodmorning": 7,
       "hobij": 5,
-      "jobspy_indeed": 184,
+      "jobspy_indeed": 183,
       "nl_jobs": 1,
       "pl_cbop": 50
     },
     "retained_post_prune": {
       "czech_mpsv": 1,
-      "eures": 152,
-      "jobspy_indeed": 184,
+      "eures": 154,
+      "jobspy_indeed": 183,
       "pl_cbop": 50
     }
   },
   "totals": {
-    "active": 2622,
-    "below_min_score": 22,
-    "contacts_extracted": 120,
-    "excluded": 258,
-    "fetched": 739,
+    "active": 2643,
+    "below_min_score": 19,
+    "contacts_extracted": 125,
+    "excluded": 261,
+    "fetched": 742,
     "l1_dropped": 1,
     "l2_language_excluded": 1,
-    "lifecycle_deactivated": 1,
+    "lifecycle_deactivated": 0,
     "lifecycle_deactivated_total": 57,
-    "lifecycle_dead_confirmed": 1,
-    "lifecycle_live_confirmed": 39,
+    "lifecycle_dead_confirmed": 0,
+    "lifecycle_live_confirmed": 40,
     "lifecycle_reactivated": 0,
-    "new": 3,
+    "new": 30,
     "notified_telegram": 0,
-    "pruned": 0,
-    "reviewed_fills": 6,
+    "pruned": 9,
+    "reviewed_fills": 22,
     "translated_ar": 0,
     "translated_titles": 0,
-    "updated": 393
+    "updated": 377
   }
 }
