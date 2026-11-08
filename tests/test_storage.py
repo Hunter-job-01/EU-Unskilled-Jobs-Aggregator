@@ -270,3 +270,43 @@ def test_summary_ar_preserved_when_identity_unchanged(tmp_path):
     store._store["uid1"]["summary_ar"] = "ملخص"
     store.merge([make_job(1, description="same body")], today=today + timedelta(days=1))
     assert store._store["uid1"]["summary_ar"] == "ملخص"
+
+
+def test_summary_guard_preventive_only_for_already_drifted_record(tmp_path):
+    # Exact 86f repro: the stored record ALREADY carries the current
+    # posting identity (url/body/source/source_id) next to a stale
+    # summary derived from the pre-drift body. A same-identity refresh
+    # preserves the field - the guard prevents FUTURE drift carry-over
+    # only; cleaning the existing-stale state is the reviewed fill's job.
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    today = date(2026, 11, 2)
+    job = make_job(1, description="current Montijo body")
+    store.merge([job], today=today)
+    rec = store._store["uid1"]
+    rec["title_en"] = "Warehouse worker"
+    rec["summary_ar"] = "ملخص قديم من وصف Rio"
+    rec["source_review"] = {}
+
+    added, updated = store.merge(
+        [make_job(1, score=91, description="current Montijo body")],
+        today=today + timedelta(days=1))
+    assert (added, updated) == (0, 1)
+    rec = store._store["uid1"]
+    assert rec["summary_ar"] == "ملخص قديم من وصف Rio"  # fill cleanup owns this
+    assert rec["title_en"] == "Warehouse worker"
+
+
+def test_description_keep_bound_to_unchanged_url(tmp_path):
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    today = date(2026, 11, 2)
+    store.merge([make_job(1, description="a much longer original body text")],
+                today=today)
+    # Same posting (url unchanged), thinner re-scrape: keep the rich body.
+    store.merge([make_job(1, description="thin")], today=today + timedelta(days=1))
+    assert store._store["uid1"]["description"] == "a much longer original body text"
+    # Identity drift (url changed): the old body belongs to a different
+    # posting and must NOT be kept even though it is longer.
+    drifted = make_job(1, description="short new body")
+    drifted.url = "https://example.test/1-reposted"
+    store.merge([drifted], today=today + timedelta(days=2))
+    assert store._store["uid1"]["description"] == "short new body"
