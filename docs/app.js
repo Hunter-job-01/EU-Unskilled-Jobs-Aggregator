@@ -450,7 +450,7 @@
     var actions = el('div', 'job-actions');
     var href = safeExternalUrl(job.url);
     if (sourceMismatch) {
-      // Two distinct mismatch shapes share the destination_mismatch status:
+      // Three distinct mismatch shapes share the destination_mismatch status:
       // the posting moved (Fosfa: link destination is a different job) and a
       // source-internal conflict (same posting, its own description does not
       // match its title). Pick the honest wording for the recorded case;
@@ -459,10 +459,15 @@
       var reviewReason = (job.source_review && job.source_review.reason) || '';
       var sourceInternal = reviewKind === 'source_internal_title_body' ||
         reviewReason.indexOf('Source-internal mismatch') === 0;
-      var warnEn = sourceInternal
+      var identityDrift = reviewKind === 'identity_drift_repost';
+      var warnEn = identityDrift
+        ? 'Source identity changed: this record now points to a different posting of the same role at the source (different store and hours). Application link and description-derived claims withheld pending fresh review.'
+        : sourceInternal
         ? "Source mismatch: this posting's own description does not match its title at the source. Application link and description-derived claims withheld pending review."
         : 'Source mismatch: destination and description do not match this title. Application link and description-derived claims withheld pending review.';
-      var warnArText = sourceInternal
+      var warnArText = identityDrift
+        ? 'تغيّرت هوية المصدر: يشير هذا السجل الآن إلى إعلان مختلف لنفس الدور لدى المصدر (فرع وساعات عمل مختلفة). أُوقف رابط التقديم والمعلومات المستخرجة من الوصف لحين مراجعة جديدة.'
+        : sourceInternal
         ? 'تعارض في المصدر: وصف الإعلان نفسه لا يطابق مسماه لدى المصدر. أُوقف رابط التقديم والمعلومات المستخرجة من الوصف لحين المراجعة.'
         : 'تعارض في المصدر: صفحة الرابط والوصف لا يطابقان المسمى. أُوقف رابط التقديم والمعلومات المستخرجة من الوصف لحين المراجعة.';
       actions.appendChild(el('p', 'job-link-provenance', warnEn));
