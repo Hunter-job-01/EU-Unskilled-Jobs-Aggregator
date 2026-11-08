@@ -767,7 +767,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE217",
@@ -1189,7 +1189,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Prutz, T, Austria",
@@ -4541,7 +4541,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DEA29",
@@ -7148,7 +7148,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE94E",
@@ -12656,7 +12656,7 @@
     "languages": [],
     "last_seen": "2026-11-08",
     "lifecycle": {
-      "missed_runs": 0,
+      "missed_runs": 1,
       "status": "active"
     },
     "location": "Alsónémedi, PE, Hungary",
@@ -14500,7 +14500,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Ebensee, O, Austria",
@@ -17492,13 +17492,13 @@
     "company": "SilentLab s.r.o.",
     "country": "CZ",
     "description": "**O nás**\n---------\n\n**Hledáme spolehlivého parťáka / parťačku do skladu SilentLab!**\n\nMáš rád/a, když má práce řád, věci mají své místo a za tebou je vidět výsledek? Nevadí ti pohyb, fyzická práce a umíš vzít věci do vlastních rukou? Pak hledáme právě tebe!\n\nDo našeho týmu SilentLab hledáme posilu do skladu. Nečeká tě stereotypní práce na jednom místě, ale pestrá a zodpovědná činnost, při které budeš důležitou součástí celého výrobního procesu.\n\n**CO TĚ U NÁS ČEKÁ?**\n---------------------\n\n* příjem, kontrola a evidence materiálu a zboží\n* manipulace s materiálem i hotovými výrobky\n* zásobování výroby potřebným materiálem\n* příprava a kompletace zakázek k expedici\n* nakládka a vykládka zboží\n* práce se čtečkou a v systému SAP\n* udržování pořádku a přehledu ve skladu\n* každodenní spolupráce s kolegy z výroby a ostatních oddělení\n\nŽádné postávání v koutě. Čeká tě aktivní práce, při které využiješ svou fyzickou zdatnost, samostatnost i selský rozum.\n\n**KOHO HLEDÁME?**\n-----------------\n\n* fyzicky zdatného člověka, kterému nevadí manipulace s materiálem\n* spolehlivého parťáka / parťačku, na kterého se můžeme spolehnout\n* někoho, kdo má rád pořádek, systém a zodpovědnost\n* samostatného člověka, který ale ví, že bez spolupráce to nejde\n* člověka, který má chuť pracovat a dotahuje věci do konce\n* zkušenosti ze skladu jsou výhodou, ne podmínkou\n* znalost SAP nebo jakéhokoliv ERP systému je výhodou\n* zkušenosti s VZV jsou výhodou\n\n**CO TI NABÍDNEME?**\n--------------------\n\n* jednosměnný provoz – pondělí až pátek, 6:30–15:00\n* volné víkendy a večery\n* stabilní práci na hlavní pracovní poměr\n* moderní, čisté a příjemné pracovní prostředí\n* menší přátelský tým a férový přístup\n* stravenkový paušál\n* Multisport kartu\n* firemní akce a další zaměstnanecké benefity\n* volno v období Vánoc\n* odměnu za doporučení nového kolegy\n\n**ZNÍ TO JAKO PRÁCE PRO TEBE?**\n\nNečekáme dokonalý životopis. Důležitější je pro nás spolehlivost, chuť pracovat a přístup, na který se můžeme spolehnout.\n\nPošli nám svůj životopis nebo pár vět o sobě. Rádi tě poznáme!\n\n**SilentLab – jsme tým, který drží pohromadě.**\n\n  \n  \n\n**Benefity**\n------------\n\n* Dovolená navíc\n* Finanční bonusy a prémie\n* Firemní akce\n* Vzdělávací kurzy\n* Příspěvek na sport\n* Příspěvek na stravování\n* Přátelské prostředí\n* Možnost parkování",
-    "detail_fetched_at": "2026-11-07",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-04",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-07",
+    "last_seen": "2026-11-08",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -18638,7 +18638,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Nossen, SN, Germany",
@@ -21143,7 +21143,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE94F",
@@ -21521,9 +21521,11 @@
     ],
     "last_seen": "2026-11-04",
     "lifecycle": {
-      "dead_checks": 1,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
-      "status": "active"
+      "deactivated_at": "2026-11-08T06:15:55+00:00",
+      "deactivation_reason": "dead_link_confirmed",
+      "dead_checks": 2,
+      "last_live_check": "2026-11-08T06:15:55+00:00",
+      "status": "deactivated"
     },
     "location": "DE278",
     "matched_keywords": [
@@ -23268,7 +23270,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE736",
@@ -26548,7 +26550,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "FRH01",
@@ -29444,6 +29446,8 @@
     "languages": [],
     "last_seen": "2026-11-04",
     "lifecycle": {
+      "dead_checks": 0,
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Přehýšov, PL, Czech Republic",
@@ -31034,7 +31038,7 @@
     "company": "Zentiva",
     "country": "CZ",
     "description": "Hledáte práci, která má smysl? V Zentivě vyrábíme kvalitní a cenově dostupné léky pro více než 100 milionů lidí ve 40 zemích. **Přidejte se k našemu týmu v Praze a buďte součástí výroby**, která má skutečný dopad na zdraví lidí.\n\nRozšiřujeme náš výrobní tým a hledáme nového kolegu nebo kolegyni na pozici **Skladník**.\n\nMáte zkušenosti ze skladu, nebo se chcete v této oblasti teprve rozvíjet? Čeká Vás **manipulace s materiálem, kontrola kompletnosti a správnosti dodávek, práce se skladovou technikou a spolupráce s kolegy napříč výrobou**. Důležitá je pro nás především spolehlivost, pečlivost a zodpovědný přístup k práci. Na pozici Vás důkladně zaškolíme a vše potřebné Vás naučíme.\n\n**Co u nás budete dělat?**\n--------------------------\n\n* Kontrolování kompletnosti, obsahu a značení dodávek vydávaného materiálu\n* Předávka informací a dat o průběhu\n* Provádění inventarizačních prací (přesná identifikace materiálu a skladového místa, počítání, měření, vážení včetně související manipulace s materiálem a dokumentace procesu)\n* Příprava a manipulace s objednávkou, vychystávání a balení zboží\n* Práce se čtečkou a paletovým vozíkem\n\n**Jste náš člověk, pokud:**\n---------------------------\n\n* Máte zkušenost s prací ve skladu nebo s přípravou zboží\n* Ochotu pracovat ve **dvousměnném provozu (6.00-14.00hod, 14.00-22.00hod)**\n* Chuť se učit nové věci a aktivně přistupovat k práci\n* Svědomitost, samostatnost a pracovitost\n\n**Co vám nabízíme?**\n--------------------\n\n* **Jistotu práce u stabilního zaměstnavatele**. Zentiva navazuje na 100letou historii výroby léčiv v Praze - Dolních Měcholupech. Dlouhodobě se také řadíme mezi oceňované zaměstnavatele v České republice.\n* Zapomeňte na horké haly nebo práci venku. Pracovat budete ve velmi čistém prostředí s celoroční teplotou okolo 22 °C..\n* K tomu získáte **12 000 Kč ročně na benefity prostřednictvím Cafeterie eBenefity**. Částku čerpáte formou 12 000 bodů, které můžete využít na dovolenou, v lékárnách, sportovních zařízeních, na kulturu i knihy.\n* Týden dovolené navíc (celkem 25 dní) pro zasloužený odpočinek. K tomu ještě **tři dny zdravotního volna** ročně.\n* Volný čas si můžete zpestřit i díky **Multisport kartě, na kterou přispíváme** – díky tomu vás bude stát pouze 390 Kč měsíčně.\n* Příspěvek na stravování – na účet vám každý měsíc vyplatíme stravenkový paušál, a to v hodnotě 115 Kč za odpracovaný den.\n* Přímo v budově máme **kantýnu se snídaněmi, několika druhy obědů**\n* Přispějeme vám na **penzijní doplňkové spoření/ dlouhodobý investiční produkt (DIP) a životní pojištění**.\n* **Relokační bonus** – pokud se za prací u nás stěhujete z oblasti mimo Středočeský kraj, budeme vám prvního půl roku vyplácet 6 000 Kč měsíčně navíc do výplaty.\n* Nehodíme vás do vody. Hned na začátku vás čeká **důkladné proškolení a následně podpora od zkušeného kolegy** pro váš pohodový start. Bezpečnost při práci je pro nás vždy na prvním místě.\n* Veškeré **pracovní vybavení, od oblečení až po obuv**, od nás samozřejmě dostanete zdarma. A o praní pracovního oblečení se postaráme.\n* **Nástup je možný ihned**. Pracovní smlouvu uzavíráte se Zentivou, nejprve na 1 rok. Při oboustranné spokojenosti vám smlouvu rádi prodloužíme na neurčito.\n\n**Jak probíhá výběrové řízení?**\n--------------------------------\n\n* **Pošlete nám svůj životopis** a my se na něj co nejdříve podíváme.\n* Pokud budete splňovat naše požadavky, **pozveme vás na osobní pohovor spojený s prohlídkou výroby**. Dozvíte se vše potřebné k nabízené pozici a budete mít prostor zeptat se na vše, co vás zajímá.\n\nTěšíme se na vás!",
-    "detail_fetched_at": "2026-11-07",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
@@ -31046,7 +31050,7 @@
       }
     ],
     "languages": [],
-    "last_seen": "2026-11-07",
+    "last_seen": "2026-11-08",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -33777,13 +33781,13 @@
     "company": "OKE GROUP",
     "country": "DE",
     "description": "* OKE Automotive GmbH & Co. KG\n* DE - Hörstel\n\n* Produktion, Fertigung\n* Vollzeit\n\n**Wer sich wohl fühlt, macht einen guten Job.** Als Teil der OKE-Unternehmensgruppe entwickelt und produziert **OKE Automotive** technische Kunststoffkomponenten für die Automobil-, Elektronik- oder Möbelindustrie. Mit innovativen Technologien, internationaler Ausrichtung und starken Teams werden Lösungen geschaffen, die weltweit im Einsatz sind. Und die Zeichen stehen nach wie vor auf Wachstum.\n\n**Warum du dich wohlfühlen wirst:**\n-----------------------------------\n\n* **13 Monatsgehälter und 30 Tage** **Urlaub**\n* Eigenes, top ausgestattetes **Fitnessstudio**\n* **Außensportgelände**, Mountainbikeverleih, Fahrradleasing\n* Gutes Essen, frisch und regional, im **Betriebsrestaurant** „Schlemmerland“\n* **Weiterbildungsangebote** im „Lernwerk“\n* Strukturierte, umfassende **Einarbeitung**\n* Betriebliches **Gesundheitsmanagement** mit Betriebsarzt, Physiotherapeut und Friseurin\n* **Sicherheit** eines inhabergeführten, international agierenden Mittelständlers.\n\n**Darum gehts:**\n----------------\n\n* Unterstützung der Maschinenführer und der Teamleitung bei der Betreuung unserer Produktionsanlagen\n* Bedienung und Überwachung des Produktionsprozesses nach Vorgabe\n* Kontrolle der gefertigten Artikel auf einwandfreie Qualität\n* Nacharbeit und Verpackung der Fertigwaren\n* Vorbereitung der benötigten Kartonagen und Abtransport der fertigen Kartons\n* Sicherstellung des Materialnachschubs an den Anlagen\n* Regelmäßige Reinigung der Maschinen sowie Sicherstellung von Ordnung und Sauberkeit am Arbeitsplatz\n* Einsatz im Wechsel zwischen **Früh- und Spätschicht**\n\n**Das brauchst du dafür:**\n--------------------------\n\n* Freude an der Arbeit mit Maschinen und in einem Team mit guter Stimmung\n* Technisches Verständnis und Bereitschaft, dich in die Bedienung unserer Produktionsanlagen einzuarbeiten\n* Gutes Gespür für Qualität, Ordnung und Sauberkeit\n* Zuverlässige und sorgfältige Arbeitsweise\n* Bereitschaft zur Arbeit in wechselnden Früh- und Spätschichten\n* Keine abgeschlossene Ausbildung erforderlich, wir arbeiten dich umfassend ein\n* Erfahrung in der Produktion oder Kunststoffverarbeitung von Vorteil, aber kein Muss\n\n**Die Chance auf gutes Arbeiten und gutes Leben:**\n--------------------------------------------------\n\n**\"Wir mögen Menschen\"** ist der erste Grundsatz des Leitbildes der OKE Unternehmensgruppe. Damit sind alle gemeint. Entsprechend sind Bewerbungen jedes Alters oder Geschlechtes sowie jeder Religion, Herkunft oder sexuellen Orientierung willkommen. Kurzum: Es geht darum, **DICH** kennenzulernen!\n  \n  \n**Dein Ansprechpartner ist:**\n  \nTheresa Lange\n\nHR Service Center\n  \nOKE Group GmbH\n  \nNobelstr. 7\n  \n48477 Hörstel\n  \nT +49 5459 914-0\n\n* Theresa Lange\n* HR Business Partner - Headquarters Hörstel",
-    "detail_fetched_at": "2026-11-07",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-05",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-07",
+    "last_seen": "2026-11-08",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -33795,7 +33799,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-04",
-    "score": 44,
+    "score": 40,
     "signals": [
       "unskilled_role_match",
       "tier_1_country",
@@ -34157,7 +34161,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "",
@@ -37479,7 +37483,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DEG01",
@@ -48864,7 +48868,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "missed_runs": 1,
       "status": "active"
     },
@@ -53612,7 +53616,7 @@
     "company": "WimvanGulik",
     "country": "NL",
     "description": "**Word onze nieuwe** **Orderpicker in de nachtploeg?**\n\nBen jij een echte nachtmens die graag actief aan de slag gaat als opstarter en orderpicker? Hou je van aanpakken en wil je werken in een gezellig, hecht team? Dan hebben wij de perfecte baan voor jou!\n\n**Wat ga je doen?**  \nAls orderpicker ben je een belangrijke schakel in ons logistieke proces. Je start je werkdag tussen 23.00 en 01.00 uur en begint met het stapelen van alle FIFO. FIFO staat voor First In First Out en is een methode voor de indeling van goederen in een magazijn, waarbij de goederen die het eerst worden opgeslagen ook het eerst uit de opslag worden gehaald. Als dit gedaan is, zorg jij er vervolgens voor dat onze klanten de beste kwaliteit groenten en fruit ontvangen. Je werkzaamheden bestaan onder andere uit:\n\n* Het verzamelen en klaarzetten van orders;\n* Controleren van binnenkomende goederen op kwaliteit en volledigheid;\n* Zorgen dat bestellingen netjes en overzichtelijk klaarstaan voor de chauffeurs;\n* Ondersteunen van de inkoper door goederen op te halen met een bestelbus;\n* Meewerken aan een schoon, netjes en overzichtelijk magazijn.\n\n**Wie ben jij?**\n\n* Je bent een aanpakker en werkt nauwkeurig;\n* Je bent graag fysiek bezig en een echte aanpakker;\n* Je vindt samenwerken vanzelfsprekend;\n* Je bent beschikbaar op zaterdag;\n* Je beschikt over een rijbewijs B en je hebt eigen vervoer om naar onze locatie te komen.\n\n**Wat bieden wij jou?**\n\n* Een fulltime baan in loondienst voor 38 uur per week. Parttime is ook mogelijk;\n* Een passend salaris tussen de €3.000,00 en €3.200,00, afhankelijk van jouw ervaring;\n* Reiskostenvergoeding;\n* Pensioenregeling;\n* Mogelijkheden om jezelf verder te ontwikkelen;\n* De kans om een heftruckcertificaat te behalen;\n* Een fijne werkplek binnen een gezellig en hardwerkend team.\n\n**Wie zijn wij?**\n\nHorecaleverancier van Gulik is een familiebedrijf dat al sinds 1939 bestaat. Wij leveren aardappelen, groenten en fruit (AGF) aan de Nederlandse en Belgische horeca, met een specialisatie in de Aziatische keuken. Daarnaast leveren wij ook aan andere groothandels en cateraars.\n\nBinnen ons bedrijf heerst een open en informele werksfeer. We zijn ambitieus, volop in ontwikkeling en werken dagelijks met een enthousiast en gedreven team aan verdere groei.\n\n**Klinkt dit als de perfecte baan voor jou?** Solliciteer dan direct en wie weet verwelkomen we je binnenkort in ons team!\n\nSoort dienstverband: Fulltime\n\nSalaris: €3.000,00 - €3.200,00 per maand\n\nArbeidsvoorwaarden:\n\n* Pensioen\n* Reiskostenvergoeding\n\nScreeningsvragen:\n\n* Heb je ervaring in een logistieke omgeving?\n* Heb je ervaring met nachtwerk?\n* Beschik je over eigen vervoer om naar onze locatie te komen? (Let op, openbaar vervoer is niet geschikt omdat wij gevestigd zijn op een industrieterrein en er 's nachts geen openbaar vervoer beschikbaar is)\n* Ben je beschikbaar op zaterdag en bereidt om een doordeweekse dag vrij te zijn?\n* Sta je ervoor open om naast orderpicken bestellingen weg te rijden tijdens nachtroutes?\n\nLicentie/certificaat:\n\n* Rijbewijs B (Vereist)\n\nWerklocatie: Fysiek",
-    "detail_fetched_at": "2026-11-07",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-03",
@@ -53624,7 +53628,7 @@
       }
     ],
     "languages": [],
-    "last_seen": "2026-11-07",
+    "last_seen": "2026-11-08",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -54740,7 +54744,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE922, DE94D, DE94F",
@@ -55514,7 +55518,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DEB35",
@@ -57201,13 +57205,13 @@
     "company": "Richard KEHR GmbH & Co. KG Pharmazeutische Großhandlung",
     "country": "DE",
     "description": "### **Hast Du Dich schon einmal gefragt,**\n\n### **wie die Apotheke innerhalb weniger Stunden Dein Arzneimittel zur Verfügung hat?**\n\n### \n\n### **Wir, die Kehr- Gruppe, als Teil der kritischen Infrastruktur, gewährleisten genau das,**\n\n### **indem wir über 1.200 Apotheken täglich 3-5 mal mit insgesamt 190.000 Packungen beliefern.**\n\n**Dein Aufgabengebiet**\n\n* Entgegennahme von Warensendungen\n* Warenprüfung auf Identität, Quantität und Beschaffenheit\n* Warengrob- und feinsortierung\n* Verstauen von Waren in vorgegebene Lagerordnungskisten\n* Eingangserfassung der Artikel mittels Scanner in das betriebsinterne WWS\n* Einhaltung der vorgegebenen Qualitäts- und Sicherheitsstandards\n* Aufrechterhaltung der Ordnung und Sauberkeit\n\n**Dein Profil**\n\n* Lagerfachkraft (m/w/d), Fachkraft für Lagerlogistik (m/w/d), gern aber auch Quereinsteiger, die KEINE spezifische Berufsausbildung aber Praxis vorweisen können\n* Vorkenntnisse und Erfahrungen in der Lagerlogistik\n* sehr gute Deutschkenntnisse\n* strukturierte, teamorientierte und selbstständige Arbeitsweise mit dem Hang zu Genauigkeit und Ordnungsliebe zeichnet Dich aus\n* hohe Flexibilität und körperliche Belastbarkeit\n\n**Wir bieten**\n\n* familiären Teamgeist in einer offenen und wertschätzenden Unternehmenskultur\n* Mitarbeit in einem inhabergeführten, zukunftsorientierten und ideenreichen Familienunternehmen, mit flachen Hierarchien, in der sich die Mitarbeiter respektieren und persönlich kennen\n* detaillierte persönliche Einarbeitung\n* Perspektive auf eine langfristige, offene und vertrauensvolle Zusammenarbeit\n* Vollzeitbeschäftigung (40 Wochenstunden)\n* festes Bruttomonatsentgelt\n* betriebliche Altersvorsorge\n* JobRad-Option\n* Jobticket\n* verkehrsgünstige Lage/Anbindung\n* kostenfreie Mitarbeiterparkplätze\n* kostenloses Wasser, frisches Obst\n* kostengestütztes Mittagessen",
-    "detail_fetched_at": "2026-11-06",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-08",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -59620,7 +59624,7 @@
     "last_seen": "2026-11-08",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T04:37:25+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -61707,7 +61711,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Linz, O, Austria",
@@ -65386,7 +65390,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE212, DE218, DE21H",
@@ -66201,7 +66205,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Poštorná, JM, Czech Republic",
@@ -66237,6 +66241,52 @@
     "translated": true,
     "uid": "861cfef865463f1c",
     "url": "https://web.fosfa.cz/kariera/volne-pozice/energetika/datovy-analytik-energetika-junior-37-000-kc-48-000-kc/"
+  },
+  "8678261fd4521202": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "ALDI",
+    "country": "PL",
+    "description": "**O ALDI**\n\nJesteśmy jedną z wiodących firm handlowych w Europie. Od ponad 110 lat sprawiamy, że zakupy są tak proste, jak to tylko możliwe – wszędzie i dla każdego.\n\n**Compliance**  \n  \nJeśli chcesz zapoznać się z naszą procedurą zgłoszeń wewnętrznych, wejdź na stronę https://do.aldi.pl/compliance\n\n **Twoje zadania**\n\n**Twoje zadania**\n\nNa stanowisku magazyniera (m/k/x):\n\n* pakujesz towary zgodnie z zamówieniami,\n* przygotowujesz towar do wysyłki,\n* opisujesz i zabezpieczasz palety,\n* bierzesz udział w inwentaryzacjach i innych pracach magazynowych,\n* dbasz o porządek w miejscu pracy.\n\n**Twoje wynagrodzenie**\n\nWynagrodzenie podstawowe z kartą przedpłaconą, premią i dodatkiem za nocne zmiany:  \n  \n**pełny etat**: **6150 - 8650 zł brutto**.\n\n**Premia** **już od pierwszego miesiąca w zależności od indywidualnych wyników kompletacji.**\n\n **Nasze oczekiwania**\n\n**Nasze oczekiwania**\n\nAplikuj do nas na stanowisko magazyniera (m/k/x), jeśli:\n\n* możesz pracować w systemie zmianowym w nocy **w godz. 18:00 - 2:00**,\n* lubisz pracować w zespole,\n* dokładnie wykonujesz swoją pracę,\n* masz prawo jazdy.\n\nNie wymagamy doświadczenia, wszystkiego Cię nauczymy!\n\n **To oferujemy**\n\n**To oferujemy**\n\n* Umowę o pracę od pierwszego dnia pracy,\n* Umowę na czas nieokreślony po roku,\n* Gwarantowane podwyżki stażowe – pierwszą dostaniesz już po roku pracy,\n* Kartę przedpłaconą z comiesięcznym zasileniem – wykorzystasz ją w sklepach ALDI,\n* Benefity dla Ciebie i Twojej rodziny – mamy prywatną opiekę medyczną już od 1 zł, darmowy pakiet sportowy, ubezpieczenie na życie.\n\n **Proces rekrutacji**\n\n**Złóż aplikację**\n\nKliknij przycisk aplikuj po prawej stronie w tym ogłoszeniu i wypełnij formularz.\n\n**Poczekaj na kontakt**\n\nDzwonimy do wybranych kandydatów i zapraszamy ich na spotkanie rekrutacyjne.\n\n**Spotkaj się z nami**\n\nNa spotkaniu opowiesz nam o sobie i swoim doświadczeniu. Dowiesz się też więcej o pracy na stanowisku, na które aplikujesz.\n\n**Poczekaj na decyzję**\n\nPo spotkaniu skontaktujemy się z Tobą i przekażemy Ci naszą decyzję.\n\n  \nJob Reference: PL\\_SL02786",
+    "detail_fetched_at": "2026-11-08",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-08",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-08",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Radzymin, MZ, Poland",
+    "matched_keywords": [
+      "magazynier"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-05",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-73bfd8959831c0f7",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Magazynier kompletacji (m/k/x) – wieczorne i nocne zmiany | różne wymiary etatów",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "8678261fd4521202",
+    "url": "https://emea3.recruitmentplatform.com/tlk/pages/fo/advert/details.jsp?nPostingTargetId=305919&id=P54FK026203F3VBQB68V4V7TE&LG=PL&languageSelect=PL&source=Indeed&sType=Indeed+Organic",
+    "url_provenance": "",
+    "url_verified": null
   },
   "86908e6798a8f43e": {
     "apply_channels": {
@@ -66749,7 +66799,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Bezau, V, Austria",
@@ -66957,7 +67007,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE600",
@@ -68889,7 +68939,7 @@
     "last_seen": "2026-11-07",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -69630,7 +69680,7 @@
     "languages": [],
     "last_seen": "2026-11-08",
     "lifecycle": {
-      "missed_runs": 0,
+      "missed_runs": 1,
       "status": "active"
     },
     "location": "Pilisszentiván, PE, Hungary",
@@ -71029,13 +71079,13 @@
     "company": "Toms Gruppen",
     "country": "PL",
     "description": "**Słodka codzienność, stabilna przyszłość.**\n\n  \n\n**Dołącz do Toms Polska – producenta czekolady, który intensywnie rozwija swoją fabrykę**  \n**w Nowej Soli!**\n\n**Rozbudowujemy nasz zakład, inwestujemy w nowe możliwości produkcyjne i wzmacniamy nasze zespoły. Szukamy osób, które chcą mieć realny wpływ na proces produkcji, pracować w bezpiecznym środowisku i rozwijać swoje umiejętności razem z nami.**\n\n**Nie musisz znać wszystkich odpowiedzi od pierwszego dnia. Zapewnimy Ci wdrożenie, wsparcie zespołu i jasne zasady współpracy.**\n\n  \n\n**Co oferujemy?**\n\n* Stabilne zatrudnienie – umowę o pracę i terminowe wynagrodzenie,\n* Miesięczną premię produkcyjną – dodatkową możliwość zwiększenia wynagrodzenia zgodnie z obowiązującymi zasadami premiowania,\n* Bezpieczne środowisko pracy – bezpieczeństwo pracowników jest dla nas priorytetem,\n* Przyjemne warunki pracy – czyste środowisko, komfortowa i stała temperatura oraz unoszący się w powietrzu aromat czekolady,\n* Rozwój razem z fabryką – pracę w intensywnie rozbudowującym się zakładzie, w którym możesz zdobywać nowe umiejętności i doświadczenie w związku z uruchomieniem kolejnych linii produkcyjnych,\n* Wsparcie na start – szkolenie i wdrożenie do wykonywanych obowiązków,\n* Dobrą współpracę – atmosferę wzajemnego szacunku, tolerancji i zespołowego rozwiązywania problemów,\n* Świadczenia socjalne m.in. dopłaty do wypoczynku oraz świadczenia finansowe z okazji świąt,\n* Możliwość wyboru opieki medycznej w Lux Med lub Medicover,\n* Kartę MultiSport oraz ubezpieczenie grupowe PZU – możliwość przystąpienia za dodatkową opłatą,\n* Codzienne owoce lub zdrowe przekąski,\n* Słodkie benefity – preferencyjne rabaty na wyroby czekoladowe Toms oraz mnóstwo słodkich upominków w ciągu roku.\n\n**Na czym będzie polegać Twoja praca?**\n\n* Przyjmowanie towarów na stan magazynowy\n* Kontrola stanów magazynowych i utrzymywanie porządku na magazynie\n* Bieżąca obsługa produkcji\n* Transport i magazynowanie wyrobów\n* Przestrzeganie procedur jakościowych oraz zasad BHP\n* Dbanie o powierzony sprzęt\n\n**Kogo szukamy?**\n\n* Osoby, która ma doświadczenie w pracy z wózkami jezdniowymi,\n* Osoby, która posiada uprawnienia kategorii I lub II WJO,\n* Osoby z podstawową znajomością obsługi komputera,\n* Osoby dokładnej, zaangażowanej i odpowiedzialnej za powierzone procesy i zadania,\n* Uczciwość i sumienność to dla nas warunek konieczny.\n\n**Dlaczego warto do nas dołączyć?**\n\n* Dbamy o bezpieczeństwo, dobre relacje i wzajemny szacunek. Wiemy, że za sprawnie działającą produkcją stoją ludzie, dlatego stawiamy na wsparcie i współpracę,\n* Twoja praca ma znaczenie. Codziennie współtworzysz proces, dzięki któremu nasze produkty trafiają do konsumentów. Liczy się Twoje zaangażowanie, odpowiedzialność\n    \n  i wkład w pracę całego zespołu,\n* Nasza fabryka w Nowej Soli intensywnie się rozbudowuje, a wraz z nią pojawiają się nowe możliwości. Zapewniamy wdrożenie i możliwość zdobywania doświadczenia krok po kroku – we własnym tempie, z pomocą zespołu.\n\n**Dołącz do nas i twórz z nami słodką codzienność!**\n\nJeśli szukasz stabilnej pracy w rozwijającej się firmie, w której liczą się ludzie, jakość i współpraca – czekamy na Ciebie w Toms Polska w Nowej Soli. Zapewnimy Ci szkolenie, kompleksowe wdrożenie\n  \ni wsparcie zespołu, dzięki którym poznasz specyfikę produkcji czekolady oraz nauczysz się obsługi nowoczesnych maszyn i urządzeń.\n\n  \n\nDołącz do nas i razem z nami twórz nowy rozdział produkcji czekolady w Toms Polska.\n\nOd 1924 roku Toms kieruje się pragnieniem niesienia uśmiechu ludziom całym świecie. Toms opiera się na dziedzictwie pokoleń dumnych i wizjonerskich rzemieślników, których pasja wciąż nas inspiruje. W Toms uśmiechamy się, kiedy coś zmieniamy w pracy i kiedy budujemy środowisko, w którym się rozwijamy i prosperujemy. Uśmiechamy się, ponieważ akceptujemy nasze różnice i ponieważ żyjemy naszymi pasjami. Uśmiechamy się, gdy tworzymy coś naprawdę wyjątkowego. Uśmiechamy się, gdy podejmujemy właściwe decyzje i bierzemy na siebie odpowiedzialność. Odpowiedzialność za ludzi wokół nas, ale także za tych, których być może nigdy nie spotkamy. Pozyskując naszą czekoladę z troską i wspierając lokalnych rolników, będziemy nadal wnosić uśmiechy w życie przyszłych pokoleń. W Toms wnosimy uśmiech w życie – dla wszystkich.\n\n*Toms pragnie promować równość i dlatego zachęca wszystkie wykwalifikowane osoby do składania aplikacji bez względu na wiek, płeć, orientację seksualną, religię, pochodzenie etniczne czy niepełnosprawność.*",
-    "detail_fetched_at": "2026-11-07",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-03",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-07",
+    "last_seen": "2026-11-08",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -71062,7 +71112,7 @@
     "title_en": "",
     "translated": false,
     "uid": "8e9a69904de6a6f0",
-    "url": "https://career55.sapsf.eu/career?career%5fns=job%5flisting&company=tomsgruppe&navBarLevel=JOB%5fSEARCH&rcm%5fsite%5flocale=en%5fUS&career_job_req_id=1122&selected_lang=pl_PL&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&browserTimeZone=America/Chicago&_s.crb=%2fm8CkMik2gKaat8WTUaIt889SC09jh5iH82R%2fscD9EU%3d",
+    "url": "https://career55.sapsf.eu/career?career%5fns=job%5flisting&company=tomsgruppe&navBarLevel=JOB%5fSEARCH&rcm%5fsite%5flocale=en%5fUS&career_job_req_id=1122&selected_lang=pl_PL&jobAlertController_jobAlertId=&jobAlertController_jobAlertName=&browserTimeZone=America/Chicago&_s.crb=HdYtrBNIz2BdftTdy9tfov2kiIVyox5yDaB%2bDaNoiJg%3d",
     "url_provenance": "",
     "url_verified": null
   },
@@ -72864,6 +72914,59 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "934c35ad5ab22fb7": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Rhenus Freight Logistics",
+    "country": "PL",
+    "description": "**What You Can Expect** **:**\n\n* Rozładunek i załadunek samochodów przy użyciu wózków mechanicznych.\n* Terminowe i zgodne z procedurami kompletowanie pakowanie i ustawianie towaru na nośnikach transportowych.\n* Utrzymanie porządku w miejscu pracy oraz dbanie o powierzony sprzęt.\n* Wykonywanie innych prac zlecanych przez przełożonych.\n\n**What You Bring:**\n\n* Uprawnienia UDT (wysokie składowanie).\n* Gotowość do pracy w systemie 2- zmianowym.\n* Doświadczenie w pracy na stanowisku magazyniera oraz na wózku wysokiego składowania .\n* Dobra organizacja pracy, umiejętność pracy w zespole.\n* Rzetelność, pracowitość i uczciwość.\n* Umiejętność pracy pod presją czasu i dostosowania się do zmian.\n* Mile widziane: badania sanepid.",
+    "detail_fetched_at": "2026-11-08",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-08",
+    "glossary": [
+      {
+        "ar": "بيان صاحب العمل (مصطلح إجرائي بولندي)",
+        "en": "employer's statement (Polish hiring procedure term)",
+        "term": "oświadczenie"
+      }
+    ],
+    "languages": [],
+    "last_seen": "2026-11-08",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Błonie, MZ, Poland",
+    "matched_keywords": [
+      "magazynier",
+      "pakowanie"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-06",
+    "score": 50,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-db64d047b59a703c",
+    "source_review": {},
+    "summary_ar": "الموقع: Błonie, MZ, Poland\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Warehouse Handler",
+    "title_ar": "",
+    "title_en": "Warehouse Handler",
+    "translated": false,
+    "uid": "934c35ad5ab22fb7",
+    "url": "https://rhe.wd3.myworkdayjobs.com/en-US/R1111/job/Bonie-Poland/Warehouse-Handler_JR126005",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "9395c573b4e68ff5": {
     "apply_channels": {
       "emails": [],
@@ -73735,6 +73838,52 @@
     "uid": "9615504192abfb75",
     "url": "https://assaabloy.jobs2web.com/job/Dublin-General-Operative-D24-WY49/1447604033/"
   },
+  "961f12a68227fe1a": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "FedEx",
+    "country": "PL",
+    "description": "**Magazynier – Kierowca Wózka Widłowego (k/m)**\n\n**Miejsce pracy: Płock, Przemysłowa 22**\n\n**Zakres obowiązków:**\n\n* rozładunek i załadunek przesyłek\n* weryfikacja parametrów przesyłek, praca ze skanerem, sortowanie na kierunki doręczenia\n* dbanie o powierzony sprzęt firmowy: urządzenia, maszyny\n* sporządzanie raportów\n\n**Profil kandydata:**\n\n* wykształcenie zawodowe/średnie\n* dokładność, sumienność i rzetelność w wykonywaniu obowiązków\n* odpowiedzialność i zaangażowanie\n* uprawnienia na wózki widłowe UDT\n* mile widziane doświadczenie w pracy na magazynie\n\n**Nasza oferta:**\n\n* stabilne zatrudnienie w oparciu o umowę o pracę\n* atrakcyjny pakiet świadczeń pozapłacowych (**opieka medyczna, ubezpieczenie na życie, dofinansowanie do karty Multisport/MyBenefit , platforma do nauki języka angielskiego**)\n* nagrody jubileuszowe\n* **Program Wsparcia Pracowników** - bezpłatne i poufne doradztwo dla pracowników i ich najbliższych w kwestiach prawnych, finansowych i psychologicznych\n* **dofinansowanie do nauki**\n* wsparcie w działaniach rozwojowych\n\nFedEx was built on a philosophy that puts people first, one we take seriously. We are an equal opportunity employer and we are committed to a diverse and inclusive workforce in which we provide growth opportunities for all\n\n**Our Company**\n---------------\n\nFedEx is one of the world's largest express transportation companies and has consistently been selected as one of the top 10 World’s Most Admired Companies by \"Fortune\" magazine. Every day FedEx delivers for its customers with transportation and business solutions, serving more than 220 countries and territories around the globe. We can serve this global network due to our outstanding team of FedEx team members, who are tasked with making every FedEx experience outstanding.\n\n**Our Philosophy**\n------------------\n\nThe People-Service-Profit philosophy (P-S-P) describes the principles that govern every FedEx decision, policy or activity. FedEx takes care of our people; they, in turn, deliver the impeccable service demanded by our customers, who reward us with the profitability necessary to secure our future. The essential element in making the People-Service-Profit philosophy such a positive force for the company is where we close the circle, and return these profits back into the business, and invest back in our people. Our success in the industry is attributed to our people. Through our P-S-P philosophy, we have a work environment that encourages team members to be innovative in delivering the highest possible quality of service to our customers. We care for their well-being, and value their contributions to the company.\n\n**Our Culture**\n---------------\n\nOur culture is important for many reasons, and we intentionally bring it to life through our behaviors, actions and activities in every part of the world. The FedEx culture and values have been a cornerstone of our success and growth since we began in the early 1970’s. While other companies can copy our systems, infrastructure and processes, our culture makes us unique and is often a differentiating factor as we compete and grow in today’s global marketplace.\n\n**Equality, Opportunity & Diversity (EO&D)**\n--------------------------------------------\n\nOur greatest asset at FedEx is our people. We are committed to building a diverse, equitable and inclusive workforce, and offer equal opportunities, fairness, and respect to all regardless of who you are. We encourage you to apply even if you feel your experience does not align with all aspects in the job description as you could be exactly who we need for this or another opportunity.\n\nWe do not tolerate discrimination or harassment based on race, color, ethnicity, national origin, religion, sex, age, genetic information, citizenship, disability, marital status, pregnancy, sexual orientation, gender identity, gender expression, or any other characteristic protected under international and national laws and regulations. We reasonably accommodate team members and third parties to ensure equal access, inclusion, and fairness across all protected characteristics.",
+    "detail_fetched_at": "2026-11-08",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-08",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-08",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Płock, MZ, Poland",
+    "matched_keywords": [
+      "magazynier"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-06",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-93dc92df390ab53b",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Magazynier - Kierowca Wózka Widłowego (k/m)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "961f12a68227fe1a",
+    "url": "https://careers.fedex.com/magazynier-kierowca-wózka-widłowego-k-m/job/D751AC980A0E731CCD1B03D418198A74?utm_domicile=unspecified&utm_persona=unspecified&utm_trackedsource=srm_indeed_org&utm_subco=FECEU",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "96311211d4266971": {
     "apply_channels": {
       "emails": [
@@ -74080,7 +74229,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE948, DE94F",
@@ -74459,7 +74608,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Riezlern, V, Austria",
@@ -77106,7 +77255,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE300",
@@ -80124,7 +80273,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DED45",
@@ -80711,7 +80860,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Berlin, BE, Germany",
@@ -83892,7 +84041,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -86038,7 +86187,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE948",
@@ -86823,7 +86972,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Vyšší Brod, JC, Czech Republic",
@@ -86916,7 +87065,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Mautern, N, Austria",
@@ -87626,7 +87775,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE922, DE948, DE94D, DE94F",
@@ -89646,7 +89795,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Mullingar, WH, Ireland",
@@ -94581,7 +94730,7 @@
     "languages": [],
     "last_seen": "2026-11-08",
     "lifecycle": {
-      "missed_runs": 0,
+      "missed_runs": 1,
       "status": "active"
     },
     "location": "Pilisszentiván, PE, Hungary",
@@ -96721,7 +96870,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE145",
@@ -100518,7 +100667,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Katsch an der Mur, ST, Austria",
@@ -106482,7 +106631,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Görlitz, SN, Germany",
@@ -112487,6 +112636,7 @@
     "company": "HANOS",
     "country": "NL",
     "description": "Lekker actief bezig zijn, samenwerken met een gezellig team én geld verdienen? Als Orderpicker bij HANOS Heerlen verzamel jij bestellingen voor onze horecaklanten.\n\n**Wat kan je verwachten?**  \n  \n**Een goed salaris**  \n\nEn uiteraard ook korting als je winkelt bij HANOS!\n\n  \n**Andere vergoedingen**  \n\nExtra vergoedingen o.b.v. bijzondere verrichtingen (werken in de diepvries etc.)\n\n  \n**Extra's**  \n\nEen fietsplan, bedrijfsfitness en een collectieve ziektenkostenverzekering\n\n  \n**Ontwikkeling en groei**  \n\nNaar een andere rol dankzij o.a. de HANOS Academie\n\n**Wat ga je doen?**\n\nAls Orderpicker zorg jij dat bestellingen compleet en op tijd klaarstaan. Met een handscanner verzamel je producten in het magazijn. Je checkt of alles klopt, let op beschadigingen en houdt de houdbaarheidsdatum in de gaten. Samen met je collega’s zorg je dat restaurants, cafés en hotels krijgen wat ze nodig hebben.\n\nDit ga je doen:\n\n* Verzamel bestellingen met een handscanner\n* Controleer producten op kwaliteit en houdbaarheid\n* Zet orders klaar voor transport naar onze klanten\n* Werk samen met een gezellig en actief team\n* Help mee om de werkplek netjes te houden\n\n**Ben jij dé Orderpicker die wij zoeken?**\n\n* Je werkt nauwkeurig en houdt van aanpakken\n* Je bent fysiek fit en graag in beweging\n* Je bent enthousiast en gemotiveerd\n* Je werkt graag samen met collega’s\n* Je bent beschikbaar in de avonduren, weekenden en tijdens schoolvakanties\n\n**Wat bieden wij?**\n\n* Een passend salaris\n* Een uitstekende pensioenregeling\n* Reiskostenvergoeding volgens de geldende regeling\n* Ontwikkelmogelijkheden via de HANOS Academie\n* Een rooster dat we waar mogelijk aanpassen rondom school of studie\n* De mogelijkheid om via HANOS jouw vrachtwagenrijbewijs te halen en door te groeien naar een rol als Vrachtwagenchauffeur\n* Extra regelingen, zoals bedrijfsfitness, een fietsplan en collectieve zorgverzekering\n* Een geldbonus wanneer jij een nieuwe collega aandraagt bij HANOS\n* Last but not least: met korting winkelen bij HANOS!\n\n**Word jij onze nieuwe Orderpicker?**\n\nWil jij geld verdienen, actief bezig zijn en werken met gezellige collega’s? Solliciteer dan eenvoudig via de sollicitatiebutton. Upload je cv en je ontvangt binnen enkele werkdagen een reactie.\n\nHeb je nog vragen? Neem gerust contact met ons op. We vertellen je graag meer over werken als Orderpicker bij HANOS.\n\n**De sollicitatieprocedure**  \n\n* **Solliciteer hier**\n\n  Via het sollicitatieformulier\n* **Wij leren je graag kennen**\n\n  Telefonische kennismaking\n* **Kennismakingsgesprek**\n\n  We zien je graag op locatie\n* **Aanbod**\n\n  Je ontvangt een contract\n* **Welkom**\n\n  We heten je van harte welkom bij HANOS",
+    "detail_fetched_at": "2026-11-08",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-05",
@@ -112498,7 +112648,7 @@
       }
     ],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-08",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -115252,7 +115402,7 @@
     "languages": [],
     "last_seen": "2026-11-08",
     "lifecycle": {
-      "missed_runs": 0,
+      "missed_runs": 1,
       "status": "active"
     },
     "location": "Százhalombatta, PE, Hungary",
@@ -117534,7 +117684,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE94F",
@@ -119098,7 +119248,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "Wilhelmsburg, N, Austria",
@@ -122654,7 +122804,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-08T05:38:46+00:00",
+      "last_live_check": "2026-11-08T06:15:55+00:00",
       "status": "active"
     },
     "location": "DE94F",
