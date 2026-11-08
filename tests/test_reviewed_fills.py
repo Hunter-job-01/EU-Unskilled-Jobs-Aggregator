@@ -143,3 +143,42 @@ def test_overwrite_flag_replaces_existing_value(tmp_path):
     assert store._store[job.uid]["title_en"] == "Reviewed replacement"
     counts = apply_reviewed_fills(store, path)
     assert counts["overwritten"] == 0 and counts["noop"] == 1
+
+
+def test_destination_mismatch_fill_clears_stored_summary(tmp_path):
+    # The 86f case: the store record already carries the CURRENT posting
+    # identity plus a summary derived from the pre-drift body. The merge
+    # guard is preventive only (same-identity refreshes preserve the
+    # field), so the containment fill must clear the stored claim, not
+    # just hide it in the UI.
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    job = make_job(1, description="current posting body")
+    store.merge([job])
+    store._store[job.uid]["summary_ar"] = "ملخص قديم من الوصف القديم"
+    review = {"status": "destination_mismatch", "kind": "identity_drift_repost",
+              "checked_on": "2026-11-08"}
+    path = _write_fills(tmp_path, [
+        _fill(job.uid, expected_title=job.title, expected_url=job.url,
+              source_review=review)])
+    counts = apply_reviewed_fills(store, path)
+    assert counts["applied"] == 1
+    rec = store._store[job.uid]
+    assert rec["source_review"] == review
+    assert rec["summary_ar"] == ""
+    # Idempotent: a second application changes nothing.
+    counts = apply_reviewed_fills(store, path)
+    assert counts["applied"] == 0 and counts["noop"] == 1
+    assert store._store[job.uid]["summary_ar"] == ""
+
+
+def test_non_mismatch_review_keeps_summary(tmp_path):
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    job = make_job(1)
+    store.merge([job])
+    store._store[job.uid]["summary_ar"] = "ملخص سليم"
+    review = {"status": "ok", "checked_on": "2026-11-08"}
+    path = _write_fills(tmp_path, [
+        _fill(job.uid, expected_title=job.title, source_review=review)])
+    counts = apply_reviewed_fills(store, path)
+    assert counts["applied"] == 1
+    assert store._store[job.uid]["summary_ar"] == "ملخص سليم"
