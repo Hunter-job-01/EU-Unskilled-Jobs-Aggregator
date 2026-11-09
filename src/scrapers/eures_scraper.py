@@ -92,6 +92,17 @@ class EuresScraper:
     def map_vacancy(self, jv: dict, country_code: str) -> Job:
         jv_id = str(jv.get("id") or "")
         employer = jv.get("employer") or {}
+        description = _strip_html(jv.get("description") or "")
+        # Body corroboration (v6, bfb01e57): the search payload carries a
+        # second copy of the body under translations[<lang>].description.
+        # When both copies survive the same normalization identically, a
+        # changed (e.g. shorter) body is the source's current full text,
+        # not a truncated fetch, and merge may prefer it over a longer
+        # stored body. Missing or mismatched copies stay uncorroborated.
+        translations = jv.get("translations") or {}
+        corroborated = bool(description) and any(
+            _strip_html((copy or {}).get("description") or "") == description
+            for copy in translations.values())
         return Job(
             title=(jv.get("title") or "").strip(),
             company=(employer.get("name") or "").strip(),
@@ -99,7 +110,8 @@ class EuresScraper:
             source=self.name,
             source_id=jv_id,
             url=PORTAL_DETAIL_URL.format(id=jv_id) if jv_id else EURES_SEARCH_URL,
-            description=_strip_html(jv.get("description") or ""),
+            description=description,
+            body_verified_current=corroborated,
             location=_region_names(jv.get("locationMap"), country_code),
             posted_date=_ms_to_iso(jv.get("creationDate")),
             languages=list(jv.get("availableLanguages") or []),
