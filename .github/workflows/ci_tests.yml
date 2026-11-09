@@ -95,7 +95,7 @@ jobs:
 
       - name: Cache offline translation models
         if: steps.changes.outputs.offline == 'true'
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/huggingface/hub
           key: offline-job-translation-v1
