@@ -63,6 +63,7 @@ def test_dedup_empty_title_stable():
 
 TITLE = "❤️Зелена Гура, Сулехов♥️"
 IDENTITY = {"title": TITLE, "company": "Poland Work Portal", "country": "PL",
+            "source": "telegram_polandworkportal",
             "source_id": "polandworkportal/32239",
             "url": "https://t.me/polandworkportal/32239"}
 
