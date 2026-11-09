@@ -158,6 +158,12 @@ def main(argv=None) -> int:
     # EURES MOST_RECENT proved not date-ordered on 2026-11-05).
     pre_store = store.load()
     store._store = pre_store
+    # One-time uid re-key migration (non-Latin dedup collision,
+    # src/uid_migration.py): re-keys existing collision-bucket records
+    # before any merge, idempotently, so re-scrapes merge into the
+    # corrected uids instead of creating duplicate records.
+    from src.uid_migration import load_spec as _uid_spec, apply_to_store as _uid_migrate
+    uid_migration = _uid_migrate(store, _uid_spec(store.data_dir))
     known_ids_by_source = {}
     for _rec in pre_store.values():
         if _rec.get("source_id"):
@@ -485,6 +491,7 @@ def main(argv=None) -> int:
                        updated=updated, pruned=pruned, active=active,
                        notified_telegram=notified,
                        reviewed_fills=fill_counts.get("applied", 0),
+                       uid_migration=uid_migration.get("migrated", 0),
                        lifecycle_deactivated=lc_counts.get("deactivated", 0),
                        lifecycle_reactivated=lc_counts.get("reactivated", 0),
                        lifecycle_deactivated_total=lc_counts.get("deactivated_total", 0),
