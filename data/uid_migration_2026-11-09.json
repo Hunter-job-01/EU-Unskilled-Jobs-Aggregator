@@ -1,0 +1,222 @@
+{
+  "created": "2026-11-09",
+  "migrations": {
+    "0458b50d24a41f3b": {
+      "company": "HB Body ΑΒΕΕ",
+      "country": "GR",
+      "new_uid": "602df75de974c086",
+      "source": "jobspy_indeed",
+      "source_id": "in-a1972b731f8eb48e",
+      "title": "Εργάτης Παραγωγής",
+      "url": "https://mycarriera.gr/view/748459.html"
+    },
+    "14dd83e602b00cf5": {
+      "company": "EUROCO S.A.",
+      "country": "GR",
+      "new_uid": "66eb4d52bc03210e",
+      "source": "jobspy_indeed",
+      "source_id": "in-96de96ce9e034887",
+      "title": "Εργάτης Παραγωγής Ξύλου",
+      "url": "https://www.jobseeker.gr/job/euroco-s-a-%cf%83%ce%af%ce%bd%ce%b4%ce%bf%cf%82-%ce%b8%ce%b5%cf%83%cf%83%ce%b1%ce%bb%ce%bf%ce%bd%ce%af%ce%ba%ce%b7-118-%ce%b5%cf%81%ce%b3%ce%ac%cf%84%ce%b7%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%89/"
+    },
+    "197aae0f82fcc410": {
+      "company": "AGS COMPANY SIA EE",
+      "country": "GR",
+      "new_uid": "198df032a33bf6a8",
+      "source": "jobspy_indeed",
+      "source_id": "in-0d563440d4b5038b",
+      "title": "Εργάτης Αποθήκης (Διαλογή δεμάτων)",
+      "url": "https://gr.indeed.com/viewjob?jk=0d563440d4b5038b"
+    },
+    "25ef69d4c05e735a": {
+      "company": "AIR CANTEEN ΑΕ",
+      "country": "GR",
+      "new_uid": "dcd72f964e325a58",
+      "source": "jobspy_indeed",
+      "source_id": "in-3d7addc239e48e69",
+      "title": "Εργάτης Αποθήκης",
+      "url": "https://mycarriera.gr/view/751081.html"
+    },
+    "29dddf4af8a74daf": {
+      "company": "enis",
+      "country": "GR",
+      "new_uid": "20f4574fc6912ef2",
+      "source": "jobspy_indeed",
+      "source_id": "in-a8c5a1142c42fb4d",
+      "title": "Εργάτης Παραγωγής",
+      "url": "https://mycarriera.gr/view/747287.html"
+    },
+    "319357318bee1b6d": {
+      "company": "Poland Work Portal",
+      "country": "PL",
+      "new_uid": "ef9d9dd6d05f6910",
+      "source": "telegram_polandworkportal",
+      "source_id": "polandworkportal/32239",
+      "title": "❤️Зелена Гура, Сулехов♥️",
+      "url": "https://t.me/polandworkportal/32239"
+    },
+    "41c7767817140c80": {
+      "company": "ELVAL COLOUR SINGLE MEMBER SA",
+      "country": "GR",
+      "new_uid": "7f1d230e1a79f461",
+      "source": "jobspy_indeed",
+      "source_id": "in-1d36b91f219f8fc8",
+      "title": "Εργάτες Παραγωγής",
+      "url": "https://www.kariera.gr/jobs/workers-jobs/356601"
+    },
+    "4923b66243a5c714": {
+      "company": "ΜΑΡΙΑ ΑΝΤΩΝΙΟΥ",
+      "country": "CY",
+      "new_uid": "1dfdc6957f8ded07",
+      "source": "eures",
+      "source_id": "MzQzODQ4IDU",
+      "title": "ΕΡΓΑΤΕΣ ΓΕΩΡΓΙΑΣ",
+      "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQzODQ4IDU?lang=en"
+    },
+    "51c0c005fc15e1d0": {
+      "company": "Thrace Group",
+      "country": "GR",
+      "new_uid": "3ced91cc9f5c9262",
+      "source": "jobspy_indeed",
+      "source_id": "in-c6b0293b4e045242",
+      "title": "Συσκευαστής Παραγόμενου Προϊόντος",
+      "url": "https://mycarriera.gr/view/748196.html"
+    },
+    "72f50d6851ee85ea": {
+      "company": "Atrium hotels",
+      "country": "GR",
+      "new_uid": "802ef2ad62574947",
+      "source": "jobspy_indeed",
+      "source_id": "in-6e67da301f6eb2b9",
+      "title": "Εργάτης Αποθήκης",
+      "url": "https://www.atriumhotels.gr/de/jobs/warehouse-worker/"
+    },
+    "77af827b881c2079": {
+      "company": "GYLLOS FURNITURE CONCEPTS",
+      "country": "GR",
+      "new_uid": "312aa6c1bdd044ad",
+      "source": "jobspy_indeed",
+      "source_id": "in-38c6460d21742fdf",
+      "title": "Εργάτης Παραγωγής / Βοηθός Ταπετσέρη",
+      "url": "https://mycarriera.gr/view/750807.html"
+    },
+    "7bb6313c591d8879": {
+      "company": "NIKI INOX A.E.",
+      "country": "GR",
+      "new_uid": "fd8e71e44574a3fe",
+      "source": "jobspy_indeed",
+      "source_id": "in-ccd1856c357924d0",
+      "title": "Εργάτης Παραγωγής",
+      "url": "https://mycarriera.gr/view/751355.html"
+    },
+    "8d4c14f1640eaba1": {
+      "company": "Arivia Food ΕΠΕ",
+      "country": "GR",
+      "new_uid": "2b9863e92c4b03ce",
+      "source": "jobspy_indeed",
+      "source_id": "in-9123aa33d2a41958",
+      "title": "Εργάτης Παραγωγής",
+      "url": "https://mycarriera.gr/view/742766.html"
+    },
+    "8de5a7d58cc96078": {
+      "company": "Production LTD",
+      "country": "GR",
+      "new_uid": "de5d9899fa210aa6",
+      "source": "jobspy_indeed",
+      "source_id": "in-d0102d558b7790ef",
+      "title": "Ανειδίκευτος εργάτης παραγωγής",
+      "url": "https://mycarriera.gr/view/748994.html"
+    },
+    "97a845ea07e48ed9": {
+      "company": "CHAPTER 5 ΕΠΕ",
+      "country": "GR",
+      "new_uid": "3635e7b0344fa96d",
+      "source": "jobspy_indeed",
+      "source_id": "in-1da3c9afb44520bf",
+      "title": "Εργάτης Αποθήκης",
+      "url": "https://mycarriera.gr/view/749581.html"
+    },
+    "9f7cd03d7ea12994": {
+      "company": "DIONEA LIMITED",
+      "country": "CY",
+      "new_uid": "6348bafd5b52407d",
+      "source": "eures",
+      "source_id": "MzQ0MDM5IDU",
+      "title": "ΕΡΓΑΤΗΣ ΓΕΩΡΓΙΑΣ",
+      "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ0MDM5IDU?lang=en"
+    },
+    "a14aba1b4ec89acb": {
+      "company": "ROTAVATOR INDUSTRIES LTD",
+      "country": "CY",
+      "new_uid": "078569d2de0b484d",
+      "source": "eures",
+      "source_id": "MzQzOTEwIDU",
+      "title": "ΕΡΓΑΤΗΣ ΓΕΩΡΓΟΚΤΗΝΟΤΡΟΦΙΑΣ",
+      "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQzOTEwIDU?lang=en"
+    },
+    "b54f36e748c2fe4c": {
+      "company": "Smart Outsourcing",
+      "country": "GR",
+      "new_uid": "fce3bc291bef4f19",
+      "source": "jobspy_indeed",
+      "source_id": "in-aef2bfb5f21e76cc",
+      "title": "Τεχνίτες Συναρμολόγησης - ΑΣΠΡΟΠΥΡΓΟΣ",
+      "url": "https://www.kariera.gr/jobs/technicians-or-service-jobs/354792"
+    },
+    "c0268f94029b3c86": {
+      "company": "adBook – Write your Future",
+      "country": "GR",
+      "new_uid": "ef15fc9bbe8066e6",
+      "source": "jobspy_indeed",
+      "source_id": "in-db2dd89f9414321e",
+      "title": "Εργάτης Αποθήκης",
+      "url": "https://mycarriera.gr/view/746283.html"
+    },
+    "c2d34dd66d420ac8": {
+      "company": "Rainbow Waters",
+      "country": "GR",
+      "new_uid": "1723888e7051cf4d",
+      "source": "jobspy_indeed",
+      "source_id": "in-397c20e601861baf",
+      "title": "Εργάτης Αποθήκης – Πάτρα",
+      "url": "https://gr.indeed.com/viewjob?jk=397c20e601861baf"
+    },
+    "cae9c3fc71f21cdd": {
+      "company": "PYTHEAS SEAFOOD",
+      "country": "GR",
+      "new_uid": "13ad9b88f6972a0d",
+      "source": "jobspy_indeed",
+      "source_id": "in-f95146f0c9493f8b",
+      "title": "Εργάτης Παραγωγής",
+      "url": "https://mycarriera.gr/view/747086.html"
+    },
+    "f2f2f9a0625d5679": {
+      "company": "kariera.gr | Recruitment",
+      "country": "GR",
+      "new_uid": "74f1c15a7d805ca5",
+      "source": "jobspy_indeed",
+      "source_id": "in-b3b361e90a4fa1aa",
+      "title": "Χειριστής Συσκευαστηρίου | Παραγωγή | Πολυεθνική Εταιρεία | Πειραιάς",
+      "url": "https://www.kariera.gr/jobs/technicians-or-service-jobs/358271"
+    },
+    "fd31e3a5bb68a093": {
+      "company": "ELITE STROM",
+      "country": "GR",
+      "new_uid": "7a41317509646cb1",
+      "source": "jobspy_indeed",
+      "source_id": "in-a14020ae4ba8cb87",
+      "title": "Προσωπικό Παραγωγής & Αποθήκης",
+      "url": "https://www.kariera.gr/jobs/logistics-or-warehouse-jobs/356271"
+    },
+    "fe3cad5697acfdc1": {
+      "company": "Sesamis Natural Bars",
+      "country": "GR",
+      "new_uid": "9f11cf860402b90c",
+      "source": "jobspy_indeed",
+      "source_id": "in-eeb8eb1ac15d2bc4",
+      "title": "Εργάτης παραγωγής σε εταιρία τροφίμων",
+      "url": "https://mycarriera.gr/view/748977.html"
+    }
+  },
+  "reason": "non-Latin dedup collision: ASCII-only norm stripped Cyrillic/Greek titles to an empty key, collapsing same company+country postings into one flip-flopping record; scorer.py now falls back to Unicode letters/digits only when the ASCII key is empty"
+}
