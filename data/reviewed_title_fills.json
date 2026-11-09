@@ -1,7 +1,7 @@
 {
   "schema": "reviewed_title_fills/v1",
   "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json.",
-  "updated_on": "2026-11-08",
+  "updated_on": "2026-11-09",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -797,6 +797,134 @@
       "translated": true,
       "review": "data/title_review_batch24.json",
       "title_ar": "مشغل معدات معالجة أخشاب"
+    },
+    {
+      "uid": "0fbd1ae3239f8a57",
+      "expected_title": "Servetris, köksbiträde, pizzabagare",
+      "title_en": "Waitress, kitchen assistant, pizza baker",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "نادلة، مساعد مطبخ، خباز بيتزا"
+    },
+    {
+      "uid": "0fcf6c6044953b7d",
+      "expected_title": "Teamcoördinator Magazijn DAG en Nacht",
+      "title_en": "Warehouse team coordinator - day and night shifts",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "منسق فريق المستودع - نوبات نهارية وليلية"
+    },
+    {
+      "uid": "0fe1b90d0f121612",
+      "expected_title": "Magazijnmedewerker Ochtenddienst",
+      "title_en": "Warehouse worker - morning shift",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "عامل مستودع - نوبة صباحية"
+    },
+    {
+      "uid": "102d26d86d2cb2ba",
+      "expected_title": "Lagerarbeiter:in Korneuburg Vollzeit (m/w/d)",
+      "title_en": "Warehouse worker, Korneuburg, full-time (m/f/d)",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "عامل مستودع، كورنويبورغ، دوام كامل"
+    },
+    {
+      "uid": "103648c3c59bb612",
+      "expected_title": "Pracovníci v sklade",
+      "title_en": "Warehouse workers",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "عمال مستودع"
+    },
+    {
+      "uid": "1059a554d96e3417",
+      "expected_title": "SKLADIŠČNIK - PRODAJALEC - M/Ž",
+      "title_en": "Warehouse worker - salesperson (m/f)",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "عامل مستودع - بائع"
+    },
+    {
+      "uid": "10732994653925d6",
+      "expected_title": "Staplerfahrer (m/w/d) ab 16,09€/Std.  (Gabelstaplerfahrer/in)",
+      "title_en": "Forklift driver (m/f/d)",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "سائق رافعة شوكية"
+    },
+    {
+      "uid": "109113b3ae177c0d",
+      "expected_title": "osoba wykonująca prace magazynowe",
+      "title_en": "Warehouse work operative",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "عامل أعمال المستودع"
+    },
+    {
+      "uid": "1098b8dd0b0f156e",
+      "expected_title": "Osoba na stanowisku magazynier-kierowca samochodu dostawczego (prace interwencyjne)",
+      "title_en": "Warehouse keeper - delivery van driver (interim work)",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "أمين مستودع - سائق سيارة توصيل (عمل مؤقت)"
+    },
+    {
+      "uid": "109ec4ad76a0c1e7",
+      "expected_title": "Trainee Financial Lines Underwriter",
+      "title_en": "Trainee financial lines underwriter",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "متدرب في الاكتتاب التأميني للخطوط المالية"
+    },
+    {
+      "uid": "10a4cf6fe478cd4e",
+      "expected_title": "Magasinier (H/F)",
+      "title_en": "Warehouse keeper (m/f)",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "أمين مستودع"
+    },
+    {
+      "uid": "10bdefc6e7c24233",
+      "expected_title": "Pracovníci v sklade",
+      "title_en": "Warehouse workers",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "عمال مستودع"
+    },
+    {
+      "uid": "10d4c147e3a82af5",
+      "expected_title": "Helfer / Lager m/w/d vielseitige Aufgaben (Lager- und Transportarbeiter/in)",
+      "title_en": "Warehouse helper (m/f/d), varied tasks",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "مساعد مستودع، مهام متنوعة"
+    },
+    {
+      "uid": "10f3a8957deaaac2",
+      "expected_title": "Magasinier cariste (H/F)",
+      "title_en": "Warehouse keeper - forklift operator (m/f)",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "أمين مستودع - مشغل رافعة شوكية"
+    },
+    {
+      "uid": "1118d65fa4518fdd",
+      "expected_title": "SKLADIŠTAR/ SKLADIŠTARKA",
+      "title_en": "Warehouse worker (m/f)",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "عامل مستودع"
+    },
+    {
+      "uid": "112fb6fdd644c05f",
+      "expected_title": "Magazijn Medewerker",
+      "title_en": "Warehouse worker",
+      "translated": true,
+      "review": "data/title_review_batch25.json",
+      "title_ar": "عامل مستودع"
     }
   ]
 }
