@@ -335,14 +335,22 @@ def _load_state(store, cfg: dict) -> dict:
         with open(_state_path(store, cfg), "r", encoding="utf-8") as fh:
             payload = json.load(fh)
         if cfg.get("telegram", {}).get("private_fit_required"):
-            return unseal(payload, os.environ.get("JOB_FIT_STATE_KEY", ""))
-        return payload if isinstance(payload, dict) else {}
+            state = unseal(payload, os.environ.get("JOB_FIT_STATE_KEY", ""))
+        else:
+            state = payload if isinstance(payload, dict) else {}
     except FileNotFoundError:
         return {}
     except (OSError, ValueError):
         if cfg.get("telegram", {}).get("private_fit_required"):
             raise ValueError("Private notification state unavailable") from None
         return {}
+    # One-time uid re-key migration (non-Latin dedup collision): carry
+    # delivery marks old -> new on every load (idempotent) so re-keyed
+    # postings are neither redelivered nor double-counted. Persistence
+    # rides the normal mark_notified flow.
+    from .uid_migration import load_spec as _uid_spec, apply_to_notifier_state
+    state, _ = apply_to_notifier_state(state, _uid_spec(store.data_dir))
+    return state
 
 
 def _save_state(store, cfg: dict, state: dict) -> None:
