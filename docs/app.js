@@ -338,21 +338,7 @@
       'Score ' + (job.score != null ? job.score : 0)));
     card.appendChild(top);
 
-    // Temporary current-identity-bound guard for the Primark record whose uid
-    // (dedup_hash of company|title|country) survived a repost drift: the store
-    // now describes the Montijo full-time posting while summary_ar still
-    // derives from the reviewed Rio de Mouro part-time posting. Suppresses the
-    // apply link, matched keywords and the stale summary until the pipeline
-    // lands the store-level source_review (fill commit b5c28fb3). Bound to the
-    // exact current identity: if the record drifts again or the store guard
-    // lands, this branch simply stops matching or duplicates the store flag.
-    var primarkIdentityDrift = job.uid === '86f59685121495c6' &&
-      job.source_id === 'in-85a7a33b0e2ef816' &&
-      job.title === 'Retail Assistant - Operador de Loja (m/f)' &&
-      job.url === 'https://jobs.smartrecruiters.com/Primark/744000159164188-retail-assistant-operador-de-loja-m-f-' &&
-      String(job.description || '').indexOf('Média de horas semanais: 40H') !== -1;
     var sourceMismatch = (job.source_review && job.source_review.status === 'destination_mismatch') ||
-      primarkIdentityDrift ||
       (job.uid === '861cfef865463f1c' && job.source_id === 'in-dd8dff85721b11d6' &&
        job.title === 'Analytický chemik QC – junior' &&
        job.url === 'https://web.fosfa.cz/kariera/volne-pozice/energetika/datovy-analytik-energetika-junior-37-000-kc-48-000-kc/' &&
@@ -473,7 +459,7 @@
       var reviewReason = (job.source_review && job.source_review.reason) || '';
       var sourceInternal = reviewKind === 'source_internal_title_body' ||
         reviewReason.indexOf('Source-internal mismatch') === 0;
-      var identityDrift = reviewKind === 'identity_drift_repost' || primarkIdentityDrift;
+      var identityDrift = reviewKind === 'identity_drift_repost';
       var warnEn = identityDrift
         ? 'Source identity changed: this record now points to a different posting of the same role at the source (different store and hours). Application link and description-derived claims withheld pending fresh review.'
         : sourceInternal
