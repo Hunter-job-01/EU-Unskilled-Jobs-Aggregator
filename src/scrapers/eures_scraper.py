@@ -95,10 +95,12 @@ class EuresScraper:
         description = _strip_html(jv.get("description") or "")
         # Body corroboration (v6, bfb01e57): the search payload carries a
         # second copy of the body under translations[<lang>].description.
-        # When both copies survive the same normalization identically, a
-        # changed (e.g. shorter) body is the source's current full text,
-        # not a truncated fetch, and merge may prefer it over a longer
-        # stored body. Missing or mismatched copies stay uncorroborated.
+        # Identical copies after the same normalization mean the CURRENT
+        # response agrees with itself - same-payload consistency, not
+        # proof the body is complete (upstream can duplicate shortened
+        # text into both). Merge may then prefer a changed body over a
+        # longer stored one. Missing or mismatched copies stay
+        # uncorroborated.
         translations = jv.get("translations") or {}
         corroborated = bool(description) and any(
             _strip_html((copy or {}).get("description") or "") == description
