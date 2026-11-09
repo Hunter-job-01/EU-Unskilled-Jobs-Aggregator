@@ -9,12 +9,14 @@
 # automatic requirement extraction, private notification gate) run as
 # jobs in THIS workflow instead of four standalone workflows. Each runs
 # only when the paths its old workflow watched change, or on manual
-# dispatch, so ordinary pushes stay fast. Secret-dependent checks skip
-# pull_request events (fork PRs see no secrets), matching the old
-# push-only behavior. Dependabot-triggered push runs see no Actions
-# secrets either (Dependabot reads its own secrets store), so the
-# guarded steps also skip actor dependabot[bot]; the PR-event run of
-# the same change stays the guarded-check surface for dependency PRs.
+# dispatch, so ordinary pushes stay fast. Secret-dependent checks run
+# only on trusted pushes: they skip pull_request events (fork PRs see
+# no secrets) and dependabot[bot] pushes (Dependabot reads its own
+# secrets store, so Actions secrets arrive empty). For a dependency PR
+# the secret-backed checks therefore run on NEITHER the Dependabot
+# push NOR the PR event: coverage there is the keyless tests (pytest,
+# local Arabic translation), and the secret-backed checks gate the
+# human merge push to main instead.
 # =====================================================================
 name: CI tests
 
