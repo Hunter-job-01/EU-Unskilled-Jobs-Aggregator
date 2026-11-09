@@ -178,13 +178,14 @@ class JobStore:
                     # Only reconcile bodies of the SAME posting: when the
                     # url changed (repost / identity drift) the old body
                     # describes a different posting and must not be kept.
-                    # A corroborated current body (body_verified_current,
-                    # EURES dual-payload check) also skips this rule: the
-                    # source verifiably stopped serving the longer text,
-                    # so keeping it would present a stale body the source
-                    # no longer carries (bfb01e57). Without corroboration
-                    # a shorter fresh body can be a degraded fetch, so the
-                    # stored body stays and the summary guard withholds.
+                    # A corroborated current body (body_verified_current:
+                    # the EURES response carries the new body in two
+                    # agreeing payload copies) also skips this rule: the
+                    # current response no longer carries the longer text,
+                    # so keeping it presents a stale body (bfb01e57).
+                    # Without corroboration a shorter fresh body can be a
+                    # degraded fetch, so the stored body stays and the
+                    # summary guard withholds.
                     record["description"] = existing["description"]
                 # Notification state belongs to the stored record: a
                 # re-scrape must never reset an already-sent digest flag.
