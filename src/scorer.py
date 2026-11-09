@@ -25,7 +25,17 @@ def dedup_hash(company: str, title: str, country: str) -> str:
     """
     def _norm(value: str) -> str:
         # keep only letters/digits: "Sp. z o.o." and "sp z oo" hash alike
-        return re.sub(r"[^a-z0-9]", "", fold_text(value))
+        primary = re.sub(r"[^a-z0-9]", "", fold_text(value))
+        if primary:
+            return primary
+        # Non-Latin titles (Cyrillic, Greek, Arabic, ...) strip to an
+        # empty key under the ASCII rule: every such posting from one
+        # company+country then collides into a single record that
+        # flip-flops identity across runs (319357318bee1b6d, 2026-11-09).
+        # Fall back to Unicode letters/digits so distinct postings stay
+        # distinct. Only the empty case falls back - any title with an
+        # ASCII letter/digit keeps its existing uid (no uid churn).
+        return "".join(ch for ch in fold_text(value) if ch.isalnum())
 
     base = "{}|{}|{}".format(_norm(company), _norm(title), _norm(country))
     return hashlib.sha256(base.encode("utf-8")).hexdigest()[:16]
