@@ -1,0 +1,86 @@
+{
+  "checked_on": "2026-11-09",
+  "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. Two candidates in this window returned HTTP 404 on the live API (uid 108f2edcfb6b67d8 FR Agent magasinier / Agente magasiniere gestionnaire de stocks, uid 112d65cfb3e268bf DE Lagermitarbeiter / Kommissionierer m/w/d) and were held, joining the still-held postings 00cfb0e9af186fce, 0c10c84afe31213a and 0dad6f50ad84127b. No candidate in this window carried the legacy partial-AR marker, so no overwrite:true fills were needed.",
+  "reviews": [
+    {
+      "uid": "0fbd1ae3239f8a57",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM4MDUxNCAxMjE?lang=en",
+      "note": "Live EURES title matches stored. Body (Sweden, 3 posts) lists waitress/waiter, kitchen assistant and pizza baker roles - service/kitchen combo, stress resistance and teamwork required."
+    },
+    {
+      "uid": "0fcf6c6044953b7d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWRjNTI3YTMtNzM1Yy00MWQyLWUwNjMtNjg5M2IyMGEyZTY5IDQy?lang=en",
+      "note": "Live EURES title matches stored. Body (Randstad for Bidfood horeca wholesale, Utrecht, 32-36h, MBO level) confirms warehouse team coordinator covering day and night; 16.18-17.85 EUR/h quoted in body, kept out of the title."
+    },
+    {
+      "uid": "0fe1b90d0f121612",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWY2YzcwZTMtNDhiNy1jMzkyLWUwNjMtNjg5M2IyMGFjMDM0IDQy?lang=en",
+      "note": "Live EURES title matches stored. Body (Randstad for FedEx Express, Ridderkerk, 18h/week) confirms morning-shift warehouse work; 15.16-15.61 EUR/h quoted in body, kept out of the title."
+    },
+    {
+      "uid": "102d26d86d2cb2ba",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTc0MTE2OTIgNDM?lang=en",
+      "note": "Live EURES title matches stored. Body (TTI Austria temp placement, Korneuburg) confirms full-time warehouse work."
+    },
+    {
+      "uid": "103648c3c59bb612",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDAwMDAzMDg4MzU3NCA0MQ?lang=en",
+      "note": "Live EURES title matches stored. Body (4-star Park Inn Danube hotel, Bratislava, full-time) confirms hotel storekeeper: receiving and checking goods, stock records, mostly F&B goods."
+    },
+    {
+      "uid": "1059a554d96e3417",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ4MjQ1MS0yMDI2NDMgMTQ?lang=en",
+      "note": "Live EURES title matches stored (all-caps in source). Body confirms combined warehouse-sales role: goods receipt/storage, picking, packing, dispatch plus customer sales; 3-month trial then permanent - combo qualifier preserved."
+    },
+    {
+      "uid": "10732994653925d6",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQwNDAtVFNHUFYyRTdJRFZDTUdJSy1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body (spp direkt staffing, Floersheim area) confirms forklift driving; 16.09 EUR/h quoted in the source title and body, kept out of the translated title."
+    },
+    {
+      "uid": "109113b3ae177c0d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MjcyMjIgMTI?lang=en",
+      "note": "Live EURES title matches stored. Body confirms warehouse operative: receiving/issuing/counting goods, truck loading, electric pallet truck, scanner/PC; forklift experience welcome."
+    },
+    {
+      "uid": "1098b8dd0b0f156e",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5Mjc5NTEgMTI?lang=en",
+      "note": "Live EURES title matches stored. Body confirms warehouse keeper plus delivery driver distributing food/dairy goods, interim work, Mon 05:00-13:00 and Sat mornings - warehouse-driver combo and interim qualifiers preserved."
+    },
+    {
+      "uid": "109ec4ad76a0c1e7",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/SlY6NDhmZTY2ZmFiYzA0NGEyODg5YmQ0YzExOGUyNzMyODMgMTg?lang=en",
+      "note": "Live EURES title matches stored. Body confirms an insurance underwriting trainee role (financial-lines risk assessment, office work, not warehouse) - translated as-is."
+    },
+    {
+      "uid": "10a4cf6fe478cd4e",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1TkZNVyA5?lang=en",
+      "note": "Live EURES title matches stored. Body (energy-management and automation client) confirms warehouse keeper role."
+    },
+    {
+      "uid": "10bdefc6e7c24233",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDAwMDAzMDgxMjcxOSA0MQ?lang=en",
+      "note": "Live EURES title matches stored. Body confirms transshipment-warehouse work: ground-level pallet handling with low-lift truck, scanner/PC, two-shift rotation."
+    },
+    {
+      "uid": "10d4c147e3a82af5",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU4MDIyNjItUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body (PerZukunft agency, seasonal demand) confirms warehouse helpers for sorting, packing and picking food products."
+    },
+    {
+      "uid": "10f3a8957deaaac2",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1WUdWTCA5?lang=en",
+      "note": "Live EURES title matches stored. Body confirms warehouse keeper plus forklift operator: receiving, storage, dispatch, loading/unloading."
+    },
+    {
+      "uid": "1118d65fa4518fdd",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkyODY2NCAxOQ?lang=en",
+      "note": "Live EURES title matches stored (all-caps in source). Body confirms order assembly, goods checking and dispatch preparation; forklift certification an advantage."
+    },
+    {
+      "uid": "112fb6fdd644c05f",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/OWI2MmExMmQtOGU4Zi00ZGViLWExYWQtNTJmZTYwMDYzOTM4IDM?lang=en",
+      "note": "Live EURES title matches stored. Body (Sample Management dept, 2000 m2 Seveso warehouse, Antwerp port) confirms packing, labeling and worldwide shipping of chemical samples."
+    }
+  ]
+}
