@@ -311,3 +311,66 @@ def test_jobspy_no_id_no_url_stays_empty_not_nan(cfg, matrix):
     assert job.source_id == ""
     assert job.url_provenance == ""
     assert job.url_verified is None
+
+
+# ---------------------------------------------------------------------
+# v6 bfb01e57: EURES body corroboration predicate (map_vacancy)
+# ---------------------------------------------------------------------
+
+def _corrob_jv(**over):
+    jv = {
+        "title": "Varastotyöntekijä",
+        "description": "Haetaan varastotyontekijaa.",
+        "id": "MDkyIDE",
+        "creationDate": 1793516354590,
+        "locationMap": {"FI": ["FI1B1"]},
+        "employer": {"name": "Rekrymesta"},
+        "availableLanguages": ["fi"],
+        "translations": {"fi": {"title": "Varastotyöntekijä",
+                                 "description": "Haetaan varastotyontekijaa."}},
+    }
+    jv.update(over)
+    return jv
+
+
+def test_eures_body_corroborated_when_payload_copies_agree(cfg, matrix):
+    job = EuresScraper(cfg, FakeHttp(), matrix).map_vacancy(_corrob_jv(), "FI")
+    assert job.body_verified_current is True
+
+
+def test_eures_body_corroboration_normalizes_both_copies(cfg, matrix):
+    # Markup differences only: both copies pass _strip_html, so
+    # normalization-equal copies still corroborate.
+    jv = _corrob_jv(description="<p>Haetaan  varastotyontekijaa.</p>")
+    job = EuresScraper(cfg, FakeHttp(), matrix).map_vacancy(jv, "FI")
+    assert job.description == "Haetaan varastotyontekijaa."
+    assert job.body_verified_current is True
+
+
+def test_eures_body_not_corroborated_on_copy_mismatch(cfg, matrix):
+    jv = _corrob_jv(translations={"fi": {"description": "different text"}})
+    job = EuresScraper(cfg, FakeHttp(), matrix).map_vacancy(jv, "FI")
+    assert job.body_verified_current is False
+
+
+def test_eures_body_not_corroborated_when_only_other_language_differs(cfg, matrix):
+    # A single different-language copy with different text must not
+    # corroborate; the predicate is text equality, not language labels.
+    jv = _corrob_jv(translations={"sv": {"description": "annan text"}})
+    job = EuresScraper(cfg, FakeHttp(), matrix).map_vacancy(jv, "FI")
+    assert job.body_verified_current is False
+
+
+def test_eures_body_not_corroborated_without_translations(cfg, matrix):
+    scraper = EuresScraper(cfg, FakeHttp(), matrix)
+    jv = _corrob_jv()
+    del jv["translations"]
+    assert scraper.map_vacancy(jv, "FI").body_verified_current is False
+    assert scraper.map_vacancy(_corrob_jv(translations={}), "FI").body_verified_current is False
+    assert scraper.map_vacancy(_corrob_jv(translations={"fi": {}}), "FI").body_verified_current is False
+
+
+def test_eures_body_not_corroborated_when_empty(cfg, matrix):
+    jv = _corrob_jv(description="")
+    job = EuresScraper(cfg, FakeHttp(), matrix).map_vacancy(jv, "FI")
+    assert job.body_verified_current is False
