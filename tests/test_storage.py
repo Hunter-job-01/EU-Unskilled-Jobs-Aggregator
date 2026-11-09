@@ -310,3 +310,82 @@ def test_description_keep_bound_to_unchanged_url(tmp_path):
     drifted.url = "https://example.test/1-reposted"
     store.merge([drifted], today=today + timedelta(days=2))
     assert store._store["uid1"]["description"] == "short new body"
+
+
+# ---------------------------------------------------------------------
+# v6 bfb01e57: verified-current body vs keep-longer reconciliation
+# ---------------------------------------------------------------------
+
+def test_verified_current_shorter_body_replaces_stale_longer(tmp_path):
+    # bfb01e57 repro: same posting (url/source/source_id unchanged), the
+    # source stopped serving the old marketing head. A corroborated
+    # fresh body is source-faithful and wins over the longer stored
+    # body; the stale body-derived summary drops with it.
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    today = date(2026, 11, 2)
+    long_body = "Tule meille toihin! " + "x" * 200
+    store.merge([make_job(1, description=long_body)], today=today)
+    rec = store._store["uid1"]
+    rec["title_en"] = "Warehouse worker"
+    rec["title_ar"] = "عامل مستودع"
+    rec["summary_ar"] = "ملخص من النص القديم"
+
+    fresh = make_job(1, score=43, description="Haetaan varastotyontekijaa.",
+                     body_verified_current=True)
+    added, updated = store.merge([fresh], today=today + timedelta(days=1))
+    assert (added, updated) == (0, 1)
+    rec = store._store["uid1"]
+    assert rec["description"] == "Haetaan varastotyontekijaa."
+    assert rec["summary_ar"] == ""
+    # Title-derived translations are unaffected by the body change.
+    assert rec["title_en"] == "Warehouse worker"
+    assert rec["title_ar"] == "عامل مستودع"
+    # Same posting: no source_review flag is raised by the body refresh.
+    assert rec["source_review"] == {}
+    # The corroboration flag is transient scrape metadata, never stored.
+    assert "body_verified_current" not in rec
+
+
+def test_uncorroborated_short_body_keeps_stored_and_withholds_summary(tmp_path):
+    # Without corroboration a shorter fresh body cannot be distinguished
+    # from a degraded or incomplete fetch: keep the stored body and
+    # withhold the summary rather than claim currentness.
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    today = date(2026, 11, 2)
+    store.merge([make_job(1, description="a much longer original body text")],
+                today=today)
+    store._store["uid1"]["summary_ar"] = "ملخص"
+    store.merge([make_job(1, description="thin")], today=today + timedelta(days=1))
+    rec = store._store["uid1"]
+    assert rec["description"] == "a much longer original body text"
+    assert rec["summary_ar"] == ""
+
+
+def test_empty_refetch_keeps_stored_and_withholds_summary(tmp_path):
+    # An empty fresh body is the classic incomplete-fetch shape: the
+    # stored body must survive and the summary must not cross.
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    today = date(2026, 11, 2)
+    store.merge([make_job(1, description="full original body")], today=today)
+    store._store["uid1"]["summary_ar"] = "ملخص"
+    store.merge([make_job(1, description="")], today=today + timedelta(days=1))
+    rec = store._store["uid1"]
+    assert rec["description"] == "full original body"
+    assert rec["summary_ar"] == ""
+
+
+def test_verified_current_body_still_drops_summary_on_identity_drift(tmp_path):
+    # 86f-class: corroboration attests the body, not the posting. When
+    # the record drifts to a different posting (source_id changes), the
+    # summary must still drop even with a verified current body.
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    today = date(2026, 11, 2)
+    store.merge([make_job(1, description="Rio part-time body", source_id="JR-1")],
+                today=today)
+    store._store["uid1"]["summary_ar"] = "ملخص قديم"
+    drifted = make_job(1, description="Montijo full-time body",
+                       source_id="JR-2", body_verified_current=True)
+    store.merge([drifted], today=today + timedelta(days=1))
+    rec = store._store["uid1"]
+    assert rec["description"] == "Montijo full-time body"
+    assert rec["summary_ar"] == ""
