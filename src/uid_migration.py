@@ -32,7 +32,7 @@ log = logging.getLogger(__name__)
 
 SPEC_NAME = "uid_migration_2026-11-09.json"
 
-IDENTITY_FIELDS = ("title", "company", "country", "source_id", "url")
+IDENTITY_FIELDS = ("title", "company", "country", "source", "source_id", "url")
 
 # Fields derived from a specific posting's content. A flip-flopped bucket
 # may have composed them for a DIFFERENT posting than the one it holds
@@ -88,7 +88,7 @@ def apply_to_store(store, spec: dict) -> dict:
     """Re-key collision-bucket records in a loaded JobStore. Idempotent.
 
     With a full spec entry the record's current identity must match the
-    audited title/company/country/source_id/url; a bucket that flipped
+    audited title/company/country/source/source_id/url; a bucket that flipped
     after the audit is HELD (not re-keyed) so the audited new uid is
     never assigned to a different posting.
 
