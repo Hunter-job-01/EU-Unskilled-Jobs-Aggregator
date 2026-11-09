@@ -11,7 +11,10 @@
 # only when the paths its old workflow watched change, or on manual
 # dispatch, so ordinary pushes stay fast. Secret-dependent checks skip
 # pull_request events (fork PRs see no secrets), matching the old
-# push-only behavior.
+# push-only behavior. Dependabot-triggered push runs see no Actions
+# secrets either (Dependabot reads its own secrets store), so the
+# guarded steps also skip actor dependabot[bot]; the PR-event run of
+# the same change stays the guarded-check surface for dependency PRs.
 # =====================================================================
 name: CI tests
 
@@ -118,20 +121,20 @@ jobs:
         run: pip install requests PyYAML 'cryptography>=44,<47' 'beautifulsoup4>=4.12,<5' langdetect
 
       - name: Check guarded free Arabic translation
-        if: steps.changes.outputs.gemini == 'true' && github.event_name != 'pull_request'
+        if: steps.changes.outputs.gemini == 'true' && github.event_name != 'pull_request' && github.actor != 'dependabot[bot]'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/check_gemini_translation.py
 
       - name: Check automatic requirement extraction
-        if: steps.changes.outputs.reqextract == 'true' && github.event_name != 'pull_request'
+        if: steps.changes.outputs.reqextract == 'true' && github.event_name != 'pull_request' && github.actor != 'dependabot[bot]'
         env:
           JOB_FIT_PROFILE: ${{ secrets.JOB_FIT_PROFILE }}
           JOB_FIT_REVIEWS: ${{ secrets.JOB_FIT_REVIEWS }}
         run: python scripts/check_automatic_requirements.py
 
       - name: Verify private notification gate
-        if: steps.changes.outputs.gate == 'true' && github.event_name != 'pull_request'
+        if: steps.changes.outputs.gate == 'true' && github.event_name != 'pull_request' && github.actor != 'dependabot[bot]'
         env:
           JOB_FIT_PROFILE: ${{ secrets.JOB_FIT_PROFILE }}
           JOB_FIT_REVIEWS: ${{ secrets.JOB_FIT_REVIEWS }}
