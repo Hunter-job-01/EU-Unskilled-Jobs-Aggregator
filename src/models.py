@@ -47,14 +47,15 @@ class Job:
     url_provenance: str = ""
     url_verified: Optional[bool] = None
     source_review: dict = field(default_factory=dict)
-    # Scrape-time corroboration that ``description`` is the source's
-    # current full body rather than a degraded or partial fetch (v6,
-    # bfb01e57 investigation). Transient: JobStore.merge pops it before
-    # persisting the record. Only scrapers whose payload carries an
-    # independent second copy of the body set it (EURES: the search
-    # jv ``description`` must equal ``translations[lang].description``).
-    # Default False keeps keep-longer body reconciliation for every
-    # source that cannot corroborate.
+    # Scrape-time consistency signal: the source's CURRENT response
+    # carries the same body in two payload copies (v6, bfb01e57
+    # investigation). This is same-payload agreement only - NOT
+    # independent proof that the body is complete, since upstream can
+    # duplicate shortened text into both copies. Transient:
+    # JobStore.merge pops it before persisting the record. Only EURES
+    # sets it (search jv ``description`` must equal a
+    # ``translations[lang].description`` copy after normalization).
+    # Default False keeps keep-longer body reconciliation everywhere.
     body_verified_current: bool = False
     # v6 lifecycle/dead-link state. Owned by JobStore.update_lifecycle;
     # fresh scrape objects carry an empty dict, merge preserves the
