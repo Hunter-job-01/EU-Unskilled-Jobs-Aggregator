@@ -141,6 +141,8 @@ class JobStore:
                 skipped_tombstoned += 1
                 continue
             record = job.to_dict()
+            # Transient scrape metadata, never persisted (see models.Job).
+            record.pop("body_verified_current", None)
             existing = store.get(job.uid)
             if existing is None:
                 record["first_seen"] = today.isoformat()
@@ -171,10 +173,18 @@ class JobStore:
                     for k in ("url", "description", "source", "source_id"))
                 if ((existing.get("source_review") or {}).get("status") != "destination_mismatch"
                         and (existing.get("url") or "") == (record.get("url") or "")
+                        and not getattr(job, "body_verified_current", False)
                         and len(existing.get("description") or "") > len(record.get("description") or "")):
                     # Only reconcile bodies of the SAME posting: when the
                     # url changed (repost / identity drift) the old body
                     # describes a different posting and must not be kept.
+                    # A corroborated current body (body_verified_current,
+                    # EURES dual-payload check) also skips this rule: the
+                    # source verifiably stopped serving the longer text,
+                    # so keeping it would present a stale body the source
+                    # no longer carries (bfb01e57). Without corroboration
+                    # a shorter fresh body can be a degraded fetch, so the
+                    # stored body stays and the summary guard withholds.
                     record["description"] = existing["description"]
                 # Notification state belongs to the stored record: a
                 # re-scrape must never reset an already-sent digest flag.
