@@ -818,7 +818,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE217",
@@ -1240,7 +1240,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Prutz, T, Austria",
@@ -1650,6 +1650,56 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "04f60028b0b06dc8": {
+    "apply_channels": {
+      "emails": [
+        "pchrysanthou@dl.mlsi.gov.cy"
+      ],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "ΠΟΛΥΚΑΡΠΟΣ ΚΑΛΛΟΥΡΗΣ ΛΤΔ",
+    "country": "CY",
+    "description": "ΓΕΩΡΓΙΚΕΣ ΕΡΓΑΣΙΕΣ , ΓΝΩΣΗ ΕΛΛΗΝΙΚΗΣ ΚΑΙ ΑΓΓΛΙΚΗΣ ΓΛΩΣΣΑΣ , EURES ADVISOR , PRODROMOS CHRYSANTHOU , pchrysanthou@dl.mlsi.gov.cy",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [
+      "en"
+    ],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "CY000",
+    "matched_keywords": [
+      "γεωργια"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-03",
+    "score": 36,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MzQzOTE1IDU",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "ΕΡΓΑΤΕΣ ΓΕΩΡΓΙΑΣ",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "04f60028b0b06dc8",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQzOTE1IDU?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "05054aa257b06a60": {
     "apply_channels": {
       "emails": [],
@@ -1833,54 +1883,6 @@
     "url_provenance": "",
     "url_verified": null
   },
-  "05ce3213aebb1a73": {
-    "apply_channels": {
-      "emails": [],
-      "phones": [],
-      "whatsapp_mentioned": false
-    },
-    "company": "",
-    "country": "NL",
-    "description": "Start People Wijchen €22 1 - 40 uur MBO Vandaag Bewaar vacature Open in nieuwe tab Magazijnmedewerker Avond- en Nachtdienst | GLS Wijchen solliciteer op website van werkgever Salaris €22 Uren 1 - 40 uur Dienstverband Vast Werklocatie Wijchen Opleidingsniveau MBO Branche Transport/Opslag/Distributie Functieomschrijving Wat je gaat doen Als magazijnmedewerker werk je in een dynamische logistieke omgeving waar geen dienst hetzelfde is. Je werkzaamheden bestaan uit: - Laden en lossen van vrachtwagens. - Sorteren van pakketten op bestemming. - Controleren van zendingen op beschadigingen. - Klaarzetten van vracht voor transport. - Veilig en netjes houden van de werkplek. - Samenwerken met collega's om het logistieke proces soepel te laten verlopen. Hou jij van aanpakken en ben je graag fysiek bezig? Dan pas je perfect binnen deze functie. Je werkt in avond- en nachtdiensten: - 17:00 tot 02:00 uur - 23:00 tot 08:00 uur Wat we je bieden - Salaris tot €22,49 per uur inclusief toeslagen. - Fulltime dienstverband. - Reiskostenvergoeding - Pensioenopbouw. - Vakantiegeld en vakantiedagen. - Snel starten mogelijk. - Uitzicht op een vast contract. - Doorgroeimogelijkheden binnen GLS. - Werken in een gezellig en betrokken team. - Gelijke arbeidsvoorwaarden als medewerkers die rechtstreeks bij GLS in dienst zijn. Functie-eisen - Spreekt basis Engels. - Bent beschikbaar voor avond- en nachtdiensten. - Bent fysiek fit. - Hebt eigen vervoer naar Wijchen. - Bent betrouwbaar en gemotiveerd - Werkt graag samen met collega's - Ervaring als logistiek medewerker, warehouse medewerker of magazijnmedewerker is een pluspunt, maar geen vereiste. Over het bedrijf GLS is een toonaangevend logistiek bedrijf gevestigd in Wijchen, dat jaarlijks miljoenen pakketten door heel Europa bezorgt. Met kwaliteit, betrouwbaarheid en teamwork als kernwaarden, streeft GLS ernaar om logistieke processen soepel en efficiënt te laten verlopen. Wat...",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-04",
-    "glossary": [],
-    "languages": [
-      "nl"
-    ],
-    "last_seen": "2026-11-05",
-    "lifecycle": {
-      "status": "active"
-    },
-    "location": "NL226",
-    "matched_keywords": [
-      "ett",
-      "logistiek medewerker",
-      "magazijnmedewerker",
-      "sorter"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-10",
-    "score": 57,
-    "signals": [
-      "unskilled_role_match",
-      "agency_relocation_text_mention",
-      "tier_1_country"
-    ],
-    "source": "eures",
-    "source_id": "NWQ3NGIwNDYtM2I3Ny05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy",
-    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: NL226\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "Magazijnmedewerker Avond",
-    "title_ar": "عامل مستودع - وردية مسائية",
-    "title_en": "Warehouse worker - evening shift",
-    "translated": true,
-    "uid": "05ce3213aebb1a73",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ3NGIwNDYtM2I3Ny05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy?lang=en",
-    "url_provenance": "",
-    "url_verified": null
-  },
   "05e4a18c5545394d": {
     "apply_channels": {
       "emails": [],
@@ -1890,7 +1892,7 @@
     "company": "GRIESHABER LOGISTIKA D.O.O., Velika vas pri Krškem 68 , 8273 LESKOVEC PRI KRŠKEM",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo , Določen čas, 3 mesece, Polni delovni čas, 40, Prevzem, skladiščenje, izdaja in priprava materialov, polizdelkov ter gotovih izdelkov, vodenje evidenc o gibanju materiala in izdelkov v informacijskem sistemu, sodelovanje pri pakiranju, označevanju in odpremi blaga, skrb za urejenost in varnost v skladišču ter ravnanje v skladu z internimi pravili in varnostnimi standardi., ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -1898,7 +1900,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -2425,7 +2427,7 @@
     "company": "ROTAVATOR INDUSTRIES LTD",
     "country": "CY",
     "description": "ΕΚΤΕΛΕΣΗ ΕΡΓΑΣΙΩΝ ΚΑΛΛΙΕΡΓΕΙΑΣ ΚΑΙ ΦΡΟΝΤΙΔΑΣ ΚΑΡΠΟΥΖΙΩΝ, ΝΤΟΜΑΤΩΝ ΚΑΙ ΣΙΤΗΡΩΝ, ΟΠΩΣ ΠΡΟΕΤΟΙΜΑΣΙΑ ΕΔΑΦΟΥΣ, ΣΠΟΡΑ, ΦΥΤΕΥΣΗ, ΑΡΔΕΥΣΗ, ΣΥΓΚΟΜΙΔΗ, ΔΙΑΛΟΓΗ ΚΑΙ ΜΕΤΑΦΟΡΑ ΤΩΝ ΠΡΟΙΟΝΤΩΝ. ΠΑΡΑΛΛΗΛΑ, ΚΑΘΗΜΕΡΙΝΗ ΦΡΟΝΤΙΔΑ ΠΡΟΒΑΤΩΝ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΗΣ ΤΗΣ ΠΑΡΟΧΗΣ ΤΡΟΦΗΣ ΚΑΙ ΝΕΡΟΥ, ΤΗΣ ΒΟΣΚΗΣ ΚΑΙ ΤΟΥ ΚΑΘΑΡΙΣΜΟΥ ΤΩΝ ΧΩΡΩΝ ΣΤΑΒΛΙΣΜΟΥ. ΚΑΘΑΡΙΣΜΟΣ ΚΑΙ ΤΑΚΤΟΠΟΙΗΣΗ ΤΩΝ ΧΩΡΩΝ ΕΡΓΑΣΙΑΣ ΚΑΙ ΤΩΝ ΕΡΓΑΛΕΙΩΝ, ΣΥΜΦΩΝΑ ΜΕ ΤΙΣ ΟΔΗΓΙΕΣ ΤΟΥ ΕΡΓΟΔΟΤΗ ΚΑΙ ΤΟΥΣ ΚΑΝΟΝΕΣ ΥΓΙΕΙΝΗΣ ΚΑΙ ΑΣΦΑΛΕΙΑΣ. , ΑΝΑΖΗΤΕΙΤΑΙ ΥΠΕΥΘΥΝΟ ΚΑΙ ΕΡΓΑΤΙΚΟ ΑΤΟΜΟ, ΜΕ ΣΥΝΕΠΕΙΑ ΚΑΙ ΙΚΑΝΟΤΗΤΑ ΕΚΤΕΛΕΣΗΣ ΧΕΙΡΩΝΑΚΤΙΚΩΝ ΕΡΓΑΣΙΩΝ ΣΕ ΑΓΡΟΤΙΚΟ ΠΕΡΙΒΑΛΛΟΝ. ΑΠΑΡΑΙΤΗΤΗ Η ΓΝΩΣΗ ΑΓΓΛΙΚΩΝ. ΕΠΙΘΥΜΗΤΗ Η ΕΜΠΕΙΡΙΑ ΣΕ ΚΑΛΛΙΕΡΓΕΙΕΣ ΚΑΡΠΟΥΖΙΩΝ, ΝΤΟΜΑΤΩΝ ΚΑΙ ΣΙΤΗΡΩΝ, ΚΑΘΩΣ ΚΑΙ ΣΤΗ ΦΡΟΝΤΙΔΑ ΠΡΟΒΑΤΩΝ , EURES ADVISOR , PANAYIOTA PANAYI , ppanayi@dl.mlsi.gov.cy",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-03",
@@ -2433,7 +2435,7 @@
     "languages": [
       "en"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -2459,7 +2461,7 @@
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "a14aba1b4ec89acb",
+    "uid": "078569d2de0b484d",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQzOTEwIDU?lang=en",
     "url_provenance": "",
     "url_verified": null
@@ -3518,53 +3520,6 @@
     "translated": true,
     "uid": "0aa4b6b5945d4750",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/ODU3OTcxMiA5?lang=en",
-    "url_provenance": "",
-    "url_verified": null
-  },
-  "0aa8c35d29e1747a": {
-    "apply_channels": {
-      "emails": [],
-      "phones": [],
-      "whatsapp_mentioned": false
-    },
-    "company": "Supermercati Tosano",
-    "country": "IT",
-    "description": "Il Gruppo Tosano nasce nel 1970. Un piccolo supermercato a conduzione familiare è oggi una delle realtà più radicate e in espansione tra le provincie di Verona, Vicenza, Padova, Treviso, Venezia, Mantova, Brescia, Milano, Ferrara, Udine e Firenze.\n\nCon i suoi 24 ipermercati, tutti a gestione diretta, e i suoi oltre 6000 dipendenti, il Gruppo Tosano rappresenta uno dei maggiori esponenti della specializzazione alimentare: associato al Gruppo VeGè, Tosano è oggi tra i più forniti iper-alimentari sul territorio.\n\n  \n  \n\n**Posizione:**\n--------------\n\n**RECRUITING DAY 04/11/2026 - CENTRO LOGISTICO CEREA**\n\n**Su appuntamento**\n\n**Per il Centro Logistico di Cerea** **CON SERVIZIO TRASPORTO CASA-LAVORO GRATUITO CON PARTENZA DA OSTIGLIA** **assumiamo:**\n\n  \n\n* addetti picking magazzino tradizionale\n* addetti lavorazione e confezionamento alimentare\n\n**L’addetto al picking** opera all'interno del magazzino tradizionale e si occupa della preparazione dei bancali destinati ai punti vendita, della movimentazione manuale dei colli e dell’imballaggio della merce, con il supporto di strumenti tecnici quali sistemi voice, transpallet e muletti. Lavora in ambienti a temperatura ambiente o controllata nei reparti generi vari, carne, latticini, surgelati, ittico e ortofrutta. Intervallo retributivo annuale per il full time: 23.000 - 28.000 euro.\n\n**L'addetto alla lavorazione e al confezionamento alimentare** opera all’interno del nuovo comparto di produzione e lavorazione alimentare presso il Centro Logistico di Cerea, nello specifico nel reparto formaggi. Lavorando in camera bianca (o grigia), con l’ausilio di attrezzature per il confezionamento termo-chiuditrici e stretch automatizzate, si occupa della porzionaturae del confezionamento di formaggi, prestando particolare attenzione all’igiene e alla pulizia dell’ambiente di lavoro. Ha in carico anche il controllo qualità visivo dei prodotti per assicurare il rispetto degli standard qualitativi aziendali. Intervallo retributivo annuale per il full time: 23.000 - 28.000 euro.\n\n**Requisiti:**\n--------------\n\n**PER TUTTI**\n\n* Capacità di lavorare in squadra\n* Capacità di lavorare in un ambiente dinamico e veloce\n* Ottima conoscenza della lingua italiana\n\n**ADDETTO PICKING**\n\n* buon senso pratico e attitudine al lavoro fisico\n* predisposizione all'uso dei muletti\n* preferibile esperienza pregressa come magazziniere\n\n**ADDETTO LAVORAZIONI E CONFEZIONAMENTO ALIMENTARI**\n\n* Preferibile esperienza pregressa nell’ambito del confezionamento alimentare\n* Precisione e attenzione ai dettagli\n* Flessibilità e disponibilità a svolgere mansioni a supporto dei colleghi\n\n**Altre informazioni:**\n-----------------------\n\n**ORARIO DI LAVORO**\n\nFull-Time, 38 ore settimanali. 5 giorni lavorativi su 7, dal lunedì al venerdì.\n\nDal lunedì al giovedì 8.00-16.00, con mezz'ora di pausa.\n\nIl venerdì 8.00-16.30, con mezz'ora di pausa.\n\n**SERVIZIO DI TRASPORTO CASA-LAVORO GRATUITO CON PARTENZA DA OSTIGLIA**\n\nPartenza pullmino da Ostiglia verso Cerea ore 07:10\n\nPartenza pullmino da Cerea verso Ostiglia ore 16.15 da lunedì a giovedì, ore 16.45 il venerdì\n\n**COSA OFFRIAMO**\n\n* Contratto iniziale a tempo determinato\n* Affiancamento iniziale e corsi di formazione per l’utilizzo degli strumenti a supporto\n* Fornitura divisa aziendale\n* Buoni pasto (in base a regolamento aziendale)\n* Assistenza fiscale\n\n*Il presente annuncio si rivolge ai candidati di ambo i sessi (L.903/77). Autorizzazione del ministero del lavoro n° 20323/RS.*",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-06",
-    "glossary": [],
-    "languages": [],
-    "last_seen": "2026-11-06",
-    "lifecycle": {
-      "missed_runs": 0,
-      "status": "active"
-    },
-    "location": "Cerea, VEN, Italy",
-    "matched_keywords": [
-      "addetto picking",
-      "ett",
-      "magazziniere"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-10",
-    "score": 47,
-    "signals": [
-      "unskilled_role_match",
-      "agency_relocation_text_mention",
-      "tier_2_country"
-    ],
-    "source": "jobspy_indeed",
-    "source_id": "in-7f2b657f85fe39e1",
-    "source_review": {},
-    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Cerea, VEN, Italy\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "RECRUITING DAY 04/11/2026 ADDETTI AL MAGAZZINO e ADDETTI LAVORAZIONE E CONFEZIONAMENTO ALIMENTARE",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
-    "uid": "0aa8c35d29e1747a",
-    "url": "https://supermercatitosano.intervieweb.it/annunci.php?l=recruiting-day-04112026-addetti-al-magazzino-e-addetti-lavorazione-e-confezionamento-alimentare-155367&lang=it&d=indeed",
     "url_provenance": "",
     "url_verified": null
   },
@@ -4818,7 +4773,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DEA29",
@@ -5217,14 +5172,14 @@
     },
     "company": "kariera.gr | Recruitment",
     "country": "GR",
-    "description": "Οινόφυτα\n\nΑποθήκη / Logistics\n\nΠλήρης απασχόληση\n\nΜε κάποια εμπειρία\n\nπριν από 7 ημέρες\n\n  \n\nΗ ομάδα του **Recruitment Services | Kariera Group** αναζητά **Χειριστή Ανυψωτικού**\n  \n**Μηχανήματος**για λογαριασμό της **Transcombi Express**, μιας αναγνωρισμένης ελληνικής εταιρείας στον τομέα των logistics και των μεταφορών, με εξειδίκευση στη διαχείριση αποθηκών, τη συλλογή και διανομή εμπορευμάτων, προσφέροντας αξιόπιστες και ολοκληρωμένες λύσεις εφοδιαστικής αλυσίδας, με έδρα τα Οινόφυτα**.**\n\n**Αρμοδιότητες:**\n\n* Χειρισμός ανυψωτικού μηχανήματος (κλαρκ / forklift/ VNA/ Reach Truck) για φόρτωση,εκφόρτωση καιβμετακίνηση εμπορευμάτων\n* Σωστή και ασφαλής τοποθέτηση παλετών και προϊόντων στον χώρο της αποθήκης\n* Συνεργασία με ομάδα αποθήκης για την έγκαιρη εκτέλεση παραγγελιών\n* Χρήση scanner και τήρηση απογραφών\n\n**Απαραίτητα προσόντα:**\n\n* Δευτεροβάθμια εκπαίδευση\n* Προηγούμενη εμπειρία σε χρήση ανυψωτικών μηχανημάτων / logistics / αποθήκη\n* Άδεια χειριστή ανυψωτικού μηχανήματος (κλαρκ/forklift)\n* Δυνατότητα εργασίας σε βάρδιες Δευτέρα- Παρασκευή 07:00-22:00\n* Υπευθυνότητα και συνέπεια στην εκτέλεση καθηκόντων\n* Ομαδικό πνεύμα και αποτελεσματικήσυνεργασία με συναδέλφους\n\n**Παροχές:**\n\n* Ανταγωνιστικές αποδοχές\n* Ιδιωτικό ομαδικό πακέτο ασφάλισης\n* Σταθερό και οργανωμένο εργασιακό περιβάλλον\n* Εκπαίδευση και δυνατότητες εξέλιξης\n\n**Υποβάλετε την αίτησή σας μέσω του Kariera.gr** και γίνετε μέλος μιας ομάδας που εξελίσσεται δυναμικά στην Αττική!\n\n#### **Σχετικές Ετικέτες**\n\nloading unloading operator, distribution assistant, logistics assistant, supply chain operator, οινόφυτα, σχηματάρι, βοιωτία, θήβα.χαλκιδαχειριστής ανυψωτικού μηχανήματος, χειριστής κλαρκ, οδηγός κλαρκ, εργαζόμενος αποθήκης, υπάλληλος αποθήκης, αποθηκάριος, εργάτης αποθήκης, προσωπικό αποθήκης, χειριστής περονοφόρου,χειριστής ανυψωτικού, χειριστής μηχανημάτων αποθήκης, υπάλληλος logistics, εργάτης logistics, υπάλληλος διακίνησης εμπορευμάτων, φορτοεκφορτωτής, εργασίες αποθήκευσης, διαχείριση αποθήκης,distribution, warehouse operations, απογραφή, διαχείριση αποθεμάτων, χειρισμός μηχανημάτων, ανυψωτικά μηχανήματα, κλαρκ, forklift, reach truck, vna, οινόφυτα, σχηματάρι, βοιωτία, αττική.διαχείριση αποθεμάτων, απογραφή εμπορευμάτων, συλλογή παραγγελιών, προετοιμασία παραγγελιών, τακτοποίηση προϊόντων, μεταφορά παλετών, φόρτωση, εκφόρτωση, διακίνηση εμπορευμάτων,vna operator, logistics operator, αποθήκη, logistics, μεταφορές, εφοδιαστική αλυσίδα, supply chain, warehouse management, pallet handling, stock management, inventory control, scanner, order picking, order fulfillment, picking, packing,χειριστής ανυψωτικού μηχανήματος, χειριστής κλαρκ, forklift operator, forklift driver, warehouse operator, warehouse worker, reach truck operator,material handling, loading, unloading, φόρτωση, εκφόρτωση, μετακίνηση εμπορευμάτων, αποθήκευση παλετών, εφοδιαστική αλυσίδα, μεταφορές, κέντρο διανομής, κέντρο αποθήκευσης, βιομηχανική αποθήκη, logistics, warehouse, forklift operator, forklift driver, reach truck operator, vna operator, warehouse assistant,",
-    "detail_fetched_at": "2026-11-08",
+    "description": "Οινόφυτα\n\nΑποθήκη / Logistics\n\nΠλήρης απασχόληση\n\nΜε κάποια εμπειρία\n\nπριν από 3 ημέρες\n\n  \n\nΗ ομάδα του Recruitment Services | Kariera Group αναζητά **Χειριστή/ια Ανυψωτικού**\n  \n**Μηχανήματος για λογαριασμό της Transcombi Express,** μιας αναγνωρισμένης ελληνικής εταιρείας στον τομέα των logistics και των μεταφορών, με εξειδίκευση στη διαχείριση αποθηκών, τη συλλογή και διανομή εμπορευμάτων, προσφέροντας αξιόπιστες και ολοκληρωμένες λύσεις εφοδιαστικής αλυσίδας, με έδρα τα Οινόφυτα.\n\nΑρμοδιότητες:\n\n* Χειρισμός ανυψωτικού μηχανήματος (κλαρκ / forklift/ VNA/ Reach Truck) για φόρτωση,εκφόρτωση καιβμετακίνηση εμπορευμάτων\n* Σωστή και ασφαλής τοποθέτηση παλετών και προϊόντων στον χώρο της αποθήκης\n* Συνεργασία με ομάδα αποθήκης για την έγκαιρη εκτέλεση παραγγελιών\n* Χρήση scanner και τήρηση απογραφών\n  \n\nΑπαραίτητα προσόντα:\n\n* Δευτεροβάθμια εκπαίδευση\n* Προηγούμενη εμπειρία σε χρήση ανυψωτικών μηχανημάτων / logistics / αποθήκη\n* Άδεια χειριστή ανυψωτικού μηχανήματος (κλαρκ/forklift)\n* Δυνατότητα εργασίας σε βάρδιες Δευτέρα- Παρασκευή 07:00-22:00\n* Υπευθυνότητα και συνέπεια στην εκτέλεση καθηκόντων\n* Ομαδικό πνεύμα και αποτελεσματικήσυνεργασία με συναδέλφους\n  \n\nΠαροχές:\n\n* Ανταγωνιστικές αποδοχές\n* Ιδιωτικό ομαδικό πακέτο ασφάλισης\n* Σταθερό και οργανωμένο εργασιακό περιβάλλον\n* Εκπαίδευση και δυνατότητες εξέλιξης\n\nΥποβάλετε την αίτησή σας μέσω του Kariera.gr και γίνετε μέλος μιας ομάδας που εξελίσσεται δυναμικά στην Αττική!\n\n#### **Σχετικές Ετικέτες**\n\nbarcode scanner, rf scanner, warehouse management system, wms, shift work, full time, logistics jobs, warehouse jobs, forklift jobs, oinofyta, schimatari, boeotia, greece.κέντρο διανομής, distribution center, φόρτωση, εκφόρτωση, μετακίνηση εμπορευμάτων, διαχείριση εμπορευμάτων, διαχείριση παλετών, παλετοποίηση, picking, packing, order picking, προετοιμασία παραγγελιών,εκτέλεση παραγγελιών, scanner, barcode scanner, rf scanner, wms, warehouse management system, απογραφή, stock control, inventory management, παραλαβές, αποστολές, αποθήκευση, ράφια αποθήκης,χειριστής κλαρκ, χειριστής ανυψωτικού μηχανήματος, κλαρκ, forklift operator, forklift driver, reach truck, vna, χειριστής reach truck, χειριστής περονοφόρου, περονοφόρο ανυψωτικό, αποθηκάριος, υπάλληλος αποθήκης,εργάτης αποθήκης, logistics, logistics operator, warehouse operator, warehouse worker, warehouse assistant, warehouse staff, αποθήκη, διαχείριση αποθήκης, εφοδιαστική αλυσίδα, supply chain, διανομή, μεταφορές,forklift truck operator, reach truck operator, vna operator, vna driver, warehouse operator, warehouse worker, warehouse assistant, warehouse associate, warehouse staff, logistics operator,ασφάλεια αποθήκης, άδεια κλαρκ, άδεια χειριστή, βάρδιες, πενθήμερη εργασία, πλήρης απασχόληση, οινόφυτα, σχηματάρι, βοιωτία, αττική, transcombi express,logistics employee, material handler, material handling, forklift license, forklift certification, warehouse logistics, warehouse management, warehouse operations, warehouse handling,",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -5238,23 +5193,23 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-10-30",
-    "score": 48,
+    "posted_date": "2026-11-06",
+    "score": 51,
     "signals": [
       "unskilled_role_match",
       "tier_3_country",
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-61b3692635558711",
+    "source_id": "in-df62bd045392cb5a",
     "source_review": {},
     "summary_ar": "الموقع: Οινόφυτα, GRH, Greece\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "Χειριστής Κλαρκ | ΟΙΝΟΦΥΤΑ | Transcombi",
+    "title": "Χειριστής/Χειρίστρια Κλαρκ | Transcombi | ΟΙΝΟΦΥΤΑ",
     "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "0d7b0862dc7869ea",
-    "url": "https://www.kariera.gr/jobs/logistics-or-warehouse-jobs/356782",
+    "url": "https://www.kariera.gr/jobs/logistics-or-warehouse-jobs/358686",
     "url_provenance": "",
     "url_verified": null
   },
@@ -6898,7 +6853,7 @@
     "company": "LARS TRGOVINA IN STORITVE D.O.O., Letališka cesta 34 , 1000 LJUBLJANA",
     "country": "SI",
     "description": "SKLADIŠČNIK-PRODAJALEC, poskusno delo 3 mesece, Nedoločen čas , Polni delovni čas, 40, - Količinski in kakovostni prevzem in skladiščenje blaga- Komisioniranje, pakiranje, priprava pošiljk za odpremo in izdaja blaga- Izdajanje dobavnic, računov in sprejemanje plačil- Stik s strankami ob prevzemu blaga, svetovanje in pomoč pri izbiri- Skrb za red, čistočo, požarno varnost in varno delo v skladišču- Druga operativna in administrativna dela po navodilih nadrejenega, ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -6906,7 +6861,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -7488,7 +7443,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE94E",
@@ -9220,7 +9175,7 @@
     "company": "MESO IZDELKI, MARKO ŽERAK s.p., Podlehnik 8 A, 2286 PODLEHNIK",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo , Nedoločen čas , Polni delovni čas, 40, PREVZEM IN IZDAJA BLAGA (TEHTANJE, DEKLARIRANJE, RAZKLADANJE, NAKLADANJE), , DRUGA IZMENA S KRAJŠIM ZAMIKOM",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -9228,7 +9183,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -9306,13 +9261,13 @@
     "company": "PYTHEAS SEAFOOD",
     "country": "GR",
     "description": "Ζητείται **Εργάτης Παραγωγής** στην περιοχή της **Τριάδας Ευβοίας** για:\n\n* Πενθήμερη πρωϊνή εργασία (06:15-14:35) στην\n* Παραγωγή και επεξεργασία αλιευμάτων και\n* Συσκευασία αλιευμάτων\n\nΔιάρκεια εργασίας: **Aπό Σεπτέμβριο 2026 έως Μάιο 2027**\n\nΑπαραίτητα Προσόντα:\n\n* **Συνέπεια**\n* Επαγγελματισμός\n* Ομαδικότητα\n* Συνεργασία\n\nΠαροχές:\n\n* **Βαρέα ενσήμα**\n* **Θέση εργασίας πλήρους απασχόλησης**\n* Ασφάλιση ατυχήματος\n* Ξεκάθαρο καθηκοντολόγιο\n* Καλό περιβάλλον εργασίας\n* Ικανοποιητικός μισθός",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -9337,7 +9292,7 @@
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "cae9c3fc71f21cdd",
+    "uid": "13ad9b88f6972a0d",
     "url": "https://mycarriera.gr/view/747086.html",
     "url_provenance": "",
     "url_verified": null
@@ -9991,7 +9946,7 @@
     "company": "VOGART, družba za trgovino in inženiring, d.o.o., Cesta v Log 20 , 1351 BREZOVICA PRI LJUBLJANI",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo 6 mesecev, Nedoločen čas , Polni delovni čas, 40, Prevzem in izdaja blaga iz skladišča, dostava blaga strankam, skrb za skladišče, ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -9999,7 +9954,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -11028,13 +10983,13 @@
     "company": "LAPIN HOUSE GROUP",
     "country": "GR",
     "description": "Νέα Ιωνία\n\nΑποθήκη / Logistics\n\nΜερική απασχόληση\n\nΜε κάποια εμπειρία\n\nπριν από 2 εβδομάδες\n\n  \n\n**Τοποθεσία**: Νέα Ιωνία\n\n**Ποιοι** **E****ίμαστε**\n\nΟ όμιλος Lapin House είναι μια δυναμική ελληνική εταιρεία με 50 χρόνια παρουσίας στον χώρο της μόδας, με δραστηριότητα σε: **λιανική**, **χονδρική**, **e****-****commerce**, **εξαγωγές**, **logistics**, **παραγωγή** και **αποκλειστικές συνεργασίες** με κορυφαία διεθνή brands.\n\nΣτο πλαίσιο της ανάπτυξής του, ο Όμιλος έχει την τιμή να εντάξει στο portfolio του τα **Empoli****Outlets**.\n\nΤα **Empoli****Outlets** είναι η retail αλυσίδα του Ομίλου **Lapin****House**, που φέρνει κοντά στον καταναλωτή επιλεγμένα fashion brands σε προσιτές τιμές. Με τα πολυκαταστήματά μας στη Νέα Ιωνία και στο Περιστέρι, προσφέρουμε εμπειρία αγορών με άνεση, ποικιλία και εξυπηρέτηση που ξεχωρίζει.\n\nΜπορείς να μας επισκεφτείς στο www.hlgroup.gr για να ανακαλύψεις την πλήρη γκάμα μας – από παιδικά έως ενήλικες, με πολυεθνική δραστηριότητα και 360 παρουσία στην αγορά.\n\n**Ο Ρόλος**\n\nΩς **αποθηκάριος** θα είσαι υπεύθυνος για τη διαχείριση των εμπορευμάτων της αποθήκης και την ομαλή ροή των παραγγελιών προς τα καταστήματα. Μέσω της σωστής παραλαβής, αποθήκευσης, συσκευασίας και αποστολής των προϊόντων, συμβάλλει στην ομαλή λειτουργία της εφοδιαστικής αλυσίδας της εταιρείας, εξασφαλίζοντας την έγκαιρη και ακριβή παράδοση των παραγγελιών.\n\n**Η Αποστολή Σου στην ομάδα**\n\n* Εργασία Μερικής Απασχόλησης/Πρωινό Ωράριο\n* Παραδόσεις και παραλαβές εμπορευμάτων\n* Οργάνωση αποθήκης\n* Διαχείριση εσωτερικών διακινήσεων\n* Scanning και picking προιόντων\n* Συνεργασία με την ομάδα της αποθήκης του καταστήματος\n\n**Τι Ψάχνουμε Σε Εσένα**\n\n* Προυπηρεσία σε αντίστοιχη θέση (ιδανικά σε retail ή σε εμπορικό περιβάλλον)\n* Υπευθυνότητα, συνέπεια και επαγγελματική παρουσία\n* Διάθεση για συνεργασία\n* Οργανωτικότητα και ακρίβεια στην εκτέλεση παραγγελιών\n* Γνώση Η/Υ\n\n**Τι Σου Προσφέρουμε**\n\n* Περιβάλλον υψηλής αισθητικής που σέβεται την ποιότητα και τους ανθρώπους\n* Προοπτική εξέλιξης, εταιρικά προνόμια & εκπαίδευση\n* Ομάδα που λειτουργεί με εμπιστοσύνη\n\n**Lapin** **House** – εκεί που η ποιότητα γίνεται εμπειρία\n\nΜοιράσου το ταξίδι μας!\n\n#### **Σχετικές Ετικέτες**\n\nεργάτης αποθήκηςαποθηκάριοςlogistics , αποθηκαριος , αποθηκη , αποθηκευση , διαμονη , διεθνεις μεταφορες , picking , αποθήκη, αποθηκάριος, παραγγελίες, picking, παραλαβές, απογραφήοργανωση αποθηκησαποθηκη , logistocsνεα ιωνιαεργασια νεα ιωνιααποθηκαριος",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-08",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -11263,7 +11218,7 @@
     "company": "GlobalPharmacia Group, proizvodnja, trgovina, trženje in storitve, d.o.o., Poklukarjeva ulica 27 , 1000 LJUBLJANA",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo , Določen čas, 12 mesecev oz. z možnostjo zaposlitve za nedoločen čas, Polni delovni čas, 40, Opis ključnih del in nalog, odgovornosti in področij dela: * prevzem in odprema blaga* označevanje prevzetih dobav in izdanih odprem po pakirnih enotah* izdelava prejemov in dobavnic v ERP sistemu* količinska kontrola materiala v skladišču in medfaznih skladiščih* priprave materiala za proizvodnjo in premiki na proizvodne lokacije* priprava artiklov za varen transport, skladno z navodili in splošnimi logističnimi zahtevami* skrb za red in čistočo skladišč* skrb za varno delovno okolje* skrb za ustrezno ravnanje v skladu s sistemom ravnanja z okoljem – sodelovanje s SSRO* prevoz blaga s službenim vozilom* druga dela po navodilu nadrejenega., ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -11271,7 +11226,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -12028,13 +11983,13 @@
     "company": "HELLENIC QUALITY FOODS AET",
     "country": "GR",
     "description": "Αθήνα\n\nΑποθήκη / Logistics\n\nΠλήρης απασχόληση\n\nΜε κάποια εμπειρία\n\nπριν από 3 εβδομάδες\n\n  \n\nΗ **HQF (Hellenic Quality Foods A.E.T.)**, μία από τις σημαντικότερες βιομηχανίες τροφίμων στην ελληνική αγορά, με τα αναγνωρισμένα εμπορικά σήματα **ΚΑΝΑΚΙ** και **MIMIKOS**, αναζητά να εντάξει στο δυναμικό της για τις εγκαταστάσεις της στη Μαγούλα\n\n**Εργάτη/τρια Αποθήκης - Picker**\n\n  \n\n**Αρμοδιότητες**\n\n* Picking παραγγελιών\n* Φορτοεκφόρτωση φορτηγών\n* Ταξινόμηση ειδών εντός των αποθηκευτικών χώρων\n* Καθαριότητα αποθηκευτικών χώρων.\n  \n\n**Προφίλ Υποψηφίου**\n\n* Εργασιακή εμπειρία σε βιομηχανία σε αντίστοιχη θέση\n* Ομαδικότητα, υπευθυνότητα, συνέπεια και προσοχή στη λεπτομέρεια\n* Εκπληρωμένες στρατιωτικές υποχρεώσεις (για τους άνδρες υποψήφιους)\n* Βασικές γνώσεις υπολογιστή(Θα θεωρηθεί επιπρόσθετο προσόν)\n  \n\n**Παροχές Εταιρείας**\n\n* Ανταγωνιστικό πακέτο αποδοχών\n* Φιλικό και ευχάριστο περιβάλλον εργασίας\n* Δυνατότητα επιλογής μόνιμης βάρδιας (απογευματινή/νυχτερινή) ή προσαρμοσμένου ωραρίου\n\n#### **Σχετικές Ετικέτες**\n\nαποθηκηαποθηκαριοσpickerβιομηχανιααποθήκη, picker,packing,scanning,καταχωρήσειςαποθηκαριος , υπαλληλος αποθηκης , βοηθος αποθηκαριου , αποθηκη ,logistics αποθηκάριοι logistics μαγουλα αττικης pickingπροϊόντα κανακι",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -12754,6 +12709,56 @@
     "translated": false,
     "uid": "194a3de2ed8d8152",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MjYxMjMgMTI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "19770fe354f13aae": {
+    "apply_channels": {
+      "emails": [
+        "ppanayi@dl.mlsi.gov.cy"
+      ],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "ΣΩΤΗΡΟΥΛΛΑ ΜΙΛΛΕΡ",
+    "country": "CY",
+    "description": "ΚΑΛΛΙΕΡΓΕΙΑ ΧΩΡΑΦΙΩΝ , ΓΝΩΣΗ ΕΛΛΗΝΙΚΩΝ Η' ΑΓΓΛΙΚΩΝ , EURES ADVISOR , PANAYIOTA PANAYI , ppanayi@dl.mlsi.gov.cy",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [
+      "en"
+    ],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "CY000",
+    "matched_keywords": [
+      "γεωργια"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-03",
+    "score": 36,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MzQzODgwIDU",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "ΕΡΓΑΤΕΣ ΓΕΩΡΓΙΑΣ",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "19770fe354f13aae",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQzODgwIDU?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -15001,7 +15006,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Ebensee, O, Austria",
@@ -15460,16 +15465,14 @@
   },
   "1dfdc6957f8ded07": {
     "apply_channels": {
-      "emails": [
-        "ppanayi@dl.mlsi.gov.cy"
-      ],
+      "emails": [],
       "phones": [],
       "whatsapp_mentioned": false
     },
     "company": "ΜΑΡΙΑ ΑΝΤΩΝΙΟΥ",
     "country": "CY",
-    "description": "ΚΑΛΛΙΕΡΓΕΙΑ ΚΑΙ ΣΥΝΤΗΡΗΣΗ ΑΜΠΕΛΩΝΩΝ. ΚΑΛΛΙΕΡΓΕΙΑ ΕΣΠΕΡΙΔΟΕΙΔΩΝ ΚΑΙ ΑΛΛΩΝ ΟΠΩΡΟΦΟΡΩΝ ΔΕΝΤΡΩΝ. ΧΡΗΣΗ ΚΑΙ ΧΕΙΡΙΣΜΟΣ ΓΕΩΡΓΙΚΩΝ ΜΗΧΑΝΗΜΑΤΩΝ ΚΑΙ ΕΞΟΠΛΙΣΜΟΥ ΚΤΛ , ΕΡΓΑΤΙΚΟΣ, ΤΙΜΙΟΣ, ΚΑΛΟΣ ΧΑΡΑΚΤΗΡΑΣ, ΓΝΩΣΗ ΑΓΓΛΙΚΗΣ ΓΛΩΣΣΑΣ , Please note that copy of the letter and CV sent to the employer should also be sent to the (EURES ADVISOR , PANAYIOTA PANAYI , ppanayi@dl.mlsi.gov.cy ). Please include the national vacancy reference number",
-    "detail_fetched_at": "2026-11-08",
+    "description": "ΕΡΓΑΤΕΣ ΓΕΩΡΓΙΑΣ , ΕΡΓΑΤΙΚΟΙ , ΠΡΟΘΥΜΟΙ, ΝΑ ΜΠΟΡΟΥΝ ΝΑ ΕΚΤΕΛΕΣΟΥΝ ΟΔΗΓΙΕΣ , ΚΑΛΗ ΣΩΜΑΤΙΚΗ ΔΙΑΠΛΑΣΗ, ΝΑ ΜΠΟΡΟΥΝ ΝΑ ΣΥΝΕΡΓΑΣΤΟΥΝ ΜΕ ΑΛΛΑ ΑΤΟΜΑ , Please include the national vacancy reference number",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-03",
@@ -15477,7 +15480,7 @@
     "languages": [
       "en"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -15489,7 +15492,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-02",
-    "score": 36,
+    "score": 33,
     "signals": [
       "unskilled_role_match",
       "tier_3_country",
@@ -15503,7 +15506,7 @@
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "4923b66243a5c714",
+    "uid": "1dfdc6957f8ded07",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQzODQ4IDU?lang=en",
     "url_provenance": "",
     "url_verified": null
@@ -16873,13 +16876,13 @@
     "company": "enis",
     "country": "GR",
     "description": "Η εταιρεία **enis**, μια από τις πλέον πιο καταξιωμένες ελληνικές εταιρείες στον χώρο της παραγωγής συστημάτων κουρτινών και εσωτερικής σκίασης, αναζητά **ανειδίκευτο εργάτη παραγωγής** για να ενταχθeεί στην ομάδα της εταιρίας.\n\nΟι εγκαταστάσεις της εταιρείας μας βρίσκονται στη Θεσσαλονίκη, στο 14ο χιλιόμετρο Π.Ε.Ο Θεσσαλονίκης-Καβάλας στην περιοχή **ΛΑΓΥΝΑ**\n\n**Αρμοδιότητες:**\n\n* Κοπή κουρτινών και τοποθέτηση αυτών σε ειδικούς μηχανισμούς με αυτοματοποιημένα συστήματα κοπής\n\n* Διασφάλιση της ποιότητας με τα πρότυπα της εταιρείας.\n\n* Έλεγχος καλής λειτουργίας και ποιότητας\n\n* Συσκευασία\n\n* Συνεργασία με τα μέλη της ομάδας για την επίτευξη στόχων της παραγωγής.\n\nΘέση εργασίας πλήρους απασχόλησης.\n\nΤηλέφωνο επικοινωνίας: **23940 73060.**\n\nΑπαραίτητα Προσόντα:\n\n* Ικανότητα εργασίας σε ομαδικό περιβάλλον με καλή επικοινωνία και συνεργασία.\n* Διάθεση και ικανότητα εργασίας σε δυναμικό παραγωγικό περιβάλλον.\n* Συνέπεια και τακτικότητα\n* Αντίληψη, ταχύτητα\n\nΠαροχές:\n\n* Πρωινή εργασία πλήρους απασχόλησης.\n* Ανταγωνιστικό πακέτο αποδοχών\n* Δυνατότητες μισθολογικής εξέλιξης ανάλογα με τις δεξιότητες ,την προθυμία, την συνέπεια και την απόκτηση εμπειρίας στη δουλειά\n* Ευχάριστο και σταθερό περιβάλλον εργασίας\n* Αν θέλετε να γίνετε μέλος της ομάδας μας παρακαλούμε στείλτε το βιογραφικό σας.",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -16904,7 +16907,7 @@
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "29dddf4af8a74daf",
+    "uid": "20f4574fc6912ef2",
     "url": "https://mycarriera.gr/view/747287.html",
     "url_provenance": "",
     "url_verified": null
@@ -17708,7 +17711,7 @@
     "company": "KURIVO GORICA, trgovina d.o.o. Ajdovščina, Tovarniška cesta 26 , 5270 AJDOVŠČINA",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo 3 mesece, Nedoločen čas , Polni delovni čas, 40, DELO V SKLADIŠČU TRGOVINE Z GRADBENIM MATERIALOM. PREVZEMANJE, SKLADIŠČENJE IN IZDAJA BLAGA, RAZKLADANJE, NAKLADANJE IN RAZVAŽAVNJE BLAGA Z DELOVNIMI SREDSTVI. , ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -17716,7 +17719,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -19294,7 +19297,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Nossen, SN, Germany",
@@ -21903,7 +21906,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE94F",
@@ -21944,13 +21947,13 @@
     "company": "Arivia Food ΕΠΕ",
     "country": "GR",
     "description": "Η **Arivia Food ΕΠΕ**, ηγέτιδα παραγωγική εταιρία προϊόντων φυτικής προέλευσης και, μεταξύ άλλων, κάτοχος του σήματος Violife με εξαγωγική δραστηριότητα σε περισσότερες από 60 χώρες, αναζητά ικανούς με στόχο προσηλωμένους συνεργάτες προκειμένου να καλύψει τις αυξημένες της ανάγκες στελέχωσης για το νέο εργοστάσιο, ως συνέπεια της εντυπωσιακής ανάπτυξής της τα τελευταία χρόνια.\n\nΘέλεις να ενταχθείς σε μία δυναμικά αναπτυσσόμενη εταιρεία, έχεις πάθος για τα φυτικά προϊόντα, και αναζητάς απεριόριστες προοπτικές εξέλιξης?\n\nΣτην **Arivia Food ΕΠΕ**, με έδρα τη **Δράμα, αναζητούμε Εργάτη Παραγωγής (με δυνατότητα ανασήκωσης βάρους)**.\n\nΑπαραίτητα Προσόντα:\n\n* Απόφοιτοι Γυμνασίου/Λυκείου /ΕΠΑΛ/ΕΠΑΣ/ ΙΕΚ\n* Δυνατότητα εργασίας με πρόγραμμα εναλλασσόμενων βαρδιών.\n* Δυνατότητα ανασήκωσης βάρους σε συχνή βάση.\n* Ικανότητα να ακολουθεί συγκεκριμένες οδηγίες υγιεινής και ασφάλειας στην παραγωγή τροφίμων.\n* Συνεργασία και Ομαδικό Πνεύμα.\n* Επαγγελματισμός, αίσθημα ευθύνης, συνέπεια.\n* Εργασιακή εμπειρία στο αντικείμενο θα ληφθεί υπόψιν.\n\n**Σχετικά με τον ρόλο :**\n\n* Συμβάλλει στις ομαδικές προσπάθειες για επίτευξη των ορισμένων στόχων παραγωγής.\n* Γνωρίζει σε βάθος όλες τις διαδικασίες παραγωγής και τον εξοπλισμό και αναφέρει οτιδήποτε πρόβλημα προκύπτει.\n\nΠαροχές:\n\n* Πλήρης Απασχόληση\n* Ελκυστικό πακέτο μηνιαίων αποδοχών\n* Δωρεάν ιδιωτική ασφάλιση ζωής & υγείας\n* Διατίθεται εταιρική μεταφορά προσωπικού με λεωφορείο από και προς τις εγκαταστάσεις της εταιρείας.\n* Ολοκληρωμένο Πρόγραμμα Εκπαίδευσης Δυναμικό και επιχειρηματικό περιβάλλον με ευκαιρίες ανάπτυξης σταδιοδρομίας.\n\nΤα στοιχεία σας παραμένουν εμπιστευτικά και χρησιμοποιούνται αποκλειστικά και μόνο από την εταιρεία μας. Το βιογραφικό σας θα διατηρηθεί στην βάση δεδομένων μας για ένα (1) χρόνο στο ενδεχόμενο μελλοντικής χρήσης του για την ίδια ή άλλη θέση στην εταιρεία μας.",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -21975,7 +21978,7 @@
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "8d4c14f1640eaba1",
+    "uid": "2b9863e92c4b03ce",
     "url": "https://mycarriera.gr/view/742766.html",
     "url_provenance": "",
     "url_verified": null
@@ -22325,13 +22328,13 @@
     "company": "ACS Courier Services SA",
     "country": "GR",
     "description": "Άγιος Ιωάννης Ρέντης\n\nΑποθήκη / Logistics\n\nΜερική απασχόληση\n\nΧωρίς προϋπηρεσία / Χωρίς εμπειρία\n\nπριν από 3 εβδομάδες\n\n  \n\nH ACS AEE, εταιρεία ταχυμεταφορών και ταχυδρομείου, μέλος του Ομίλου Quest, με ηγετική θέση στην αγορά, ζητά να προσλάβει εργαζόμενους στην θέση Διαλογέα- Συσκευαστή 6ωρης πενθήμερης απασχόλησης στην απογευματινή βάρδια.\n\n* Διαλογή ταχυδρομικών αντικειμένων και δεμάτων - 6ωρο, 5ημερο\n* Ωράριο **17:00-23:00** **(Δευτέρα - Παρασκευή).**\n* **Δύο φορές τον μήνα** χρειάζεται εργασία σε **νυχτερινή βάρδια, Σάββατο προς Κυριακή** με (πρόσθετο) ρεπό μέσα στην εβδομάδα\n* Δυνατότητα πρόσθετης απασχόλησης\n  \n\n**Απαραίτητα προσόντα****/****γνώσεις:**\n\nΕργατικότητα, συνέπεια, υπευθυνότητα\n\n  \n\n**Επιθυμητά προσόντα****:**\n\nΓνώση και εμπειρία στη χρήση ηλεκτρικού παλετοφόρου\n\n#### **Σχετικές Ετικέτες**\n\nδιαλογηκεντρο διαλογηςcourieracssortingυπάλληλος αποθήκης acs courierυπαλληλος αποθηκης - συσκευαστης",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -24080,7 +24083,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE736",
@@ -24521,7 +24524,7 @@
     "company": "FRAGMAT TIM Tovarna izolacijskega materiala d.o.o., Spodnja Rečica 77 , 3270 LAŠKO",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo 1 mesec, Določen čas, 3 mesece, Polni delovni čas, 40, Prevzem gotovih izdelkov iz proizvodnje in transport z viličarjem - Razporejanje izdelkov po skladišču - Ročno in mehanizirano raztovarjanje in nakladanje blaga - Prevoz blaga z viličarjem na lokacije v skladišču - Komisioniranje in dela v zvezi z odpremo blaga - Pregled, zlaganje, preverjanje in kontrola čistosti ter nepoškodovanosti blaga - Čiščenje skladiščnih prostorov in okolice ter skrb za urejenost in brezhibnost transportnih sredstev in transportnih poti pri opravljanju skladiščno transportnih manipulacijah - Opravljanje drugih nalog, ki vsebinsko sodijo v širše delovno področje delovnega mesta., ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -24529,7 +24532,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -26552,13 +26555,13 @@
     "company": "Lidl",
     "country": "GR",
     "description": "**Ο Μισθός σου:**\n-----------------\n\n**Μηνιαίος μισθός που ξεκινάει από τα 295€ μικτά και φτάνει έως και τα 445€** ανάλογα με προηγούμενη εμπειρία και σε περίπτωση που είσαι έγγαμος/η, για **2ωρη/5ήμερη απασχόληση.**  \n**Μηνιαίος μισθός που ξεκινάει από τα 445€ μικτά και φτάνει έως και τα 665€** ανάλογα με προηγούμενη εμπειρία και σε περίπτωση που είσαι έγγαμος/η, για **3ωρη/5ήμερη απασχόληση.**\n\n**Αναλυτικά οι παροχές μας στο #teamlidl:**\n-------------------------------------------\n\n* Ομαδικό πρόγραμμα **ιδιωτικής ασφάλισης** και **ασφάλισης κύριας κατοικίας.**\n* Αμειβόμενη **εκπαίδευση 3 εβδομάδων** & δυνατότητες εξέλιξης.\n* **Μηνιαία κουπόνια τροφίμων** για τις αγορές σου από τα καταστήματά μας.\n* **Εκπτώσεις και προνόμια** για σένα και την οικογένειά σου.\n* Προσαυξήσεις για υπερωρίες, νυχτερινή εργασία ή απασχόληση τις Κυριακές. **Κάθε λεπτό εργασίας σου καταγράφεται και πληρώνεται.**\n* 24ωρη τηλεφωνική **γραμμή υποστήριξης.**\n* **Ειδικές άδειες γονεϊκότητας** που υπερβαίνουν τις νομοθετικές ρυθμίσεις και δώρο γέννησης τέκνου.\n* **Παροχές επετείων και επιπλέον παροχές** που σχεδιάζουμε συνεχώς για να επιβραβεύουμε την προσπάθειά σου.\n* **Συνεργασία με Ευρωπαϊκό Πανεπιστήμιο Κύπρου.** Τα μέλη της ομάδας μας, ή και τα παιδιά τους, απολαμβάνουν εκπτώσεις στα δίδακτρα έως και 50%.\n\n**Μια μέρα στη νέα σου θέση:**\n------------------------------\n\n**Όλοι μας οι χώροι αστράφτουν χάρη σε σένα** . Προσωπικό και πελάτες απολαμβάνουν καθαρούς χώρους, εσωτερικούς και εξωτερικούς.\n\n* Κατάστημα, αποθήκη καταστήματος, parking: φροντίζεις να είναι πάντα **καθαροί και τακτοποιημένοι όλοι μας οι χώροι.** Κάνεις τη ζωή όλων πιο εύκολη.\n* Οι **πελάτες** μας μιλάνε πάντα για την ευγένειά σου!\n* Η **χειρωνακτική εργασία** είναι μέσα στη μέρα σου.\n* Έχεις ευελιξία να εργαστείς σε **διαφορετικές βάρδιες** .\n\n**Τι φέρνεις μαζί σου & γιατί να έρθεις στο teamlidl**\n------------------------------------------------------\n\n* Απολυτήριο **γυμνασίου ή λυκείου.** Αν έχεις πτυχίο ή σπουδάζεις, επίσης σε θέλουμε!\n* **Προϋπηρεσία; Δεν χρειάζεται καμία!** Μόνο όρεξη για μάθηση και εργασία.\n* Σε χαρακτηρίζει η **ομαδικότητα** και η **επικοινωνία** .\n* Έχεις ευελιξία να εργαστείς σε **διαφορετικές βάρδιες** .\n\n**Γιατί να έρθεις σε εμάς:** Πάνω από 6.700 άνθρωποι, 5 logistics centers και περισσότερα από 230 καταστήματα σε όλη την Ελλάδα. Εδώ αναπτυσσόμαστε μαζί, με ομαδικότητα, σεβασμό και εμπιστοσύνη και έχουμε κάτι κοινό: **τη διάθεση να δίνουμε καθημερινά τον καλύτερό μας εαυτό. Ακριβώς όπως κι εσύ.**\n\n**Είσαι το επόμενο κεφάλαιο του success story μας;** Κάνε την αίτησή σου τώρα και γίνε μέρος της πιο δυναμικής ομάδας στο #retail!\n\n**#teamlidl. Γιατί Αξίζει.**",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -26690,13 +26693,13 @@
     "company": "CHAPTER 5 ΕΠΕ",
     "country": "GR",
     "description": "Ως **βοηθός αποθήκης** έχεις την ευθύνη για την **καθημερινή λειτουργία της αποθήκης** και την υποστήριξη των logistics για τα projects. Ο ρόλος επικεντρώνεται στην **οργάνωση, παρακολούθηση και διανομή υλικών, εξοπλισμού και ενδυμασίας**, εξασφαλίζοντας ότι όλα τα είδη είναι διαθέσιμα και σε καλή κατάσταση για χρήση στα projects, ενώ υποστηρίζεις την ομάδα στην ομαλή εκτέλεση των εργασιών.\n\n**Κύριες Ευθύνες και Καθήκοντα:**\n\n**Διαχείριση Αποθεμάτων:**\n\n* Παρακολούθηση και καταγραφή των αποθεμάτων της αποθήκης\n* Τακτοποίηση και οργάνωση της αποθήκης για εύκολη πρόσβαση\n* Συντήρηση και προετοιμασία εξοπλισμού για projects\n\n**Υποστήριξη Logistics:**\n\n* Προετοιμασία και συσκευασία υλικών για αποστολή\n* Προετοιμασία και επίβλεψη αποστολών και φορτωμάτων, σύμφωνα με τις προβλεπόμενες διαδικασίες\n* Διαχείριση excel & erp\n\n**Υποστήριξη Projects:**\n\n* Βοήθεια στην εγκατάσταση και απομάκρυνση υλικών στα project sites\n* Διασφάλιση ότι τα υλικά πληρούν τα πρότυπα ποιότητας πριν τη χρήση\n\n**Ασφάλεια και Ποιότητα:**\n\n* Τήρηση διαδικασιών ασφάλειας εντός αποθήκης\n* Αναφορά φθορών ή προβλημάτων στον προϊστάμενο\n* Συμμόρφωση με τις διαδικασίες υγιεινής και ασφάλειας\n\nΑπαραίτητα Προσόντα:\n\n* Προηγούμενη εμπειρία σε ρόλο αποθήκης ή logistics\n* Βασική γνώση αγγλικών\n* Bασική γνώση excel & erp\n* Οργάνωση και ικανότητα διαχείρισης χρόνου\n* Ομαδικότητα, συνεργασία και θετική στάση\n* Ικανότητα προτεραιοποίησης και εργασίας υπό πίεση\n* Προσαρμοστικότητα και ευελιξία\n* Κάτοχος διπλώματος Β’ κατηγορία\n* Άδεια χειρισμού περονοφόρου ανυψωτικού μηχανήματος θα θεωρηθεί επιπλέον προσόν\n\nΠαροχές:\n\n* Μηνιαίος μισθός 900~950 net\n* Σταθερό πρωινό ωράριο\n* Ιδιωτική ιατρική ασφάλιση\n* Bonus βάσει επίτευξης εταιρικών στόχων\n* Ευχάριστο, δυναμικό εργασιακό περιβάλλον\n* Εκπαίδευση σε logistics και διαχείριση αποθήκης\n* Δυνατότητα επαγγελματικής εξέλιξης σε ρόλους συντονισμού",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -26722,7 +26725,7 @@
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "97a845ea07e48ed9",
+    "uid": "3635e7b0344fa96d",
     "url": "https://mycarriera.gr/view/749581.html",
     "url_provenance": "",
     "url_verified": null
@@ -27367,7 +27370,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "FRH01",
@@ -29987,12 +29990,15 @@
     "company": "Thrace Group",
     "country": "GR",
     "description": "Ο Όμιλος Πλαστικά Θράκης είναι μια Ελληνική πολυεθνική με 14 εταιρείες σε όλο τον κόσμο, που δραστηριοποιούνται σε τεχνικά υφάσματα, λύσεις συσκευασίας και υδροπονικά θερμοκήπια. Απασχολεί περισσότερους από 2.000 εργαζόμενους και κάνει τη βιωσιμότητα πράξη, με πρωτοβουλίες κυκλικής οικονομίας, καινοτόμα προϊόντα και συνεργασίες με πρωτοπόρες εταιρείες. Προσαρμόζεται στις ανάγκες της αγοράς με ισχυρά αντανακλαστικά και δίνει αξία σε όσους τον εμπιστεύονται από το 1977.\n\nΗ εταιρεία **Thrace Plastics Pack,** μέλος του Ομίλου Πλαστικά Θράκης, αναζητά να προσλάβει\n\n**Συσκευαστή Παραγόμενου Προϊόντος**\n\nγια την παραγωγική της μονάδα στην **Ξάνθη.**\n\n**Κύριες Αρμοδιότητες:**\n\n* Οπτικός έλεγχος και συσκευασία παραγόμενου προϊόντος\n* Άμεση συνεργασία με τους εργοδηγούς βάρδιας για την εξασφάλιση της ομαλής και χωρίς καθυστερήσεις λειτουργίας της παραγωγής\n* Τήρηση των διαδικασιών της παραγωγής & των κανόνων υγιεινής και ασφάλειας\n* Συμμετοχή στην βελτίωση των διαδικασιών της παραγωγής\n\nΑπαραίτητα Προσόντα:\n\n* Απόφοιτος λυκείου\n* Επιθυμητή η εμπειρία σε βιομηχανικό περιβάλλον\n* Δυνατότητα εργασίας σε κυλιόμενες βάρδιες\n* Εξοικείωση με τη χρήση Η/Υ\n* Επιθυμητή η γνώση Αγγλικής γλώσσας\n* Ικανότητα τήρησης διαδικασιών\n* Καλές επικοινωνιακές δεξιότητες, πνεύμα ομαδικότητας και συνεργασίας\n* Υπευθυνότητα και συνέπεια\n* Εκπληρωμένες στρατιωτικές υποχρεώσεις (αφορά άνδρες υποψηφίους)\n\nΠαροχές:\n\n**Ο Όμιλος προσφέρει:**\n\n* Ανταγωνιστικό πακέτο αποδοχών\n* Ιδιωτική ασφάλεια ζωής και υγείας\n* Εξαιρετικές συνθήκες εργασίας\n* Ευκαιρίες για εκπαίδευση\n* Δυνατότητα εξέλιξης σε ένα δυναμικά εξελισσόμενο περιβάλλον\n\nΟι ενδιαφερόμενοι παρακαλούνται να στείλουν το βιογραφικό τους σημείωμα.",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-02",
+    "last_seen": "2026-11-10",
     "lifecycle": {
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "Ξάνθη, GRA, Greece",
@@ -30002,20 +30008,23 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-26",
-    "score": 36,
+    "score": 30,
     "signals": [
       "unskilled_role_match",
-      "tier_3_country",
-      "fresh_posting"
+      "tier_3_country"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-c6b0293b4e045242",
+    "source_review": {},
     "summary_ar": "",
     "title": "Συσκευαστής Παραγόμενου Προϊόντος",
+    "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "51c0c005fc15e1d0",
-    "url": "https://mycarriera.gr/view/748196.html"
+    "uid": "3ced91cc9f5c9262",
+    "url": "https://mycarriera.gr/view/748196.html",
+    "url_provenance": "",
+    "url_verified": null
   },
   "3cf855e96ddd4b52": {
     "apply_channels": {
@@ -30412,7 +30421,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Přehýšov, PL, Czech Republic",
@@ -30536,56 +30545,6 @@
     "translated": false,
     "uid": "3ea27cf8bb52389a",
     "url": "https://t.me/teealpl/48031",
-    "url_provenance": "",
-    "url_verified": null
-  },
-  "3eb54b24d6964fb1": {
-    "apply_channels": {
-      "emails": [],
-      "phones": [],
-      "whatsapp_mentioned": false
-    },
-    "company": "",
-    "country": "NL",
-    "description": "Luba Amsterdam €2.608 - €2.810 40 uur VMBO/MAVO Vandaag Bewaar vacature Open in nieuwe tab Magazijnmedewerker en springer chauffeur CE solliciteren Salaris €2.608 - €2.810 Uren 40 uur Dienstverband Vast Werklocatie Amsterdam Opleidingsniveau VMBO/MAVO Branche Industrie Functieomschrijving Ga aan de slag als springer chauffeur ce in Amsterdam, fulltime bij de grootste bouwmaterialenhandel. Ontdek de voordelen en sollicitatiemogelijkheden. Over het werk Als springer chauffeur ce ben je in de basis actief als magazijnmedewerker. Je zorgt samen met je collega's voor het soepel verlopen van alle magazijnprocessen: het ontvangen, opslaan en klaarzetten van bouwmaterialen voor transport. Je werkt fulltime binnen een vast rooster en krijgt volop mogelijkheden om door te groeien en trainingen te volgen via de interne academie. De functie is voor langere tijd bij een stabiele werkgever binnen de bouwsector. Wat deze functie bijzonder maakt, is dat je naast je magazijnwerk ook flexibel wordt ingezet als chauffeur. Je beschikt over het juiste rijbewijs om op de bus of vrachtwagen te rijden en springt bij zodra dat nodig is. Hoe vaak je op de weg zit, verschilt per week, maar je staat altijd klaar om collega's te ondersteunen wanneer er extra transportcapaciteit nodig is. Zo blijft je werk afwisselend en uitdagend. Wil jij een veelzijdige functie waarbij je het magazijnwerk combineert met het chauffeursvak? Solliciteer dan snel op deze functie als springer chauffeur ce en ontdek hoe jij kunt bijdragen aan het succes van deze organisatie. Wat wij bieden - Bruto maandsalaris tussen € 2.608,26 en € 2.809,99 (fulltime) - 37 vrije dagen bij een fulltime dienstverband - 8% vakantiegeld, jaarlijks of maandelijks uit te keren - Goede pensioenregeling en reiskostenvergoeding vanaf 10 km enkele reis - Toegang tot opleidingen en trainingen voor persoonlijke ontwikkeling Wat wij vragen - In het bezit van rijbewijs CE en geldi...",
-    "detail_fetched_at": "2026-11-09",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-07",
-    "glossary": [],
-    "languages": [
-      "nl"
-    ],
-    "last_seen": "2026-11-09",
-    "lifecycle": {
-      "missed_runs": 0,
-      "status": "active"
-    },
-    "location": "NL32B",
-    "matched_keywords": [
-      "ett",
-      "magazijnmedewerker",
-      "magazijnwerk"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-10",
-    "score": 52,
-    "signals": [
-      "unskilled_role_match",
-      "agency_relocation_text_mention",
-      "tier_1_country"
-    ],
-    "source": "eures",
-    "source_id": "NWQ3NGIwNDYtNGViYi05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy",
-    "source_review": {},
-    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: NL32B\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "Springer Chauffeur CE",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
-    "uid": "3eb54b24d6964fb1",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ3NGIwNDYtNGViYi05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -31481,6 +31440,54 @@
     "translated": false,
     "uid": "40bbae6fa499de21",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUxNTM0MzA3OTIgNg?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "4117c2d9cd765f94": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [
+        "6978203570"
+      ],
+      "whatsapp_mentioned": false
+    },
+    "company": "ΟΙΚΟΔΟΜΙΚΑ ΥΛΙΚΑ ΝΙΚΟΛΑΟΣ ΒΟΥΡΛΑΚΗΣ",
+    "country": "GR",
+    "description": "ΖΗΤΕΙΤΑΙ ΕΡΓΑΤΗΣ ΑΠΟΘΗΚΗΣ\n\nΚατάστημα δομικών υλικών στο **Μάλεμε** **Χανίων** αναζητά **εργάτη αποθήκης** για μόνιμη συνεργασία.\n\n**Αρμοδιότητες:**\n\n* Παραλαβή και τακτοποίηση εμπορευμάτων.\n* Προετοιμασία και φόρτωση παραγγελιών.\n* Γενικές εργασίες αποθήκης.\n\n**Παροχές**\n\n* Σταθερό ωράριο 7:00-15:00 όλο τον χρόνο\n* Φιλικό περιβάλλον\n* Υψηλός μισθός\n* Παρέχεται μεταφορά από και προς Χανιά κάθε μέρα στον/από τον χώρο εργασίας\n\n**Τηλ. επικοινωνίας: 6978203570**\n\nΑπαραίτητα Προσόντα:\n\nΠαροχές:",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Χανιά, GRM, Greece",
+    "matched_keywords": [
+      "εργατης αποθηκης"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-02",
+    "score": 33,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-d09bd1be9836ce9d",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Εργάτης Αποθήκης",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "4117c2d9cd765f94",
+    "url": "https://mycarriera.gr/view/751104.html",
     "url_provenance": "",
     "url_verified": null
   },
@@ -35050,7 +35057,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "",
@@ -35380,13 +35387,13 @@
     "company": "OMONIA TRANS",
     "country": "GR",
     "description": "Αθήνα\n\nΑποθήκη / Logistics\n\nΠλήρης απασχόληση\n\nΜε κάποια εμπειρία\n\nπριν από 4 εβδομάδες\n\n  \n\nH **OMONIA****TRANS****,** εταιρεία διεθνών μεταφορών και logistics με έδρα στη Λυκόβρυση Αττικής, στα πλαίσια συνεχούς ανάπτυξης αναζητά:\n\n**Χειριστή Ανυψωτικού μηχανήματος (κλαρκ) – Υπάλληλο Αποθήκης**\n\n**για εργασία στο τμήμα της αποθήκης, στις εγκαταστάσεις μας στην Αθήνα**\n\n**Αρμοδιότητες**\n\n* Μετακίνηση προϊόντων με τη χρήση κλαρκ τηρώντας αυστηρά τους κανόνες ασφαλείας.\n* Διασφάλιση ορθής παραλαβής και αποστολής εμπορευμάτων.\n* Διατήρηση εύρυθμης λειτουργίας του χώρου παραλαβής προϊόντων\n* Εξασφάλιση ορθής καταγραφής προϊόντων και κωδικοποίηση τους εφαρμόζοντας τις διαδικασίες που ορίζει η εταιρεία.\n* Κυλιόμενο πρόγραμμα σε δύο βάρδιες.\n\n**Προσόντα Υποψηφίου:**\n\n* Κάτοχος άδειας χειριστή (απαραίτητη προϋπόθεση)\n* Εργασιακή εμπειρία τουλάχιστον 3 ετών σε αντίστοιχη θέση\n* Επιθυμητή γνώση χρήσης και λειτουργίας WMS\n* Ακεραιότητα και τήρηση διαδικασιών\n* Ανεπτυγμένη ικανότητα οργάνωσης και προγραμματισμού εργασιών\n* Προσανατολισμός στο αποτέλεσμα\n* Προσαρμοστικότητα και ομαδικότητα\n* Αυτοπαρακίνηση και υπευθυνότητα\n\n**Benefits**\n\n* Ανταγωνιστικές αποδοχές\n* Συνεχής εκπαίδευση\n* Πρόγραμμα ιδιωτικής νοσοκομειακής κάλυψης\n\nΗ ΟΜΟΝΙΑ TRANS, ούσα μια σύγχρονη και δυναμική εταιρεία προσφέρει ένα εξαιρετικό περιβάλλον εργασίας με προοπτικές εξέλιξης.\n\nΟι ενδιαφερόμενοι που πληρούν τα παραπάνω χαρακτηριστικά και θέλουν να διεκδικήσουν την θέση, μπορούν να εκφράσουν το ενδιαφέρον τους, υποβάλλοντας το βιογραφικό τους σημείωμα επιλέγοντας **Κάνε Αίτηση Τώρα!**\n\nΗ επεξεργασία των βιογραφικών σημειωμάτων θα γίνει σύμφωνα με την Αρχή Προστασίας Προσωπικών Δεδομένων.\n\n#### **Σχετικές Ετικέτες**\n\nκέντρο logistics, αποθήκη logistics, παραλαβή εμπορευμάτων, αποστολή εμπορευμάτων, φορτοεκφόρτωση, διακίνηση εμπορευμάτων, διαχείριση αποθήκης, διαχείριση αποθεμάτωνπερονοφόρο ανυψωτικό, αδειούχος χειριστής κλαρκ, χειριστής μηχανημάτων αποθήκης, υπάλληλος αποθήκης, εργαζόμενος αποθήκης, αποθηκάριος, προσωπικό αποθήκης, εργάτης αποθήκης, logisticsοργάνωση αποθήκης, απογραφή αποθήκης, wms, σύστημα διαχείρισης αποθήκης, εργασία σε βάρδιες, χειριστής με άδειαloading and unloading, warehouse operations, inventory management, stock management, warehouse management system, wms, order picking, pallet handling, warehouse safety, shift work, warehouse jobs athensθέσεις εργασίας κλαρκ, θέσεις εργασίας αποθήκη, εργασία logistics, εργασία λυκόβρυση, εργασία βόρεια προάστια, εργασία αττικήforklift operator, forklift driver, forklift truck operator, licensed forklift operator, forklift, warehouse operator, warehouse worker, warehouse employeewarehouse associate, warehouse assistant, warehouse personnel, warehouse staff, warehouse logistics, logistics warehouse, material handler, material handling, goods receiving, goods dispatchχειριστής κλαρκ, χειριστής περονοφόρου, χειριστής ανυψωτικού μηχανήματος, οδηγός κλαρκ, κλαρκ, κλαρκίστας, περονοφόροforklift jobs athens, forklift operator greece, logistics jobs greece.κηφισια, θρακομακεδονες, μενιδι, ανω λιοσια, full time, μαρουσι, μεταμορφωση, λυκοβρυση, πευκη, νεα ιωνια, νεο ηρακλειο, νεα ερυθραια",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -35666,7 +35673,7 @@
     "company": "MITOZA, prevozne in druge storitve, d.o.o., Letališka cesta 33 M, 1000 LJUBLJANA",
     "country": "SI",
     "description": "KOMISIONAR, SKLADIŠČNI, poskusno delo , Določen čas, 12 mesecev, Polni delovni čas, 40, PREVZEMANJE IN PREVERJANJE VHODNEGA SKLADIŠČNEGA BLAGA, UREJANJE TER SORTIRANJE BLAGA PO LOKACIJAH, , DELA SE V DVEH IZMENAH 6-14 IN 14-22",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -35674,7 +35681,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -38504,6 +38511,58 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "4f44446ccb50674a": {
+    "apply_channels": {
+      "emails": [
+        "pchrysanthou@dl.mlsi.gov.cy"
+      ],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "NIKYR PRODUCTS CO LTD",
+    "country": "CY",
+    "description": "ΥΠΟΣΤΗΡΙΞΗ ΤΗΣ ΓΡΑΜΜΗΣ ΠΑΡΑΓΩΓΗΣ ΜΕΣΩ ΣΥΣΚΕΥΑΣΙΑΣ, ΔΙΑΚΙΝΗΣΗΣ ΥΛΙΚΩΝ ΚΑΙ ΕΚΤΕΛΕΣΗΣ ΓΕΝΙΚΩΝ ΕΡΓΑΣΙΩΝ ΕΡΓΟΣΤΑΣΙΟΥ. , ΣΥΝΕΠΕΣ ΑΤΟΜΟ, ΕΡΓΑΤΙΚΟ, ΝΑ ΜΠΟΡΕΙ ΝΑ ΕΡΓΑΖΕΤΑΙ ΜΕ ΟΜΑΔΑ , Please note that copy of the letter and CV sent to the employer should also be sent to the (EURES ADVISOR , PRODROMOS CHRYSANTHOU , pchrysanthou@dl.mlsi.gov.cy ). Please include the national vacancy reference number",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [
+      "en"
+    ],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "CY000",
+    "matched_keywords": [
+      "ett",
+      "εργατης παραγωγης"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-09",
+    "score": 50,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MzQ0MTAyIDU",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: CY000\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "ΕΡΓΑΤΗΣ ΠΑΡΑΓΩΓΗΣ",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "4f44446ccb50674a",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ0MTAyIDU?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "4f44748b3132cd65": {
     "apply_channels": {
       "emails": [],
@@ -38570,7 +38629,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DEG01",
@@ -42399,7 +42458,7 @@
     "company": "ANCORA PROIZVODNJA, STORITVE, TRGOVINA D.O.O. LJUBLJANA, Pod jelkami 7 , 1218 KOMENDA",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo 6 mesecev, Nedoločen čas , Polni delovni čas, 40, izvajanje del in nalog povezanih s skladiščem, vodenje vseh vrst evidenc povezanih s skladiščem, skrb za kvaliteto prejetega in izdanega materiala, priprava in odpisovanje naročenega materiala v skladišču, dopoldansko delo,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -42407,7 +42466,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -45279,6 +45338,53 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "5aa850be6f9c8775": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Data & Media",
+    "country": "GR",
+    "description": "800-1.000\n\nανά μήνα μικτά\n\n  \n\nΗ **DATA & MEDIA Ε.Ε.**, με σταθερή και δυναμική παρουσία στην ελληνική αγορά από το 2001, κατέχει ηγετική θέση στον κλάδο του χονδρικού εμπορίου. Με πιστοποιήσεις ISO 9001 και ISO 27001 για το σύνολο των εργασιών της, επενδύει διαρκώς στην ποιότητα, την οργάνωση και κυρίως στους ανθρώπους της.\n\nΣτο πλαίσιο της ανάπτυξής μας, αναζητούμε **Υπάλληλο Αποθήκης πλήρους απασχόλησης** για τις σύγχρονες εγκαταστάσεις μας στο Ωραιόκαστρο Θεσσαλονίκης.\n\n**Τι προσφέρουμε**\n\nΘέλουμε οι άνθρωποί μας να εργάζονται σε ένα περιβάλλον που τους προσφέρει σταθερότητα, ασφάλεια και προοπτική.\n\n* **Αποδοχές έως 1.000€ τον μήνα**, ανάλογα με τα προσόντα και την εμπειρία.\n* **Δωρεάν μεταφορά** από και προς τις εγκαταστάσεις μας με εταιρικά οχήματα.\n* **Σταθερό ημερήσιο ωράριο:** 08:30 – 17:00, με ενδιάμεσο διάλειμμα 30 λεπτών.\n* **Πενθήμερη εργασία**, από Δευτέρα έως Παρασκευή.\n* Σύγχρονο και οργανωμένο εργασιακό περιβάλλον.\n* Άριστες συνθήκες εργασίας.\n* Συνεχή εκπαίδευση και υποστήριξη από την ομάδα μας.\n* Δυνατότητα πρόσθετης μισθολογικής αναγνώρισης για υποψηφίους που διαθέτουν άδεια χειρισμού περονοφόρου οχήματος (κλαρκ).\n\n**Ποιες θα είναι οι αρμοδιότητές σου;**\n\nΩς μέλος της ομάδας αποθήκης, θα συμβάλλεις στην ομαλή και αποτελεσματική καθημερινή λειτουργία της, αναλαμβάνοντας:\n\n* Συλλογή προϊόντων βάσει παραγγελιών (picking).\n* Προετοιμασία και έλεγχο παραγγελιών.\n* Συσκευασία προϊόντων.\n* Παραλαβή και τακτοποίηση εμπορευμάτων.\n* Τοποθέτηση και αποθήκευση προϊόντων στους προβλεπόμενους χώρους.\n\n**Τι αναζητούμε από εσένα;**\n\nΔεν απαιτείται προηγούμενη εργασιακή εμπειρία ή προϋπηρεσία σε αντίστοιχη θέση. Αυτό που έχει μεγαλύτερη σημασία για εμάς είναι η διάθεση για εργασία και η υπευθυνότητα.\n\nΣυγκεκριμένα, θα θέλαμε να διαθέτεις:\n\n* Συνέπεια και υπευθυνότητα.\n* Οργανωτική σκέψη και μεθοδικότητα.\n* Διάθεση για συνεργασία και ομαδική εργασία.\n* Ικανότητα ανταπόκρισης σε απαιτητικούς ρυθμούς εργασίας και συγκεκριμένα χρονοδιαγράμματα.\n* Διάθεση για μάθηση και εξέλιξη.\n\n**Επιπλέον προσόν:** Η κατοχή άδειας χειριστή περονοφόρου οχήματος (κλαρκ) θα εκτιμηθεί ιδιαίτερα και θα συνεκτιμηθεί στις αποδοχές.\n\n**Γιατί να επιλέξεις τη DATA & MEDIA;**\n\nΓιατί πιστεύουμε ότι μια καλή συνεργασία ξεκινά με ξεκάθαρους όρους, σταθερότητα και αμοιβαίο σεβασμό.\n\nΣου προσφέρουμε ένα οργανωμένο εργασιακό περιβάλλον, σταθερό ωράριο, πενθήμερη απασχόληση, ανταγωνιστικές αποδοχές και την υποστήριξη που χρειάζεσαι για να ενταχθείς στην ομάδα μας, ακόμη κι αν ξεκινάς τώρα την επαγγελματική σου πορεία.\n\n**Αν αναζητάς μια σταθερή εργασία με καλές συνθήκες και θέλεις να γίνεις μέλος μιας οργανωμένης ομάδας, θα χαρούμε να σε γνωρίσουμε!**\n\n**Στείλε μας το βιογραφικό σου και κάνε το επόμενο επαγγελματικό σου βήμα μαζί μας.**\n\n#### **Σχετικές Ετικέτες**\n\nυπαλληλος αποθηκηςεργατης αποθηκησωραιοκαστροαποθηκαριοσ, υπαλληλος αποθηκηςεργατησ αποθηκησαποθηκάριος picker εργάτης αποθήκης πλήρης πενθήμερη απασχόληση 8ωρο5νθημεροπροιοντα τεχνολογιαςανιδεικευτος εργατηςθεσσαλονικη",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Ωραιόκαστρο, GRB, Greece",
+    "matched_keywords": [
+      "picker",
+      "εργατης αποθηκης"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-09",
+    "score": 45,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-f1efaf78b05c6593",
+    "source_review": {},
+    "summary_ar": "الموقع: Ωραιόκαστρο, GRB, Greece\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Υπάλληλος Αποθήκης",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "5aa850be6f9c8775",
+    "url": "https://www.kariera.gr/jobs/human-resources-jobs/359393",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "5ac3f3c74e65c19f": {
     "apply_channels": {
       "emails": [],
@@ -46000,7 +46106,7 @@
     "company": "KOŠAKI tovarna mesnih izdelkov d.o.o., Oreško nabrežje 1 , 2000 MARIBOR",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo 2 meseca, Določen čas, 12 mesecev, Polni delovni čas, 40, Pripravljanje komisionov po naročilih naročnikov za dostavo, kontroliranje pripravljenega blaga za odpremo (kvaliteta, deklaracija, datumi), nakladanje, razkladanje in skladiščenje blaga, pomoč pri prodaji in delo z mesom in mesnimi izdelki, skrb za pravilno rokovanje z živili in upoštevanje higienskih standardov., ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -46008,7 +46114,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -47747,53 +47853,6 @@
     "url_provenance": "",
     "url_verified": null
   },
-  "609484e5dd50f941": {
-    "apply_channels": {
-      "emails": [],
-      "phones": [],
-      "whatsapp_mentioned": false
-    },
-    "company": "",
-    "country": "NL",
-    "description": "- ik zoek een baan - werkgevers - mijn carrière - over randstad Nieuw bij Randstad? Magazijnmedewerker Bijbaan - Doetinchem - € 15,57 per uur - 8 - 20 uur - Geen - Rensa - 09 oktober 2026 - vacaturenummer: 755449 - 09 oktober 2026 - vacaturenummer: 755449 Op zoek naar een leuke magazijnmedewerker bijbaan in Doetinchem? Bij Rensa verdien je tot € 15,57 per uur. Ook krijg je in de avond een extra ploegentoeslag tot wel 12% én € 0,23 reiskostenvergoeding per kilometer! Je bepaalt zelf hoeveel uren je in de week werkt. wat bieden wij jou Startsalaris tot € 15,57 per uur Toeslagen van 3% tot 12% in de avond Reiskostenvergoeding van € 0,23 per kilometer Zelf bepalen wanneer je in de avond werkt Kansen om extra werk te leren Een actieve en leuke werkomgeving wie ben jij Om het magazijn draaiende te houden, is het belangrijk dat je als magazijnmedewerker aan de volgende eisen voldoet: - Je bent bereid om in Doetinchem te werken - Je bent minimaal 2 avonden per week beschikbaar - Je bent beschikbaar op donderdagavond of vrijdagavond - Je kunt werken tussen 18:00 en 22:00 uur - Je spreekt de Nederlandse taal - Je bent 17 jaar of ouder - Je beschikt over eigen vervoer - Je bent fysiek in staat om producten tot 20 kilo te tillen wat ga je doen Als je start met deze magazijnmedewerker bijbaan, zorg je dat alle buizen voor cv-ketels en airco's op de juiste plek liggen. Je start jouw werkdag meestal rond 18:00 uur. Eerder beginnen? Dat kan zeker in overleg met jou! Tijdens je werk houd je de hal mooi schoon. Waar het nodig is, help je jouw collega's. - Buizen naar de juiste locatie in de hal brengen - Zorgen voor een netjes en schoon magazijn - Helpen van collega's op andere afdelingen waar ga je werken Je gaat werken bij Technisch Handelsbureau Rensa B.V. Dit is een bekende technische groothandel in Doetinchem. Het bedrijf levert onder meer airco's, radiatoren en cv-ketels. De sfeer op de vloer is heel gezellig. Je...",
-    "detail_fetched_at": "2026-11-08",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-07",
-    "glossary": [],
-    "languages": [
-      "nl"
-    ],
-    "last_seen": "2026-11-08",
-    "lifecycle": {
-      "missed_runs": 0,
-      "status": "active"
-    },
-    "location": "NL225",
-    "matched_keywords": [
-      "magazijnmedewerker"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-10",
-    "score": 34,
-    "signals": [
-      "unskilled_role_match",
-      "tier_1_country"
-    ],
-    "source": "eures",
-    "source_id": "NWQ3NGIwNDYtNGRlNi05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy",
-    "source_review": {},
-    "summary_ar": "",
-    "title": "Magazijnmedewerker Bijbaan",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
-    "uid": "609484e5dd50f941",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ3NGIwNDYtNGRlNi05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy?lang=en",
-    "url_provenance": "",
-    "url_verified": null
-  },
   "60980d9516900e13": {
     "apply_channels": {
       "emails": [
@@ -48220,52 +48279,6 @@
     "translated": false,
     "uid": "614d9620184a2137",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQyOTgwNCAxMw?lang=en",
-    "url_provenance": "",
-    "url_verified": null
-  },
-  "614f7a43a08a244c": {
-    "apply_channels": {
-      "emails": [],
-      "phones": [],
-      "whatsapp_mentioned": false
-    },
-    "company": "Domestiko",
-    "country": "ES",
-    "description": "Se busca mozo/a de almacén para incorporación en CARCABOSO (CÁCERES). La persona seleccionada se encargará del corte de panel sándwich con maquinaria específica, la carga y descarga de camiones, así como de la limpieza y mantenimiento del almacén, la maquinaria y los vehículos.\n  \n  \nEs imprescindible contar con experiencia previa como mozo de almacén, valorándose especialmente la adquirida en almacenes de construcción o hierro. También es necesario disponer de carnet de carretillero, tener entre 18 y 45 años y estar preparado para realizar tareas que impliquen cargar peso. Se requiere una persona organizada, responsable y proactiva, con capacidad para trabajar en equipo.\n  \n  \nSe ofrece contrato indefinido con periodo de prueba y jornada completa, de lunes a jueves de 08:00 a 13:30 y de 15:00 a 18:30, y viernes de 08:00 a 13:30. El salario se establece según convenio.",
-    "detail_fetched_at": "2026-11-08",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-08",
-    "glossary": [],
-    "languages": [],
-    "last_seen": "2026-11-08",
-    "lifecycle": {
-      "missed_runs": 0,
-      "status": "active"
-    },
-    "location": "EX, Spain",
-    "matched_keywords": [
-      "limpieza",
-      "mozo de almacen"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-10",
-    "score": 37,
-    "signals": [
-      "unskilled_role_match",
-      "tier_2_country"
-    ],
-    "source": "jobspy_indeed",
-    "source_id": "in-4cdc39c2ccd5ce84",
-    "source_review": {},
-    "summary_ar": "",
-    "title": "Mozo/a de almacén con experiencia previa y carnet de carretillero/a",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
-    "uid": "614f7a43a08a244c",
-    "url": "https://www.domestiko.com/empleo/oferta/carcaboso-mozo-a-de-almacen-con-experiencia-previa-y-carnet-de-carretillero-a-kp4i/",
     "url_provenance": "",
     "url_verified": null
   },
@@ -49643,7 +49656,7 @@
     "company": "DIONEA LIMITED",
     "country": "CY",
     "description": "ΓΕΩΡΓΙΚΕΣ ΕΡΓΑΣΙΕΣ , ΕΡΓΑΤΙΚΟΤΗΤΑ, ΣΥΝΑΔΕΛΦΙΚΟΤΗΤΑ, ΣΥΝΕΠΕΙΑ , Please note that copy of the letter and CV sent to the employer should also be sent to the (EURES ADVISOR , MARIA PITSILLIDOU , mpitsillidou@dl.mlsi.gov.cy ). Please include the national vacancy reference number",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-08",
@@ -49651,7 +49664,7 @@
     "languages": [
       "en"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -49664,7 +49677,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-06",
-    "score": 50,
+    "score": 46,
     "signals": [
       "unskilled_role_match",
       "agency_relocation_text_mention",
@@ -49674,12 +49687,12 @@
     "source": "eures",
     "source_id": "MzQ0MDM5IDU",
     "source_review": {},
-    "summary_ar": "",
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: CY000\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "ΕΡΓΑΤΗΣ ΓΕΩΡΓΙΑΣ",
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "9f7cd03d7ea12994",
+    "uid": "6348bafd5b52407d",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ0MDM5IDU?lang=en",
     "url_provenance": "",
     "url_verified": null
@@ -51070,14 +51083,14 @@
     },
     "company": "ARALFARM S.A.",
     "country": "GR",
-    "description": "Θεσσαλονίκη\n\nΑποθήκη / Logistics\n\nΠλήρης απασχόληση\n\nΜε κάποια εμπειρία\n\nπριν από 3 ημέρες\n\n  \n\nΗ**ARALFARM Α.Ε.** , με έδρα τη Θεσσαλονίκη, δραστηριοποιείται στον χώρο των παραφαρμακευτικών προϊόντων και των καλλυντικών εκπροσωπώντας κορυφαία Βrand στην Ελλάδα και το εξωτερικό.\n\nΣτο πλαίσιο της διαρκούς ανάπτυξής της και ως μία από τις ταχύτερα αναπτυσσόμενες επιχειρήσεις στον κλάδο, η εταιρεία αναζητά συνεργάτη για να ενισχύσει το τμήμα της Αποθήκης.\n\n**Αρμοδιότητες θέσης** **:**\n\n* Διαχείριση και διεκπεραίωση παραγγελιών\n* Συλλογή και συσκευασία παραγγελιών (Picking and Packing)\n* Διεκπεραίωση παραλαβών & επιστροφών προϊόντων\n* Διενέργεια απογραφών\n* Φόρτωση / εκφόρτωση εμπορευμάτων\n* Διατήρηση των χώρων ευθύνης σε ευταξία, καθαριότητα και ασφάλεια\n* Οργάνωση αποθήκης\n\n**Απαραίτητα προσόντα :**\n\n* Συνέπεια, ομαδικότητα,οργάνωση και διαχείριση χρόνου.\n* Γνώση-χρήση PDA scanner θα θεωρηθεί επιπλέον προσόν.\n* Ικανότητα χρήσης ηλεκτροκίνητου και χειροκίνητου παλετοφόρου θα θεωρηθεί επιπλέον προσόν.\n* Δίπλωμα Β’ κατηγορίας\n* Βασικές γνώσεις Αγγλικής γλώσσας\n* Εξοικείωση στη χρήση πληροφοριακών συστημάτων (ERP/WMS) θα θεωρηθεί επιπλέον προσόν.\n* Ικανότητα πρόληψης και επίλυσης προβλημάτων\n* Διάθεση για προσωπική εξέλιξη\n* Στρατιωτικές υποχρεώσεις εκπληρωμένες.\n\n**Παροχές :**\n\n* Πλήρης απασχόληση-πενθήμερη εργασία Δευτέρα-Παρασκευή.\n* Ανταγωνιστικές αποδοχές.\n* Ιδιωτική ασφάλεια υγείας (ομαδικό πρόγραμμα)\n* Ευχάριστο , οργανωμένο , δυναμικό και σύγχρονο περιβάλλον εργασίας.\n  \n\n**Οι ενδιαφερόμενοι εκτός από αίτηση μπορούν να αποστείλουν βιογραφικό σημείωμα και στο email:** **hr@aralfarm.gr**\n\n#### **Σχετικές Ετικέτες**\n\nαποθήκηυπάλληλος αποθήκης εργάτης αποθήκης αποθήκη, apothiki, apothikarios, αποθηκάριος, warehouse, logistics, αποθηκηαποθηκάριος picker εργάτης αποθήκης πλήρης πενθήμερη απασχόληση αποθήκη, αποθηκάριος, παραγγελίες, picking, παραλαβές, απογραφή#αποθήκηαποθηκη, υπαλληλος αποθηκης, picker",
-    "detail_fetched_at": "2026-11-08",
+    "description": "Θεσσαλονίκη\n\nΑποθήκη / Logistics\n\nΠλήρης απασχόληση\n\nΜε κάποια εμπειρία\n\nπριν από 5 ημέρες\n\n  \n\nΗ**ARALFARM Α.Ε.** , με έδρα τη Θεσσαλονίκη, δραστηριοποιείται στον χώρο των παραφαρμακευτικών προϊόντων και των καλλυντικών εκπροσωπώντας κορυφαία Βrand στην Ελλάδα και το εξωτερικό.\n\nΣτο πλαίσιο της διαρκούς ανάπτυξής της και ως μία από τις ταχύτερα αναπτυσσόμενες επιχειρήσεις στον κλάδο, η εταιρεία αναζητά συνεργάτη για να ενισχύσει το τμήμα της Αποθήκης.\n\n**Αρμοδιότητες θέσης** **:**\n\n* Διαχείριση και διεκπεραίωση παραγγελιών\n* Συλλογή και συσκευασία παραγγελιών (Picking and Packing)\n* Διεκπεραίωση παραλαβών & επιστροφών προϊόντων\n* Διενέργεια απογραφών\n* Φόρτωση / εκφόρτωση εμπορευμάτων\n* Διατήρηση των χώρων ευθύνης σε ευταξία, καθαριότητα και ασφάλεια\n* Οργάνωση αποθήκης\n\n**Απαραίτητα προσόντα :**\n\n* Συνέπεια, ομαδικότητα,οργάνωση και διαχείριση χρόνου.\n* Γνώση-χρήση PDA scanner θα θεωρηθεί επιπλέον προσόν.\n* Ικανότητα χρήσης ηλεκτροκίνητου και χειροκίνητου παλετοφόρου θα θεωρηθεί επιπλέον προσόν.\n* Δίπλωμα Β’ κατηγορίας\n* Βασικές γνώσεις Αγγλικής γλώσσας\n* Εξοικείωση στη χρήση πληροφοριακών συστημάτων (ERP/WMS) θα θεωρηθεί επιπλέον προσόν.\n* Ικανότητα πρόληψης και επίλυσης προβλημάτων\n* Διάθεση για προσωπική εξέλιξη\n* Στρατιωτικές υποχρεώσεις εκπληρωμένες.\n\n**Παροχές :**\n\n* Πλήρης απασχόληση-πενθήμερη εργασία Δευτέρα-Παρασκευή.\n* Ανταγωνιστικές αποδοχές.\n* Ιδιωτική ασφάλεια υγείας (ομαδικό πρόγραμμα)\n* Ευχάριστο , οργανωμένο , δυναμικό και σύγχρονο περιβάλλον εργασίας.\n  \n\n**Οι ενδιαφερόμενοι εκτός από αίτηση μπορούν να αποστείλουν βιογραφικό σημείωμα και στο email:** **hr@aralfarm.gr**\n\n#### **Σχετικές Ετικέτες**\n\nαποθήκηυπάλληλος αποθήκης εργάτης αποθήκης αποθήκη, apothiki, apothikarios, αποθηκάριος, warehouse, logistics, αποθηκηαποθηκάριος picker εργάτης αποθήκης πλήρης πενθήμερη απασχόληση αποθήκη, αποθηκάριος, παραγγελίες, picking, παραλαβές, απογραφή#αποθήκηαποθηκη, υπαλληλος αποθηκης, picker",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -51099,7 +51112,7 @@
     "source": "jobspy_indeed",
     "source_id": "in-6be5653cf3a377e8",
     "source_review": {},
-    "summary_ar": "الموقع: Θεσσαλονίκη, GRB, Greece\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "",
     "title": "Υπάλληλος Αποθήκης/Αποθηκάριος - ARALFARM A.E. (Ανατολική Θεσ/νίκη - Έδρα Δήμος Θέρμης)",
     "title_ar": "",
     "title_en": "",
@@ -51852,12 +51865,13 @@
     "company": "EUROCO S.A.",
     "country": "GR",
     "description": "Γνωστή εταιρεία στον χώρο των ξύλινων κατασκευών ζητά Εργάτη Παραγωγής ξύλου για πλήρη και μόνιμη απασχόληση στο εργοστάσιό μας.\n\nΤι θα κάνετε καθημερινά:\n\nΚοπή και επεξεργασία ξύλου με βάση τα σχέδια της παραγωγής\n  \nΣυναρμολόγηση (μοντάρισμα) κατασκευών\n  \nΧειρισμός ξυλουργικών μηχανημάτων\n  \nΤι ψάχνουμε σε εσάς:\n\nΠροϋπηρεσία σε ξυλουργικές εργασίες ή σε παραγωγή\n  \nΣυνέπεια, όρεξη για δουλειά και πνεύμα συνεργασίας\n  \nΠροαιρετικά : Γνώση ανάγνωσης απλού σχεδίου\n  \nΤι προσφέρουμε:\n\nΣταθερό μηνιαίο μισθό (αναλόγως εμπειρίας) και πλήρης ασφάλιση\n  \nΠλήρης απασχόληση με σταθερό ωράριο από Δευτέρα έως και Παρασκευή, 08:00πμ – 16:00μμ\n  \nΣύγχρονο, οργανωμένο και ασφαλές περιβάλλον εργασίας",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -51869,7 +51883,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-03",
-    "score": 40,
+    "score": 36,
     "signals": [
       "unskilled_role_match",
       "tier_3_country",
@@ -51883,7 +51897,7 @@
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "14dd83e602b00cf5",
+    "uid": "66eb4d52bc03210e",
     "url": "https://www.jobseeker.gr/job/euroco-s-a-%cf%83%ce%af%ce%bd%ce%b4%ce%bf%cf%82-%ce%b8%ce%b5%cf%83%cf%83%ce%b1%ce%bb%ce%bf%ce%bd%ce%af%ce%ba%ce%b7-118-%ce%b5%cf%81%ce%b3%ce%ac%cf%84%ce%b7%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%89/",
     "url_provenance": "",
     "url_verified": null
@@ -52803,7 +52817,7 @@
     "company": "AS SYSTEM proizvodnja, trgovina in storitve d.o.o., Obrtniška ulica 14 , 3240 ŠMARJE PRI JELŠAH",
     "country": "SI",
     "description": "VOZNIK LAHKEGA DOSTAVNEGA VOZILA, poskusno delo 3 mesece, Nedoločen čas , Polni delovni čas, 40, prevzem, nakladanje, razkladanje in dostava blaga s kombiniranim vozilom in prikolico,varen prevoz blaga ter skrb za pravilno pritrditev tovora,vodenje in izpolnjevanje transportne dokumentacije,skrb za tehnično brezhibnost, čistočo in redno vzdrževanje vozila,sprejem, skladiščenje, komisioniranje in izdaja blaga,urejanje in vzdrževanje reda v skladišču,uporaba skladiščne opreme in delovnih sredstev,sodelovanje pri organizaciji transporta in skladiščnih procesov,opravljanje drugih del po navodilih nadrejenega, ki sodijo v področje dela delovnega mesta., ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -52811,7 +52825,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -56536,7 +56550,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE922, DE94D, DE94F",
@@ -57262,7 +57276,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DEB35",
@@ -58749,13 +58763,13 @@
     "company": "ACS Courier Services SA",
     "country": "GR",
     "description": "Άγιος Ιωάννης Ρέντης\n\nΑποθήκη / Logistics\n\nΜερική απασχόληση\n\nΧωρίς προϋπηρεσία / Χωρίς εμπειρία\n\nπριν από 4 εβδομάδες\n\n  \n\nH ACS AEE, εταιρεία ταχυμεταφορών και ταχυδρομείου, μέλος του Ομίλου Quest, με ηγετική θέση στην αγορά, ζητά να προσλάβει εργαζόμενους στην θέση Διαλογέα- Συσκευαστή 4ωρης πενθήμερης απασχόλησης στην απογευματινή βάρδια.\n\n* Διαλογή ταχυδρομικών αντικειμένων και δεμάτων - 4ωρο, 5ημερο\n* Ωράριο **21:00-01:00** **(Δευτέρα - Παρασκευή).**\n* **Δύο φορές τον μήνα** χρειάζεται εργασία σε **νυχτερινή βάρδια, Σάββατο προς Κυριακή** με (πρόσθετο) ρεπό μέσα στην εβδομάδα\n* Δυνατότητα πρόσθετης απασχόλησης\n  \n\n**Απαραίτητα προσόντα****/****γνώσεις:**\n\nΕργατικότητα, συνέπεια, υπευθυνότητα\n\n  \n\n**Επιθυμητά προσόντα****:**\n\nΓνώση και εμπειρία στη χρήση ηλεκτρικού παλετοφόρου\n\n#### **Σχετικές Ετικέτες**\n\ncourieracssortingυπάλληλος αποθήκης acs courier",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -59031,14 +59045,14 @@
     },
     "company": "kariera.gr | Recruitment",
     "country": "GR",
-    "description": "Πειραιάς\n\nΤεχνικοί / Service\n\nΠλήρης απασχόληση\n\nΜε κάποια εμπειρία\n\nπριν από 3 ημέρες\n\n  \n\nΜεγάλη πολυεθνική εταιρεία στον κλάδο των καταναλωτικών προϊόντων αναζητά **Χειριστή Συσκευαστηρίου** για τις εγκαταστάσεις της στον Πειραιά.\n\nΟ κατάλληλος υποψήφιος θα ενταχθεί στην ομάδα Παραγωγής και θα έχει ενεργό ρόλο στη διαδικασία συσκευασίας των προϊόντων, καθώς και στον χειρισμό και την παρακολούθηση του παραγωγικού εξοπλισμού, διασφαλίζοντας την ομαλή λειτουργία της γραμμής παραγωγής και την τήρηση των προδιαγραφών ποιότητας, υγιεινής και ασφάλειας.\n\n### **Αρμοδιότητες**\n\n* Συμμετοχή στη διαδικασία συσκευασίας των προϊόντων σύμφωνα με τις προδιαγραφές της εταιρείας.\n* Χειρισμός και παρακολούθηση του εξοπλισμού του Συσκευαστηρίου.\n* Τροφοδοσία της γραμμής συσκευασίας με τα απαραίτητα υλικά.\n* Έλεγχος της ορθής λειτουργίας του εξοπλισμού και της παραγωγικής διαδικασίας.\n* Παρακολούθηση της ποιότητας και της σωστής συσκευασίας των προϊόντων.\n* Τήρηση των οδηγιών παραγωγής και των προβλεπόμενων διαδικασιών ποιοτικού ελέγχου.\n* Συνεργασία με τα υπόλοιπα μέλη της ομάδας για την ομαλή λειτουργία της παραγωγής.\n* Τήρηση των κανόνων υγιεινής, καθαριότητας και ασφάλειας στον χώρο εργασίας.\n\n### **Απαραίτητα Προσόντα**\n\n* Προϋπηρεσία σε βιομηχανικό ή παραγωγικό περιβάλλον θα θεωρηθεί επιπλέον προσόν.\n* Εξοικείωση με τον χειρισμό παραγωγικού ή συσκευαστικού εξοπλισμού.\n* Υπευθυνότητα, συνέπεια και προσοχή στη λεπτομέρεια.\n* Ικανότητα συνεργασίας και ομαδικό πνεύμα.\n* Δυνατότητα εργασίας σε εναλλασσόμενες βάρδιες.\n\n### **Παροχές**\n\n* Ανταγωνιστικό πακέτο αποδοχών.\n* Ticket Restaurant.\n* Σταθερό εργασιακό περιβάλλον σε μεγάλη πολυεθνική εταιρεία.\n* Προοπτικές επαγγελματικής εξέλιξης.\n\n### **Ωράριο Εργασίας**\n\n* Πενθήμερη εργασία, από Δευτέρα έως Παρασκευή.\n* Εναλλασσόμενες βάρδιες:\n\n  Πρωινή: 06:00 – 14:00 &\n\n  Απογευματινή: 14:00 – 22:00\n\n**Αν αναζητάς το επόμενο επαγγελματικό σου βήμα στον χώρο της βιομηχανικής παραγωγής και θέλεις να εργαστείς σε ένα οργανωμένο περιβάλλον με προοπτικές εξέλιξης, στείλε μας την αίτησή σου!**\n\n#### **Σχετικές Ετικέτες**\n\nproduction operator, machine operator, production line, manufacturing, factory worker, production worker, industrial production, machine handling, machine operation, packaging, assembly line, production support,factory, industry, mechanical, technical skills, technician, junior technician, operator, shift work, βιομηχανία, παραγωγή, εργοστάσιο, χειριστής μηχανών, χειριστής παραγωγής, γραμμή παραγωγής,τεχνικός παραγωγής, βάρδιες, τεχνικό προσωπικό, εργάτης παραγωγής, production equipment, manufacturing operator, industrial environment, warehouse, logistics, forklift, picker, machine setup,troubleshooting, blow molding, plastic industry, packaging industry, industrial machines, technical background, entry level, junior role, hands-on, mechanical knowledge, production process, factory environmentπαραγωγή, εργοστάσιο, βιομηχανία, χειριστής μηχανών, χειριστής παραγωγής, γραμμή παραγωγής, εργάτης παραγωγής, τεχνικός παραγωγής, βιομηχανική παραγωγή, χειρισμός μηχανών,μηχανές παραγωγής, τεχνικός, βάρδιες, πρωινή βάρδια, απογευματινή βάρδια, τεχνικό προσωπικό, βιομηχανικό περιβάλλον, παραγωγική μονάδα, συσκευασία, packaging, production operator, machine operatorproduction worker, factory worker, manufacturing, industry, industrial production, junior technician, hands-on, mechanical skills, blow molding, plastic industry, warehouse, logistics, picker, forkliftεργασία σε εργοστάσιο, εργασία παραγωγής, θέση παραγωγής, χειριστής, εργάτης, εργάτης εργοστασίου, υπάλληλος παραγωγής, βιομηχανική εργασία, τεχνική εργασία, τεχνίτης, βοηθός τεχνικούχειρισμός εξοπλισμού, μηχανήματα, παραγωγή προϊόντων, εργασία με μηχανές, χειρισμός γραμμής παραγωγής, εργασία σε βάρδιες, πλήρης απασχόληση, άμεση πρόσληψη, εταιρεία παραγωγής,ολυεθνική εταιρεία, εμπειρία σε εργοστάσιο, εμπειρία παραγωγής, αποθήκη, αποθηκάριος, picker, συσκευασία, logistic, βιομηχανική μονάδα, τεχνικές γνώσεις, junior θέση, entry level, χωρίς απαραίτητη εμπειρία, εκπαίδευση από την εταιρείαπειραιάς, αθήνα, αττική, νίκαια, ρέντης, κερατσίνι, πέραμα, κορυδαλλός, δραπετσώνα, μοσχάτο, ταύρος, αιγάλεω, περιστέρι, καλλιθέα, νέο φάληρο, μάνδρα, ασπρόπυργος, ελευσίνα, μαγούλα, βιομηχανική περιοχή πειραιά, δυτική αττική, νότια αθήναδουλειά πειραιάς, εργασία πειραιάς, θέσεις εργασίας πειραιάς, άμεση πρόσληψη πειραιάς, δουλειά κοντά μου,εργασία κοντά μου, εργοστάσιο πειραιάς, παραγωγή πειραιάς, βιομηχανία πειραιάς, θέση εργασίας αττική,εργασία αττική, πλήρης απασχόληση πειραιάς, βάρδιες πειραιάς, δουλειά χωρίς προϋπηρεσία, άμεση έναρξη, σταθερή εργασία, μόνιμη εργασία, πολυεθνική εταιρεία πειραιάς, τεχνική δουλειά πειραιάς, εργοστάσιο αττικήχειριστής μηχανημάτων παραγωγής, production operator, machine operator, τεχνικός παραγωγής, production technician, βιομηχανική παραγωγή, γραμμή παραγωγής, εργοστάσιο, βιομηχανία, manufacturing, factory worker,τεχνικός βάρδιας, χειριστής εξοπλισμού, operator παραγωγής, τεχνικός συντήρησης, maintenance technician, μηχανολόγος, ηλεκτρολόγος, τεχνικό προσωπικό, τεχνικές θέσεις εργασίας, βάρδιες, κυλιόμενο ωράριο,παραγωγική μονάδα, industrial production, manufacturing jobs, factory jobs, industrial jobs, production jobs, entry level technician, skilled worker, πειραιάς, αττική, αθήνα, πολυεθνική εταιρεία, consumer goods, τεχνικό υπόβαθρο,μηχανές παραγωγής, χειρισμός μηχανημάτων, παρακολούθηση παραγωγής, τεχνική υποστήριξη παραγωγής.χειριστής παρασκευαστηρίου, χειριστής παραγωγής, χειριστής παραγωγικής μονάδας, χειριστής μηχανημάτων, χειριστής μηχανών, χειριστής εξοπλισμού, χειριστής παραγωγικού εξοπλισμού,χειριστής γραμμής παραγωγής, παρασκευαστήριο, παραγωγή, παραγωγική διαδικασία, παραγωγική μονάδα, προσωπικό παραγωγής, εργάτης παραγωγής, υπάλληλος παραγωγής, εργάτης παρασκευαστηρίου,υπάλληλος παρασκευαστηρίου, βιομηχανία, βιομηχανική παραγωγή, εργοστάσιο, εργασία σε εργοστάσιο, δουλειά σε εργοστάσιο, εργασία παραγωγής, δουλειά παραγωγής, εργασία σε βιομηχανία,δουλειά σε βιομηχανία, production operator, production worker, production employee, production staff, machine operator, machine operator jobs, factory worker, factory operator,manufacturing, manufacturing operator, manufacturing worker, production line, γραμμή παραγωγής, εργάτης γραμμής παραγωγής, βιομηχανία καταναλωτικών προϊόντων, consumer goods, consumer products,fmcg, fast moving consumer goods, προϊόντα προσωπικής φροντίδας, personal care, personal care products, προϊόντα προσωπικής υγιεινής, oral care, στοματική υγιεινή, προϊόντα στοματικής υγιεινής,προϊόντα υγιεινής, παρασκευή προϊόντων, προετοιμασία προϊόντων, πρώτες ύλες, έλεγχος παραγωγής, ποιοτικός έλεγχος, quality control, έλεγχος ποιότητας, συσκευασία,packaging, packaging worker, packaging operator, τυποποίηση, εργασία, δουλειά, θέσεις εργασίας, θέση εργασίας, άμεση πρόσληψη, άμεση εργασία, πλήρης απασχόληση, 8ωρο, πενθήμερο, εργάτης,υπάλληλος παραγωγής, πειραιάς, πειραιάς αττικής, κερατσίνι, δραπετσώνα, νίκαια, κορυδαλλός, ρέντης, άγιος ιωάννης ρέντης, μοσχάτο, ταύρος, αιγάλεω, περιστέρι, αθήνα, δυτικά προάστια, αττικήαραγωγή, πρώτες ύλες, ζυγίσεις, αναμίξεις και χειρισμό εξοπλισμούχειριστής παρασκευαστηρίου, χειριστής παραγωγής, χειριστής παραγωγικής μονάδας, χειριστής μηχανημάτων, χειριστής μηχανών, χειριστής εξοπλισμού, χειριστής παραγωγικού εξοπλισμού, χειριστής διαδικασίας,process operator, production operator, production worker, production employee, production staff, manufacturing operator, manufacturing worker, factory operator, factory worker,machine operator, batch operator, batch production, batch manufacturing, mixing operator, mixing, ανάμειξη, ανάμειξη πρώτων υλών, ζύγιση, ζύγιση πρώτων υλών, πρώτες ύλες, διαχείριση πρώτων υλώνπαραλαβή πρώτων υλών, προετοιμασία πρώτων υλών, παρασκευή προϊόντων, προετοιμασία προϊόντων, παρασκευαστήριο, παραγωγή, παραγωγική διαδικασία, παραγωγική μονάδα, γραμμή παραγωγής,χειρισμός μηχανημάτων, χειρισμός εξοπλισμού, βιομηχανική παραγωγή, βιομηχανία, βιομηχανικός εργάτης, εργοστάσιο, εργασία σε εργοστάσιο, εργασία σε βιομηχανία, εργάτης παραγωγής,εργάτης παρασκευαστηρίου, βοηθός παραγωγής, βοηθός παρασκευαστηρίου, υπάλληλος παραγωγής, υπάλληλος παρασκευαστηρίου, προσωπικό παραγωγής, έλεγχος παραγωγής,έλεγχος διαδικασίας, ποιοτικός έλεγχος, έλεγχος ποιότητας, quality control, quality assurance,τήρηση διαδικασιών, τήρηση οδηγιών παραγωγής, συνταγές παραγωγής, δοσολογία, αναλογίες, καταγραφή παραγωγής, καταγραφές παραγωγής, καθαρισμός εξοπλισμού, υγιεινή παραγωγής,ασφάλεια τροφίμων, food production, food manufacturing, manufacturing, production line, consumer goods, fmcg, personal care, personal care products, consumer products, προϊόντα προσωπικήςφροντίδας, προϊόντα προσωπικής υγιεινής, εργασία, δουλειά, θέσεις εργασίας, άμεση πρόσληψη, άμεση εργασία, πλήρης απασχόληση, 8ωρο, 5ήμερο, πενθήμερο, χωρίς προϋπηρεσία, εργασία χωρίς εμπειρία,πειραιάς, κερατσίνι, δραπετσώνα, νίκαια, κορυδαλλός, ρέντης, άγιος ιωάννης ρέντης, μοσχάτο, ταύρος, αιγάλεω, περιστέρι, αθήνα, δυτικά προάστια, αττική",
-    "detail_fetched_at": "2026-11-08",
+    "description": "Πειραιάς\n\nΤεχνικοί / Service\n\nΠλήρης απασχόληση\n\nΜε κάποια εμπειρία\n\nπριν από 4 ημέρες\n\n  \n\nΜεγάλη πολυεθνική εταιρεία στον κλάδο των καταναλωτικών προϊόντων αναζητά **Χειριστή Συσκευαστηρίου** για τις εγκαταστάσεις της στον Πειραιά.\n\nΟ κατάλληλος υποψήφιος θα ενταχθεί στην ομάδα Παραγωγής και θα έχει ενεργό ρόλο στη διαδικασία συσκευασίας των προϊόντων, καθώς και στον χειρισμό και την παρακολούθηση του παραγωγικού εξοπλισμού, διασφαλίζοντας την ομαλή λειτουργία της γραμμής παραγωγής και την τήρηση των προδιαγραφών ποιότητας, υγιεινής και ασφάλειας.\n\n### **Αρμοδιότητες**\n\n* Συμμετοχή στη διαδικασία συσκευασίας των προϊόντων σύμφωνα με τις προδιαγραφές της εταιρείας.\n* Χειρισμός και παρακολούθηση του εξοπλισμού του Συσκευαστηρίου.\n* Τροφοδοσία της γραμμής συσκευασίας με τα απαραίτητα υλικά.\n* Έλεγχος της ορθής λειτουργίας του εξοπλισμού και της παραγωγικής διαδικασίας.\n* Παρακολούθηση της ποιότητας και της σωστής συσκευασίας των προϊόντων.\n* Τήρηση των οδηγιών παραγωγής και των προβλεπόμενων διαδικασιών ποιοτικού ελέγχου.\n* Συνεργασία με τα υπόλοιπα μέλη της ομάδας για την ομαλή λειτουργία της παραγωγής.\n* Τήρηση των κανόνων υγιεινής, καθαριότητας και ασφάλειας στον χώρο εργασίας.\n\n### **Απαραίτητα Προσόντα**\n\n* Προϋπηρεσία σε βιομηχανικό ή παραγωγικό περιβάλλον θα θεωρηθεί επιπλέον προσόν.\n* Εξοικείωση με τον χειρισμό παραγωγικού ή συσκευαστικού εξοπλισμού.\n* Υπευθυνότητα, συνέπεια και προσοχή στη λεπτομέρεια.\n* Ικανότητα συνεργασίας και ομαδικό πνεύμα.\n* Δυνατότητα εργασίας σε εναλλασσόμενες βάρδιες.\n\n### **Παροχές**\n\n* Ανταγωνιστικό πακέτο αποδοχών.\n* Ticket Restaurant.\n* Σταθερό εργασιακό περιβάλλον σε μεγάλη πολυεθνική εταιρεία.\n* Προοπτικές επαγγελματικής εξέλιξης.\n\n### **Ωράριο Εργασίας**\n\n* Πενθήμερη εργασία, από Δευτέρα έως Παρασκευή.\n* Εναλλασσόμενες βάρδιες:\n\n  Πρωινή: 06:00 – 14:00 &\n\n  Απογευματινή: 14:00 – 22:00\n\n**Αν αναζητάς το επόμενο επαγγελματικό σου βήμα στον χώρο της βιομηχανικής παραγωγής και θέλεις να εργαστείς σε ένα οργανωμένο περιβάλλον με προοπτικές εξέλιξης, στείλε μας την αίτησή σου!**\n\n#### **Σχετικές Ετικέτες**\n\nproduction operator, machine operator, production line, manufacturing, factory worker, production worker, industrial production, machine handling, machine operation, packaging, assembly line, production support,factory, industry, mechanical, technical skills, technician, junior technician, operator, shift work, βιομηχανία, παραγωγή, εργοστάσιο, χειριστής μηχανών, χειριστής παραγωγής, γραμμή παραγωγής,τεχνικός παραγωγής, βάρδιες, τεχνικό προσωπικό, εργάτης παραγωγής, production equipment, manufacturing operator, industrial environment, warehouse, logistics, forklift, picker, machine setup,troubleshooting, blow molding, plastic industry, packaging industry, industrial machines, technical background, entry level, junior role, hands-on, mechanical knowledge, production process, factory environmentπαραγωγή, εργοστάσιο, βιομηχανία, χειριστής μηχανών, χειριστής παραγωγής, γραμμή παραγωγής, εργάτης παραγωγής, τεχνικός παραγωγής, βιομηχανική παραγωγή, χειρισμός μηχανών,μηχανές παραγωγής, τεχνικός, βάρδιες, πρωινή βάρδια, απογευματινή βάρδια, τεχνικό προσωπικό, βιομηχανικό περιβάλλον, παραγωγική μονάδα, συσκευασία, packaging, production operator, machine operatorproduction worker, factory worker, manufacturing, industry, industrial production, junior technician, hands-on, mechanical skills, blow molding, plastic industry, warehouse, logistics, picker, forkliftεργασία σε εργοστάσιο, εργασία παραγωγής, θέση παραγωγής, χειριστής, εργάτης, εργάτης εργοστασίου, υπάλληλος παραγωγής, βιομηχανική εργασία, τεχνική εργασία, τεχνίτης, βοηθός τεχνικούχειρισμός εξοπλισμού, μηχανήματα, παραγωγή προϊόντων, εργασία με μηχανές, χειρισμός γραμμής παραγωγής, εργασία σε βάρδιες, πλήρης απασχόληση, άμεση πρόσληψη, εταιρεία παραγωγής,ολυεθνική εταιρεία, εμπειρία σε εργοστάσιο, εμπειρία παραγωγής, αποθήκη, αποθηκάριος, picker, συσκευασία, logistic, βιομηχανική μονάδα, τεχνικές γνώσεις, junior θέση, entry level, χωρίς απαραίτητη εμπειρία, εκπαίδευση από την εταιρείαπειραιάς, αθήνα, αττική, νίκαια, ρέντης, κερατσίνι, πέραμα, κορυδαλλός, δραπετσώνα, μοσχάτο, ταύρος, αιγάλεω, περιστέρι, καλλιθέα, νέο φάληρο, μάνδρα, ασπρόπυργος, ελευσίνα, μαγούλα, βιομηχανική περιοχή πειραιά, δυτική αττική, νότια αθήναδουλειά πειραιάς, εργασία πειραιάς, θέσεις εργασίας πειραιάς, άμεση πρόσληψη πειραιάς, δουλειά κοντά μου,εργασία κοντά μου, εργοστάσιο πειραιάς, παραγωγή πειραιάς, βιομηχανία πειραιάς, θέση εργασίας αττική,εργασία αττική, πλήρης απασχόληση πειραιάς, βάρδιες πειραιάς, δουλειά χωρίς προϋπηρεσία, άμεση έναρξη, σταθερή εργασία, μόνιμη εργασία, πολυεθνική εταιρεία πειραιάς, τεχνική δουλειά πειραιάς, εργοστάσιο αττικήχειριστής μηχανημάτων παραγωγής, production operator, machine operator, τεχνικός παραγωγής, production technician, βιομηχανική παραγωγή, γραμμή παραγωγής, εργοστάσιο, βιομηχανία, manufacturing, factory worker,τεχνικός βάρδιας, χειριστής εξοπλισμού, operator παραγωγής, τεχνικός συντήρησης, maintenance technician, μηχανολόγος, ηλεκτρολόγος, τεχνικό προσωπικό, τεχνικές θέσεις εργασίας, βάρδιες, κυλιόμενο ωράριο,παραγωγική μονάδα, industrial production, manufacturing jobs, factory jobs, industrial jobs, production jobs, entry level technician, skilled worker, πειραιάς, αττική, αθήνα, πολυεθνική εταιρεία, consumer goods, τεχνικό υπόβαθρο,μηχανές παραγωγής, χειρισμός μηχανημάτων, παρακολούθηση παραγωγής, τεχνική υποστήριξη παραγωγής.χειριστής παρασκευαστηρίου, χειριστής παραγωγής, χειριστής παραγωγικής μονάδας, χειριστής μηχανημάτων, χειριστής μηχανών, χειριστής εξοπλισμού, χειριστής παραγωγικού εξοπλισμού,χειριστής γραμμής παραγωγής, παρασκευαστήριο, παραγωγή, παραγωγική διαδικασία, παραγωγική μονάδα, προσωπικό παραγωγής, εργάτης παραγωγής, υπάλληλος παραγωγής, εργάτης παρασκευαστηρίου,υπάλληλος παρασκευαστηρίου, βιομηχανία, βιομηχανική παραγωγή, εργοστάσιο, εργασία σε εργοστάσιο, δουλειά σε εργοστάσιο, εργασία παραγωγής, δουλειά παραγωγής, εργασία σε βιομηχανία,δουλειά σε βιομηχανία, production operator, production worker, production employee, production staff, machine operator, machine operator jobs, factory worker, factory operator,manufacturing, manufacturing operator, manufacturing worker, production line, γραμμή παραγωγής, εργάτης γραμμής παραγωγής, βιομηχανία καταναλωτικών προϊόντων, consumer goods, consumer products,fmcg, fast moving consumer goods, προϊόντα προσωπικής φροντίδας, personal care, personal care products, προϊόντα προσωπικής υγιεινής, oral care, στοματική υγιεινή, προϊόντα στοματικής υγιεινής,προϊόντα υγιεινής, παρασκευή προϊόντων, προετοιμασία προϊόντων, πρώτες ύλες, έλεγχος παραγωγής, ποιοτικός έλεγχος, quality control, έλεγχος ποιότητας, συσκευασία,packaging, packaging worker, packaging operator, τυποποίηση, εργασία, δουλειά, θέσεις εργασίας, θέση εργασίας, άμεση πρόσληψη, άμεση εργασία, πλήρης απασχόληση, 8ωρο, πενθήμερο, εργάτης,υπάλληλος παραγωγής, πειραιάς, πειραιάς αττικής, κερατσίνι, δραπετσώνα, νίκαια, κορυδαλλός, ρέντης, άγιος ιωάννης ρέντης, μοσχάτο, ταύρος, αιγάλεω, περιστέρι, αθήνα, δυτικά προάστια, αττικήαραγωγή, πρώτες ύλες, ζυγίσεις, αναμίξεις και χειρισμό εξοπλισμούχειριστής παρασκευαστηρίου, χειριστής παραγωγής, χειριστής παραγωγικής μονάδας, χειριστής μηχανημάτων, χειριστής μηχανών, χειριστής εξοπλισμού, χειριστής παραγωγικού εξοπλισμού, χειριστής διαδικασίας,process operator, production operator, production worker, production employee, production staff, manufacturing operator, manufacturing worker, factory operator, factory worker,machine operator, batch operator, batch production, batch manufacturing, mixing operator, mixing, ανάμειξη, ανάμειξη πρώτων υλών, ζύγιση, ζύγιση πρώτων υλών, πρώτες ύλες, διαχείριση πρώτων υλώνπαραλαβή πρώτων υλών, προετοιμασία πρώτων υλών, παρασκευή προϊόντων, προετοιμασία προϊόντων, παρασκευαστήριο, παραγωγή, παραγωγική διαδικασία, παραγωγική μονάδα, γραμμή παραγωγής,χειρισμός μηχανημάτων, χειρισμός εξοπλισμού, βιομηχανική παραγωγή, βιομηχανία, βιομηχανικός εργάτης, εργοστάσιο, εργασία σε εργοστάσιο, εργασία σε βιομηχανία, εργάτης παραγωγής,εργάτης παρασκευαστηρίου, βοηθός παραγωγής, βοηθός παρασκευαστηρίου, υπάλληλος παραγωγής, υπάλληλος παρασκευαστηρίου, προσωπικό παραγωγής, έλεγχος παραγωγής,έλεγχος διαδικασίας, ποιοτικός έλεγχος, έλεγχος ποιότητας, quality control, quality assurance,τήρηση διαδικασιών, τήρηση οδηγιών παραγωγής, συνταγές παραγωγής, δοσολογία, αναλογίες, καταγραφή παραγωγής, καταγραφές παραγωγής, καθαρισμός εξοπλισμού, υγιεινή παραγωγής,ασφάλεια τροφίμων, food production, food manufacturing, manufacturing, production line, consumer goods, fmcg, personal care, personal care products, consumer products, προϊόντα προσωπικήςφροντίδας, προϊόντα προσωπικής υγιεινής, εργασία, δουλειά, θέσεις εργασίας, άμεση πρόσληψη, άμεση εργασία, πλήρης απασχόληση, 8ωρο, 5ήμερο, πενθήμερο, χωρίς προϋπηρεσία, εργασία χωρίς εμπειρία,πειραιάς, κερατσίνι, δραπετσώνα, νίκαια, κορυδαλλός, ρέντης, άγιος ιωάννης ρέντης, μοσχάτο, ταύρος, αιγάλεω, περιστέρι, αθήνα, δυτικά προάστια, αττική",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -59059,7 +59073,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-05",
-    "score": 70,
+    "score": 66,
     "signals": [
       "unskilled_role_match",
       "no_exp_or_training_mention",
@@ -59069,12 +59083,12 @@
     "source": "jobspy_indeed",
     "source_id": "in-b3b361e90a4fa1aa",
     "source_review": {},
-    "summary_ar": "",
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Πειραιάς, GRI, Greece\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Χειριστής Συσκευαστηρίου | Παραγωγή | Πολυεθνική Εταιρεία | Πειραιάς",
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "f2f2f9a0625d5679",
+    "uid": "74f1c15a7d805ca5",
     "url": "https://www.kariera.gr/jobs/technicians-or-service-jobs/358271",
     "url_provenance": "",
     "url_verified": null
@@ -59574,39 +59588,40 @@
     "company": "Lidl",
     "country": "GR",
     "description": "**Ο Μισθός σου:**\n-----------------\n\n**Μηνιαίος μισθός που ξεκινάει από τα 445€ μικτά και φτάνει έως και τα 665€** ανάλογα με προηγούμενη εμπειρία και σε περίπτωση που είσαι έγγαμος/η, για **3ωρη/5ήμερη απασχόληση.**\n\n**Αναλυτικά οι παροχές μας στο #teamlidl:**\n-------------------------------------------\n\n* Ομαδικό πρόγραμμα **ιδιωτικής ασφάλισης** και **ασφάλισης κύριας κατοικίας.**\n* Αμειβόμενη **εκπαίδευση 3 εβδομάδων** & δυνατότητες εξέλιξης.\n* **Μηνιαία κουπόνια τροφίμων** για τις αγορές σου από τα καταστήματά μας.\n* **Εκπτώσεις και προνόμια** για σένα και την οικογένειά σου.\n* Προσαυξήσεις για υπερωρίες, νυχτερινή εργασία ή απασχόληση τις Κυριακές. **Κάθε λεπτό εργασίας σου καταγράφεται και πληρώνεται.**\n* 24ωρη τηλεφωνική **γραμμή υποστήριξης.**\n* **Ειδικές άδειες γονεϊκότητας** που υπερβαίνουν τις νομοθετικές ρυθμίσεις και δώρο γέννησης τέκνου.\n* **Παροχές επετείων και επιπλέον παροχές** που σχεδιάζουμε συνεχώς για να επιβραβεύουμε την προσπάθειά σου.\n* **Συνεργασία με Ευρωπαϊκό Πανεπιστήμιο Κύπρου.** Τα μέλη της ομάδας μας, ή και τα παιδιά τους, απολαμβάνουν εκπτώσεις στα δίδακτρα έως και 50%.\n\n**Μια μέρα στη νέα σου θέση:**\n------------------------------\n\n**Όλοι μας οι χώροι αστράφτουν χάρη σε σένα** . Προσωπικό και πελάτες απολαμβάνουν καθαρούς χώρους, εσωτερικούς και εξωτερικούς.\n\n* Κατάστημα, αποθήκη καταστήματος, parking: φροντίζεις να είναι πάντα **καθαροί και τακτοποιημένοι όλοι μας οι χώροι.** Κάνεις τη ζωή όλων πιο εύκολη.\n* Οι **πελάτες** μας μιλάνε πάντα για την ευγένειά σου!\n* Η **χειρωνακτική εργασία** είναι μέσα στη μέρα σου.\n* Έχεις ευελιξία να εργαστείς σε **διαφορετικές βάρδιες** .\n\n**Τι φέρνεις μαζί σου & γιατί να έρθεις στο teamlidl**\n------------------------------------------------------\n\n* Απολυτήριο **γυμνασίου ή λυκείου.** Αν έχεις πτυχίο ή σπουδάζεις, επίσης σε θέλουμε!\n* **Προϋπηρεσία; Δεν χρειάζεται καμία!** Μόνο όρεξη για μάθηση και εργασία.\n* Σε χαρακτηρίζει η **ομαδικότητα** και η **επικοινωνία** .\n* Έχεις ευελιξία να εργαστείς σε **διαφορετικές βάρδιες** .\n\n**Γιατί να έρθεις σε εμάς:** Πάνω από 6.700 άνθρωποι, 5 logistics centers και περισσότερα από 230 καταστήματα σε όλη την Ελλάδα. Εδώ αναπτυσσόμαστε μαζί, με ομαδικότητα, σεβασμό και εμπιστοσύνη και έχουμε κάτι κοινό: **τη διάθεση να δίνουμε καθημερινά τον καλύτερό μας εαυτό. Ακριβώς όπως κι εσύ.**\n\n**Είσαι το επόμενο κεφάλαιο του success story μας;** Κάνε την αίτησή σου τώρα και γίνε μέρος της πιο δυναμικής ομάδας στο #retail!\n\n**#teamlidl. Γιατί Αξίζει.**",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
     },
-    "location": "Αθήνα, GRI, Greece",
+    "location": "Θέρμη, GRB, Greece",
     "matched_keywords": [
       "καθαριστης"
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-10-20",
-    "score": 30,
+    "posted_date": "2026-10-27",
+    "score": 33,
     "signals": [
       "unskilled_role_match",
-      "tier_3_country"
+      "tier_3_country",
+      "fresh_posting"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-edfed330b23e14b6",
+    "source_id": "in-5a145d990e847062",
     "source_review": {},
     "summary_ar": "",
-    "title": "Καθαριστής-τρια Καταστήματος (3ωρη μερική απασχόληση) στην Πλατεία Βικτωρίας",
+    "title": "Καθαριστής-τρια Καταστήματος (3ωρη μερική απασχόληση) στη Θέρμη",
     "title_ar": "",
     "title_en": "",
     "translated": false,
     "uid": "75e8db488504ccb4",
-    "url": "https://www.kariera.gr/jobs/workers-jobs/354664",
+    "url": "https://team.lidl.gr/jobs/katharistis-tria-katastimatos-3ori-meriki-apascholisi-sti-thermi-thermi-763369",
     "url_provenance": "",
     "url_verified": null
   },
@@ -61478,7 +61493,7 @@
     "last_seen": "2026-11-08",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -62008,13 +62023,13 @@
     "company": "ELITE STROM",
     "country": "GR",
     "description": "Σχηματάρι\n\nΑποθήκη / Logistics\n\nΠλήρης απασχόληση\n\nΜε κάποια εμπειρία\n\nπριν από 2 εβδομάδες\n\n  \n\nELITE STROM | Σχηματάρι Βοιωτίας | Πλήρης απασχόληση | 5ήμερο\n  \nΗ elite strom μεγαλώνει την ομάδα της!\n  \nΣτο πλαίσιο της συνεχούς ανάπτυξής μας, η elite strom αναζητά νέα μέλη για τη στελέχωση των τμημάτων Παραγωγής και Αποθήκης / Logistics.\n\nΤμήμα Παραγωγής\n  \n\n* Συμμετοχή στις καθημερινές εργασίες της παραγωγικής διαδικασίας.\n* Υποστήριξη των εργασιών παραγωγής, σύμφωνα με τις ανάγκες του τμήματος.\n* Συνέπεια, υπευθυνότητα και διάθεση για εργασία.\n* Προϋπηρεσία σε βιομηχανικό ή παραγωγικό περιβάλλον θα θεωρηθεί επιπλέον προσόν.\n\nΤμήμα Αποθήκης & Logistics\n  \n\n* Παραλαβή, προετοιμασία και διακίνηση προϊόντων.\n* Φόρτωση και εκφόρτωση εμπορευμάτων.\n* Τακτοποίηση και οργάνωση της αποθήκης.\n* Προϋπηρεσία σε αντίστοιχη θέση θα εκτιμηθεί.\n\nΤι προσφέρουμε\n  \n\n* Σταθερό και οργανωμένο εργασιακό περιβάλλον.\n* Πλήρη απασχόληση.\n* Συνεχή εκπαίδευση και υποστήριξη.\n* Δυνατότητες επαγγελματικής εξέλιξης.\n* Δυνατότητα μεταφοράς από και προς τη Χαλκίδα.\n* Την ευκαιρία να εργαστείς σε μία σύγχρονη και αναπτυσσόμενη ελληνική βιομηχανία.\n\nΓίνε μέλος της ομάδας της elite strom!\n  \nΑν θέλεις να εργαστείς σε ένα σύγχρονο και δυναμικό περιβάλλον, θα χαρούμε να σε γνωρίσουμε!\n\n#### **Σχετικές Ετικέτες**\n\nεργατης παραγωγηςεργατης αποθηκηςεργατηςpickersαποθηκαριοςπικαδορος αποθηκαριος εργατης αποθηκηςlogisticssupply chainοινοφυταδιαχείριση αποθεμάτωνβοιωτίασχηματαριπαραλαβέςδιαχείριση logistics",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -62042,7 +62057,7 @@
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "fd31e3a5bb68a093",
+    "uid": "7a41317509646cb1",
     "url": "https://www.kariera.gr/jobs/logistics-or-warehouse-jobs/356271",
     "url_provenance": "",
     "url_verified": null
@@ -62943,7 +62958,7 @@
     "company": "DAVIDOV HRAM d.o.o. Ljubno; DAVIDOV HRAM d.o.o. Ljubno, PE ARNOVSKI GOZD, Arja vas 109 , 3301 PETROVČE",
     "country": "SI",
     "description": "KOMISIONAR, SKLADIŠČNI, poskusno delo 1 mesec, Določen čas, 3 mesece oz. Zaposlitev za določen čas z možnostjo podaljšanja delovnega razmerja in zaposlitvij, Polni delovni čas, 40, • priprava (komisioniranje) blaga na podlagi naročil • prevzem, razvrščanje in kontrola blaga ter embalaže• preverjanje rokov uporabnosti• skrb za urejenost skladišča• upravljanje s transportnimi pripomočki, , Ena sobota mesečno do 12.00 ure; vikendi prosti.",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -62951,7 +62966,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -63216,6 +63231,54 @@
     "uid": "7c543560044caf78",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI5MTYtMDAzOFgwMzMzMDQ5MDI5LVMgMQ?lang=en"
   },
+  "7c60a26052447efd": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "kariera.gr | Recruitment",
+    "country": "GR",
+    "description": "Ασπρόπυργος\n\nΑποθήκη / Logistics\n\nΠλήρης απασχόληση\n\nΜε κάποια εμπειρία\n\nπριν από 6 ημέρες\n\n  \n\nΗ ομάδα **Recruitment Services του kariera.gr** αναζητά **Χειριστή/τρια Περονοφόρου** για λογαριασμό μεγάλης εταιρείας τεχνολογίας στον Ασπρόπυργο.\n\nΟ κάτοχος της θέσης θα είναι υπεύθυνος για την ασφαλή και αποτελεσματική μετακίνηση, τοποθέτηση και ανεφοδιασμό παλετών στους χώρους της αποθήκης, καθώς και για τον καθημερινό έλεγχο και την ορθή χρήση των περονοφόρων ανυψωτικών μηχανημάτων.\n\n#### **Οι αρμοδιότητες του ρόλου:**\n\n* Παραλαβή και μετακίνηση παλετών από τις θέσεις παραλαβής στις ενδεδειγμένες θέσεις αποθήκευσης.\n* Τοποθέτηση και ανεφοδιασμός παλετών στις προβλεπόμενες θέσεις μέσω συστήματος RF.\n* Τοποθέτηση και τακτοποίηση παλετών στα ράφια της αποθήκης.\n* Αναπαλετοποίηση προϊόντων, όπου απαιτείται.\n* Χειρισμός περονοφόρων ανυψωτικών μηχανημάτων για την ασφαλή μεταφορά και αποθήκευση των προϊόντων.\n* Καθημερινός έλεγχος της καλής λειτουργίας των περονοφόρων, σύμφωνα με το προβλεπόμενο πλάνο συντήρησης.\n* Άμεση αναφορά τυχόν βλαβών ή δυσλειτουργιών του εξοπλισμού.\n* Τήρηση των κανόνων υγιεινής και ασφάλειας κατά τον χειρισμό των μηχανημάτων και τη διακίνηση των προϊόντων.\n* Έλεγχος της σωστής και ασφαλούς τοποθέτησης των παλετών στους χώρους αποθήκευσης.\n* Τήρηση των προβλεπόμενων διαδικασιών και των κανόνων ασφαλούς διακίνησης και αποθήκευσης των προϊόντων.\n* Συνεργασία με την ομάδα αποθήκης για την ομαλή και αποτελεσματική διακίνηση των εμπορευμάτων.\n* Διατήρηση της τάξης και της ασφάλειας στους χώρους αποθήκευσης και διακίνησης.\n\n#### **Το προφίλ που αναζητάμε:**\n\n* Απόφοιτος λυκείου.\n* Δίπλωμα χειριστή & βεβαίωση αναγγελίας χειρισμού.\n* Εμπειρία σε χειρισμό περονοφόρων με λαβίδα.\n* Επιθυμητή προϋπηρεσία σε μηχανογραφημένη αποθήκη.\n* Ομαδικό πνεύμα.\n* Οργάνωση, συνέπεια και επαγγελματισμός.\n* Εργασία σε βάρδιες (τριβαρδικό πρόγραμμα).\n\n#### **Τι προσφέρουμε:**\n\n* Πενθήμερη full time απασχόληση.\n* Σύμβαση αορίστου χρόνου.\n* Πρόσθετη μηνιαία παροχή εξόδων μετακίνησης.\n* Κάρτα σίτισης (Ticket Restaurant).\n* Παροχή εταιρικού πούλμαν (από και προς τις εγκαταστάσεις).\n* Καθημερινό ελαφρύ γεύμα.\n* Δυναμικό σχήμα bonus βάσει επίτευξης στόχων.\n* Ομαδική ασφάλιση.\n* Κυλιόμενο ωράριο εργασίας (τρεις βάρδιες).\n* Συνεχή εκπαίδευση σε νέες τεχνολογίες.\n\nΕάν αναζητάς ένα **σταθερό εργασιακό περιβάλλον, με οργανωμένη λειτουργία, παροχές και δυνατότητες εξέλιξης**, θα χαρούμε να λάβουμε την **αίτησή** σου!\n\n#### **Σχετικές Ετικέτες**\n\nwarehouse assistant, αποθηκάριος, εργάτης αποθήκης, πάλληλος αποθήκης, προσωπικό αποθήκης, logistics, warehouse logisticsεργασία αττική, πενθήμερη εργασία, full-time employment, permanent employment, αορίστου χρόνου, shift work, τριβαρδικό ωράριο, εφοδιαστική αλυσίδα, ανυψωτικά μηχανήματα, περονοφόρα μηχανήματα, περονοφόρο με λαβίδα,θέσεις χειριστών κλαρκ, εργασία στη μαγούλα, θέσεις εργασίας μαγούλα, εργασία δυτική αττική, εργασία ασπρόπυργος, εργασία ελευσίνατακτοποίηση εμπορευμάτων, διαχείριση αποθεμάτων, stock management, inventory management, warehouse management, supply chain,warehouse safety, εργασίες αποθήκης, warehouse operations, warehouse staff, warehouse jobs, logistics jobs, forklift jobs, θέσεις εργασίας αποθήκης,κυλιόμενες βάρδιες, bonus, performance bonus, κάρτα σίτισης, ticket restaurant, έξοδα μετακίνησης, transportation allowance, εταιρικό πούλμαν, company shuttle,αναπαλετοποίηση, φόρτωση, εκφόρτωση, picking, packing, rf scanner, σύστημα rf, barcode scanner, αποθήκευση προϊόντων,ομαδική ασφάλιση, group insurance, employee benefits, career development, επαγγελματική εξέλιξη, συνεχής εκπαίδευση, training, teamwork, ασπροπυργος χειριστής περονοφόρου, χειριστής κλαρκ, χειριστής ανυψωτικού μηχανήματος, κλαρκ, forklift operator, forklift driver, reach truck operator, warehouse operator,έλεγχος μηχανημάτων, συντήρηση εξοπλισμού, ασφαλής χειρισμός, υγιεινή και ασφάλεια, occupational health and safety,διαχείριση αποθήκης, οργάνωση αποθήκης, μηχανογραφημένη αποθήκη, διακίνηση εμπορευμάτων, μεταφορά παλετών, διαχείριση παλετών, τοποθέτηση παλετών, αναπλήρωση παλετών, forklift with clamp, clamp forklift, χειρισμός κλαρκ με λαβίδα, άδεια χειριστή, δίπλωμα χειριστή, βεβαίωση αναγγελίας χειρισμού, πιστοποιημένος χειριστήςομαδικό πνεύμα, οργάνωση, συνέπεια, υπευθυνότητα, επαγγελματισμός, warehouse technician, material handling, material handler, pallet handling, forklift logistics, distribution center, κέντρο διανομής.",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Ασπρόπυργος, GRI, Greece",
+    "matched_keywords": [
+      "forklift operator",
+      "warehouse assistant",
+      "εργατης αποθηκης"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-03",
+    "score": 46,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-9d8bb051ce0b4acb",
+    "source_review": {},
+    "summary_ar": "الموقع: Ασπρόπυργος, GRI, Greece\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Χειριστής/Χειρίστρια Περονοφόρου για τον Ασπρόπυργο",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "7c60a26052447efd",
+    "url": "https://www.kariera.gr/jobs/logistics-or-warehouse-jobs/357626",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "7c735e7c71c5ab78": {
     "apply_channels": {
       "emails": [],
@@ -63369,7 +63432,7 @@
     "company": "HSG KARIERA nacionalni kadrovski operater d.o.o., Leskoškova cesta 9 C, 1000 LJUBLJANA",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo 1 mesec, Določen čas, 3 mesece, Polni delovni čas, 40, Sortiranje čevljev v zabojnike glede na dobavnico, uporaba scannerja, komisioniranje., , od ponedeljka do petka 1 ali 2 izmensko",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -63377,7 +63440,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -63573,7 +63636,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Linz, O, Austria",
@@ -64487,13 +64550,13 @@
     "company": "Atrium hotels",
     "country": "GR",
     "description": "Ο εργάτης αποθήκης είναι υπεύθυνος για την αποθήκευση ειδών, την ετοιμασία παραγγελιών, τη συσκευασία και αποστολή προϊόντων, καθώς και η διατήρηση της καθαριότητας και της οργάνωσης του χώρου.\n\n**Κύριες αρμοδιότητες:**\n\n* Βοηθά τον Υπεύθυνο Αποθήκης στη διαχείριση των αποθεμάτων, όπως την παραλαβή, τη μεταφορά και την αποθήκευση ειδών.\n* Συμβάλλει στην ασφαλή διανομή των προϊόντων στα διάφορα τμήματα του ξενοδοχείου.\n* Συμμετέχει στον έλεγχο ποιότητας των προϊόντων και απομακρύνει τυχών ελαττωματικά είδη.\n* Συνεργάζεται με όλα τα τμήματα του ξενοδοχείου για την κάλυψη των αναγκών τους.\n* Διατηρεί την καθαριότητα και την οργάνωση της αποθήκης σύμφωνα με τους κανόνες υγιεινής και ασφάλειας.\n\n**Απαραίτητα προσόντα:**\n\n* Επαγγελματική εμπειρία ως εργάτης αποθήκης\n* Γνώση Ελληνικών (προφορικά)\n* Καλή φυσική κατάσταση\n* Δυνατότητα χρήσης παλετοφόρων\n\n**Αναγκαίες δεξιότητες και αξίες:**\n\n* Επαγγελματισμός/υπευθυνότητα\n* Οργανωτικές δεξιότητες\n* Διαχείριση χρόνου\n* Ενεργητικότητα\n* Πνεύμα ομαδικότητας και συνεργασίας",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -64505,11 +64568,10 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-10-26",
-    "score": 33,
+    "score": 30,
     "signals": [
       "unskilled_role_match",
-      "tier_3_country",
-      "fresh_posting"
+      "tier_3_country"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-6e67da301f6eb2b9",
@@ -64519,7 +64581,7 @@
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "72f50d6851ee85ea",
+    "uid": "802ef2ad62574947",
     "url": "https://www.atriumhotels.gr/de/jobs/warehouse-worker/",
     "url_provenance": "",
     "url_verified": null
@@ -64955,7 +65017,7 @@
     "company": "ROLGRAF tiskarna d.o.o., Litostrojska cesta 58 , 1000 LJUBLJANA",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo 3 mesece, Določen čas, 12 mesecev oz. možnost zaposlitve za nedoločen čas, Polni delovni čas, 40, • izvaja naloge, ki mu jih določi vodja skladišča in logistike;• skrbi za čistočo in urejenost skladišč – materiala, polizdelkov in končnih izdelkov;• spremlja zaloge repro materiala, v odsotnosti vodje dodelave in nabave;• na podlagi DN izdaja material iz skladišča;• vrši vhodno kontrolo pri prevzemu materiala in skupaj s službo kontrole vrši reklamacije dobaviteljem v odsotnosti vodje dodelave in nabave;• skrbi za shranjevanje in odvažanje odpadnega papirja;• skrbi za urejenost okolja podjetja;• izvaja druga dela in naloge po nalogu neposrednega vodje oz. direktorja., , občasno dvoizmensko",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -64963,7 +65025,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -65586,6 +65648,52 @@
     "translated": false,
     "uid": "8152c5497894afa6",
     "url": "https://oferty.praca.gov.pl/portal/wyszukiwarka-ofert/oferta?id=c6e2664d0b8849e8a2f1f7daa6ab89ed",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "817f2895c1dbc311": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Lidl",
+    "country": "GR",
+    "description": "**Ο Μισθός σου:**\n-----------------\n\n**Μηνιαίος μισθός που ξεκινάει από τα 595€ μικτά και φτάνει έως και τα 890€** ανάλογα με προηγούμενη εμπειρία και σε περίπτωση που είσαι έγγαμος/η, για **4ωρη/5ήμερη απασχόληση.**\n\n**Αναλυτικά οι παροχές μας στο #teamlidl:**\n-------------------------------------------\n\n* **Kουπόνια τροφίμων** για τις αγορές σου από τα καταστήματά μας **100€ κάθε μήνα.**\n* **Σταθερά 5ήμερη εργασία.** Ναι, ακόμα και τον Ιούλιο και τον Αύγουστο.\n* Ομαδικό πρόγραμμα **ιδιωτικής ασφάλισης** και **ασφάλισης κύριας κατοικίας.**\n* Αμειβόμενη **εκπαίδευση 3 εβδομάδων** & δυνατότητες εξέλιξης.\n* **Εκπτώσεις και προνόμια** για σένα και την οικογένειά σου.\n* Προσαυξήσεις για υπερωρίες, νυχτερινή εργασία ή απασχόληση τις Κυριακές. **Κάθε λεπτό εργασίας σου καταγράφεται και πληρώνεται.**\n* 24ωρη τηλεφωνική **γραμμή υποστήριξης.**\n* **Ειδικές άδειες γονεϊκότητας** που υπερβαίνουν τις νομοθετικές ρυθμίσεις και δώρο γέννησης τέκνου.\n* **Παροχές επετείων και επιπλέον παροχές** που σχεδιάζουμε συνεχώς για να επιβραβεύουμε την προσπάθειά σου.\n* **Συνεργασία με Ευρωπαϊκό Πανεπιστήμιο Κύπρου.** Τα μέλη της ομάδας μας, ή και τα παιδιά τους, απολαμβάνουν εκπτώσεις στα δίδακτρα έως και 50%.\n\n**Μια μέρα στη νέα σου θέση:**\n------------------------------\n\n**Όλοι μας οι χώροι αστράφτουν χάρη σε σένα** . Προσωπικό και πελάτες απολαμβάνουν καθαρούς χώρους, εσωτερικούς και εξωτερικούς.\n\n* Κατάστημα, αποθήκη καταστήματος, parking: φροντίζεις να είναι πάντα **καθαροί και τακτοποιημένοι όλοι μας οι χώροι.** Κάνεις τη ζωή όλων πιο εύκολη.\n* Οι **πελάτες** μας μιλάνε πάντα για την ευγένειά σου!\n* Η **χειρωνακτική εργασία** είναι μέσα στη μέρα σου.\n* Έχεις ευελιξία να εργαστείς σε **διαφορετικές βάρδιες** .\n\n**Τι φέρνεις μαζί σου & γιατί να έρθεις στο teamlidl**\n------------------------------------------------------\n\n* Απολυτήριο **γυμνασίου ή λυκείου.** Αν έχεις πτυχίο ή σπουδάζεις, επίσης σε θέλουμε!\n* **Προϋπηρεσία; Δεν χρειάζεται καμία!** Μόνο όρεξη για μάθηση και εργασία.\n* Σε χαρακτηρίζει η **ομαδικότητα** και η **επικοινωνία** .\n* Έχεις ευελιξία να εργαστείς σε **διαφορετικές βάρδιες** .\n\n**Γιατί να έρθεις σε εμάς:** Πάνω από 6.700 άνθρωποι, 5 logistics centers και περισσότερα από 230 καταστήματα σε όλη την Ελλάδα. Εδώ αναπτυσσόμαστε μαζί, με ομαδικότητα, σεβασμό και εμπιστοσύνη και έχουμε κάτι κοινό: **τη διάθεση να δίνουμε καθημερινά τον καλύτερό μας εαυτό. Ακριβώς όπως κι εσύ.**\n\n**Είσαι το επόμενο κεφάλαιο του success story μας;** Κάνε την αίτησή σου τώρα και γίνε μέρος της πιο δυναμικής ομάδας στο #retail!\n\n**#teamlidl. Γιατί Αξίζει.**",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Χανιά, GRM, Greece",
+    "matched_keywords": [
+      "καθαριστης"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-03",
+    "score": 36,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-d54e91d820c2b7ef",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Καθαριστής-τρια Καταστήματος (4ωρη μερική απασχόληση) στα Χανιά",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "817f2895c1dbc311",
+    "url": "https://team.lidl.gr/jobs/katharistis-tria-katastimatos-4ori-meriki-apascholisi-sta-chania-chania-767488",
     "url_provenance": "",
     "url_verified": null
   },
@@ -66363,6 +66471,56 @@
     "translated": false,
     "uid": "82d42d0f7ed1d105",
     "url": "https://t.me/polandworkportal/32235",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "82d6dbfebd1b68f9": {
+    "apply_channels": {
+      "emails": [
+        "pchrysanthou@dl.mlsi.gov.cy"
+      ],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "ΝΙΚΟΥΛΙΝΑ ΝΙΚΟΛΕΤΤΑ ΠΟΛΥΚΑΡΠΟΥ",
+    "country": "CY",
+    "description": "ΓΕΩΡΓΙΚΕΣ ΕΡΓΑΣΙΕΣ , ΑΤΟΜΑ ΔΙΑΘΕΣΙΜΑ ΓΙΑ ΤΗΝ ΕΡΓΑΣΙΑ ΑΥΤΗ , EURES ADVISOR , PRODROMOS CHRYSANTHOU , pchrysanthou@dl.mlsi.gov.cy",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [
+      "en"
+    ],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "CY000",
+    "matched_keywords": [
+      "γεωργια"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-02",
+    "score": 33,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MzQzODUwIDU",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "ΕΡΓΑΤΗΣ/ΤΡΙΑ ΓΕΩΡΓΙΑΣ",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "82d6dbfebd1b68f9",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQzODUwIDU?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -67300,7 +67458,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE212, DE218, DE21H",
@@ -67910,6 +68068,54 @@
     "uid": "85887eab7d1bb8d9",
     "url": "https://workline.hu/allasok/komissiozo-oroszlany"
   },
+  "8588977e79e1e458": {
+    "apply_channels": {
+      "emails": [
+        "office@dimitroulakos.gr"
+      ],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Θ. ΔΗΜΗΤΡΟΥΛΑΚΟΣ ΑΒΕΕ",
+    "country": "GR",
+    "description": "Σχηματάρι\n\nΕργάτες\n\nΠλήρης απασχόληση\n\nΜε κάποια εμπειρία\n\nπριν από 2 εβδομάδες\n\n  \n\nΗ **ΘΕΟΔΩΡΟΣ ΔΗΜΗΤΡΟΥΛΑΚΟΣ Α.Β.Ε.Ε.** είναι μια κορυφαία, εξαγωγική ελληνική βιομηχανία που εξειδικεύεται στον σχεδιασμό και την παραγωγή μεταλλικών ραφιών. Με σταθερή πορεία ανάπτυξης και προσανατολισμό στην ποιότητα, το όραμά μας είναι να παρέχουμε καινοτόμες λύσεις αποθήκευσης σε παγκόσμιο επίπεδο. Στο πλαίσιο της συνεχούς ενίσχυσης της παραγωγικής μας μονάδας στο ***Σχηματάρι Βοιωτίας***, αναζητούμε **Εργάτη Αποθήκης** για να ενταχθεί στην ομάδα μας.\n\n**ΚΑΘΗΚΟΝΤΑ ΘΕΣΗΣ**\n\n* Φόρτωση και εκφόρτωση εμπορευμάτων\n* Τακτοποίηση και οργάνωση των προϊόντων στους χώρους της αποθήκης για τη βελτιστοποίηση του χώρου.\n* Προετοιμασία και συσκευασία παραγγελιών προς αποστολή.\n* Στενή συνεργασία με τα τμήματα Παραγωγής και Logistics για τον συντονισμό των εργασιών.\n* Τήρηση κανόνων ασφάλειας και ποιότητας\n\n**ΑΠΑΙΤΟΥΜΕΝΑ ΠΡΟΣΟΝΤΑ**\n\n* Διάθεση για εργασία\n* Υπευθυνότητα, συνέπεια και επαγγελματισμός\n* Ικανότητα ομαδικής εργασίας\n* Εκπληρωμένες στρατιωτικές υποχρεώσεις\n* Σχετική προϋπηρεσία σε περιβάλλον αποθήκης ή βιομηχανίας θα εκτιμηθεί ιδιαίτερα\n\n**ΠΑΡΟΧΕΣ ΕΤΑΙΡΕΙΑΣ**\n\n* Μόνιμη θέση πλήρους απασχόλησης\n* Ελκυστικό πακέτο αποδοχών αναλόγως προσόντων\n* Ιδιωτική ασφάλιση\n* Διατακτικές σε μηνιαία βάση\n* Σύγχρονο και σταθερό εργασιακό περιβάλλον\n* Προοπτικές επαγγελματικής εξέλιξης\n* Παρέχεται μεταφορικό μέσο απο Χαλκίδα\n\nΕάν επιθυμείτε να γίνετε μέλος της ομάδας μας στείλτε το βιογραφικό σας στο: office@dimitroulakos.gr\n\n#### **Σχετικές Ετικέτες**\n\n#σχηματαρι#εργασια#σχηματαρι\\_βοιωτιας#αποθηκαριος#βοηθος\\_αποθηκης#εργατης#αποθηκη#supply#διαχειριση\\_αποθηκης#logistics",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Σχηματάρι, GRH, Greece",
+    "matched_keywords": [
+      "εργατης αποθηκης"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-29",
+    "score": 33,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-c472f04d496bea64",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "ΕΡΓΑΤΗΣ ΑΠΟΘΗΚΗΣ , ΣΧΗΜΑΤΑΡΙ",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "8588977e79e1e458",
+    "url": "https://www.kariera.gr/jobs/workers-jobs/356608",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "858ace9483209eb3": {
     "apply_channels": {
       "emails": [],
@@ -68070,7 +68276,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Poštorná, JM, Czech Republic",
@@ -68671,7 +68877,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Bezau, V, Austria",
@@ -68931,7 +69137,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE600",
@@ -70863,7 +71069,7 @@
     "last_seen": "2026-11-07",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -71264,7 +71470,7 @@
     "company": "TRIANOVA trgovina d.o.o., Cesta 24. junija 23 , 1231 LJUBLJANA - ČRNUČE",
     "country": "SI",
     "description": "SKLADIŠČNIK DOSTAVLJAVEC, poskusno delo 4 mesece, Nedoločen čas , Polni delovni čas, 40, V prijetnem kolektivu v Ljubljani zaposlimo sodelavca za pripravo in dostavo pohištva po Sloveniji in na Hrvaškem (Zagreb, Rijeka, Istra). 1. Pakiranje in dostava blaga strankam, po razporedu voženj. 2. Prevzemanje, skladiščenje in izdajanje blaga. 3. Pripravljanje, vodenje in urejanje dokumentacije. 4. Komisioniranje blaga. 5. Nakladanje in razkladanje blaga.6. Izvajanje manipulacij in internega transporta.7. Sprejem denarja od strank in uporaba POS terminal.8. Prijaznost, potrpežljivost in spoštljiv odnos do strank. Pomoč strankam z vnosom do bloka/hiše.9. Prijaznost do sodelavcev in nadrejenih.10. Samostojno izvajanje nalog na svojem strokovnem področju.Delo poteka v prijetnem vzdušju in sproščeno, ker se zavedamo, da je dobra atmosfera v službi zelo pomembna v današnjem tempu življenja. PREDNOST BODO IMELI KANDIDATI, KI LAHKO Z DELOM PRIČNEJO TAKOJ., ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -71272,7 +71478,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -72757,7 +72963,7 @@
     "company": "UNIOR KOVAŠKA INDUSTRIJA D.D., Kovaška cesta 10 , 3214 ZREČE",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo , Določen čas, 6 mesecev, Polni delovni čas, 40, • kakovostno in količinsko naročanje, prevzemanje ter izdajanje blaga• izvajanje in kontroliranje skladiščnih transakcij• skladiščenje, razkladanje, nakladanje in razvažanje s transportnimi sredstvi, ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -72765,7 +72971,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -75670,6 +75876,56 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "94f0393425c5d0b8": {
+    "apply_channels": {
+      "emails": [
+        "pchrysanthou@dl.mlsi.gov.cy"
+      ],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "ΑΝΤΩΝΗΣ ΑΝΤΩΝΙΟΥ",
+    "country": "CY",
+    "description": "ΕΡΓΑΤΗΣ ΠΛΥΝΤΗΡΙΟΥ ΑΥΤΟΚΙΝΗΤΩΝ , ΕΡΓΑΤΗΣ ΠΛΥΝΤΗΡΙΟΥ ΑΥΤΟΚΙΝΗΤΩΝ , EURES ADVISOR , PRODROMOS CHRYSANTHOU , pchrysanthou@dl.mlsi.gov.cy",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [
+      "en"
+    ],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "CY000",
+    "matched_keywords": [
+      "πλυντηριο"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-06",
+    "score": 36,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "eures",
+    "source_id": "MzQ0MDIwIDU",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "ΕΡΓΑΤΗΣ ΠΛΥΝΤΗΡΙΟΥ ΑΥΤΟΚΙΝΗΤΩΝ",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "94f0393425c5d0b8",
+    "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ0MDIwIDU?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "94f938f0d555286a": {
     "apply_channels": {
       "emails": [],
@@ -76429,7 +76685,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE948, DE94F",
@@ -76808,7 +77064,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Riezlern, V, Austria",
@@ -79511,7 +79767,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE300",
@@ -80890,6 +81146,52 @@
     "translated": false,
     "uid": "9f7e6e344a61f8dd",
     "url": "https://career.witglobal.net/de-wuerth/job/Lagerhelfer-%28mwd%29-Warenausgang-Kommissionierung-Roboterbetreuung/4426-de_DE",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "9f88a84e78e6198a": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "ΕΤΑΙΡΕΙΑ ΠΑΡΑΓΩΓΗΣ ΚΑΙ ΕΜΠΟΡΙΑΣ ΒΟΗΘΗΤΙΚΩΝ ΥΛΩΝ",
+    "country": "GR",
+    "description": "Εταιρεία παραγωγής και εμπορίας βοηθητικών υλών για την βιομηχανία τροφίμων στην **ΒΙ.ΠΕ.Θ Σίνδου**, ζητά να προσλάβει **Εργάτη Παραγωγής.**\n\n**Κύρια καθήκοντα:**\n\n* Χειρισμός και επίβλεψη μηχανημάτων παραγωγής\n\nΑπαραίτητα Προσόντα:\n\n* Εκπληρωμένες στρατιωτικές υποχρεώσεις\n* Συνέπεια, υπευθυνότητα και ομαδικότητα\n\nΠαροχές:\n\n**Η εταιρεία προσφέρει:**\n\n* Μόνιμη και πλήρη απασχόληση\n* Πενθήμερη εργασία\n* Σύγχρονο και ασφαλές εργασιακό περιβάλλον\n* Εκπαίδευση και συνεχής υποστήριξη",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Θεσσαλονίκη, GRB, Greece",
+    "matched_keywords": [
+      "εργατης παραγωγης"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-05",
+    "score": 36,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-74e67a82c448c8a7",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Εργάτης Παραγωγής",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "9f88a84e78e6198a",
+    "url": "https://mycarriera.gr/view/753698.html",
     "url_provenance": "",
     "url_verified": null
   },
@@ -82573,7 +82875,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DED45",
@@ -83160,7 +83462,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Berlin, BE, Germany",
@@ -86556,7 +86858,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -88870,7 +89172,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE948",
@@ -89816,7 +90118,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Vyšší Brod, JC, Czech Republic",
@@ -89909,7 +90211,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Mautern, N, Austria",
@@ -90571,7 +90873,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE922, DE948, DE94D, DE94F",
@@ -92591,7 +92893,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Mullingar, WH, Ireland",
@@ -96208,12 +96510,13 @@
     "company": "HR GLOBAL INDUSTRY",
     "country": "GR",
     "description": "Η **HR GLOBAL INDUSTRY** , αναζητά εργάτες αποθήκης - pickers - Διαλογή για την στελέχωση αποθήκης στο **Μαρκόπουλο**.\n\n**Αρμοδιότητες:**\n\n* Προετοιμασία, συλλογή και εκτέλεση των παραγγελιών\n* Παραλαβή και αποθήκευση των εμπορευμάτων\n* Συσκευασία των παραγγελιών, τηρώντας τις απαραίτητες διαδικασίες ασφαλείας\n* Ποιοτικός έλεγχος πριν την αποστολή κάθε προϊόντος\n* Εφαρμογή και τήρηση των κανόνων υγιεινής και ασφάλειας της αποθήκης\n* Συμμετοχή σε εργασίες της αποθήκης καθώς και στις απογραφές\n\nΑπαραίτητα Προσόντα:\n\n* Επιθυμητή προϋπηρεσία σε αντίστοιχη θέση (προϋπηρεσία σε μηχανογραφημένη αποθήκη θα εκτιμηθεί)\n* Απολυτήριο Λυκείου\n* Γνώση χειρισμού scanner\n* Δυνατότητα χρήσης παλετοφόρων\n* Ομαδικό πνεύμα και επαγγελματισμός\n\nΠαροχές:\n\n* Πλήρης απασχόληση (8ωρη) με συνεχές ωράριο\n* Εργασία σε ένα σύγχρονο περιβάλλον\n* Σύμβαση αορίστου χρόνου\n* Συνεχής εκπαίδευση από την πρώτη ημέρα της πρόσληψης\n* Σταθερό και φιλικό περιβάλλον εργασίας",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -96394,7 +96697,7 @@
     "company": "B4U LABORATORIES, proizvodnja kozmetičnih izdelkov, d.o.o., Otoče 5 A, 4244 PODNART",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo , Nedoločen čas , Polni delovni čas, 40, Podjetje B4U Laboratories d.o.o., ki se ukvarja s proizvodnjo kozmetičnih izdelkov, v svojo ekipo vabi skladiščnika (m/ž). Opis delovnega mesta:- Prevzem, pregled in skladiščenje surovin, embalaže ter drugega materiala.- Priprava in izdaja materiala za proizvodnjo.- Prevzem in skladiščenje končnih izdelkov.- Komisioniranje, pakiranje in priprava blaga za odpremo.- Nakladanje in razkladanje blaga.- Vodenje skladiščnih evidenc in sodelovanje pri inventurah.- Skrb za urejenost skladišča in pravilno ravnanje z blagom., ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -96402,7 +96705,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -96616,6 +96919,54 @@
     "translated": false,
     "uid": "be98dabbfcb55ee0",
     "url": "https://careers.vandemoortele.com/job/Izegem-Magazijnier-Centraal-Magazijn-vaste-nachtploeg-Izegem-8870/1449975433/",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "bea530b0638171fb": {
+    "apply_channels": {
+      "emails": [
+        "giorgos.gioldasis@stelioskanakis.gr"
+      ],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "ΣΤΕΛΙΟΣ ΚΑΝΑΚΗΣ ΑΒΕΕ",
+    "country": "GR",
+    "description": "**Η ΣΤΕΛΙΟΣ ΚΑΝΑΚΗΣ ΑΒΕΕ,**\n\n  \n\n**Αποκλειστικός εισαγωγέας Πρώτων Υλών Ζαχαροπλαστικής, Αρτοποιίας & Παγωτού με** **έδρα την Αθήνα**, αναζητά:\n\n  \n  \n\n**Υπάλληλο για εργασία σε Aποθήκη**\n\n  \n  \n\n**ΑΠΑΙΤΟΥΜΕΝΑ ΠΡΟΣΟΝΤΑ:**\n\n  \n  \n\n  \n* 3ετη προϋπηρεσία σε αντίστοιχη θέση\n  \n  \n* Στρατιωτικές υποχρεώσεις εκπληρωμένες\n  \n  \n\n  \n\nΟι ενδιαφερόμενοι παρακαλούνται να στείλουν Βιογραφικό Σημείωμα στα **ΕΛΛΗΝΙΚΑ** στο e-mail: giorgos.gioldasis@stelioskanakis.gr\n\n  \n  \n\nΌλα τα βιογραφικά σημειώματα θα θεωρηθούν εμπιστευτικά",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Αθήνα, GRI, Greece",
+    "matched_keywords": [
+      "εργατης αποθηκης"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-05",
+    "score": 36,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-aa3ee46496acd085",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Εργάτης αποθήκης",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "bea530b0638171fb",
+    "url": "https://mycarriera.gr/view/753699.html",
     "url_provenance": "",
     "url_verified": null
   },
@@ -97443,7 +97794,7 @@
     "company": "KOVINARSTVO BUČAR, proizvodno, storitveno in trgovsko podjetje d.o.o., Ptujska cesta 61 , 2204 MIKLAVŽ NA DRAVSKEM POLJU",
     "country": "SI",
     "description": "SKLADIŠČNIK, poskusno delo 3 mesece, Določen čas, 6 mesecev, Polni delovni čas, 40, Izdaja blaga kupcem – tako fizičnim kot pravnim osebam. Prevzem blaga in izdelkov na skladišče. Kontrola kakovosti in označevanje izdelkov. Priprava, komisioniranje in pakiranje blaga za lastne dostave. Pomoč pri nakladanju blaga na vozila. Skrb za urejeno skladišče in pregledno razporeditev izdelkov., ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -97451,7 +97802,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -98400,13 +98751,13 @@
     "company": "MOUSTAKAS TOYS",
     "country": "GR",
     "description": "Η **Γ.Ν. ΜΟΥΣΤΑΚΑΣ ΑΕΒΕ**, μία από τις κορυφαίες εταιρείες παιδικών παιχνιδιών στην Ελλάδα, με μακρόχρονη παρουσία και σταθερή αναπτυξιακή πορεία, είναι αφοσιωμένη στην ελληνική οικογένεια, ανταποκρινόμενη στις ανάγκες της με βασική προτεραιότητα το παιδί, προσφέροντας ποιοτικά προϊόντα που φέρνουν χαρά, εκπαίδευση και δημιουργικότητα.\n\nΣτο επίκεντρο της επιτυχίας μας βρίσκεται η ομάδα μας, επαγγελματίες με τεχνογνωσία, αφοσίωση και κοινό όραμα:\n\n*να προσφέρουμε μια άριστη εμπειρία σε κάθε οικογένεια που μας εμπιστεύεται.*\n\nΣτο πλαίσιο της συνεχούς ανάπτυξής μας, αναζητούμε **Υπάλληλοι Συσκευασίας**, για ηλεκτρονικό της κατάστημα στο *Περιστέρι*.\n\n  \n  \n\n**Κύριες Αρμοδιότητες**\n\n*Συσκευαστής E-Shop*\n\n* Έλεγχος της ποιότητας και της κατάστασης των προϊόντων πριν από τη συσκευασία.\n* Κατανόηση και εφαρμογή των κατάλληλων τρόπων συσκευασίας, ανάλογα με τα χαρακτηριστικά των προϊόντων.\n* Ταξινόμηση και ανακατανομή δεμάτων με βάση τον ταχυδρομικό κώδικα και την εταιρεία ταχυμεταφορών.\n* Προετοιμασία και παράδοση των δεμάτων στις αντίστοιχες εταιρείες μεταφορών.\n\nΑπαραίτητα Προσόντα:\n\n* Απόφοιτος Γυμνασίου ή Λυκείου.\n* Καλή γνώση της ελληνικής γλώσσας.\n* Καλή φυσική κατάσταση.\n* Δυνατότητα εργασίας σε εναλλασσόμενο και συνεχόμενο ωράριο\n* Ομαδικό πνεύμα, υπευθυνότητα και συνέπεια.\n  \n\n  \n\n**Επιθυμητά Προσόντα**\n\n* Βασική γνώση αγγλικών.\n* Βασικές γνώσεις Η/Υ.\n\nΠαροχές:\n\n* Μηνιαίος μικτός μισθός από 920€ . Το τελικό πακέτο αποδοχών διαμορφώνεται βάσει προσόντων και επαγγελματικής εμπειρίας\n* Ευκαιρίες για επαγγελματική εξέλιξη και ανάπτυξη\n* Συνεχή εκπαίδευση και mentoring από έμπειρη ομάδα\n* Υποστηρικτικό περιβάλλον με κουλτούρα ανοιχτής επικοινωνίας και συνεργασίας\n* Σύγχρονους χώρους εργασίας και οργανωμένες διαδικασίες\n  \n\n  \n\nΑν θέλεις να αξιοποιήσεις τις δεξιότητές σου σε έναν οργανισμό που εξελίσσεται και επενδύει στους ανθρώπους του, σε καλούμε να υποβάλεις την αίτησή σου για τη θέση.Με την υποβολή της παρούσας αίτησης, συναινείτε στην Πολιτική Απορρήτου μας σχετικά με τη διαδικασία προσλήψεων, την οποία μπορείτε να βρείτε στο website www.moustakastoys.gr στην ενότητα HR / Ενημέρωση για Βιογραφικά.\n\n  \n  \n\nΣτην Γ.Ν. ΜΟΥΣΤΑΚΑΣ ΑΕΒΕ δεσμευόμαστε στη δημιουργία ενός συμπεριληπτικού και υποστηρικτικού εργασιακού περιβάλλοντος, όπου κάθε υποψήφιος έχει ίσες ευκαιρίες.",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -99939,7 +100290,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE145",
@@ -101203,6 +101554,52 @@
     "translated": false,
     "uid": "c876168846e0410b",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/ZjIyNTNmZTgtN2FjYi00MzZkLTgyNDUtNjRkYmU4ZjA4ZjcyIDgx?lang=en"
+  },
+  "c87aeee588d15894": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "SANITEC ΑΒΕΕ",
+    "country": "GR",
+    "description": "**ΕΡΓΑΤΗΣ** παραγωγής ζητείται από Βιομηχανία Ειδών Υγιεινής στη Δυτική Θεσσαλονίκη.\n\nΕπιθυμητή η γνωση ηλεκτροκόλλησης.\n\nΕίδος Εργασίας: Πλήρης απασχόληση, Μόνιμος\n\nΤοποθεσία εργασίας: Αυτοπροσώπως",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Θεσσαλονίκη, GRB, Greece",
+    "matched_keywords": [
+      "εργατης παραγωγης"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-09",
+    "score": 40,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-9c6e46767fa62cb3",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Εργατης Παραγωγης",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "c87aeee588d15894",
+    "url": "https://gr.indeed.com/viewjob?jk=9c6e46767fa62cb3",
+    "url_provenance": "",
+    "url_verified": null
   },
   "c8852b6c9ac6e556": {
     "apply_channels": {
@@ -103216,13 +103613,13 @@
     "company": "ACS Courier Services SA",
     "country": "GR",
     "description": "Άγιος Ιωάννης Ρέντης\n\nΑποθήκη / Logistics\n\nΜερική απασχόληση\n\nΧωρίς προϋπηρεσία / Χωρίς εμπειρία\n\nπριν από 3 εβδομάδες\n\n  \n\nH ACS AEE, εταιρεία ταχυμεταφορών και ταχυδρομείου, μέλος του Ομίλου Quest, με ηγετική θέση στην αγορά, ζητά να προσλάβει εργαζόμενους στην θέση Διαλογέα- Συσκευαστή 5ωρης πενθήμερης απασχόλησης στην απογευματινή βάρδια.\n\n* Διαλογή ταχυδρομικών αντικειμένων και δεμάτων - 5ωρο, 5ημερο\n* Ωράριο **18:00-23:00** **(Δευτέρα - Παρασκευή).**\n* **Δύο φορές τον μήνα** χρειάζεται εργασία σε **νυχτερινή βάρδια, Σάββατο προς Κυριακή** με (πρόσθετο) ρεπό μέσα στην εβδομάδα\n* Δυνατότητα πρόσθετης απασχόλησης\n  \n\n**Απαραίτητα προσόντα****/****γνώσεις:**\n\nΕργατικότητα, συνέπεια, υπευθυνότητα\n\n  \n\n**Επιθυμητά προσόντα****:**\n\nΓνώση και εμπειρία στη χρήση ηλεκτρικού παλετοφόρου\n\n#### **Σχετικές Ετικέτες**\n\nδιαλογησυσκευασιαcourieracssortingυπάλληλος αποθήκης acs courierκεντρο διαλογης",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -103655,13 +104052,13 @@
     "company": "TopEspresso",
     "country": "GR",
     "description": "Ζητείται Yπάλληλος Aποθήκης από εταιρεία ηλεκτρονικού εμπορίου που εδρεύει στο κέντρο της Αθήνας (Πλατεία Αττικής). Βασικά καθήκοντα: συσκευασία και διεκπαιρέωση παραγγελιών. Εμπειρία σε παρόμοια θέση θα εκτιμηθεί, ειδικά σε κατάστημα ηλεκτρονικού εμπορίου (e-shop), όπως και το δίπλωμα οδήγησης.\n\nΕίδος Εργασίας: Πλήρης απασχόληση\n\nΑμοιβή: 1.000,00€ - 1.100,00€ ανά μήνα\n\nΤοποθεσία εργασίας: Αυτοπροσώπως",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -103808,7 +104205,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Katsch an der Mur, ST, Austria",
@@ -106676,6 +107073,58 @@
     "url_provenance": "reconstructed_from_source_key",
     "url_verified": false
   },
+  "d36f79ee39dc36f5": {
+    "apply_channels": {
+      "emails": [
+        "hrm@novatron.gr"
+      ],
+      "phones": [
+        "210-6180865"
+      ],
+      "whatsapp_mentioned": false
+    },
+    "company": "Novatron",
+    "country": "GR",
+    "description": "Νέα Χαλκηδόνα\n\nΠαραγωγή\n\nΠλήρης απασχόληση\n\nΧωρίς προϋπηρεσία / Χωρίς εμπειρία\n\nπριν από 4 εβδομάδες\n\n  \n\nΗ Novatron A.E. διευρύνοντας τις εργασίες της, βρίσκεται σε αναζήτηση ενός βοηθού παραγωγής για το τμήμα παραγωγής της εταιρείας.\n\n  \n\n**Περιγραφή θέσης**\n\nΤα καθήκοντα της θέσης είναι:\n\n* Τροφοδοσία με πρώτες ύλες των γραμμών παραγωγής της εταιρείας\n* Οργάνωση και παρακολούθηση των εντολών παραγωγής της εταιρείας.\n* Παρακολούθηση των αποθεμάτων πρώτων υλών.\n* Εντοπισμός τυχόν προβλημάτων στις διαδικασίες της παραγωγής και προσπάθεια επίλυσής τους σε συνεργασία με τα υπόλοιπα τμήματα της εταιρείας.\n* Τακτοποίηση της αποθήκης πρώτων υλών.\n  \n\n**Απαραίτητα προσόντα**\n\n* Απόφοιτος Λυκείου\n* Καλή γνώση Αγγλικών\n* Καλή γνώση Microsoft Office\n* Άνεση στην επικοινωνία\n* Για τους άντρες υποψήφιους, εκπληρωμένες στρατιωτικές υποχρεώσεις\n  \n\n**Προσφέρουμε**\n\n* Εργασία σε ένα σύγχρονο και οργανωμένο περιβάλλον\n* Ελκυστικές αποδοχές και αξιόλογες δυνατότητες εξέλιξης\n* Συνεχή εκπαίδευση προκειμένου να αντεπεξέλθετε στις προκλήσεις της θέσης και να ενσωματωθείτε στη φιλοσοφία της εταιρίας μας\n  \n\n(Κωδικός Θέσης PA01). Πληροφορίες 210-6180865, hrm@novatron.gr\n\n  \n\n**Λίγα λόγια την εταιρία**\n\nΗ Novatron AE λειτουργεί από το 2002 με έδρα το Χαλάνδρι και Εγκαταστάσεις Παραγωγής και Αποθήκευσης στη Νέα Χαλκηδόνα. Είναι από τους κορυφαίους διανομείς στον τομέα της, ενώ διαθέτει μια εξαιρετικά μεγάλη γκάμα προϊόντων παρέχοντας λύσεις στους ακόλουθους τομείς:\n\n* Λύσεις AUTO ID και συστήματα λιανικής πώλησης.\n* Συστήματα εκτύπωσης πλαστικών καρτών.\n* Βιομηχανικές Λύσεις\n\nΒασική φιλοσοφία στη Novatron A.E. είναι η ανάπτυξη της εταιρείας μέσω της προσήλωσης μας στην καλύτερη δυνατή υποστήριξη των πελάτων μας.\n\n#### **Σχετικές Ετικέτες**\n\nεργάτης, αποθηκάριος, αποθήκη, διακίνιση, παραγωγή, production, εργοστάσιο, production assistant, βιοτεχνία, βάρδια, εργάτης παραγωγής,",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Νέα Χαλκηδόνα, GRI, Greece",
+    "matched_keywords": [
+      "εργατης παραγωγης",
+      "χωρις εμπειρια",
+      "χωρις προϋπηρεσια"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-13",
+    "score": 45,
+    "signals": [
+      "unskilled_role_match",
+      "no_exp_or_training_mention",
+      "tier_3_country"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-2c9e897eec4e8131",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Νέα Χαλκηδόνα, GRI, Greece\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Βοηθός Παραγωγής",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "d36f79ee39dc36f5",
+    "url": "https://www.kariera.gr/jobs/production-jobs/352718",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "d38531f479acbf0a": {
     "apply_channels": {
       "emails": [],
@@ -108779,45 +109228,6 @@
     "url_provenance": "",
     "url_verified": null
   },
-  "d7b0423f917c923d": {
-    "apply_channels": {
-      "emails": [],
-      "phones": [],
-      "whatsapp_mentioned": false
-    },
-    "company": "Primark",
-    "country": "PT",
-    "description": "**Descrição da empresa**\n\n**Tipo de contrato:Termo certo**  \n**Jornada laboral:40h/sem**  \n**Porque tu fazes a diferença**\n\nNa Primark gostamos de fazer as coisas à nossa maneira. Oferecemos aos nossos clientes moda atual a preços acessíveis. E fazemo-lo com paixão, rigor e compromisso. Se te identificas com estes princípios, junta-te à Primark como Retail Assistant no turno da noite.\n\n **Descrição do emprego**\n\n**Porque tu és importante**\n\nAs pessoas estão no centro de tudo o que fazemos, por isso é essencial que te proporcionemos o ambiente certo para poderes dar o teu melhor. É por isso que te oferecemos uma série de benefícios que te colocam em primeiro lugar:\n\n* Conciliação: oferecemos diversas possibilidades de horários de trabalho para que se adaptem à tua disponibilidade.\n* A semana de trabalho é, em média, de 5 dias de trabalho com turnos contínuos.\n* Desconto de colaborador/a para adquirir produtos das nossas fabulosas coleções.\n* Oportunidades profissionais nacionais e internacionais num empresa mundial em expansão contínua.\n* Possibilidade de apoiar aberturas de novas lojas em diferentes cidades.\n\n  \n**Qualificações**\n\n**Quais serão as tuas responsabilidades?**\n\nComo Retail Assistant no turno da noite, trabalharás durante o turno nocturno para proporcionar aos nossos clientes uma experiência incrível quando entrem pela porta de entrada da loja na manhã seguinte.\n\n* Preparar a sala de vendas, criar expositores apelativos e repor o stock em todos eles.\n* Confirmar que todos os produtos têm o preço correto e que qualquer mudança de preço é claro e visível para todos os clientes.\n* Gerir o stock, as transferências de produtos e as entregas, e retirar da sala de vendas os produtos que não cumpram os nossos elevados standards.\n* Implementar qualquer mudança na loja, como mudanças na disposição de produtos.\n* Colaborar em manter o armazém ordenado e bem organizado.\n\n  \n**Informação adicional**\n\n**Como gostaríamos que fosses?**\n\nCriar expositores que surpreendam os nossos clientes e, ao mesmo tempo, manter um bom funcionalmento da loja é uma função essencial na Primark. Necessitamos da pessoa adequada para este posto. Aqui está o que precisamos de ti:\n\n* Honestidade, boa comunicação e capacidade de escutar, partilhar ideias e envolver-se quando necessário.\n* Boa capacidade de organização e atenção aos detalhes.\n* Trabalho de equipa, elevado grau de motivação, uma atitude positiva e vontade de aprender.\n* Idealmente, experiência profissional num ambiente de retalho muito dinâmico.\n\nValorizamos os idiomas que conheças, incluindo a língua gestual. Não te esqueças de nos informar, pois isso ajudará a oferecer ao **cliente um ótimo serviço.**\n\n**Candidata-te hoje** para te juntares à nossa equipa!\n\nA Primark promove a igualdade de oportunidades no emprego.\n\nTal como a nossa moda, a nossa cultura adapta-se a cada individuo. Esforçamo-nos em criar um lugar de trabalho inclusivo onde as pessoas possam ser elas mesmas, aceder a oportunidades e crescerem juntas.  \n  \n#LI-DNI",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-02",
-    "languages": [],
-    "last_seen": "2026-11-02",
-    "lifecycle": {
-      "status": "active"
-    },
-    "location": "Lisboa, P11, Portugal",
-    "matched_keywords": [
-      "retail assistant",
-      "sera"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-10",
-    "score": 37,
-    "signals": [
-      "unskilled_role_match",
-      "tier_2_country"
-    ],
-    "source": "jobspy_indeed",
-    "source_id": "in-d287269a71212eb7",
-    "summary_ar": "الموقع: Lisboa, P11, Portugal\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "PT - Night Retail Assistant - Operador de Loja Turno da Noite (m/f)",
-    "title_en": "",
-    "translated": false,
-    "uid": "d7b0423f917c923d",
-    "url": "https://jobs.smartrecruiters.com/Primark/744000154836498-pt-night-retail-assistant-operador-de-loja-turno-da-noite-m-f-"
-  },
   "d7c2dc803eba9643": {
     "apply_channels": {
       "emails": [],
@@ -109587,7 +109997,7 @@
     "company": "SIES Napredne rešitve d.o.o., Ulica Lavžnik 19 , 5290 ŠEMPETER PRI GORICI",
     "country": "SI",
     "description": "SKLADIŠČNIK-PRODAJALEC, poskusno delo 2 meseca, Nedoločen čas , Polni delovni čas, 40, SPREJEM, IZDAJA IN SKLADIŠČENJE MATERIALA. SVETOVANJE IN PRODAJA STRANKAM. VODENJE SKLADIŠČNE DOKUMENTACIJE, IZVAJANJE RAZNIH SKLADIŠČNIH MANIPULACIJ PO NAVODILIH NADREJENIH. DNEVNASKRB ZA ORGANIZACIJO, PREGLEDNOST IN UREJENOST SKLADIŠČA. ZAŽELENO POZNAVANJEGRADBENIH MATERIALOV., ,",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -109595,7 +110005,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -109987,7 +110397,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Görlitz, SN, Germany",
@@ -110540,56 +110950,6 @@
     "translated": false,
     "uid": "da7ccaefd0799f00",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQzMjA4MCAxMw?lang=en",
-    "url_provenance": "",
-    "url_verified": null
-  },
-  "da9268527c69e06e": {
-    "apply_channels": {
-      "emails": [],
-      "phones": [],
-      "whatsapp_mentioned": false
-    },
-    "company": "",
-    "country": "NL",
-    "description": "Westerduin - › Medewerker Magazijn €2.700 - €3.000 Elst ⏰ 40 uur Fulltime Logistiek Schone werkomgeving Werken in een hecht team Mooi product Over de functie Heb jij ervaring in de logistiek en voel jij je thuis in een magazijnomgeving? Ben je daarnaast op zoek naar een functie met kans op een vast dienstverband? Lees dan snel verder! Als magazijnmedewerker speel je een belangrijke rol binnen het logistieke proces. Jij zorgt ervoor dat goederen op de juiste manier worden verwerkt en opgeslagen. Je werkzaamheden bestaan onder andere uit: - Laden en lossen van vrachtwagens met behulp van een heftruck; - Transporteren en opslaan van goederen binnen het magazijn; - Verzamelen van bestellingen en verzendklaar maken van orders; - Controleren van inkomende en uitgaande goederen en voorraadniveaus; - Zorgen voor een nette, veilige en georganiseerde werkomgeving. Je komt terecht in een klein team van drie collega's. Samen zijn jullie verantwoordelijk voor een efficiënt verloop van alle magazijnwerkzaamheden. De functie wordt uitgevoerd in een dagdienstrooster. Jouw nieuwe werkplek Je gaat aan de slag bij een organisatie in Elst die gespecialiseerd is in het produceren van maatwerkproducten voor de zonweringsindustrie. Binnen het bedrijf heerst een informele werksfeer en staan samenwerking en collegialiteit centraal. De locatie is eenvoudig bereikbaar vanuit onder andere Nijmegen en Arnhem. Daarnaast bevindt het bedrijf zich op korte afstand van station Elst. Dit bieden wij jou - Een bruto maandsalaris tussen €2.700 en €3.000; - Kans op een vast contract bij de opdrachtgever; - 25 vakantiedagen per jaar; - 8% vakantiegeld; - Pensioenopbouw vanaf je eerste werkdag; - Werken in dagdienst met stabiele werktijden; - Gratis veiligheidsschoenen via Westerduin. Dit vragen wij van jou - Je beschikt over een geldig heftruckcertificaat; - Je beheerst de Nederlandse en/of Engelse taal; - Je neemt graag initiatief en hebt een groot ve...",
-    "detail_fetched_at": "2026-11-08",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-07",
-    "glossary": [],
-    "languages": [
-      "nl"
-    ],
-    "last_seen": "2026-11-08",
-    "lifecycle": {
-      "missed_runs": 0,
-      "status": "active"
-    },
-    "location": "NL226",
-    "matched_keywords": [
-      "ett",
-      "magazijnmedewerker",
-      "magazijnwerk"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-10",
-    "score": 52,
-    "signals": [
-      "unskilled_role_match",
-      "agency_relocation_text_mention",
-      "tier_1_country"
-    ],
-    "source": "eures",
-    "source_id": "NWQ3NGIwNDYtNGU1OS05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy",
-    "source_review": {},
-    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: NL226\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "Medewerker Magazijn",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
-    "uid": "da9268527c69e06e",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ3NGIwNDYtNGU1OS05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy?lang=en",
     "url_provenance": "",
     "url_verified": null
   },
@@ -111329,6 +111689,8 @@
     "languages": [],
     "last_seen": "2026-11-09",
     "lifecycle": {
+      "dead_checks": 0,
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -111473,13 +111835,13 @@
     "company": "AIR CANTEEN ΑΕ",
     "country": "GR",
     "description": "**Θέση Εργασίας: Εργάτης αποθήκης** για καταστήματα εστίασης στο **Αεροδρόμιο της Αθήνας.**\n\nΗ **Air Canteen,** εταιρεία εστίασης που δραστηριοποιείται με καταστήματα εντός αεροδρομίων και άλλων κλειστών αγορών, αναζητά άτομα με θετική διάθεση και προσήλωση στην οργάνωση, που θα προσφέρουν στους ταξιδιώτες μια αξέχαστη εμπειρία.\n\nΩς **εργάτης αποθήκης** στα καταστήματά μας στο αεροδρόμιο, θα συμβάλλεις ενεργά στη σωστή λειτουργία της αποθήκης και στην εξυπηρέτηση των αναγκών των καταστημάτων. Τα καθήκοντά σου περιλαμβάνουν την παραλαβή και τον έλεγχο των παραδόσεων, τη διαχείριση των αποθεμάτων και τη διασφάλιση της ομαλής τροφοδοσίας των καταστημάτων. Αν είσαι οργανωτικός, προσεκτικός και σου αρέσει να εργάζεσαι σε ένα δυναμικό περιβάλλον, έλα στην ομάδα μας και βοήθησέ μας να προσφέρουμε στους ταξιδιώτες την καλύτερη εμπειρία!\n\n**Καθήκοντα:**\n\n* Παραλαβή και έλεγχος παραδόσεων\n* Τακτοποίηση και διαχείριση αποθεμάτων\n* Διασφάλιση της σωστής τροφοδοσίας των προϊόντων στα καταστήματα\n* Καταγραφή αποθεμάτων και έγκαιρη ενημέρωση για ελλείψεις\n* Πραγματοποίηση μηνιαίων και ετήσιων απογραφών με χρήση scanner\n* Συνεργασία με τις υπόλοιπες ομάδες για την υποστήριξη της ομαλής λειτουργίας των καταστημάτων\n\nΑπαραίτητα Προσόντα:\n\n* Προϋπηρεσία σε παρόμοια θέση (η εμπειρία στον χώρο της εστίασης θα θεωρηθεί επιπλέον προσόν)\n* Ικανότητα οργάνωσης και προσοχή στη λεπτομέρεια\n* Ικανότητα να εργαστείς υπό πίεση και να διαχειρίζεσαι πολλαπλά καθήκοντα\n* Δυνατότητα εργασίας σε βάρδιες\n* Ομαδικό πνεύμα και διάθεση για συνεργασία\n* Βασικές γνώσεις χειρισμού Η/Υ\n\nΠαροχές:\n\n* Ανταγωνιστικό πακέτο αποδοχών\n* Εξαιρετικό εργασιακό περιβάλλον και υποστήριξη στην επαγγελματική σου ανάπτυξη\n* Εκπαίδευση κι ευκαιρίες για εξέλιξη μέσα στην εταιρεία\n\nΑν πιστεύεις ότι η θετική σου διάθεση και η εμπειρία σου μπορούν να κάνουν τη διαφορά, ανυπομονούμε να σε γνωρίσουμε! Στείλε το βιογραφικό σου σήμερα και γίνε μέλος της ομάδας μας σε έναν χώρο γεμάτο προορισμούς και ευκαιρίες!",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -111491,7 +111853,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-02",
-    "score": 36,
+    "score": 33,
     "signals": [
       "unskilled_role_match",
       "tier_3_country",
@@ -111505,7 +111867,7 @@
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "25ef69d4c05e735a",
+    "uid": "dcd72f964e325a58",
     "url": "https://mycarriera.gr/view/751081.html",
     "url_provenance": "",
     "url_verified": null
@@ -112940,6 +113302,51 @@
     "url": "https://it.indeed.com/viewjob?jk=125e306304a5dd0a",
     "url_provenance": "reconstructed_from_source_key",
     "url_verified": false
+  },
+  "df8adef7f533f0e7": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "ΥΓΙΕΙΝΑ ΚΟΤΟΠΟΥΛΑ ΙΩΑΝΝΙΝΩΝ ΝΙΤΣΙΑΚΟΣ",
+    "country": "GR",
+    "description": "Ο Όμιλος Εταιρειών **ΝΙΤΣΙΑΚΟΣ** με κυρίαρχη θέση στην παραγωγή και επεξεργασία κρέατος, στην παραγωγή και εμπορία ζωοτροφών αλλά και στον ξενοδοχειακό κλάδο, αναζητεί για τις εγκαταστάσεις του στον **Ασπρόπυργο Αττικής**:\n\n* **Αποθηκάριο Πρωινής** **και Βραδινής βάρδιας**\n\nΑπαραίτητα Προσόντα:\n\n* Επιθυμητή εργασιακή εμπειρία σε περιβάλλον αποθήκης\n* Οργανωτικότητα, συνέπεια, προθυμία για εργασία\n\nΠαροχές:",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Αθήνα, GRI, Greece",
+    "matched_keywords": [
+      "εργατης αποθηκης"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-26",
+    "score": 30,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-4a7475fdaf723bc9",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Εργάτης Αποθήκης",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "df8adef7f533f0e7",
+    "url": "https://mycarriera.gr/view/748427.html",
+    "url_provenance": "",
+    "url_verified": null
   },
   "df96e667a12ea428": {
     "apply_channels": {
@@ -114938,7 +115345,7 @@
     "last_seen": "2026-11-09",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T06:37:11+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -119601,53 +120008,6 @@
     "url_provenance": "",
     "url_verified": null
   },
-  "ecdf7be7e2265a21": {
-    "apply_channels": {
-      "emails": [],
-      "phones": [],
-      "whatsapp_mentioned": false
-    },
-    "company": "",
-    "country": "NL",
-    "description": "Magazijnmedewerker DHL Express 9 - 15 uur per week €15,30 per uur Beschrijving Over de functie Als magazijnmedewerker DHL Express speel je een belangrijke rol in het logistieke proces en zorg je ervoor dat zendingen tijdig en correct worden verwerkt. Je werkt in een dynamische omgeving waar samenwerking, nauwkeurigheid en tempo centraal staan. Je werkzaamheden als magazijnmedewerker DHL Express bestaan uit: - Het laden van bestelbussen zodat chauffeurs op tijd kunnen vertrekken. - Het verwerken en controleren van inkomende zendingen. - Het sorteren van pakketten op de juiste bestemming binnen het magazijn. - Het ondersteunen van collega's bij uiteenlopende logistieke werkzaamheden. - Het zorgen voor een veilige, nette en georganiseerde werkomgeving. Als magazijnmedewerker DHL Express werk je samen met een betrokken team en draag je dagelijks bij aan een efficiënt logistiek proces. Het werk is afwisselend en fysiek actief, waardoor de dagen snel voorbijgaan. De werktijden zijn flexibel in te delen binnen de beschikbare diensten. Ochtenddiensten zijn op maandag van 07:30 tot 10:00 uur en van dinsdag tot en met vrijdag van 07:45 tot 10:00 uur. Avonddiensten zijn van 18:00 tot 20:00. Wat bieden we jou - Salaris van €15,30 bruto per uur conform CAO DHL Express. - Tijdelijk contract met uitzicht op een vast dienstverband. - Parttime dienstverband van 9 tot 15 uur per week. - Reiskostenvergoeding van €0,23 per kilometer (tot 40 km enkele reis). - Doorgroeimogelijkheden binnen een internationale organisatie met aandacht voor jouw ontwikkeling. - 8% vakantiegeld, opbouw van verlofuren en pensioenregeling. Functie-eisen - Je kunt pakketten tot 25 kg veilig tillen. - Je woont in de omgeving van Nieuw-Vennep. - Je bent minimaal 18 jaar oud. - Je bent beschikbaar op minimaal twee vaste dagen. - Je hebt een goede fysieke conditie. Over het bedrijf Als wereldwijd marktleider in expresvervoer en logistiek levert DHL Express oplossingen vo...",
-    "excluded": false,
-    "exclusion_reason": "",
-    "first_seen": "2026-11-04",
-    "glossary": [],
-    "languages": [
-      "nl"
-    ],
-    "last_seen": "2026-11-05",
-    "lifecycle": {
-      "status": "active"
-    },
-    "location": "NL363",
-    "matched_keywords": [
-      "ett",
-      "magazijnmedewerker",
-      "sorter"
-    ],
-    "notified_at": null,
-    "notified_telegram": false,
-    "posted_date": "2026-10-10",
-    "score": 52,
-    "signals": [
-      "unskilled_role_match",
-      "agency_relocation_text_mention",
-      "tier_1_country"
-    ],
-    "source": "eures",
-    "source_id": "NWQ3NGIwNDYtM2I4OC05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy",
-    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: NL363\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
-    "title": "Magazijnmedewerker DHL Express",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
-    "uid": "ecdf7be7e2265a21",
-    "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWQ3NGIwNDYtM2I4OC05NWI4LWUwNjMtNjg5M2IyMGFmMTI5IDQy?lang=en",
-    "url_provenance": "",
-    "url_verified": null
-  },
   "ed4e6ce0c8fb9a83": {
     "apply_channels": {
       "emails": [],
@@ -120671,7 +121031,7 @@
     "company": "ELAN, proizvodnja športnih izdelkov, d.o.o., Begunje na Gorenjskem 1 , 4275 BEGUNJE NA GORENJSKEM",
     "country": "SI",
     "description": "DELAVCI ZA PREPROSTA DELA V PREDELOVALNIH DEJAVNOSTIH, D. N., poskusno delo 1 mesec, Določen čas, 3 mesece, Polni delovni čas, 40, - Realizacija plana v okviru izmene - Nadzor nad kvaliteto izdelka - Izvedba meritev na izdelku po planu kontrole in vpis v kontrolno karto - Menjava orodij - Vodenje realizacije - Odprava manjših napak na strojih - Korekcija programov, izbira pravega programa za izdelavo - Druga dela in naloge po nalogu nadrejenega., , sobotno delo",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
@@ -120679,7 +121039,7 @@
     "languages": [
       "sl"
     ],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -120852,13 +121212,13 @@
     "company": "adBook – Write your Future",
     "country": "GR",
     "description": "Εταιρεία με έδρα τον Άγιο Δημλητριο ζητά για πλήρη απασχόληση **αποθηκάριο.**\n\n**Αρμοδιότητες:**\n\n* Φόρτωση εκφόρτωση παλετών\n* Συσκευασία\n* Κιβωτιοποίηση\n\nΑπαραίτητα Προσόντα:\n\n* Εμπειρία\n* Δίπλωμα οδήγησης Β' Κατηγορίας\n\nΠαροχές:\n\n* Φιλικό περιβάλλον εργασίας.\n* Ωράριο 08.00-16.00.",
-    "detail_fetched_at": "2026-11-08",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -120883,7 +121243,7 @@
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "c0268f94029b3c86",
+    "uid": "ef15fc9bbe8066e6",
     "url": "https://mycarriera.gr/view/746283.html",
     "url_provenance": "",
     "url_verified": null
@@ -121900,7 +122260,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE94F",
@@ -123408,7 +123768,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "Wilhelmsburg, N, Austria",
@@ -127125,7 +127485,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-09T18:20:14+00:00",
+      "last_live_check": "2026-11-10T03:37:29+00:00",
       "status": "active"
     },
     "location": "DE94F",
@@ -127822,6 +128182,52 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "fc99ab28ce163ab4": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "ΑΜΒΡΟΣΙΑΔΗΣ ΚΟΤΟΠΟΥΛΑ ΟΛΥΜΠΟΥ",
+    "country": "GR",
+    "description": "Η **Αμβροσιάδης ΑΒΕΕ** με έδρα την **Κατερίνη** επιθυμεί να προσλάβει **Υπάλληλο Αποθήκης.**\n\nΘέση εργασίας πλήρους απασχόλησης.\n\nΑπαραίτητα Προσόντα:\n\n* Εργατικότητα\n* Υπευθυνότητα\n\nΠαροχές:\n\n* Πλήρης απασχόληση",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Κατερίνη, GRB, Greece",
+    "matched_keywords": [
+      "εργατης αποθηκης"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-10-29",
+    "score": 33,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-b016229a8490f86e",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Εργάτης Αποθήκης",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "fc99ab28ce163ab4",
+    "url": "https://mycarriera.gr/view/749764.html",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "fcb474dddef38d30": {
     "apply_channels": {
       "emails": [],
@@ -128026,12 +128432,13 @@
     "company": "Smart Outsourcing",
     "country": "GR",
     "description": "1.300-1.750\n\nανά μήνα μικτά\n\n  \n\n**Κύριες Αρμοδιότητες:**\n\n* Συναρμολόγηση και μοντάρισμα μεταλλικών εξαρτημάτων και κατασκευών.\n* Τοποθέτηση, ευθυγράμμιση και στερέωση εξαρτημάτων.\n* Προσαρμογή και εφαρμογή των εξαρτημάτων σύμφωνα με τις απαιτήσεις της κατασκευής\n* Χρήση χειροκίνητων και ηλεκτρικών εργαλείων.\n* Έλεγχος της σωστής εφαρμογής και συναρμολόγησης.\n* Συνεργασία με την ομάδα παραγωγής.\n* Τήρηση των κανόνων υγιεινής και ασφάλειας.\n\n**Απαραίτητα Προσόντα:**\n\n* 2 έτη σχετικής επαγγελματικής εμπειρίας.\n* Εμπειρία σε συναρμολόγηση ή μοντάρισμα μεταλλικών κατασκευών.\n* Καλή γνώση χρήσης χειροκίνητων και ηλεκτρικών εργαλείων.\n* Βασική κατανόηση τεχνικών εργασιών και διαδικασιών συναρμολόγησης.\n* Ικανότητα κατανόησης και εφαρμογής τεχνικών οδηγιών.\n\n**Ωράριο:**\n\n* Δευτέρα - Παρασκευή,\n* 07:00–15:00, με 1 ώρα υπερεργασίας σε περίπτωση ανάγκης, η οποία αμείβεται ξεχωριστά.\n\n**Παροχές:**\n\n* **Καθαρός μηνιαίος μισθός:** **1100€ – 1350€**, ανάλογα των προσόντων\n* **Επίδομα σίτισης** **€120/μήνα (€6/ημέρα).**\n* Σύγχρονος μηχανολογικός εξοπλισμός.\n* Προοπτικές επαγγελματικής εξέλιξης.\n* Σύμβαση εργασίας αορίστου χρόνου\n\n#### **Σχετικές Ετικέτες**\n\nσυναρμολογητής μεταλλικών εξαρτημάτων επεξεργασία μετάλλου mechanical assembler manufacturing worker mechanical assembly metal components assembly metal structures assembly cnc manufacturing εργάτης συναρμολόγησης μονταδόρος μεταλλικών κατασκευών βιομηχανικές θέσεις εργασίας production technician industrial worker sheet metal fabrication aspropyrgos jobs assembly jobs θέσεις εργασίας ασπρόπυργος hand tools manufacturing jobs assembly operative τεχνίτες συναρμολόγησης τεχνίτης παραγωγής βιομηχανικός εργάτης χρήση ηλεκτρικών εργαλείων metal assembly worker power tools industrial production production line worker τεχνικός συναρμολόγησης βιομηχανική παραγωγή production worker machine shop worker technical assembly τεχνίτης συναρμολόγησης τεχνικές εργασίες θέσεις εργασίας παραγωγής τεχνίτης μεταλλικών κατασκευών εργάτης παραγωγής συναρμολόγηση μεταλλικών κατασκευών assembly worker metal fabrication technician metal fabrication manufacturing industrial jobs greece μοντάρισμα μεταλλικών εξαρτημάτων μεταλλικές κατασκευές χρήση χειροκίνητων εργαλείων εργασία ασπρόπυργος assembly technician metal fabrication assembler metalworking",
+    "detail_fetched_at": "2026-11-10",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-06",
+    "last_seen": "2026-11-10",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -128054,12 +128461,12 @@
     "source": "jobspy_indeed",
     "source_id": "in-aef2bfb5f21e76cc",
     "source_review": {},
-    "summary_ar": "",
+    "summary_ar": "الموقع: Ασπρόπυργος, GRI, Greece\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Τεχνίτες Συναρμολόγησης - ΑΣΠΡΟΠΥΡΓΟΣ",
     "title_ar": "",
     "title_en": "",
     "translated": false,
-    "uid": "b54f36e748c2fe4c",
+    "uid": "fce3bc291bef4f19",
     "url": "https://www.kariera.gr/jobs/technicians-or-service-jobs/354792",
     "url_provenance": "",
     "url_verified": null
@@ -128104,6 +128511,54 @@
     "translated": false,
     "uid": "fce58637dfa25808",
     "url": "https://oferty.praca.gov.pl/portal/wyszukiwarka-ofert/oferta?id=2e5b9d1d07af7e454b456f7c81232cb6",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "fcf95201b94360f9": {
+    "apply_channels": {
+      "emails": [
+        "hrdistributiongroup@tsakirismallas.gr"
+      ],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "ΤΣΑΚΙΡΗΣ ΜΑΛΛΑΣ ΑΕ",
+    "country": "GR",
+    "description": "1.050-1.100\n\nανά μήνα μικτά\n\n  \n\nΗ TSAKIRIS MALLAS από το 1969, κατέχει ηγετική θέση στον κλάδο της υπόδησης στην Ελλάδα, συνδυάζοντας πολυετή εμπειρία και υψηλή ποιότητα με τη σύγχρονη αισθητική και τις διεθνείς τάσεις της μόδας.\n  \nΜε ένα εκτεταμένο δίκτυο καταστημάτων στην Ελλάδα, ένα σύγχρονο ηλεκτρονικό κατάστημα και εξαγωγική δραστηριότητα σε 23 χώρες, η εταιρεία συνεχίζει να αναπτύσσεται δυναμικά, διατηρώντας παράλληλα την παραγωγική της δραστηριότητα στην Αθήνα και την παράδοση της ελληνικής υποδηματοποιίας.\n  \nΣτο πλαίσιο της συνεχούς ανάπτυξής της, η TSAKIRIS MALLAS επενδύει στους ανθρώπους της, προσφέροντας ένα σύγχρονο, δυναμικό και δημιουργικό εργασιακό περιβάλλον με ευκαιρίες επαγγελματικής εξέλιξης.\n\nΑναζητούμε: Εργάτη Κεντρικης Αποθήκης στον Ασπρόπυργο (πρωινή βάρδια)\n  \nΒασικά Καθήκοντα:\n\n* Παραλαβή προϊόντων από καταστήματα και προμηθευτές\n* Έλεγχος και επιβεβαίωση συσκευασιών\n* Διαχείριση ενδοδιακινήσεων\n* Φόρτωση και εκφόρτωση εμπορευμάτων\n  \n\nΑπαραίτητα Προσόντα:\n\n* Εκπληρωμένες στρατιωτικές υποχρεώσεις\n* Απόφοιτος Λυκείου\n* Επιθυμητή εμπειρία σε αντίστοιχη θέση\n\nΠροσφέρουμε :\n  \n\n* Συνεπές και Ικανοποιητικό πακέτο αποδοχών αναλόγως προσόντων και προϋπηρεσίας\n* Άριστες συνθήκες εργασίας σε ένα σύγχρονο και οργανωμένο περιβάλλον που έχει ως βάση τον αλληλοσεβασμό μεταξύ των συνεργατών\n* Παροχή μετακίνησης με Εταιρικά Μέσα από και προς τον σταθμό Προαστιακού Ασπροπύργου\n* Πρόσθετη ιδιωτική ιατροφαρμακευτική ασφάλιση.\n* Συνεχής εξέλιξη σ’ ένα χώρο που ολοένα εμφανίζει νέες θέσεις εργασίας, λόγω της ραγδαίας ανάπτυξης του Ομίλου\n* Επιπλέον παροχές αποκλειστικά για τους εργαζόμενους του Ομίλου\n\nΑποστολή βιογραφικών στο e-mail: HrDistributionGroup@tsakirismallas.gr\n  \nΤα δεδομένα προσωπικού χαρακτήρα σε αιτήσεις ή βιογραφικά χρησιμοποιούνται από τη Tsakiri Mallas AE περιοριστικά για τη διερεύνηση κάλυψης θέσεων εργασίας, διατηρούνται απολύτως εμπιστευτικά και διαγράφονται μετά πάροδο 6 μηνών από την παραλαβή τους.\n\n#### **Σχετικές Ετικέτες**\n\nαποθήκη, picker,packing,scanning,καταχωρήσειςπαραλαβέςεκπαιδευση προσωπικουελεγχος διαθεσιμοτητας αποθηκης & αποστολες-επιστροφες",
+    "detail_fetched_at": "2026-11-10",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-10",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-10",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Ασπρόπυργος, GRI, Greece",
+    "matched_keywords": [
+      "picker"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-04",
+    "score": 36,
+    "signals": [
+      "unskilled_role_match",
+      "tier_3_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-820f4c477b828ce9",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Εργάτης Κεντρικής Αποθήκης στον Ασπρόπυργο (πρωινή βάρδια)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "fcf95201b94360f9",
+    "url": "https://www.kariera.gr/jobs/logistics-or-warehouse-jobs/358215",
     "url_provenance": "",
     "url_verified": null
   },
