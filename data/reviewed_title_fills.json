@@ -1,7 +1,7 @@
 {
   "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json.",
-  "updated_on": "2026-11-09",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json.",
+  "updated_on": "2026-11-10",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -925,6 +925,150 @@
       "translated": true,
       "review": "data/title_review_batch25.json",
       "title_ar": "عامل مستودع"
+    },
+    {
+      "uid": "113bc8054a662fc1",
+      "expected_title": "Kommissionierer - Holzfachhandel (m/w/d) (Kommissionierer/in)",
+      "title_en": "Order picker - timber trade (m/f/d) (order picker)",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "مُجمّع طلبات - تجارة الأخشاب (ذ/أ) (مُجمّع/ة طلبات)"
+    },
+    {
+      "uid": "116c9e10fafbab28",
+      "expected_title": "Magazynier (m/k)",
+      "title_en": "Warehouse worker (m/f)",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "عامل مستودع (ذ/أ)"
+    },
+    {
+      "uid": "11a32e0b4944cde9",
+      "expected_title": "Lagermedarbetare sökes till returhantering!",
+      "title_en": "Warehouse worker wanted for returns handling!",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "مطلوب عامل مستودع لمعالجة المرتجعات!"
+    },
+    {
+      "uid": "11b2313bf2ce8b65",
+      "expected_title": "MUNCITOR NECALIFICAT LA DEMOLAREA CLADIRILOR, CAPTUSELI ZIDARIE, PLACI MOZAIC, FAIANTA, GRESIE, PARCHET",
+      "title_en": "UNSKILLED WORKER FOR BUILDING DEMOLITION, CLADDING, MASONRY, MOSAIC TILES, FAIENCE, GLAZED TILES, PARQUET",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "عامل غير مؤهل في هدم المباني والتكسية وأعمال البناء وبلاط الفسيفساء والفاينس والخزف والباركيه"
+    },
+    {
+      "uid": "11bb0438b224307f",
+      "expected_title": "Magasinier(e) pièces de rechange motos (H/F)",
+      "title_en": "Warehouse clerk - motorcycle spare parts (M/F)",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "أمين مستودع قطع غيار دراجات نارية (ذ/أ)"
+    },
+    {
+      "uid": "11d1a0f067a0baf4",
+      "expected_title": "skladník (m/ž), Skladníci, obsluha manipulačních vozíků",
+      "title_en": "Warehouse worker (m/f), warehouse workers, handling-truck operators",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "عامل مستودع (ذ/أ)، عمال مستودعات، مشغلو عربات المناولة"
+    },
+    {
+      "uid": "123ae2968b4a7582",
+      "expected_title": "Magasinier - Préparateur de commandes / Livreur H/F (H/F)",
+      "title_en": "Warehouse clerk - order picker / delivery driver (M/F)",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "أمين مستودع - مُجمّع طلبات / سائق توصيل (ذ/أ)"
+    },
+    {
+      "uid": "127d63882016157d",
+      "expected_title": "Lagerhelfer (m/w/d) in Vollzeit (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper (m/f/d) full-time (helper - warehousing, transport)",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "مساعد مستودع (ذ/أ) بدوام كامل (مساعد - تخزين ونقل)"
+    },
+    {
+      "uid": "12ec49b7b412db32",
+      "expected_title": "Mechatroniker / Elektriker (m/w/d) für den Bereich Instandhaltung (20,90 Euro - 23,08 Euro / Std.) (Mechatroniker/in)",
+      "title_en": "Mechatronics technician / electrician (m/f/d) for maintenance (EUR 20.90 - 23.08 / hour) (mechatronics technician)",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "فني ميكاترونيك / كهربائي (ذ/أ) لأعمال الصيانة (20.90 - 23.08 يورو / ساعة) (فني/ة ميكاترونيك)"
+    },
+    {
+      "uid": "12f6696d4586c574",
+      "expected_title": "Lagerhelfer (gn)  (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper (all genders) (helper - warehousing, transport)",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "مساعد مستودع (جميع الجنسين) (مساعد - تخزين ونقل)"
+    },
+    {
+      "uid": "1317c9b26ff6b978",
+      "expected_title": "Magazijnier",
+      "title_en": "Warehouse worker",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "عامل مستودع"
+    },
+    {
+      "uid": "135e625478a3cb60",
+      "expected_title": "Verpackungshelfer (m/w/d) (Helfer/in - Papier, Verpackung)",
+      "title_en": "Packing helper (m/f/d) (helper - paper, packaging)",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "مساعد تغليف (ذ/أ) (مساعد - ورق وتغليف)"
+    },
+    {
+      "uid": "1396e6e34556a791",
+      "expected_title": "SKLADIŠČNIK - M/Ž",
+      "title_en": "WAREHOUSE WORKER - M/F",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "عامل مستودع - ذ/أ"
+    },
+    {
+      "uid": "13be2aec76e31684",
+      "expected_title": "Tuotanto- ja varastotyöntekijä",
+      "title_en": "Production and warehouse worker",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "عامل إنتاج ومستودع"
+    },
+    {
+      "uid": "13d50c98bf49b815",
+      "expected_title": "Lagerpersonal sökes",
+      "title_en": "Warehouse staff wanted",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "مطلوب طاقم مستودع"
+    },
+    {
+      "uid": "13fab2aa704e75d4",
+      "expected_title": "Ecotel - Magasinier vendeur / Magasinière vendeuse (H/F)",
+      "title_en": "Ecotel - warehouse sales clerk (M/F)",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "إكوتيل - أمين مستودع وبائع (ذ/أ)"
+    },
+    {
+      "uid": "141193a921baa53a",
+      "expected_title": "Aushilfen auf Minijob-Basis gesucht (m/w/d) (Fachkraft - Lagerlogistik)",
+      "title_en": "Helpers wanted on a minijob basis (m/f/d) (warehouse logistics clerk)",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "مطلوب مساعدون بعقود ميني جوب (ذ/أ) (موظف لوجستيات مستودعات)"
+    },
+    {
+      "uid": "14174ad5e9a793ce",
+      "expected_title": "Pracovníci v sklade",
+      "title_en": "Warehouse workers",
+      "translated": true,
+      "review": "data/title_review_batch26.json",
+      "title_ar": "عمال مستودع"
     }
   ]
 }
