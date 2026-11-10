@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-10",
+  "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. All 18 candidates in this window returned HTTP 200 with exact title matches, so nothing was held. The five previously held postings (00cfb0e9af186fce, 0c10c84afe31213a, 0dad6f50ad84127b, 108f2edcfb6b67d8, 112d65cfb3e268bf) were skipped and remain held. No candidate in this window carried the legacy partial-AR marker, so no overwrite:true fills were needed.",
+  "reviews": [
+    {
+      "uid": "113bc8054a662fc1",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU4NTAyMzAtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: timber-trade company in Friedrichshain (Berlin) hiring order pickers / warehouse helpers full-time, 2-shift system, EUR 18.82/h plus shift bonuses."
+    },
+    {
+      "uid": "116c9e10fafbab28",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MjA4NjUgMTI?lang=en",
+      "note": "Live EURES title matches stored. Body: goods receipt and issue, loading/unloading, stock storage and picking; secondary education required."
+    },
+    {
+      "uid": "11a32e0b4944cde9",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM3OTUzNyAxMjE?lang=en",
+      "note": "Live EURES title matches stored. Body: warehouse role focused on returns handling at a client site in Boras; receiving and checking incoming returns."
+    },
+    {
+      "uid": "11b2313bf2ce8b65",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzM3NzUzNCAxMw?lang=en",
+      "note": "Live EURES title matches stored. Body: 14 unskilled construction-labor posts in Carcea, Dolj county; permanent contract, entry level (1-3 years), primary education. Construction labor, not warehouse - translated as posted."
+    },
+    {
+      "uid": "11bb0438b224307f",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1RFlNSyA5?lang=en",
+      "note": "Live EURES title matches stored. Body: COTTARD BIKE, Kawasaki dealer in Maromme (76150); daily parts receipt/stocking and workshop supply."
+    },
+    {
+      "uid": "11d1a0f067a0baf4",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUxNzcyNDA3MDMgNg?lang=en",
+      "note": "Live EURES title matches stored. Body: warehouse worker or auxiliary laborer; forklift operation required, first contact by phone."
+    },
+    {
+      "uid": "123ae2968b4a7582",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1RkpaUiA5?lang=en",
+      "note": "Live EURES title matches stored. Body: Inox Service Distribution (ISD), stainless-steel distributor in the Grand Est; order preparation plus delivery rounds."
+    },
+    {
+      "uid": "127d63882016157d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTgyMjMtRkNVOTZUUUdVNzNJWEJHNC1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: PERSUS Personal GmbH staffing; full-time warehouse helper role."
+    },
+    {
+      "uid": "12ec49b7b412db32",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwMzk3ODkxMS1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: skilled maintenance position (mechatronics / electrician) via a northern-Germany staffing company, EUR 20.90-23.08/h. Skilled trade, not unskilled warehouse - translated as posted, same as the IE underwriter precedent."
+    },
+    {
+      "uid": "12f6696d4586c574",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTEwODEtU0JTNDNBUklNQ0RMTFJQRC1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Manpower Cologne logistics client, job ID 5575; full-time 35-40 h/week, start 03.12.2025 per posting text."
+    },
+    {
+      "uid": "1317c9b26ff6b978",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ZTdhMzU0MTktMjM4Ni00OTQyLTllN2UtODQxNmExYjlhNTM3IDM?lang=en",
+      "note": "Live EURES title matches stored. Body: warehouse worker with technical aptitude at an innovative sweeping/cleaning-machines company."
+    },
+    {
+      "uid": "135e625478a3cb60",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQwNDAtRzVJTlJCQVkxRERNV1VaMi1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: spp direkt staffing; packing helper / warehouse helper / order picker roles at client companies."
+    },
+    {
+      "uid": "1396e6e34556a791",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ5NDI0NSAxNA?lang=en",
+      "note": "Live EURES title matches stored. Body: goods receipt and issue (weighing, declaring, unloading, loading); probationary period then permanent, full-time 40 h, second shift with short offset."
+    },
+    {
+      "uid": "13be2aec76e31684",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzAyZjQ5YTctYTk1Mi00MWZkLWJkOWUtYzQ0Mzg3MmJkYmQ2IDgx?lang=en",
+      "note": "Live EURES title matches stored. Body: assembly and manufacture of ventilation filters, quality checking and packing, goods receipt/storage, order picking, packing and dispatch."
+    },
+    {
+      "uid": "13d50c98bf49b815",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM4MDUyNSAxMjE?lang=en",
+      "note": "Live EURES title matches stored. Body: self-driven warehouse worker for a full-time assignment starting as soon as possible; prior warehouse experience asked."
+    },
+    {
+      "uid": "13fab2aa704e75d4",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ODY3ODI2OCA5?lang=en",
+      "note": "Live EURES title matches stored. Body: EH Annecy store; hybrid warehouse/sales role keeping the shop running and serving customers daily."
+    },
+    {
+      "uid": "141193a921baa53a",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTMyMzItUUZVRjRHOUxPQTg2Tk1FTS1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Convent Personalmanagement GmbH staffing; minijob-basis helpers."
+    },
+    {
+      "uid": "14174ad5e9a793ce",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDAwMDAzMDk5MzgyOSA0MQ?lang=en",
+      "note": "Live EURES title matches stored. Body: goods receipt, checking and storage; quantity/quality control against delivery documents; order preparation, packing and dispatch."
+    }
+  ]
+}
