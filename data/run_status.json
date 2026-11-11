@@ -5,7 +5,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -88,7 +88,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -173,7 +173,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -217,7 +217,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 29,
+        "fetched": 31,
         "notes": [],
         "status": "ok"
       },
@@ -258,7 +258,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -347,7 +347,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -496,19 +496,25 @@
       },
       "telegram_channels": {
         "errors": [],
-        "fetched": 0,
+        "fetched": 22,
         "notes": [],
         "status": "ok"
       }
     },
     "RO": {
       "anyworkanywhere": {
-        "errors": [],
+        "errors": [
+          "page https://www.anyworkanywhere.com/job/swedish-ai-data-rater/: GET https://www.anyworkanywhere.com/job/swedish-ai-data-rater/ failed after 3 attempts: transient HTTP 500",
+          "page https://www.anyworkanywhere.com/job/dutch-content-curator-at-google-work-from-sunny-portugal-2/: GET https://www.anyworkanywhere.com/job/dutch-content-curator-at-google-work-from-sunny-portugal-2/ failed after 3 attempts: transient HTTP 500",
+          "page https://www.anyworkanywhere.com/job/fashion-support-consultant-finnish-speaking-on-site-mh01/: GET https://www.anyworkanywhere.com/job/fashion-support-consultant-finnish-speaking-on-site-mh01/ failed after 3 attempts: transient HTTP 500",
+          "page https://www.anyworkanywhere.com/job/german-and-swedish-speaking-customer-service-advisors/: GET https://www.anyworkanywhere.com/job/german-and-swedish-speaking-customer-service-advisors/ failed after 3 attempts: transient HTTP 500",
+          "page https://www.anyworkanywhere.com/job/sales-representative-danish-in-lisbon-w-relocation-pack/: GET https://www.anyworkanywhere.com/job/sales-representative-danish-in-lisbon-w-relocation-pack/ failed after 3 attempts: transient HTTP 500"
+        ],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
-        "status": "ok"
+        "status": "failed"
       },
       "covebo": {
         "errors": [],
@@ -550,7 +556,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 15,
+        "fetched": 13,
         "notes": [],
         "status": "ok"
       },
@@ -591,7 +597,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -676,8 +682,8 @@
       }
     }
   },
-  "duration_sec": 837.7,
-  "last_run_utc": "2026-11-11T06:30:36+00:00",
+  "duration_sec": 933.9,
+  "last_run_utc": "2026-11-11T18:24:19+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-11T03:45:54+00:00",
@@ -1052,13 +1058,13 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-11T06:30:36+00:00",
+      "checked_at_utc": "2026-11-11T18:24:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1138,13 +1144,13 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-11T06:30:36+00:00",
+      "checked_at_utc": "2026-11-11T18:24:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1866,13 +1872,13 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-11T06:30:36+00:00",
+      "checked_at_utc": "2026-11-11T18:24:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1916,7 +1922,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 29,
+          "fetched": 31,
           "notes": [],
           "status": "ok"
         },
@@ -2130,13 +2136,13 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-11T06:30:36+00:00",
+      "checked_at_utc": "2026-11-11T18:24:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2510,13 +2516,13 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-11T06:30:36+00:00",
+      "checked_at_utc": "2026-11-11T18:24:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2592,7 +2598,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-11T06:30:36+00:00",
+      "checked_at_utc": "2026-11-11T18:24:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2668,7 +2674,7 @@
         },
         "telegram_channels": {
           "errors": [],
-          "fetched": 0,
+          "fetched": 22,
           "notes": [],
           "status": "ok"
         }
@@ -2763,15 +2769,21 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-11T06:30:36+00:00",
+      "checked_at_utc": "2026-11-11T18:24:19+00:00",
       "sources": {
         "anyworkanywhere": {
-          "errors": [],
+          "errors": [
+            "page https://www.anyworkanywhere.com/job/swedish-ai-data-rater/: GET https://www.anyworkanywhere.com/job/swedish-ai-data-rater/ failed after 3 attempts: transient HTTP 500",
+            "page https://www.anyworkanywhere.com/job/dutch-content-curator-at-google-work-from-sunny-portugal-2/: GET https://www.anyworkanywhere.com/job/dutch-content-curator-at-google-work-from-sunny-portugal-2/ failed after 3 attempts: transient HTTP 500",
+            "page https://www.anyworkanywhere.com/job/fashion-support-consultant-finnish-speaking-on-site-mh01/: GET https://www.anyworkanywhere.com/job/fashion-support-consultant-finnish-speaking-on-site-mh01/ failed after 3 attempts: transient HTTP 500",
+            "page https://www.anyworkanywhere.com/job/german-and-swedish-speaking-customer-service-advisors/: GET https://www.anyworkanywhere.com/job/german-and-swedish-speaking-customer-service-advisors/ failed after 3 attempts: transient HTTP 500",
+            "page https://www.anyworkanywhere.com/job/sales-representative-danish-in-lisbon-w-relocation-pack/: GET https://www.anyworkanywhere.com/job/sales-representative-danish-in-lisbon-w-relocation-pack/ failed after 3 attempts: transient HTTP 500"
+          ],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
-          "status": "ok"
+          "status": "failed"
         },
         "covebo": {
           "errors": [],
@@ -2813,7 +2825,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 15,
+          "fetched": 13,
           "notes": [],
           "status": "ok"
         },
@@ -3031,13 +3043,13 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-11T06:30:36+00:00",
+      "checked_at_utc": "2026-11-11T18:24:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -3152,49 +3164,53 @@
     "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 164,
-    "candidates_stored": 164,
+    "candidates_held_total": 176,
+    "candidates_stored": 176,
     "sealed": true,
-    "sha256": "54a373b30d3e5c7a8b98f5228f419e399c28477d4bd154a73a2411543ce0aee2"
+    "sha256": "b632e6eb35d7dd2efe0f40c1d98190406f42b64e182925310b51acc257a189b5"
   },
   "source_retention": {
     "kept_pre_prune": {
       "covebo": 2,
       "czech_mpsv": 4,
-      "eures": 175,
+      "eures": 182,
       "goodmorning": 5,
       "hobij": 5,
-      "jobspy_indeed": 190,
+      "jobspy_indeed": 183,
       "nl_jobs": 1,
-      "pl_cbop": 50
+      "pl_cbop": 50,
+      "telegram_polandworkportal": 1,
+      "telegram_teealpl": 11
     },
     "retained_post_prune": {
       "czech_mpsv": 4,
-      "eures": 146,
-      "jobspy_indeed": 190,
-      "pl_cbop": 50
+      "eures": 147,
+      "jobspy_indeed": 183,
+      "pl_cbop": 50,
+      "telegram_polandworkportal": 1,
+      "telegram_teealpl": 11
     }
   },
   "totals": {
-    "active": 3093,
-    "below_min_score": 23,
-    "contacts_extracted": 115,
-    "excluded": 256,
-    "fetched": 744,
-    "l1_dropped": 1,
+    "active": 3144,
+    "below_min_score": 20,
+    "contacts_extracted": 116,
+    "excluded": 266,
+    "fetched": 766,
+    "l1_dropped": 2,
     "l2_language_excluded": 3,
     "lifecycle_deactivated": 0,
     "lifecycle_deactivated_total": 65,
-    "lifecycle_dead_confirmed": 0,
-    "lifecycle_live_confirmed": 40,
+    "lifecycle_dead_confirmed": 1,
+    "lifecycle_live_confirmed": 39,
     "lifecycle_reactivated": 0,
-    "new": 87,
+    "new": 51,
     "notified_telegram": 0,
-    "pruned": 4,
+    "pruned": 0,
     "reviewed_fills": 6,
     "translated_ar": 0,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 320
+    "updated": 365
   }
 }
