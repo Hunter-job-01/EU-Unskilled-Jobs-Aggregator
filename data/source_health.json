@@ -36,21 +36,19 @@
       "status": "ok"
     },
     "anyworkanywhere|BG": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "BG",
-      "duration_sec": 20.5,
+      "duration_sec": 55.4,
       "errors": [],
-      "fetched": 0,
+      "fetched": 1,
       "kept": 0,
-      "notes": [
-        "reused 1498 sitemap urls fetched earlier this run"
-      ],
+      "notes": [],
       "source": "anyworkanywhere",
       "stats": {
-        "expired_skipped": 1,
         "other_country": 9,
         "pages_fetched": 10,
-        "urls_consumed": 20
+        "sitemap_urls": 1500,
+        "urls_consumed": 10
       },
       "status": "ok"
     },
@@ -126,20 +124,20 @@
       "status": "ok"
     },
     "anyworkanywhere|EE": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "EE",
-      "duration_sec": 20.1,
+      "duration_sec": 21.9,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1498 sitemap urls fetched earlier this run"
+        "reused 1500 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
         "other_country": 10,
         "pages_fetched": 10,
-        "urls_consumed": 60
+        "urls_consumed": 20
       },
       "status": "ok"
     },
@@ -308,21 +306,20 @@
       "status": "ok"
     },
     "anyworkanywhere|LU": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "LU",
-      "duration_sec": 20.6,
+      "duration_sec": 21.5,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1498 sitemap urls fetched earlier this run"
+        "reused 1500 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
-        "expired_skipped": 1,
-        "other_country": 9,
+        "other_country": 10,
         "pages_fetched": 10,
-        "urls_consumed": 100
+        "urls_consumed": 30
       },
       "status": "ok"
     },
@@ -986,7 +983,7 @@
       "status": "skipped"
     },
     "covebo|BG": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "BG",
       "duration_sec": 0.0,
       "errors": [],
@@ -1056,7 +1053,7 @@
       "status": "skipped"
     },
     "covebo|EE": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "EE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1196,7 +1193,7 @@
       "status": "skipped"
     },
     "covebo|LU": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "LU",
       "duration_sec": 0.0,
       "errors": [],
@@ -1742,18 +1739,25 @@
       "status": "ok"
     },
     "eures|BG": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "BG",
-      "duration_sec": 33.4,
-      "errors": [],
-      "fetched": 50,
-      "kept": 10,
+      "duration_sec": 124.9,
+      "errors": [
+        "keyword 'складов работник': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'опаковчик': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'работник в производство': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'общ работник': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'чистач': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'кухненски помощник': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'камериерка': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'оранжерия': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search"
+      ],
+      "fetched": 0,
+      "kept": 0,
       "notes": [],
       "source": "eures",
-      "stats": {
-        "early_title_excluded": 7
-      },
-      "status": "ok"
+      "stats": {},
+      "status": "failed"
     },
     "eures|CY": {
       "checked_at_utc": "2026-11-10T03:39:01+00:00",
@@ -1804,16 +1808,25 @@
       "status": "ok"
     },
     "eures|EE": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "EE",
-      "duration_sec": 7.3,
-      "errors": [],
-      "fetched": 50,
-      "kept": 35,
+      "duration_sec": 126.9,
+      "errors": [
+        "keyword 'laotootaja': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'pakkija': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'tootmisoperaator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'komplekteerija': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'koristaja': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'abitooline': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'toateenindaja': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'kasvuhoone': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search"
+      ],
+      "fetched": 0,
+      "kept": 0,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "ok"
+      "status": "failed"
     },
     "eures|ES": {
       "checked_at_utc": "2026-11-10T05:42:04+00:00",
@@ -1934,18 +1947,25 @@
       "status": "ok"
     },
     "eures|LU": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "LU",
-      "duration_sec": 39.7,
-      "errors": [],
-      "fetched": 50,
-      "kept": 22,
+      "duration_sec": 124.5,
+      "errors": [
+        "keyword 'magasinier': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'preparateur de commandes': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'agent de production': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'emballeur': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'manutentionnaire': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'operateur de production': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'agent de nettoyage': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
+        "keyword 'manoeuvre': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search"
+      ],
+      "fetched": 0,
+      "kept": 0,
       "notes": [],
       "source": "eures",
-      "stats": {
-        "early_title_excluded": 13
-      },
-      "status": "ok"
+      "stats": {},
+      "status": "failed"
     },
     "eures|LV": {
       "checked_at_utc": "2026-11-11T03:45:54+00:00",
@@ -2090,7 +2110,7 @@
       "status": "skipped"
     },
     "goodmorning|BG": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "BG",
       "duration_sec": 0.0,
       "errors": [],
@@ -2160,7 +2180,7 @@
       "status": "skipped"
     },
     "goodmorning|EE": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "EE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2300,7 +2320,7 @@
       "status": "skipped"
     },
     "goodmorning|LU": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "LU",
       "duration_sec": 0.0,
       "errors": [],
@@ -2471,7 +2491,7 @@
       "status": "skipped"
     },
     "hobij|BG": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "BG",
       "duration_sec": 0.0,
       "errors": [],
@@ -2541,7 +2561,7 @@
       "status": "skipped"
     },
     "hobij|EE": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "EE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2681,7 +2701,7 @@
       "status": "skipped"
     },
     "hobij|LU": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "LU",
       "duration_sec": 0.0,
       "errors": [],
@@ -2848,9 +2868,9 @@
       "status": "ok"
     },
     "jobspy|BG": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "BG",
-      "duration_sec": 0.0,
+      "duration_sec": 1.4,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -2912,7 +2932,7 @@
       "status": "ok"
     },
     "jobspy|EE": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "EE",
       "duration_sec": 0.0,
       "errors": [],
@@ -3038,12 +3058,12 @@
       "status": "skipped"
     },
     "jobspy|LU": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "LU",
-      "duration_sec": 28.3,
+      "duration_sec": 23.1,
       "errors": [],
-      "fetched": 34,
-      "kept": 21,
+      "fetched": 36,
+      "kept": 17,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3194,7 +3214,7 @@
       "status": "skipped"
     },
     "latvia_nva|BG": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "BG",
       "duration_sec": 0.0,
       "errors": [],
@@ -3264,7 +3284,7 @@
       "status": "skipped"
     },
     "latvia_nva|EE": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "EE",
       "duration_sec": 0.0,
       "errors": [],
@@ -3404,7 +3424,7 @@
       "status": "skipped"
     },
     "latvia_nva|LU": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "LU",
       "duration_sec": 0.0,
       "errors": [],
@@ -3611,15 +3631,13 @@
       "status": "ok"
     },
     "nl_jobs|BG": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "BG",
-      "duration_sec": 2.6,
+      "duration_sec": 3.3,
       "errors": [],
       "fetched": 0,
       "kept": 0,
-      "notes": [
-        "reused 17 sitemap urls fetched earlier this run"
-      ],
+      "notes": [],
       "source": "nl_jobs",
       "stats": {
         "delta_skipped": 11,
@@ -3639,6 +3657,7 @@
         "index_count": 17,
         "other_country": 2,
         "pages_fetched": 6,
+        "sitemap_urls": 17,
         "unparsable_pages": 4
       },
       "status": "ok"
@@ -3775,7 +3794,7 @@
       "status": "ok"
     },
     "nl_jobs|EE": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "EE",
       "duration_sec": 2.6,
       "errors": [],
@@ -4103,9 +4122,9 @@
       "status": "ok"
     },
     "nl_jobs|LU": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "LU",
-      "duration_sec": 2.7,
+      "duration_sec": 2.3,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4459,7 +4478,7 @@
       "status": "skipped"
     },
     "ottoworkforce|BG": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "BG",
       "duration_sec": 0.0,
       "errors": [],
@@ -4529,7 +4548,7 @@
       "status": "skipped"
     },
     "ottoworkforce|EE": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "EE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4669,7 +4688,7 @@
       "status": "skipped"
     },
     "ottoworkforce|LU": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "LU",
       "duration_sec": 0.0,
       "errors": [],
@@ -4848,7 +4867,7 @@
       "status": "skipped"
     },
     "pl_cbop|BG": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "BG",
       "duration_sec": 0.0,
       "errors": [],
@@ -4918,7 +4937,7 @@
       "status": "skipped"
     },
     "pl_cbop|EE": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "EE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5058,7 +5077,7 @@
       "status": "skipped"
     },
     "pl_cbop|LU": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "LU",
       "duration_sec": 0.0,
       "errors": [],
@@ -5226,7 +5245,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|BG": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "BG",
       "duration_sec": 0.0,
       "errors": [],
@@ -5296,7 +5315,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|EE": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "EE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5436,7 +5455,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|LU": {
-      "checked_at_utc": "2026-11-08T04:38:39+00:00",
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
       "country": "LU",
       "duration_sec": 0.0,
       "errors": [],
@@ -5746,6 +5765,12 @@
   },
   "recent_runs": [
     {
+      "checked_at_utc": "2026-11-12T03:48:27+00:00",
+      "failing": 3,
+      "label": "tier=3 sources=anyworkanywhere,covebo,eures,goodmorning,hobij,jobspy,latvia_nva,nl_jobs,ottoworkforce,pl_cbop,sweden_jobsearch",
+      "source_country_records": 33
+    },
+    {
       "checked_at_utc": "2026-11-11T18:24:19+00:00",
       "failing": 1,
       "label": "tier=1 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
@@ -5918,13 +5943,7 @@
       "failing": 0,
       "label": "tier=1 sources=anyworkanywhere,covebo,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop",
       "source_country_records": 72
-    },
-    {
-      "checked_at_utc": "2026-11-05T03:44:54+00:00",
-      "failing": 0,
-      "label": "tier=3 sources=anyworkanywhere,covebo,eures,goodmorning,hobij,jobspy,latvia_nva,nl_jobs,ottoworkforce,pl_cbop,sweden_jobsearch",
-      "source_country_records": 33
     }
   ],
-  "updated_utc": "2026-11-11T18:24:19+00:00"
+  "updated_utc": "2026-11-12T03:48:27+00:00"
 }
