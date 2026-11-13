@@ -1,7 +1,7 @@
 {
   "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json.",
-  "updated_on": "2026-11-10",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json.",
+  "updated_on": "2026-11-13",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -1069,6 +1069,134 @@
       "translated": true,
       "review": "data/title_review_batch26.json",
       "title_ar": "عمال مستودع"
+    },
+    {
+      "uid": "1439c555e9638920",
+      "expected_title": "Logistiek medewerker bulkopvang (3 ploegen)",
+      "title_en": "Logistics worker, bulk storage (3 shifts)",
+      "title_ar": "عامل لوجستي في مخزن البضائع السائبة (3 ورديات)",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "143ee2a533024512",
+      "expected_title": "Lagerhelfer (m/w/d) (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse assistant",
+      "title_ar": "مساعد مستودع",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "1450e216ded0f9d5",
+      "expected_title": "Produktionslogistiker - Norra Stockholm!",
+      "title_en": "Production logistics worker - northern Stockholm",
+      "title_ar": "عامل لوجستيات إنتاج - شمال ستوكهولم",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "14c3e37e2d200323",
+      "expected_title": "Laotöötaja",
+      "title_en": "Warehouse worker",
+      "title_ar": "عامل مستودع",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "157253f44f17f209",
+      "expected_title": "Skladník/skladnice, Úředníci ve skladech",
+      "title_en": "Warehouse clerk",
+      "title_ar": "موظف مستودع",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "16645602d47e4f96",
+      "expected_title": "Skladník/skladnice, Skladníci, obsluha manipulačních vozíků",
+      "title_en": "Warehouse worker / forklift operator",
+      "title_ar": "عامل مستودع / مشغل رافعة شوكية",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "16ab59a9e66ccfcd",
+      "expected_title": "Lagerhelfer (m/w/d) Tagschicht (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse assistant, day shift",
+      "title_ar": "مساعد مستودع - وردية نهارية",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "16f5c36e43bb3208",
+      "expected_title": "Kommissionierer Lagerhelfer (m/w/d) sofort (Warenannehmer/in)",
+      "title_en": "Order picker / warehouse assistant, immediate start",
+      "title_ar": "جامع طلبات / مساعد مستودع - بداية فورية",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "16f9a01b40a4437e",
+      "expected_title": "Lagerhelfer:in St. Veit 30 Stunden Teilzeit (m/w/d)",
+      "title_en": "Warehouse assistant, St. Veit, 30 hours part-time",
+      "title_ar": "مساعد مستودع في سانت فيت - دوام جزئي 30 ساعة",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "16f9a3a90e5a25de",
+      "expected_title": "Produktionshelfer:in Teilzeit Schaumstoffverarbeitung Ramsau (m/w/d)",
+      "title_en": "Production assistant, part-time, foam processing, Ramsau",
+      "title_ar": "مساعد إنتاج دوام جزئي في معالجة الإسفنج - رامساو",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "17397b1c60a9763d",
+      "expected_title": "Lagerhelfer mit Staplerschein im Hochragallager (m/w/d) 15,93 EUR (Fachkraft - Lagerwirtschaft)",
+      "title_en": "Warehouse assistant with forklift license, high-bay warehouse",
+      "title_ar": "مساعد مستودع برخصة رافعة شوكية في مستودع عالي الرفوف",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "1747a0b81fed8993",
+      "expected_title": "Lagerhelfer (m/w/d) (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse assistant",
+      "title_ar": "مساعد مستودع",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "175be57eea738a36",
+      "expected_title": "Lagermitarbeiter (M/W/D) Stellenangebot in Hilden (Lager- und Transportarbeiter/in)",
+      "title_en": "Warehouse worker, Hilden",
+      "title_ar": "عامل مستودع في هيلدن",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "176751c2d50d8f92",
+      "expected_title": "Lagermitarbeiter (m/w/d) Vollzeit/Spätschicht (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse worker, full-time / late shift",
+      "title_ar": "عامل مستودع - دوام كامل / وردية مسائية",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "17c05f33fd84e825",
+      "expected_title": "Pracownik magazynu wyrobów gotowych (k/m)",
+      "title_en": "Finished-goods warehouse worker",
+      "title_ar": "عامل مستودع المنتجات النهائية",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "17e0cbd24859b920",
+      "expected_title": "Lagerhelfer Staplerschein (m/w/d) Vollzeit (Fachlagerist/in)",
+      "title_en": "Warehouse assistant with forklift license, full-time",
+      "title_ar": "مساعد مستودع برخصة رافعة شوكية - دوام كامل",
+      "translated": true,
+      "review": "data/title_review_batch27.json"
     }
   ]
 }
