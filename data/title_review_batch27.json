@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-13",
+  "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. 16 of 18 candidates in this window returned HTTP 200 with exact title matches and were filled. Two postings returned HTTP 404 (dead postings) and were skipped without a fill: 147fcc83a741b8ea (SI, VOGART) and 17bc5f470d4b0c6d (FI, Adecco/DHL night shift) - the dead-link sweep handles them. The five previously held postings (00cfb0e9af186fce, 0c10c84afe31213a, 0dad6f50ad84127b, 108f2edcfb6b67d8, 112d65cfb3e268bf) were skipped and remain held. No candidate in this window carried the legacy partial-AR marker, so no overwrite:true fills were needed.",
+  "reviews": [
+    {
+      "uid": "1439c555e9638920",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/YzQ2OTYwMzAtYjlmMi00NWFlLTk3MDYtMzIyYTQ4ZDVlZTNjIDM?lang=en",
+      "note": "Live EURES title matches stored. Body: Food company in Lommel hiring a logistics worker for bulk storage; supports the packing process in a 3-shift system."
+    },
+    {
+      "uid": "143ee2a533024512",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI3MDQtWFBRSFZYTlk0ME02M1VCRS1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: SYNERGIE staffing agency hiring a warehouse helper (general warehouse/transport assistance)."
+    },
+    {
+      "uid": "1450e216ded0f9d5",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM3OTgyMyAxMjE?lang=en",
+      "note": "Live EURES title matches stored. Body: WeStaff Sweden hiring a production logistics worker for an established industrial/tech company in northern Stockholm; daily production flow."
+    },
+    {
+      "uid": "14c3e37e2d200323",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2ODA3NyA4?lang=en",
+      "note": "Live EURES title matches stored. Body: SportFit Nutrition (EE): receiving, storing and checking goods, picking and issuing orders, labeling products, stocktaking."
+    },
+    {
+      "uid": "157253f44f17f209",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUxODcyMzA3MzMgNg?lang=en",
+      "note": "Live EURES title matches stored. Body: AZA Import (CZ): handling parcels 0-30 kg, scanning and recording with a reader, packing and dispatch, goods receipt, basic PC work, stock checks."
+    },
+    {
+      "uid": "16645602d47e4f96",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUxNjk5NDA3NzQgNg?lang=en",
+      "note": "Live EURES title matches stored. Body: Swoboda CZ in Polna: receiving, put-away and issue of materials, picking for production; 3-shift Mon-Fri; training provided, no experience or forklift license needed."
+    },
+    {
+      "uid": "16ab59a9e66ccfcd",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTgyMjMtUk5EMU9ZRzUyUlg5OUJURy1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: PERSUS Personal staffing: warehouse helper, day shift."
+    },
+    {
+      "uid": "16f5c36e43bb3208",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQzODUtNDczLTI2NTYxMTItMjYtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: ARWA temp work in Freiberg: order picker/warehouse helper, EUR 15.33/h, full-time shift/night/weekend."
+    },
+    {
+      "uid": "16f9a01b40a4437e",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTc0MDU1OTAgNDM?lang=en",
+      "note": "Live EURES title matches stored. Body: TTI Austria: warehouse assistant in St. Veit, 30 hours per week part-time."
+    },
+    {
+      "uid": "16f9a3a90e5a25de",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTczOTQ1NTIgNDM?lang=en",
+      "note": "Live EURES title matches stored. Body: TTI Austria: part-time production assistant for foam processing in Ramsau."
+    },
+    {
+      "uid": "17397b1c60a9763d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI4MjYtU0EwMTUwODEzX0pCNTI4ODQwMy1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Piening GmbH customer in Wuppertal: two warehouse helpers with forklift license and high-bay/reach-truck experience; loading/unloading by forklift, picking, packing; EUR 15.93/h."
+    },
+    {
+      "uid": "1747a0b81fed8993",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI5MTMtMjk0YmRkNDRlMmY1NzEzOC1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Unique Personalservice (Ulm): permanent-position warehouse helper."
+    },
+    {
+      "uid": "175be57eea738a36",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwNTctVlA1SzBMWTYzSTVaWjVORS1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: BESTpro Personalkonzepte: warehouse/transport worker role in Hilden."
+    },
+    {
+      "uid": "176751c2d50d8f92",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTgyMjMtT1RCTjI0SEo0OEU2WDJSUy1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: PERSUS Personal staffing: warehouse worker, full-time late shift."
+    },
+    {
+      "uid": "17c05f33fd84e825",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5Mjc3MzkgMTI?lang=en",
+      "note": "Live EURES title matches stored. Body: Zaklad ZYGMUNT ZARNA (PL): finished-goods and semi-finished warehouse work - receipt/issue, stock arrangement and picking, warehouse documents, inventory; shifts 6-14 and 7-15; forklift license required."
+    },
+    {
+      "uid": "17e0cbd24859b920",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQzODUtNTc2LTI2NTYyMTQtMjYtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: ARWA temp work in Koenigs Wusterhausen: warehouse helper with forklift license, EUR 16.08/h, full-time shift/night/weekend."
+    },
+    {
+      "uid": "147fcc83a741b8ea",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQ5NDMwOCAxNA?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - posting is dead. No fill applied; left for the dead-link sweep."
+    },
+    {
+      "uid": "17bc5f470d4b0c6d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ZjU4NjNjNzEtNzk1OC00ZTAyLThmZTAtMmJiYWVkNGIyMjExIDgx?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - posting is dead. No fill applied; left for the dead-link sweep."
+    }
+  ]
+}
