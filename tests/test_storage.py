@@ -389,3 +389,34 @@ def test_verified_current_body_still_drops_summary_on_identity_drift(tmp_path):
     rec = store._store["uid1"]
     assert rec["description"] == "Montijo full-time body"
     assert rec["summary_ar"] == ""
+
+
+def test_load_aligns_divergent_record_uid_to_store_key(tmp_path):
+    # Regression (2026-11-13): the 2026-11-09 uid re-key moved records to
+    # new store keys without rewriting the stored uid field; the stale
+    # field leaked to the CSV export uid column and other record["uid"]
+    # readers. load() must restore key == record["uid"].
+    import os
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    rec = make_job(1).to_dict()
+    rec["uid"] = "old-retired-uid"
+    os.makedirs(os.path.dirname(store.active_path), exist_ok=True)
+    with open(store.active_path, "w", encoding="utf-8") as fh:
+        json.dump({"new-store-key": rec}, fh)
+    loaded = store.load()
+    assert loaded["new-store-key"]["uid"] == "new-store-key"
+
+
+def test_export_csv_emits_store_key_after_uid_alignment(tmp_path):
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    rec = make_job(1).to_dict()
+    rec["uid"] = "old-retired-uid"
+    store._store = {"new-store-key": rec}
+    # Simulate the load-time self-heal having run (merge/save paths
+    # always see the aligned store).
+    store._store["new-store-key"]["uid"] = "new-store-key"
+    store.export_csv({"1": ["PL"]})
+    with open(store.csv_path, encoding="utf-8") as fh:
+        content = fh.read()
+    assert "new-store-key" in content
+    assert "old-retired-uid" not in content
