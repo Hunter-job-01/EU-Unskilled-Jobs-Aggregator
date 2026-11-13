@@ -213,3 +213,15 @@ def test_load_spec_rejects_invalid_entries(tmp_path):
                        "bad": {"no_new": True}}}))
     spec = load_spec(str(tmp_path / "data"))
     assert spec == {"good00000000000": {"new_uid": "new0000000000000"}}
+
+
+def test_migration_rekey_rewrites_record_uid_field(tmp_path):
+    # Regression (2026-11-13): a re-keyed record must not keep the
+    # retired uid in its stored uid field - record["uid"] readers (CSV
+    # export, dead-link sweep, digest mark_notified) would otherwise
+    # keep seeing the old key.
+    store, old_uid, new_uid, entry = _bucket_store(tmp_path)
+    store._store[old_uid]["uid"] = old_uid
+    counts = apply_to_store(store, {old_uid: entry})
+    assert counts["migrated"] == 1
+    assert store._store[new_uid]["uid"] == new_uid
