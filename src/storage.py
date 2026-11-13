@@ -122,7 +122,21 @@ class JobStore:
             return {}
         with open(self.active_path, "r", encoding="utf-8") as fh:
             payload = json.load(fh)
-        return payload if isinstance(payload, dict) else {}
+        if not isinstance(payload, dict):
+            return {}
+        # Self-heal the key/field identity invariant: merge always writes
+        # the store key and record["uid"] from the same job.uid, but the
+        # 2026-11-09 uid re-key moved 24 records to new keys without
+        # rewriting their stored uid field. A divergent field leaks the
+        # retired uid to record["uid"] readers (CSV export uid column,
+        # dead-link sweep live/dead sets, digest mark_notified lookup),
+        # while every key-based consumer (merge, reviewed fills,
+        # lifecycle state) is unaffected. Aligning on load is
+        # provenance-safe: the key already is the record's identity.
+        for key, record in payload.items():
+            if isinstance(record, dict) and record.get("uid") != key:
+                record["uid"] = key
+        return payload
 
     def merge(self, jobs, today: date = None):
         """Insert new / refresh existing records. Returns (added, updated).
