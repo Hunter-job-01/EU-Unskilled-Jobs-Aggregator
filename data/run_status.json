@@ -5,7 +5,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -88,7 +88,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -173,7 +173,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -217,7 +217,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 31,
+        "fetched": 20,
         "notes": [],
         "status": "ok"
       },
@@ -258,7 +258,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -347,7 +347,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -496,10 +496,8 @@
       },
       "telegram_channels": {
         "errors": [],
-        "fetched": 20,
-        "notes": [
-          "teealpl: backlog gap of ~36 messages older than the preview window (cursor 48163, oldest visible 48200) - missed, not caught up"
-        ],
+        "fetched": 34,
+        "notes": [],
         "status": "ok"
       }
     },
@@ -508,7 +506,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -593,7 +591,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1501 sitemap urls fetched earlier this run"
+          "reused 1502 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -678,8 +676,8 @@
       }
     }
   },
-  "duration_sec": 706.1,
-  "last_run_utc": "2026-11-13T06:29:14+00:00",
+  "duration_sec": 643.7,
+  "last_run_utc": "2026-11-13T18:15:28+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-11T03:45:54+00:00",
@@ -1053,13 +1051,13 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-13T06:29:14+00:00",
+      "checked_at_utc": "2026-11-13T18:15:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1139,13 +1137,13 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-13T06:29:14+00:00",
+      "checked_at_utc": "2026-11-13T18:15:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1878,13 +1876,13 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-13T06:29:14+00:00",
+      "checked_at_utc": "2026-11-13T18:15:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1928,7 +1926,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 31,
+          "fetched": 20,
           "notes": [],
           "status": "ok"
         },
@@ -2160,13 +2158,13 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-13T06:29:14+00:00",
+      "checked_at_utc": "2026-11-13T18:15:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2533,13 +2531,13 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-13T06:29:14+00:00",
+      "checked_at_utc": "2026-11-13T18:15:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2615,7 +2613,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-13T06:29:14+00:00",
+      "checked_at_utc": "2026-11-13T18:15:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2691,10 +2689,8 @@
         },
         "telegram_channels": {
           "errors": [],
-          "fetched": 20,
-          "notes": [
-            "teealpl: backlog gap of ~36 messages older than the preview window (cursor 48163, oldest visible 48200) - missed, not caught up"
-          ],
+          "fetched": 34,
+          "notes": [],
           "status": "ok"
         }
       }
@@ -2797,13 +2793,13 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-13T06:29:14+00:00",
+      "checked_at_utc": "2026-11-13T18:15:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -3065,13 +3061,13 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-13T06:29:14+00:00",
+      "checked_at_utc": "2026-11-13T18:15:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1501 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -3186,49 +3182,53 @@
     "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 179,
-    "candidates_stored": 179,
+    "candidates_held_total": 173,
+    "candidates_stored": 173,
     "sealed": true,
-    "sha256": "fc15ad634be520066e95f3044edd325d2ca0f2db983cd1c2240406e0365b33fd"
+    "sha256": "c0b4994504f83584ec427fb4dc00f743a99b9f1c5abe5a3b75438bc741675ee3"
   },
   "source_retention": {
     "kept_pre_prune": {
       "covebo": 2,
       "czech_mpsv": 3,
-      "eures": 188,
+      "eures": 187,
       "goodmorning": 5,
       "hobij": 5,
-      "jobspy_indeed": 196,
+      "jobspy_indeed": 186,
       "nl_jobs": 1,
-      "pl_cbop": 50
+      "pl_cbop": 50,
+      "telegram_polandworkportal": 9,
+      "telegram_teealpl": 6
     },
     "retained_post_prune": {
       "czech_mpsv": 1,
-      "eures": 130,
-      "jobspy_indeed": 194,
-      "pl_cbop": 50
+      "eures": 143,
+      "jobspy_indeed": 185,
+      "pl_cbop": 50,
+      "telegram_polandworkportal": 9,
+      "telegram_teealpl": 6
     }
   },
   "totals": {
-    "active": 3257,
-    "below_min_score": 15,
-    "contacts_extracted": 125,
+    "active": 3307,
+    "below_min_score": 17,
+    "contacts_extracted": 131,
     "excluded": 273,
-    "fetched": 762,
-    "l1_dropped": 4,
+    "fetched": 765,
+    "l1_dropped": 3,
     "l2_language_excluded": 2,
-    "lifecycle_deactivated": 2,
-    "lifecycle_deactivated_total": 92,
+    "lifecycle_deactivated": 0,
+    "lifecycle_deactivated_total": 91,
     "lifecycle_dead_confirmed": 0,
     "lifecycle_live_confirmed": 40,
-    "lifecycle_reactivated": 0,
-    "new": 88,
+    "lifecycle_reactivated": 1,
+    "new": 52,
     "notified_telegram": 0,
-    "pruned": 22,
-    "reviewed_fills": 5,
+    "pruned": 2,
+    "reviewed_fills": 22,
     "translated_ar": 0,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 317
+    "updated": 350
   }
 }
