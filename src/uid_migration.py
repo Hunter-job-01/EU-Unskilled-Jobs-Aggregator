@@ -122,6 +122,12 @@ def apply_to_store(store, spec: dict) -> dict:
                         "exists; bucket left in place", old, new)
             continue
         records[new] = records.pop(old)
+        # Keep the record's own uid field in agreement with its new key:
+        # merge writes both from job.uid, and record["uid"] readers (CSV
+        # export, dead-link sweep, digest mark_notified) must not keep
+        # seeing the retired key. (Store.load also self-heals this for
+        # stores already re-keyed before this write existed.)
+        records[new]["uid"] = new
         for field in DERIVED_FIELDS_CLEARED:
             if records[new].get(field):
                 records[new][field] = ""
