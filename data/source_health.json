@@ -18,14 +18,14 @@
       "status": "ok"
     },
     "anyworkanywhere|BE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "BE",
-      "duration_sec": 20.8,
+      "duration_sec": 1.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1500 sitemap urls fetched earlier this run"
+        "reused 1498 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
@@ -143,18 +143,18 @@
       "status": "ok"
     },
     "anyworkanywhere|ES": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "ES",
-      "duration_sec": 51.8,
+      "duration_sec": 35.3,
       "errors": [],
-      "fetched": 0,
+      "fetched": 2,
       "kept": 0,
       "notes": [],
       "source": "anyworkanywhere",
       "stats": {
-        "other_country": 10,
+        "other_country": 8,
         "pages_fetched": 10,
-        "sitemap_urls": 1500,
+        "sitemap_urls": 1498,
         "urls_consumed": 10
       },
       "status": "ok"
@@ -178,19 +178,20 @@
       "status": "ok"
     },
     "anyworkanywhere|FR": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "FR",
-      "duration_sec": 21.3,
+      "duration_sec": 1.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1500 sitemap urls fetched earlier this run"
+        "reused 1498 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
-        "other_country": 10,
+        "other_country": 9,
         "pages_fetched": 10,
+        "unparsable_pages": 1,
         "urls_consumed": 30
       },
       "status": "ok"
@@ -249,32 +250,33 @@
       "status": "ok"
     },
     "anyworkanywhere|IE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IE",
-      "duration_sec": 21.1,
+      "duration_sec": 1.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1500 sitemap urls fetched earlier this run"
+        "reused 1498 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
-        "other_country": 10,
+        "early_title_excluded": 1,
+        "other_country": 9,
         "pages_fetched": 10,
         "urls_consumed": 60
       },
       "status": "ok"
     },
     "anyworkanywhere|IT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IT",
-      "duration_sec": 21.5,
+      "duration_sec": 1.7,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1500 sitemap urls fetched earlier this run"
+        "reused 1498 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
@@ -393,18 +395,19 @@
       "status": "ok"
     },
     "anyworkanywhere|PT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "PT",
-      "duration_sec": 40.9,
+      "duration_sec": 1.9,
       "errors": [],
-      "fetched": 7,
+      "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1500 sitemap urls fetched earlier this run"
+        "reused 1498 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
-        "other_country": 3,
+        "expired_skipped": 1,
+        "other_country": 9,
         "pages_fetched": 10,
         "urls_consumed": 50
       },
@@ -960,7 +963,7 @@
       "status": "skipped"
     },
     "covebo|BE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1058,7 +1061,7 @@
       "status": "skipped"
     },
     "covebo|ES": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -1086,7 +1089,7 @@
       "status": "skipped"
     },
     "covebo|FR": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -1142,7 +1145,7 @@
       "status": "skipped"
     },
     "covebo|IE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1156,7 +1159,7 @@
       "status": "skipped"
     },
     "covebo|IT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1257,7 +1260,7 @@
       "status": "skipped"
     },
     "covebo|PT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1341,7 +1344,7 @@
       "status": "skipped"
     },
     "czech_mpsv|BE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1440,7 +1443,7 @@
       "status": "skipped"
     },
     "czech_mpsv|ES": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -1468,7 +1471,7 @@
       "status": "skipped"
     },
     "czech_mpsv|FR": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -1524,7 +1527,7 @@
       "status": "skipped"
     },
     "czech_mpsv|IE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1538,7 +1541,7 @@
       "status": "skipped"
     },
     "czech_mpsv|IT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1636,7 +1639,7 @@
       "status": "skipped"
     },
     "czech_mpsv|PT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1718,25 +1721,16 @@
       "status": "ok"
     },
     "eures|BE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "BE",
-      "duration_sec": 128.0,
-      "errors": [
-        "keyword 'magazijnmedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'orderpicker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'productiemedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'verpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'logistiek medewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'inpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'schoonmaker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'productiewerk': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 5.7,
+      "errors": [],
+      "fetched": 50,
+      "kept": 40,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "failed"
+      "status": "ok"
     },
     "eures|BG": {
       "checked_at_utc": "2026-11-12T03:48:27+00:00",
@@ -1831,25 +1825,16 @@
       "status": "failed"
     },
     "eures|ES": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "ES",
-      "duration_sec": 126.0,
-      "errors": [
-        "keyword 'mozo de almacen': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'operario de produccion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'empaquetador': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'preparador de pedidos': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'peon': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'operador de fabrica': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'limpiador': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'operaria de produccion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 6.5,
+      "errors": [],
+      "fetched": 50,
+      "kept": 10,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "failed"
+      "status": "ok"
     },
     "eures|FI": {
       "checked_at_utc": "2026-11-13T03:41:45+00:00",
@@ -1864,25 +1849,16 @@
       "status": "ok"
     },
     "eures|FR": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "FR",
-      "duration_sec": 128.0,
-      "errors": [
-        "keyword 'magasinier': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'preparateur de commandes': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'agent de production': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'emballeur': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'manutentionnaire': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'operateur de production': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'agent de nettoyage': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'manoeuvre': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 3.4,
+      "errors": [],
+      "fetched": 50,
+      "kept": 43,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "failed"
+      "status": "ok"
     },
     "eures|GR": {
       "checked_at_utc": "2026-11-14T03:38:18+00:00",
@@ -1921,46 +1897,32 @@
       "status": "ok"
     },
     "eures|IE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IE",
-      "duration_sec": 126.1,
-      "errors": [
-        "keyword 'warehouse worker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'warehouse operative': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'order picker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'picker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'packer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'packing operative': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'production operator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'production worker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 22.4,
+      "errors": [],
+      "fetched": 50,
+      "kept": 19,
       "notes": [],
       "source": "eures",
-      "stats": {},
-      "status": "failed"
+      "stats": {
+        "early_title_excluded": 7
+      },
+      "status": "ok"
     },
     "eures|IT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IT",
-      "duration_sec": 126.2,
-      "errors": [
-        "keyword 'magazziniere': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'operaio di produzione': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'imballatore': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'addetto al confezionamento': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'operaio generico': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'addetto picking': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'addetto alle pulizie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'operaia di produzione': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 43.7,
+      "errors": [],
+      "fetched": 46,
+      "kept": 6,
       "notes": [],
       "source": "eures",
-      "stats": {},
-      "status": "failed"
+      "stats": {
+        "early_title_excluded": 52
+      },
+      "status": "ok"
     },
     "eures|LT": {
       "checked_at_utc": "2026-11-13T18:15:28+00:00",
@@ -2046,25 +2008,18 @@
       "status": "ok"
     },
     "eures|PT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "PT",
-      "duration_sec": 125.7,
-      "errors": [
-        "keyword 'armazenista': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'operador de armazem': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'embalador': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'operario de producao': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'ajudante geral': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'operador de logistica': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'operador indiferenciado': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search",
-        "keyword 'limpeza': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 404 Client Error: Not Found for url: https://europa.eu/eures/api/jv-searchengine/public/jv-search/search"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 40.5,
+      "errors": [],
+      "fetched": 49,
+      "kept": 10,
       "notes": [],
       "source": "eures",
-      "stats": {},
-      "status": "failed"
+      "stats": {
+        "early_title_excluded": 2
+      },
+      "status": "ok"
     },
     "eures|RO": {
       "checked_at_utc": "2026-11-13T18:15:28+00:00",
@@ -2131,7 +2086,7 @@
       "status": "skipped"
     },
     "goodmorning|BE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2229,7 +2184,7 @@
       "status": "skipped"
     },
     "goodmorning|ES": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -2257,7 +2212,7 @@
       "status": "skipped"
     },
     "goodmorning|FR": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -2313,7 +2268,7 @@
       "status": "skipped"
     },
     "goodmorning|IE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2327,7 +2282,7 @@
       "status": "skipped"
     },
     "goodmorning|IT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2428,7 +2383,7 @@
       "status": "skipped"
     },
     "goodmorning|PT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2512,7 +2467,7 @@
       "status": "skipped"
     },
     "hobij|BE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2610,7 +2565,7 @@
       "status": "skipped"
     },
     "hobij|ES": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -2638,7 +2593,7 @@
       "status": "skipped"
     },
     "hobij|FR": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -2694,7 +2649,7 @@
       "status": "skipped"
     },
     "hobij|IE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2708,7 +2663,7 @@
       "status": "skipped"
     },
     "hobij|IT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2809,7 +2764,7 @@
       "status": "skipped"
     },
     "hobij|PT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2891,12 +2846,12 @@
       "status": "ok"
     },
     "jobspy|BE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "BE",
-      "duration_sec": 21.9,
+      "duration_sec": 21.8,
       "errors": [],
       "fetched": 50,
-      "kept": 29,
+      "kept": 31,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -2981,12 +2936,12 @@
       "status": "skipped"
     },
     "jobspy|ES": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "ES",
-      "duration_sec": 10.4,
+      "duration_sec": 11.0,
       "errors": [],
       "fetched": 50,
-      "kept": 28,
+      "kept": 30,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3005,12 +2960,12 @@
       "status": "ok"
     },
     "jobspy|FR": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "FR",
-      "duration_sec": 8.5,
+      "duration_sec": 5.6,
       "errors": [],
       "fetched": 50,
-      "kept": 45,
+      "kept": 46,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3055,24 +3010,24 @@
       "status": "ok"
     },
     "jobspy|IE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IE",
-      "duration_sec": 24.2,
+      "duration_sec": 21.1,
       "errors": [],
       "fetched": 50,
-      "kept": 28,
+      "kept": 26,
       "notes": [],
       "source": "jobspy",
       "stats": {},
       "status": "ok"
     },
     "jobspy|IT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IT",
-      "duration_sec": 7.4,
+      "duration_sec": 4.3,
       "errors": [],
       "fetched": 50,
-      "kept": 20,
+      "kept": 19,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3157,12 +3112,12 @@
       "status": "ok"
     },
     "jobspy|PT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "PT",
-      "duration_sec": 14.7,
+      "duration_sec": 17.8,
       "errors": [],
       "fetched": 50,
-      "kept": 36,
+      "kept": 38,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3633,9 +3588,9 @@
       "status": "ok"
     },
     "nl_jobs|BE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "BE",
-      "duration_sec": 3.1,
+      "duration_sec": 5.8,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -3644,23 +3599,9 @@
       ],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "unparsable_pages": 4
       },
       "status": "ok"
@@ -3848,32 +3789,18 @@
       "status": "ok"
     },
     "nl_jobs|ES": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "ES",
-      "duration_sec": 3.4,
+      "duration_sec": 5.9,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "sitemap_urls": 17,
         "unparsable_pages": 4
       },
@@ -3913,9 +3840,9 @@
       "status": "ok"
     },
     "nl_jobs|FR": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "FR",
-      "duration_sec": 2.9,
+      "duration_sec": 4.2,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -3924,23 +3851,9 @@
       ],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "unparsable_pages": 4
       },
       "status": "ok"
@@ -4030,9 +3943,9 @@
       "status": "ok"
     },
     "nl_jobs|IE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IE",
-      "duration_sec": 2.3,
+      "duration_sec": 5.5,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4041,31 +3954,17 @@
       ],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "unparsable_pages": 4
       },
       "status": "ok"
     },
     "nl_jobs|IT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IT",
-      "duration_sec": 2.5,
+      "duration_sec": 5.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4074,23 +3973,9 @@
       ],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "unparsable_pages": 4
       },
       "status": "ok"
@@ -4292,9 +4177,9 @@
       "status": "ok"
     },
     "nl_jobs|PT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "PT",
-      "duration_sec": 2.3,
+      "duration_sec": 5.8,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4303,23 +4188,9 @@
       ],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "unparsable_pages": 4
       },
       "status": "ok"
@@ -4457,7 +4328,7 @@
       "status": "skipped"
     },
     "ottoworkforce|BE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4555,7 +4426,7 @@
       "status": "skipped"
     },
     "ottoworkforce|ES": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -4583,7 +4454,7 @@
       "status": "skipped"
     },
     "ottoworkforce|FR": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -4639,7 +4510,7 @@
       "status": "skipped"
     },
     "ottoworkforce|IE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4653,7 +4524,7 @@
       "status": "skipped"
     },
     "ottoworkforce|IT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -4762,7 +4633,7 @@
       "status": "skipped"
     },
     "ottoworkforce|PT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -4846,7 +4717,7 @@
       "status": "skipped"
     },
     "pl_cbop|BE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4944,7 +4815,7 @@
       "status": "skipped"
     },
     "pl_cbop|ES": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -4972,7 +4843,7 @@
       "status": "skipped"
     },
     "pl_cbop|FR": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -5028,7 +4899,7 @@
       "status": "skipped"
     },
     "pl_cbop|IE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5042,7 +4913,7 @@
       "status": "skipped"
     },
     "pl_cbop|IT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5140,7 +5011,7 @@
       "status": "ok"
     },
     "pl_cbop|PT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5586,7 +5457,7 @@
       "status": "skipped"
     },
     "telegram_channels|BE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5622,7 +5493,7 @@
       "status": "ok"
     },
     "telegram_channels|ES": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -5634,7 +5505,7 @@
       "status": "ok"
     },
     "telegram_channels|FR": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -5658,7 +5529,7 @@
       "status": "ok"
     },
     "telegram_channels|IE": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5670,7 +5541,7 @@
       "status": "ok"
     },
     "telegram_channels|IT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5720,7 +5591,7 @@
       "status": "ok"
     },
     "telegram_channels|PT": {
-      "checked_at_utc": "2026-11-12T06:00:23+00:00",
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5757,6 +5628,12 @@
     }
   },
   "recent_runs": [
+    {
+      "checked_at_utc": "2026-11-14T05:38:49+00:00",
+      "failing": 0,
+      "label": "tier=2 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
+      "source_country_records": 66
+    },
     {
       "checked_at_utc": "2026-11-14T03:38:18+00:00",
       "failing": 0,
@@ -5930,13 +5807,7 @@
       "failing": 1,
       "label": "tier=1 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
       "source_country_records": 88
-    },
-    {
-      "checked_at_utc": "2026-11-06T06:31:04+00:00",
-      "failing": 0,
-      "label": "tier=1 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
-      "source_country_records": 88
     }
   ],
-  "updated_utc": "2026-11-14T03:38:18+00:00"
+  "updated_utc": "2026-11-14T05:38:49+00:00"
 }
