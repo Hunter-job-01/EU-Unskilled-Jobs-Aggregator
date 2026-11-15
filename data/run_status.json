@@ -217,7 +217,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 31,
+        "fetched": 30,
         "notes": [],
         "status": "ok"
       },
@@ -550,7 +550,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 9,
+        "fetched": 7,
         "notes": [],
         "status": "ok"
       },
@@ -676,8 +676,8 @@
       }
     }
   },
-  "duration_sec": 690.7,
-  "last_run_utc": "2026-11-15T06:19:40+00:00",
+  "duration_sec": 690.1,
+  "last_run_utc": "2026-11-15T18:04:34+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-15T04:31:49+00:00",
@@ -1103,7 +1103,7 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-15T06:19:40+00:00",
+      "checked_at_utc": "2026-11-15T18:04:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1189,7 +1189,7 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-15T06:19:40+00:00",
+      "checked_at_utc": "2026-11-15T18:04:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2018,7 +2018,7 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-15T06:19:40+00:00",
+      "checked_at_utc": "2026-11-15T18:04:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2068,7 +2068,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 31,
+          "fetched": 30,
           "notes": [],
           "status": "ok"
         },
@@ -2318,7 +2318,7 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-15T06:19:40+00:00",
+      "checked_at_utc": "2026-11-15T18:04:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2730,7 +2730,7 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-15T06:19:40+00:00",
+      "checked_at_utc": "2026-11-15T18:04:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2812,7 +2812,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-15T06:19:40+00:00",
+      "checked_at_utc": "2026-11-15T18:04:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3001,7 +3001,7 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-15T06:19:40+00:00",
+      "checked_at_utc": "2026-11-15T18:04:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3051,7 +3051,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 9,
+          "fetched": 7,
           "notes": [],
           "status": "ok"
         },
@@ -3301,7 +3301,7 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-15T06:19:40+00:00",
+      "checked_at_utc": "2026-11-15T18:04:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3422,49 +3422,49 @@
     "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 177,
-    "candidates_stored": 177,
+    "candidates_held_total": 178,
+    "candidates_stored": 178,
     "sealed": true,
-    "sha256": "a8ee45f8a44ebb34433a6ce78d2ec2f8f3c13928673531c47691908e14ede65a"
+    "sha256": "47987aad5daa0064195b69f73275692aef528e325c923b65432e1db519bfec4f"
   },
   "source_retention": {
     "kept_pre_prune": {
       "covebo": 2,
       "czech_mpsv": 3,
-      "eures": 192,
+      "eures": 190,
       "goodmorning": 5,
       "hobij": 5,
-      "jobspy_indeed": 189,
+      "jobspy_indeed": 193,
       "nl_jobs": 1,
       "pl_cbop": 50
     },
     "retained_post_prune": {
       "czech_mpsv": 1,
-      "eures": 144,
-      "jobspy_indeed": 188,
+      "eures": 147,
+      "jobspy_indeed": 191,
       "pl_cbop": 50
     }
   },
   "totals": {
-    "active": 3633,
+    "active": 3645,
     "below_min_score": 14,
-    "contacts_extracted": 113,
-    "excluded": 252,
-    "fetched": 740,
-    "l1_dropped": 3,
-    "l2_language_excluded": 3,
+    "contacts_extracted": 119,
+    "excluded": 253,
+    "fetched": 737,
+    "l1_dropped": 5,
+    "l2_language_excluded": 2,
     "lifecycle_deactivated": 0,
     "lifecycle_deactivated_total": 111,
     "lifecycle_dead_confirmed": 0,
     "lifecycle_live_confirmed": 40,
-    "lifecycle_reactivated": 1,
-    "new": 1,
+    "lifecycle_reactivated": 0,
+    "new": 14,
     "notified_telegram": 0,
-    "pruned": 0,
-    "reviewed_fills": 6,
+    "pruned": 2,
+    "reviewed_fills": 22,
     "translated_ar": 0,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 389
+    "updated": 382
   }
 }
