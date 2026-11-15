@@ -1,7 +1,7 @@
 {
   "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json.",
-  "updated_on": "2026-11-13",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json.",
+  "updated_on": "2026-11-15",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -1197,6 +1197,134 @@
       "title_ar": "مساعد مستودع برخصة رافعة شوكية - دوام كامل",
       "translated": true,
       "review": "data/title_review_batch27.json"
+    },
+    {
+      "uid": "17e55356a0e0528a",
+      "expected_title": "MUNCITOR NECALIFICAT ÎN METALURGIE",
+      "title_en": "Unskilled worker in metallurgy",
+      "title_ar": "عامل غير ماهر في صناعة المعادن",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "1832ffe1e07f7025",
+      "expected_title": "SKLADIŠTAR/SKLADIŠTARKA - BLAGAJNIK/BLAGAJNICA",
+      "title_en": "Warehouse worker - cashier",
+      "title_ar": "عامل مستودع - أمين صندوق",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "18c46843124a4616",
+      "expected_title": "SKLADNÍK (M/Ž), Pomocní skladníci",
+      "title_en": "Warehouse worker (M/F), auxiliary warehouse worker",
+      "title_ar": "عامل مستودع (ذكر/أنثى)، عامل مستودع مساعد",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "18fabca79e6412a3",
+      "expected_title": "Kom du ikke ind på drømmestudiet? No worries, vi har en plan \"B\" klar til dig i udlandet! Book et kald med os i dag!",
+      "title_en": "Didn't get into your dream programme? No worries, we have a plan B ready for you abroad! Book a call with us today!",
+      "title_ar": "لم تُقبل في البرنامج الدراسي الذي تحلم به؟ لا بأس، لدينا خطة بديلة جاهزة لك في الخارج! احجز مكالمة معنا اليوم!",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "1931200f6f1ba78b",
+      "expected_title": "Fachlagerist m/w/d im Spielwaren Lager (Fachlagerist/in)",
+      "title_en": "Warehouse specialist (m/f/d) in toy warehouse",
+      "title_ar": "أخصائي مستودع (ذكر/أنثى) في مستودع ألعاب",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "194a3de2ed8d8152",
+      "expected_title": "Magazynier-rozdzielca (K/M/D)",
+      "title_en": "Warehouse worker - distributor (F/M/D)",
+      "title_ar": "عامل مستودع - موزّع (أنثى/ذكر)",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "19770fe354f13aae",
+      "expected_title": "ΕΡΓΑΤΕΣ ΓΕΩΡΓΙΑΣ",
+      "title_en": "Farm workers",
+      "title_ar": "عمال زراعيون",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "19867164f299e76b",
+      "expected_title": "Lagerhelfer - Verpacker (m/w/d) dringend (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper - packer (m/f/d), urgently needed",
+      "title_ar": "مساعد مستودع - عامل تعبئة وتغليف (ذكر/أنثى)، مطلوب بشكل عاجل",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "19ac1c1d9f1363e7",
+      "expected_title": "Magasinier(ère) cariste (H/F)",
+      "title_en": "Warehouse clerk - forklift operator (M/F)",
+      "title_ar": "أمين مستودع - سائق رافعة شوكية (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "19bbdc4884683a89",
+      "expected_title": "Magazynier (k/m)",
+      "title_en": "Warehouse worker (f/m)",
+      "title_ar": "عامل مستودع (أنثى/ذكر)",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "19daaf207107dd16",
+      "expected_title": "Orderpicker / inpakker | Dagwerk | Regio Zwevegem",
+      "title_en": "Order picker / packer | day shift | Zwevegem region",
+      "title_ar": "منتقي طلبات / عامل تعبئة | عمل نهاري | منطقة زويفيخم",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "1a2173c539ce3902",
+      "expected_title": "5 STK. LAGERMEDARBEJDERE SØGES – ER I KLAR PÅ ET KORT VIKARIAT?",
+      "title_en": "5 warehouse workers wanted - ready for a short temporary assignment?",
+      "title_ar": "مطلوب 5 عمال مستودع - هل أنت مستعد لمهمة مؤقتة قصيرة؟",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "1abca363524e8a7f",
+      "expected_title": "SKLADIŠTAR/KA",
+      "title_en": "Warehouse worker (m/f)",
+      "title_ar": "عامل مستودع (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "1ace9f3babe4bc32",
+      "expected_title": "Pracovníci v sklade",
+      "title_en": "Warehouse workers",
+      "title_ar": "عمال مستودع",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "1aff71aa8767b3b1",
+      "expected_title": "Varastotyöntekijä – elintarvikeala, Pyhäntä, vakituinen työ",
+      "title_en": "Warehouse worker - food industry, Pyhanta, permanent position",
+      "title_ar": "عامل مستودع - صناعة الأغذية، بيهانتَ، وظيفة دائمة",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "1b357f3a39a2b7fe",
+      "expected_title": "Lagerhelfer mit Staplerschein (m/w/d) (Gabelstaplerfahrer/in)",
+      "title_en": "Warehouse helper with forklift license (m/f/d)",
+      "title_ar": "مساعد مستودع برخصة رافعة شوكية (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch28.json"
     }
   ]
 }
