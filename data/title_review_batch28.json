@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-15",
+  "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live from a europa.eu origin page, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. 16 of 18 candidates in this window returned HTTP 200 with exact title matches and were filled. Two postings returned HTTP 404 (dead postings) and were skipped without a fill: 1a75e85af779e3fa (FR, Responsable Animation Reseau Pieces Detachees Agricoles) and 1b219c1f566e3cc2 (NL, Medewerker Warehouse) - the dead-link sweep handles them. The five previously held postings (00cfb0e9af186fce, 0c10c84afe31213a, 0dad6f50ad84127b, 108f2edcfb6b67d8, 112d65cfb3e268bf) were skipped and remain held. No candidate in this window carried the legacy partial-AR marker, so no overwrite:true fills were needed.",
+  "reviews": [
+    {
+      "uid": "17e55356a0e0528a",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzI1NzY5MiAxMw?lang=en",
+      "note": "Live EURES title matches stored. Body: Steel/metal plant in Luna de Sus, Cluj hiring 2 unskilled metallurgy workers, full-time, permanent, no experience needed."
+    },
+    {
+      "uid": "1832ffe1e07f7025",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkzMzkwOCAxOQ?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse and cashier duties: loading/unloading goods, receiving and issuing stock, customer communication, order picking, keeping the warehouse clean."
+    },
+    {
+      "uid": "18c46843124a4616",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUxOTQ4OTA3MjYgNg?lang=en",
+      "note": "Live EURES title matches stored. Body: One-year contract with extension option; picking and packing goods (MannHummel filters), preparing stock for dispatch, forklift operation."
+    },
+    {
+      "uid": "18fabca79e6412a3",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MWY1MmFiZDItYTJiMC00ZmM1LThlZGUtNTUwMzFkNzQ4NGY4IDc?lang=en",
+      "note": "Live EURES title matches stored. Body: Recruiter marketing posting offering work-abroad placement options for applicants who missed university admission."
+    },
+    {
+      "uid": "1931200f6f1ba78b",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU4NjI3NjItUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: Hiring full-time warehouse workers for a major German logistics provider in a toy warehouse."
+    },
+    {
+      "uid": "194a3de2ed8d8152",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MjYxMjMgMTI?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse and distribution work in Narew/Narewka; basic vocational education required, forklift license an advantage."
+    },
+    {
+      "uid": "19770fe354f13aae",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQzODgwIDU?lang=en",
+      "note": "Live EURES title matches stored. Body: Field crop cultivation work; Greek or English required; listed via the Cyprus EURES advisor."
+    },
+    {
+      "uid": "19867164f299e76b",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQzODUtNjExLTI2NTMzMjQtMjYtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: Temp agency placement with takeover option; warehouse helper/packer in Pottenstein, shift/night/weekend work, 15.33 EUR/hour."
+    },
+    {
+      "uid": "19ac1c1d9f1363e7",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1WUZYUiA5?lang=en",
+      "note": "Live EURES title matches stored. Body: Building-materials retailer (SIMC, SAMSE group, PACA) hiring a warehouse worker with forklift duties."
+    },
+    {
+      "uid": "19bbdc4884683a89",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5Mjc4OTAgMTI?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse work with forklift operation; 3-shift system (06-14, 14-22, 22-06)."
+    },
+    {
+      "uid": "19daaf207107dd16",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NmU1ODlhNDEtZjIzYy00NmYwLWI3NjYtMzJjNzc4NTExMmQ1IDM?lang=en",
+      "note": "Live EURES title matches stored. Body: Order picking and packing in a production/logistics environment in the Zwevegem region, day work."
+    },
+    {
+      "uid": "1a2173c539ce3902",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/OWQ1YWYxMjgtZTUzNS00YTgxLWJkZDQtMWY1MzUyNjg2MDM4IDc?lang=en",
+      "note": "Live EURES title matches stored. Body: Five warehouse workers wanted for a short temp assignment in week 48."
+    },
+    {
+      "uid": "1a75e85af779e3fa",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ODY3ODgzNSA5?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "1abca363524e8a7f",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkyODIzNyAxOQ?lang=en",
+      "note": "Live EURES title matches stored. Body: Construction/renovation company (Veselcic d.o.o., Zagreb) hiring a warehouse worker."
+    },
+    {
+      "uid": "1ace9f3babe4bc32",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDAwMDAzMDkwNTU5NCA0MQ?lang=en",
+      "note": "Live EURES title matches stored. Body: Receiving goods, checking delivery notes and accompanying documents, storing goods; suitable for disability pensioners."
+    },
+    {
+      "uid": "1aff71aa8767b3b1",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MmUxYTQyMTAtMzBhNC00NTg5LWFmNmUtOTc5NDg4YTJiYjFmIDgx?lang=en",
+      "note": "Live EURES title matches stored. Body: Permanent warehouse job at a modern food-industry plant in Pyhanta; warehouse upkeep and order tasks."
+    },
+    {
+      "uid": "1b219c1f566e3cc2",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWRlZDYzNTQtMGIzZi0zMzQ1LWUwNjMtNjg5M2IyMGE5NjU4IDQy?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "1b357f3a39a2b7fe",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTMyODAtNlZEU1A0VzBaVDFHR0Y2Qy1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse helper with forklift license for a storage company in Langenfeld (Rheinland), shift/full-time."
+    }
+  ]
+}
