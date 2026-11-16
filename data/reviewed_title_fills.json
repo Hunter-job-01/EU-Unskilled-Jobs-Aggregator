@@ -1,7 +1,7 @@
 {
   "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json.",
-  "updated_on": "2026-11-15",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json.",
+  "updated_on": "2026-11-16",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -1325,6 +1325,110 @@
       "title_ar": "مساعد مستودع برخصة رافعة شوكية (ذكر/أنثى)",
       "translated": true,
       "review": "data/title_review_batch28.json"
+    },
+    {
+      "uid": "1b366668ced60d1c",
+      "expected_title": "KOMMISSIONIERER (m/w/d) in Raunheim  (Kommissionierer/in)",
+      "title_en": "Order picker (m/f/d) in Raunheim",
+      "title_ar": "منتقي طلبات (ذكر/أنثى) في راونهايم",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1b4035f9bb8762dc",
+      "expected_title": "Maschinenbediener (m/w/d) (Lager- und Transportarbeiter/in)",
+      "title_en": "Machine operator (m/f/d) (warehouse and transport worker)",
+      "title_ar": "مشغّل آلة (ذكر/أنثى) (عامل مستودع ونقل)",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1b45229502d9ecef",
+      "expected_title": "MUNCITOR NECALIFICAT LA DEMOLAREA CLADIRILOR, CAPTUSELI ZIDARIE, PLACI MOZAIC, FAIANTA, GRESIE, PARCHET",
+      "title_en": "Unskilled worker in building demolition, masonry rendering, mosaic, tiling and parquet",
+      "title_ar": "عامل غير ماهر في هدم المباني وأعمال المحارة والموزاييك والخزف والباركيه",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1b968422690e9593",
+      "expected_title": "Helfer (m/w/d) im Lager - Drogerie - Verpacken (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper (m/f/d) - drugstore - packing",
+      "title_ar": "مساعد مستودع (ذكر/أنثى) - متجر مستلزمات - تعبئة وتغليف",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1bc0e7a18b127716",
+      "expected_title": "Sociālais MENTORS",
+      "title_en": "Social mentor",
+      "title_ar": "مرشد اجتماعي",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1bfb7700075a36b6",
+      "expected_title": "Pracovníci v sklade",
+      "title_en": "Warehouse workers",
+      "title_ar": "عمال مستودع",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1c890ddd7140342b",
+      "expected_title": "Magazijnmedewerker (tijdelijk) (758609)",
+      "title_en": "Warehouse worker (temporary)",
+      "title_ar": "عامل مستودع (مؤقت)",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1c9625b8c3c38592",
+      "expected_title": "HOTELSKI RADNIK/HOTELSKA RADNICA",
+      "title_en": "Hotel worker (m/f)",
+      "title_ar": "عامل فندق (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1ce307d3d2d7c9bb",
+      "expected_title": "Varastotyöntekijä / Trukin kuljettaja, Olkiluodon telakka",
+      "title_en": "Warehouse worker / forklift driver, Olkiluoto shipyard",
+      "title_ar": "عامل مستودع / سائق رافعة شوكية، حوض أولكيلووتو لبناء السفن",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1cf02b0ec2ef6aa9",
+      "expected_title": "Varastotyöntekijä Laitilaan",
+      "title_en": "Warehouse worker, Laitila",
+      "title_ar": "عامل مستودع، لاتيلا",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1d05eca4c0de7394",
+      "expected_title": "Leidinggevende Magazijn",
+      "title_en": "Warehouse supervisor",
+      "title_ar": "مشرف مستودع",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1d2e84aa66b26eb2",
+      "expected_title": "Magasinier",
+      "title_en": "Warehouse worker",
+      "title_ar": "عامل مستودع",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1d9bb02342300cf0",
+      "expected_title": "Helfer Tank- und Silo (m/w/d) (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Tank and silo helper (m/f/d)",
+      "title_ar": "مساعد خزانات وصوامع (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch29.json"
     }
   ]
 }
