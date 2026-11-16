@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-16",
+  "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live from a europa.eu origin page, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. 13 of 18 candidates in this window returned HTTP 200 with exact title matches and were filled. Five postings returned HTTP 404 (dead postings) and were skipped without a fill: 1b795b1026e6c886 (SE, Lagermedarbetare); 1c4f80ab028e3124 (HR, SKLADISTAR/KA); 1c874aa7aa68a7ec (HR, SKLADISTAR/SKLADISTARKA - DOSTAVLJAC/DOSTAVLJACICA); 1cbf8a6d7c813f5e (DK, Selvstaendig lagermedarbejder soges); 1d39c4fec46d39e4 (EE, Laotootaja-komplekteerija) - the dead-link sweep handles them. The five previously held postings (00cfb0e9af186fce, 0c10c84afe31213a, 0dad6f50ad84127b, 108f2edcfb6b67d8, 112d65cfb3e268bf) were skipped and remain held. No candidate in this window carried the legacy partial-AR marker, so no overwrite:true fills were needed.",
+  "reviews": [
+    {
+      "uid": "1b366668ced60d1c",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQwNDAtNkRVSENGSjRERlRJTEYySC1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Staffing agency spp direkt hiring order pickers in Raunheim."
+    },
+    {
+      "uid": "1b4035f9bb8762dc",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIxNDctMjAyNjExMDQyMjc2MzctUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: JobImpulse staffing hiring machine operators; classified as warehouse/transport work."
+    },
+    {
+      "uid": "1b45229502d9ecef",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQzMDE0MiAxMw?lang=en",
+      "note": "Live EURES title matches stored. Body: One position in Cugir, Alba; building demolition and finishing work, part-time."
+    },
+    {
+      "uid": "1b795b1026e6c886",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM2ODc1MiAxMjE?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "1b968422690e9593",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU4ODEyMDUtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: Drugstore in Berlin hiring a warehouse helper for packing, full- or part-time, 16.37 EUR/hour."
+    },
+    {
+      "uid": "1bc0e7a18b127716",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjYxMTA5LTE0MSA0MDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Latvian Samaritan Association 'Housing First' unit hiring a social mentor in Riga to work with homeless people."
+    },
+    {
+      "uid": "1bfb7700075a36b6",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDAwMDAzMDk4MzgzMiA0MQ?lang=en",
+      "note": "Live EURES title matches stored. Body: Storing, checking and packing goods, scanner work, documentation; accommodation and employer transport offered."
+    },
+    {
+      "uid": "1c4f80ab028e3124",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkyNjA1NyAxOQ?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "1c874aa7aa68a7ec",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkzMTgzMSAxOQ?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "1c890ddd7140342b",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWY5NGFjOTItYzM3Yi04NTZlLWUwNjMtNjg5M2IyMGE5NjlhIDQy?lang=en",
+      "note": "Live EURES title matches stored. Body: Temporary warehouse worker position; team-based work, immediate start."
+    },
+    {
+      "uid": "1c9625b8c3c38592",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkzNTQ4NCAxOQ?lang=en",
+      "note": "Live EURES title matches stored. Body: Hotel support duties: assisting chambermaids and cleaners, delivering linen and towels to hotel floors."
+    },
+    {
+      "uid": "1cbf8a6d7c813f5e",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/Nzg1Y2FjODktN2ZhNy00MTU3LTk5NzEtMTcwM2YzZmM0MDg0IDc?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "1ce307d3d2d7c9bb",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/Y2U5MjQ5YjctN2JjYS00ZDJmLWIyMGItZmExZjk1NTI0NjdlIDgx?lang=en",
+      "note": "Live EURES title matches stored. Body: Tyovene Oy hiring a warehouse worker / forklift driver for the Olkiluoto shipyard in Uusikaupunki."
+    },
+    {
+      "uid": "1cf02b0ec2ef6aa9",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/YTg4MTc3YmItMWNjZC00OTE5LWE1ZjctYTJkODBlYTA3Y2E4IDgx?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse worker for metal production warehouse duties in Laitila."
+    },
+    {
+      "uid": "1d05eca4c0de7394",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWYzMDE3NWMtNjg3Yy1mYzU1LWUwNjMtNjg5M2IyMGFjNTA4IDQy?lang=en",
+      "note": "Live EURES title matches stored. Body: Wolfram Chain in 's-Hertogenbosch hiring a hands-on warehouse supervisor, day shift, 3000-4200 EUR/month."
+    },
+    {
+      "uid": "1d2e84aa66b26eb2",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ZjkzM2FlZTYtNDRjNy00NThiLWI1YmUtNWRhN2ExMGQyZmIyIDM?lang=en",
+      "note": "Live EURES title matches stored. Body: Construction-site warehouse worker for a site in the Brussels region near Gare du Nord."
+    },
+    {
+      "uid": "1d39c4fec46d39e4",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NzU4MCA4?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "1d9bb02342300cf0",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI3MDQtWUI3MlBPSUhWRVM3S0ZNMy1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: SYNERGIE staffing hiring a tank and silo helper; warehouse/transport classification."
+    }
+  ]
+}
