@@ -217,7 +217,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 30,
+        "fetched": 29,
         "notes": [],
         "status": "ok"
       },
@@ -496,8 +496,11 @@
       },
       "telegram_channels": {
         "errors": [],
-        "fetched": 0,
-        "notes": [],
+        "fetched": 38,
+        "notes": [
+          "polandworkportal: backlog gap of ~6 messages older than the preview window (cursor 32291, oldest visible 32298) - missed, not caught up",
+          "teealpl: backlog gap of ~10 messages older than the preview window (cursor 48240, oldest visible 48251) - missed, not caught up"
+        ],
         "status": "ok"
       }
     },
@@ -676,8 +679,8 @@
       }
     }
   },
-  "duration_sec": 643.2,
-  "last_run_utc": "2026-11-16T06:59:15+00:00",
+  "duration_sec": 704.5,
+  "last_run_utc": "2026-11-16T18:26:56+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-15T04:31:49+00:00",
@@ -1066,7 +1069,7 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-16T06:59:15+00:00",
+      "checked_at_utc": "2026-11-16T18:26:56+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1152,7 +1155,7 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-16T06:59:15+00:00",
+      "checked_at_utc": "2026-11-16T18:26:56+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1931,7 +1934,7 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-16T06:59:15+00:00",
+      "checked_at_utc": "2026-11-16T18:26:56+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1981,7 +1984,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 30,
+          "fetched": 29,
           "notes": [],
           "status": "ok"
         },
@@ -2195,7 +2198,7 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-16T06:59:15+00:00",
+      "checked_at_utc": "2026-11-16T18:26:56+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2591,7 +2594,7 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-16T06:59:15+00:00",
+      "checked_at_utc": "2026-11-16T18:26:56+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2673,7 +2676,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-16T06:59:15+00:00",
+      "checked_at_utc": "2026-11-16T18:26:56+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2749,8 +2752,11 @@
         },
         "telegram_channels": {
           "errors": [],
-          "fetched": 0,
-          "notes": [],
+          "fetched": 38,
+          "notes": [
+            "polandworkportal: backlog gap of ~6 messages older than the preview window (cursor 32291, oldest visible 32298) - missed, not caught up",
+            "teealpl: backlog gap of ~10 messages older than the preview window (cursor 48240, oldest visible 48251) - missed, not caught up"
+          ],
           "status": "ok"
         }
       }
@@ -2844,7 +2850,7 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-16T06:59:15+00:00",
+      "checked_at_utc": "2026-11-16T18:26:56+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3144,7 +3150,7 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-16T06:59:15+00:00",
+      "checked_at_utc": "2026-11-16T18:26:56+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3265,49 +3271,53 @@
     "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 177,
-    "candidates_stored": 177,
+    "candidates_held_total": 184,
+    "candidates_stored": 184,
     "sealed": true,
-    "sha256": "199b7bc6f465015bde372d33db1a71f16881a1ff59f3b5b1f362ce37ba1b426e"
+    "sha256": "11629d24079bbfa1b2a58c6caa95dc9f750baabc117168fb88b665d049e17b38"
   },
   "source_retention": {
     "kept_pre_prune": {
       "covebo": 2,
       "czech_mpsv": 3,
-      "eures": 195,
+      "eures": 197,
       "goodmorning": 5,
       "hobij": 5,
       "jobspy_indeed": 183,
       "nl_jobs": 1,
-      "pl_cbop": 50
+      "pl_cbop": 50,
+      "telegram_polandworkportal": 13,
+      "telegram_teealpl": 3
     },
     "retained_post_prune": {
       "czech_mpsv": 1,
-      "eures": 138,
+      "eures": 152,
       "jobspy_indeed": 182,
-      "pl_cbop": 50
+      "pl_cbop": 50,
+      "telegram_polandworkportal": 13,
+      "telegram_teealpl": 3
     }
   },
   "totals": {
-    "active": 3675,
+    "active": 3707,
     "below_min_score": 20,
-    "contacts_extracted": 123,
-    "excluded": 250,
-    "fetched": 737,
-    "l1_dropped": 5,
-    "l2_language_excluded": 2,
-    "lifecycle_deactivated": 0,
-    "lifecycle_deactivated_total": 108,
+    "contacts_extracted": 132,
+    "excluded": 265,
+    "fetched": 774,
+    "l1_dropped": 4,
+    "l2_language_excluded": 3,
+    "lifecycle_deactivated": 1,
+    "lifecycle_deactivated_total": 109,
     "lifecycle_dead_confirmed": 0,
     "lifecycle_live_confirmed": 40,
     "lifecycle_reactivated": 0,
-    "new": 49,
+    "new": 40,
     "notified_telegram": 0,
-    "pruned": 6,
-    "reviewed_fills": 6,
+    "pruned": 8,
+    "reviewed_fills": 21,
     "translated_ar": 0,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 335
+    "updated": 378
   }
 }
