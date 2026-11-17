@@ -1,7 +1,7 @@
 {
   "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json.",
-  "updated_on": "2026-11-16",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json.",
+  "updated_on": "2026-11-17",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -1429,6 +1429,126 @@
       "title_ar": "مساعد خزانات وصوامع (ذكر/أنثى)",
       "translated": true,
       "review": "data/title_review_batch29.json"
+    },
+    {
+      "uid": "1ddf38a5ebf198c1",
+      "expected_title": "PINCHES DE COCINA",
+      "title_en": "Kitchen assistants",
+      "title_ar": "مساعدو مطبخ",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1dfdc6957f8ded07",
+      "expected_title": "ΕΡΓΑΤΕΣ ΓΕΩΡΓΙΑΣ",
+      "title_en": "Farm workers",
+      "title_ar": "عمال زراعيون",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1e1bab34136df392",
+      "expected_title": "SKLADNÍK/SKLADNICE, ŘIDIČ/KA VZV, Skladníci, obsluha manipulačních vozíků",
+      "title_en": "Warehouse worker (m/f), forklift operator",
+      "title_ar": "عامل مستودع (ذكر/أنثى)، مشغّل رافعة شوكية",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1e32e9175e981538",
+      "expected_title": "Kommissionierer (m/w/d)-Unbefristet-Bezahlte Überstunden. (Kommissionierer/in)",
+      "title_en": "Order picker (m/f/d) - permanent contract, paid overtime",
+      "title_ar": "منتقي طلبات (ذكر/أنثى) - عقد دائم، عمل إضافي مدفوع",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1e4a304063f3fb6d",
+      "expected_title": "PALĪGSTRĀDNIEKS",
+      "title_en": "Auxiliary worker",
+      "title_ar": "عامل مساعد",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1e534606609fb8f2",
+      "expected_title": "Magazijnmedewerker (757671)",
+      "title_en": "Warehouse worker",
+      "title_ar": "عامل مستودع",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1e6f6677d5ae8a56",
+      "expected_title": "Terminalarbetare sökes i Mantorp",
+      "title_en": "Terminal worker wanted in Mantorp",
+      "title_ar": "مطلوب عامل محطة في مانتورب",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1ef09407307d18fc",
+      "expected_title": "Magazynier - zarządzanie magazynem (K/M)",
+      "title_en": "Warehouse worker - warehouse management (f/m)",
+      "title_ar": "عامل مستودع - إدارة المستودع (أنثى/ذكر)",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1f8518e84953dd5b",
+      "expected_title": "Staplerfahrer (m/w/d) (Gabelstaplerfahrer/in)",
+      "title_en": "Forklift driver (m/f/d)",
+      "title_ar": "سائق رافعة شوكية (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1f95f345a63bdaed",
+      "expected_title": "Staplerfahrer - Textilindustrie - Potsdam (m/w/d) (Kommissionierer/in)",
+      "title_en": "Forklift driver - textile industry - Potsdam (m/f/d)",
+      "title_ar": "سائق رافعة شوكية - صناعة النسيج - بوتسدام (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1f9842080a3c31da",
+      "expected_title": "Lagerfachkraft (m/w/d)  (Fachkraft - Lagerlogistik)",
+      "title_en": "Warehouse logistics specialist (m/f/d)",
+      "title_ar": "أخصائي لوجستيات مستودعات (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1f9ba0431c9d09ea",
+      "expected_title": "Cariste (H/F)",
+      "title_en": "Forklift operator (M/F)",
+      "title_ar": "مشغّل رافعة شوكية (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1fc56b1e538fe6da",
+      "expected_title": "Gestionnaire de stock - magasinier H/F",
+      "title_en": "Stock manager - warehouse worker (M/F)",
+      "title_ar": "مسؤول مخزون - عامل مستودع (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "1fdedf82b10bca49",
+      "expected_title": "Acheteur industriel / Acheteuse industrielle (H/F)",
+      "title_en": "Industrial buyer (M/F)",
+      "title_ar": "مشتري صناعي (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "2086bda9b4cfad4c",
+      "expected_title": "Sortierer für Pakete in Porta Westfalica – Abrufkraft / Aushilfe (m/w/d) (Helfer/in - Kurier-, Zustell- und Postdienstleistungen)",
+      "title_en": "Package sorter in Porta Westfalica - on-call / temporary helper (m/f/d)",
+      "title_ar": "فرّاز طرود في بورتا فيستفاليكا - عامل مؤقت / عند الطلب (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch30.json"
     }
   ]
 }
