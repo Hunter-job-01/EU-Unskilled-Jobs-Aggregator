@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-17",
+  "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live from a europa.eu origin page, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. 15 of 18 candidates in this window returned HTTP 200 with exact title matches and were filled. Three postings returned HTTP 404 (dead postings) and were skipped without a fill: 1de272bb52b62575 (FI, Varastotyontekija Lahti); 1f81a0b1afb6aee2 (SK, Pracovnici v sklade); 20317433fbf78fc2 (FR, MAGASINIER PREPARATEUR MATIERES INDUSTRIE CHIMIQUE) - the dead-link sweep handles them. The five previously held postings (00cfb0e9af186fce, 0c10c84afe31213a, 0dad6f50ad84127b, 108f2edcfb6b67d8, 112d65cfb3e268bf) were skipped and remain held. No candidate in this window carried the legacy partial-AR marker, so no overwrite:true fills were needed.",
+  "reviews": [
+    {
+      "uid": "1ddf38a5ebf198c1",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NzQ2NjUwNSAxMDI?lang=en",
+      "note": "Live EURES title matches stored. Body: Kitchen assistant for a care home; temporary 3-month contract, part-time afternoons, 30 hours/week."
+    },
+    {
+      "uid": "1de272bb52b62575",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/OGViNGZkMjAtOTc4MS00NjU4LWIxZjktM2FhZjJmZDU0ODhhIDgx?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "1dfdc6957f8ded07",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQzODQ4IDU?lang=en",
+      "note": "Live EURES title matches stored. Body: Agricultural workers; willingness to follow instructions, good physical condition, teamwork; listed via the Cyprus EURES advisor."
+    },
+    {
+      "uid": "1e1bab34136df392",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUxOTA5NjA3NzEgNg?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse and forklift experience welcome; 1-year fixed-term contract with extension option."
+    },
+    {
+      "uid": "1e32e9175e981538",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU5MDAyNDQtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: Order picker / warehouse worker / warehouse helper, earliest start, permanent with paid overtime."
+    },
+    {
+      "uid": "1e4a304063f3fb6d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjYxMDI5LTE1NCA0MDE?lang=en",
+      "note": "Live EURES title matches stored. Body: SIA CoreBuild hiring auxiliary workers for job-placement services with cooperation partners."
+    },
+    {
+      "uid": "1e534606609fb8f2",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWVmM2JkZDYtOTMyYS1lZmIyLWUwNjMtNjg5M2IyMGFmODJkIDQy?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse worker at a bodywork manufacturer in Almelo building car transporters and trailers."
+    },
+    {
+      "uid": "1e6f6677d5ae8a56",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM2ODYxNyAxMjE?lang=en",
+      "note": "Live EURES title matches stored. Body: Instabox Mantorp hiring part-time terminal workers for its logistics terminal."
+    },
+    {
+      "uid": "1ef09407307d18fc",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzUxODggMTI?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse management duties; any education, similar experience and metal-industry knowledge an advantage, Comarch XL a plus."
+    },
+    {
+      "uid": "1f81a0b1afb6aee2",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDAwMDAzMTAzNTIyNCA0MQ?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "1f8518e84953dd5b",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwNDAwNjc5NC1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Forklift driver in Nagold, day shift or 2-shift, collectively agreed terms."
+    },
+    {
+      "uid": "1f95f345a63bdaed",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU5MDAyNDUtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: Full-time warehouse helper with forklift license for a textile company warehouse in Potsdam."
+    },
+    {
+      "uid": "1f9842080a3c31da",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY5MTUtSUEzSVpYRjBRWEFPSDZWVS1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse specialist in Monheim/Gunzenhausen, full-time 35-40 h/week, initially fixed-term via ahead personal."
+    },
+    {
+      "uid": "1f9ba0431c9d09ea",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ODgyNzk3MCA5?lang=en",
+      "note": "Live EURES title matches stored. Body: Start People Avranches hiring a warehouse forklift operator; order preparation with handling equipment."
+    },
+    {
+      "uid": "1fc56b1e538fe6da",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1TVBCWSA5?lang=en",
+      "note": "Live EURES title matches stored. Body: Stock manager/warehouse worker for a Dijon transport-sector company, via LINDUSTRIE-RECUTE.FR."
+    },
+    {
+      "uid": "1fdedf82b10bca49",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ODU4NTQ2NiA5?lang=en",
+      "note": "Live EURES title matches stored. Body: Industrial buyer reporting to the site purchasing manager; operational management of direct and indirect factory purchases."
+    },
+    {
+      "uid": "20317433fbf78fc2",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1WE1RSCA5?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "2086bda9b4cfad4c",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQzNDAtNDk0NjAzMTAyLVMgMQ?lang=en",
+      "note": "Live EURES title matches stored. Body: On-call/temporary warehouse sorter for packages in Porta Westfalica, single days or hourly, paid induction."
+    }
+  ]
+}
