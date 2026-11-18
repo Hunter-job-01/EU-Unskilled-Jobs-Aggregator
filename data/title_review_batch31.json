@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-18",
+  "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live from a europa.eu origin page, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. 17 of 18 candidates in this window returned HTTP 200 with exact title matches and were filled. One posting returned HTTP 404 (dead posting) and was skipped without a fill: 22492ceb674b7cce (ES, PEONES DE OBRAS PUBLICAS, EN GENERAL) - the dead-link sweep handles it. The five previously held postings (00cfb0e9af186fce, 0c10c84afe31213a, 0dad6f50ad84127b, 108f2edcfb6b67d8, 112d65cfb3e268bf) were skipped and remain held. No candidate in this window carried the legacy partial-AR marker, so no overwrite:true fills were needed.",
+  "reviews": [
+    {
+      "uid": "20af168a26021705",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI3MDQtU08zUUpDTzNVUTlaM0hVTi1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse helper in Berlin-Rudow for a staffing agency; picking, packing and goods handling."
+    },
+    {
+      "uid": "21c88a604958125f",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIxNjItU05ZT1pPVTlST1BGOEZNUC1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Production worker on the early shift via a staffing agency in the Freiburg area."
+    },
+    {
+      "uid": "21efff90fe5034d8",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU4MjM0NzItUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: Part-time (30h/week) warehouse helper for a drugstore retailer in Berlin-Spandau, 18.82 EUR/h, Mon-Fri shifts."
+    },
+    {
+      "uid": "21f689b820c33995",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTgyMjMtUzVUTTU0RzRKSU9YTjNPUi1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse worker via PERSUS Personal, pay up to 17.00 EUR/h."
+    },
+    {
+      "uid": "221e67b695821d3a",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ODY3OTg5NSA5?lang=en",
+      "note": "Live EURES title matches stored. Body: Leclerc Chambery Drive: prepare orders, pick and pack products, use handling equipment."
+    },
+    {
+      "uid": "222d52bc993ce93d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ODgyNTc5MyA5?lang=en",
+      "note": "Live EURES title matches stored. Body: Randstad logistics platform: move, transfer and stack pallets and aeronautical parts at height."
+    },
+    {
+      "uid": "223d4568c8271f9e",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ODI3MzI1MiA5?lang=en",
+      "note": "Live EURES title matches stored. Body: CAMO EMPLOI Metz for a climate/energy engineering client: receiving, control, storage, order preparation and dispatch."
+    },
+    {
+      "uid": "22492ceb674b7cce",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NzQ2MzQ3NyAxMDI?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "2274ea1ea221a389",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY3NDEtNDk5Mzc2NDM1Ni1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse helper via EP-S Deutschland with a 400 EUR welcome bonus."
+    },
+    {
+      "uid": "2280c314cc86ebf2",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjBlMGMwNjctYzg2Mi00YzE5LWEwM2YtMDBhMTEyMWE3MjNiIDM?lang=en",
+      "note": "Live EURES title matches stored. Body: Start People: logistics/warehouse work at a tyre and wheel maker for agriculture, industry and trucks."
+    },
+    {
+      "uid": "2299d1f9240cbcfe",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwMzk2Mjc3MC1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse specialist via ECP GmbH; application possible directly via WhatsApp without a CV."
+    },
+    {
+      "uid": "22e0be538d75faf2",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzIwNDEwOSAxMw?lang=en",
+      "note": "Live EURES title matches stored. Body: Animal caretaker in Panet, Mures county; 2 openings, full-time, permanent contract, no experience needed."
+    },
+    {
+      "uid": "22e782d05646c2da",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDAwMDAzMDk5MTU4NCA0MQ?lang=en",
+      "note": "Live EURES title matches stored. Body: Tobacco factory warehouse: receive raw materials and finished goods, check documents, visual quality control, temperature compliance."
+    },
+    {
+      "uid": "22f9bf1432546384",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjYxMTA5LTExNyA0MDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Municipal preschool 'Ziluks' in Jelgava: deputy head for administrative and economic affairs, budget planning."
+    },
+    {
+      "uid": "234c66cce5d34e8d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUyMDI1NzA3MDEgNg?lang=en",
+      "note": "Live EURES title matches stored. Body: Hilding Anders: goods receiving and document checks, storing and issuing goods, two-shift operation; forklift licence not required."
+    },
+    {
+      "uid": "237aa07378093205",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwNTQtRDc3U1JHQTgxUkRPTjA2TC1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Skilled warehouse worker via temPERSO staffing, pay from 17.89 EUR/h."
+    },
+    {
+      "uid": "2422397dc2c71767",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2ODE2OSA4?lang=en",
+      "note": "Live EURES title matches stored. Body: Linnamae meat processing: packing products on the packing line; full-time, thorough training, Estonian required."
+    },
+    {
+      "uid": "24291afbf3ffd734",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NmY0YTc3MWEtMGI3My00NjRhLThlOTQtOWJjZWM5YzJjODkxIDM?lang=en",
+      "note": "Live EURES title matches stored. Body: Bleckmann Ghent (Desteldonk warehouse): order picking, morning shift 05:48-13:48, temporary assignment."
+    }
+  ]
+}
