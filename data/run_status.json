@@ -24,19 +24,10 @@
         "status": "ok"
       },
       "eures": {
-        "errors": [
-          "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'pracovnik ve skladu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'baleni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'vyrobni delnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-        ],
-        "fetched": 0,
+        "errors": [],
+        "fetched": 50,
         "notes": [],
-        "status": "failed"
+        "status": "ok"
       },
       "goodmorning": {
         "errors": [],
@@ -64,7 +55,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 0 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -117,19 +109,10 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [
-          "keyword 'lagerhelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'produktionshelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'kommissionierer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'verpacker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'lagermitarbeiter': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'maschinenbediener': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'reinigungskraft': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'helfer produktion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-        ],
-        "fetched": 0,
+        "errors": [],
+        "fetched": 50,
         "notes": [],
-        "status": "failed"
+        "status": "ok"
       },
       "goodmorning": {
         "errors": [],
@@ -157,7 +140,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 0 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -210,19 +194,10 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [
-          "keyword 'raktaros': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'raktari munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'csomagolo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'gyartosori dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'termelesi munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'komissiozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'betanitott munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'raktari dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-        ],
-        "fetched": 0,
+        "errors": [],
+        "fetched": 50,
         "notes": [],
-        "status": "failed"
+        "status": "ok"
       },
       "goodmorning": {
         "errors": [],
@@ -242,7 +217,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 29,
+        "fetched": 28,
         "notes": [],
         "status": "ok"
       },
@@ -250,7 +225,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 0 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -303,23 +279,12 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [
-          "keyword 'sandelio darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'sandelininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'pakuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'gamybos operatorius': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'komplektuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'rusiuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'ikrovejas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'pagalbinis darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'virtuves pagalbininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'kambarine': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-        ],
-        "fetched": 0,
+        "errors": [],
+        "fetched": 8,
         "notes": [
           "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
         ],
-        "status": "failed"
+        "status": "ok"
       },
       "goodmorning": {
         "errors": [],
@@ -349,7 +314,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 0 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -386,12 +352,10 @@
         "status": "ok"
       },
       "covebo": {
-        "errors": [
-          "sitemap: GET https://www.covebo.nl/job-sitemap.xml failed after 3 attempts: HTTPSConnectionPool(host='www.covebo.nl', port=443): Max retries exceeded with url: /job-sitemap.xml (Caused by NewConnectionError(\"HTTPSConnection(host='www.covebo.nl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-        ],
-        "fetched": 0,
+        "errors": [],
+        "fetched": 10,
         "notes": [],
-        "status": "failed"
+        "status": "ok"
       },
       "czech_mpsv": {
         "errors": [],
@@ -402,19 +366,10 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [
-          "keyword 'magazijnmedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'orderpicker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'productiemedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'verpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'logistiek medewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'inpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'schoonmaker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'productiewerk': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-        ],
-        "fetched": 0,
+        "errors": [],
+        "fetched": 50,
         "notes": [],
-        "status": "failed"
+        "status": "ok"
       },
       "goodmorning": {
         "errors": [],
@@ -436,9 +391,10 @@
       },
       "nl_jobs": {
         "errors": [],
-        "fetched": 0,
+        "fetched": 2,
         "notes": [
-          "reused 0 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -489,19 +445,10 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [
-          "keyword 'magazynier': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'pracownik magazynu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'pakowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'pracownik produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'komisjonowanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operator produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'pracownik fizyczny': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'sortowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-        ],
-        "fetched": 0,
+        "errors": [],
+        "fetched": 50,
         "notes": [],
-        "status": "failed"
+        "status": "ok"
       },
       "goodmorning": {
         "errors": [],
@@ -526,12 +473,12 @@
         "status": "ok"
       },
       "nl_jobs": {
-        "errors": [
-          "sitemap: GET https://www.nl-jobs.com/sitemap.xml failed after 3 attempts: HTTPSConnectionPool(host='www.nl-jobs.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nl-jobs.com', port=443) at 0x7fac34386fd0>, 'Connection to www.nl-jobs.com timed out. (connect timeout=30.0)'))"
-        ],
+        "errors": [],
         "fetched": 0,
-        "notes": [],
-        "status": "failed"
+        "notes": [
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+        ],
+        "status": "ok"
       },
       "ottoworkforce": {
         "errors": [],
@@ -549,8 +496,10 @@
       },
       "telegram_channels": {
         "errors": [],
-        "fetched": 1,
-        "notes": [],
+        "fetched": 22,
+        "notes": [
+          "teealpl: backlog gap of ~7 messages older than the preview window (cursor 48306, oldest visible 48314) - missed, not caught up"
+        ],
         "status": "ok"
       }
     },
@@ -580,19 +529,10 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [
-          "keyword 'muncitor depozit': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'ambalator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operator productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'manipulant marfuri': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'muncitor necalificat': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'sortator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'muncitor in productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'ajutor bucatar': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-        ],
-        "fetched": 0,
+        "errors": [],
+        "fetched": 50,
         "notes": [],
-        "status": "failed"
+        "status": "ok"
       },
       "goodmorning": {
         "errors": [],
@@ -620,7 +560,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 0 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -673,23 +614,12 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [
-          "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'balenie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'vyrobny operator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'upratovanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'upratovacka': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'pomocna sila v kuchyni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-        ],
-        "fetched": 0,
+        "errors": [],
+        "fetched": 50,
         "notes": [
           "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
         ],
-        "status": "failed"
+        "status": "ok"
       },
       "goodmorning": {
         "errors": [],
@@ -719,7 +649,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 0 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -747,8 +678,8 @@
       }
     }
   },
-  "duration_sec": 1977.9,
-  "last_run_utc": "2026-11-18T06:55:34+00:00",
+  "duration_sec": 703.5,
+  "last_run_utc": "2026-11-18T18:20:06+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-15T04:31:49+00:00",
@@ -1136,7 +1067,7 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1161,19 +1092,10 @@
           "status": "ok"
         },
         "eures": {
-          "errors": [
-            "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'pracovnik ve skladu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'baleni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'vyrobni delnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -1201,7 +1123,8 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 0 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -1230,7 +1153,7 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1257,19 +1180,10 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'lagerhelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'produktionshelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'kommissionierer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'verpacker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'lagermitarbeiter': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'maschinenbediener': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'reinigungskraft': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'helfer produktion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -1297,7 +1211,8 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 0 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -1993,7 +1908,7 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2020,19 +1935,10 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'raktaros': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'raktari munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'csomagolo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'gyartosori dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'termelesi munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'komissiozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'betanitott munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'raktari dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -2052,7 +1958,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 29,
+          "fetched": 28,
           "notes": [],
           "status": "ok"
         },
@@ -2060,7 +1966,8 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 0 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2283,7 +2190,7 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2310,23 +2217,12 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'sandelio darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'sandelininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'pakuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'gamybos operatorius': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'komplektuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'rusiuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'ikrovejas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'pagalbinis darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'virtuves pagalbininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'kambarine': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 8,
           "notes": [
             "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
           ],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -2356,7 +2252,8 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 0 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2673,7 +2570,7 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2684,12 +2581,10 @@
           "status": "ok"
         },
         "covebo": {
-          "errors": [
-            "sitemap: GET https://www.covebo.nl/job-sitemap.xml failed after 3 attempts: HTTPSConnectionPool(host='www.covebo.nl', port=443): Max retries exceeded with url: /job-sitemap.xml (Caused by NewConnectionError(\"HTTPSConnection(host='www.covebo.nl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 10,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "czech_mpsv": {
           "errors": [],
@@ -2700,19 +2595,10 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'magazijnmedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'orderpicker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'productiemedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'verpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'logistiek medewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'inpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'schoonmaker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'productiewerk': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -2734,9 +2620,10 @@
         },
         "nl_jobs": {
           "errors": [],
-          "fetched": 0,
+          "fetched": 2,
           "notes": [
-            "reused 0 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2765,7 +2652,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2790,19 +2677,10 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'magazynier': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'pracownik magazynu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'pakowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'pracownik produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'komisjonowanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'operator produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'pracownik fizyczny': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'sortowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -2827,12 +2705,12 @@
           "status": "ok"
         },
         "nl_jobs": {
-          "errors": [
-            "sitemap: GET https://www.nl-jobs.com/sitemap.xml failed after 3 attempts: HTTPSConnectionPool(host='www.nl-jobs.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nl-jobs.com', port=443) at 0x7fac34386fd0>, 'Connection to www.nl-jobs.com timed out. (connect timeout=30.0)'))"
-          ],
+          "errors": [],
           "fetched": 0,
-          "notes": [],
-          "status": "failed"
+          "notes": [
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          ],
+          "status": "ok"
         },
         "ottoworkforce": {
           "errors": [],
@@ -2850,8 +2728,10 @@
         },
         "telegram_channels": {
           "errors": [],
-          "fetched": 1,
-          "notes": [],
+          "fetched": 22,
+          "notes": [
+            "teealpl: backlog gap of ~7 messages older than the preview window (cursor 48306, oldest visible 48314) - missed, not caught up"
+          ],
           "status": "ok"
         }
       }
@@ -2954,7 +2834,7 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2981,19 +2861,10 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'muncitor depozit': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'ambalator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'operator productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'manipulant marfuri': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'muncitor necalificat': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'sortator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'muncitor in productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'ajutor bucatar': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -3021,7 +2892,8 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 0 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -3255,7 +3127,7 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3282,23 +3154,12 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'balenie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'vyrobny operator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'upratovanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'upratovacka': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-            "keyword 'pomocna sila v kuchyni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [
             "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
           ],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -3328,7 +3189,8 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 0 sitemap urls fetched earlier this run"
+            "reused 17 sitemap urls fetched earlier this run",
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -3386,46 +3248,52 @@
     "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 90,
-    "candidates_stored": 90,
+    "candidates_held_total": 178,
+    "candidates_stored": 178,
     "sealed": true,
-    "sha256": "ed97e571faf978a6eae915ad7f2b2cecd5e7632100fa812db4fe1c12128e8fc8"
+    "sha256": "031e5c3bd7b02ba6d13e97bf5968453be74d3d103c2266c97198072deb0310b9"
   },
   "source_retention": {
     "kept_pre_prune": {
+      "covebo": 2,
       "czech_mpsv": 4,
+      "eures": 181,
       "goodmorning": 5,
-      "hobij": 5,
-      "jobspy_indeed": 193,
+      "hobij": 7,
+      "jobspy_indeed": 195,
+      "nl_jobs": 1,
       "pl_cbop": 50,
-      "telegram_teealpl": 1
+      "telegram_polandworkportal": 2,
+      "telegram_teealpl": 6
     },
     "retained_post_prune": {
-      "jobspy_indeed": 191,
+      "eures": 139,
+      "jobspy_indeed": 192,
       "pl_cbop": 50,
-      "telegram_teealpl": 1
+      "telegram_polandworkportal": 2,
+      "telegram_teealpl": 6
     }
   },
   "totals": {
-    "active": 3848,
-    "below_min_score": 12,
-    "contacts_extracted": 54,
-    "excluded": 95,
-    "fetched": 368,
-    "l1_dropped": 1,
-    "l2_language_excluded": 1,
-    "lifecycle_deactivated": 1,
+    "active": 3883,
+    "below_min_score": 23,
+    "contacts_extracted": 115,
+    "excluded": 252,
+    "fetched": 758,
+    "l1_dropped": 3,
+    "l2_language_excluded": 0,
+    "lifecycle_deactivated": 0,
     "lifecycle_deactivated_total": 113,
     "lifecycle_dead_confirmed": 0,
-    "lifecycle_live_confirmed": 11,
+    "lifecycle_live_confirmed": 30,
     "lifecycle_reactivated": 0,
-    "new": 13,
+    "new": 39,
     "notified_telegram": 0,
-    "pruned": 0,
-    "reviewed_fills": 2,
+    "pruned": 4,
+    "reviewed_fills": 28,
     "translated_ar": 0,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 229
+    "updated": 362
   }
 }

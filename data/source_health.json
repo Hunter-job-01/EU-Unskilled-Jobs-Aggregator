@@ -72,7 +72,7 @@
       "status": "ok"
     },
     "anyworkanywhere|CZ": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "CZ",
       "duration_sec": 2.8,
       "errors": [],
@@ -90,9 +90,9 @@
       "status": "ok"
     },
     "anyworkanywhere|DE": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "DE",
-      "duration_sec": 5.4,
+      "duration_sec": 2.4,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -232,9 +232,9 @@
       "status": "ok"
     },
     "anyworkanywhere|HU": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "HU",
-      "duration_sec": 2.7,
+      "duration_sec": 4.8,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -287,9 +287,9 @@
       "status": "ok"
     },
     "anyworkanywhere|LT": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "LT",
-      "duration_sec": 2.7,
+      "duration_sec": 8.5,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -361,9 +361,9 @@
       "status": "ok"
     },
     "anyworkanywhere|NL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "NL",
-      "duration_sec": 3.1,
+      "duration_sec": 2.9,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -379,9 +379,9 @@
       "status": "ok"
     },
     "anyworkanywhere|PL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "PL",
-      "duration_sec": 38.5,
+      "duration_sec": 35.1,
       "errors": [],
       "fetched": 1,
       "kept": 0,
@@ -414,9 +414,9 @@
       "status": "ok"
     },
     "anyworkanywhere|RO": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "RO",
-      "duration_sec": 3.2,
+      "duration_sec": 5.4,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -468,9 +468,9 @@
       "status": "ok"
     },
     "anyworkanywhere|SK": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "SK",
-      "duration_sec": 3.2,
+      "duration_sec": 2.5,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -1004,7 +1004,7 @@
       "status": "skipped"
     },
     "covebo|CZ": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -1018,7 +1018,7 @@
       "status": "skipped"
     },
     "covebo|DE": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1130,7 +1130,7 @@
       "status": "skipped"
     },
     "covebo|HU": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -1172,7 +1172,7 @@
       "status": "skipped"
     },
     "covebo|LT": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1228,26 +1228,24 @@
       "status": "skipped"
     },
     "covebo|NL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "NL",
-      "duration_sec": 105.6,
-      "errors": [
-        "sitemap: GET https://www.covebo.nl/job-sitemap.xml failed after 3 attempts: HTTPSConnectionPool(host='www.covebo.nl', port=443): Max retries exceeded with url: /job-sitemap.xml (Caused by NewConnectionError(\"HTTPSConnection(host='www.covebo.nl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 42.5,
+      "errors": [],
+      "fetched": 10,
+      "kept": 3,
       "notes": [],
       "source": "covebo",
       "stats": {
         "country_assumed_from_source": "NL",
-        "index_count": 0,
-        "index_failed": true,
-        "pages_fetched": 0
+        "index_count": 268,
+        "pages_fetched": 10,
+        "sitemap_urls": 268
       },
-      "status": "failed"
+      "status": "ok"
     },
     "covebo|PL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -1275,7 +1273,7 @@
       "status": "skipped"
     },
     "covebo|RO": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -1317,7 +1315,7 @@
       "status": "skipped"
     },
     "covebo|SK": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -1387,9 +1385,9 @@
       "status": "skipped"
     },
     "czech_mpsv|CZ": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "CZ",
-      "duration_sec": 2.2,
+      "duration_sec": 2.0,
       "errors": [],
       "fetched": 50,
       "kept": 4,
@@ -1402,7 +1400,7 @@
       "status": "ok"
     },
     "czech_mpsv|DE": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1514,7 +1512,7 @@
       "status": "skipped"
     },
     "czech_mpsv|HU": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -1556,7 +1554,7 @@
       "status": "skipped"
     },
     "czech_mpsv|LT": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1612,7 +1610,7 @@
       "status": "skipped"
     },
     "czech_mpsv|NL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "NL",
       "duration_sec": 0.0,
       "errors": [],
@@ -1626,7 +1624,7 @@
       "status": "skipped"
     },
     "czech_mpsv|PL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -1654,7 +1652,7 @@
       "status": "skipped"
     },
     "czech_mpsv|RO": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -1696,7 +1694,7 @@
       "status": "skipped"
     },
     "czech_mpsv|SK": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -1778,46 +1776,30 @@
       "status": "failed"
     },
     "eures|CZ": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "CZ",
-      "duration_sec": 130.1,
-      "errors": [
-        "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'pracovnik ve skladu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'baleni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'vyrobni delnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 13.9,
+      "errors": [],
+      "fetched": 50,
+      "kept": 35,
       "notes": [],
       "source": "eures",
-      "stats": {},
-      "status": "failed"
+      "stats": {
+        "early_title_excluded": 2
+      },
+      "status": "ok"
     },
     "eures|DE": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "DE",
-      "duration_sec": 127.2,
-      "errors": [
-        "keyword 'lagerhelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'produktionshelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'kommissionierer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'verpacker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'lagermitarbeiter': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'maschinenbediener': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'reinigungskraft': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'helfer produktion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 5.2,
+      "errors": [],
+      "fetched": 50,
+      "kept": 35,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "failed"
+      "status": "ok"
     },
     "eures|DK": {
       "checked_at_utc": "2026-11-15T04:31:49+00:00",
@@ -1931,25 +1913,16 @@
       "status": "ok"
     },
     "eures|HU": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "HU",
-      "duration_sec": 127.8,
-      "errors": [
-        "keyword 'raktaros': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'raktari munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'csomagolo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'gyartosori dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'termelesi munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'komissiozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'betanitott munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'raktari dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 9.4,
+      "errors": [],
+      "fetched": 50,
+      "kept": 4,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "failed"
+      "status": "ok"
     },
     "eures|IE": {
       "checked_at_utc": "2026-11-18T06:01:33+00:00",
@@ -1994,29 +1967,18 @@
       "status": "failed"
     },
     "eures|LT": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "LT",
-      "duration_sec": 258.6,
-      "errors": [
-        "keyword 'sandelio darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'sandelininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'pakuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'gamybos operatorius': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'komplektuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'rusiuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'ikrovejas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'pagalbinis darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'virtuves pagalbininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'kambarine': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 64.4,
+      "errors": [],
+      "fetched": 8,
+      "kept": 4,
       "notes": [
         "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
       ],
       "source": "eures",
       "stats": {},
-      "status": "failed"
+      "status": "ok"
     },
     "eures|LU": {
       "checked_at_utc": "2026-11-16T03:57:09+00:00",
@@ -2059,46 +2021,28 @@
       "status": "ok"
     },
     "eures|NL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "NL",
-      "duration_sec": 130.0,
-      "errors": [
-        "keyword 'magazijnmedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'orderpicker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'productiemedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'verpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'logistiek medewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'inpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'schoonmaker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'productiewerk': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 3.7,
+      "errors": [],
+      "fetched": 50,
+      "kept": 37,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "failed"
+      "status": "ok"
     },
     "eures|PL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "PL",
-      "duration_sec": 129.9,
-      "errors": [
-        "keyword 'magazynier': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'pracownik magazynu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'pakowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'pracownik produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'komisjonowanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operator produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'pracownik fizyczny': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'sortowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 4.5,
+      "errors": [],
+      "fetched": 50,
+      "kept": 37,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "failed"
+      "status": "ok"
     },
     "eures|PT": {
       "checked_at_utc": "2026-11-18T06:01:33+00:00",
@@ -2122,25 +2066,16 @@
       "status": "failed"
     },
     "eures|RO": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "RO",
-      "duration_sec": 129.0,
-      "errors": [
-        "keyword 'muncitor depozit': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'ambalator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operator productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'manipulant marfuri': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'muncitor necalificat': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'sortator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'muncitor in productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'ajutor bucatar': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 4.8,
+      "errors": [],
+      "fetched": 50,
+      "kept": 38,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "failed"
+      "status": "ok"
     },
     "eures|SE": {
       "checked_at_utc": "2026-11-15T04:31:49+00:00",
@@ -2176,29 +2111,18 @@
       "status": "failed"
     },
     "eures|SK": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "SK",
-      "duration_sec": 255.9,
-      "errors": [
-        "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'balenie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'vyrobny operator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'upratovanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'upratovacka': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'pomocna sila v kuchyni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 5.3,
+      "errors": [],
+      "fetched": 50,
+      "kept": 16,
       "notes": [
         "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
       ],
       "source": "eures",
       "stats": {},
-      "status": "failed"
+      "status": "ok"
     },
     "goodmorning|AT": {
       "checked_at_utc": "2026-11-15T04:31:49+00:00",
@@ -2257,7 +2181,7 @@
       "status": "skipped"
     },
     "goodmorning|CZ": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -2271,7 +2195,7 @@
       "status": "skipped"
     },
     "goodmorning|DE": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2383,7 +2307,7 @@
       "status": "skipped"
     },
     "goodmorning|HU": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -2425,7 +2349,7 @@
       "status": "skipped"
     },
     "goodmorning|LT": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2481,9 +2405,9 @@
       "status": "skipped"
     },
     "goodmorning|NL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "NL",
-      "duration_sec": 37.0,
+      "duration_sec": 48.5,
       "errors": [],
       "fetched": 10,
       "kept": 7,
@@ -2498,7 +2422,7 @@
       "status": "ok"
     },
     "goodmorning|PL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -2526,7 +2450,7 @@
       "status": "skipped"
     },
     "goodmorning|RO": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -2568,7 +2492,7 @@
       "status": "skipped"
     },
     "goodmorning|SK": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -2638,7 +2562,7 @@
       "status": "skipped"
     },
     "hobij|CZ": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -2652,7 +2576,7 @@
       "status": "skipped"
     },
     "hobij|DE": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2764,7 +2688,7 @@
       "status": "skipped"
     },
     "hobij|HU": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -2806,7 +2730,7 @@
       "status": "skipped"
     },
     "hobij|LT": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2862,12 +2786,12 @@
       "status": "skipped"
     },
     "hobij|NL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "NL",
-      "duration_sec": 40.8,
+      "duration_sec": 42.3,
       "errors": [],
       "fetched": 10,
-      "kept": 6,
+      "kept": 8,
       "notes": [],
       "source": "hobij",
       "stats": {
@@ -2879,7 +2803,7 @@
       "status": "ok"
     },
     "hobij|PL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -2907,7 +2831,7 @@
       "status": "skipped"
     },
     "hobij|RO": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -2949,7 +2873,7 @@
       "status": "skipped"
     },
     "hobij|SK": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -3015,9 +2939,9 @@
       "status": "skipped"
     },
     "jobspy|CZ": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "CZ",
-      "duration_sec": 11.0,
+      "duration_sec": 12.9,
       "errors": [],
       "fetched": 50,
       "kept": 43,
@@ -3027,12 +2951,12 @@
       "status": "ok"
     },
     "jobspy|DE": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "DE",
-      "duration_sec": 4.3,
+      "duration_sec": 11.2,
       "errors": [],
       "fetched": 50,
-      "kept": 41,
+      "kept": 46,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3127,12 +3051,12 @@
       "status": "skipped"
     },
     "jobspy|HU": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "HU",
-      "duration_sec": 25.3,
+      "duration_sec": 27.5,
       "errors": [],
-      "fetched": 29,
-      "kept": 23,
+      "fetched": 28,
+      "kept": 22,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3163,7 +3087,7 @@
       "status": "ok"
     },
     "jobspy|LT": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -3217,24 +3141,24 @@
       "status": "skipped"
     },
     "jobspy|NL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "NL",
-      "duration_sec": 10.7,
+      "duration_sec": 10.6,
       "errors": [],
       "fetched": 50,
-      "kept": 41,
+      "kept": 40,
       "notes": [],
       "source": "jobspy",
       "stats": {},
       "status": "ok"
     },
     "jobspy|PL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "PL",
-      "duration_sec": 8.8,
+      "duration_sec": 15.0,
       "errors": [],
       "fetched": 50,
-      "kept": 39,
+      "kept": 38,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3253,9 +3177,9 @@
       "status": "ok"
     },
     "jobspy|RO": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "RO",
-      "duration_sec": 22.5,
+      "duration_sec": 23.5,
       "errors": [],
       "fetched": 8,
       "kept": 6,
@@ -3291,7 +3215,7 @@
       "status": "skipped"
     },
     "jobspy|SK": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -3814,38 +3738,68 @@
       "status": "ok"
     },
     "nl_jobs|CZ": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "CZ",
-      "duration_sec": 0.0,
+      "duration_sec": 4.3,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 0 sitemap urls fetched earlier this run"
+        "reused 17 sitemap urls fetched earlier this run"
       ],
       "source": "nl_jobs",
       "stats": {
-        "index_count": 0,
-        "index_failed": true,
-        "pages_fetched": 0
+        "delta_skipped": 11,
+        "delta_skipped_ids": [
+          "production-worker-horticulture-full-time-amsterdam",
+          "liquidation-employee",
+          "parcel-sorting-breda",
+          "parcel-sorting-oirschot",
+          "warehouse-worker-post-nl-waalwijk",
+          "co-packing-tiel",
+          "warehouse-worker-full-time-utrecht",
+          "order-picker-full-time-rotterdam",
+          "production-worker-(flowers)-full-time-rotterdam",
+          "packer",
+          "unloading-worker"
+        ],
+        "index_count": 17,
+        "other_country": 2,
+        "pages_fetched": 6,
+        "unparsable_pages": 4
       },
       "status": "ok"
     },
     "nl_jobs|DE": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "DE",
-      "duration_sec": 0.0,
+      "duration_sec": 3.0,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 0 sitemap urls fetched earlier this run"
+        "reused 17 sitemap urls fetched earlier this run"
       ],
       "source": "nl_jobs",
       "stats": {
-        "index_count": 0,
-        "index_failed": true,
-        "pages_fetched": 0
+        "delta_skipped": 11,
+        "delta_skipped_ids": [
+          "production-worker-horticulture-full-time-amsterdam",
+          "liquidation-employee",
+          "parcel-sorting-breda",
+          "parcel-sorting-oirschot",
+          "warehouse-worker-post-nl-waalwijk",
+          "co-packing-tiel",
+          "warehouse-worker-full-time-utrecht",
+          "order-picker-full-time-rotterdam",
+          "production-worker-(flowers)-full-time-rotterdam",
+          "packer",
+          "unloading-worker"
+        ],
+        "index_count": 17,
+        "other_country": 2,
+        "pages_fetched": 6,
+        "unparsable_pages": 4
       },
       "status": "ok"
     },
@@ -4079,20 +4033,35 @@
       "status": "ok"
     },
     "nl_jobs|HU": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "HU",
-      "duration_sec": 0.0,
+      "duration_sec": 4.2,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 0 sitemap urls fetched earlier this run"
+        "reused 17 sitemap urls fetched earlier this run"
       ],
       "source": "nl_jobs",
       "stats": {
-        "index_count": 0,
-        "index_failed": true,
-        "pages_fetched": 0
+        "delta_skipped": 11,
+        "delta_skipped_ids": [
+          "production-worker-horticulture-full-time-amsterdam",
+          "liquidation-employee",
+          "parcel-sorting-breda",
+          "parcel-sorting-oirschot",
+          "warehouse-worker-post-nl-waalwijk",
+          "co-packing-tiel",
+          "warehouse-worker-full-time-utrecht",
+          "order-picker-full-time-rotterdam",
+          "production-worker-(flowers)-full-time-rotterdam",
+          "packer",
+          "unloading-worker"
+        ],
+        "index_count": 17,
+        "other_country": 2,
+        "pages_fetched": 6,
+        "unparsable_pages": 4
       },
       "status": "ok"
     },
@@ -4163,20 +4132,35 @@
       "status": "ok"
     },
     "nl_jobs|LT": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "LT",
-      "duration_sec": 0.0,
+      "duration_sec": 4.1,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 0 sitemap urls fetched earlier this run"
+        "reused 17 sitemap urls fetched earlier this run"
       ],
       "source": "nl_jobs",
       "stats": {
-        "index_count": 0,
-        "index_failed": true,
-        "pages_fetched": 0
+        "delta_skipped": 11,
+        "delta_skipped_ids": [
+          "production-worker-horticulture-full-time-amsterdam",
+          "liquidation-employee",
+          "parcel-sorting-breda",
+          "parcel-sorting-oirschot",
+          "warehouse-worker-post-nl-waalwijk",
+          "co-packing-tiel",
+          "warehouse-worker-full-time-utrecht",
+          "order-picker-full-time-rotterdam",
+          "production-worker-(flowers)-full-time-rotterdam",
+          "packer",
+          "unloading-worker"
+        ],
+        "index_count": 17,
+        "other_country": 2,
+        "pages_fetched": 6,
+        "unparsable_pages": 4
       },
       "status": "ok"
     },
@@ -4280,40 +4264,68 @@
       "status": "ok"
     },
     "nl_jobs|NL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "NL",
-      "duration_sec": 0.0,
+      "duration_sec": 9.9,
       "errors": [],
-      "fetched": 0,
-      "kept": 0,
+      "fetched": 2,
+      "kept": 1,
       "notes": [
-        "reused 0 sitemap urls fetched earlier this run"
+        "reused 17 sitemap urls fetched earlier this run"
       ],
       "source": "nl_jobs",
       "stats": {
-        "index_count": 0,
-        "index_failed": true,
-        "pages_fetched": 0
+        "delta_skipped": 11,
+        "delta_skipped_ids": [
+          "production-worker-horticulture-full-time-amsterdam",
+          "liquidation-employee",
+          "parcel-sorting-breda",
+          "parcel-sorting-oirschot",
+          "warehouse-worker-post-nl-waalwijk",
+          "co-packing-tiel",
+          "warehouse-worker-full-time-utrecht",
+          "order-picker-full-time-rotterdam",
+          "production-worker-(flowers)-full-time-rotterdam",
+          "packer",
+          "unloading-worker"
+        ],
+        "index_count": 17,
+        "pages_fetched": 6,
+        "unparsable_pages": 4
       },
       "status": "ok"
     },
     "nl_jobs|PL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "PL",
-      "duration_sec": 105.4,
-      "errors": [
-        "sitemap: GET https://www.nl-jobs.com/sitemap.xml failed after 3 attempts: HTTPSConnectionPool(host='www.nl-jobs.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nl-jobs.com', port=443) at 0x7fac34386fd0>, 'Connection to www.nl-jobs.com timed out. (connect timeout=30.0)'))"
-      ],
+      "duration_sec": 4.5,
+      "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [],
       "source": "nl_jobs",
       "stats": {
-        "index_count": 0,
-        "index_failed": true,
-        "pages_fetched": 0
+        "delta_skipped": 11,
+        "delta_skipped_ids": [
+          "production-worker-horticulture-full-time-amsterdam",
+          "liquidation-employee",
+          "parcel-sorting-breda",
+          "parcel-sorting-oirschot",
+          "warehouse-worker-post-nl-waalwijk",
+          "co-packing-tiel",
+          "warehouse-worker-full-time-utrecht",
+          "order-picker-full-time-rotterdam",
+          "production-worker-(flowers)-full-time-rotterdam",
+          "packer",
+          "unloading-worker"
+        ],
+        "index_count": 17,
+        "other_country": 2,
+        "pages_fetched": 6,
+        "sitemap_urls": 17,
+        "unparsable_pages": 4
       },
-      "status": "failed"
+      "status": "ok"
     },
     "nl_jobs|PT": {
       "checked_at_utc": "2026-11-18T06:01:33+00:00",
@@ -4349,20 +4361,35 @@
       "status": "ok"
     },
     "nl_jobs|RO": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "RO",
-      "duration_sec": 0.0,
+      "duration_sec": 4.2,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 0 sitemap urls fetched earlier this run"
+        "reused 17 sitemap urls fetched earlier this run"
       ],
       "source": "nl_jobs",
       "stats": {
-        "index_count": 0,
-        "index_failed": true,
-        "pages_fetched": 0
+        "delta_skipped": 11,
+        "delta_skipped_ids": [
+          "production-worker-horticulture-full-time-amsterdam",
+          "liquidation-employee",
+          "parcel-sorting-breda",
+          "parcel-sorting-oirschot",
+          "warehouse-worker-post-nl-waalwijk",
+          "co-packing-tiel",
+          "warehouse-worker-full-time-utrecht",
+          "order-picker-full-time-rotterdam",
+          "production-worker-(flowers)-full-time-rotterdam",
+          "packer",
+          "unloading-worker"
+        ],
+        "index_count": 17,
+        "other_country": 2,
+        "pages_fetched": 6,
+        "unparsable_pages": 4
       },
       "status": "ok"
     },
@@ -4433,20 +4460,35 @@
       "status": "ok"
     },
     "nl_jobs|SK": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "SK",
-      "duration_sec": 0.0,
+      "duration_sec": 4.3,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 0 sitemap urls fetched earlier this run"
+        "reused 17 sitemap urls fetched earlier this run"
       ],
       "source": "nl_jobs",
       "stats": {
-        "index_count": 0,
-        "index_failed": true,
-        "pages_fetched": 0
+        "delta_skipped": 11,
+        "delta_skipped_ids": [
+          "production-worker-horticulture-full-time-amsterdam",
+          "liquidation-employee",
+          "parcel-sorting-breda",
+          "parcel-sorting-oirschot",
+          "warehouse-worker-post-nl-waalwijk",
+          "co-packing-tiel",
+          "warehouse-worker-full-time-utrecht",
+          "order-picker-full-time-rotterdam",
+          "production-worker-(flowers)-full-time-rotterdam",
+          "packer",
+          "unloading-worker"
+        ],
+        "index_count": 17,
+        "other_country": 2,
+        "pages_fetched": 6,
+        "unparsable_pages": 4
       },
       "status": "ok"
     },
@@ -4507,7 +4549,7 @@
       "status": "skipped"
     },
     "ottoworkforce|CZ": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -4521,7 +4563,7 @@
       "status": "skipped"
     },
     "ottoworkforce|DE": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4633,7 +4675,7 @@
       "status": "skipped"
     },
     "ottoworkforce|HU": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -4675,7 +4717,7 @@
       "status": "skipped"
     },
     "ottoworkforce|LT": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -4731,9 +4773,9 @@
       "status": "skipped"
     },
     "ottoworkforce|NL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "NL",
-      "duration_sec": 55.6,
+      "duration_sec": 50.7,
       "errors": [],
       "fetched": 9,
       "kept": 0,
@@ -4755,7 +4797,7 @@
       "status": "ok"
     },
     "ottoworkforce|PL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -4783,7 +4825,7 @@
       "status": "skipped"
     },
     "ottoworkforce|RO": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -4825,7 +4867,7 @@
       "status": "skipped"
     },
     "ottoworkforce|SK": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -4895,7 +4937,7 @@
       "status": "skipped"
     },
     "pl_cbop|CZ": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -4909,7 +4951,7 @@
       "status": "skipped"
     },
     "pl_cbop|DE": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5021,7 +5063,7 @@
       "status": "skipped"
     },
     "pl_cbop|HU": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -5063,7 +5105,7 @@
       "status": "skipped"
     },
     "pl_cbop|LT": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5119,7 +5161,7 @@
       "status": "skipped"
     },
     "pl_cbop|NL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "NL",
       "duration_sec": 0.0,
       "errors": [],
@@ -5133,9 +5175,9 @@
       "status": "skipped"
     },
     "pl_cbop|PL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "PL",
-      "duration_sec": 21.1,
+      "duration_sec": 22.7,
       "errors": [],
       "fetched": 50,
       "kept": 50,
@@ -5161,7 +5203,7 @@
       "status": "skipped"
     },
     "pl_cbop|RO": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -5203,7 +5245,7 @@
       "status": "skipped"
     },
     "pl_cbop|SK": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -5605,7 +5647,7 @@
       "status": "ok"
     },
     "telegram_channels|CZ": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -5617,7 +5659,7 @@
       "status": "ok"
     },
     "telegram_channels|DE": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5653,7 +5695,7 @@
       "status": "ok"
     },
     "telegram_channels|HU": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -5689,7 +5731,7 @@
       "status": "ok"
     },
     "telegram_channels|LT": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5701,7 +5743,7 @@
       "status": "ok"
     },
     "telegram_channels|NL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "NL",
       "duration_sec": 0.0,
       "errors": [],
@@ -5713,15 +5755,20 @@
       "status": "ok"
     },
     "telegram_channels|PL": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "PL",
-      "duration_sec": 1.5,
+      "duration_sec": 1.4,
       "errors": [],
-      "fetched": 1,
-      "kept": 1,
-      "notes": [],
+      "fetched": 22,
+      "kept": 9,
+      "notes": [
+        "teealpl: backlog gap of ~7 messages older than the preview window (cursor 48306, oldest visible 48314) - missed, not caught up"
+      ],
       "source": "telegram_channels",
-      "stats": {},
+      "stats": {
+        "backlog_gap": 7,
+        "cross_country_skipped": 1
+      },
       "status": "ok"
     },
     "telegram_channels|PT": {
@@ -5737,7 +5784,7 @@
       "status": "ok"
     },
     "telegram_channels|RO": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -5749,7 +5796,7 @@
       "status": "ok"
     },
     "telegram_channels|SK": {
-      "checked_at_utc": "2026-11-18T06:55:34+00:00",
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -5762,6 +5809,12 @@
     }
   },
   "recent_runs": [
+    {
+      "checked_at_utc": "2026-11-18T18:20:06+00:00",
+      "failing": 0,
+      "label": "tier=1 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
+      "source_country_records": 88
+    },
     {
       "checked_at_utc": "2026-11-18T06:55:34+00:00",
       "failing": 10,
@@ -5935,13 +5988,7 @@
       "failing": 0,
       "label": "tier=1 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
       "source_country_records": 88
-    },
-    {
-      "checked_at_utc": "2026-11-11T03:45:54+00:00",
-      "failing": 0,
-      "label": "tier=3 sources=anyworkanywhere,covebo,eures,goodmorning,hobij,jobspy,latvia_nva,nl_jobs,ottoworkforce,pl_cbop,sweden_jobsearch",
-      "source_country_records": 44
     }
   ],
-  "updated_utc": "2026-11-18T06:55:34+00:00"
+  "updated_utc": "2026-11-18T18:20:06+00:00"
 }
