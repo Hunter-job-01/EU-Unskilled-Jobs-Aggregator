@@ -1,7 +1,7 @@
 {
   "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json.",
-  "updated_on": "2026-11-17",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json.",
+  "updated_on": "2026-11-18",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -1549,6 +1549,142 @@
       "title_ar": "فرّاز طرود في بورتا فيستفاليكا - عامل مؤقت / عند الطلب (ذكر/أنثى)",
       "translated": true,
       "review": "data/title_review_batch30.json"
+    },
+    {
+      "uid": "20af168a26021705",
+      "expected_title": "Lagerhelfer (m/w/d) Berlin-Rudow 12357 (Lager- und Transportarbeiter/in)",
+      "title_en": "Warehouse helper (m/f/d) Berlin-Rudow 12357 (warehouse and transport worker)",
+      "title_ar": "عامل مستودع (ذكر/أنثى) برلين-رودو 12357 (عامل مستودع ونقل)",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "21c88a604958125f",
+      "expected_title": "Produktionsmitarbeiter (m/w/d) Frühschicht (Montierer/in)",
+      "title_en": "Production worker (m/f/d) early shift (assembler)",
+      "title_ar": "عامل إنتاج (ذكر/أنثى) وردية صباحية (عامل تجميع)",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "21efff90fe5034d8",
+      "expected_title": "Helfer/ in - Lager m/w/d - Drogeriefachmarkt (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper (m/f/d) - drugstore retail (warehouse/transport helper)",
+      "title_ar": "عامل مساعد مستودع (ذكر/أنثى) - متجر منظفات ومستحضرات (عامل مستودع ونقل)",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "21f689b820c33995",
+      "expected_title": "Lagermitarbeiter (m/w/d) bis zu 17,00 € (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse worker (m/f/d) up to 17.00 EUR (warehouse/transport helper)",
+      "title_ar": "عامل مستودع (ذكر/أنثى) حتى 17.00 يورو (عامل مستودع ونقل)",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "221e67b695821d3a",
+      "expected_title": "Chauffeur-magasinier / Chauffeuse-magasinière (H/F)",
+      "title_en": "Driver-warehouse worker (M/F)",
+      "title_ar": "سائق - عامل مستودع (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "222d52bc993ce93d",
+      "expected_title": "Magasinier / Magasinière cariste (H/F)",
+      "title_en": "Warehouse worker / forklift operator (M/F)",
+      "title_ar": "عامل مستودع / سائق رافعة شوكية (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "223d4568c8271f9e",
+      "expected_title": "Magasinier / Magasinière (H/F)",
+      "title_en": "Warehouse worker (M/F)",
+      "title_ar": "عامل مستودع (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "2274ea1ea221a389",
+      "expected_title": "Lagerhelfer (m/w/d) / Willkommensprämie 400 € (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper (m/f/d) / 400 EUR welcome bonus (warehouse/transport helper)",
+      "title_ar": "عامل مستودع (ذكر/أنثى) / مكافأة ترحيب 400 يورو (عامل مستودع ونقل)",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "2280c314cc86ebf2",
+      "expected_title": "Logistiek medewerker / magazijnier",
+      "title_en": "Logistics worker / warehouse clerk",
+      "title_ar": "عامل لوجستيات / أمين مستودع",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "2299d1f9240cbcfe",
+      "expected_title": "Fachlagerist (m/w/d) (Fachkraft - Lagerlogistik)",
+      "title_en": "Warehouse specialist (m/f/d) (warehouse logistics specialist)",
+      "title_ar": "أخصائي مستودع (ذكر/أنثى) (أخصائي لوجستيات مستودعات)",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "22e0be538d75faf2",
+      "expected_title": "ÎNGRIJITOR ANIMALE",
+      "title_en": "Animal caretaker",
+      "title_ar": "مقدم رعاية للحيوانات",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "22e782d05646c2da",
+      "expected_title": "Pracovníci v sklade",
+      "title_en": "Warehouse workers",
+      "title_ar": "عمال مستودع",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "22f9bf1432546384",
+      "expected_title": "VADĪTĀJA VIETNIEKS /DIREKTORA VIETNIEKS /IZPILDDIREKTORS (IZGLĪTĪBAS JOMĀ)",
+      "title_en": "Deputy head / deputy director / executive director (education sector)",
+      "title_ar": "نائب مدير / نائب المدير / مدير تنفيذي (مجال التعليم)",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "234c66cce5d34e8d",
+      "expected_title": "SKLADNÍK / SKLADNICE, Skladníci, obsluha manipulačních vozíků",
+      "title_en": "Warehouse worker (m/f), forklift operator",
+      "title_ar": "عامل مستودع (ذكر/أنثى)، مشغل رافعة شوكية",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "237aa07378093205",
+      "expected_title": "Lagerfacharbeiter (m/w/d) ab 17,89 €/h (Fachlagerist/in)",
+      "title_en": "Skilled warehouse worker (m/f/d) from 17.89 EUR/h (warehouse specialist)",
+      "title_ar": "عامل مستودع ماهر (ذكر/أنثى) ابتداءً من 17.89 يورو/ساعة (أخصائي مستودع)",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "2422397dc2c71767",
+      "expected_title": "Pakkija",
+      "title_en": "Packer",
+      "title_ar": "عامل تعبئة وتغليف",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "24291afbf3ffd734",
+      "expected_title": "Orderpicker",
+      "title_en": "Order picker",
+      "title_ar": "عامل تجميع الطلبات",
+      "translated": true,
+      "review": "data/title_review_batch31.json"
     }
   ]
 }
