@@ -1,6 +1,6 @@
 {
   "countries": {
-    "BE": {
+    "CZ": {
       "anyworkanywhere": {
         "errors": [],
         "fetched": 0,
@@ -13,9 +13,385 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for BE"
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for CZ"
         ],
         "status": "skipped"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [
+          "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'pracovnik ve skladu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'baleni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'vyrobni delnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+        ],
+        "fetched": 0,
+        "notes": [],
+        "status": "failed"
+      },
+      "goodmorning": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for CZ"
+        ],
+        "status": "skipped"
+      },
+      "hobij": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for CZ"
+        ],
+        "status": "skipped"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "nl_jobs": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 0 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "ottoworkforce": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for CZ"
+        ],
+        "status": "skipped"
+      },
+      "pl_cbop": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "CBOP is the Polish national board (PL only); skipped for CZ"
+        ],
+        "status": "skipped"
+      },
+      "telegram_channels": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "DE": {
+      "anyworkanywhere": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 1507 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "covebo": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for DE"
+        ],
+        "status": "skipped"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the MPSV dataset covers Czechia only"
+        ],
+        "status": "skipped"
+      },
+      "eures": {
+        "errors": [
+          "keyword 'lagerhelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'produktionshelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'kommissionierer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'verpacker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'lagermitarbeiter': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'maschinenbediener': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'reinigungskraft': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'helfer produktion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+        ],
+        "fetched": 0,
+        "notes": [],
+        "status": "failed"
+      },
+      "goodmorning": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for DE"
+        ],
+        "status": "skipped"
+      },
+      "hobij": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for DE"
+        ],
+        "status": "skipped"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "nl_jobs": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 0 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "ottoworkforce": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for DE"
+        ],
+        "status": "skipped"
+      },
+      "pl_cbop": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "CBOP is the Polish national board (PL only); skipped for DE"
+        ],
+        "status": "skipped"
+      },
+      "telegram_channels": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "HU": {
+      "anyworkanywhere": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 1507 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "covebo": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for HU"
+        ],
+        "status": "skipped"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the MPSV dataset covers Czechia only"
+        ],
+        "status": "skipped"
+      },
+      "eures": {
+        "errors": [
+          "keyword 'raktaros': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'raktari munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'csomagolo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'gyartosori dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'termelesi munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'komissiozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'betanitott munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'raktari dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+        ],
+        "fetched": 0,
+        "notes": [],
+        "status": "failed"
+      },
+      "goodmorning": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for HU"
+        ],
+        "status": "skipped"
+      },
+      "hobij": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for HU"
+        ],
+        "status": "skipped"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 29,
+        "notes": [],
+        "status": "ok"
+      },
+      "nl_jobs": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 0 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "ottoworkforce": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for HU"
+        ],
+        "status": "skipped"
+      },
+      "pl_cbop": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "CBOP is the Polish national board (PL only); skipped for HU"
+        ],
+        "status": "skipped"
+      },
+      "telegram_channels": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "LT": {
+      "anyworkanywhere": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 1507 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "covebo": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for LT"
+        ],
+        "status": "skipped"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the MPSV dataset covers Czechia only"
+        ],
+        "status": "skipped"
+      },
+      "eures": {
+        "errors": [
+          "keyword 'sandelio darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'sandelininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'pakuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'gamybos operatorius': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'komplektuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'rusiuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'ikrovejas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'pagalbinis darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'virtuves pagalbininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'kambarine': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+        ],
+        "fetched": 0,
+        "notes": [
+          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
+        ],
+        "status": "failed"
+      },
+      "goodmorning": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for LT"
+        ],
+        "status": "skipped"
+      },
+      "hobij": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for LT"
+        ],
+        "status": "skipped"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: LT not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
+      },
+      "nl_jobs": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 0 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "ottoworkforce": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for LT"
+        ],
+        "status": "skipped"
+      },
+      "pl_cbop": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "CBOP is the Polish national board (PL only); skipped for LT"
+        ],
+        "status": "skipped"
+      },
+      "telegram_channels": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "NL": {
+      "anyworkanywhere": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 1507 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "covebo": {
+        "errors": [
+          "sitemap: GET https://www.covebo.nl/job-sitemap.xml failed after 3 attempts: HTTPSConnectionPool(host='www.covebo.nl', port=443): Max retries exceeded with url: /job-sitemap.xml (Caused by NewConnectionError(\"HTTPSConnection(host='www.covebo.nl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+        ],
+        "fetched": 0,
+        "notes": [],
+        "status": "failed"
       },
       "czech_mpsv": {
         "errors": [],
@@ -42,19 +418,15 @@
       },
       "goodmorning": {
         "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for BE"
-        ],
-        "status": "skipped"
+        "fetched": 10,
+        "notes": [],
+        "status": "ok"
       },
       "hobij": {
         "errors": [],
-        "fetched": 0,
-        "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for BE"
-        ],
-        "status": "skipped"
+        "fetched": 10,
+        "notes": [],
+        "status": "ok"
       },
       "jobspy": {
         "errors": [],
@@ -66,24 +438,23 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run",
-          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "reused 0 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
       "ottoworkforce": {
         "errors": [],
-        "fetched": 0,
+        "fetched": 9,
         "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for BE"
+          "skipped 3 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
-        "status": "skipped"
+        "status": "ok"
       },
       "pl_cbop": {
         "errors": [],
         "fetched": 0,
         "notes": [
-          "CBOP is the Polish national board (PL only); skipped for BE"
+          "CBOP is the Polish national board (PL only); skipped for NL"
         ],
         "status": "skipped"
       },
@@ -94,10 +465,10 @@
         "status": "ok"
       }
     },
-    "ES": {
+    "PL": {
       "anyworkanywhere": {
         "errors": [],
-        "fetched": 0,
+        "fetched": 1,
         "notes": [],
         "status": "ok"
       },
@@ -105,7 +476,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for ES"
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for PL"
         ],
         "status": "skipped"
       },
@@ -119,14 +490,14 @@
       },
       "eures": {
         "errors": [
-          "keyword 'mozo de almacen': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operario de produccion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'empaquetador': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'preparador de pedidos': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'peon': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operador de fabrica': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'limpiador': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operaria de produccion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+          "keyword 'magazynier': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'pracownik magazynu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'pakowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'pracownik produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'komisjonowanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'operator produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'pracownik fizyczny': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'sortowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
         ],
         "fetched": 0,
         "notes": [],
@@ -136,7 +507,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for ES"
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for PL"
         ],
         "status": "skipped"
       },
@@ -144,7 +515,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for ES"
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for PL"
         ],
         "status": "skipped"
       },
@@ -155,37 +526,35 @@
         "status": "ok"
       },
       "nl_jobs": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+        "errors": [
+          "sitemap: GET https://www.nl-jobs.com/sitemap.xml failed after 3 attempts: HTTPSConnectionPool(host='www.nl-jobs.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nl-jobs.com', port=443) at 0x7fac34386fd0>, 'Connection to www.nl-jobs.com timed out. (connect timeout=30.0)'))"
         ],
-        "status": "ok"
+        "fetched": 0,
+        "notes": [],
+        "status": "failed"
       },
       "ottoworkforce": {
         "errors": [],
         "fetched": 0,
         "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for ES"
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for PL"
         ],
         "status": "skipped"
       },
       "pl_cbop": {
         "errors": [],
-        "fetched": 0,
-        "notes": [
-          "CBOP is the Polish national board (PL only); skipped for ES"
-        ],
-        "status": "skipped"
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
       },
       "telegram_channels": {
         "errors": [],
-        "fetched": 0,
+        "fetched": 1,
         "notes": [],
         "status": "ok"
       }
     },
-    "FR": {
+    "RO": {
       "anyworkanywhere": {
         "errors": [],
         "fetched": 0,
@@ -198,7 +567,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for FR"
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for RO"
         ],
         "status": "skipped"
       },
@@ -212,14 +581,14 @@
       },
       "eures": {
         "errors": [
-          "keyword 'magasinier': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'preparateur de commandes': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'agent de production': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'emballeur': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'manutentionnaire': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operateur de production': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'agent de nettoyage': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'manoeuvre': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+          "keyword 'muncitor depozit': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'ambalator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'operator productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'manipulant marfuri': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'muncitor necalificat': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'sortator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'muncitor in productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'ajutor bucatar': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
         ],
         "fetched": 0,
         "notes": [],
@@ -229,7 +598,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for FR"
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for RO"
         ],
         "status": "skipped"
       },
@@ -237,13 +606,13 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for FR"
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for RO"
         ],
         "status": "skipped"
       },
       "jobspy": {
         "errors": [],
-        "fetched": 50,
+        "fetched": 8,
         "notes": [],
         "status": "ok"
       },
@@ -251,8 +620,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run",
-          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "reused 0 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -260,7 +628,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for FR"
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for RO"
         ],
         "status": "skipped"
       },
@@ -268,7 +636,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "CBOP is the Polish national board (PL only); skipped for FR"
+          "CBOP is the Polish national board (PL only); skipped for RO"
         ],
         "status": "skipped"
       },
@@ -279,7 +647,7 @@
         "status": "ok"
       }
     },
-    "IE": {
+    "SK": {
       "anyworkanywhere": {
         "errors": [],
         "fetched": 0,
@@ -292,7 +660,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for IE"
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for SK"
         ],
         "status": "skipped"
       },
@@ -306,24 +674,28 @@
       },
       "eures": {
         "errors": [
-          "keyword 'warehouse worker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'warehouse operative': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'order picker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'picker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'packer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'packing operative': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'production operator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'production worker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+          "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'balenie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'vyrobny operator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'upratovanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'upratovacka': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+          "keyword 'pomocna sila v kuchyni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
         ],
         "fetched": 0,
-        "notes": [],
+        "notes": [
+          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
+        ],
         "status": "failed"
       },
       "goodmorning": {
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for IE"
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for SK"
         ],
         "status": "skipped"
       },
@@ -331,22 +703,23 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for IE"
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for SK"
         ],
         "status": "skipped"
       },
       "jobspy": {
         "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
+        "fetched": 0,
+        "notes": [
+          "indeed: SK not supported by JobSpy/Indeed (EURES covers it)"
+        ],
+        "status": "skipped"
       },
       "nl_jobs": {
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run",
-          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "reused 0 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -354,7 +727,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for IE"
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for SK"
         ],
         "status": "skipped"
       },
@@ -362,195 +735,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "CBOP is the Polish national board (PL only); skipped for IE"
-        ],
-        "status": "skipped"
-      },
-      "telegram_channels": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [],
-        "status": "ok"
-      }
-    },
-    "IT": {
-      "anyworkanywhere": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 1507 sitemap urls fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "covebo": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for IT"
-        ],
-        "status": "skipped"
-      },
-      "czech_mpsv": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the MPSV dataset covers Czechia only"
-        ],
-        "status": "skipped"
-      },
-      "eures": {
-        "errors": [
-          "keyword 'magazziniere': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operaio di produzione': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'imballatore': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'addetto al confezionamento': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operaio generico': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'addetto picking': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'addetto alle pulizie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operaia di produzione': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-        ],
-        "fetched": 0,
-        "notes": [],
-        "status": "failed"
-      },
-      "goodmorning": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for IT"
-        ],
-        "status": "skipped"
-      },
-      "hobij": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for IT"
-        ],
-        "status": "skipped"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "nl_jobs": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 17 sitemap urls fetched earlier this run",
-          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
-        ],
-        "status": "ok"
-      },
-      "ottoworkforce": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for IT"
-        ],
-        "status": "skipped"
-      },
-      "pl_cbop": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "CBOP is the Polish national board (PL only); skipped for IT"
-        ],
-        "status": "skipped"
-      },
-      "telegram_channels": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [],
-        "status": "ok"
-      }
-    },
-    "PT": {
-      "anyworkanywhere": {
-        "errors": [],
-        "fetched": 5,
-        "notes": [
-          "reused 1507 sitemap urls fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "covebo": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for PT"
-        ],
-        "status": "skipped"
-      },
-      "czech_mpsv": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the MPSV dataset covers Czechia only"
-        ],
-        "status": "skipped"
-      },
-      "eures": {
-        "errors": [
-          "keyword 'armazenista': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operador de armazem': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'embalador': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operario de producao': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'ajudante geral': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operador de logistica': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'operador indiferenciado': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-          "keyword 'limpeza': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-        ],
-        "fetched": 0,
-        "notes": [],
-        "status": "failed"
-      },
-      "goodmorning": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for PT"
-        ],
-        "status": "skipped"
-      },
-      "hobij": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for PT"
-        ],
-        "status": "skipped"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "nl_jobs": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 17 sitemap urls fetched earlier this run",
-          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
-        ],
-        "status": "ok"
-      },
-      "ottoworkforce": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for PT"
-        ],
-        "status": "skipped"
-      },
-      "pl_cbop": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "CBOP is the Polish national board (PL only); skipped for PT"
+          "CBOP is the Polish national board (PL only); skipped for SK"
         ],
         "status": "skipped"
       },
@@ -562,8 +747,8 @@
       }
     }
   },
-  "duration_sec": 1111.2,
-  "last_run_utc": "2026-11-18T06:01:33+00:00",
+  "duration_sec": 1977.9,
+  "last_run_utc": "2026-11-18T06:55:34+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-15T04:31:49+00:00",
@@ -951,7 +1136,7 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-17T18:25:54+00:00",
+      "checked_at_utc": "2026-11-18T06:55:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -976,10 +1161,19 @@
           "status": "ok"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'pracovnik ve skladu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'baleni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'vyrobni delnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -1007,8 +1201,7 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run",
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1037,7 +1230,7 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-17T18:25:54+00:00",
+      "checked_at_utc": "2026-11-18T06:55:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1064,10 +1257,19 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'lagerhelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'produktionshelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'kommissionierer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'verpacker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'lagermitarbeiter': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'maschinenbediener': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'reinigungskraft': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'helfer produktion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -1095,8 +1297,7 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run",
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1792,7 +1993,7 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-17T18:25:54+00:00",
+      "checked_at_utc": "2026-11-18T06:55:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1819,10 +2020,19 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'raktaros': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'raktari munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'csomagolo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'gyartosori dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'termelesi munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'komissiozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'betanitott munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'raktari dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -1842,7 +2052,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 20,
+          "fetched": 29,
           "notes": [],
           "status": "ok"
         },
@@ -1850,8 +2060,7 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run",
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2074,7 +2283,7 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-17T18:25:54+00:00",
+      "checked_at_utc": "2026-11-18T06:55:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2101,12 +2310,23 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 8,
+          "errors": [
+            "keyword 'sandelio darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'sandelininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'pakuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'gamybos operatorius': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'komplektuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'rusiuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'ikrovejas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'pagalbinis darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'virtuves pagalbininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'kambarine': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+          ],
+          "fetched": 0,
           "notes": [
             "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
           ],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -2136,8 +2356,7 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run",
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2454,7 +2673,7 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-17T18:25:54+00:00",
+      "checked_at_utc": "2026-11-18T06:55:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2465,10 +2684,12 @@
           "status": "ok"
         },
         "covebo": {
-          "errors": [],
-          "fetched": 10,
+          "errors": [
+            "sitemap: GET https://www.covebo.nl/job-sitemap.xml failed after 3 attempts: HTTPSConnectionPool(host='www.covebo.nl', port=443): Max retries exceeded with url: /job-sitemap.xml (Caused by NewConnectionError(\"HTTPSConnection(host='www.covebo.nl', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "czech_mpsv": {
           "errors": [],
@@ -2479,10 +2700,19 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'magazijnmedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'orderpicker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'productiemedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'verpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'logistiek medewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'inpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'schoonmaker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'productiewerk': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -2504,10 +2734,9 @@
         },
         "nl_jobs": {
           "errors": [],
-          "fetched": 2,
+          "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run",
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2536,7 +2765,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-17T18:25:54+00:00",
+      "checked_at_utc": "2026-11-18T06:55:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2561,10 +2790,19 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'magazynier': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'pracownik magazynu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'pakowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'pracownik produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'komisjonowanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'operator produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'pracownik fizyczny': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'sortowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -2589,12 +2827,12 @@
           "status": "ok"
         },
         "nl_jobs": {
-          "errors": [],
-          "fetched": 0,
-          "notes": [
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "errors": [
+            "sitemap: GET https://www.nl-jobs.com/sitemap.xml failed after 3 attempts: HTTPSConnectionPool(host='www.nl-jobs.com', port=443): Max retries exceeded with url: /sitemap.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.nl-jobs.com', port=443) at 0x7fac34386fd0>, 'Connection to www.nl-jobs.com timed out. (connect timeout=30.0)'))"
           ],
-          "status": "ok"
+          "fetched": 0,
+          "notes": [],
+          "status": "failed"
         },
         "ottoworkforce": {
           "errors": [],
@@ -2612,10 +2850,8 @@
         },
         "telegram_channels": {
           "errors": [],
-          "fetched": 33,
-          "notes": [
-            "teealpl: backlog gap of ~15 messages older than the preview window (cursor 48270, oldest visible 48286) - missed, not caught up"
-          ],
+          "fetched": 1,
+          "notes": [],
           "status": "ok"
         }
       }
@@ -2718,7 +2954,7 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-17T18:25:54+00:00",
+      "checked_at_utc": "2026-11-18T06:55:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2745,10 +2981,19 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'muncitor depozit': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'ambalator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'operator productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'manipulant marfuri': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'muncitor necalificat': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'sortator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'muncitor in productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'ajutor bucatar': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -2776,8 +3021,7 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run",
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -3011,7 +3255,7 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-17T18:25:54+00:00",
+      "checked_at_utc": "2026-11-18T06:55:34+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3038,12 +3282,23 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'balenie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'vyrobny operator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'upratovanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'upratovacka': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+            "keyword 'pomocna sila v kuchyni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+          ],
+          "fetched": 0,
           "notes": [
             "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
           ],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -3073,8 +3328,7 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 17 sitemap urls fetched earlier this run",
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "reused 0 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -3105,12 +3359,14 @@
   },
   "parameters": {
     "countries": [
-      "ES",
-      "IT",
-      "FR",
-      "BE",
-      "PT",
-      "IE"
+      "PL",
+      "CZ",
+      "DE",
+      "LT",
+      "HU",
+      "RO",
+      "SK",
+      "NL"
     ],
     "max_jobs": 50,
     "min_score": 20,
@@ -3127,42 +3383,49 @@
       "pl_cbop",
       "telegram_channels"
     ],
-    "tier": "2"
+    "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 55,
-    "candidates_stored": 55,
+    "candidates_held_total": 90,
+    "candidates_stored": 90,
     "sealed": true,
-    "sha256": "12d4ac93924b866df433950280810d358ccdf0829fb7e664263945a01bdd057f"
+    "sha256": "ed97e571faf978a6eae915ad7f2b2cecd5e7632100fa812db4fe1c12128e8fc8"
   },
   "source_retention": {
     "kept_pre_prune": {
-      "jobspy_indeed": 181
+      "czech_mpsv": 4,
+      "goodmorning": 5,
+      "hobij": 5,
+      "jobspy_indeed": 193,
+      "pl_cbop": 50,
+      "telegram_teealpl": 1
     },
     "retained_post_prune": {
-      "jobspy_indeed": 178
+      "jobspy_indeed": 191,
+      "pl_cbop": 50,
+      "telegram_teealpl": 1
     }
   },
   "totals": {
-    "active": 3835,
-    "below_min_score": 29,
-    "contacts_extracted": 27,
+    "active": 3848,
+    "below_min_score": 12,
+    "contacts_extracted": 54,
     "excluded": 95,
-    "fetched": 305,
+    "fetched": 368,
     "l1_dropped": 1,
-    "l2_language_excluded": 0,
-    "lifecycle_deactivated": 0,
-    "lifecycle_deactivated_total": 112,
+    "l2_language_excluded": 1,
+    "lifecycle_deactivated": 1,
+    "lifecycle_deactivated_total": 113,
     "lifecycle_dead_confirmed": 0,
-    "lifecycle_live_confirmed": 12,
+    "lifecycle_live_confirmed": 11,
     "lifecycle_reactivated": 0,
-    "new": 51,
+    "new": 13,
     "notified_telegram": 0,
     "pruned": 0,
-    "reviewed_fills": 0,
-    "translated_ar": 12,
+    "reviewed_fills": 2,
+    "translated_ar": 0,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 127
+    "updated": 229
   }
 }
