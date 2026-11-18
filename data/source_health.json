@@ -54,20 +54,19 @@
       "status": "ok"
     },
     "anyworkanywhere|CY": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "CY",
-      "duration_sec": 2.1,
+      "duration_sec": 32.7,
       "errors": [],
       "fetched": 0,
       "kept": 0,
-      "notes": [
-        "reused 1507 sitemap urls fetched earlier this run"
-      ],
+      "notes": [],
       "source": "anyworkanywhere",
       "stats": {
         "other_country": 10,
         "pages_fetched": 10,
-        "urls_consumed": 40
+        "sitemap_urls": 1507,
+        "urls_consumed": 10
       },
       "status": "ok"
     },
@@ -197,21 +196,20 @@
       "status": "ok"
     },
     "anyworkanywhere|GR": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "GR",
-      "duration_sec": 22.5,
+      "duration_sec": 18.0,
       "errors": [],
-      "fetched": 7,
-      "kept": 0,
+      "fetched": 5,
+      "kept": 1,
       "notes": [
         "reused 1507 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
-        "expired_skipped": 1,
-        "other_country": 2,
+        "other_country": 5,
         "pages_fetched": 10,
-        "urls_consumed": 80
+        "urls_consumed": 20
       },
       "status": "ok"
     },
@@ -451,9 +449,9 @@
       "status": "ok"
     },
     "anyworkanywhere|SI": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "SI",
-      "duration_sec": 2.2,
+      "duration_sec": 2.8,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -464,7 +462,7 @@
       "stats": {
         "other_country": 10,
         "pages_fetched": 10,
-        "urls_consumed": 120
+        "urls_consumed": 30
       },
       "status": "ok"
     },
@@ -992,7 +990,7 @@
       "status": "skipped"
     },
     "covebo|CY": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "CY",
       "duration_sec": 0.0,
       "errors": [],
@@ -1104,7 +1102,7 @@
       "status": "skipped"
     },
     "covebo|GR": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "GR",
       "duration_sec": 0.0,
       "errors": [],
@@ -1303,7 +1301,7 @@
       "status": "skipped"
     },
     "covebo|SI": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "SI",
       "duration_sec": 0.0,
       "errors": [],
@@ -1748,16 +1746,25 @@
       "status": "ok"
     },
     "eures|CY": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "CY",
-      "duration_sec": 5.7,
-      "errors": [],
-      "fetched": 50,
-      "kept": 4,
+      "duration_sec": 126.6,
+      "errors": [
+        "keyword 'εργατης αποθηκης': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'συσκευαστης': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'εργατης παραγωγης': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'καθαριστης': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'καθαριστες': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'καθαριστρια': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'καθαριστριες': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'βοηθος κουζινας': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+      ],
+      "fetched": 0,
+      "kept": 0,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "ok"
+      "status": "failed"
     },
     "eures|CZ": {
       "checked_at_utc": "2026-11-17T18:25:54+00:00",
@@ -1848,16 +1855,25 @@
       "status": "ok"
     },
     "eures|GR": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "GR",
-      "duration_sec": 33.5,
-      "errors": [],
-      "fetched": 48,
-      "kept": 8,
+      "duration_sec": 128.4,
+      "errors": [
+        "keyword 'εργατης αποθηκης': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'συσκευαστης': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'εργατης παραγωγης': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'καθαριστης': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'καθαριστες': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'καθαριστρια': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'καθαριστριες': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'βοηθος κουζινας': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+      ],
+      "fetched": 0,
+      "kept": 0,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "ok"
+      "status": "failed"
     },
     "eures|HR": {
       "checked_at_utc": "2026-11-17T03:44:45+00:00",
@@ -2028,16 +2044,25 @@
       "status": "ok"
     },
     "eures|SI": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "SI",
-      "duration_sec": 4.7,
-      "errors": [],
-      "fetched": 50,
-      "kept": 50,
+      "duration_sec": 124.9,
+      "errors": [
+        "keyword 'skladiscnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'pakiralec': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'proizvodni delavec': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'pomozni delavec': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'cistilec': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'pomocnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'kuhinjski pomocnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
+        "keyword 'sobarica': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
+      ],
+      "fetched": 0,
+      "kept": 0,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "ok"
+      "status": "failed"
     },
     "eures|SK": {
       "checked_at_utc": "2026-11-17T18:25:54+00:00",
@@ -2096,7 +2121,7 @@
       "status": "skipped"
     },
     "goodmorning|CY": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "CY",
       "duration_sec": 0.0,
       "errors": [],
@@ -2208,7 +2233,7 @@
       "status": "skipped"
     },
     "goodmorning|GR": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "GR",
       "duration_sec": 0.0,
       "errors": [],
@@ -2407,7 +2432,7 @@
       "status": "skipped"
     },
     "goodmorning|SI": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "SI",
       "duration_sec": 0.0,
       "errors": [],
@@ -2477,7 +2502,7 @@
       "status": "skipped"
     },
     "hobij|CY": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "CY",
       "duration_sec": 0.0,
       "errors": [],
@@ -2589,7 +2614,7 @@
       "status": "skipped"
     },
     "hobij|GR": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "GR",
       "duration_sec": 0.0,
       "errors": [],
@@ -2788,7 +2813,7 @@
       "status": "skipped"
     },
     "hobij|SI": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "SI",
       "duration_sec": 0.0,
       "errors": [],
@@ -2854,9 +2879,9 @@
       "status": "skipped"
     },
     "jobspy|CY": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "CY",
-      "duration_sec": 0.0,
+      "duration_sec": 3.7,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -2954,9 +2979,9 @@
       "status": "ok"
     },
     "jobspy|GR": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "GR",
-      "duration_sec": 14.6,
+      "duration_sec": 8.7,
       "errors": [],
       "fetched": 50,
       "kept": 35,
@@ -3130,7 +3155,7 @@
       "status": "ok"
     },
     "jobspy|SI": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "SI",
       "duration_sec": 0.0,
       "errors": [],
@@ -3200,7 +3225,7 @@
       "status": "skipped"
     },
     "latvia_nva|CY": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "CY",
       "duration_sec": 0.0,
       "errors": [],
@@ -3312,7 +3337,7 @@
       "status": "skipped"
     },
     "latvia_nva|GR": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "GR",
       "duration_sec": 0.0,
       "errors": [],
@@ -3510,7 +3535,7 @@
       "status": "skipped"
     },
     "latvia_nva|SI": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "SI",
       "duration_sec": 0.0,
       "errors": [],
@@ -3635,15 +3660,13 @@
       "status": "ok"
     },
     "nl_jobs|CY": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "CY",
-      "duration_sec": 2.8,
+      "duration_sec": 5.1,
       "errors": [],
       "fetched": 0,
       "kept": 0,
-      "notes": [
-        "reused 17 sitemap urls fetched earlier this run"
-      ],
+      "notes": [],
       "source": "nl_jobs",
       "stats": {
         "delta_skipped": 11,
@@ -3663,6 +3686,7 @@
         "index_count": 17,
         "other_country": 2,
         "pages_fetched": 6,
+        "sitemap_urls": 17,
         "unparsable_pages": 4
       },
       "status": "ok"
@@ -3898,9 +3922,9 @@
       "status": "ok"
     },
     "nl_jobs|GR": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "GR",
-      "duration_sec": 2.7,
+      "duration_sec": 2.9,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4357,9 +4381,9 @@
       "status": "ok"
     },
     "nl_jobs|SI": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "SI",
-      "duration_sec": 2.7,
+      "duration_sec": 3.0,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4465,7 +4489,7 @@
       "status": "skipped"
     },
     "ottoworkforce|CY": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "CY",
       "duration_sec": 0.0,
       "errors": [],
@@ -4577,7 +4601,7 @@
       "status": "skipped"
     },
     "ottoworkforce|GR": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "GR",
       "duration_sec": 0.0,
       "errors": [],
@@ -4783,7 +4807,7 @@
       "status": "skipped"
     },
     "ottoworkforce|SI": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "SI",
       "duration_sec": 0.0,
       "errors": [],
@@ -4853,7 +4877,7 @@
       "status": "skipped"
     },
     "pl_cbop|CY": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "CY",
       "duration_sec": 0.0,
       "errors": [],
@@ -4965,7 +4989,7 @@
       "status": "skipped"
     },
     "pl_cbop|GR": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "GR",
       "duration_sec": 0.0,
       "errors": [],
@@ -5161,7 +5185,7 @@
       "status": "skipped"
     },
     "pl_cbop|SI": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "SI",
       "duration_sec": 0.0,
       "errors": [],
@@ -5231,7 +5255,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|CY": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "CY",
       "duration_sec": 0.0,
       "errors": [],
@@ -5343,7 +5367,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|GR": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "GR",
       "duration_sec": 0.0,
       "errors": [],
@@ -5537,7 +5561,7 @@
       "status": "ok"
     },
     "sweden_jobsearch|SI": {
-      "checked_at_utc": "2026-11-15T04:31:49+00:00",
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
       "country": "SI",
       "duration_sec": 0.0,
       "errors": [],
@@ -5739,6 +5763,12 @@
   },
   "recent_runs": [
     {
+      "checked_at_utc": "2026-11-18T03:51:51+00:00",
+      "failing": 3,
+      "label": "tier=3 sources=anyworkanywhere,covebo,eures,goodmorning,hobij,jobspy,latvia_nva,nl_jobs,ottoworkforce,pl_cbop,sweden_jobsearch",
+      "source_country_records": 33
+    },
+    {
       "checked_at_utc": "2026-11-17T18:25:54+00:00",
       "failing": 0,
       "label": "tier=1 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
@@ -5911,13 +5941,7 @@
       "failing": 0,
       "label": "tier=1 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
       "source_country_records": 88
-    },
-    {
-      "checked_at_utc": "2026-11-10T05:42:04+00:00",
-      "failing": 0,
-      "label": "tier=2 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
-      "source_country_records": 66
     }
   ],
-  "updated_utc": "2026-11-17T18:25:54+00:00"
+  "updated_utc": "2026-11-18T03:51:51+00:00"
 }
