@@ -5,7 +5,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1503 sitemap urls fetched earlier this run"
+          "reused 1504 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -88,7 +88,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1503 sitemap urls fetched earlier this run"
+          "reused 1504 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -173,7 +173,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1503 sitemap urls fetched earlier this run"
+          "reused 1504 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -217,7 +217,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 29,
+        "fetched": 33,
         "notes": [],
         "status": "ok"
       },
@@ -258,7 +258,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1503 sitemap urls fetched earlier this run"
+          "reused 1504 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -347,7 +347,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1503 sitemap urls fetched earlier this run"
+          "reused 1504 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -496,7 +496,7 @@
       },
       "telegram_channels": {
         "errors": [],
-        "fetched": 0,
+        "fetched": 35,
         "notes": [],
         "status": "ok"
       }
@@ -506,7 +506,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1503 sitemap urls fetched earlier this run"
+          "reused 1504 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -550,7 +550,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 8,
+        "fetched": 9,
         "notes": [],
         "status": "ok"
       },
@@ -591,7 +591,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1503 sitemap urls fetched earlier this run"
+          "reused 1504 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -676,8 +676,8 @@
       }
     }
   },
-  "duration_sec": 685.7,
-  "last_run_utc": "2026-11-19T06:30:21+00:00",
+  "duration_sec": 654.7,
+  "last_run_utc": "2026-11-19T18:19:02+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-19T03:48:15+00:00",
@@ -1051,13 +1051,13 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-19T06:30:21+00:00",
+      "checked_at_utc": "2026-11-19T18:19:02+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1503 sitemap urls fetched earlier this run"
+            "reused 1504 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1137,13 +1137,13 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-19T06:30:21+00:00",
+      "checked_at_utc": "2026-11-19T18:19:02+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1503 sitemap urls fetched earlier this run"
+            "reused 1504 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1875,13 +1875,13 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-19T06:30:21+00:00",
+      "checked_at_utc": "2026-11-19T18:19:02+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1503 sitemap urls fetched earlier this run"
+            "reused 1504 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1925,7 +1925,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 29,
+          "fetched": 33,
           "notes": [],
           "status": "ok"
         },
@@ -2157,13 +2157,13 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-19T06:30:21+00:00",
+      "checked_at_utc": "2026-11-19T18:19:02+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1503 sitemap urls fetched earlier this run"
+            "reused 1504 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2520,13 +2520,13 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-19T06:30:21+00:00",
+      "checked_at_utc": "2026-11-19T18:19:02+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1503 sitemap urls fetched earlier this run"
+            "reused 1504 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2602,7 +2602,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-19T06:30:21+00:00",
+      "checked_at_utc": "2026-11-19T18:19:02+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2678,7 +2678,7 @@
         },
         "telegram_channels": {
           "errors": [],
-          "fetched": 0,
+          "fetched": 35,
           "notes": [],
           "status": "ok"
         }
@@ -2782,13 +2782,13 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-19T06:30:21+00:00",
+      "checked_at_utc": "2026-11-19T18:19:02+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1503 sitemap urls fetched earlier this run"
+            "reused 1504 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2832,7 +2832,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 8,
+          "fetched": 9,
           "notes": [],
           "status": "ok"
         },
@@ -3058,13 +3058,13 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-19T06:30:21+00:00",
+      "checked_at_utc": "2026-11-19T18:19:02+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1503 sitemap urls fetched earlier this run"
+            "reused 1504 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -3179,49 +3179,55 @@
     "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 175,
-    "candidates_stored": 175,
+    "candidates_held_total": 200,
+    "candidates_stored": 200,
     "sealed": true,
-    "sha256": "be610d43825b01c99748e5ddcb1412d30dd1e81349ee614c42ea8b1585633df9"
+    "sha256": "6741d3ee4bc607cb1019978767ae3fe17458a49ddf706807c4f72111e0457da7"
   },
   "source_retention": {
     "kept_pre_prune": {
       "covebo": 2,
       "czech_mpsv": 2,
-      "eures": 186,
+      "eures": 188,
       "goodmorning": 5,
-      "hobij": 4,
+      "hobij": 5,
       "jobspy_indeed": 189,
       "nl_jobs": 1,
-      "pl_cbop": 50
+      "pl_cbop": 50,
+      "telegram_polandworkportal": 11,
+      "telegram_teealpl": 5,
+      "telegram_ukraincydopracy": 1
     },
     "retained_post_prune": {
       "czech_mpsv": 1,
-      "eures": 138,
+      "eures": 152,
       "jobspy_indeed": 186,
-      "pl_cbop": 50
+      "pl_cbop": 50,
+      "telegram_polandworkportal": 11,
+      "telegram_teealpl": 5,
+      "telegram_ukraincydopracy": 1
     }
   },
   "totals": {
-    "active": 3913,
-    "below_min_score": 21,
-    "contacts_extracted": 116,
-    "excluded": 244,
-    "fetched": 735,
+    "active": 3960,
+    "below_min_score": 13,
+    "contacts_extracted": 133,
+    "excluded": 276,
+    "fetched": 775,
     "l1_dropped": 4,
-    "l2_language_excluded": 0,
-    "lifecycle_deactivated": 0,
-    "lifecycle_deactivated_total": 106,
-    "lifecycle_dead_confirmed": 1,
-    "lifecycle_live_confirmed": 29,
-    "lifecycle_reactivated": 1,
-    "new": 61,
+    "l2_language_excluded": 2,
+    "lifecycle_deactivated": 1,
+    "lifecycle_deactivated_total": 104,
+    "lifecycle_dead_confirmed": 2,
+    "lifecycle_live_confirmed": 37,
+    "lifecycle_reactivated": 3,
+    "new": 53,
     "notified_telegram": 0,
     "pruned": 6,
-    "reviewed_fills": 13,
+    "reviewed_fills": 24,
     "translated_ar": 0,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 327
+    "updated": 371
   }
 }
