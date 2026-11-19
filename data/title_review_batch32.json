@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-19",
+  "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live from a europa.eu origin page, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. 11 of 18 candidates in this window returned HTTP 200 with exact title matches and were filled. Seven postings returned HTTP 404 (dead postings) and were skipped without a fill: 244e66b7cdb44679 (SE, Orderplockare - Granplockare utomhus - Blomsterlandet Luleå); 247254726b1e7ee0 (HR, ČISTAČ/ ČISTAČICA); 24ca0fe2503e3dad (EE, Klienditeenindaja); 24dd0d96074b918f (IT, addetto al ricevimento/addetta al ricevimento); 254ec227441fde59 (FR, Magasinier h/f - Mauguio (H/F)); 25bce247da5d50d2 (SE, Lagerbiträden och lagermedarbetare till lager i Stockholm); 25c1c1e040a5cf28 (DE, Sortierer für Pakete in Minden – Abrufkraft / Aushilfe (m/w/d) (Helfer/in - Kurier-, Zustell- und Postdienstleistungen)) - the dead-link sweep handles them. The five previously held postings (00cfb0e9af186fce, 0c10c84afe31213a, 0dad6f50ad84127b, 108f2edcfb6b67d8, 112d65cfb3e268bf) were skipped and remain held. No candidate in this window carried the legacy partial-AR marker, so no overwrite:true fills were needed.",
+  "reviews": [
+    {
+      "uid": "243a53514d35a691",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/Njc1M2IwZTctYzVlZi00NWJmLWExNjQtYjJmZTNmZDZkYzA1IDM?lang=en",
+      "note": "Live EURES title matches stored. Body: Internal logistics for a manufacturing firm via VIVALDIS: receive, check and store goods, supply production and assembly lines."
+    },
+    {
+      "uid": "244e66b7cdb44679",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM2OTUxNiAxMjE?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "24625c72f51e3816",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM3MDIyNCAxMjE?lang=en",
+      "note": "Live EURES title matches stored. Body: Randstad: part-time terminal work, scanning and sorting packages for onward transport, machine and manual sorting."
+    },
+    {
+      "uid": "247254726b1e7ee0",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkyNzI5NSAxOQ?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "24ca0fe2503e3dad",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2NjE4NiA4?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "24da1ae801780c34",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUwMTA4MTA3MjIgNg?lang=en",
+      "note": "Live EURES title matches stored. Body: KLEMAT CZ: class B/C licence plus professional driver card required; stable long-term employment, attendance bonus, meal allowance."
+    },
+    {
+      "uid": "24dd0d96074b918f",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMTU5NyAxNw?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "254ec227441fde59",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1WExUWiA5?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "254ee148ba4ea38d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUwNDgxMCAxNA?lang=en",
+      "note": "Live EURES title matches stored. Body: MIROVITA fruit and vegetable processing: receiving, loading/unloading, storage and issue of raw materials and finished products; 1-month trial, 3-month fixed term with long-term option."
+    },
+    {
+      "uid": "25586ef1b465cb89",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2ODgxOSA4?lang=en",
+      "note": "Live EURES title matches stored. Body: Visafruit: labelling goods, packing and sorting, mainly fruit and vegetables; varied work with customer contact."
+    },
+    {
+      "uid": "255fef116cda6e55",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NzAyYTdhODUtOTAxNS00MTk5LThjNmQtOWQxYTlmMzYzYTE1IDM?lang=en",
+      "note": "Live EURES title matches stored. Body: Konvert Interim for a glass company in Meer: warehouse organisation and administration."
+    },
+    {
+      "uid": "256d4965f88bb30d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIzODQtOTgwODM5NDkyLVMgMQ?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse helper via Actief Personalmanagement Hannover."
+    },
+    {
+      "uid": "25ad978b2366a929",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQwMTQtNGRjNjEzNjFjMTJhYmUwMC1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: TriTec HR: 16.00-17.00 EUR/h under tariff, permanent contract, 250 EUR starting bonus, holiday and Christmas pay."
+    },
+    {
+      "uid": "25bce247da5d50d2",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM4OTI4MCAxMjE?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "25c1c1e040a5cf28",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQzNDAtNDk0NjAzMDYzLVMgMQ?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "25e925c23eb685a5",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjM3NWFjNmMtMjlhOC00MzE0LWIxNzktZjA4YzNkMmUzYjA5IDc?lang=en",
+      "note": "Live EURES title matches stored. Body: LYNDDAHL A/S factory in Ribe: production work, stable operation and quality focus."
+    },
+    {
+      "uid": "25ee3ab12c5246e2",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1UlJSSyA5?lang=en",
+      "note": "Live EURES title matches stored. Body: POINT.P Saint-Alban: greet customers in the materials yard, advise on products, logistics work."
+    },
+    {
+      "uid": "2604054fc3d992f6",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NzQ2MDMzMyAxMDI?lang=en",
+      "note": "Live EURES title matches stored. Body: Food industry: packing and labelling, machinery such as mincers and packers, workspace cleaning; 6 months sector experience required."
+    }
+  ]
+}
