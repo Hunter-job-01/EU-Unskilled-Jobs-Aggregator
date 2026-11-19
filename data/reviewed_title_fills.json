@@ -1,7 +1,7 @@
 {
   "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json.",
-  "updated_on": "2026-11-18",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json. and data/title_review_batch32.json.",
+  "updated_on": "2026-11-19",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -1685,6 +1685,94 @@
       "title_ar": "عامل تجميع الطلبات",
       "translated": true,
       "review": "data/title_review_batch31.json"
+    },
+    {
+      "uid": "243a53514d35a691",
+      "expected_title": "Logistiek Bediende in de landbouw",
+      "title_en": "Logistics clerk in agriculture",
+      "title_ar": "موظف لوجستيات في الزراعة",
+      "translated": true,
+      "review": "data/title_review_batch32.json"
+    },
+    {
+      "uid": "24625c72f51e3816",
+      "expected_title": "Terminalarbetare - deltid",
+      "title_en": "Terminal worker - part-time",
+      "title_ar": "عامل محطة شحن - دوام جزئي",
+      "translated": true,
+      "review": "data/title_review_batch32.json"
+    },
+    {
+      "uid": "24da1ae801780c34",
+      "expected_title": "Řidič/ka skupiny C, skladník/ce, Řidiči nákladních automobilů (kromě tahačů)",
+      "title_en": "Class C truck driver / warehouse worker (m/f)",
+      "title_ar": "سائق شاحنة فئة C / عامل مستودع (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch32.json"
+    },
+    {
+      "uid": "254ee148ba4ea38d",
+      "expected_title": "SKLADIŠČNIK - M/Ž",
+      "title_en": "Warehouse worker (M/F)",
+      "title_ar": "عامل مستودع (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch32.json"
+    },
+    {
+      "uid": "25586ef1b465cb89",
+      "expected_title": "Laotöötaja",
+      "title_en": "Warehouse worker",
+      "title_ar": "عامل مستودع",
+      "translated": true,
+      "review": "data/title_review_batch32.json"
+    },
+    {
+      "uid": "255fef116cda6e55",
+      "expected_title": "Magazijnmedewerker",
+      "title_en": "Warehouse worker",
+      "title_ar": "عامل مستودع",
+      "translated": true,
+      "review": "data/title_review_batch32.json"
+    },
+    {
+      "uid": "256d4965f88bb30d",
+      "expected_title": "Lagerhelfer (m/w/d) (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper (m/f/d) (warehouse/transport helper)",
+      "title_ar": "عامل مساعد مستودع (ذكر/أنثى) (عامل مستودع ونقل)",
+      "translated": true,
+      "review": "data/title_review_batch32.json"
+    },
+    {
+      "uid": "25ad978b2366a929",
+      "expected_title": "Lagermitarbeiter m/w/d (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse worker (m/f/d) (warehouse/transport helper)",
+      "title_ar": "عامل مستودع (ذكر/أنثى) (عامل مستودع ونقل)",
+      "translated": true,
+      "review": "data/title_review_batch32.json"
+    },
+    {
+      "uid": "25e925c23eb685a5",
+      "expected_title": "Produktionsmedarbejdere søges",
+      "title_en": "Production workers wanted",
+      "title_ar": "مطلوب عمال إنتاج",
+      "translated": true,
+      "review": "data/title_review_batch32.json"
+    },
+    {
+      "uid": "25ee3ab12c5246e2",
+      "expected_title": "Magasinier Vendeur (H/F) - Saint-Alban (31)",
+      "title_en": "Warehouse worker-salesperson (M/F) - Saint-Alban (31)",
+      "title_ar": "عامل مستودع وبائع (ذكر/أنثى) - سان ألبان (31)",
+      "translated": true,
+      "review": "data/title_review_batch32.json"
+    },
+    {
+      "uid": "2604054fc3d992f6",
+      "expected_title": "OPERARIO/A DE PRODUCCIÓN INDUSTRIA DE ALIMENTACIÓN (REF:7503)",
+      "title_en": "Production operator (M/F) food industry (REF:7503)",
+      "title_ar": "عامل إنتاج (ذكر/أنثى) في الصناعة الغذائية (مرجع:7503)",
+      "translated": true,
+      "review": "data/title_review_batch32.json"
     }
   ]
 }
