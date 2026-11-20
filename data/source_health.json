@@ -18,19 +18,18 @@
       "status": "ok"
     },
     "anyworkanywhere|BE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "BE",
-      "duration_sec": 3.0,
+      "duration_sec": 1.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1507 sitemap urls fetched earlier this run"
+        "reused 1504 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
-        "expired_skipped": 1,
-        "other_country": 9,
+        "other_country": 10,
         "pages_fetched": 10,
         "urls_consumed": 40
       },
@@ -144,18 +143,19 @@
       "status": "ok"
     },
     "anyworkanywhere|ES": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "ES",
-      "duration_sec": 38.1,
+      "duration_sec": 46.7,
       "errors": [],
-      "fetched": 0,
+      "fetched": 4,
       "kept": 0,
       "notes": [],
       "source": "anyworkanywhere",
       "stats": {
-        "other_country": 10,
+        "other_country": 5,
         "pages_fetched": 10,
-        "sitemap_urls": 1507,
+        "sitemap_urls": 1504,
+        "unparsable_pages": 1,
         "urls_consumed": 10
       },
       "status": "ok"
@@ -179,18 +179,18 @@
       "status": "ok"
     },
     "anyworkanywhere|FR": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "FR",
-      "duration_sec": 2.8,
+      "duration_sec": 4.6,
       "errors": [],
-      "fetched": 0,
-      "kept": 0,
+      "fetched": 1,
+      "kept": 1,
       "notes": [
-        "reused 1507 sitemap urls fetched earlier this run"
+        "reused 1504 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
-        "other_country": 10,
+        "other_country": 9,
         "pages_fetched": 10,
         "urls_consumed": 30
       },
@@ -250,33 +250,33 @@
       "status": "ok"
     },
     "anyworkanywhere|IE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IE",
-      "duration_sec": 2.8,
+      "duration_sec": 3.6,
       "errors": [],
-      "fetched": 0,
+      "fetched": 1,
       "kept": 0,
       "notes": [
-        "reused 1507 sitemap urls fetched earlier this run"
+        "reused 1504 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
-        "early_title_excluded": 1,
-        "other_country": 9,
+        "expired_skipped": 1,
+        "other_country": 8,
         "pages_fetched": 10,
         "urls_consumed": 60
       },
       "status": "ok"
     },
     "anyworkanywhere|IT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IT",
-      "duration_sec": 2.9,
+      "duration_sec": 1.7,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1507 sitemap urls fetched earlier this run"
+        "reused 1504 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
@@ -395,18 +395,18 @@
       "status": "ok"
     },
     "anyworkanywhere|PT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "PT",
-      "duration_sec": 18.8,
+      "duration_sec": 8.3,
       "errors": [],
-      "fetched": 5,
+      "fetched": 2,
       "kept": 0,
       "notes": [
-        "reused 1507 sitemap urls fetched earlier this run"
+        "reused 1504 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
-        "other_country": 5,
+        "other_country": 8,
         "pages_fetched": 10,
         "urls_consumed": 50
       },
@@ -962,7 +962,7 @@
       "status": "skipped"
     },
     "covebo|BE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1060,7 +1060,7 @@
       "status": "skipped"
     },
     "covebo|ES": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -1088,7 +1088,7 @@
       "status": "skipped"
     },
     "covebo|FR": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -1144,7 +1144,7 @@
       "status": "skipped"
     },
     "covebo|IE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1158,7 +1158,7 @@
       "status": "skipped"
     },
     "covebo|IT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1259,7 +1259,7 @@
       "status": "skipped"
     },
     "covebo|PT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1343,7 +1343,7 @@
       "status": "skipped"
     },
     "czech_mpsv|BE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1442,7 +1442,7 @@
       "status": "skipped"
     },
     "czech_mpsv|ES": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -1470,7 +1470,7 @@
       "status": "skipped"
     },
     "czech_mpsv|FR": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -1526,7 +1526,7 @@
       "status": "skipped"
     },
     "czech_mpsv|IE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1540,7 +1540,7 @@
       "status": "skipped"
     },
     "czech_mpsv|IT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1638,7 +1638,7 @@
       "status": "skipped"
     },
     "czech_mpsv|PT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1720,25 +1720,18 @@
       "status": "ok"
     },
     "eures|BE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "BE",
-      "duration_sec": 129.3,
-      "errors": [
-        "keyword 'magazijnmedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'orderpicker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'productiemedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'verpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'logistiek medewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'inpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'schoonmaker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'productiewerk': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 10.8,
+      "errors": [],
+      "fetched": 50,
+      "kept": 30,
       "notes": [],
       "source": "eures",
-      "stats": {},
-      "status": "failed"
+      "stats": {
+        "early_title_excluded": 1
+      },
+      "status": "ok"
     },
     "eures|BG": {
       "checked_at_utc": "2026-11-20T03:44:50+00:00",
@@ -1828,25 +1821,18 @@
       "status": "ok"
     },
     "eures|ES": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "ES",
-      "duration_sec": 127.8,
-      "errors": [
-        "keyword 'mozo de almacen': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operario de produccion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'empaquetador': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'preparador de pedidos': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'peon': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operador de fabrica': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'limpiador': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operaria de produccion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 16.0,
+      "errors": [],
+      "fetched": 50,
+      "kept": 9,
       "notes": [],
       "source": "eures",
-      "stats": {},
-      "status": "failed"
+      "stats": {
+        "early_title_excluded": 7
+      },
+      "status": "ok"
     },
     "eures|FI": {
       "checked_at_utc": "2026-11-17T03:44:45+00:00",
@@ -1861,25 +1847,16 @@
       "status": "ok"
     },
     "eures|FR": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "FR",
-      "duration_sec": 128.8,
-      "errors": [
-        "keyword 'magasinier': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'preparateur de commandes': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'agent de production': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'emballeur': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'manutentionnaire': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operateur de production': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'agent de nettoyage': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'manoeuvre': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 5.0,
+      "errors": [],
+      "fetched": 50,
+      "kept": 44,
       "notes": [],
       "source": "eures",
       "stats": {},
-      "status": "failed"
+      "status": "ok"
     },
     "eures|GR": {
       "checked_at_utc": "2026-11-18T03:51:51+00:00",
@@ -1927,46 +1904,32 @@
       "status": "ok"
     },
     "eures|IE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IE",
-      "duration_sec": 128.9,
-      "errors": [
-        "keyword 'warehouse worker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'warehouse operative': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'order picker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'picker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'packer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'packing operative': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'production operator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'production worker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 20.7,
+      "errors": [],
+      "fetched": 50,
+      "kept": 8,
       "notes": [],
       "source": "eures",
-      "stats": {},
-      "status": "failed"
+      "stats": {
+        "early_title_excluded": 6
+      },
+      "status": "ok"
     },
     "eures|IT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IT",
-      "duration_sec": 132.4,
-      "errors": [
-        "keyword 'magazziniere': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operaio di produzione': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'imballatore': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'addetto al confezionamento': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operaio generico': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'addetto picking': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'addetto alle pulizie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operaia di produzione': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 37.6,
+      "errors": [],
+      "fetched": 45,
+      "kept": 7,
       "notes": [],
       "source": "eures",
-      "stats": {},
-      "status": "failed"
+      "stats": {
+        "early_title_excluded": 46
+      },
+      "status": "ok"
     },
     "eures|LT": {
       "checked_at_utc": "2026-11-19T18:19:02+00:00",
@@ -2047,25 +2010,18 @@
       "status": "ok"
     },
     "eures|PT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "PT",
-      "duration_sec": 128.8,
-      "errors": [
-        "keyword 'armazenista': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operador de armazem': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'embalador': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operario de producao': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'ajudante geral': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operador de logistica': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'operador indiferenciado': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500",
-        "keyword 'limpeza': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: transient HTTP 500"
-      ],
-      "fetched": 0,
-      "kept": 0,
+      "duration_sec": 15.0,
+      "errors": [],
+      "fetched": 50,
+      "kept": 9,
       "notes": [],
       "source": "eures",
-      "stats": {},
-      "status": "failed"
+      "stats": {
+        "early_title_excluded": 2
+      },
+      "status": "ok"
     },
     "eures|RO": {
       "checked_at_utc": "2026-11-19T18:19:02+00:00",
@@ -2141,7 +2097,7 @@
       "status": "skipped"
     },
     "goodmorning|BE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2239,7 +2195,7 @@
       "status": "skipped"
     },
     "goodmorning|ES": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -2267,7 +2223,7 @@
       "status": "skipped"
     },
     "goodmorning|FR": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -2323,7 +2279,7 @@
       "status": "skipped"
     },
     "goodmorning|IE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2337,7 +2293,7 @@
       "status": "skipped"
     },
     "goodmorning|IT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2438,7 +2394,7 @@
       "status": "skipped"
     },
     "goodmorning|PT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2522,7 +2478,7 @@
       "status": "skipped"
     },
     "hobij|BE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2620,7 +2576,7 @@
       "status": "skipped"
     },
     "hobij|ES": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -2648,7 +2604,7 @@
       "status": "skipped"
     },
     "hobij|FR": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -2704,7 +2660,7 @@
       "status": "skipped"
     },
     "hobij|IE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2718,7 +2674,7 @@
       "status": "skipped"
     },
     "hobij|IT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2819,7 +2775,7 @@
       "status": "skipped"
     },
     "hobij|PT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2901,12 +2857,12 @@
       "status": "ok"
     },
     "jobspy|BE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "BE",
-      "duration_sec": 23.3,
+      "duration_sec": 22.9,
       "errors": [],
       "fetched": 50,
-      "kept": 33,
+      "kept": 37,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -2991,9 +2947,9 @@
       "status": "skipped"
     },
     "jobspy|ES": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "ES",
-      "duration_sec": 8.3,
+      "duration_sec": 8.8,
       "errors": [],
       "fetched": 50,
       "kept": 25,
@@ -3015,12 +2971,12 @@
       "status": "ok"
     },
     "jobspy|FR": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "FR",
-      "duration_sec": 9.5,
+      "duration_sec": 6.8,
       "errors": [],
       "fetched": 50,
-      "kept": 43,
+      "kept": 37,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3065,24 +3021,24 @@
       "status": "ok"
     },
     "jobspy|IE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IE",
-      "duration_sec": 23.0,
+      "duration_sec": 23.8,
       "errors": [],
       "fetched": 50,
-      "kept": 32,
+      "kept": 31,
       "notes": [],
       "source": "jobspy",
       "stats": {},
       "status": "ok"
     },
     "jobspy|IT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IT",
-      "duration_sec": 7.4,
+      "duration_sec": 5.5,
       "errors": [],
       "fetched": 50,
-      "kept": 19,
+      "kept": 14,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3167,12 +3123,12 @@
       "status": "ok"
     },
     "jobspy|PT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "PT",
-      "duration_sec": 18.5,
+      "duration_sec": 15.2,
       "errors": [],
       "fetched": 50,
-      "kept": 29,
+      "kept": 32,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3629,9 +3585,9 @@
       "status": "failed"
     },
     "nl_jobs|BE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "BE",
-      "duration_sec": 4.1,
+      "duration_sec": 2.9,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -3843,9 +3799,9 @@
       "status": "ok"
     },
     "nl_jobs|ES": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "ES",
-      "duration_sec": 4.6,
+      "duration_sec": 3.8,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -3908,9 +3864,9 @@
       "status": "ok"
     },
     "nl_jobs|FR": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "FR",
-      "duration_sec": 3.0,
+      "duration_sec": 2.9,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4039,9 +3995,9 @@
       "status": "ok"
     },
     "nl_jobs|IE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IE",
-      "duration_sec": 4.4,
+      "duration_sec": 2.9,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4072,9 +4028,9 @@
       "status": "ok"
     },
     "nl_jobs|IT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IT",
-      "duration_sec": 2.5,
+      "duration_sec": 3.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4286,9 +4242,9 @@
       "status": "ok"
     },
     "nl_jobs|PT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "PT",
-      "duration_sec": 3.0,
+      "duration_sec": 2.5,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4450,7 +4406,7 @@
       "status": "skipped"
     },
     "ottoworkforce|BE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4548,7 +4504,7 @@
       "status": "skipped"
     },
     "ottoworkforce|ES": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -4576,7 +4532,7 @@
       "status": "skipped"
     },
     "ottoworkforce|FR": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -4632,7 +4588,7 @@
       "status": "skipped"
     },
     "ottoworkforce|IE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4646,7 +4602,7 @@
       "status": "skipped"
     },
     "ottoworkforce|IT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -4754,7 +4710,7 @@
       "status": "skipped"
     },
     "ottoworkforce|PT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -4838,7 +4794,7 @@
       "status": "skipped"
     },
     "pl_cbop|BE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4936,7 +4892,7 @@
       "status": "skipped"
     },
     "pl_cbop|ES": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -4964,7 +4920,7 @@
       "status": "skipped"
     },
     "pl_cbop|FR": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -5020,7 +4976,7 @@
       "status": "skipped"
     },
     "pl_cbop|IE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5034,7 +4990,7 @@
       "status": "skipped"
     },
     "pl_cbop|IT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5132,7 +5088,7 @@
       "status": "ok"
     },
     "pl_cbop|PT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5578,7 +5534,7 @@
       "status": "skipped"
     },
     "telegram_channels|BE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5614,7 +5570,7 @@
       "status": "ok"
     },
     "telegram_channels|ES": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -5626,7 +5582,7 @@
       "status": "ok"
     },
     "telegram_channels|FR": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -5650,7 +5606,7 @@
       "status": "ok"
     },
     "telegram_channels|IE": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5662,7 +5618,7 @@
       "status": "ok"
     },
     "telegram_channels|IT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5710,7 +5666,7 @@
       "status": "ok"
     },
     "telegram_channels|PT": {
-      "checked_at_utc": "2026-11-18T06:01:33+00:00",
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5747,6 +5703,12 @@
     }
   },
   "recent_runs": [
+    {
+      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "failing": 0,
+      "label": "tier=2 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
+      "source_country_records": 66
+    },
     {
       "checked_at_utc": "2026-11-20T03:44:50+00:00",
       "failing": 0,
@@ -5920,13 +5882,7 @@
       "failing": 0,
       "label": "tier=1 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
       "source_country_records": 88
-    },
-    {
-      "checked_at_utc": "2026-11-12T06:52:19+00:00",
-      "failing": 8,
-      "label": "tier=1 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
-      "source_country_records": 88
     }
   ],
-  "updated_utc": "2026-11-20T03:44:50+00:00"
+  "updated_utc": "2026-11-20T05:49:09+00:00"
 }
