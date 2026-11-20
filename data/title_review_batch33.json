@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-20",
+  "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live from a europa.eu origin page, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. 14 of 18 candidates in this window returned HTTP 200 with exact title matches and were filled. Four postings returned HTTP 404 (dead postings) and were skipped without a fill: 274d40c57492d433 (DE, Lagerhelfer gesucht (m/w/d) – Top-Verdienst durch Top-Leistung (Lager- und Transportarbeiter/in)); 27bf1c500c052595 (DE, Lagermitarbeiter (m/w/d) Tagschicht (Lager- und Transportarbeiter/in)); 28160cc61190e87e (HR, POMOĆNI/A SKLADIŠTAR/KA); 2882b09195320557 (BE, Orderpicker nachtploeg) - the dead-link sweep handles them. The five previously held postings (00cfb0e9af186fce, 0c10c84afe31213a, 0dad6f50ad84127b, 108f2edcfb6b67d8, 112d65cfb3e268bf) were skipped and remain held. No candidate in this window carried the legacy partial-AR marker, so no overwrite:true fills were needed.",
+  "reviews": [
+    {
+      "uid": "26194765125b570f",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5NDE4MDcgMTI?lang=en",
+      "note": "Live EURES title matches stored. Body: Warehouse logistics: coordinate goods receipt and issue, documentation, stock control, prepare goods for dispatch; computer, scanner work; experience required."
+    },
+    {
+      "uid": "26546772745ad909",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwNDAxNDcwOC1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: LOXX.TECH logistics services: machine relocation, load-carrier cleaning, commercial storage, transport and moves; full-time."
+    },
+    {
+      "uid": "268c8a6dbbb731dd",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NTlhODZmZGMtYzlhZC00YTZmLTkwZTYtNDM4YzJhNTQ2N2I4IDM?lang=en",
+      "note": "Live EURES title matches stored. Body: Forum Jobs: full-time day-shift order picking at a meat-processing company in Meulebeke."
+    },
+    {
+      "uid": "26c8b5dfc47b9da3",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM2ODk4NiAxMjE?lang=en",
+      "note": "Live EURES title matches stored. Body: Next Bemanning for STB Stockholm client in Karlstad: goods handling, on-time order dispatch; physical work, high tempo."
+    },
+    {
+      "uid": "272ca5b2178f9b10",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTMxMzAtMTM5MTc4NzMtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: PASIT staffing, Munich area: warehouse helper/picker roles, no experience required."
+    },
+    {
+      "uid": "27410e66227b69e8",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTMxMzEtMTM5MjAzNDItUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: EMMA JOBS Munich: two warehouse helpers, direct placement at an aerospace company (development and manufacturing)."
+    },
+    {
+      "uid": "27470bb90a982677",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU4MjgyODAtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: PerZukunft for a textile warehouse in Berlin: training opportunities, attractive tariff-based pay."
+    },
+    {
+      "uid": "274d40c57492d433",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTMyMzItUlBVUEpNV0ZFMkVUNEFMMS1TIDE?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "278be574bfc2248e",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU4NDY0NzYtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: Furniture retailer in Berlin-Prenzlauer Berg: full- or part-time, 16.65 EUR/h."
+    },
+    {
+      "uid": "27bf1c500c052595",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI3MDQtTFBCS0ZBMzZaT05WMTUwUC1TIDE?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "280b2de807a2655f",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzA4NTc4NDktNDIyNC00MGE2LWEzNGQtNjg0NTk1YjAxMDFlIDM?lang=en",
+      "note": "Live EURES title matches stored. Body: START PEOPLE: flexible warehouse work at Nike in Laakdal or Tessenderlo-Ham, 2-shift system, varied tasks."
+    },
+    {
+      "uid": "28160cc61190e87e",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkyNzg4NiAxOQ?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "282ad2d300321bbd",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIzMjItQUczVEhWNlFMR1RLN05YVy1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: Walter-Fach-Kraft Industrie: metalworking helper via staffing group with ~30 branches in Germany and Austria."
+    },
+    {
+      "uid": "282ec0d8c86eb59a",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NTdiNzA2Y2QtMWIzOS00MjFiLThiMzctYjkwNjkyNTA5Njk5IDM?lang=en",
+      "note": "Live EURES title matches stored. Body: AGO Jobs: organise and manage the spare-parts warehouse with a colleague, keep plant and production running; administrative processing."
+    },
+    {
+      "uid": "2882b09195320557",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ZTcyNDBiOGItOWMyNC00OWM2LThiNWMtNGNkMTM4ODc0MTM2IDM?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "2894441a1462f13f",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTYxODUtWDVNVEtIRlBCTDVUMlk0Ny1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: tempster GmbH in Weil im Schonbuch: day shift, full-time, 35 h/week."
+    },
+    {
+      "uid": "28a9d16cde2a1236",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTg4MjItazYwOTEyLjIyMDQtUyAx?lang=en",
+      "note": "Live EURES title matches stored. Body: B&W Personal: warehouse helper in Leipzig, full-time, immediate start."
+    },
+    {
+      "uid": "28b007b36e448b21",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NTg5NDYwMjAzIDE0MQ?lang=en",
+      "note": "Live EURES title matches stored. Body: Taberna Londrina new opening in Matosinhos: welcome and serve guests, young motivated team."
+    }
+  ]
+}
