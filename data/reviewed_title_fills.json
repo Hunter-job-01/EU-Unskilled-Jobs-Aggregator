@@ -1,7 +1,7 @@
 {
   "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json. and data/title_review_batch32.json.",
-  "updated_on": "2026-11-19",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json. and data/title_review_batch32.json. and data/title_review_batch33.json.",
+  "updated_on": "2026-11-20",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -1773,6 +1773,118 @@
       "title_ar": "عامل إنتاج (ذكر/أنثى) في الصناعة الغذائية (مرجع:7503)",
       "translated": true,
       "review": "data/title_review_batch32.json"
+    },
+    {
+      "uid": "26194765125b570f",
+      "expected_title": "Magazynier K/M",
+      "title_en": "Warehouse keeper (M/F)",
+      "title_ar": "أمين مستودع (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "26546772745ad909",
+      "expected_title": "Allrounder im Lager / Lagerhelfer (m/w/d) in Vollzeit (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse all-rounder / warehouse helper (m/f/d) full-time",
+      "title_ar": "عامل مستودع شامل / عامل مساعد مستودع (ذكر/أنثى) دوام كامل",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "268c8a6dbbb731dd",
+      "expected_title": "Orderpicker - Dag",
+      "title_en": "Order picker - day shift",
+      "title_ar": "عامل تجميع طلبات - وردية نهارية",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "26c8b5dfc47b9da3",
+      "expected_title": "Lagerarbetare sökes till Karlstad – Extrajobb",
+      "title_en": "Warehouse worker wanted in Karlstad - part-time/extra job",
+      "title_ar": "مطلوب عامل مستودع في كارلستاد - عمل إضافي بدوام جزئي",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "272ca5b2178f9b10",
+      "expected_title": "Lagerhelfer / Kommissionierer / Lagerarbeiter ohne Erfahrung (m/w/d) (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper / order picker / warehouse worker, no experience needed (m/f/d)",
+      "title_ar": "عامل مساعد مستودع / عامل تجميع طلبات / عامل مستودع بدون خبرة (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "27410e66227b69e8",
+      "expected_title": "Helfer im Lagerbereich (m/w/d) für ein Luft- und Raumfahrtunternehmen (Helfer/in - Maschinenbau, Betriebstechnik)",
+      "title_en": "Warehouse helper (m/f/d) for an aerospace company",
+      "title_ar": "عامل مساعد مستودع (ذكر/أنثى) لشركة طيران وفضاء",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "27470bb90a982677",
+      "expected_title": "Engagierte Lagerhelfer m/w/d für ein Textillager gesucht (Fachkraft - Lagerlogistik)",
+      "title_en": "Motivated warehouse helpers (m/f/d) wanted for a textile warehouse",
+      "title_ar": "مطلوب عمال مستودع متحمسين (ذكر/أنثى) لمستودع منسوجات",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "278be574bfc2248e",
+      "expected_title": "Lagerkraft (m/w/d) für Möbelhandel - Prenzlauer Berg (Kommissionierer/in)",
+      "title_en": "Warehouse worker (m/f/d) for furniture retail - Prenzlauer Berg (order picker)",
+      "title_ar": "عامل مستودع (ذكر/أنثى) لمتجر أثاث - برينزلاور برغ (عامل تجميع طلبات)",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "280b2de807a2655f",
+      "expected_title": "Bijverdiener Nike - Magazijnmedewerker 2 ploegen",
+      "title_en": "Side job Nike - warehouse worker, 2 shifts",
+      "title_ar": "عمل إضافي نايكي - عامل مستودع، ورديتان",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "282ad2d300321bbd",
+      "expected_title": "Helfer (m/w/d) Metallverarbeitung (Helfer/in - Metallbearbeitung)",
+      "title_en": "Helper (m/f/d) metalworking",
+      "title_ar": "عامل مساعد (ذكر/أنثى) في تشغيل المعادن",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "282ec0d8c86eb59a",
+      "expected_title": "Magazijnier wisselstukken (Lembeke)",
+      "title_en": "Spare-parts warehouse keeper (Lembeke)",
+      "title_ar": "أمين مستودع قطع الغيار (ليمبيكي)",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "2894441a1462f13f",
+      "expected_title": "Lagerhelfer (m/w/d) in der Tagschicht (Fachkraft - Lagerlogistik)",
+      "title_en": "Warehouse helper (m/f/d) day shift (warehouse logistics specialist)",
+      "title_ar": "عامل مساعد مستودع (ذكر/أنثى) وردية نهارية (أخصائي لوجستيات مستودعات)",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "28a9d16cde2a1236",
+      "expected_title": "Lagehelfer (m/w/d) (Lager- und Transportarbeiter/in)",
+      "title_en": "Warehouse helper (m/f/d) (warehouse and transport worker)",
+      "title_ar": "عامل مساعد مستودع (ذكر/أنثى) (عامل مستودع ونقل)",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "28b007b36e448b21",
+      "expected_title": "EMPREGADO DE MESA",
+      "title_en": "Waiter/waitress",
+      "title_ar": "نادل / نادلة",
+      "translated": true,
+      "review": "data/title_review_batch33.json"
     }
   ]
 }
