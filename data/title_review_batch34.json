@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-21",
+  "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live from a europa.eu origin page, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. 13 of 18 candidates in this window returned HTTP 200 with exact title matches and were filled. Five postings returned HTTP 404 (dead postings) and were skipped without a fill: 29a88f3b0d31d93e (FI, Varastotyöntekijä Laitilaan); 29d4271bee5d0f4b (SE, Lagerarbetare till centrallager i Örebro); 2a90f5af37769c21 (HR, VIŠI/A REFERENT/ICA -  REFERENT/ICA (EKONOM – SKLADIŠTAR)); 2ab391151a2ac429 (DK, Lagermedarbejder til messe- og indretningsprojekter); 2b0a65632bccf5a2 (DK, Rengøringsoperatør - fast aftenhold) - the dead-link sweep handles them. The five previously held postings (00cfb0e9af186fce, 0c10c84afe31213a, 0dad6f50ad84127b, 108f2edcfb6b67d8, 112d65cfb3e268bf) were skipped and remain held. No candidate in this window carried the legacy partial-AR marker, so no overwrite:true fills were needed.",
+  "reviews": [
+    {
+      "uid": "294ead6a8dfb2377",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM4MDQ3OCAxMjE?lang=en",
+      "note": "Live EURES title matches stored. Body: Academic Work: part-time morning-shift warehouse work at FedEx for students, physical work in a team."
+    },
+    {
+      "uid": "2957836909d54ee1",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkzNjQ0MiAxOQ?lang=en",
+      "note": "Live EURES title matches stored. Body: HVALJEN BUDI: warehouse work plus goods delivery to company branches across Croatia as needed."
+    },
+    {
+      "uid": "2980ff61bb2da7e3",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2OTY3MiA4?lang=en",
+      "note": "Live EURES title matches stored. Body: Seik OU: evening-shift order picking and transport booking, occasional goods receiving; flexible hours suit students."
+    },
+    {
+      "uid": "29a88f3b0d31d93e",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ZDgyYmI2YjQtNmZjMy00YjVlLWFiZWYtMWMzNDkwMmFmN2U3IDgx?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "29c8e0b992ed1b22",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTMyMzItWkRVVUtKNjlDVEI1QVNDRy1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: CONVERT Personalmanagement: simple warehouse tasks - packing and shipping, sorting, labelling, checking; no experience needed."
+    },
+    {
+      "uid": "29d4271bee5d0f4b",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM2ODg3NCAxMjE?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "29e8bab94f1bceb7",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQyNTMwNSAxMw?lang=en",
+      "note": "Live EURES title matches stored. Body: SC ASBA VERT: unskilled demolition and cladding work per the job description."
+    },
+    {
+      "uid": "29f1026b7c790f8d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NDU5Nzg4IDEwMQ?lang=en",
+      "note": "Live EURES title matches stored. Body: SOLDINI GROUP: dishwasher for restaurants; reliable, hardworking."
+    },
+    {
+      "uid": "2a29a0f0136c57ef",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/YTdiOGYxY2YtMWVmZC00MjRkLTk0YjgtZGZhOWM1OGMxNjRlIDc?lang=en",
+      "note": "Live EURES title matches stored. Body: TEMP TEAM for client HTM: production work, mainly handling and lifting doors; quick start."
+    },
+    {
+      "uid": "2a90f5af37769c21",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkzMzMxNyAxOQ?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "2ab391151a2ac429",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MDk0MjczMmUtZGUxOC00NzZjLWFmZDYtMWFiMWRiYmUyZDkwIDc?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "2ab70e67c416de76",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI3MDQtUEE4S1VGVEVPOFpKSFJBVy1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: SYNERGIE Personal Karlsruhe: temporary warehouse work with long-term perspective."
+    },
+    {
+      "uid": "2abc14459ec2650a",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTYxMzQtazU3ODI0LjQ1MjM1LVMgMQ?lang=en",
+      "note": "Live EURES title matches stored. Body: SOCCO GROUP Schorndorf, Pluederhausen site: warehouse helper / holiday worker, full-time day shift, permanent contract."
+    },
+    {
+      "uid": "2ad299ade8cf2575",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI3MzktUk0yRkhEWUw0T1pCNTI2RC1TIDE?lang=en",
+      "note": "Live EURES title matches stored. Body: ACCURAT personnel services: temp warehouse work at 14.31 EUR/h with career prospects."
+    },
+    {
+      "uid": "2b02a2c88db7069d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjYxMTA5LTY2IDQwMQ?lang=en",
+      "note": "Live EURES title matches stored. Body: Balvi Wood fuel-products factory in Balvi: picking firewood products; physical stamina needed."
+    },
+    {
+      "uid": "2b0a65632bccf5a2",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MDNmMzhiMzctMjkwYy00ZDhlLWJmNWUtNTg0ZjBkY2NlMjMzIDc?lang=en",
+      "note": "Live EURES detail API returned HTTP 404 - dead posting, skipped without a fill; the dead-link sweep handles it."
+    },
+    {
+      "uid": "2be09a1aa0590d7f",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1VkNWRyA5?lang=en",
+      "note": "Live EURES title matches stored. Body: ELMA EXPERTISE / Aquila RH, Lyon-Est area: receiving dock agent."
+    },
+    {
+      "uid": "2c2b2008b6739ee4",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE2RFdIWiA5?lang=en",
+      "note": "Live EURES title matches stored. Body: PROMAN Martigues for Rousset: order preparation and receiving for production, stock management, site tooling management."
+    }
+  ]
+}
