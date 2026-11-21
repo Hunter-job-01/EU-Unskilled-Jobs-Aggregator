@@ -1,7 +1,7 @@
 {
   "schema": "reviewed_title_fills/v1",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json. and data/title_review_batch32.json. and data/title_review_batch33.json.",
-  "updated_on": "2026-11-20",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json. and data/title_review_batch32.json. and data/title_review_batch33.json. and data/title_review_batch34.json.",
+  "updated_on": "2026-11-21",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -1885,6 +1885,110 @@
       "title_ar": "نادل / نادلة",
       "translated": true,
       "review": "data/title_review_batch33.json"
+    },
+    {
+      "uid": "294ead6a8dfb2377",
+      "expected_title": "Studerar du och vill tjäna extra? Bli en del av morgonteamet på Fedex!",
+      "title_en": "Student? Earn extra - join the FedEx morning team",
+      "title_ar": "طالب؟ اكسب دخلاً إضافياً - انضم إلى فريق فيديكس الصباحي",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
+    },
+    {
+      "uid": "2957836909d54ee1",
+      "expected_title": "SKLADIŠTAR/KA",
+      "title_en": "Warehouse worker (M/F)",
+      "title_ar": "عامل مستودع (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
+    },
+    {
+      "uid": "2980ff61bb2da7e3",
+      "expected_title": "Pakkija-komplekteerija",
+      "title_en": "Packer-order picker",
+      "title_ar": "عامل تعبئة وتجميع طلبات",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
+    },
+    {
+      "uid": "29c8e0b992ed1b22",
+      "expected_title": "Aufgepasst Du wirst gebraucht (m/w/d) in Hohenwestedt  (Fachkraft - Lagerlogistik)",
+      "title_en": "Warehouse workers wanted (m/f/d) in Hohenwestedt (warehouse logistics specialist)",
+      "title_ar": "مطلوب عمال مستودع (ذكر/أنثى) في هوهنفيشتيت (أخصائي لوجستيات مستودعات)",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
+    },
+    {
+      "uid": "29e8bab94f1bceb7",
+      "expected_title": "MUNCITOR NECALIFICAT LA DEMOLAREA CLADIRILOR, CAPTUSELI ZIDARIE, PLACI MOZAIC, FAIANTA, GRESIE, PARCHET",
+      "title_en": "Unskilled worker for building demolition, wall cladding, mosaic tiles, faience, stoneware, parquet",
+      "title_ar": "عامل غير ماهر في هدم المباني وتكسية الجدران وبلاط الفسيفساء والخزف والباركيه",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
+    },
+    {
+      "uid": "29f1026b7c790f8d",
+      "expected_title": "DISHWASHER",
+      "title_en": "Dishwasher",
+      "title_ar": "غسّال أطباق",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
+    },
+    {
+      "uid": "2a29a0f0136c57ef",
+      "expected_title": "Produktionsmedarbejder søges med hurtig opstart",
+      "title_en": "Production worker wanted with quick start",
+      "title_ar": "مطلوب عامل إنتاج ببدء فوري",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
+    },
+    {
+      "uid": "2ab70e67c416de76",
+      "expected_title": "Lagerhelfer (m/w/d) (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper (m/f/d) (warehouse/transport helper)",
+      "title_ar": "عامل مساعد مستودع (ذكر/أنثى) (عامل مستودع ونقل)",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
+    },
+    {
+      "uid": "2abc14459ec2650a",
+      "expected_title": "Ferienjobber (all genders) (Helfer/in - Metallbearbeitung)",
+      "title_en": "Holiday worker (all genders) (metalworking helper)",
+      "title_ar": "عامل موسمي (جميع الجنسين) (عامل مساعد في تشغيل المعادن)",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
+    },
+    {
+      "uid": "2ad299ade8cf2575",
+      "expected_title": "Lagerhelfer (m/w/d) 14,31 €/Std. (Helfer/in - Lagerwirtschaft, Transport)",
+      "title_en": "Warehouse helper (m/f/d) 14.31 EUR/h (warehouse/transport helper)",
+      "title_ar": "عامل مساعد مستودع (ذكر/أنثى) 14.31 يورو/ساعة (عامل مستودع ونقل)",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
+    },
+    {
+      "uid": "2b02a2c88db7069d",
+      "expected_title": "KOMPLEKTĒTĀJS (IESAIŅOTĀJS)",
+      "title_en": "Order picker (packer)",
+      "title_ar": "عامل تجميع (عامل تعبئة وتغليف)",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
+    },
+    {
+      "uid": "2be09a1aa0590d7f",
+      "expected_title": "Agent de quai réceptionnaire AAIRM (H/F)",
+      "title_en": "Receiving dock agent AAIRM (M/F)",
+      "title_ar": "عامل رصيف استلام (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
+    },
+    {
+      "uid": "2c2b2008b6739ee4",
+      "expected_title": "Magasinier (H/F)",
+      "title_en": "Warehouse worker (M/F)",
+      "title_ar": "عامل مستودع (ذكر/أنثى)",
+      "translated": true,
+      "review": "data/title_review_batch34.json"
     }
   ]
 }
