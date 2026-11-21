@@ -496,7 +496,7 @@
       },
       "telegram_channels": {
         "errors": [],
-        "fetched": 0,
+        "fetched": 5,
         "notes": [],
         "status": "ok"
       }
@@ -676,8 +676,8 @@
       }
     }
   },
-  "duration_sec": 664.4,
-  "last_run_utc": "2026-11-21T06:23:37+00:00",
+  "duration_sec": 690.2,
+  "last_run_utc": "2026-11-21T18:10:19+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-19T03:48:15+00:00",
@@ -1042,7 +1042,7 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-21T06:23:37+00:00",
+      "checked_at_utc": "2026-11-21T18:10:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1128,7 +1128,7 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-21T06:23:37+00:00",
+      "checked_at_utc": "2026-11-21T18:10:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1848,7 +1848,7 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-21T06:23:37+00:00",
+      "checked_at_utc": "2026-11-21T18:10:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2112,7 +2112,7 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-21T06:23:37+00:00",
+      "checked_at_utc": "2026-11-21T18:10:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2475,7 +2475,7 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-21T06:23:37+00:00",
+      "checked_at_utc": "2026-11-21T18:10:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2557,7 +2557,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-21T06:23:37+00:00",
+      "checked_at_utc": "2026-11-21T18:10:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2633,7 +2633,7 @@
         },
         "telegram_channels": {
           "errors": [],
-          "fetched": 0,
+          "fetched": 5,
           "notes": [],
           "status": "ok"
         }
@@ -2728,7 +2728,7 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-21T06:23:37+00:00",
+      "checked_at_utc": "2026-11-21T18:10:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3004,7 +3004,7 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-21T06:23:37+00:00",
+      "checked_at_utc": "2026-11-21T18:10:19+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3125,49 +3125,52 @@
     "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 187,
-    "candidates_stored": 187,
+    "candidates_held_total": 185,
+    "candidates_stored": 185,
     "sealed": true,
-    "sha256": "c9e22b61dae335d2b3e6a1c9e3bbee1afeb83725b15a6fb3aa6d3a32d6f1834f"
+    "sha256": "1b928c4437f61ca16e7d2346854ec570db495bb8463bbf2a9e26825beaf51132"
   },
   "source_retention": {
     "kept_pre_prune": {
       "covebo": 2,
       "czech_mpsv": 4,
       "eures": 192,
-      "goodmorning": 5,
+      "goodmorning": 6,
       "hobij": 5,
-      "jobspy_indeed": 192,
+      "jobspy_indeed": 182,
       "nl_jobs": 1,
-      "pl_cbop": 49
+      "pl_cbop": 49,
+      "telegram_polandworkportal": 3
     },
     "retained_post_prune": {
       "czech_mpsv": 3,
       "eures": 151,
-      "jobspy_indeed": 191,
-      "pl_cbop": 49
+      "goodmorning": 1,
+      "jobspy_indeed": 181,
+      "pl_cbop": 49,
+      "telegram_polandworkportal": 3
     }
   },
   "totals": {
-    "active": 4112,
-    "below_min_score": 16,
-    "contacts_extracted": 129,
-    "excluded": 238,
-    "fetched": 737,
+    "active": 4134,
+    "below_min_score": 17,
+    "contacts_extracted": 136,
+    "excluded": 249,
+    "fetched": 742,
     "l1_dropped": 4,
     "l2_language_excluded": 0,
-    "lifecycle_deactivated": 1,
+    "lifecycle_deactivated": 0,
     "lifecycle_deactivated_total": 99,
     "lifecycle_dead_confirmed": 0,
     "lifecycle_live_confirmed": 40,
     "lifecycle_reactivated": 0,
-    "new": 61,
+    "new": 24,
     "notified_telegram": 0,
-    "pruned": 1,
-    "reviewed_fills": 10,
+    "pruned": 2,
+    "reviewed_fills": 24,
     "translated_ar": 0,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 343
+    "updated": 376
   }
 }
