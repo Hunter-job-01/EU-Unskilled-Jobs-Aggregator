@@ -18,9 +18,9 @@
       "status": "ok"
     },
     "anyworkanywhere|BE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "BE",
-      "duration_sec": 2.0,
+      "duration_sec": 1.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -146,9 +146,9 @@
       "status": "ok"
     },
     "anyworkanywhere|ES": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "ES",
-      "duration_sec": 35.1,
+      "duration_sec": 40.5,
       "errors": [],
       "fetched": 2,
       "kept": 0,
@@ -181,9 +181,9 @@
       "status": "ok"
     },
     "anyworkanywhere|FR": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "FR",
-      "duration_sec": 2.1,
+      "duration_sec": 1.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -254,9 +254,9 @@
       "status": "ok"
     },
     "anyworkanywhere|IE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IE",
-      "duration_sec": 2.3,
+      "duration_sec": 1.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -272,9 +272,9 @@
       "status": "ok"
     },
     "anyworkanywhere|IT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IT",
-      "duration_sec": 2.3,
+      "duration_sec": 1.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -399,9 +399,9 @@
       "status": "ok"
     },
     "anyworkanywhere|PT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "PT",
-      "duration_sec": 5.4,
+      "duration_sec": 5.3,
       "errors": [],
       "fetched": 1,
       "kept": 0,
@@ -966,7 +966,7 @@
       "status": "skipped"
     },
     "covebo|BE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1064,7 +1064,7 @@
       "status": "skipped"
     },
     "covebo|ES": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -1092,7 +1092,7 @@
       "status": "skipped"
     },
     "covebo|FR": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -1148,7 +1148,7 @@
       "status": "skipped"
     },
     "covebo|IE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1162,7 +1162,7 @@
       "status": "skipped"
     },
     "covebo|IT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1263,7 +1263,7 @@
       "status": "skipped"
     },
     "covebo|PT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1347,7 +1347,7 @@
       "status": "skipped"
     },
     "czech_mpsv|BE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1446,7 +1446,7 @@
       "status": "skipped"
     },
     "czech_mpsv|ES": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -1474,7 +1474,7 @@
       "status": "skipped"
     },
     "czech_mpsv|FR": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -1530,7 +1530,7 @@
       "status": "skipped"
     },
     "czech_mpsv|IE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1544,7 +1544,7 @@
       "status": "skipped"
     },
     "czech_mpsv|IT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1642,7 +1642,7 @@
       "status": "skipped"
     },
     "czech_mpsv|PT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1724,12 +1724,12 @@
       "status": "ok"
     },
     "eures|BE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "BE",
-      "duration_sec": 6.2,
+      "duration_sec": 4.6,
       "errors": [],
       "fetched": 50,
-      "kept": 32,
+      "kept": 30,
       "notes": [],
       "source": "eures",
       "stats": {},
@@ -1814,9 +1814,9 @@
       "status": "ok"
     },
     "eures|ES": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "ES",
-      "duration_sec": 31.9,
+      "duration_sec": 16.6,
       "errors": [],
       "fetched": 50,
       "kept": 9,
@@ -1840,16 +1840,16 @@
       "status": "ok"
     },
     "eures|FR": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "FR",
-      "duration_sec": 13.8,
+      "duration_sec": 10.7,
       "errors": [],
       "fetched": 50,
-      "kept": 43,
+      "kept": 41,
       "notes": [],
       "source": "eures",
       "stats": {
-        "early_title_excluded": 2
+        "early_title_excluded": 1
       },
       "status": "ok"
     },
@@ -1890,9 +1890,9 @@
       "status": "ok"
     },
     "eures|IE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IE",
-      "duration_sec": 25.4,
+      "duration_sec": 14.5,
       "errors": [],
       "fetched": 50,
       "kept": 4,
@@ -1904,9 +1904,9 @@
       "status": "ok"
     },
     "eures|IT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IT",
-      "duration_sec": 61.1,
+      "duration_sec": 43.1,
       "errors": [],
       "fetched": 45,
       "kept": 8,
@@ -1996,9 +1996,9 @@
       "status": "ok"
     },
     "eures|PT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "PT",
-      "duration_sec": 18.1,
+      "duration_sec": 12.6,
       "errors": [],
       "fetched": 50,
       "kept": 8,
@@ -2074,7 +2074,7 @@
       "status": "skipped"
     },
     "goodmorning|BE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2172,7 +2172,7 @@
       "status": "skipped"
     },
     "goodmorning|ES": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -2200,7 +2200,7 @@
       "status": "skipped"
     },
     "goodmorning|FR": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -2256,7 +2256,7 @@
       "status": "skipped"
     },
     "goodmorning|IE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2270,7 +2270,7 @@
       "status": "skipped"
     },
     "goodmorning|IT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2375,7 +2375,7 @@
       "status": "skipped"
     },
     "goodmorning|PT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2459,7 +2459,7 @@
       "status": "skipped"
     },
     "hobij|BE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2557,7 +2557,7 @@
       "status": "skipped"
     },
     "hobij|ES": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -2585,7 +2585,7 @@
       "status": "skipped"
     },
     "hobij|FR": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -2641,7 +2641,7 @@
       "status": "skipped"
     },
     "hobij|IE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2655,7 +2655,7 @@
       "status": "skipped"
     },
     "hobij|IT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2756,7 +2756,7 @@
       "status": "skipped"
     },
     "hobij|PT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2838,12 +2838,12 @@
       "status": "ok"
     },
     "jobspy|BE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "BE",
-      "duration_sec": 21.6,
+      "duration_sec": 23.5,
       "errors": [],
       "fetched": 50,
-      "kept": 34,
+      "kept": 38,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -2928,9 +2928,9 @@
       "status": "skipped"
     },
     "jobspy|ES": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "ES",
-      "duration_sec": 12.1,
+      "duration_sec": 14.0,
       "errors": [],
       "fetched": 50,
       "kept": 28,
@@ -2952,9 +2952,9 @@
       "status": "ok"
     },
     "jobspy|FR": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "FR",
-      "duration_sec": 6.6,
+      "duration_sec": 7.1,
       "errors": [],
       "fetched": 50,
       "kept": 28,
@@ -3002,24 +3002,24 @@
       "status": "ok"
     },
     "jobspy|IE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IE",
-      "duration_sec": 27.1,
+      "duration_sec": 26.1,
       "errors": [],
       "fetched": 50,
-      "kept": 32,
+      "kept": 27,
       "notes": [],
       "source": "jobspy",
       "stats": {},
       "status": "ok"
     },
     "jobspy|IT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IT",
-      "duration_sec": 7.9,
+      "duration_sec": 6.5,
       "errors": [],
       "fetched": 50,
-      "kept": 15,
+      "kept": 14,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3104,9 +3104,9 @@
       "status": "ok"
     },
     "jobspy|PT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "PT",
-      "duration_sec": 21.2,
+      "duration_sec": 21.1,
       "errors": [],
       "fetched": 50,
       "kept": 36,
@@ -3574,9 +3574,9 @@
       "status": "ok"
     },
     "nl_jobs|BE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "BE",
-      "duration_sec": 6.1,
+      "duration_sec": 3.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -3747,9 +3747,9 @@
       "status": "ok"
     },
     "nl_jobs|ES": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "ES",
-      "duration_sec": 7.0,
+      "duration_sec": 6.0,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -3800,9 +3800,9 @@
       "status": "ok"
     },
     "nl_jobs|FR": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "FR",
-      "duration_sec": 4.2,
+      "duration_sec": 4.7,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -3900,9 +3900,9 @@
       "status": "ok"
     },
     "nl_jobs|IE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IE",
-      "duration_sec": 4.8,
+      "duration_sec": 5.4,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -3927,9 +3927,9 @@
       "status": "ok"
     },
     "nl_jobs|IT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IT",
-      "duration_sec": 6.1,
+      "duration_sec": 4.8,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4090,9 +4090,9 @@
       "status": "ok"
     },
     "nl_jobs|PT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "PT",
-      "duration_sec": 4.4,
+      "duration_sec": 4.0,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4223,7 +4223,7 @@
       "status": "skipped"
     },
     "ottoworkforce|BE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4321,7 +4321,7 @@
       "status": "skipped"
     },
     "ottoworkforce|ES": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -4349,7 +4349,7 @@
       "status": "skipped"
     },
     "ottoworkforce|FR": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -4405,7 +4405,7 @@
       "status": "skipped"
     },
     "ottoworkforce|IE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4419,7 +4419,7 @@
       "status": "skipped"
     },
     "ottoworkforce|IT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -4525,7 +4525,7 @@
       "status": "skipped"
     },
     "ottoworkforce|PT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -4609,7 +4609,7 @@
       "status": "skipped"
     },
     "pl_cbop|BE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4707,7 +4707,7 @@
       "status": "skipped"
     },
     "pl_cbop|ES": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -4735,7 +4735,7 @@
       "status": "skipped"
     },
     "pl_cbop|FR": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -4791,7 +4791,7 @@
       "status": "skipped"
     },
     "pl_cbop|IE": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4805,7 +4805,7 @@
       "status": "skipped"
     },
     "pl_cbop|IT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -4903,7 +4903,7 @@
       "status": "ok"
     },
     "pl_cbop|PT": {
-      "checked_at_utc": "2026-11-22T04:19:23+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5349,7 +5349,7 @@
       "status": "skipped"
     },
     "telegram_channels|BE": {
-      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "BE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5385,7 +5385,7 @@
       "status": "ok"
     },
     "telegram_channels|ES": {
-      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "ES",
       "duration_sec": 0.0,
       "errors": [],
@@ -5397,7 +5397,7 @@
       "status": "ok"
     },
     "telegram_channels|FR": {
-      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "FR",
       "duration_sec": 0.0,
       "errors": [],
@@ -5421,7 +5421,7 @@
       "status": "ok"
     },
     "telegram_channels|IE": {
-      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5433,7 +5433,7 @@
       "status": "ok"
     },
     "telegram_channels|IT": {
-      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "IT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5481,7 +5481,7 @@
       "status": "ok"
     },
     "telegram_channels|PT": {
-      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
       "country": "PT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5518,6 +5518,12 @@
     }
   },
   "recent_runs": [
+    {
+      "checked_at_utc": "2026-11-22T05:44:30+00:00",
+      "failing": 0,
+      "label": "tier=2 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
+      "source_country_records": 66
+    },
     {
       "checked_at_utc": "2026-11-22T04:33:05+00:00",
       "failing": 0,
@@ -5691,13 +5697,7 @@
       "failing": 0,
       "label": "tier=2 sources=anyworkanywhere,arbeitnow,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,latvia_nva,nl_jobs,ottoworkforce,pl_cbop,sweden_jobsearch",
       "source_country_records": 78
-    },
-    {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
-      "failing": 0,
-      "label": "tier=1 sources=anyworkanywhere,arbeitnow,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,latvia_nva,nl_jobs,ottoworkforce,pl_cbop,sweden_jobsearch",
-      "source_country_records": 104
     }
   ],
-  "updated_utc": "2026-11-22T04:33:05+00:00"
+  "updated_utc": "2026-11-22T05:44:30+00:00"
 }
