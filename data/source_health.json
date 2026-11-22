@@ -71,32 +71,33 @@
       "status": "ok"
     },
     "anyworkanywhere|CZ": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
-      "duration_sec": 2.6,
+      "duration_sec": 2.5,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1501 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
-        "other_country": 10,
+        "expired_skipped": 1,
+        "other_country": 9,
         "pages_fetched": 10,
         "urls_consumed": 20
       },
       "status": "ok"
     },
     "anyworkanywhere|DE": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
-      "duration_sec": 3.4,
+      "duration_sec": 2.4,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1501 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
@@ -233,14 +234,14 @@
       "status": "ok"
     },
     "anyworkanywhere|HU": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
-      "duration_sec": 3.0,
+      "duration_sec": 2.7,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1501 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
@@ -288,19 +289,18 @@
       "status": "ok"
     },
     "anyworkanywhere|LT": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
-      "duration_sec": 3.0,
+      "duration_sec": 2.8,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1501 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
-        "expired_skipped": 1,
-        "other_country": 9,
+        "other_country": 10,
         "pages_fetched": 10,
         "urls_consumed": 40
       },
@@ -361,14 +361,14 @@
       "status": "ok"
     },
     "anyworkanywhere|NL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
-      "duration_sec": 2.8,
+      "duration_sec": 2.7,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1501 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
@@ -379,9 +379,9 @@
       "status": "ok"
     },
     "anyworkanywhere|PL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
-      "duration_sec": 34.1,
+      "duration_sec": 33.3,
       "errors": [],
       "fetched": 1,
       "kept": 0,
@@ -390,7 +390,7 @@
       "stats": {
         "other_country": 9,
         "pages_fetched": 10,
-        "sitemap_urls": 1501,
+        "sitemap_urls": 1502,
         "urls_consumed": 10
       },
       "status": "ok"
@@ -414,18 +414,18 @@
       "status": "ok"
     },
     "anyworkanywhere|RO": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
-      "duration_sec": 5.1,
+      "duration_sec": 2.6,
       "errors": [],
-      "fetched": 1,
+      "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1501 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
-        "other_country": 9,
+        "other_country": 10,
         "pages_fetched": 10,
         "urls_consumed": 60
       },
@@ -469,14 +469,14 @@
       "status": "ok"
     },
     "anyworkanywhere|SK": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
-      "duration_sec": 2.7,
+      "duration_sec": 2.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [
-        "reused 1501 sitemap urls fetched earlier this run"
+        "reused 1502 sitemap urls fetched earlier this run"
       ],
       "source": "anyworkanywhere",
       "stats": {
@@ -555,7 +555,7 @@
       "status": "ok"
     },
     "arbeitnow|CZ": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -566,26 +566,26 @@
       ],
       "source": "arbeitnow",
       "stats": {
-        "non_eu_rejects": 41,
-        "quarantined": 441
+        "non_eu_rejects": 39,
+        "quarantined": 460
       },
       "status": "ok"
     },
     "arbeitnow|DE": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
-      "fetched": 23,
-      "kept": 3,
+      "fetched": 21,
+      "kept": 1,
       "notes": [
         "reused 600 rows fetched earlier this run"
       ],
       "source": "arbeitnow",
       "stats": {
-        "early_title_excluded": 20,
-        "non_eu_rejects": 41,
-        "quarantined": 441
+        "early_title_excluded": 24,
+        "non_eu_rejects": 39,
+        "quarantined": 460
       },
       "status": "ok"
     },
@@ -710,7 +710,7 @@
       "status": "ok"
     },
     "arbeitnow|HU": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -721,8 +721,8 @@
       ],
       "source": "arbeitnow",
       "stats": {
-        "non_eu_rejects": 41,
-        "quarantined": 441
+        "non_eu_rejects": 39,
+        "quarantined": 460
       },
       "status": "ok"
     },
@@ -761,7 +761,7 @@
       "status": "ok"
     },
     "arbeitnow|LT": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -772,8 +772,8 @@
       ],
       "source": "arbeitnow",
       "stats": {
-        "non_eu_rejects": 41,
-        "quarantined": 441
+        "non_eu_rejects": 39,
+        "quarantined": 460
       },
       "status": "ok"
     },
@@ -829,36 +829,36 @@
       "status": "ok"
     },
     "arbeitnow|NL": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
       "duration_sec": 0.0,
       "errors": [],
-      "fetched": 21,
+      "fetched": 10,
       "kept": 0,
       "notes": [
         "reused 600 rows fetched earlier this run"
       ],
       "source": "arbeitnow",
       "stats": {
-        "early_title_excluded": 30,
-        "non_eu_rejects": 41,
-        "quarantined": 441
+        "early_title_excluded": 24,
+        "non_eu_rejects": 39,
+        "quarantined": 460
       },
       "status": "ok"
     },
     "arbeitnow|PL": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
-      "duration_sec": 3.7,
+      "duration_sec": 6.0,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [],
       "source": "arbeitnow",
       "stats": {
-        "non_eu_rejects": 41,
+        "non_eu_rejects": 39,
         "pages_fetched": 2,
-        "quarantined": 441,
+        "quarantined": 460,
         "rows_returned": 600
       },
       "status": "ok"
@@ -881,7 +881,7 @@
       "status": "ok"
     },
     "arbeitnow|RO": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -892,8 +892,8 @@
       ],
       "source": "arbeitnow",
       "stats": {
-        "non_eu_rejects": 41,
-        "quarantined": 441
+        "non_eu_rejects": 39,
+        "quarantined": 460
       },
       "status": "ok"
     },
@@ -932,7 +932,7 @@
       "status": "ok"
     },
     "arbeitnow|SK": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -943,8 +943,8 @@
       ],
       "source": "arbeitnow",
       "stats": {
-        "non_eu_rejects": 41,
-        "quarantined": 441
+        "non_eu_rejects": 39,
+        "quarantined": 460
       },
       "status": "ok"
     },
@@ -1005,7 +1005,7 @@
       "status": "skipped"
     },
     "covebo|CZ": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -1019,7 +1019,7 @@
       "status": "skipped"
     },
     "covebo|DE": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1131,7 +1131,7 @@
       "status": "skipped"
     },
     "covebo|HU": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -1173,7 +1173,7 @@
       "status": "skipped"
     },
     "covebo|LT": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1229,9 +1229,9 @@
       "status": "skipped"
     },
     "covebo|NL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
-      "duration_sec": 41.2,
+      "duration_sec": 43.1,
       "errors": [],
       "fetched": 10,
       "kept": 3,
@@ -1246,7 +1246,7 @@
       "status": "ok"
     },
     "covebo|PL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -1274,7 +1274,7 @@
       "status": "skipped"
     },
     "covebo|RO": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -1316,7 +1316,7 @@
       "status": "skipped"
     },
     "covebo|SK": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -1386,22 +1386,22 @@
       "status": "skipped"
     },
     "czech_mpsv|CZ": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
-      "duration_sec": 2.2,
+      "duration_sec": 2.1,
       "errors": [],
       "fetched": 50,
       "kept": 4,
       "notes": [],
       "source": "czech_mpsv",
       "stats": {
-        "quarantined": 1009,
-        "rows_streamed": 1060
+        "quarantined": 1016,
+        "rows_streamed": 1067
       },
       "status": "ok"
     },
     "czech_mpsv|DE": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -1513,7 +1513,7 @@
       "status": "skipped"
     },
     "czech_mpsv|HU": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -1555,7 +1555,7 @@
       "status": "skipped"
     },
     "czech_mpsv|LT": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -1611,7 +1611,7 @@
       "status": "skipped"
     },
     "czech_mpsv|NL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
       "duration_sec": 0.0,
       "errors": [],
@@ -1625,7 +1625,7 @@
       "status": "skipped"
     },
     "czech_mpsv|PL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -1653,7 +1653,7 @@
       "status": "skipped"
     },
     "czech_mpsv|RO": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -1695,7 +1695,7 @@
       "status": "skipped"
     },
     "czech_mpsv|SK": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -1761,9 +1761,9 @@
       "status": "ok"
     },
     "eures|CZ": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
-      "duration_sec": 20.3,
+      "duration_sec": 17.2,
       "errors": [],
       "fetched": 50,
       "kept": 36,
@@ -1775,12 +1775,12 @@
       "status": "ok"
     },
     "eures|DE": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
-      "duration_sec": 5.1,
+      "duration_sec": 3.2,
       "errors": [],
       "fetched": 50,
-      "kept": 47,
+      "kept": 41,
       "notes": [],
       "source": "eures",
       "stats": {},
@@ -1875,9 +1875,9 @@
       "status": "ok"
     },
     "eures|HU": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
-      "duration_sec": 9.0,
+      "duration_sec": 8.7,
       "errors": [],
       "fetched": 50,
       "kept": 4,
@@ -1915,9 +1915,9 @@
       "status": "ok"
     },
     "eures|LT": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
-      "duration_sec": 70.6,
+      "duration_sec": 60.0,
       "errors": [],
       "fetched": 5,
       "kept": 3,
@@ -1969,9 +1969,9 @@
       "status": "ok"
     },
     "eures|NL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
-      "duration_sec": 4.0,
+      "duration_sec": 5.5,
       "errors": [],
       "fetched": 50,
       "kept": 40,
@@ -1981,9 +1981,9 @@
       "status": "ok"
     },
     "eures|PL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
-      "duration_sec": 4.8,
+      "duration_sec": 5.7,
       "errors": [],
       "fetched": 50,
       "kept": 36,
@@ -2007,9 +2007,9 @@
       "status": "ok"
     },
     "eures|RO": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
-      "duration_sec": 4.1,
+      "duration_sec": 5.1,
       "errors": [],
       "fetched": 50,
       "kept": 38,
@@ -2043,9 +2043,9 @@
       "status": "ok"
     },
     "eures|SK": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
-      "duration_sec": 3.3,
+      "duration_sec": 4.3,
       "errors": [],
       "fetched": 50,
       "kept": 15,
@@ -2113,7 +2113,7 @@
       "status": "skipped"
     },
     "goodmorning|CZ": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -2127,7 +2127,7 @@
       "status": "skipped"
     },
     "goodmorning|DE": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2239,7 +2239,7 @@
       "status": "skipped"
     },
     "goodmorning|HU": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -2281,7 +2281,7 @@
       "status": "skipped"
     },
     "goodmorning|LT": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2337,9 +2337,9 @@
       "status": "skipped"
     },
     "goodmorning|NL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
-      "duration_sec": 35.1,
+      "duration_sec": 35.6,
       "errors": [],
       "fetched": 10,
       "kept": 6,
@@ -2347,6 +2347,10 @@
       "source": "goodmorning",
       "stats": {
         "country_assumed_from_source": "NL",
+        "delta_skipped": 1,
+        "delta_skipped_ids": [
+          "2320-allround-productiemedewerker"
+        ],
         "index_count": 74,
         "pages_fetched": 10,
         "sitemap_urls": 74
@@ -2354,7 +2358,7 @@
       "status": "ok"
     },
     "goodmorning|PL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -2382,7 +2386,7 @@
       "status": "skipped"
     },
     "goodmorning|RO": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -2424,7 +2428,7 @@
       "status": "skipped"
     },
     "goodmorning|SK": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -2494,7 +2498,7 @@
       "status": "skipped"
     },
     "hobij|CZ": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -2508,7 +2512,7 @@
       "status": "skipped"
     },
     "hobij|DE": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -2620,7 +2624,7 @@
       "status": "skipped"
     },
     "hobij|HU": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -2662,7 +2666,7 @@
       "status": "skipped"
     },
     "hobij|LT": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -2718,9 +2722,9 @@
       "status": "skipped"
     },
     "hobij|NL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
-      "duration_sec": 42.9,
+      "duration_sec": 35.8,
       "errors": [],
       "fetched": 10,
       "kept": 6,
@@ -2735,7 +2739,7 @@
       "status": "ok"
     },
     "hobij|PL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -2763,7 +2767,7 @@
       "status": "skipped"
     },
     "hobij|RO": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -2805,7 +2809,7 @@
       "status": "skipped"
     },
     "hobij|SK": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -2871,24 +2875,24 @@
       "status": "skipped"
     },
     "jobspy|CZ": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
-      "duration_sec": 6.2,
+      "duration_sec": 6.1,
       "errors": [],
       "fetched": 50,
-      "kept": 39,
+      "kept": 37,
       "notes": [],
       "source": "jobspy",
       "stats": {},
       "status": "ok"
     },
     "jobspy|DE": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
-      "duration_sec": 8.5,
+      "duration_sec": 8.6,
       "errors": [],
       "fetched": 50,
-      "kept": 42,
+      "kept": 43,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -2983,9 +2987,9 @@
       "status": "skipped"
     },
     "jobspy|HU": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
-      "duration_sec": 24.2,
+      "duration_sec": 23.7,
       "errors": [],
       "fetched": 31,
       "kept": 25,
@@ -3019,7 +3023,7 @@
       "status": "ok"
     },
     "jobspy|LT": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -3073,24 +3077,24 @@
       "status": "skipped"
     },
     "jobspy|NL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
-      "duration_sec": 9.0,
+      "duration_sec": 14.3,
       "errors": [],
       "fetched": 50,
-      "kept": 32,
+      "kept": 33,
       "notes": [],
       "source": "jobspy",
       "stats": {},
       "status": "ok"
     },
     "jobspy|PL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
-      "duration_sec": 13.9,
+      "duration_sec": 12.1,
       "errors": [],
       "fetched": 50,
-      "kept": 39,
+      "kept": 33,
       "notes": [],
       "source": "jobspy",
       "stats": {},
@@ -3109,9 +3113,9 @@
       "status": "ok"
     },
     "jobspy|RO": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
-      "duration_sec": 25.2,
+      "duration_sec": 26.9,
       "errors": [],
       "fetched": 8,
       "kept": 7,
@@ -3147,7 +3151,7 @@
       "status": "skipped"
     },
     "jobspy|SK": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -3217,7 +3221,7 @@
       "status": "skipped"
     },
     "latvia_nva|CZ": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -3231,7 +3235,7 @@
       "status": "skipped"
     },
     "latvia_nva|DE": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -3343,7 +3347,7 @@
       "status": "skipped"
     },
     "latvia_nva|HU": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -3385,7 +3389,7 @@
       "status": "skipped"
     },
     "latvia_nva|LT": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -3443,7 +3447,7 @@
       "status": "skipped"
     },
     "latvia_nva|NL": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
       "duration_sec": 0.0,
       "errors": [],
@@ -3457,7 +3461,7 @@
       "status": "skipped"
     },
     "latvia_nva|PL": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -3485,7 +3489,7 @@
       "status": "skipped"
     },
     "latvia_nva|RO": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -3527,7 +3531,7 @@
       "status": "skipped"
     },
     "latvia_nva|SK": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -3642,9 +3646,9 @@
       "status": "ok"
     },
     "nl_jobs|CZ": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
-      "duration_sec": 4.6,
+      "duration_sec": 4.9,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -3653,31 +3657,17 @@
       ],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "unparsable_pages": 4
       },
       "status": "ok"
     },
     "nl_jobs|DE": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
-      "duration_sec": 3.1,
+      "duration_sec": 5.1,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -3686,23 +3676,9 @@
       ],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "unparsable_pages": 4
       },
       "status": "ok"
@@ -3908,9 +3884,9 @@
       "status": "ok"
     },
     "nl_jobs|HU": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
-      "duration_sec": 4.1,
+      "duration_sec": 5.1,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -3919,23 +3895,9 @@
       ],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "unparsable_pages": 4
       },
       "status": "ok"
@@ -4007,9 +3969,9 @@
       "status": "ok"
     },
     "nl_jobs|LT": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
-      "duration_sec": 2.9,
+      "duration_sec": 6.6,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4018,23 +3980,9 @@
       ],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "unparsable_pages": 4
       },
       "status": "ok"
@@ -4124,64 +4072,36 @@
       "status": "ok"
     },
     "nl_jobs|NL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
-      "duration_sec": 11.6,
+      "duration_sec": 25.0,
       "errors": [],
-      "fetched": 2,
-      "kept": 1,
+      "fetched": 6,
+      "kept": 6,
       "notes": [
         "reused 17 sitemap urls fetched earlier this run"
       ],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "pages_fetched": 6,
+        "pages_fetched": 10,
         "unparsable_pages": 4
       },
       "status": "ok"
     },
     "nl_jobs|PL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
-      "duration_sec": 5.0,
+      "duration_sec": 7.5,
       "errors": [],
       "fetched": 0,
       "kept": 0,
       "notes": [],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "sitemap_urls": 17,
         "unparsable_pages": 4
       },
@@ -4221,9 +4141,9 @@
       "status": "ok"
     },
     "nl_jobs|RO": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
-      "duration_sec": 4.6,
+      "duration_sec": 4.7,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4232,23 +4152,9 @@
       ],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "unparsable_pages": 4
       },
       "status": "ok"
@@ -4291,9 +4197,9 @@
       "status": "ok"
     },
     "nl_jobs|SK": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
-      "duration_sec": 2.9,
+      "duration_sec": 5.1,
       "errors": [],
       "fetched": 0,
       "kept": 0,
@@ -4302,23 +4208,9 @@
       ],
       "source": "nl_jobs",
       "stats": {
-        "delta_skipped": 11,
-        "delta_skipped_ids": [
-          "production-worker-horticulture-full-time-amsterdam",
-          "liquidation-employee",
-          "parcel-sorting-breda",
-          "parcel-sorting-oirschot",
-          "warehouse-worker-post-nl-waalwijk",
-          "co-packing-tiel",
-          "warehouse-worker-full-time-utrecht",
-          "order-picker-full-time-rotterdam",
-          "production-worker-(flowers)-full-time-rotterdam",
-          "packer",
-          "unloading-worker"
-        ],
         "index_count": 17,
-        "other_country": 2,
-        "pages_fetched": 6,
+        "other_country": 6,
+        "pages_fetched": 10,
         "unparsable_pages": 4
       },
       "status": "ok"
@@ -4380,7 +4272,7 @@
       "status": "skipped"
     },
     "ottoworkforce|CZ": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -4394,7 +4286,7 @@
       "status": "skipped"
     },
     "ottoworkforce|DE": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4506,7 +4398,7 @@
       "status": "skipped"
     },
     "ottoworkforce|HU": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -4548,7 +4440,7 @@
       "status": "skipped"
     },
     "ottoworkforce|LT": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -4604,21 +4496,19 @@
       "status": "skipped"
     },
     "ottoworkforce|NL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
-      "duration_sec": 58.4,
+      "duration_sec": 43.7,
       "errors": [],
       "fetched": 9,
-      "kept": 0,
+      "kept": 2,
       "notes": [],
       "source": "ottoworkforce",
       "stats": {
         "country_assumed_from_source": "NL",
-        "delta_skipped": 3,
+        "delta_skipped": 1,
         "delta_skipped_ids": [
-          "2234-packaging-machine-operator-imperial-tobacco",
-          "2241-order-picker-albert-heijn",
-          "2268-order-picker-action"
+          "2234-packaging-machine-operator-imperial-tobacco"
         ],
         "early_title_excluded": 1,
         "index_count": 166,
@@ -4628,7 +4518,7 @@
       "status": "ok"
     },
     "ottoworkforce|PL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -4656,7 +4546,7 @@
       "status": "skipped"
     },
     "ottoworkforce|RO": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -4698,7 +4588,7 @@
       "status": "skipped"
     },
     "ottoworkforce|SK": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -4768,7 +4658,7 @@
       "status": "skipped"
     },
     "pl_cbop|CZ": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -4782,7 +4672,7 @@
       "status": "skipped"
     },
     "pl_cbop|DE": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -4894,7 +4784,7 @@
       "status": "skipped"
     },
     "pl_cbop|HU": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -4936,7 +4826,7 @@
       "status": "skipped"
     },
     "pl_cbop|LT": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -4992,7 +4882,7 @@
       "status": "skipped"
     },
     "pl_cbop|NL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
       "duration_sec": 0.0,
       "errors": [],
@@ -5006,9 +4896,9 @@
       "status": "skipped"
     },
     "pl_cbop|PL": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
-      "duration_sec": 22.2,
+      "duration_sec": 23.3,
       "errors": [],
       "fetched": 50,
       "kept": 50,
@@ -5034,7 +4924,7 @@
       "status": "skipped"
     },
     "pl_cbop|RO": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -5076,7 +4966,7 @@
       "status": "skipped"
     },
     "pl_cbop|SK": {
-      "checked_at_utc": "2026-11-21T18:10:19+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -5146,7 +5036,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|CZ": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "CZ",
       "duration_sec": 0.0,
       "errors": [],
@@ -5160,7 +5050,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|DE": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "DE",
       "duration_sec": 0.0,
       "errors": [],
@@ -5272,7 +5162,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|HU": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "HU",
       "duration_sec": 0.0,
       "errors": [],
@@ -5314,7 +5204,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|LT": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "LT",
       "duration_sec": 0.0,
       "errors": [],
@@ -5370,7 +5260,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|NL": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "NL",
       "duration_sec": 0.0,
       "errors": [],
@@ -5384,7 +5274,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|PL": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "PL",
       "duration_sec": 0.0,
       "errors": [],
@@ -5412,7 +5302,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|RO": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "RO",
       "duration_sec": 0.0,
       "errors": [],
@@ -5452,7 +5342,7 @@
       "status": "skipped"
     },
     "sweden_jobsearch|SK": {
-      "checked_at_utc": "2026-11-15T04:07:15+00:00",
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
       "country": "SK",
       "duration_sec": 0.0,
       "errors": [],
@@ -5636,6 +5526,12 @@
   },
   "recent_runs": [
     {
+      "checked_at_utc": "2026-11-22T04:09:05+00:00",
+      "failing": 0,
+      "label": "tier=1 sources=anyworkanywhere,arbeitnow,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,latvia_nva,nl_jobs,ottoworkforce,pl_cbop,sweden_jobsearch",
+      "source_country_records": 104
+    },
+    {
       "checked_at_utc": "2026-11-22T03:44:26+00:00",
       "failing": 0,
       "label": "tier=3 sources=anyworkanywhere,covebo,eures,goodmorning,hobij,jobspy,latvia_nva,nl_jobs,ottoworkforce,pl_cbop,sweden_jobsearch",
@@ -5808,13 +5704,7 @@
       "failing": 0,
       "label": "tier=1 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
       "source_country_records": 88
-    },
-    {
-      "checked_at_utc": "2026-11-14T06:15:31+00:00",
-      "failing": 0,
-      "label": "tier=1 sources=anyworkanywhere,covebo,czech_mpsv,eures,goodmorning,hobij,jobspy,nl_jobs,ottoworkforce,pl_cbop,telegram_channels",
-      "source_country_records": 88
     }
   ],
-  "updated_utc": "2026-11-22T03:44:26+00:00"
+  "updated_utc": "2026-11-22T04:09:05+00:00"
 }
