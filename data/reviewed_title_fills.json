@@ -904,12 +904,12 @@
   },
   {
    "uid": "10f3a8957deaaac2",
-   "expected_title": "Magasinier cariste (H/F)",
+   "expected_title": "Magasinier cariste H/F",
    "title_en": "Warehouse keeper - forklift operator (m/f)",
    "translated": true,
-   "review": "data/title_review_batch25.json",
+   "review": "data/title_review_batch35.json",
    "title_ar": "أمين مستودع - مشغل رافعة شوكية",
-   "expected_source_id": "MjE1WUdWTCA5"
+   "expected_source_id": "MjE2Q01HWiA5"
   },
   {
    "uid": "1118d65fa4518fdd",
@@ -1990,6 +1990,150 @@
    "title_ar": "عامل مستودع (ذكر/أنثى)",
    "translated": true,
    "review": "data/title_review_batch34.json"
+  },
+  {
+   "uid": "2c4e0ea4f8833aa3",
+   "expected_title": "PROIZVODNI DELAVEC - M/Ž",
+   "expected_source_id": "MzUwMzI4OCAxNA",
+   "title_en": "Production worker (m/f)",
+   "title_ar": "عامل إنتاج (ذكر/أنثى)",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2c5b60b03a79708a",
+   "expected_title": "Skladový manipulant/ka, Pomocní skladníci",
+   "expected_source_id": "MzUxOTUwNzA3NTggNg",
+   "title_en": "Warehouse handler (m/f), warehouse helpers",
+   "title_ar": "مناول مستودع (ذكر/أنثى)، مساعدو مستودع",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2c9bf25718b913eb",
+   "expected_title": "ALTERNANCE - MAGASINIER(ÈRE) EN PHARMACIE #CFA15421 (H/F)",
+   "expected_source_id": "ODQ3MTg0MCA5",
+   "title_en": "Apprenticeship - pharmacy warehouse keeper (m/f) #CFA15421",
+   "title_ar": "تدريب بالتناوب - أمين مستودع صيدلية (ذكر/أنثى) #CFA15421",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2cb4c196efaabdd6",
+   "expected_title": "SKLADIŠTAR GOTOVIH PROIZVODA (M/Ž)",
+   "expected_source_id": "MjkzNjc5MiAxOQ",
+   "title_en": "Finished-goods warehouse worker (m/f)",
+   "title_ar": "عامل مستودع المنتجات الجاهزة (ذكر/أنثى)",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2cbb34381872cc1d",
+   "expected_title": "Magazijnier Haven Zeebrugge dagdienst",
+   "expected_source_id": "ZmUxOTE0NTUtMTFlYy00OTRjLTgzYWYtODM4MGZkOTJmMzhlIDM",
+   "title_en": "Warehouse keeper, Port of Zeebrugge, day shift",
+   "title_ar": "أمين مستودع، ميناء زيبروجه، وردية نهارية",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2ce6b7a58afacadc",
+   "expected_title": "Orderpicker bij Soudal",
+   "expected_source_id": "Y2JiNDI0MDQtMzU3Mi00OWZjLWI0NjUtN2I5YmFkNjU4YTllIDM",
+   "title_en": "Order picker at Soudal",
+   "title_ar": "جامع طلبات لدى سودال",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2d094f7a6b60f3db",
+   "expected_title": "Spezialist Personalgewinnung – Lager & Logistik (m/w/d) (Recruiter/in)",
+   "expected_source_id": "MTAwMDEtMTAwMzk0OTc2Ny1TIDE",
+   "title_en": "Recruitment specialist - warehouse & logistics (m/f/d) (recruiter)",
+   "title_ar": "أخصائي استقطاب موظفين - مستودعات ولوجستيات (م/ذ) (مسؤول توظيف)",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2d21177ff8bf9bc0",
+   "expected_title": "Pracownik Magazynu (K/M)",
+   "expected_source_id": "MTQ5Mzk0MDkgMTI",
+   "title_en": "Warehouse worker (f/m)",
+   "title_ar": "عامل مستودع (أنثى/ذكر)",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2d523bb2862753ba",
+   "expected_title": "Sprzedawca-magazynier (K/M)",
+   "expected_source_id": "MTQ5MzIwNzcgMTI",
+   "title_en": "Sales assistant and warehouse keeper (f/m)",
+   "title_ar": "بائع وأمين مستودع (أنثى/ذكر)",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2d531d5652cdcb2d",
+   "expected_title": "Lagermedarbetare till kund i Halmstad",
+   "expected_source_id": "NjM5OTUyNCAxMjE",
+   "title_en": "Warehouse worker for a client in Halmstad",
+   "title_ar": "عامل مستودع لدى عميل في هالمستاد",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2d558ae89a8dd1f0",
+   "expected_title": "SKLADIŠTAR/KA",
+   "expected_source_id": "MjkzMjY0OCAxOQ",
+   "title_en": "Warehouse worker (m/f)",
+   "title_ar": "عامل مستودع (ذكر/أنثى)",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2dbaaf3e7186d200",
+   "expected_title": "SKLADIŠČNIK - M/Ž",
+   "expected_source_id": "MzQ4NzU4NC0yMDI2NDcgMTQ",
+   "title_en": "Warehouse keeper (m/f)",
+   "title_ar": "أمين مستودع (ذكر/أنثى)",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2e0090c8461402f7",
+   "expected_title": "CHEF DE CHANTIER ELECTRICIEN (H/F)",
+   "expected_source_id": "MjE2Q1RZRyA5",
+   "title_en": "Electrician site foreman (m/f)",
+   "title_ar": "رئيس ورشة كهربائي (ذكر/أنثى)",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2e04a38886b6067f",
+   "expected_title": "Magasinier (H/F)",
+   "expected_source_id": "ODUyOTQxMiA5",
+   "title_en": "Warehouse keeper (m/f)",
+   "title_ar": "أمين مستودع (ذكر/أنثى)",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2e162703a2334d16",
+   "expected_title": "Magazijnmedewerker",
+   "expected_source_id": "NjMxN2E1NGMtZGFhNC00NzA0LTg3YTgtZjE3NjE0N2VkYjM2IDM",
+   "title_en": "Warehouse worker",
+   "title_ar": "عامل مستودع",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2e29eaebdd0bccd9",
+   "expected_title": "Lagerhelfer (m/w/d) Lager / Logistik (Helfer/in - Lagerwirtschaft, Transport)",
+   "expected_source_id": "MTIzMTMtYzZkYjk0ZGU4YzRmNDEzLVMgMQ",
+   "title_en": "Warehouse helper (m/f/d), warehouse / logistics (helper - warehousing, transport)",
+   "title_ar": "مساعد مستودع (م/ذ)، مستودعات / لوجستيات (مساعد - تخزين ونقل)",
+   "translated": true,
+   "review": "data/title_review_batch35.json"
   }
  ]
 }
