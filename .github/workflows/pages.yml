@@ -47,35 +47,28 @@ concurrency:
   cancel-in-progress: false
   queue: max
 
+# Minimal bounded change: split the single job into build (upload) + deploy.
+# Everything not shown here stays byte-identical to the current pages.yml
+# (header comment, triggers, permissions, concurrency, the `if` guard,
+# checkout/assemble steps). Only the job structure changes.
+
 jobs:
-  deploy:
-    name: Assemble and deploy static dashboard
-    # workflow_run fires on ANY conclusion - only success carries fresh,
-    # trustworthy data. Push and manual dispatch always deploy.
+  build:
+    name: Assemble static dashboard
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout repository (default branch head)
         uses: actions/checkout@v6
         with:
           ref: main
-        # Always use latest committed default-branch data, not a trigger SHA.
 
       - name: Assemble static site
         run: |
           set -euo pipefail
-          # The dashboard source lives in docs/ and stays free of
-          # generated data; the deploy assembles _site/ so relative
-          # fetch('data/...') works under any Pages base path.
           mkdir -p _site/data
           cp docs/index.html docs/style.css docs/app.js docs/favicon.svg _site/
-          # Data files only exist after the first scrape. The dashboard
-          # renders an honest empty state when they are absent, so a
-          # missing file is a notice, not a deploy failure.
           for f in active_jobs.json run_status.json latest_export.csv; do
             if [ -f "data/$f" ]; then
               cp "data/$f" _site/data/
@@ -83,7 +76,6 @@ jobs:
               echo "::notice::data/$f not committed yet - dashboard will show its empty state"
             fi
           done
-          # Plain static files - skip Jekyll processing.
           touch _site/.nojekyll
           ls -la _site _site/data
 
@@ -95,6 +87,16 @@ jobs:
         with:
           path: _site
 
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
