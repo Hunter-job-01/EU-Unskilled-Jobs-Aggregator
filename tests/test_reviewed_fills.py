@@ -182,3 +182,70 @@ def test_non_mismatch_review_keeps_summary(tmp_path):
     counts = apply_reviewed_fills(store, path)
     assert counts["applied"] == 1
     assert store._store[job.uid]["summary_ar"] == "ملخص سليم"
+
+
+def test_formatting_drift_title_still_applies(tmp_path):
+    # 12f6696d4586c574 (2026-11-12): the source collapsed a double space
+    # in the SAME posting's title. Byte-compare invalidated the reviewed
+    # fill; the normalized compare (same rule as the store's dedup key)
+    # must bridge pure formatting drift.
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    job = make_job(1, title="Lagerhelfer (gn) (Helfer/in - Lagerwirtschaft, Transport)")
+    store.merge([job])
+    path = _write_fills(tmp_path, [
+        _fill(job.uid,
+              expected_title="Lagerhelfer (gn)  (Helfer/in - Lagerwirtschaft, Transport)",
+              title_en="Warehouse helper", title_ar="مساعد مستودع",
+              translated=True)])
+    counts = apply_reviewed_fills(store, path)
+    assert counts["applied"] == 1 and counts["mismatch"] == 0
+    rec = store._store[job.uid]
+    assert rec["title_en"] == "Warehouse helper"
+    assert rec["title_ar"] == "مساعد مستودع"
+    assert rec["translated"] is True
+
+
+def test_parenthesis_edit_title_still_applies(tmp_path):
+    # 10f3a8957deaaac2: "Magasinier cariste (H/F)" -> "Magasinier cariste H/F"
+    # folds to the same normalized title, so title formatting alone must
+    # not invalidate the review.
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    job = make_job(1, title="Magasinier cariste H/F")
+    store.merge([job])
+    path = _write_fills(tmp_path, [
+        _fill(job.uid, expected_title="Magasinier cariste (H/F)",
+              title_en="Warehouse keeper - forklift operator (m/f)")])
+    counts = apply_reviewed_fills(store, path)
+    assert counts["applied"] == 1 and counts["mismatch"] == 0
+
+
+def test_source_id_change_holds_fill_even_when_title_matches(tmp_path):
+    # 10f3a8957deaaac2 (2026-11-22): a repost (new source_id, body and
+    # location) landed on the same dedup key with a norm-equal title.
+    # A fill pinned with expected_source_id must stay held for re-review
+    # rather than bridge across posting identities.
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    job = make_job(1, title="Magasinier cariste H/F", source_id="MjE2Q01HWiA5")
+    store.merge([job])
+    path = _write_fills(tmp_path, [
+        _fill(job.uid, expected_title="Magasinier cariste (H/F)",
+              expected_source_id="MjE1WUdWTCA5",
+              title_en="Warehouse keeper - forklift operator (m/f)",
+              title_ar="أمين مستودع - مشغل رافعة شوكية", translated=True)])
+    counts = apply_reviewed_fills(store, path)
+    assert counts["mismatch"] == 1 and counts["applied"] == 0
+    rec = store._store[job.uid]
+    assert rec["title_en"] == "" and rec["title_ar"] == ""
+    assert rec["translated"] is False
+
+
+def test_source_id_match_applies(tmp_path):
+    store = JobStore(store_cfg(tmp_path), base_dir=str(tmp_path))
+    job = make_job(1, source_id="SID-1")
+    store.merge([job])
+    path = _write_fills(tmp_path, [
+        _fill(job.uid, expected_title=job.title, expected_source_id="SID-1",
+              title_en="General worker")])
+    counts = apply_reviewed_fills(store, path)
+    assert counts["applied"] == 1 and counts["mismatch"] == 0
+    assert store._store[job.uid]["title_en"] == "General worker"
