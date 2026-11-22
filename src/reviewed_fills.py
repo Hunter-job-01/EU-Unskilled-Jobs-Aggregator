@@ -14,6 +14,10 @@ Safety rules:
   expected_url when given) must match the current record, otherwise the
   fill is skipped - a changed source invalidates the old review, the
   same principle as the source_review carry-forward in storage.py.
+  expected_title compares under the same normalization as the store's
+  dedup key, so pure formatting drift does not invalidate a review;
+  expected_source_id (when given) pins the reviewed posting itself, so
+  a repost under the same uid stays held for re-review.
 - Existing non-empty values are never overwritten by a different fill
   value; a conflict is logged and skipped for re-review. A fill that
   carries "overwrite": true is that re-review's resolution: the reviewer
@@ -27,11 +31,30 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
+
+from .keywords import fold_text
 
 log = logging.getLogger(__name__)
 
 FILLS_FILE = "reviewed_title_fills.json"
 TITLE_FIELDS = ("title_en", "title_ar")
+
+
+def _norm_title(value: str) -> str:
+    """Same normalization as scorer.dedup_hash's key norm: fold case and
+    diacritics, keep only letters/digits (Unicode fallback for non-Latin
+    titles). Two titles that hash to the same store uid compare equal
+    here, so source-side formatting drift - whitespace, punctuation,
+    parenthesis edits like "Magasinier cariste (H/F)" -> "... H/F", or a
+    collapsed double space (12f6696d4586c574, 2026-11-12) - does not
+    invalidate the reviewed fill. A genuinely retitled posting still
+    normalizes differently and stays a mismatch.
+    """
+    primary = re.sub(r"[^a-z0-9]", "", fold_text(value or ""))
+    if primary:
+        return primary
+    return "".join(ch for ch in fold_text(value or "") if ch.isalnum())
 
 
 def _load_fills(path: str) -> list:
@@ -75,8 +98,21 @@ def apply_reviewed_fills(store, path: str = None) -> dict:
             continue
         expected_title = fill.get("expected_title")
         if expected_title is not None and (record.get("title") or "") != expected_title:
+            if _norm_title(record.get("title")) != _norm_title(expected_title):
+                counts["mismatch"] += 1
+                log.warning("reviewed fill %s: title changed since review - skipped", uid)
+                continue
+            log.info("reviewed fill %s: title formatting drift since review "
+                     "(same normalized title) - continuing", uid)
+        expected_sid = fill.get("expected_source_id")
+        if expected_sid is not None and (record.get("source_id") or "") != expected_sid:
+            # The reviewed evidence was gathered on a different posting
+            # (repost under the same dedup key, e.g. 10f3a8957deaaac2 on
+            # 2026-11-22). The fill waits for a fresh review of the
+            # current posting rather than bridging across identities.
             counts["mismatch"] += 1
-            log.warning("reviewed fill %s: title changed since review - skipped", uid)
+            log.warning("reviewed fill %s: posting identity changed since "
+                        "review (source_id) - skipped", uid)
             continue
         expected_url = fill.get("expected_url")
         if expected_url is not None and (record.get("url") or "") != expected_url:
