@@ -56,7 +56,7 @@
         "fetched": 0,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -141,7 +141,7 @@
         "fetched": 0,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -226,7 +226,7 @@
         "fetched": 0,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -315,7 +315,7 @@
         "fetched": 0,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -391,10 +391,10 @@
       },
       "nl_jobs": {
         "errors": [],
-        "fetched": 6,
+        "fetched": 2,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -476,7 +476,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -559,7 +559,7 @@
         "fetched": 0,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -648,7 +648,7 @@
         "fetched": 0,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -676,8 +676,8 @@
       }
     }
   },
-  "duration_sec": 693.9,
-  "last_run_utc": "2026-11-22T06:24:31+00:00",
+  "duration_sec": 643.3,
+  "last_run_utc": "2026-11-22T18:08:00+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-22T04:33:05+00:00",
@@ -1085,7 +1085,7 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-22T06:24:31+00:00",
+      "checked_at_utc": "2026-11-22T18:08:00+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1142,7 +1142,7 @@
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -1171,7 +1171,7 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-22T06:24:31+00:00",
+      "checked_at_utc": "2026-11-22T18:08:00+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1230,7 +1230,7 @@
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -1966,7 +1966,7 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-22T06:24:31+00:00",
+      "checked_at_utc": "2026-11-22T18:08:00+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2025,7 +2025,7 @@
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2230,7 +2230,7 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-22T06:24:31+00:00",
+      "checked_at_utc": "2026-11-22T18:08:00+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2293,7 +2293,7 @@
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2642,7 +2642,7 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-22T06:24:31+00:00",
+      "checked_at_utc": "2026-11-22T18:08:00+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2692,10 +2692,10 @@
         },
         "nl_jobs": {
           "errors": [],
-          "fetched": 6,
+          "fetched": 2,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2724,7 +2724,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-22T06:24:31+00:00",
+      "checked_at_utc": "2026-11-22T18:08:00+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2780,7 +2780,7 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2895,7 +2895,7 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-22T06:24:31+00:00",
+      "checked_at_utc": "2026-11-22T18:08:00+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2954,7 +2954,7 @@
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -3195,7 +3195,7 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-22T06:24:31+00:00",
+      "checked_at_utc": "2026-11-22T18:08:00+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3258,7 +3258,7 @@
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -3316,50 +3316,49 @@
     "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 177,
-    "candidates_stored": 177,
+    "candidates_held_total": 172,
+    "candidates_stored": 172,
     "sealed": true,
-    "sha256": "afbb5e4ff8017994e81b69fdfa7f459ca8f848785a20a6d7206b3efd9e525398"
+    "sha256": "102bcf7961478cbeb298513385ededa8a7d7f258025efb9d3153d2254db8e8ca"
   },
   "source_retention": {
     "kept_pre_prune": {
       "covebo": 2,
       "czech_mpsv": 4,
-      "eures": 182,
-      "goodmorning": 5,
+      "eures": 186,
+      "goodmorning": 6,
       "hobij": 5,
-      "jobspy_indeed": 180,
-      "nl_jobs": 5,
+      "jobspy_indeed": 181,
+      "nl_jobs": 1,
       "pl_cbop": 49
     },
     "retained_post_prune": {
       "czech_mpsv": 3,
-      "eures": 141,
-      "jobspy_indeed": 179,
-      "nl_jobs": 4,
+      "eures": 143,
+      "jobspy_indeed": 178,
       "pl_cbop": 49
     }
   },
   "totals": {
-    "active": 4278,
-    "below_min_score": 23,
-    "contacts_extracted": 129,
-    "excluded": 249,
-    "fetched": 740,
+    "active": 4294,
+    "below_min_score": 22,
+    "contacts_extracted": 124,
+    "excluded": 253,
+    "fetched": 736,
     "l1_dropped": 4,
-    "l2_language_excluded": 0,
-    "lifecycle_deactivated": 4,
+    "l2_language_excluded": 1,
+    "lifecycle_deactivated": 2,
     "lifecycle_deactivated_total": 121,
-    "lifecycle_dead_confirmed": 2,
-    "lifecycle_live_confirmed": 38,
-    "lifecycle_reactivated": 0,
-    "new": 17,
+    "lifecycle_dead_confirmed": 1,
+    "lifecycle_live_confirmed": 39,
+    "lifecycle_reactivated": 2,
+    "new": 23,
     "notified_telegram": 0,
-    "pruned": 0,
-    "reviewed_fills": 11,
+    "pruned": 7,
+    "reviewed_fills": 29,
     "translated_ar": 0,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 371
+    "updated": 370
   }
 }
