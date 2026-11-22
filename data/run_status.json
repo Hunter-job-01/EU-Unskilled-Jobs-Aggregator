@@ -1,6 +1,6 @@
 {
   "countries": {
-    "CZ": {
+    "BE": {
       "anyworkanywhere": {
         "errors": [],
         "fetched": 0,
@@ -21,107 +21,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for CZ"
-        ],
-        "status": "skipped"
-      },
-      "czech_mpsv": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "goodmorning": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for CZ"
-        ],
-        "status": "skipped"
-      },
-      "hobij": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for CZ"
-        ],
-        "status": "skipped"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "latvia_nva": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the NVA dataset covers Latvia only"
-        ],
-        "status": "skipped"
-      },
-      "nl_jobs": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "ottoworkforce": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for CZ"
-        ],
-        "status": "skipped"
-      },
-      "pl_cbop": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "CBOP is the Polish national board (PL only); skipped for CZ"
-        ],
-        "status": "skipped"
-      },
-      "sweden_jobsearch": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Platsbanken/JobSearch covers Sweden only"
-        ],
-        "status": "skipped"
-      }
-    },
-    "DE": {
-      "anyworkanywhere": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 1502 sitemap urls fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "arbeitnow": {
-        "errors": [],
-        "fetched": 21,
-        "notes": [
-          "reused 600 rows fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "covebo": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for DE"
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for BE"
         ],
         "status": "skipped"
       },
@@ -143,7 +43,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for DE"
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for BE"
         ],
         "status": "skipped"
       },
@@ -151,7 +51,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for DE"
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for BE"
         ],
         "status": "skipped"
       },
@@ -173,7 +73,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -181,7 +82,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for DE"
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for BE"
         ],
         "status": "skipped"
       },
@@ -189,7 +90,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "CBOP is the Polish national board (PL only); skipped for DE"
+          "CBOP is the Polish national board (PL only); skipped for BE"
         ],
         "status": "skipped"
       },
@@ -202,28 +103,24 @@
         "status": "skipped"
       }
     },
-    "HU": {
+    "ES": {
       "anyworkanywhere": {
         "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 1502 sitemap urls fetched earlier this run"
-        ],
+        "fetched": 2,
+        "notes": [],
         "status": "ok"
       },
       "arbeitnow": {
         "errors": [],
         "fetched": 0,
-        "notes": [
-          "reused 600 rows fetched earlier this run"
-        ],
+        "notes": [],
         "status": "ok"
       },
       "covebo": {
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for HU"
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for ES"
         ],
         "status": "skipped"
       },
@@ -245,7 +142,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for HU"
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for ES"
         ],
         "status": "skipped"
       },
@@ -253,13 +150,13 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for HU"
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for ES"
         ],
         "status": "skipped"
       },
       "jobspy": {
         "errors": [],
-        "fetched": 31,
+        "fetched": 50,
         "notes": [],
         "status": "ok"
       },
@@ -275,7 +172,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
+          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -283,7 +180,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for HU"
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for ES"
         ],
         "status": "skipped"
       },
@@ -291,7 +188,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "CBOP is the Polish national board (PL only); skipped for HU"
+          "CBOP is the Polish national board (PL only); skipped for ES"
         ],
         "status": "skipped"
       },
@@ -304,7 +201,110 @@
         "status": "skipped"
       }
     },
-    "LT": {
+    "FR": {
+      "anyworkanywhere": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 1502 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "arbeitnow": {
+        "errors": [],
+        "fetched": 15,
+        "notes": [
+          "reused 600 rows fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "covebo": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for FR"
+        ],
+        "status": "skipped"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the MPSV dataset covers Czechia only"
+        ],
+        "status": "skipped"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "goodmorning": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for FR"
+        ],
+        "status": "skipped"
+      },
+      "hobij": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for FR"
+        ],
+        "status": "skipped"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "latvia_nva": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the NVA dataset covers Latvia only"
+        ],
+        "status": "skipped"
+      },
+      "nl_jobs": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+        ],
+        "status": "ok"
+      },
+      "ottoworkforce": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for FR"
+        ],
+        "status": "skipped"
+      },
+      "pl_cbop": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "CBOP is the Polish national board (PL only); skipped for FR"
+        ],
+        "status": "skipped"
+      },
+      "sweden_jobsearch": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Platsbanken/JobSearch covers Sweden only"
+        ],
+        "status": "skipped"
+      }
+    },
+    "IE": {
       "anyworkanywhere": {
         "errors": [],
         "fetched": 0,
@@ -325,7 +325,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for LT"
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for IE"
         ],
         "status": "skipped"
       },
@@ -339,17 +339,15 @@
       },
       "eures": {
         "errors": [],
-        "fetched": 5,
-        "notes": [
-          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
-        ],
+        "fetched": 50,
+        "notes": [],
         "status": "ok"
       },
       "goodmorning": {
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for LT"
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for IE"
         ],
         "status": "skipped"
       },
@@ -357,17 +355,15 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for LT"
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for IE"
         ],
         "status": "skipped"
       },
       "jobspy": {
         "errors": [],
-        "fetched": 0,
-        "notes": [
-          "indeed: LT not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
       },
       "latvia_nva": {
         "errors": [],
@@ -381,7 +377,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -389,7 +386,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for LT"
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for IE"
         ],
         "status": "skipped"
       },
@@ -397,7 +394,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "CBOP is the Polish national board (PL only); skipped for LT"
+          "CBOP is the Polish national board (PL only); skipped for IE"
         ],
         "status": "skipped"
       },
@@ -410,7 +407,7 @@
         "status": "skipped"
       }
     },
-    "NL": {
+    "IT": {
       "anyworkanywhere": {
         "errors": [],
         "fetched": 0,
@@ -421,7 +418,7 @@
       },
       "arbeitnow": {
         "errors": [],
-        "fetched": 10,
+        "fetched": 0,
         "notes": [
           "reused 600 rows fetched earlier this run"
         ],
@@ -429,9 +426,11 @@
       },
       "covebo": {
         "errors": [],
-        "fetched": 10,
-        "notes": [],
-        "status": "ok"
+        "fetched": 0,
+        "notes": [
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for IT"
+        ],
+        "status": "skipped"
       },
       "czech_mpsv": {
         "errors": [],
@@ -443,23 +442,25 @@
       },
       "eures": {
         "errors": [],
-        "fetched": 50,
+        "fetched": 45,
         "notes": [],
         "status": "ok"
       },
       "goodmorning": {
         "errors": [],
-        "fetched": 10,
+        "fetched": 0,
         "notes": [
-          "skipped 1 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for IT"
         ],
-        "status": "ok"
+        "status": "skipped"
       },
       "hobij": {
         "errors": [],
-        "fetched": 10,
-        "notes": [],
-        "status": "ok"
+        "fetched": 0,
+        "notes": [
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for IT"
+        ],
+        "status": "skipped"
       },
       "jobspy": {
         "errors": [],
@@ -477,25 +478,26 @@
       },
       "nl_jobs": {
         "errors": [],
-        "fetched": 6,
+        "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
       "ottoworkforce": {
         "errors": [],
-        "fetched": 9,
+        "fetched": 0,
         "notes": [
-          "skipped 1 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for IT"
         ],
-        "status": "ok"
+        "status": "skipped"
       },
       "pl_cbop": {
         "errors": [],
         "fetched": 0,
         "notes": [
-          "CBOP is the Polish national board (PL only); skipped for NL"
+          "CBOP is the Polish national board (PL only); skipped for IT"
         ],
         "status": "skipped"
       },
@@ -508,104 +510,10 @@
         "status": "skipped"
       }
     },
-    "PL": {
+    "PT": {
       "anyworkanywhere": {
         "errors": [],
         "fetched": 1,
-        "notes": [],
-        "status": "ok"
-      },
-      "arbeitnow": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [],
-        "status": "ok"
-      },
-      "covebo": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for PL"
-        ],
-        "status": "skipped"
-      },
-      "czech_mpsv": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the MPSV dataset covers Czechia only"
-        ],
-        "status": "skipped"
-      },
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "goodmorning": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for PL"
-        ],
-        "status": "skipped"
-      },
-      "hobij": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for PL"
-        ],
-        "status": "skipped"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "latvia_nva": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the NVA dataset covers Latvia only"
-        ],
-        "status": "skipped"
-      },
-      "nl_jobs": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [],
-        "status": "ok"
-      },
-      "ottoworkforce": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for PL"
-        ],
-        "status": "skipped"
-      },
-      "pl_cbop": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [],
-        "status": "ok"
-      },
-      "sweden_jobsearch": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Platsbanken/JobSearch covers Sweden only"
-        ],
-        "status": "skipped"
-      }
-    },
-    "RO": {
-      "anyworkanywhere": {
-        "errors": [],
-        "fetched": 0,
         "notes": [
           "reused 1502 sitemap urls fetched earlier this run"
         ],
@@ -623,7 +531,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for RO"
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for PT"
         ],
         "status": "skipped"
       },
@@ -645,7 +553,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for RO"
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for PT"
         ],
         "status": "skipped"
       },
@@ -653,13 +561,13 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for RO"
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for PT"
         ],
         "status": "skipped"
       },
       "jobspy": {
         "errors": [],
-        "fetched": 8,
+        "fetched": 50,
         "notes": [],
         "status": "ok"
       },
@@ -675,7 +583,8 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -683,7 +592,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for RO"
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for PT"
         ],
         "status": "skipped"
       },
@@ -691,113 +600,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "CBOP is the Polish national board (PL only); skipped for RO"
-        ],
-        "status": "skipped"
-      },
-      "sweden_jobsearch": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Platsbanken/JobSearch covers Sweden only"
-        ],
-        "status": "skipped"
-      }
-    },
-    "SK": {
-      "anyworkanywhere": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 1502 sitemap urls fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "arbeitnow": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 600 rows fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "covebo": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for SK"
-        ],
-        "status": "skipped"
-      },
-      "czech_mpsv": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the MPSV dataset covers Czechia only"
-        ],
-        "status": "skipped"
-      },
-      "eures": {
-        "errors": [],
-        "fetched": 50,
-        "notes": [
-          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
-        ],
-        "status": "ok"
-      },
-      "goodmorning": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for SK"
-        ],
-        "status": "skipped"
-      },
-      "hobij": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for SK"
-        ],
-        "status": "skipped"
-      },
-      "jobspy": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "indeed: SK not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
-      },
-      "latvia_nva": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the NVA dataset covers Latvia only"
-        ],
-        "status": "skipped"
-      },
-      "nl_jobs": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "reused 17 sitemap urls fetched earlier this run"
-        ],
-        "status": "ok"
-      },
-      "ottoworkforce": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for SK"
-        ],
-        "status": "skipped"
-      },
-      "pl_cbop": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "CBOP is the Polish national board (PL only); skipped for SK"
+          "CBOP is the Polish national board (PL only); skipped for PT"
         ],
         "status": "skipped"
       },
@@ -811,8 +614,8 @@
       }
     }
   },
-  "duration_sec": 688.2,
-  "last_run_utc": "2026-11-22T04:09:05+00:00",
+  "duration_sec": 493.8,
+  "last_run_utc": "2026-11-22T04:19:23+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-19T03:48:15+00:00",
@@ -902,13 +705,21 @@
       }
     },
     "BE": {
-      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "checked_at_utc": "2026-11-22T04:19:23+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1504 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
+          ],
+          "status": "ok"
+        },
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -956,12 +767,20 @@
           "notes": [],
           "status": "ok"
         },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
         "nl_jobs": {
           "errors": [],
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -981,11 +800,13 @@
           ],
           "status": "skipped"
         },
-        "telegram_channels": {
+        "sweden_jobsearch": {
           "errors": [],
           "fetched": 0,
-          "notes": [],
-          "status": "ok"
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
@@ -1555,11 +1376,17 @@
       }
     },
     "ES": {
-      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "checked_at_utc": "2026-11-22T04:19:23+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
-          "fetched": 4,
+          "fetched": 2,
+          "notes": [],
+          "status": "ok"
+        },
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
           "notes": [],
           "status": "ok"
         },
@@ -1607,11 +1434,19 @@
           "notes": [],
           "status": "ok"
         },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
         "nl_jobs": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -1631,11 +1466,13 @@
           ],
           "status": "skipped"
         },
-        "telegram_channels": {
+        "sweden_jobsearch": {
           "errors": [],
           "fetched": 0,
-          "notes": [],
-          "status": "ok"
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
@@ -1730,13 +1567,21 @@
       }
     },
     "FR": {
-      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "checked_at_utc": "2026-11-22T04:19:23+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
-          "fetched": 1,
+          "fetched": 0,
           "notes": [
-            "reused 1504 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
+          ],
+          "status": "ok"
+        },
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 15,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1784,12 +1629,20 @@
           "notes": [],
           "status": "ok"
         },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
         "nl_jobs": {
           "errors": [],
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -1809,11 +1662,13 @@
           ],
           "status": "skipped"
         },
-        "telegram_channels": {
+        "sweden_jobsearch": {
           "errors": [],
           "fetched": 0,
-          "notes": [],
-          "status": "ok"
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
@@ -2101,13 +1956,21 @@
       }
     },
     "IE": {
-      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "checked_at_utc": "2026-11-22T04:19:23+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
-          "fetched": 1,
+          "fetched": 0,
           "notes": [
-            "reused 1504 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
+          ],
+          "status": "ok"
+        },
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2155,12 +2018,20 @@
           "notes": [],
           "status": "ok"
         },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
         "nl_jobs": {
           "errors": [],
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2180,22 +2051,32 @@
           ],
           "status": "skipped"
         },
-        "telegram_channels": {
+        "sweden_jobsearch": {
           "errors": [],
           "fetched": 0,
-          "notes": [],
-          "status": "ok"
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
     "IT": {
-      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "checked_at_utc": "2026-11-22T04:19:23+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1504 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
+          ],
+          "status": "ok"
+        },
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2243,12 +2124,20 @@
           "notes": [],
           "status": "ok"
         },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
         "nl_jobs": {
           "errors": [],
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2268,11 +2157,13 @@
           ],
           "status": "skipped"
         },
-        "telegram_channels": {
+        "sweden_jobsearch": {
           "errors": [],
           "fetched": 0,
-          "notes": [],
-          "status": "ok"
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
@@ -2855,13 +2746,21 @@
       }
     },
     "PT": {
-      "checked_at_utc": "2026-11-20T05:49:09+00:00",
+      "checked_at_utc": "2026-11-22T04:19:23+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
-          "fetched": 2,
+          "fetched": 1,
           "notes": [
-            "reused 1504 sitemap urls fetched earlier this run"
+            "reused 1502 sitemap urls fetched earlier this run"
+          ],
+          "status": "ok"
+        },
+        "arbeitnow": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "reused 600 rows fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2909,12 +2808,20 @@
           "notes": [],
           "status": "ok"
         },
+        "latvia_nva": {
+          "errors": [],
+          "fetched": 0,
+          "notes": [
+            "the NVA dataset covers Latvia only"
+          ],
+          "status": "skipped"
+        },
         "nl_jobs": {
           "errors": [],
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 5 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2934,11 +2841,13 @@
           ],
           "status": "skipped"
         },
-        "telegram_channels": {
+        "sweden_jobsearch": {
           "errors": [],
           "fetched": 0,
-          "notes": [],
-          "status": "ok"
+          "notes": [
+            "Platsbanken/JobSearch covers Sweden only"
+          ],
+          "status": "skipped"
         }
       }
     },
@@ -3337,14 +3246,12 @@
   },
   "parameters": {
     "countries": [
-      "PL",
-      "CZ",
-      "DE",
-      "LT",
-      "HU",
-      "RO",
-      "SK",
-      "NL"
+      "ES",
+      "IT",
+      "FR",
+      "BE",
+      "PT",
+      "IE"
     ],
     "max_jobs": 50,
     "min_score": 20,
@@ -3363,57 +3270,44 @@
       "pl_cbop",
       "sweden_jobsearch"
     ],
-    "tier": "1"
+    "tier": "2"
   },
   "review_queue": {
-    "candidates_held_total": 171,
-    "candidates_stored": 171,
+    "candidates_held_total": 79,
+    "candidates_stored": 79,
     "sealed": true,
-    "sha256": "6f7c339c392274a35fdf6980ce9ff0e3364d03142d30320acd0becb206a5fb04"
+    "sha256": "bed0fd0887720c65dc47cbc6f88d4de34411d17084a988f4d6e0f3389681103f"
   },
   "source_retention": {
     "kept_pre_prune": {
-      "arbeitnow": 1,
-      "covebo": 2,
-      "czech_mpsv": 4,
-      "eures": 182,
-      "goodmorning": 6,
-      "hobij": 5,
-      "jobspy_indeed": 178,
-      "nl_jobs": 6,
-      "ottoworkforce": 2,
-      "pl_cbop": 49
+      "eures": 91,
+      "jobspy_indeed": 172
     },
     "retained_post_prune": {
-      "arbeitnow": 1,
-      "czech_mpsv": 3,
-      "eures": 141,
-      "jobspy_indeed": 177,
-      "nl_jobs": 5,
-      "ottoworkforce": 2,
-      "pl_cbop": 49
+      "eures": 75,
+      "jobspy_indeed": 166
     }
   },
   "totals": {
-    "active": 4079,
-    "below_min_score": 25,
-    "contacts_extracted": 126,
-    "excluded": 277,
-    "fetched": 771,
-    "l1_dropped": 52,
-    "l2_language_excluded": 1,
-    "lifecycle_deactivated": 1,
-    "lifecycle_deactivated_total": 95,
-    "lifecycle_dead_confirmed": 1,
-    "lifecycle_live_confirmed": 39,
-    "lifecycle_reactivated": 1,
-    "new": 24,
+    "active": 4160,
+    "below_min_score": 18,
+    "contacts_extracted": 39,
+    "excluded": 318,
+    "fetched": 613,
+    "l1_dropped": 82,
+    "l2_language_excluded": 4,
+    "lifecycle_deactivated": 2,
+    "lifecycle_deactivated_total": 97,
+    "lifecycle_dead_confirmed": 0,
+    "lifecycle_live_confirmed": 40,
+    "lifecycle_reactivated": 0,
+    "new": 88,
     "notified_telegram": 0,
-    "pruned": 0,
-    "reviewed_fills": 12,
-    "translated_ar": 0,
+    "pruned": 7,
+    "reviewed_fills": 2,
+    "translated_ar": 11,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 366
+    "updated": 173
   }
 }
