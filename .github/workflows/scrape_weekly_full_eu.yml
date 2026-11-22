@@ -71,14 +71,14 @@ jobs:
           cache: 'pip'
 
       - name: Cache public redacted translations
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: data/.cache/translation
           key: public-arabic-v1-${{ github.run_id }}
           restore-keys: public-arabic-v1-
 
       - name: Cache Argos offline translation models
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.local/share/argos-translate
           key: argos-models-v1-${{ hashFiles('src/argos_titles.py') }}
