@@ -1,7 +1,7 @@
 {
  "schema": "reviewed_title_fills/v1",
  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json. and data/title_review_batch32.json. and data/title_review_batch33.json. and data/title_review_batch34.json.",
- "updated_on": "2026-11-22",
+ "updated_on": "2026-11-23",
  "fills": [
   {
    "uid": "2765ea841f84dd71",
@@ -2134,6 +2134,141 @@
    "title_ar": "مساعد مستودع (م/ذ)، مستودعات / لوجستيات (مساعد - تخزين ونقل)",
    "translated": true,
    "review": "data/title_review_batch35.json"
+  },
+  {
+   "uid": "2e2c735c80f4b930",
+   "expected_title": "Lagermitarbeiter (m/w/d)  2-Schicht-System 16,00 €/h (Fachkraft - Lagerwirtschaft)",
+   "expected_source_id": "MTU5MzctazU1ODA1LjEyNzA3MC1TIDE",
+   "title_en": "Warehouse worker (m/f/d), 2-shift system, EUR 16.00/hour (skilled warehouse worker)",
+   "title_ar": "عامل مستودع (م/ذ)، نظام ورديتين، 16.00 يورو/ساعة (عامل مستودع ماهر)",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "2e684806e2625bcf",
+   "expected_title": "skladník (m/ž), Skladníci, obsluha manipulačních vozíků",
+   "expected_source_id": "MzUxOTQ1OTA3MDUgNg",
+   "title_en": "Warehouse worker (m/f), warehouse workers, forklift operators",
+   "title_ar": "عامل مستودع (ذكر/أنثى)، عمال مستودعات، مشغلو رافعات شوكية",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "2ea7761e51dd2686",
+   "expected_title": "MAGASINIER PREPARATEUR DE COMMANDES H/F Equipe matin",
+   "expected_source_id": "OTA3MTk3NCA5",
+   "title_en": "Warehouse order picker (m/f), morning shift",
+   "title_ar": "أمين مستودع جامع طلبات (ذكر/أنثى)، وردية صباحية",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "2ee51d9216141fa9",
+   "expected_title": "Helfer im Lager für Rüstungslogistik & Materialwirtschaft (m/w/d) (Lager- und Transportarbeiter/in)",
+   "expected_source_id": "MTMxMzEtMTM5MjAzMzQtUyAx",
+   "title_en": "Warehouse helper for defence logistics & materials management (m/f/d) (warehouse and transport worker)",
+   "title_ar": "مساعد مستودع للوجستيات الدفاع وإدارة المواد (م/ذ) (عامل مستودعات ونقل)",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "2f014f5d383e5b46",
+   "expected_title": "Orderpicker 2 Ploegen",
+   "expected_source_id": "N2QzZWUxMTEtODIxOC00MDZjLTkxZGMtZDJkZGExMDYzMTNjIDM",
+   "title_en": "Order picker, 2 shifts",
+   "title_ar": "جامع طلبات، ورديتان",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "2f6ed40ac5124a1f",
+   "expected_title": "Lagerhelfer (m/w/d) Getränkehandel - ab sofort - 19,68 EUR (Lager- und Transportarbeiter/in)",
+   "expected_source_id": "MTIwMTYtMTAwMDU5MDk0NDItUyAx",
+   "title_en": "Warehouse helper (m/f/d), beverage trade - start immediately - EUR 19.68 (warehouse and transport worker)",
+   "title_ar": "مساعد مستودع (م/ذ)، تجارة مشروبات - بدء فوري - 19.68 يورو (عامل مستودعات ونقل)",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "2f7bbd12e81aff08",
+   "expected_title": "Lagerhelfer im Versand m/w/d (Lager- und Transportarbeiter/in)",
+   "expected_source_id": "MTIwMTYtMTAwMDU5MTUxOTYtUyAx",
+   "title_en": "Warehouse helper in dispatch (m/f/d) (warehouse and transport worker)",
+   "title_ar": "مساعد مستودع في الشحن (م/ذ) (عامل مستودعات ونقل)",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "2f9095c264c0e1b8",
+   "expected_title": "Terminalarbetare till Spånga",
+   "expected_source_id": "NjM2ODgzNyAxMjE",
+   "title_en": "Terminal worker in Spanga",
+   "title_ar": "عامل محطة فرز في سبونغا",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "2fbdebc1683dc152",
+   "expected_title": "Produktionshelfer ab November 2026 (m/w/d) Lebensmittelherstellung DIREKT Luckenwalde (Helfer/in - Lebensmittelherstellung)",
+   "expected_source_id": "MTAwMDEtMTAwNDAxNDgwOS1TIDE",
+   "title_en": "Production helper from November 2026 (m/f/d), food production, DIREKT Luckenwalde (food production helper)",
+   "title_ar": "مساعد إنتاج اعتبارًا من نوفمبر 2026 (م/ذ)، إنتاج أغذية، دايركت لوكنفالده (مساعد إنتاج أغذية)",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "30364697fd44e4da",
+   "expected_title": "Meewerkend Teamleader Magazijn",
+   "expected_source_id": "MmRkN2Q5MDEtMWFmOS00MjAzLTk3ZTMtMTZlNWQ0MmJhMTU3IDM",
+   "title_en": "Working team leader, warehouse",
+   "title_ar": "قائد فريق مشارك في العمل، مستودع",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "3076d577a97f3519",
+   "expected_title": "Logistiek Bediende",
+   "expected_source_id": "MDM1OWYzODQtNjM3Ny00MTI4LTgwNjgtYzk0NTc2ZDliZTEwIDM",
+   "title_en": "Logistics clerk",
+   "title_ar": "موظف لوجستيات",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "30a99dd3cbb8682e",
+   "expected_title": "Depåmedarbetare med truckkort sökes till uppdrag i Angered",
+   "expected_source_id": "NjM5MjA5NSAxMjE",
+   "title_en": "Depot worker with forklift licence wanted for assignment in Angered",
+   "title_ar": "مطلوب عامل مستودع برخصة رافعة شوكية لمهمة في أنغيرد",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "30d8f85cb1e6a7a1",
+   "expected_title": "Helfer Paketsortierung (m/w/d) In Ginsheim-Gustavsburg (Helfer/in - Papier, Verpackung)",
+   "expected_source_id": "MTQwNDAtMk4wM1JTSUpOR0RQODMwOS1TIDE",
+   "title_en": "Parcel sorting helper (m/f/d) in Ginsheim-Gustavsburg (paper and packaging helper)",
+   "title_ar": "مساعد فرز طرود (م/ذ) في غينسهايم-غوستافسبورغ (مساعد ورق وتغليف)",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "31477a8c720a4073",
+   "expected_title": "Gabelstaplerfahrer - Druckbranche - 20,71€ (Gabelstaplerfahrer/in)",
+   "expected_source_id": "MTIwMTYtMTAwMDU5MTI4NDktUyAx",
+   "title_en": "Forklift driver - printing industry - EUR 20.71 (forklift driver)",
+   "title_ar": "سائق رافعة شوكية - قطاع الطباعة - 20.71 يورو (سائق رافعة شوكية)",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "31484ac09cfe6587",
+   "expected_title": "Lagerhelfer (m/w/d) ab 15,29€/Std.  (Helfer/in - Lagerwirtschaft, Transport)",
+   "expected_source_id": "MTQwNDAtQUQxQ01UVktNUUZaWEQwSi1TIDE",
+   "title_en": "Warehouse helper (m/f/d) from EUR 15.29/hour (helper - warehousing, transport)",
+   "title_ar": "مساعد مستودع (م/ذ) ابتداءً من 15.29 يورو/ساعة (مساعد - تخزين ونقل)",
+   "translated": true,
+   "review": "data/title_review_batch36.json"
   }
  ]
 }
