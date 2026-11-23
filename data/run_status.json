@@ -5,7 +5,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1500 sitemap urls fetched earlier this run"
+          "reused 1486 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -56,7 +56,7 @@
         "fetched": 0,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -88,7 +88,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1500 sitemap urls fetched earlier this run"
+          "reused 1486 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -141,7 +141,7 @@
         "fetched": 0,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -173,7 +173,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1500 sitemap urls fetched earlier this run"
+          "reused 1486 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -226,7 +226,7 @@
         "fetched": 0,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -258,7 +258,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1500 sitemap urls fetched earlier this run"
+          "reused 1486 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -315,7 +315,7 @@
         "fetched": 0,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -345,9 +345,9 @@
     "NL": {
       "anyworkanywhere": {
         "errors": [],
-        "fetched": 0,
+        "fetched": 4,
         "notes": [
-          "reused 1500 sitemap urls fetched earlier this run"
+          "reused 1486 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -391,10 +391,10 @@
       },
       "nl_jobs": {
         "errors": [],
-        "fetched": 4,
+        "fetched": 2,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -424,7 +424,7 @@
     "PL": {
       "anyworkanywhere": {
         "errors": [],
-        "fetched": 0,
+        "fetched": 3,
         "notes": [],
         "status": "ok"
       },
@@ -476,7 +476,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -496,9 +496,10 @@
       },
       "telegram_channels": {
         "errors": [],
-        "fetched": 20,
+        "fetched": 40,
         "notes": [
-          "teealpl: backlog gap of ~18 messages older than the preview window (cursor 48376, oldest visible 48395) - missed, not caught up"
+          "polandworkportal: backlog gap of ~13 messages older than the preview window (cursor 32373, oldest visible 32387) - missed, not caught up",
+          "teealpl: backlog gap of ~13 messages older than the preview window (cursor 48414, oldest visible 48428) - missed, not caught up"
         ],
         "status": "ok"
       }
@@ -508,7 +509,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1500 sitemap urls fetched earlier this run"
+          "reused 1486 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -552,7 +553,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 8,
+        "fetched": 9,
         "notes": [],
         "status": "ok"
       },
@@ -561,7 +562,7 @@
         "fetched": 0,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -593,7 +594,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "reused 1500 sitemap urls fetched earlier this run"
+          "reused 1486 sitemap urls fetched earlier this run"
         ],
         "status": "ok"
       },
@@ -650,7 +651,7 @@
         "fetched": 0,
         "notes": [
           "reused 17 sitemap urls fetched earlier this run",
-          "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
         ],
         "status": "ok"
       },
@@ -678,8 +679,8 @@
       }
     }
   },
-  "duration_sec": 645.4,
-  "last_run_utc": "2026-11-23T06:37:16+00:00",
+  "duration_sec": 741.6,
+  "last_run_utc": "2026-11-23T18:27:01+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-23T03:50:47+00:00",
@@ -1073,13 +1074,13 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-23T06:37:16+00:00",
+      "checked_at_utc": "2026-11-23T18:27:01+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1500 sitemap urls fetched earlier this run"
+            "reused 1486 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1130,7 +1131,7 @@
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -1159,13 +1160,13 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-23T06:37:16+00:00",
+      "checked_at_utc": "2026-11-23T18:27:01+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1500 sitemap urls fetched earlier this run"
+            "reused 1486 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1218,7 +1219,7 @@
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -1938,13 +1939,13 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-23T06:37:16+00:00",
+      "checked_at_utc": "2026-11-23T18:27:01+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1500 sitemap urls fetched earlier this run"
+            "reused 1486 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1997,7 +1998,7 @@
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2202,13 +2203,13 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-23T06:37:16+00:00",
+      "checked_at_utc": "2026-11-23T18:27:01+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1500 sitemap urls fetched earlier this run"
+            "reused 1486 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2265,7 +2266,7 @@
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2598,13 +2599,13 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-23T06:37:16+00:00",
+      "checked_at_utc": "2026-11-23T18:27:01+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
-          "fetched": 0,
+          "fetched": 4,
           "notes": [
-            "reused 1500 sitemap urls fetched earlier this run"
+            "reused 1486 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2648,10 +2649,10 @@
         },
         "nl_jobs": {
           "errors": [],
-          "fetched": 4,
+          "fetched": 2,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2680,11 +2681,11 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-23T06:37:16+00:00",
+      "checked_at_utc": "2026-11-23T18:27:01+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
-          "fetched": 0,
+          "fetched": 3,
           "notes": [],
           "status": "ok"
         },
@@ -2736,7 +2737,7 @@
           "errors": [],
           "fetched": 0,
           "notes": [
-            "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2756,9 +2757,10 @@
         },
         "telegram_channels": {
           "errors": [],
-          "fetched": 20,
+          "fetched": 40,
           "notes": [
-            "teealpl: backlog gap of ~18 messages older than the preview window (cursor 48376, oldest visible 48395) - missed, not caught up"
+            "polandworkportal: backlog gap of ~13 messages older than the preview window (cursor 32373, oldest visible 32387) - missed, not caught up",
+            "teealpl: backlog gap of ~13 messages older than the preview window (cursor 48414, oldest visible 48428) - missed, not caught up"
           ],
           "status": "ok"
         }
@@ -2853,13 +2855,13 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-23T06:37:16+00:00",
+      "checked_at_utc": "2026-11-23T18:27:01+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1500 sitemap urls fetched earlier this run"
+            "reused 1486 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2903,7 +2905,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 8,
+          "fetched": 9,
           "notes": [],
           "status": "ok"
         },
@@ -2912,7 +2914,7 @@
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -3137,13 +3139,13 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-23T06:37:16+00:00",
+      "checked_at_utc": "2026-11-23T18:27:01+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1500 sitemap urls fetched earlier this run"
+            "reused 1486 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -3200,7 +3202,7 @@
           "fetched": 0,
           "notes": [
             "reused 17 sitemap urls fetched earlier this run",
-            "skipped 9 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -3258,52 +3260,53 @@
     "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 170,
-    "candidates_stored": 170,
+    "candidates_held_total": 185,
+    "candidates_stored": 185,
     "sealed": true,
-    "sha256": "d2163283f4f46c7c5ac3c073aa5b34c4aca8493ed78181691668a3c7d453e33e"
+    "sha256": "903f616d330569caae3671bf726fe26935c1e9742ad44fd501acf7a247177846"
   },
   "source_retention": {
     "kept_pre_prune": {
       "covebo": 2,
       "czech_mpsv": 4,
-      "eures": 187,
+      "eures": 188,
       "goodmorning": 5,
       "hobij": 5,
-      "jobspy_indeed": 179,
-      "nl_jobs": 3,
+      "jobspy_indeed": 176,
+      "nl_jobs": 1,
       "pl_cbop": 49,
-      "telegram_teealpl": 8
+      "telegram_polandworkportal": 12,
+      "telegram_teealpl": 4
     },
     "retained_post_prune": {
       "czech_mpsv": 2,
-      "eures": 133,
-      "jobspy_indeed": 177,
-      "nl_jobs": 2,
+      "eures": 146,
+      "jobspy_indeed": 172,
       "pl_cbop": 49,
-      "telegram_teealpl": 8
+      "telegram_polandworkportal": 12,
+      "telegram_teealpl": 4
     }
   },
   "totals": {
-    "active": 4235,
-    "below_min_score": 21,
-    "contacts_extracted": 130,
-    "excluded": 264,
-    "fetched": 757,
+    "active": 4301,
+    "below_min_score": 17,
+    "contacts_extracted": 137,
+    "excluded": 285,
+    "fetched": 783,
     "l1_dropped": 4,
-    "l2_language_excluded": 1,
+    "l2_language_excluded": 5,
     "lifecycle_deactivated": 0,
     "lifecycle_deactivated_total": 132,
     "lifecycle_dead_confirmed": 0,
     "lifecycle_live_confirmed": 40,
     "lifecycle_reactivated": 0,
-    "new": 33,
+    "new": 78,
     "notified_telegram": 0,
-    "pruned": 1,
-    "reviewed_fills": 12,
+    "pruned": 12,
+    "reviewed_fills": 27,
     "translated_ar": 0,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 350
+    "updated": 337
   }
 }
