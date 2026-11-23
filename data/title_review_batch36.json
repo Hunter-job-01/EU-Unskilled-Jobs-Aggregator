@@ -1,0 +1,96 @@
+{
+ "checked_on": "2026-11-23",
+ "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live from a europa.eu origin page, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. 15 of 18 candidates in this window returned HTTP 200 with exact title matches and were filled. Three postings returned HTTP 404 (dead postings) and were skipped without a fill: 2e48cadc05b83ffc (HR, SKLADIŠTAR M/Ž); 2f773a51a195b8cb (BE, Magazijnmedewerker); 310b4e30998b6f08 (BE, Productiemedewerker Nike) - the dead-link sweep owns pruning. All fills carry expected_source_id pins (guard shipped 2026-11-22).",
+ "reviews": [
+  {
+   "uid": "2e2c735c80f4b930",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTU5MzctazU1ODA1LjEyNzA3MC1TIDE?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Warehouse worker (m/f/d), 2-shift system, EUR 16.00/hour (skilled warehouse worker)\" / AR \"عامل مستودع (م/ذ)، نظام ورديتين، 16.00 يورو/ساعة (عامل مستودع ماهر)\"."
+  },
+  {
+   "uid": "2e48cadc05b83ffc",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjkyOTc3MiAxOQ?lang=en",
+   "note": "Live EURES check returned HTTP 404 - dead posting, no fill. Stored title: SKLADIŠTAR M/Ž. The dead-link sweep owns pruning."
+  },
+  {
+   "uid": "2e684806e2625bcf",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUxOTQ1OTA3MDUgNg?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Warehouse worker (m/f), warehouse workers, forklift operators\" / AR \"عامل مستودع (ذكر/أنثى)، عمال مستودعات، مشغلو رافعات شوكية\"."
+  },
+  {
+   "uid": "2ea7761e51dd2686",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/OTA3MTk3NCA5?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Warehouse order picker (m/f), morning shift\" / AR \"أمين مستودع جامع طلبات (ذكر/أنثى)، وردية صباحية\"."
+  },
+  {
+   "uid": "2ee51d9216141fa9",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTMxMzEtMTM5MjAzMzQtUyAx?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Warehouse helper for defence logistics & materials management (m/f/d) (warehouse and transport worker)\" / AR \"مساعد مستودع للوجستيات الدفاع وإدارة المواد (م/ذ) (عامل مستودعات ونقل)\"."
+  },
+  {
+   "uid": "2f014f5d383e5b46",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/N2QzZWUxMTEtODIxOC00MDZjLTkxZGMtZDJkZGExMDYzMTNjIDM?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Order picker, 2 shifts\" / AR \"جامع طلبات، ورديتان\"."
+  },
+  {
+   "uid": "2f6ed40ac5124a1f",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU5MDk0NDItUyAx?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Warehouse helper (m/f/d), beverage trade - start immediately - EUR 19.68 (warehouse and transport worker)\" / AR \"مساعد مستودع (م/ذ)، تجارة مشروبات - بدء فوري - 19.68 يورو (عامل مستودعات ونقل)\"."
+  },
+  {
+   "uid": "2f773a51a195b8cb",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/YWZiZWMwNDktYjFiNC00M2Q4LTgyMTYtMjRlNzEzZjQyMmM4IDM?lang=en",
+   "note": "Live EURES check returned HTTP 404 - dead posting, no fill. Stored title: Magazijnmedewerker. The dead-link sweep owns pruning."
+  },
+  {
+   "uid": "2f7bbd12e81aff08",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU5MTUxOTYtUyAx?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Warehouse helper in dispatch (m/f/d) (warehouse and transport worker)\" / AR \"مساعد مستودع في الشحن (م/ذ) (عامل مستودعات ونقل)\"."
+  },
+  {
+   "uid": "2f9095c264c0e1b8",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM2ODgzNyAxMjE?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Terminal worker in Spanga\" / AR \"عامل محطة فرز في سبونغا\"."
+  },
+  {
+   "uid": "2fbdebc1683dc152",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwNDAxNDgwOS1TIDE?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Production helper from November 2026 (m/f/d), food production, DIREKT Luckenwalde (food production helper)\" / AR \"مساعد إنتاج اعتبارًا من نوفمبر 2026 (م/ذ)، إنتاج أغذية، دايركت لوكنفالده (مساعد إنتاج أغذية)\"."
+  },
+  {
+   "uid": "30364697fd44e4da",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MmRkN2Q5MDEtMWFmOS00MjAzLTk3ZTMtMTZlNWQ0MmJhMTU3IDM?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Working team leader, warehouse\" / AR \"قائد فريق مشارك في العمل، مستودع\"."
+  },
+  {
+   "uid": "3076d577a97f3519",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MDM1OWYzODQtNjM3Ny00MTI4LTgwNjgtYzk0NTc2ZDliZTEwIDM?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Logistics clerk\" / AR \"موظف لوجستيات\"."
+  },
+  {
+   "uid": "30a99dd3cbb8682e",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM5MjA5NSAxMjE?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Depot worker with forklift licence wanted for assignment in Angered\" / AR \"مطلوب عامل مستودع برخصة رافعة شوكية لمهمة في أنغيرد\"."
+  },
+  {
+   "uid": "30d8f85cb1e6a7a1",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQwNDAtMk4wM1JTSUpOR0RQODMwOS1TIDE?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Parcel sorting helper (m/f/d) in Ginsheim-Gustavsburg (paper and packaging helper)\" / AR \"مساعد فرز طرود (م/ذ) في غينسهايم-غوستافسبورغ (مساعد ورق وتغليف)\"."
+  },
+  {
+   "uid": "310b4e30998b6f08",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/YjVhM2E3ZWUtYmRhYS00M2ZmLTljNTAtMzk0NGUzNzQxNDNiIDM?lang=en",
+   "note": "Live EURES check returned HTTP 404 - dead posting, no fill. Stored title: Productiemedewerker Nike. The dead-link sweep owns pruning."
+  },
+  {
+   "uid": "31477a8c720a4073",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU5MTI4NDktUyAx?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Forklift driver - printing industry - EUR 20.71 (forklift driver)\" / AR \"سائق رافعة شوكية - قطاع الطباعة - 20.71 يورو (سائق رافعة شوكية)\"."
+  },
+  {
+   "uid": "31484ac09cfe6587",
+   "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQwNDAtQUQxQ01UVktNUUZaWEQwSi1TIDE?lang=en",
+   "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Warehouse helper (m/f/d) from EUR 15.29/hour (helper - warehousing, transport)\" / AR \"مساعد مستودع (م/ذ) ابتداءً من 15.29 يورو/ساعة (مساعد - تخزين ونقل)\"."
+  }
+ ]
+}
