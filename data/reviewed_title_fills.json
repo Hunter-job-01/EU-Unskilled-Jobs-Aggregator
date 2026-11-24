@@ -1,7 +1,7 @@
 {
  "schema": "reviewed_title_fills/v1",
  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json. and data/title_review_batch32.json. and data/title_review_batch33.json. and data/title_review_batch34.json.",
- "updated_on": "2026-11-23",
+ "updated_on": "2026-11-24",
  "fills": [
   {
    "uid": "2765ea841f84dd71",
@@ -2269,6 +2269,141 @@
    "title_ar": "مساعد مستودع (م/ذ) ابتداءً من 15.29 يورو/ساعة (مساعد - تخزين ونقل)",
    "translated": true,
    "review": "data/title_review_batch36.json"
+  },
+  {
+   "uid": "3163b35066fb6f51",
+   "expected_title": "Omdelere på scooter søges til natarbejde i Kalundborg",
+   "expected_source_id": "NWYwYTQ5OTgtZjgxNS00ZTViLTlhZGEtOTkyNzcyZTk4YWVlIDc",
+   "title_en": "Scooter delivery drivers wanted for night work in Kalundborg",
+   "title_ar": "مطلوب موزعون على دراجات سكوتر للعمل الليلي في كالونبورغ",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "3171c49791068085",
+   "expected_title": "Lagerhelfer (m/w/d) für ein Supermarkt - Kreuzberg (Helfer/in - Lagerwirtschaft, Transport)",
+   "expected_source_id": "MTIwMTYtMTAwMDU3OTcyMTQtUyAx",
+   "title_en": "Warehouse helper (m/f/d) for a supermarket - Kreuzberg (helper - warehousing, transport)",
+   "title_ar": "مساعد مستودع (م/ذ) لسوبرماركت - كرويتسبيرغ (مساعد - تخزين ونقل)",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "319feeae33180f8d",
+   "expected_title": "PROIZVODNI DELAVEC - M/Ž",
+   "expected_source_id": "MzUwMDI2NCAxNA",
+   "title_en": "Production worker (m/f)",
+   "title_ar": "عامل إنتاج (ذكر/أنثى)",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "325d1ff359bd5d35",
+   "expected_title": "Magasinier(ère) H/F",
+   "expected_source_id": "MjE1VlJKSiA5",
+   "title_en": "Warehouse keeper (m/f)",
+   "title_ar": "أمين مستودع (ذكر/أنثى)",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "32c5f1a3815e08ed",
+   "expected_title": "Staplerfahrer (m/w/d) in Straufhain (Gabelstaplerfahrer/in)",
+   "expected_source_id": "MTQwNDAtMzVINUNLNTkxT1BRSzY2Vi1TIDE",
+   "title_en": "Forklift driver (m/f/d) in Straufhain (forklift driver)",
+   "title_ar": "سائق رافعة شوكية (م/ذ) في شتراوفهاين (سائق رافعة شوكية)",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "32d6767376fe53f1",
+   "expected_title": "PALĪGSTRĀDNIEKS",
+   "expected_source_id": "MjYxMDI4LTg4IDQwMQ",
+   "title_en": "General helper",
+   "title_ar": "عامل مساعد",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "32f0a6c04af36fe0",
+   "expected_title": "Produktionshelfer (m/w/d) in Eisfeld  (Helfer/in - Lagerwirtschaft, Transport)",
+   "expected_source_id": "MTQwNDAtQUwyMlhMMzdOMVUxVUdORy1TIDE",
+   "title_en": "Production helper (m/f/d) in Eisfeld (helper - warehousing, transport)",
+   "title_ar": "مساعد إنتاج (م/ذ) في آيسفلد (مساعد - تخزين ونقل)",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "32f1ffc703323bf0",
+   "expected_title": "Lagermitarbeiter (m/w/d) ab 17,14 Euro / Std. + Zulagen (OHNE PROBEZEIT) (Fachlagerist/in)",
+   "expected_source_id": "MTAwMDEtMTAwNDA0OTYzOS1TIDE",
+   "title_en": "Warehouse worker (m/f/d) from EUR 17.14/hour + allowances (NO PROBATION) (warehouse specialist)",
+   "title_ar": "عامل مستودع (م/ذ) ابتداءً من 17.14 يورو/ساعة + بدلات (بدون فترة تجربة) (أخصائي مستودعات)",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "333d23e200318b39",
+   "expected_title": "Magasinier automobile (H/F)",
+   "expected_source_id": "OTExMjQzNSA5",
+   "title_en": "Automotive parts warehouse keeper (m/f)",
+   "title_ar": "أمين مستودع قطع غيار سيارات (ذكر/أنثى)",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "3348abf16cecb25d",
+   "expected_title": "Pracownik magazynu (k/m)",
+   "expected_source_id": "MTQ5NDA2ODAgMTI",
+   "title_en": "Warehouse worker (f/m)",
+   "title_ar": "عامل مستودع (أنثى/ذكر)",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "337a68c9236d1bcc",
+   "expected_title": "Lagermitarbeiter (m/w/d) Duisburg (Helfer/in - Lagerwirtschaft, Transport)",
+   "expected_source_id": "MTI3MDQtSTExNTU2SFk0WEpPVjIyRy1TIDE",
+   "title_en": "Warehouse worker (m/f/d), Duisburg (helper - warehousing, transport)",
+   "title_ar": "عامل مستودع (م/ذ)، دويسبورغ (مساعد - تخزين ونقل)",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "337efba62016fc75",
+   "expected_title": "MUNCITOR NECALIFICAT LA ÎNTRETINEREA DE DRUMURI, SOSELE, PODURI, BARAJE",
+   "expected_source_id": "MzQyNzk3MSAxMw",
+   "title_en": "Unskilled worker for road, highway, bridge and dam maintenance",
+   "title_ar": "عامل غير ماهر لصيانة الطرق والطرق السريعة والجسور والسدود",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "33913b7ab91e3df1",
+   "expected_title": "MAGASINIER VENDEUR PIECES DE RECHANGE (H/F)",
+   "expected_source_id": "MjE2Q0dHSCA5",
+   "title_en": "Spare parts warehouse keeper-salesperson (m/f)",
+   "title_ar": "أمين مستودع وبائع قطع غيار (ذكر/أنثى)",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "33b12fd0efb83b62",
+   "expected_title": "Kontrolör-pakkija",
+   "expected_source_id": "MTY2OTU3MSA4",
+   "title_en": "Inspector-packer",
+   "title_ar": "مراقب جودة - عامل تعبئة",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
+  },
+  {
+   "uid": "344d56c859954943",
+   "expected_title": "MUNCITOR NECALIFICAT LA SPARGEREA SI TAIEREA MATERIALELOR DE CONSTRUCTII",
+   "expected_source_id": "MzM5MjAzNSAxMw",
+   "title_en": "Unskilled worker for breaking and cutting construction materials",
+   "title_ar": "عامل غير ماهر في تكسير وقص مواد البناء",
+   "translated": true,
+   "review": "data/title_review_batch37.json"
   }
  ]
 }
