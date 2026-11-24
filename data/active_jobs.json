@@ -1705,7 +1705,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "DE217",
@@ -3041,7 +3041,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "Prutz, T, Austria",
@@ -4192,7 +4192,7 @@
     },
     "company": "\"BAJADA\" Jarosław Szczepański",
     "country": "PL",
-    "description": "[search-result fields only] Umowa: Umowa zlecenie / Umowa o świadczenie usług; Oferta ważna do: 14.12.2026",
+    "description": "[search-result fields only] Umowa: Umowa zlecenie / Umowa o świadczenie usług; Oferta ważna do: 24.11.2026",
     "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
@@ -8913,6 +8913,52 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "0ba4b1f184cd10a6": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Velvet CARE sp. z o.o.",
+    "country": "PL",
+    "description": "Zakres obowiązków\n\n* Magazyn wyrobów gotowych - odbieranie produktu z linii produkcyjnej i rozmieszczanie go w magazynie, załadunki samochodów\n* Magazyn surowców - rozładunki samochodów, dostarczanie surowców do linii produkcyjnych\n* Obsługa magazynowego systemu komputerowego\n\nPoszukiwane kompetencje\n\n* Gotowość do pracy w systemie 4-brygadowym\n* Uprawnienie do obsługi wózka jezdniowego potwierdzone egzaminem UDT (warunek konieczny)\n* Mile widziana umiejętność obsługi wózków bocznych wysokiego składowania (magazyn wyrobów gotowych) i wózków z chwytakami (magazyn surowców)\n\nOferujemy\n\n* Umowa o pracę\n* Wynagrodzenie stałe\n* Dodatek  \n  4-Brygadowy\n* Dodatek dojazdowy\n* Premie\n* Nagrody kwartalne\n* ZFŚS\n* Karty sportowe\n* Dodatkowa opieka medyczna\n* Dodatkowe ubezpieczenie\n* Badania profilaktyczne\n* Platforma wsparcia psychologicznego i rozwoju dla pracowników\n* Dofinansowanie do zakupów z automatów żywnościowych\n* Sklepik pracowniczy\n* Gratisy\n* Upominki\n* Imprezy firmowe\n* Rywalizacje sportowe\n* Inicjatywy pracownicze\n* Inicjatywy dobroczynne\n* Program rekomendacji pracowników\n* Ścieżki kariery\n* Szkolenia i kursy\n* Platforma z webinarami\n* Stabilne zatrudnienie\n* Firma z długoletnią tradycją\n* Najnowsze technologie\n* Rozpoznawalna marka\n* Lider rynku\n* Rozwój firmy\n* Zrównoważony rozwój\n* Różnorodność\n* W Velvet CARE  \n  jest fajnie\n\nWięcej o benefitach **tutaj**.",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Klucze, ML, Poland",
+    "matched_keywords": [
+      "magazynier"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-23",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-d678e77a0e458e14",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Magazynier/Magazynierka",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "0ba4b1f184cd10a6",
+    "url": "https://velvetcare.elevato.net/pl/magazyniermagazynierka,j,2417?source=Indeed",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "0ba565ad863ef3d4": {
     "apply_channels": {
       "emails": [
@@ -11586,7 +11632,7 @@
     "company": "Fixami",
     "country": "NL",
     "description": "Een mooie logistieke uitdaging wacht op jou! Wij zoeken een enthousiaste collega die ons warehouse in Tilburg wil komen versterken in de rol van Logistiek Medewerker Outbound. Of je nu parttime (24 of 32 uur) of fulltime (40 uur) wilt werken, bij Fixami ben je van harte welkom. Ben jij klaar om je handen uit de mouwen te steken in een dynamisch team? Lees dan snel verder.\n\n**Dit ga je doen als Logistiek Medewerker:**\n\nAls Logistiek Medewerker ben je verantwoordelijk voor het verzamelen en verwerken van de bestelde orders. Je biedt ondersteuning aan het warehouse team en onderhoudt regelmatig contact met de afdelingen. Werkzaamheden die je o.a. uitvoert zijn:\n\n* Orderpicking van zowel kleine als grotere artikelen;\n* Orders op de juiste manier samenstellen;\n* Controle op het orderpicken en eventueel correcties uitvoeren;\n* Inpakken en verzend klaarmaken van de bestellingen;\n* Verzendingen controleren;\n\nAls onderdeel van dit team draag je bij aan een efficiënte en gestroomlijnde logistieke operatie. Je werkt nauwkeurig, houdt het overzicht en zorgt ervoor dat uitgaande goederen tijdig verwerkt worden.\n\nBinnen Fixami is het ook mogelijk om jezelf breder te ontwikkelen. Het kan zijn dat we er voor kiezen om je kennis te laten maken met zowel de Inbound- als Outbound-afdeling, zodat je flexibel inzetbaar bent en afwisseling in je werk ervaart.\n\nOp onze outbound afdeling werken we tussen 07.30 en 23.30 uur. Binnen deze tijden zijn verschillende diensten mogelijk: van 09.00 tot 18.00 uur, van 14.30 tot 23.30 uur of van 18.00 tot 23.30 uur. Je kunt kiezen voor één vaste dienst of een combinatie van verschillende shifts, afhankelijk van wat het beste bij jou past.\n\n**Jij herkent je in het volgende:**\n\n* Je hebt een echte aanpakkersmentaliteit;\n* Je werkt nauwkeurig en bent betrouwbaar;\n* Je vindt het fijn om fysiek bezig te zijn;\n* Je werkt graag in teamverband.\n\nWerkervaring is geen vereiste, maar wordt zeker gewaardeerd. We moedigen zowel kandidaten met ervaring als kandidaten zonder ervaring aan om te solliciteren;\n\n**Wat wij jou bieden:**\n\n* Een contract van 24,32 of 40 uur per week bij Fixami (dus niet via een uitzendbureau);\n* 35% toeslag na 22:00 uur s ‘avonds\n* Vaste standplaats in Tilburg;\n* Reiskosten vergoeding;\n* 25 vakantiedagen met de mogelijkheid om 8 vakantiedagen bij te kopen en 8% vakantietoeslag;\n* Uitstekende pensioenregeling met slechts 5,7% werknemersbijdrage;\n* Een enorme kantine met ruimte om te relaxen, eten (wij zijn gek op tosti’s) of spelletjes te spelen (darten, voetbaltafel, pingpong, playstation);\n* Fixami-sportschool, je mag gratis gebruik mag maken van onze fitnessfaciliteiten;\n* Onbeperkt fruit én verse bonenkoffie;\n* Personeelskorting op gereedschapcentrum.nl;\n* Ruimte voor ondernemerschap; samen geven we de organisatie vorm.\n\nSalaris: €2.600,00 - €2.650,00 per maand\n\nArbeidsvoorwaarden:\n\n* Bedrijfsfeesten\n* Bedrijfsfitness\n* Kosteloos parkeren\n* Personeelskorting\n* Reiskostenvergoeding\n\nWerklocatie: Fysiek",
-    "detail_fetched_at": "2026-11-10",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-10",
@@ -11598,7 +11644,7 @@
       }
     ],
     "languages": [],
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -11611,7 +11657,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-10",
-    "score": 62,
+    "score": 55,
     "signals": [
       "unskilled_role_match",
       "no_exp_or_training_mention",
@@ -22464,7 +22510,7 @@
     "title_en": "",
     "translated": false,
     "uid": "19b3d04256132df1",
-    "url": "https://www.teslaji.cz/59-nabidka-pracovnich-pozic.html?r=detail&id=67ff9cf8-f39c-47ab-a64c-6ec272fa7030&impressionId=0daa5f57-9317-4941-b39d-6b6763537838",
+    "url": "https://www.teslaji.cz/59-nabidka-pracovnich-pozic.html?r=detail&id=67ff9cf8-f39c-47ab-a64c-6ec272fa7030&impressionId=5752a4f9-0e36-42ee-bac8-2c639c80afc3",
     "url_provenance": "",
     "url_verified": null
   },
@@ -25312,7 +25358,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "Ebensee, O, Austria",
@@ -26118,6 +26164,52 @@
     "translated": true,
     "uid": "1e1bab34136df392",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUxOTA5NjA3NzEgNg?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "1e2e159c3b9306eb": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Mattoni 1873 a.s.",
+    "country": "CZ",
+    "description": "Baví vás logistika, práce se skladovou technikou a řízení VZV? Máte zkušenosti s provozem skladu a nevadí vám třísměnný provoz? Přidejte se k nám do závodu Kyselka a podílejte se na výrobě nápojů, které zná každý.\n\n**Co budete dělat?**\n--------------------\n\n* Připravovat nakládku a vykládku nákladních i dalších vozidel.\n* Přejímat dodaný materiál, kontrolovat jeho množství a kvalitu a zajišťovat jeho přesun v rámci závodu.\n* Manipulovat s materiálem pomocí VZV a retraku.\n* Vést evidenci materiálu ve skladu a podílet se na inventurách.\n* Dbát na čistotu skladů a přilehlých prostor.\n* Pracovat bezpečně a dbát na čistotu i hygienu ve výrobním provozu.\n\n**✅ Co od vás potřebujeme?**\n----------------------------\n\n* Alespoň **2 roky praxe** ve skladu nebo v logistice.\n* Zkušenost s příjmem, evidencí a přesunem materiálu.\n* Uživatelskou znalost PC, zejména Wordu, Excelu a systému SAP.\n* Manuální zručnost a fyzickou zdatnost (manipulace s břemeny).\n* Ochotu pracovat ve třísměnném provozu.\n* Řidičský průkaz sk. B a vlastní auto (zajištění dostupnosti do závodu).\n* Výhodou je znalost zásad HACCP, GMP a provozní hygieny.\n\n**Hodí se, pokud máte zkušenosti s VZV nebo retrakem. Oprávnění k řízení, pokud nemáte, zajistíme.**\n\n* **Pracuje se ve třísměnném provozu PO-PÁ**, vždy týden na jedné směně:\n\n* **ranní 6:00–14:00**\n* **odpolední 14:00–22:00**\n* **noční 22:00–6:00**\n\nVíkendy jsou volné. Vše potřebné připravíme během týdne, je ale potřeba počítat s pohotovostí pro případ mimořádné situace.\n\n**Co nabízíme?**\n----------------\n\n* Stabilitu a jistotu – jsme největší výrobce nealko nápojů ve střední Evropě.\n* Pracovní smlouvu na dobu určitou (6 měsíců), kterou při vzájemné spokojenosti prodloužíme.\n* Fixní mzdu + **10 % měsíční** výkonnostní a individuální bonusy + **5 % ročn**í firemní bonus.\n* Benefitní program **8 000 Kč/rok.**\n* Stravenkový paušál **120 Kč** za každý odpracovaný den.\n* Příspěvek na dopravu autem 3 Kč/km do vzdálenosti 30 km.\n* **Dovolenou 5 týdnů + 2 dny osobního** **volna.**\n* Příspěvek na penzijní připojištění, skupinové životní a úrazové pojištění a pojištění. odpovědnosti.\n* Celodenní pitný režim a zvýhodněný nákup našich výrobků pro celou rodinu.\n* Dotovanou kartu Multisport.\n* Další benefity jako pracovní jubilea, odměna za doporučení a jiné.\n\nZní to jako práce pro vás? Přidejte se k nám do Kyselky, těšíme se na vás!\n\n  \n  \n\n**Benefity**\n------------\n\n* Dovolená navíc\n* Finanční bonusy a prémie\n* Vzdělávací kurzy\n* Kafetérie\n* Slevy na firemní zboží\n* Zvýhodněné půjčky\n* Příspěvek na sport\n* Příspěvek na stravování\n* Příspěvek na spoření a pojištění\n* Příspěvek na dopravu\n* Příspěvek na dovolenou",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Kyselka, KA, Czech Republic",
+    "matched_keywords": [
+      "skladnik"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-7f396f50af827267",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Skladník – VZV a retrak | závod Kyselka",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "1e2e159c3b9306eb",
+    "url": "https://www.jenprace.cz/nabidka/6oys60/skladnik-skladnice-vzv-a-retrak-zavod-kyselka",
     "url_provenance": "",
     "url_verified": null
   },
@@ -27515,7 +27607,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -28750,6 +28842,58 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "20e80d693f8f3bab": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [
+        "+380936408993"
+      ],
+      "whatsapp_mentioned": false
+    },
+    "company": "Poland Work Portal",
+    "country": "PL",
+    "description": "ВРОЦЛАВ!😍БЕРЕМО ВСІХ\n КІМНАТИ ДЛЯ ПАР ОКРЕМІ😍‼️ФОТО ЖИТЛА Є‼️https://t.me/polandworkportal/30058\n❤️ВИСОКІ ЗП❤️\n👉🏻Shein — один із найбільших онлайн-ритейлерів одягу, представлений у понад 220 країнах. Компанія спеціалізується на продажу жіночого, чоловічого та дитячого одягу, взуття, аксесуарів і товарів для дому.\n✅Місце роботи – Kąty Wrocławskie, Magnice (15 км від Вроцлаву)\n✅Місце оформлення – місто Вроцлав\n‼️Робота не сезонна: довгострокова‼️\nЗапрошуємо на роботу також студентів\n ✅Обов’язки:\nСортування нового одягу\nСортування та розміщення одягу після повернень\nУпаковка та комплектація інтернет-замовлень\nРобота зі сканером\nПідтримка чистоти та порядку на робочому місці\n👉🏻Ставка: Ставка приблизно 28,26 zł netto/год, студентам - 36 zł/час netto\n ➕12.10-6.12: Правила премій за відвідуваність\n(1) Премія за відвідуваність:\nПрацівник має 100% присутності на всіх запланованих змінах → отримує +2 злотих брутто за кожну відпрацьовану годину.\n(2) Премія за понаднормові години:\nПрацівник має 100% присутності на всіх запланованих змінах та відпрацював мінімум 200 годин за графіком → за всі години понад 200 отримує +35 злотих брутто за кожну понаднормову годину.\n(3) Наростаюча премія за тижнями:\n- wk42 — 100 zł\n- wk43 — 200 zł\n- wk44 — 300 zł\n- wk45 — 400 zł\n- wk46 — 500 zł\n- wk47 — 600 zł\n- wk48 — 700 zł\n😍Загальна сума премії за 7 тижнів — 2800 zł брутто.\n👉🏻Умови отримання премій:\nПрацівник повинен бути присутнім на всіх запланованих змінах. Будь-яка відсутність, навіть виправдана або погоджена (лікарняний/особиста відсутність), призводить до втрати премій. Премія також не нараховується у разі запізнення або дострокового залишення роботи.\nПрацівник повинен залишатися працевлаштованим до 31 жовтня (до кінця місяця). Для умови премій (1), (2) Дата початку працевлаштування не має значення.\nДля умови преміальних (3) необхідно залишатися працевлаштованим до 06.12.2026\nДля отримання премії за понаднормові години необхідно відпрацювати мінімум 200 годин за графіком. Після виконання цієї умови премія OT нараховується за кожну годину, відпрацьовану понад 200 годин.\nПрацівник повинен реєструвати прихід і вихід (punch in/out) на годиннику під час кожної своєї зміни.\n ‼️Важливо:\nЗгідно з польським законодавством, після перевищення річного доходу 30 000 zł подальша заробітна плата оподатковується додатковим податком PIT 12%.\n ✅Графік роботи:\nРобота 5 днів на тиждень, 2 вихідний (плаваючі)\nЗміни по 10 годин:\nПерша зміна: 6:00–16:45\nДруга зміна: 18:00–4:45\nЧергування змін кожні 4 тижні\nОдина перерва на день – 45 хвилин (неоплачувана)\nУ середньому 220 годин на місяць\nПроживання: 650 зл/міс (50 злотих за амортизацію знімається при виїзд з нашого житла)\n✅Доїзд: безкоштовний, надається наш фірмовий автобус - https://t.me/polandworkportal/30054\n✅Умови на складі: є їдальня з холодильниками та мікрохвильовками. Автомати з напоями та солодощами.Можна купити гарячу їжу за 1 zł. Безкоштовна кава в автоматі\n✅Робочий одяг: необхідно мати свій одяг. Спецвзуття надається безкоштовно. В осінньо-зимовий період необхідно мати теплі речі. Заборонено мати при собі прикраси, пірсинг, телефони\nВ разі невідпрацювання 1 місяця150 zł\n✅Медогляд: 150 zł з першої зп.\n\n✔️Кристина: \n+380936408993 телефон и viber",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [
+      "uk"
+    ],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "",
+    "matched_keywords": [
+      "ett",
+      "сортування"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 56,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "telegram_polandworkportal",
+    "source_id": "polandworkportal/32419",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "ВРОЦЛАВ!😍БЕРЕМО ВСІХ",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "20e80d693f8f3bab",
+    "url": "https://t.me/polandworkportal/32419",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "20ef62e8383a6262": {
     "apply_channels": {
       "emails": [],
@@ -29465,7 +29609,7 @@
     "last_seen": "2026-11-14",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -29774,7 +29918,7 @@
     "company": "Indeco",
     "country": "CZ",
     "description": "Hledáte práci, která vás bude bavit?\n\nHledáte práci ve fajn partě lidí?\n\nHledáte práci ve výrobě nábytku a kuchyní na míru?\n\nNebo by vás bavilo vytvářet návrhy a prodávat?\n\nPokud tedy opravdu hledáte, tak se nám ozvěte!\n\nMy hledáme vás - toho, kdo chce opravdu pracovat!\n\n  \n\n**Operátor olepovacího stroje (olepovačky hran)**\n-------------------------------------------------\n\nDo naší zakázkové výroby v **Praze Čakovicích** hledáme spolehlivého a pečlivého kolegu na pozici **obsluhy olepovacího stroje**.\n\n### **Co bude vaší náplní práce?**\n\n* Obsluha a seřizování olepovacího stroje (olepování hran ABS, dýhy apod.).\n* Příprava a kontrola materiálu před a po olepení.\n* Běžná údržba a čištění stroje.\n* Spolupráce s kolegy ve výrobě a dohled nad kvalitou hotových dílců.\n\n### **Co od vás očekáváme?**\n\n* Zkušenost s obsluhou olepovačky nebo praxi v truhlářské výrobě *(šikovného a technicky zdatného uchazeče rádi zaučíme)*.\n* Pečlivost, spolehlivost a smysl pro detail.\n* Manuální zručnost a fyzickou zdatnost.\n* Vyučení v oboru truhlář výhodou, nikoliv podmínkou.\n\n### **Co vám nabízíme?**\n\n* zajímavé platové ohodnocení (dle zkušeností a výkonu).\n* Práci na **HPP**.\n* Provoz na **jednu směnu**.\n* Moderní strojní vybavení a kvalitní zázemí.\n* Přátelský menší kolektiv a férový přístup.\n* **Další benefity: stravenky, příspěvek na penzijko, sleva na firemní výrobky**\n\n**Nástup:** Možný ihned.\n  \n**Místo výkonu práce:** Oderská 333/5, Praha 9 Čakovice\n\nMáte zájem? Zašlete nám svůj životopis nebo stručný přehled praxe na **kariera@indeco.cz** nebo zavolejte na **603 557 632**. Budeme se těšit na setkání!",
-    "detail_fetched_at": "2026-11-23",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
@@ -29786,7 +29930,7 @@
       }
     ],
     "languages": [],
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -36114,6 +36258,57 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "295f30ec6843f900": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [
+        "+48791123543"
+      ],
+      "whatsapp_mentioned": false
+    },
+    "company": "Poland Work Portal",
+    "country": "PL",
+    "description": "Лодзь🔥 потрібні чоловіки та жінки на 24-30.11. Робота на даний час по 12 год!\n➡️MEFA ŁÓDŹ - Виробництво пластикових компонентів  — до сушильних машин та пральних машин.\n✅Адреса та місто роботи: ul. Dąbrowskiego 216, 93-231 Łódź\n✅Посада: Різноробочий-монтер на виробничій лінії\n✅Вимоги:\nСтать: чоловіки, жінки, сімейні пари\nВік: до 50 років\nДосвід роботи: не потрібен\nЗнання польської мови: не вимагається\nПриймаються громадяни України\n✅Заробітна плата\n✅Тип договору: Umowa Zlecenie\n✅Ставка: 25,33 нетто/год.\n‼️Ставка Support до 26 років для українців: 31,40 нетто/год\n‼️Ставка Support від 26 до 29 років для українців: 27,33 нетто/год\n✅Графік роботи: 5–6 днів на тиждень. По 8 годин на день\n👉🏻Робота у 3 зміни:\n05:30–13:30\n13:30–21:30\n21:30–05:30\nВід 180 до 200 годин на місяць\n✅Перерви: одна перерва 20 хвилин, дві додаткові перерви по 5 хвилин\n✅Житло не надається.\n✅Працівник самостійно добирається громадським транспортом.\n✅Обов’язки працівника\nВідділ спеціалізується на виготовленні пластикових компонентів\nВідділ поділяється на два підрозділи:\nВідділ ливарних машин (машини, що виготовляють пластикові компоненти).\nМультипроцес (монтаж панелей керування).\nВідділ ливарних машин\n👉🏻Обслуговування обладнання:\nознайомлення з деталлю та можливими дефектами;\nперевірка виготовленого компонента;\nякщо дефектів немає — пакування деталі у відповідний контейнер;\nповідомлення відповідальних осіб про виявлені дефекти;\nзаповнення мінімального виробничого звіту;\nпідтримання чистоти на робочому місці.\n✅Додаткова інформація:\nНавчання проводиться в перший робочий день.\nНа підприємстві є їдальня, де можна придбати чай, каву, а також скористатися автоматами із сендвічами (до 12 зл).\nМожна приносити власну їжу та розігрівати її на підприємстві.\n✅Робочий одяг: Надається безкоштовно: 2 футболки; штани; рукавички; кофта; зручне робоче взуття.\n\n✔️Вероника: \n+48791123543 только viber",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [
+      "uk"
+    ],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "",
+    "matched_keywords": [
+      "виробництво",
+      "пакування"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 50,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "telegram_polandworkportal",
+    "source_id": "polandworkportal/32416",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Лодзь🔥 потрібні чоловіки та жінки на 24-30.11. Робота на даний час по 12 год!",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "295f30ec6843f900",
+    "url": "https://t.me/polandworkportal/32416",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "296ad6ad152133d8": {
     "apply_channels": {
       "emails": [
@@ -40086,7 +40281,7 @@
     "last_seen": "2026-11-16",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -42477,9 +42672,9 @@
     "source_review": {},
     "summary_ar": "",
     "title": "Omdelere på scooter søges til natarbejde i Kalundborg",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "مطلوب موزعون على دراجات سكوتر للعمل الليلي في كالونبورغ",
+    "title_en": "Scooter delivery drivers wanted for night work in Kalundborg",
+    "translated": true,
     "uid": "3163b35066fb6f51",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NWYwYTQ5OTgtZjgxNS00ZTViLTlhZGEtOTkyNzcyZTk4YWVlIDc?lang=en",
     "url_provenance": "",
@@ -42526,9 +42721,9 @@
     "source_id": "MTIwMTYtMTAwMDU3OTcyMTQtUyAx",
     "summary_ar": "الموقع: DE300\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Lagerhelfer (m/w/d) für ein Supermarkt - Kreuzberg (Helfer/in - Lagerwirtschaft, Transport)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "مساعد مستودع (م/ذ) لسوبرماركت - كرويتسبيرغ (مساعد - تخزين ونقل)",
+    "title_en": "Warehouse helper (m/f/d) for a supermarket - Kreuzberg (helper - warehousing, transport)",
+    "translated": true,
     "uid": "3171c49791068085",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU3OTcyMTQtUyAx?lang=en",
     "url_provenance": "",
@@ -42669,9 +42864,9 @@
     "source_review": {},
     "summary_ar": "",
     "title": "PROIZVODNI DELAVEC - M/Ž",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل إنتاج (ذكر/أنثى)",
+    "title_en": "Production worker (m/f)",
+    "translated": true,
     "uid": "319feeae33180f8d",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUwMDI2NCAxNA?lang=en",
     "url_provenance": "",
@@ -42798,7 +42993,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -43038,9 +43233,9 @@
     "source_review": {},
     "summary_ar": "",
     "title": "Magasinier(ère) H/F",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "أمين مستودع (ذكر/أنثى)",
+    "title_en": "Warehouse keeper (m/f)",
+    "translated": true,
     "uid": "325d1ff359bd5d35",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1VlJKSiA5?lang=en",
     "url_provenance": "",
@@ -43146,9 +43341,9 @@
     "source_review": {},
     "summary_ar": "الموقع: DEG0E\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Staplerfahrer (m/w/d) in Straufhain (Gabelstaplerfahrer/in)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "سائق رافعة شوكية (م/ذ) في شتراوفهاين (سائق رافعة شوكية)",
+    "title_en": "Forklift driver (m/f/d) in Straufhain (forklift driver)",
+    "translated": true,
     "uid": "32c5f1a3815e08ed",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQwNDAtMzVINUNLNTkxT1BRSzY2Vi1TIDE?lang=en",
     "url_provenance": "",
@@ -43240,9 +43435,9 @@
     "source_review": {},
     "summary_ar": "",
     "title": "PALĪGSTRĀDNIEKS",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مساعد",
+    "title_en": "General helper",
+    "translated": true,
     "uid": "32d6767376fe53f1",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MjYxMDI4LTg4IDQwMQ?lang=en",
     "url_provenance": "",
@@ -43400,9 +43595,9 @@
     "source_review": {},
     "summary_ar": "الموقع: DEG0E\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Produktionshelfer (m/w/d) in Eisfeld  (Helfer/in - Lagerwirtschaft, Transport)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "مساعد إنتاج (م/ذ) في آيسفلد (مساعد - تخزين ونقل)",
+    "title_en": "Production helper (m/f/d) in Eisfeld (helper - warehousing, transport)",
+    "translated": true,
     "uid": "32f0a6c04af36fe0",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQwNDAtQUwyMlhMMzdOMVUxVUdORy1TIDE?lang=en",
     "url_provenance": "",
@@ -43460,9 +43655,9 @@
     "source_review": {},
     "summary_ar": "الموقع: DE94F\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Lagermitarbeiter (m/w/d) ab 17,14 Euro / Std. + Zulagen (OHNE PROBEZEIT) (Fachlagerist/in)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مستودع (م/ذ) ابتداءً من 17.14 يورو/ساعة + بدلات (بدون فترة تجربة) (أخصائي مستودعات)",
+    "title_en": "Warehouse worker (m/f/d) from EUR 17.14/hour + allowances (NO PROBATION) (warehouse specialist)",
+    "translated": true,
     "uid": "32f1ffc703323bf0",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwNDA0OTYzOS1TIDE?lang=en",
     "url_provenance": "",
@@ -43604,9 +43799,9 @@
     "source_review": {},
     "summary_ar": "الموقع: FRK28\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Magasinier automobile (H/F)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "أمين مستودع قطع غيار سيارات (ذكر/أنثى)",
+    "title_en": "Automotive parts warehouse keeper (m/f)",
+    "translated": true,
     "uid": "333d23e200318b39",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/OTExMjQzNSA5?lang=en",
     "url_provenance": "",
@@ -43702,9 +43897,9 @@
     "source_review": {},
     "summary_ar": "",
     "title": "Pracownik magazynu (k/m)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مستودع (أنثى/ذكر)",
+    "title_en": "Warehouse worker (f/m)",
+    "translated": true,
     "uid": "3348abf16cecb25d",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5NDA2ODAgMTI?lang=en",
     "url_provenance": "",
@@ -43817,9 +44012,9 @@
     "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: DEA12\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Lagermitarbeiter (m/w/d) Duisburg (Helfer/in - Lagerwirtschaft, Transport)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل مستودع (م/ذ)، دويسبورغ (مساعد - تخزين ونقل)",
+    "title_en": "Warehouse worker (m/f/d), Duisburg (helper - warehousing, transport)",
+    "translated": true,
     "uid": "337a68c9236d1bcc",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI3MDQtSTExNTU2SFk0WEpPVjIyRy1TIDE?lang=en",
     "url_provenance": "",
@@ -43864,9 +44059,9 @@
     "source_review": {},
     "summary_ar": "الموقع: RO321\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "MUNCITOR NECALIFICAT LA ÎNTRETINEREA DE DRUMURI, SOSELE, PODURI, BARAJE",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل غير ماهر لصيانة الطرق والطرق السريعة والجسور والسدود",
+    "title_en": "Unskilled worker for road, highway, bridge and dam maintenance",
+    "translated": true,
     "uid": "337efba62016fc75",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzQyNzk3MSAxMw?lang=en",
     "url_provenance": "",
@@ -43962,9 +44157,9 @@
     "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: سكن\nالموقع: FRK23\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "MAGASINIER VENDEUR PIECES DE RECHANGE (H/F)",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "أمين مستودع وبائع قطع غيار (ذكر/أنثى)",
+    "title_en": "Spare parts warehouse keeper-salesperson (m/f)",
+    "translated": true,
     "uid": "33913b7ab91e3df1",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE2Q0dHSCA5?lang=en",
     "url_provenance": "",
@@ -44062,9 +44257,9 @@
     "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب؛ وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Kontrolör-pakkija",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "مراقب جودة - عامل تعبئة",
+    "title_en": "Inspector-packer",
+    "translated": true,
     "uid": "33b12fd0efb83b62",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2OTU3MSA4?lang=en",
     "url_provenance": "",
@@ -44250,9 +44445,9 @@
     "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: RO116\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "MUNCITOR NECALIFICAT LA SPARGEREA SI TAIEREA MATERIALELOR DE CONSTRUCTII",
-    "title_ar": "",
-    "title_en": "",
-    "translated": false,
+    "title_ar": "عامل غير ماهر في تكسير وقص مواد البناء",
+    "title_en": "Unskilled worker for breaking and cutting construction materials",
+    "translated": true,
     "uid": "344d56c859954943",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MzM5MjAzNSAxMw?lang=en",
     "url_provenance": "",
@@ -46194,7 +46389,7 @@
     "last_seen": "2026-11-11",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -46354,7 +46549,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -48780,6 +48975,57 @@
     "translated": false,
     "uid": "38ce50569735e64d",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NDMwYjkzNGMtMWVhMS00ZmFlLWE1ZWMtMjQyODE4OGIzMDI1IDc?lang=en"
+  },
+  "38d54ca5137afa67": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "delta aktiv",
+    "country": "DE",
+    "description": "Mach mehr aus deiner Karriere und werde Teil unseres herausragenden Teams!\n\nVerpacker (m/w/d)\n\n**Was wir bieten:**\n\n* Bezahlung nach GVP Tarifvertrag + Zulagen\n* Nach 6-monatiger ununterbrochener Beschäftigung erhältst Du zu den entsprechenden Zeiten Urlaubs- und Weihnachtsgeld\n* Ein interessanter Einsatz bei namenhaften Kundenunternehmen\n* Da wir überwiegend mit Kunden zusammenarbeiten, die auf Langfristigkeit setzen, hast Du sehr gute Chancen auf eine Übernahme in den Kundenbetrieb\n* Außerdem bieten wir Dir eine kompetente, persönliche Betreuung und Beratung vor Ort an\n\n**Deine Aufgaben:**\n\n* Bedienung der Anlagen\n* Arbeiten nach Anweisungen\n* Verpackungstätigkeiten\n* Qualitätskontrolle\n* Reinigungstätigkeiten und Anlagenwartung\n\n**Dein Profil:**\n\n* Berufserfahrung als Maschinenbediener/Produktionsmitarbeiter m/w/d\n* Ausbildung als Industriemechaniker/Konstruktionsmechaniker oder als Maschinen - und Anlagenführer m/w/d von Vorteil oder jahrelange Berufserfahrung\n* Schichtbereitschaft -Montag bis Freitag in Früh/Spätschicht im wöchentlichen Wechsel\n* Teamfähigkeit\n* Motivation und Leistungsbereitschaft\n\n**Jetzt suchen wir Mitarbeiter (m/w/d) aus den Bereichen:** Verpackungsmitarbeiter (m/w/d), Verpackungshelfer (m/w/d), Mitarbeiter Verpackung (m/w/d), Produktionshelfer (m/w/d), Packmitteltechnologe (m/w/d), Versandmitarbeiter (m/w/d)\n\nDie delta aktiv GmbH bietet nicht nur Arbeitsplätze, sondern Karrierechancen. Unsere Philosophie ist es, nicht nur Mitarbeiter, sondern Partner auf dem Weg zum Erfolg zu sein.\n\nBewirb dich jetzt!\n\n#startejetzt\n\nGehalt: ab 17,00€ pro Stunde\n\nBewerbungsfrage(n):\n\n* Unter welcher Telefonnummer sind Sie aktuell erreichbar?\n\nArbeitsort: Vor Ort",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Ingelheim am Rhein, RP, Germany",
+    "matched_keywords": [
+      "maschinenbediener",
+      "packer",
+      "produktionshelfer",
+      "produktionsmitarbeiter",
+      "verpacker",
+      "verpackungsmitarbeiter"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 62,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-7598af4149eb9a3b",
+    "source_review": {},
+    "summary_ar": "الموقع: Ingelheim am Rhein, RP, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Verpacker (m/w/d)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "38d54ca5137afa67",
+    "url": "https://de.indeed.com/viewjob?jk=7598af4149eb9a3b",
+    "url_provenance": "",
+    "url_verified": null
   },
   "38e145e72e448150": {
     "apply_channels": {
@@ -52762,6 +53008,60 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "3db7bf42e88055ba": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [
+        "+380936408993"
+      ],
+      "whatsapp_mentioned": false
+    },
+    "company": "Poland Work Portal",
+    "country": "PL",
+    "description": "ПОЗНАНЬ ! БЕРЕМО ВСІХ ДО 17.12😍\n📦 Пакувальник / Працівник складу — RHENUS (Swarzędz, Польща)\n➡️RHENUS — великий міжнародний логістичний оператор, який займається складською обробкою, комплектацією та відправленням одягу відомих брендів. Робота на сучасному складі з високою погодинною оплатою до 38,40 PLN брутто, можливістю працювати до 288 годин на місяць, організованим транспортом та проживанням.\n📍 Локація: Swarzędz, Великопольське воєводство (15 км від Познані).\n🏬 Адреса об'єкта: 62-020 Swarzędz, ul. Rabowicka 67.\n✨ ГОЛОВНІ ПЕРЕВАГИ ВАКАНСІЇ:\n💰 Висока погодинна ставка: від 34,40 до 38,40 PLN брутто залежно від продуктивності.\n📈 Підвищення ставки за виконання норм: можливість заробляти більше завдяки продуктивності.\n🎁 Додаткові премії: 100 PLN за присутність та 150 PLN за роботу у державні свята.\n⏳ Багато робочих годин: можливість працювати 168–288 годин на місяць.\n🚌 Організований транспорт: доїзд до роботи та назад.\n💶 Доплата за власне житло: +2,50 PLN за кожну відпрацьовану годину (максимум 400 PLN\n💳 ЗАРОБІТНА ПЛАТА, ДОПЛАТИ\n📜 Тип договору: Umowa zlecenie\n💰 Погодинна ставка (брутто): 34,40–38,40 PLN/година.\n💶 ЧИСТИЙ ДОХІД (НЕТТО):  27,78 PLN/година \n🎓 34,40 PLN/година — для студентів до 26 років.\n📈 Оплата залежно від виконання норм продуктивності:\n- Виконання 1 норми — 36,40 PLN брутто/год.\n- Виконання 2 норм — 37,40 PLN брутто/год.\n- Виконання 3 норм — 38,40 PLN брутто/год.\n🎁 Премії та бонуси:\n- 100 PLN — премія за присутність.\n- 150 PLN — премія за роботу у державне свято.\n🔥  Бонус за розпродаж — 1 000 PLN брутто!\nУмови отримання:\n- 100% відвідуваність протягом періоду розпродажу.\n- Виконання мінімум 80% норми продуктивності.\n- Відсутність серйозних або повторних помилок у роботі.\n- Дотримання графіка та правил безпеки.\n⏳ Обсяг годин: 168–288 годин/місяць.\n🛠 ОПИС ПРОЦЕСІВ ТА ОБОВ'ЯЗКИ\n📲 1. PICK — комплектація замовлень:\n- Збір одягу відповідно до замовлень клієнтів.\n- Робота зі сканером.\n- Пошук товарів у визначених місцях складу.\n- Перевірка моделі, розміру, кольору та кількості товару.\n- Переміщення коробок вагою до 3 кг та розміщення їх на палетах (для чоловіків).\n📦 2. PACKING — пакування та сортування:\n- Приймання товару за допомогою ручного візка та сканера.\n- Сортування одягу за розмірами та найменуваннями.\n- Перевірка відповідності продукції замовленню.\n- Підготовка товарів до подальшого відправлення.\n🏷 3. Складська логістика:\n- Сканування та облік продукції.\n- Розподіл товарів по складських зонах.\n- Підготовка замовлень до відправлення у магазини різних країн.\n⏰ ГОДИНИ ТА ГРАФІК РОБОТИ\n📅 Графік: 6 робочих днів на тиждень. Графік змінний, залежить від завантаженості складу та сезону.\n🕒 Стандартні зміни (8 годин):\n☀️ I зміна: 06:00–14:00.\n🌆 II зміна: 14:00–22:00.\n🌙 III зміна: 22:00–06:00.\n🌃 IV зміна: 18:00–02:00.\n🔥 У високий сезон можливі 12-годинні зміни:\n- D: 06:00–18:00.\n- N: 18:00–06:00.\n- P: 10:00–22:00.\n- C: 14:00–02:00.\n- R: 08:00–20:00.\n- Z: 20:00–08:00 (тільки під час розпродажів).\n⏸️ Перерви:\n- 8-годинна зміна — 20 хвилин.\n- 12-годинна зміна — 35 хвилин (15 + 20 хвилин).\nПерерви оплачуються.\n🌡 УМОВИ НА ПІДПРИЄМСТВІ:\n- Температура: +22–25°C.\n- Робота зі сканерами та ручними візками.\nНа складі діють стандартні правила безпеки та порядку.\n📵 Особисті телефони та записуючі пристрої не допускаються до робочих зон.\n💍 не дозволяються прикраси, годинники та аксесуари.\n🚬 Куріння дозволено лише у спеціально відведених місцях.\n🏢 Житло від агенції: 520 PLN/місяць.\nПроживання у будинках або квартирах, кімнати на 2–6 осіб. Є необхідні меблі, постіль, обладнана кухня, посуд, пральна машина та безкоштовний Wi-Fi.\n👨‍👩‍👧 Для пар: можливість розміщення залежить від наявності вільних місць.\n🏠 Власне житло: доплата +2,50 PLN за кожну відпрацьовану годину (максимум 400 PLN за умови відсутності ННН).\n🚌 Транспорт: організований доїзд працівників до підприємства та назад.   Зупинки: https://t.me/polandworkportal/32423\n👔 Робочий одяг: 150 PLN.\n✔️Кристина: \n+380936408993 телефон и viber",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [
+      "uk"
+    ],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "",
+    "matched_keywords": [
+      "збір",
+      "пакувальник",
+      "пакування",
+      "працівник складу",
+      "сортування"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 62,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "telegram_polandworkportal",
+    "source_id": "polandworkportal/32421",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "ПОЗНАНЬ ! БЕРЕМО ВСІХ ДО 17.12😍",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "3db7bf42e88055ba",
+    "url": "https://t.me/polandworkportal/32421",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "3dc11225bf75c0b1": {
     "apply_channels": {
       "emails": [],
@@ -52922,7 +53222,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "Přehýšov, PL, Czech Republic",
@@ -55793,6 +56093,52 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "41d15277e1aaf3c3": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Agentura GATE s.r.o.",
+    "country": "CZ",
+    "description": "**O nás**\n---------\n\nAgentura **GATE** je moderní **BTL full-service agentura** a součást skupiny **GATE GROUP+**.\n\nPůsobíme v Česku i v zahraničí. Specializujeme se na retail marketing, správu poboček, skladování a logistiku materiálů pro známé značky. Díky vlastním skladovým a montážním týmům poskytujeme spolehlivé služby přesně a včas.\n\nDo našeho týmu v Praze hledáme spolehlivého skladníka, který se postará o plynulý chod skladu s reklamními materiály, propagačními předměty a kosmetickým zbožím. Součástí práce je také manipulace se zbožím a udržování pořádku na pracovišti.\n\n**Náplň práce:**\n----------------\n\n* Příjem, výdej a evidence materiálu dle projektu / klienta\n* Kontrola dodacích listů a další dokumentace\n* Manipulace s materiálem (vykládání, nakládání, uskladnění)\n* Udržování pořádku a čistoty ve skladu\n* Spolupráce s kreativním a produkčním týmem\n* Obsluha skladové techniky (paleťák apod.)\n* Příprava materiálů pro reklamní kampaně a akce\n\n**✅Co od Vás očekáváme:**\n-------------------------\n\n* Zodpovědnost, pečlivost a spolehlivost\n* Schopnost týmové spolupráce\n* Dobrý fyzický stav a manuální zručnost\n* Výhodou je zkušenost na podobné pozici nebo oprávnění na VZV\n* Základní znalost práce s PC\n* Flexibilita a ochota pracovat v dynamickém prostředí reklamní agentury\n* Řidičský průkaz skupiny B **podmínkou**.\n\n**Co Vám můžeme nabídnout:**\n----------------------------\n\n* **Pracovní doba na jednu směnu od rána do odpoledne!**\n* **Dovolená navíc!**\n* Stabilní a dlouhodobé zaměstnání v renomované reklamní agentuře\n* Příjemné pracovní prostředí a přátelský kolektiv\n* Možnost profesního růstu a dalšího vzdělávání\n* Firemní oblečení a pracovní pomůcky\n* Možnost Multisport karty\n* Firemní akce\n* Finanční bonusy a prémie\n* Příspěvek na mobilní tarif\n* Možnost parkování\n\n**Zaujala vás naše nabídka? Pošlete nám svůj životopis a přidejte se k týmu GATE.**\n\n**Těšíme se na vás!**\n\n  \n  \n\n**Benefity**\n------------\n\n* Dovolená navíc\n* Finanční bonusy a prémie\n* Firemní akce\n* Zálohy ze mzdy\n* Příspěvek na mobilní tarif\n* Přátelské prostředí\n* Možnost parkování",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Praha, A, Czech Republic",
+    "matched_keywords": [
+      "skladnik"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-b9bf84e677228263",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Skladník (m/ž) - mzda až 40 000 Kč",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "41d15277e1aaf3c3",
+    "url": "https://www.jenprace.cz/nabidka/3wcj8j/skladnik-m-z-mzda-az-40-000-kc",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "41e2ddd063f1ac46": {
     "apply_channels": {
       "emails": [],
@@ -57149,13 +57495,13 @@
     "company": "Fore People",
     "country": "DE",
     "description": "**FoRe People GmbH**\n--------------------\n\n**Der Schlüssel für ein erfolgreiches Unternehmen sind seine Mitarbeitenden**\n\nDeshalb setzt sich die FoRe Group dafür ein, Ihre individuellen Bedürfnisse mit qualifizierten Fachleuten und Dienstleistungen zu erfüllen, die den FoRe-Standards entsprechen. Als Bewerber finden Sie bei uns Ihren nächsten Karriereschritt und Stellen bei Unternehmen, welche Ihre Mitarbeiter schätzen\n\n**Deine Aufgaben**\n------------------\n\n* Steuerung der Produktverteilung zu den Verpackungsmaschinen\n* Verpacken der Produkte nach Spezifikation\n* Etikettieren und Palettieren von Karton\n* Beachten sämtlicher Vorgaben sowie Weiterleitung von Informationen an Vorgesetzte über Qualitätsmängel, z. B. bei Folien, Kartonagen oder Etiketten\n* Mithilfe bei der Maschinenreinigung\n\n**Dein Profil**\n---------------\n\n* Selbstständiges Arbeiten\n* Flexibilität\n* Team- und Kommunikationsfähigkeit\n* Bereitschaft zu Schichtarbeit\n\n**Deine Vorteile**\n------------------\n\n* Bis 16,5 €/h\n* Steuerfreies Fahrtgeld: 0,30 € pro gefahrenem Kilometer, Hin- und Rückweg\n* Übernahme beim Kunden möglich\n* Unbefristeter Arbeitsvertrag\n* 25 Urlaubstage im ersten Jahr, ansteigend auf 30 nach GVP-Tarif\n* Urlaubs- und Weihnachtsgeld nach GVP-Tarif\n\nJetzt bewerben – schnell und unkompliziert\n\nName und Telefonnummer genügen. Kein Anschreiben, Lebenslauf freiwillig — wir melden uns und klären den Rest im Gespräch.",
-    "detail_fetched_at": "2026-11-21",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-21",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -60879,7 +61225,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -63915,7 +64261,7 @@
     "last_seen": "2026-11-14",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -72942,8 +73288,8 @@
     },
     "company": "Poland Work Portal",
     "country": "PL",
-    "description": "ВИЩЕ СТАВКА !!🔥ПОЗНАНЬ🔥Виробництво \n👉🏻Пакування та зважування готової продукції\n‼️Робота та проживання в самому Познані‼️\nУкраїна, Молдова, Білорусь\n🔹 Можливість працювати по 12 годин, суботи та неділі можуть брати або бути вихідні \n🔹 Кандидат має можливість обирати собі зміну: тільки денну зміну або нічну або дві зразу \n\n📣📣📣📣📣\n➡️Lisner - Один із найбільших виробників рибної продукції в Польщі. Компанія спеціалізується на оселедці, рибних салатах, пастах для бутербродів та готових охолоджених стравах.\nМісце роботи: м. Poznań\nМісце проживання: Poznań\nПрацевлаштування:  umowa zlecenie\n✅Заробітна плата:\nГарантована ставка: 25.36 zł нетто/год (З 23.11 -29.88  zł нетто/год)\nДля студентів: 31.40 zł нетто/год (З 23.11- 37 zł нетто/год)\nВиплати: Регулярно, з 15 по 20 число кожного місяця. \n✅Обов‘язки:\nРобота проходить у трьох відділах:\nВаговий відділ – працівники зважують готову продукцію та розкладають упаковки на конвеєрній стрічці. Переважно працюють жінки, а чоловіки займаються перенесенням готової продукції.\nВідділ пакування – запакована продукція надходить до працівників, які складають її в картонні коробки. Потім коробки з готовою продукцією передаються до відділу комплектації, де їх розміщують на палетах.\nВідділ приготування соусів та спецій.\n✅Робочий графік:\nРобота у 3 зміни з можливістю подовження робочого дня:\nI зміна: 05:45–13:45\nII зміна: 13:45–21:45\nIII зміна: 21:45–05:45\nПри 8-годинному робочому дні працівник має 25 хвилин оплачуваної перерви.\nПри 10- або 12-годинному робочому дні працівник має 25 хвилин оплачуваної перерви та додатково 15 хвилин оплачуваної перерви.\nРобота 5–6 днів на тиждень.\n✅Проживання:\nКомфортні будинки обладнані всіма необхідними зручностями. \nПостільну білизну та посуд - мати власні!\nВартість проживання: 650 zł на місяць, вираховується із зарплати.  \nТранспорт:\nБезкоштовний доїзд до роботи з м. Lubasz, Czarnków II, Gniezno, Mieleszyn, Mogilno/Trzemeszno, Wolsztyn, Wągrowiec, Rogoźno, Damasławek, Września, Pniewy/Szamotuły\n👉🏻Зупинки : https://t.me/polandworkportal/32069\n✅Додаткова інформація:\nТемпература в різних відділах становить від +4°C до +12°C (у середньому близько +8°C).\nНа робочих місцях, де температура близько +4°C, працівники отримують робочий одяг (штани, флісову кофту та шапку).\nКожен працівник безкоштовно отримує гарячий обід протягом робочого дня.\n➕Є можливість отримання премії — залежно від відділу.\nМедичний огляд за рахунок фірми.\n\n✔️Кристина: \n+380936408993 телефон и viber",
-    "detail_fetched_at": "2026-11-18",
+    "description": "ВИЩЕ СТАВКА !!🔥ПОЗНАНЬ🔥Виробництво \n👉🏻Пакування та зважування готової продукції\n‼️Робота та проживання в самому Познані‼️\nУкраїна, Молдова, Білорусь\n🔹 Можливість працювати по 12 годин, суботи та неділі можуть брати або бути вихідні \n📣📣📣📣📣\n➡️Lisner - Один із найбільших виробників рибної продукції в Польщі. Компанія спеціалізується на оселедці, рибних салатах, пастах для бутербродів та готових охолоджених стравах.\nМісце роботи: м. Poznań - ul. Strzeszyńska 38/42, 60-479 Poznań\nМісце проживання: Poznań\nПрацевлаштування:  umowa zlecenie\n✅Заробітна плата:\nГарантована ставка: 25.36 zł нетто/год (З 23.11 -29.88  zł нетто/год)\nДля студентів: 31.40 zł нетто/год (З 23.11- 37 zł нетто/год)\nВиплати: Регулярно, з 15 по 20 число кожного місяця. \n✅Обов‘язки:\nРобота проходить у трьох відділах:\nВаговий відділ – працівники зважують готову продукцію та розкладають упаковки на конвеєрній стрічці. Переважно працюють жінки, а чоловіки займаються перенесенням готової продукції.\nВідділ пакування – запакована продукція надходить до працівників, які складають її в картонні коробки. Потім коробки з готовою продукцією передаються до відділу комплектації, де їх розміщують на палетах.\nВідділ приготування соусів та спецій.\n✅Робочий графік:\nРобота у 3 зміни з можливістю подовження робочого дня:\nI зміна: 05:45–13:45\nII зміна: 13:45–21:45\nIII зміна: 21:45–05:45\nПри 8-годинному робочому дні працівник має 25 хвилин оплачуваної перерви.\nПри 10- або 12-годинному робочому дні працівник має 25 хвилин оплачуваної перерви та додатково 15 хвилин оплачуваної перерви.\nРобота 5–6 днів на тиждень.\n✅Проживання:\nКомфортні будинки обладнані всіма необхідними зручностями. \nПостільну білизну та посуд - мати власні!\nВартість проживання: 650 zł на місяць, вираховується із зарплати.  \nТранспорт:\nБезкоштовний доїзд до роботи з м. Lubasz, Czarnków II, Gniezno, Mieleszyn, Mogilno/Trzemeszno, Wolsztyn, Wągrowiec, Rogoźno, Damasławek, Września, Pniewy/Szamotuły\n👉🏻Зупинки : https://t.me/polandworkportal/32069\n✅Додаткова інформація:\nТемпература в різних відділах становить від +4°C до +12°C (у середньому близько +8°C).\nНа робочих місцях, де температура близько +4°C, працівники отримують робочий одяг (штани, флісову кофту та шапку).\nКожен працівник безкоштовно отримує гарячий обід протягом робочого дня.\n➕Є можливість отримання премії — залежно від відділу.\nМедичний огляд за рахунок фірми.\n\n✔️Кристина: \n+380936408993 телефон и viber",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-18",
@@ -72951,7 +73297,7 @@
     "languages": [
       "uk"
     ],
-    "last_seen": "2026-11-18",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -72963,7 +73309,7 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-18",
+    "posted_date": "2026-11-24",
     "score": 50,
     "signals": [
       "unskilled_role_match",
@@ -72971,7 +73317,7 @@
       "fresh_posting"
     ],
     "source": "telegram_polandworkportal",
-    "source_id": "polandworkportal/32330",
+    "source_id": "polandworkportal/32408",
     "source_review": {},
     "summary_ar": "",
     "title": "ВИЩЕ СТАВКА !!🔥ПОЗНАНЬ🔥Виробництво",
@@ -72979,7 +73325,7 @@
     "title_en": "",
     "translated": false,
     "uid": "53a8c6c8893f9c72",
-    "url": "https://t.me/polandworkportal/32330",
+    "url": "https://t.me/polandworkportal/32408",
     "url_provenance": "",
     "url_verified": null
   },
@@ -73474,7 +73820,7 @@
     "last_seen": "2026-11-12",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -74106,6 +74452,54 @@
     "translated": false,
     "uid": "543f99e7dd438760",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/ODYyNzExMiA5?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "544084221038724f": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "TEEAL - Робота в Польщі",
+    "country": "PL",
+    "description": "➡️ No Limit Radonice Комплектовщик\n01.01.55 (Жін. та Чол.)\n🚈 Radonice 46, 05-870 Radonice\n👨👩 мужчин женщин\n📄 Любой тип документов\n💰 Ставка 31,40 зл брутто/час\n🕒 Рабочих часов в месяц 180-220\nhttps://teeal.pl/?p=44342",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [
+      "ru"
+    ],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "",
+    "matched_keywords": [
+      "комплектовщик"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "telegram_teealpl",
+    "source_id": "teealpl/48574",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "➡️ No Limit Radonice Комплектовщик",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "544084221038724f",
+    "url": "https://t.me/teealpl/48574",
     "url_provenance": "",
     "url_verified": null
   },
@@ -79156,7 +79550,7 @@
     "last_seen": "2026-11-15",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -81556,7 +81950,7 @@
     "last_seen": "2026-11-13",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -84469,8 +84863,10 @@
     "languages": [],
     "last_seen": "2026-11-23",
     "lifecycle": {
-      "missed_runs": 1,
-      "status": "active"
+      "deactivated_at": "2026-11-24T18:37:20+00:00",
+      "deactivation_reason": "not_seen_in_2_covered_runs",
+      "missed_runs": 2,
+      "status": "deactivated"
     },
     "location": "Budapest, PE, Hungary",
     "matched_keywords": [
@@ -84795,8 +85191,8 @@
     },
     "company": "TEEAL - Робота в Польщі",
     "country": "PL",
-    "description": "➡️ Производство готовых блюд в банках и ланч боксов, STOCZEK NATURA\nПриезды (20.11.26 - 3 жен)\n🚈 Generała Dwernickiego 5, 21-450 Stoczek Łukowski\n👩 Для женщин до 55 лет\n📄 Любой тип документов\n💰 Ставка 31,40 PLN брутто/час\n🕒 Рабочих часов в месяц  240-260\nhttps://teeal.pl/?p=18903",
-    "detail_fetched_at": "2026-11-16",
+    "description": "➡️ Производство готовых блюд в банках и ланч боксов, STOCZEK NATURA\nПриезды (26.11.26 - 5 муж)\n🚈 Generała Dwernickiego 5, 21-450 Stoczek Łukowski\n👨 Для мужчин до 55 лет\n📄 Любой тип документов\n💰 Ставка 31,40 PLN брутто/час\n🕒 Рабочих часов в месяц  240-260\nhttps://teeal.pl/?p=18903",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-16",
@@ -84804,7 +85200,7 @@
     "languages": [
       "ru"
     ],
-    "last_seen": "2026-11-16",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -84815,7 +85211,7 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-16",
+    "posted_date": "2026-11-24",
     "score": 44,
     "signals": [
       "unskilled_role_match",
@@ -84823,7 +85219,7 @@
       "fresh_posting"
     ],
     "source": "telegram_teealpl",
-    "source_id": "teealpl/48261",
+    "source_id": "teealpl/48563",
     "source_review": {},
     "summary_ar": "",
     "title": "➡️ Производство готовых блюд в банках и ланч боксов, STOCZEK NATURA",
@@ -84831,7 +85227,7 @@
     "title_en": "",
     "translated": false,
     "uid": "603c8592355a149a",
-    "url": "https://t.me/teealpl/48261",
+    "url": "https://t.me/teealpl/48563",
     "url_provenance": "",
     "url_verified": null
   },
@@ -86297,15 +86693,15 @@
     "company": "Zalaco Zrt",
     "country": "HU",
     "description": "„A ZALACO Sütőipari Zrt. egy nagymúltú, 1950-ben alapított sütőipari vállalat, amely lassan negyed évszázada családi tulajdonban lévő nyereséges vállalkozásként működik. Társaságunk küldetésének tartja, hogy hagyományos receptek alapján, minőségi alapanyagokból előállított pékáruval szolgálja ki a fogyasztóit. Ennek eredményeképpen a ZALACO napjainkra a nyugat-magyarországi régió, illetve Magyarország meghatározó, több, mint 800 főt foglalkoztató sütőipari nagyvállalatává nőtte ki magát, amely évek óta számos elismerésben részesül a fogyasztói és szakmai fórumoktól egyaránt, így – többek között – 2021-től minden évben Superbrands díjas vállalat lett.”\n\n**Új munkatársakat keresünk az alábbi munkakörbe:**\n\n**Komissiózó – Zalaegerszeg, Fuvar utca**\n\n**Főbb feladatok:**\n\n* A szaküzleti boltok számára a rendelések összekészítése (fagyos raktárban történő munkavégzés -18 °C)\n* A munkakezdés előtt a gyártáshoz szükséges eszközök, gépek, berendezések üzemképességének ellenőrzése\n* Az üzem rendjének és tisztaságának fenntartása\n\n**Az álláshoz szükséges kompetenciák, elvárások:**\n\n* 8 általános iskolai végzettség\n* Egészségügyi alkalmasság\n* Állandó éjszakás műszak vállalása (H-P)\n\n**Amit kínálunk:**\n\n* Folyamatosan fejlődő, stabil, megbízható, magyar családi vállalat\n* Hosszú távú munkalehetőség\n* Támogató munkahelyi közeg\n* Béren kívüli juttatások: évente két alkalommal cafeteria, hűségbónusz\n* Munkába járás támogatása\n* Dolgozói kedvezmény\n\nMunkavégzés helye: Személyes",
-    "detail_fetched_at": "2026-11-23",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-17",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "lifecycle": {
-      "missed_runs": 1,
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "Zalaegerszeg, ZA, Hungary",
@@ -95116,7 +95512,7 @@
     "last_seen": "2026-11-07",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -97295,7 +97691,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -101959,7 +102355,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "DE300",
@@ -104531,6 +104927,55 @@
     "translated": false,
     "uid": "776ed6c145dc231b",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/NzQ2NTg0MCAxMDI?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "7773cf5cd8377cf1": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Greenhub BV",
+    "country": "NL",
+    "description": "**Steek jij graag je handen uit de mouwen en houd je ervan als alles netjes op zijn plek staat? Werk je graag zelfstandig en vind je het fijn om lekker actief bezig te zijn? En lijkt het je leuk om bij een klein bedrijf te werken waar je echt onderdeel bent van het team? Dan hebben we misschien wel een leuke plek voor je!**\n\nBij Greenhub zoeken we een nieuwe collega voor ons magazijn, voor 12 tot 16 uur per week, verdeeld over 2 vaste werkdagen. Je werkt dus iedere week op dezelfde 2 dagen. Welke 2 dagen dat zijn, spreken we samen af. Je kunt kiezen uit dinsdag, woensdag, donderdag of vrijdag. Op beide dagen werk je overdag, ergens tussen 08:00 en 17:00 uur.\n\n**Waar kom je te werken?**\n\nGreenhub importeert en distribueert duurzame huishoud- en keukenartikelen, natuurlijke verzorgingsproducten en bamboe ondergoed. Met ons assortiment dragen we bij aan een betere wereld. Onze producten zijn te vinden in bio-winkels, gezondheidswinkels, drogisterijen, supermarkten en bij veel online verkopers.\n\nWe zijn een klein team, waarin iedereen zijn eigen verantwoordelijkheid heeft en tegelijk nauw met elkaar samenwerkt. Vanuit ons magazijn in Amsterdam zorgen we ervoor dat alle bestellingen goed en op tijd bij onze klanten terechtkomen.\n\nWe zijn nuchter, praktisch en houden van een informele sfeer. We werken hard, helpen elkaar waar nodig en vinden het belangrijk dat iedereen zich prettig voelt binnen het team.\n\n**Wat ga je bij ons doen?**\n\nJe zorgt er samen met je collega's voor dat het magazijn goed draait en dat bestellingen netjes en op tijd worden verwerkt.\n\nJe werkzaamheden bestaan onder andere uit:\n\n* Het ontvangen, controleren en op de juiste plek zetten van binnenkomende goederen.\n* Het verzamelen, inpakken en verzendklaar maken van bestellingen.\n* Het opnieuw verpakken, labelen en stickeren van producten.\n* Het netjes en opgeruimd houden van het magazijn.\n\nJe werkt voornamelijk zelfstandig in het magazijn. Natuurlijk word je goed ingewerkt en kun je altijd bij je collega's terecht als je vragen hebt.\n\n**Dit vind jij leuk om te doen**\n\n* Lekker praktisch bezig zijn en je handen uit de mouwen steken.\n* Zorgen dat producten op de juiste plek staan en bestellingen netjes worden ingepakt.\n* Zelfstandig werken en je eigen werkzaamheden oppakken.\n* Werken in een klein team waarin iedereen zijn steentje bijdraagt.\n\n**Hier herken jij jezelf in**\n\n* Je bent op zoek naar een vaste parttime baan en bent doordeweeks overdag beschikbaar.\n* Je bent betrouwbaar en hebt verantwoordelijkheidsgevoel.\n* Je werkt nauwkeurig en kunt geconcentreerd bezig zijn.\n* Ervaring met magazijnwerk of logistieke processen is mooi meegenomen, maar zeker geen vereiste. We leren je graag hoe alles werkt.\n* Je vindt het niet erg om af en toe ook eenvoudige werkzaamheden te doen, zoals producten stickeren, labelen en ompakken.\n* Je beheerst de Nederlandse taal goed, zowel mondeling als schriftelijk\n\n**Dit zoek jij verder in een baan**\n\n* Een salaris van **€2.700 bruto per maand** op basis van een 40-urige werkweek.\n* Een contract voor 12 tot 16 uur per week.\n* Vaste werkdagen en werktijden, in overleg af te spreken.\n* Reiskostenvergoeding.\n* Pensioenregeling.\n* Productkorting op ons assortiment.\n* Een klein en betrokken team waarin je je snel thuis voelt.\n* De mogelijkheid om je werkzaamheden op termijn uit te breiden als je dat leuk vindt en daar interesse in hebt.\n\n**Lijkt dit je wat? Dan horen we graag van je! Stuur ons je cv en vertel ons kort waarom deze functie je aanspreekt. Dat kan gewoon in een paar zinnen; een uitgebreide motivatiebrief is niet nodig.**\n\nSalaris: Vanaf €2.700,00 per maand\n\nArbeidsvoorwaarden:\n\n* Flexibele werkuren\n* Pensioen\n* Personeelskorting\n* Reiskostenvergoeding\n\nTaal:\n\n* Nederlands (Vereist)\n\nToestemming om in Nederland te werken:\n\n* Nederland (Vereist)\n\nWerklocatie: Fysiek",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Amsterdam-Zuidoost, NH, Netherlands",
+    "matched_keywords": [
+      "ett",
+      "magazijnmedewerker",
+      "magazijnwerk"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 62,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-508a77d12f00923c",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Amsterdam-Zuidoost, NH, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "MAGAZIJNMEDEWERKER – Greenhub – Amsterdam (12 - 16 uur p/wk)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "7773cf5cd8377cf1",
+    "url": "https://nl.indeed.com/viewjob?jk=508a77d12f00923c",
     "url_provenance": "",
     "url_verified": null
   },
@@ -107861,8 +108306,8 @@
     },
     "company": "TEEAL - Робота в Польщі",
     "country": "PL",
-    "description": "➡️ Упаковщик чипсов, PEPSICO FRITO LAY\nПриезды (10.11.26 - 1 жен)\n🚈 05-825 Grodzisk Mazowiecki, Zachodnia 1\n👩 Для женщин до 55 лет\n📄 Любой тип документов\n💰 Ставка 4806.00 PLN брутто/месяц\n🕒 Рабочих часов в месяц  160-172\nhttps://teeal.pl/?p=132",
-    "detail_fetched_at": "2026-11-09",
+    "description": "➡️ Упаковщик чипсов, PEPSICO FRITO LAY\nПриезды (09.12.26 - 4 жен)\n🚈 05-825 Grodzisk Mazowiecki, Zachodnia 1\n👩 Для женщин до 55 лет\n📄 Любой тип документов\n💰 Ставка 4806.00 PLN брутто/месяц\n🕒 Рабочих часов в месяц  160-172\nhttps://teeal.pl/?p=132",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-09",
@@ -107870,7 +108315,7 @@
     "languages": [
       "ru"
     ],
-    "last_seen": "2026-11-09",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -107881,7 +108326,7 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-09",
+    "posted_date": "2026-11-24",
     "score": 44,
     "signals": [
       "unskilled_role_match",
@@ -107889,7 +108334,7 @@
       "fresh_posting"
     ],
     "source": "telegram_teealpl",
-    "source_id": "teealpl/48033",
+    "source_id": "teealpl/48562",
     "source_review": {},
     "summary_ar": "",
     "title": "➡️ Упаковщик чипсов, PEPSICO FRITO LAY",
@@ -107897,7 +108342,7 @@
     "title_en": "",
     "translated": false,
     "uid": "7b129e9e761934d1",
-    "url": "https://t.me/teealpl/48033",
+    "url": "https://t.me/teealpl/48562",
     "url_provenance": "",
     "url_verified": null
   },
@@ -109609,7 +110054,7 @@
     "last_seen": "2026-11-03",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "Linz, O, Austria",
@@ -110394,8 +110839,8 @@
     },
     "company": "Poland Work Portal",
     "country": "PL",
-    "description": "🔥Біля міста Піла та недалеко Бидгощ🔥\nРобота по 8 годин, БЕЗ НІЧНИХ!\n👉🏻Шукаємо людей на ЗБІР ГРИБІВ (на сортування не шукаємо)\nВиходи відбуваються по середах:\n02.12 - 👉🏻12 жінок\n09.12 - 10 жінок \n👉🏻Приїзд на оформлення в м. Бидгощ. Зустрінемо та поселимо!\nПриїзд вже, бо результати аналізів чекати від 5-7 днів!\n➡️Збирання грибів в м.Borucino🍄‍🟫🍄‍🟫\nМісце роботи: Borucino \nМісце проживання: Borucino \nПрацевлаштування:  umowa zlecenie\n✅Заробітна плата:\nЗбір грибів:\n👉🏻Гарантована ставка: 27.46 zł/нетто/год\nДля студентів: 34.00 zł нетто/год.\n+150 zł brutto за вихід у святкові дні.\nПремія за перевиконання норми!\n👉🏻Сортування грибів:\nГарантована ставка: 28.27 zł/нетто/год\nДля студентів: 35.00 zł нетто/год.\n+150 zł brutto за вихід у святкові дні.\nВиплати: Регулярно, з 15 по 20 число кожного місяця. \n✅Збір грибів:\nРучний збір грибів та виконання інших доручень керівника.\nПідтримання чистоти та порядку на робочому місці.\nВикористання наданого обладнання відповідно до його призначення.\nВиконання завдань згідно з вимогами стандартів якості.\nДотримання правил охорони праці та техніки безпеки.\nСортування грибів:\nВиконання ручних транспортних робіт під час обслуговування сортувальної лінії.\nПоповнення подавачів упаковки порожніми ящиками.\nСпорожнення ящиків із відходами.\nПідтримання чистоти та порядку на робочому місці й навколо нього.\n✅Робочий графік:  \nРобота з понеділка по неділю\n6 днів на тиждень\nПо 8 годин, 2 зміни\nПерша зміна: 06:00 - 14:00\nДруга зміна: 14:00 - 22:00\nПерерва 30 хв.\n✅Проживання:  \nВартість проживання: 600 zł на місяць, вираховується із зарплати.  \nПостільну білизну та посуд - мати власні!\n✅Транспорт:   \nБезкоштовний доїзд від закладу\n✅Додаткова інформація: \nПриїзд на оформлення в м.Бидгощ\nМедичний огляд за рахунок фірми.\nАналізи приймають з пн. по ср. (час очікуванні результату від 5 робочих днів)!\nБез результатів немає можливості почати роботу!\nТемпература +14 до +24С\nПісля 2.5 місяців роботи починають міряти норму, 26-27 кг за годину.\nНа підприємстві надають спеціальне робоче взуття та халат. Інший робочий одяг - власний.\nНе допускається манікюр, штучні нігті та довгі натуральні нігті.\nВисота стелажів на робочому місці — до 3 метрів.\n\n✔️Кристина: \n+380936408993 телефон и viber",
-    "detail_fetched_at": "2026-11-23",
+    "description": "🔥Біля міста Піла та недалеко Бидгощ🔥\nРобота по 8 годин, БЕЗ НІЧНИХ!\n👉🏻Шукаємо людей на ЗБІР ГРИБІВ (на сортування не шукаємо)\nВиходи відбуваються по середах:\n◌ 12 жінок (можуть бути 2 сімейні пари)\nВихід 2 грудня\n\n◌ 10 жінок (може бути 1 сімейна пара)\nВихід 9 грудня\n👉🏻Приїзд на оформлення в м. Бидгощ. Зустрінемо та поселимо!\nПриїзд вже, бо результати аналізів чекати від 5-7 днів!\n➡️Збирання грибів в м.Borucino🍄‍🟫🍄‍🟫\nМісце роботи: Borucino \nМісце проживання: Borucino \nПрацевлаштування:  umowa zlecenie\n✅Заробітна плата:\nЗбір грибів:\n👉🏻Гарантована ставка: 27.46 zł/нетто/год\nДля студентів: 34.00 zł нетто/год.\n+150 zł brutto за вихід у святкові дні.\nПремія за перевиконання норми!\n👉🏻Сортування грибів:\nГарантована ставка: 28.27 zł/нетто/год\nДля студентів: 35.00 zł нетто/год.\n+150 zł brutto за вихід у святкові дні.\nВиплати: Регулярно, з 15 по 20 число кожного місяця. \n✅Збір грибів:\nРучний збір грибів та виконання інших доручень керівника.\nПідтримання чистоти та порядку на робочому місці.\nВикористання наданого обладнання відповідно до його призначення.\nВиконання завдань згідно з вимогами стандартів якості.\nДотримання правил охорони праці та техніки безпеки.\nСортування грибів:\nВиконання ручних транспортних робіт під час обслуговування сортувальної лінії.\nПоповнення подавачів упаковки порожніми ящиками.\nСпорожнення ящиків із відходами.\nПідтримання чистоти та порядку на робочому місці й навколо нього.\n✅Робочий графік:  \nРобота з понеділка по неділю\n6 днів на тиждень\nПо 8 годин, 2 зміни\nПерша зміна: 06:00 - 14:00\nДруга зміна: 14:00 - 22:00\nПерерва 30 хв.\n✅Проживання:  \nВартість проживання: 600 zł на місяць, вираховується із зарплати.  \nПостільну білизну та посуд - мати власні!\n✅Транспорт:   \nБезкоштовний доїзд від закладу\n✅Додаткова інформація: \nПриїзд на оформлення в м.Бидгощ\nМедичний огляд за рахунок фірми.\nАналізи приймають з пн. по ср. (час очікуванні результату від 5 робочих днів)!\nБез результатів немає можливості почати роботу!\nТемпература +14 до +24С\nПісля 2.5 місяців роботи починають міряти норму, 26-27 кг за годину.\nНа підприємстві надають спеціальне робоче взуття та халат. Інший робочий одяг - власний.\nНе допускається манікюр, штучні нігті та довгі натуральні нігті.\nВисота стелажів на робочому місці — до 3 метрів.\n\n✔️Кристина: \n+380936408993 телефон и viber",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-19",
@@ -110403,7 +110848,7 @@
     "languages": [
       "uk"
     ],
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -110415,7 +110860,7 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-23",
+    "posted_date": "2026-11-24",
     "score": 50,
     "signals": [
       "unskilled_role_match",
@@ -110423,7 +110868,7 @@
       "fresh_posting"
     ],
     "source": "telegram_polandworkportal",
-    "source_id": "polandworkportal/32387",
+    "source_id": "polandworkportal/32425",
     "source_review": {},
     "summary_ar": "",
     "title": "🔥Біля міста Піла та недалеко Бидгощ🔥",
@@ -110431,7 +110876,7 @@
     "title_en": "",
     "translated": false,
     "uid": "7ebc475e15e23b73",
-    "url": "https://t.me/polandworkportal/32387",
+    "url": "https://t.me/polandworkportal/32425",
     "url_provenance": "",
     "url_verified": null
   },
@@ -110902,6 +111347,53 @@
     "translated": false,
     "uid": "7f449e17208e8bdb",
     "url": "https://recrutamento.homa.pt/jobs/8651209-operador-a-de-loja-sao-miguel-full-time"
+  },
+  "7f4559cd70d897ca": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Plzeňský Prazdroj",
+    "country": "CZ",
+    "description": "Kategorie: Výroba\n\nDruh pracovního poměru: Pracovní poměr na dobu určitou\n\nÚvazek: Plný pracovní úvazek\n\nLokalita: Frýdek-Místek\n\nPopis:\n\n**Charakteristika pozice:**\n\nChcete se podílet na výrobě sladu v pivovaru Radegast? Do našeho nošovického týmu hledáme kolegu / kolegyni na pozici Operátor výroby.\n\nHlavní činností operátora výroby je obsluha výrobního zařízení, souvisejících dopravních cest a další technologie na jednotlivých výrobních úsecích sladovny, především na úseku příjmu ječmene a leštění sladu pro varnu. Součástí práce je průběžná komunikace se specialistou nákupu ječmene, nákladní vrátnicí nebo laboratoří. Do pracovní náplně patří i úklid a čištění výrobních prostor a zařízení, odběr vzorků, provádění základních kvalitativních rozborů a měření, kontrola výrobního zařízení a dodržování nastavených činností dle denního plánu.\n\nJedná se o práci převážně na ranní směny, někdy i o víkendech, možné jsou ale i odpolední a noční směny.\n\nHledáme spolehlivého, samostatného a manuálně zručného kolegu / kolegyni do týmu sladovníků, kteří se velkou měrou podílejí na výrobě základní suroviny pro výrobu piva.\n\n  \n\n**Cíle (krátkodobý a dlouhodobý horizont):**\n\n* Zajištění plynulého provozu oddělení\n* Obsluha zařízení příjmu ječmene a leštění sladu, později i máčírny a souvisejících technologií\n* Ovládání zařízení přes řídící systém v PC, zápis provozních dat do informačních systémů sladovny\n* Odběr vzorků a měření základních kvalitativních parametrů\n* Kontrola a dodržování nastavených technologických procesů\n* Operativní řešení vzniklých poruch ve spolupráci s údržbou\n* Dodržování vnitřních pravidel, postupů a instrukcí v rámci střediska\n  \n\n**Požadavky:**\n\n* SOU, SŠ (obory potravinářství, sladařství, zemědělství výhodou)\n* Praxe v obsluze výrobních strojů v potravinářském/zemědělském průmyslu výhodou\n* Uživatelská znalost práce na PC (MS Office – Excel, Outlook, Teams, jednoduché zapisování dat do systému)\n* Manuální a technická zdatnost\n* Samostatnost, zodpovědnost, spolehlivost a pečlivost\n* Komunikativnost\n  \n\n**Na co se u nás můžeš těšit?**\n\n* 5 týdnů dovolené + další 2 dny na regeneraci.\n* 2 placené dny v roce na dobrovolnickou činnost.\n* Příspěvek na penzijní spoření nebo dlouhodobý investiční produkt – 20 400 Kč ročně.\n* Příležitosti ke kariérnímu posunu a rozvoji.\n* Případná práce nad rámec pracovní doby je vždy řádně proplacena.\n* Benefitní systém Cafeteria – výběr ze široké nabídky uplatnění (zdraví, sport, kultura, cestování a další oblasti).\n* Dotované stravování přímo v areálu a naše nealko nápoje zdarma.\n* Poukázky na nákup výrobků z portfolia Plzeňského Prazdroje, pro radost sobě i blízkým.\n* Asistenční program Lyra wellbeing – pro pomoc v nenadálých životních situacích (právo, finance, psychologie, zdraví a osobní pohoda).\n* Podporu pro maminky, nebo tatínky při dřívějším návratu z rodičovské dovolené.\n* Komplexní systém vzdělávání a rozvoje, včetně příspěvků na jazykové kurzy.\n* V Prazdroji platí \"kultura otevřených dveří.\" Brzy po nástupu zjistíš, že nebudeš muset sám/sama lovit v návodech.\n  \n\nSnažíme se vytvářet pracovní prostředí, které oslavuje a respektuje odlišnosti a podporuje každého, aby byl sám sebou! Ve společnosti Asahi Europe and International věříme, že můžete zazářit takoví, jací jste - bez ohledu na věk, pohlaví, etnickou příslušnost, sexuální orientaci, zdravotní postižení, náboženské vyznání nebo přesvědčení. Chceme vás povzbudit, abyste byli odvážní ve své individualitě a věděli, že ať jste kdokoli a v jakékoliv situaci, můžete někam patřit, aniž byste se museli přizpůsobovat.\n\nRequisition ID: 18035",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Frýdek-Místek, MO, Czech Republic",
+    "matched_keywords": [
+      "operator vyroby",
+      "uklid"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-23",
+    "score": 50,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-baedc58563afe0f7",
+    "source_review": {},
+    "summary_ar": "الموقع: Frýdek-Místek, MO, Czech Republic\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "OPERÁTOR/KA VÝROBY SLADOVNY PIVOVAR RADEGAST NOŠOVICE",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "7f4559cd70d897ca",
+    "url": "https://careersasahiinternational.jobs.hr.cloud.sap/PrazdrojCZ/job/Fr%C3%BDdek-M%C3%ADstek-OPER%C3%81TORKA-V%C3%9DROBY-SLADOVNY-PIVOVAR-RADEGAST-NO%C5%A0OVICE/1378189157/",
+    "url_provenance": "",
+    "url_verified": null
   },
   "7f61876586a0f6f4": {
     "apply_channels": {
@@ -113591,8 +114083,8 @@
     },
     "company": "Poland Work Portal",
     "country": "PL",
-    "description": "СКЛАД ОДЯГУ👕❤️ARVATO ZARA❤️👚 Безкоштовний доїзд з м. Лодзь, Гловно, Згеж\n👉🏻БЕРЕМО ВСІХ - чоловіки, жінки та пари на весь листопад\n👉🏻Молдова, Армения, Беларусь, Україна, граждан ЕВРОСОЮЗА (с русским языком)\n✅Місце роботи: Stryków \nМісце проживання:  Głowno (20 км від Łodzi) \nПрацевлаштування:  umowa zlecenie\n✅Заробітна плата:   \n👉🏻Для наших працівників які будуть працювати в період ‼️‼️‼️Підвищення ставки для працівників:\nВ період 23.11-10.12.2026\n‼️‼️Гарантована ставка: 30.69 zł нетто за годину \nДля студентів: 38.00 zł брутто/год\n+Додатково передбачені бонуси. \nВиплати: Регулярно, з 15 по 20 число кожного місяця. \n✅Обов‘язки: \nПрийом товару , перевірка його на брак, сканування штрих-кодів   \nПакування Інтернет-замовлень  \nЗбір одягу з терміналом , розкладання одягу з терміналом  \nПрийом або погрузка товару, процес для чоловіків  \n✅Робочий графік:  \nРобота по 8-12 годин на зміну.  \nЯкщо по 8 то графік:\nПерша зміна: 06:00-14:00\nДруга зміна: 14:00 - 22:00\nТретя зміна: 22:00 - 06:00\nЯкщо по 12 то графік:\nПерша зміна: 06:00 - 18:00.  \nДруга зміна: 18:00 - 06:00.  \nРобота 5-6 днів на тиждень, з оплачуваними перервами. \n✅Проживання:  \nКомфортні будинки обладнані всіма необхідними зручностями. \nВартість проживання: 650 zł на місяць, вираховується із зарплати.  \nПостільну білизну та посуд - мати власні!\n😍ФОТО ЖИТЛА: https://t.me/polandworkportal/30269?single\n😍Доплата за оренду власного житла: 1,5 zł за кожну відпрацьовану годину. (нараховується на окрему розрахункову карточку, якою можна оплачувати товари в магазинах і супермаркетах!)\n✅Транспорт:   \nБезкоштовний доїзд з м. Łódź, Згеж, Głowno. Зупинки: \n👉🏻https://t.me/polandworkportal/30171\n👉🏻https://t.me/polandworkportal/30172\n👉🏻https://t.me/polandworkportal/30173\n✅Додаткова інформація: \nНеобхідний власний робочий одяг.  \nТемпература в приміщенні: +20°C до +22°C. \nМІНІМАЛЬНИЙ ТЕРМІН ПРАЦЕВЛАШТУВАННЯ ВІД 3х МІСЯЦІВ\n\n✔️Кристина: \n+380936408993 телефон и viber",
-    "detail_fetched_at": "2026-11-19",
+    "description": "СКЛАД ОДЯГУ👕❤️ARVATO ZARA❤️👚 Безкоштовний доїзд з м. Лодзь, Гловно, Згеж\n👉🏻БЕРЕМО ВСІХ -  жінки  від зараз до 21.12\n👉🏻Молдова, Армения, Беларусь, Україна, граждан ЕВРОСОЮЗА (с русским языком)\n✅Місце роботи: Stryków \nМісце проживання:  Głowno (20 км від Łodzi) \nПрацевлаштування:  umowa zlecenie\n✅Заробітна плата:   \n👉🏻Для наших працівників які будуть працювати в період ‼️‼️‼️Підвищення ставки для працівників:\nВ період 23.11-10.12.2026\n‼️‼️Гарантована ставка: 30.69 zł нетто за годину \nДля студентів: 38.00 zł брутто/год\n+Додатково передбачені бонуси. \nВиплати: Регулярно, з 15 по 20 число кожного місяця. \n✅Обов‘язки: \nПрийом товару , перевірка його на брак, сканування штрих-кодів   \nПакування Інтернет-замовлень  \nЗбір одягу з терміналом , розкладання одягу з терміналом  \nПрийом або погрузка товару, процес для чоловіків  \n✅Робочий графік:  \nРобота по 8-12 годин на зміну.  \nЯкщо по 8 то графік:\nПерша зміна: 06:00-14:00\nДруга зміна: 14:00 - 22:00\nТретя зміна: 22:00 - 06:00\nЯкщо по 12 то графік:\nПерша зміна: 06:00 - 18:00.  \nДруга зміна: 18:00 - 06:00.  \nРобота 5-6 днів на тиждень, з оплачуваними перервами. \n✅Проживання:  \nКомфортні будинки обладнані всіма необхідними зручностями. \nВартість проживання: 650 zł на місяць, вираховується із зарплати.  \nПостільну білизну та посуд - мати власні!\n😍ФОТО ЖИТЛА: https://t.me/polandworkportal/30269?single\n😍Доплата за оренду власного житла: 1,5 zł за кожну відпрацьовану годину. (нараховується на окрему розрахункову карточку, якою можна оплачувати товари в магазинах і супермаркетах!)\n✅Транспорт:   \nБезкоштовний доїзд з м. Łódź, Згеж, Głowno. Зупинки: \n👉🏻https://t.me/polandworkportal/30171\n👉🏻https://t.me/polandworkportal/30172\n👉🏻https://t.me/polandworkportal/30173\n✅Додаткова інформація: \nНеобхідний власний робочий одяг.  \nТемпература в приміщенні: +20°C до +22°C. \nМІНІМАЛЬНИЙ ТЕРМІН ПРАЦЕВЛАШТУВАННЯ ВІД 3х МІСЯЦІВ\n\n✔️Кристина: \n+380936408993 телефон и viber",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-06",
@@ -113600,7 +114092,7 @@
     "languages": [
       "uk"
     ],
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -113612,7 +114104,7 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-19",
+    "posted_date": "2026-11-24",
     "score": 50,
     "signals": [
       "unskilled_role_match",
@@ -113620,7 +114112,7 @@
       "fresh_posting"
     ],
     "source": "telegram_polandworkportal",
-    "source_id": "polandworkportal/32340",
+    "source_id": "polandworkportal/32410",
     "source_review": {},
     "summary_ar": "",
     "title": "СКЛАД ОДЯГУ👕❤️ARVATO ZARA❤️👚 Безкоштовний доїзд з м. Лодзь, Гловно, Згеж",
@@ -113628,7 +114120,7 @@
     "title_en": "",
     "translated": false,
     "uid": "82d42d0f7ed1d105",
-    "url": "https://t.me/polandworkportal/32340",
+    "url": "https://t.me/polandworkportal/32410",
     "url_provenance": "",
     "url_verified": null
   },
@@ -114773,32 +115265,33 @@
     },
     "company": "MediaMarkt",
     "country": "PL",
-    "description": "**Twoje zadania**\n-----------------\n\n**Twoje zadania**\n\n* Dbanie o pozytywne doświadczenia klientów MediaMarkt odbierających towar z magazynu,\n* Przyjmowanie dostaw, sprawdzaniem zgodności towaru z zamówieniem i przygotowaniem do sprzedaży,\n* Dbanie o prawidłowy obieg dokumentów logistycznych,\n* Magazynowanie towaru zgodnie ze standardem MediaMarkt.\n\n**Nasze wymagania**\n-------------------\n\n**Nasze wymagania**\n\nJesteś otwarty i zaangażowany? Nie musisz mieć doświadczenia – wystarczy, że jesteś uporządkowany, lubisz pracę fizyczną i masz wyobraźnię przestrzenną.\n\n**O nas**\n---------\n\nJesteśmy liderem rynku sprzedaży elektroniki w Polsce. Znasz nas doskonale, przez ostatnie 20 lat wyznaczaliśmy kierunek rozwoju branży i robimy to nadal. Dla Klientów jesteśmy przewodnikami po świecie technologii. Klient jest w centrum naszych działań, a jego satysfakcja to nasz wspólny cel.\n\n**Additional Benefits**\n-----------------------\n\n**Job Infos**\n-------------",
-    "detail_fetched_at": "2026-11-23",
+    "description": "**Czym się będziesz zajmować**\n------------------------------\n\n* Dbaniem o pozytywne doświadczenia klientów MediaMarkt odbierających towar z magazynu,\n* Przyjmowaniem dostaw, sprawdzaniem zgodności towaru z zamówieniem i przygotowaniem do sprzedaży,\n* Dbaniem o prawidłowy obieg dokumentów logistycznych,\n* Magazynowaniem towaru zgodnie ze standardem MediaMarkt.\n\n**Nasze wymagania**\n-------------------\n\nJesteś otwarty i zaangażowany? Nie musisz mieć doświadczenia - wystarczy, że szybko się uczysz, interesują Cię nowe technologie i lubisz kontakt z ludźmi.\n\n  \n\n**Jesteśmy pracodawcą równych szans** - zachęcamy do współpracy również osoby z niepełnosprawnościami.\n\n  \n\n**Proponujemy** **elastyczne formy zatrudnienia** , takie jak umowa o pracę na część etatu lub umowa zlecenie.\n\n**O nas**\n---------\n\nJesteśmy liderem rynku sprzedaży elektroniki w Polsce. Znasz nas doskonale, przez ostatnie 25 lat wyznaczaliśmy kierunek rozwoju branży i robimy to nadal. Dla Klientów jesteśmy przewodnikami po świecie technologii. Klient jest w centrum naszych działań, a jego satysfakcja to nasz wspólny cel.\n\n  \n\nNajlepsze rozwiązania powstają, gdy spotykają się różne perspektywy. Różnorodność jest kluczem do osiągnięcia naszej wizji, aby stać się Mistrzem Doświadczeń w Elektronice Użytkowej. Cenimy różnorodność, promujemy równe szanse i wspieramy integrację - dołącz do naszego zespołu!\n\n**Additional Benefits**\n-----------------------\n\n**Job Infos**\n-------------\n\nLocation: Tychy\n\nMedia Markt Tychy\n\nDepartment: Sklep - Logistyka\n\nEntrylevel: Absolwenci\n\nType of Employement: Cały Etat\n\nWorking Hours: 40\n\nPersona: Job Requisition Store Employee\n\nRecruiter:\n\nRecruiter: Katarzyna Agnieszka Gilewska",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-04",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
     },
-    "location": "Mierzyn, ZA, Poland",
+    "location": "Tychy, SL, Poland",
     "matched_keywords": [
       "magazynier"
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-04",
-    "score": 34,
+    "posted_date": "2026-11-24",
+    "score": 44,
     "signals": [
       "unskilled_role_match",
-      "tier_1_country"
+      "tier_1_country",
+      "fresh_posting"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-e6df70faea059bb7",
+    "source_id": "in-06a5ff084db93534",
     "source_review": {},
     "summary_ar": "",
     "title": "Magazynier - Specjalista (m/k) ds. Logistyki",
@@ -114806,7 +115299,7 @@
     "title_en": "",
     "translated": false,
     "uid": "843e6ec7584fb60f",
-    "url": "https://careers.mediamarktsaturn.com/job-invite/101039/?locale=de_DE",
+    "url": "https://careers.mediamarktsaturn.com/job-invite/101409/?locale=de_DE",
     "url_provenance": "",
     "url_verified": null
   },
@@ -116465,7 +116958,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "Poštorná, JM, Czech Republic",
@@ -116792,6 +117285,67 @@
     "translated": false,
     "uid": "8678261fd4521202",
     "url": "https://emea3.recruitmentplatform.com/tlk/pages/fo/advert/details.jsp?nPostingTargetId=305919&id=P54FK026203F3VBQB68V4V7TE&LG=PL&languageSelect=PL&source=Indeed&sType=Indeed+Organic",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "867ebffcc1c07dc7": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [
+        "+49 (0) 30 390815-0"
+      ],
+      "whatsapp_mentioned": false
+    },
+    "company": "FrischeParadies GmbH & Co. KG",
+    "country": "DE",
+    "description": "**Das Beste von allem.** Jeder, der Teil unserer Welt wird, wird auch ein Teil von uns und erfährt, was uns besonders macht. Was wir sind? Wir sind ein hochprofessioneller, leidenschaftlicher Haufen von foodbegeisterten Persönlichkeiten. Wir sind bunt, kreativ, lebhaft, kommunikativ, emotional und unermüdlich im Einsatz. Wir lieben Menschen, die, wie wir, mit Herz & Verstand bei der Sache sind. Wir führen unsere Idee einer wunderbaren Welt des Genusses für Gastronomie & Privatmenschen mit 9 Feinkostmärkten in Deutschland und 1 x auf Mallorca weiter zum Erfolg.\n\nWir sind ein Ort, an dem Persönlichkeit und Begeisterung mehr als der Lebenslauf zählen – und wir vertrauen darauf: **Dein Wissen veredelt!**\n\nWir suchen dich zur Verstärkung unseres Teams in **Berlin zum nächstmöglichen Zeitpunkt**. Deine Aufgabe ist es, dafür zu sorgen, dass unsere Waren immer schnell und präzise kommissioniert und für den Versand vorbereitet werden.\n\n### **Kommissionierer TK-Bereich (100% Nachtarbeit) - Quereinsteiger aufgepasst! (m/w/d)**\n\n#### **Das sind Deine Aufgaben:**\n\n* Unser Warenlager liegt ganz in deiner Hand\n* Mit prüfendem Blick und Know-how hältst du den Anspruch an unsere Lebensmittel auf höchstem Niveau und machst so unsere Kundinnen & Kunden glücklich\n* Du koordinierst, sortierst und buchst den Warenbestand und sorgst für einwandfreie Ware, die ankommt und unser Lager verlässt\n* Mit unseren Vorgaben ist es kein Problem für dich unsere eingehende Ware zu kommissionieren\n\n#### **Mit diesem Profil kannst du bei uns punkten:**\n\n* Du bist ein Profi auf dem Gebiet oder hast Lust und Engagement für einen Quereinstieg\n* Du brennst für hochwertige Lebensmittel\n* Du bringst dein Know-how, deine Persönlichkeit und deine Vision ein\n* Du bringst Erfahrung als Fachkraft für Lagerlogistik mit und weißt, was Du als Kommissionierer zu tun hast, Quereinsteiger sind willkommen\n* Vertretungsweise übernimmst du Fahrten zu unseren Kunden in und um Berlin mit unserem Auslieferungsfahrzeug (Sprinter), ein Führerschein Klasse B ist hierfür erforderlich\n* Mit deinem Können, deiner positiven Einstellung und deinem Charakter bist du ein wichtiges Teammitglied\n* Bereitschaft zur Nachtarbeit: Arbeitszeit 01:00-9:30 Uhr.\n\n#### **Das bieten wir dir:**\n\n* Personalrabatt | Lerne all unsere Niederlassungen kennen und nutze Einkaufskonditionen, die es sonst nirgends in der Branche gibt.\n* Weihnachtsgeld | Danke dir! Von Herzen gerne gibt es von uns ein Weihnachtsgeld.\n* Mitarbeiteressen | Du willst mittags was Vernünftiges auf dem Teller? Machen wir dir!\n* JobRad | Top-Konditionen! Hol dir dein Bike direkt vom Brutto-Gehalt.\n* JobTicket | Alle Wege führen ins Frischeparadies - für dich vergünstigt!\n* Corporate Benefits | Komm in den Genuss toller Rabatte bei unseren Partnern.\n* Massagen | Wo gibt’s denn sowas? 1 x im Monat kommt ein Masseur.\n* Altersvorsorge | Jetzt schon ans Alter denken? Klar! Wir unterstützen dich gerne.\n* Obstkorb | 2 x pro Woche gibt es lecker Obst frisch aus dem Markt für alle.\n* Weiterbildung | Kurse, Workshops, Seminare...? Wir ermöglichen es dir sehr gerne.\n* Eingebettet in einen großen Konzern, der uns viele Möglichkeiten bietet, fühlen wir uns wohl und sicher.\n* Ein hochprofessionelles, foodbegeistertes, tolerantes, buntes Team.\n\nDu hast Feuer gefangen und findest es spannend, uns kennenzulernen? Dann melde dich direkt bei uns mit einer Bewerbung, die uns begeistern wird, deinen Gehaltsvorstellungen und deinem möglichen Eintrittstermin - wir freuen uns auf dich.\n\nAnsprechpartner:  \nThomas Warmer\n\n**Niederlassung Berlin Prenzlauer Berg**  \nHermann-Blankenstein-Straße 48 | 10249 Berlin  \nFon: +49 (0) 30 390815-0",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [
+      {
+        "ar": "مُتحوّل مهني (مصطلح لمن يغيّر مجال عمله؛ الشروط تختلف من صاحب عمل لآخر)",
+        "en": "career changer (term used for applicants switching fields; conditions vary by employer)",
+        "term": "quereinsteiger"
+      },
+      {
+        "ar": "عامل تجهيز طلبيات",
+        "en": "order picker",
+        "term": "kommissionierer"
+      }
+    ],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Berlin, BE, Germany",
+    "matched_keywords": [
+      "ett",
+      "kommissionierer"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 56,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-d45175b9c0be8e48",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Berlin, BE, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Kommissionierer TK-Bereich (100% Nachtarbeit) - Quereinsteiger aufgepasst! (m/w/d)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "867ebffcc1c07dc7",
+    "url": "https://frischeparadies-karriere.dvinci-easy.com/de/jobs/71298/kommissionierer-tk-bereich-100-nachtarbeit-quereinsteiger-aufgepasst-mwd",
     "url_provenance": "",
     "url_verified": null
   },
@@ -118335,7 +118889,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "Bezau, V, Austria",
@@ -118708,13 +119262,13 @@
     "company": "SYNERGIE TEMPORARY HELP s.r.o.",
     "country": "CZ",
     "description": "Baví tě být v pohybu a hledáš stabilní práci, kde se nebudeš nudit? Přidej se k týmu našeho e-shopu! Budeš se podílet na přípravě objednávek, které putují přímo k zákazníkům. Nepotřebuješ žádné zkušenosti – všechno tě od začátku naučíme a kolegové ti vždy rádi pomohou. Čeká tě přátelský kolektiv, pravidelná výplata a žádné noční směny!\n\nCo budeš dělat?\n\n* Přijímat a ukládat zboží do skladu e-shopu\n* Vychystávat a balit objednávky pro zákazníky\n* Pracovat se skenerem – jeho ovládání tě naučíme\n* Připravovat zboží k expedici\n* Pomáhat s balením zásilek na balicí lince\n\nKoho hledáme?\n\n* Parťáka, který má chuť pracovat a učit se nové věci\n* Spolehlivého člověka, na kterého se můžeme spolehnout\n* Někoho, komu vyhovuje aktivní práce a nevadí mu být na nohou\n\nNa co se můžeš těšit?\n\n* Mzda 25 000 Kč + bonus až 5 500 Kč\n* Po 6 měsících navýšení bonusu o dalších 2 000 Kč\n* Práce bez nočních směn – pouze ranní a odpolední\n* Směny od pondělí do pátku: Ranní: 5:30–13:45, odpolední: 13:45–22:00\n* Jednou měsíčně přesčas v neděli s příplatkem +35 %\n* 25 dní dovolené – více času na odpočinek\n* Dotované stravování\n* Možnost kariérního posunu už během prvních měsíců\n* Dlouhodobá a stabilní práce s pravidelnou výplatou\n\nMísto výkonu práce: Ostrava-Hrušov\n\n  \n  \n\n**Benefity**\n------------\n\n* Dovolená navíc\n* Finanční bonusy a prémie\n* Možnost kariérního růstu\n* Firemní akce\n* Zálohy ze mzdy\n* Příspěvek na stravování\n* Závodní stravování\n* Občerstvení na pracovišti\n* Možnost parkování",
-    "detail_fetched_at": "2026-11-11",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-11",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -118727,7 +119281,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-10",
-    "score": 50,
+    "score": 43,
     "signals": [
       "unskilled_role_match",
       "tier_1_country",
@@ -122065,7 +122619,7 @@
     "last_seen": "2026-11-07",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -123322,11 +123876,11 @@
     "languages": [],
     "last_seen": "2026-11-23",
     "lifecycle": {
-      "deactivated_at": null,
-      "deactivation_reason": null,
-      "missed_runs": 1,
+      "deactivated_at": "2026-11-24T18:37:20+00:00",
+      "deactivation_reason": "not_seen_in_2_covered_runs",
+      "missed_runs": 2,
       "reactivations": 1,
-      "status": "active"
+      "status": "deactivated"
     },
     "location": "Székesfehérvár, FE, Hungary",
     "matched_keywords": [
@@ -128600,6 +129154,53 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "938a7f2330b348ab": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Rutteman",
+    "country": "NL",
+    "description": "Vacature Magazijnmedewerker Full-time bij Rutteman.\n\nHandelshuis W. Rutteman BV is een groothandel in de fietsenbranche, gespecialiseerd in de levering van banden voor fietsen (stads-, race- en mountainbike), bromfietsen en scooters, maar ook allerlei andere banden voor stepjes, rolstoelen, scootmobielen, kruiwagens, karretjes en dergelijke. Ons kantoor en magazijn zijn gevestigd in Bunnik.\n\nWij zijn op zoek naar een energieke collega in ons magazijn, in het bezit van een rijbewijs en bij voorkeur met heftruck-ervaring. De magazijnmedewerker verzamelt de orders van onze klanten en maakt deze verzendklaar. Daarnaast maakt het uitsorteren van de binnenkomende goederen onderdeel uit van het takenpakket van de magazijnmedewerker, evenals het bezorgen van bestellingen bij afnemers in de omgeving van Utrecht.\n\nWij bieden de nieuwe magazijnmedewerker een collegiale werkomgeving en een prima startsalaris. Op termijn behoort een vast dienstverband zeker tot de mogelijkheden.\n\nSoort dienstverband: Vaste baan\n\nSalaris: €15,50 - €16,50 per uur\n\nArbeidsvoorwaarden:\n\n* Kerstpakket\n* Reiskostenvergoeding\n\nLicentie/certificaat:\n\n* Heftruckcertificaat (Gewenst)\n\nWerklocatie: Fysiek",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Bunnik, UT, Netherlands",
+    "matched_keywords": [
+      "magazijnmedewerker",
+      "sorter"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 50,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-9527418c0bb3d568",
+    "source_review": {},
+    "summary_ar": "الموقع: Bunnik, UT, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Magazijnmedewerker (Full-time)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "938a7f2330b348ab",
+    "url": "https://nl.indeed.com/viewjob?jk=9527418c0bb3d568",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "93a9de6bfa8311e6": {
     "apply_channels": {
       "emails": [],
@@ -129415,6 +130016,52 @@
     "translated": false,
     "uid": "946b26c1c3cf1b75",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTExMTktNDk4MzAyNjk3Ny1TIDE?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "9475b3f07df0283e": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Ype Kramer Autocentrum BV",
+    "country": "NL",
+    "description": "Vacature: Zaterdaghulp magazijn – Leeuwarden\n\nBen jij op zoek naar een leuke en actieve bijbaan op zaterdag? Weet je van aanpakken en kun je goed zelfstandig werken? Dan zijn wij op zoek naar jou!\n\nVoor onze vestiging van **AllParts Ype Kramer Automaterialen in Leeuwarden** zoeken wij een enthousiaste zaterdaghulp. Na een inwerkperiode ben je op zaterdag zelfstandig verantwoordelijk voor de magazijnwerkzaamheden.\n\nWat ga je doen?\n\n* Controleren en verwerken van binnenkomende goederen.\n* Inruimen van automaterialen in het magazijn.\n* Uitvoeren van diverse opruimwerkzaamheden.\n* Helpen met het verzamelen van klantorders (orderpicken).\n* Zorgen voor een netjes en overzichtelijk magazijn.\n\nWie zoeken wij?\n\n* Je bent enthousiast, betrouwbaar en weet van aanpakken.\n* Je kunt zelfstandig en nauwkeurig werken.\n* Je hebt verantwoordelijkheidsgevoel en ziet zelf waar werk ligt.\n* Je bent iedere zaterdag beschikbaar van 08:00 tot 16:00 uur.\n\nWat bieden wij?\n\n* Een afwisselende bijbaan met zelfstandigheid en verantwoordelijkheid.\n* Een marktconform salaris.\n* Een gezellig team en een informele werksfeer.\n* De mogelijkheid om tijdens vakanties extra te werken.\n\nInteresse?\n\nLijkt het jou leuk om bij ons aan de slag te gaan? Neem dan contact met ons.\n\nSalaris: Tot €15,00 per uur\n\nVerwacht aantal uur: Niet minder dan 7.0 per week\n\nWerklocatie: Fysiek",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Leeuwarden, FR, Netherlands",
+    "matched_keywords": [
+      "magazijnwerk"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-8c8d2a059006804a",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Zaterdaghulp magazijn – Leeuwarden",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "9475b3f07df0283e",
+    "url": "https://nl.indeed.com/viewjob?jk=8c8d2a059006804a",
     "url_provenance": "",
     "url_verified": null
   },
@@ -130457,6 +131104,53 @@
     "translated": false,
     "uid": "961f12a68227fe1a",
     "url": "https://careers.fedex.com/magazynier-kierowca-wózka-widłowego-k-m/job/9632AE835544C52D1D73091D8B410821?utm_domicile=unspecified&utm_persona=unspecified&utm_trackedsource=srm_indeed_org&utm_subco=FECEU",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "962aade4ffa47cfb": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "ALPHA FLIGHT a.s.",
+    "country": "CZ",
+    "description": "**Jaká práce by Vás u nás čekala:**\n-----------------------------------\n\n* práce v provoze cateringové společnosti\n* kontrola skladových zásob, pravidelné provádění inventur\n* kompletace vozíků se zbožím, nápoji a vybavení do odbavovaných letadel.\n\n**Jaký by měl být pracovník, kterého hledáme?**\n-----------------------------------------------\n\n* schopný spolupracovat při práci s ostatními kolegy\n* ochotný učit se novým věcem\n* samostatný, zodpovědný, pečlivý\n\n**Než odpovíte, zamyslete se, jestli skutečně:**\n\n* jste trestně bezúhonní?\n* jste manuálně zruční a fyzicky zdatní?\n\n**Co Vám můžeme nabídnout:**\n----------------------------\n\n* zajímavou práci v atraktivním prostředí Letiště Václava Havla\n* získání cenných profesních zkušeností z oblasti leteckého cateringu a mezinárodní společnosti\n* odpovídající mzdové ohodnocení\n\n* nástup dle domluvy\n* možnost dlouhodobé spolupráce\n* práci v přátelském kolektivu\n* stravenkový paušál v maximální výši stanovené zákonem\n* využívání systému cafeterie\n* kartu Multisport\n* zaměstnanecké letenky pro Vás a Vaše blízké\n* výuku anglického jazyka v rámci pracovní doby\n* po 1 roce příspěvek na penzijní připojištění\n* odměny při pracovních a životních jubileích\n* samozřejmostí je zaučení, kdy Vám věnujeme dostatek času vše nové vstřebat a naučit se vše potřebné\n* práci ve společnosti, která klade maximální důraz na bezpečnost\n\n  \n  \n\n**Benefity**\n------------\n\n* Dovolená navíc\n* Vzdělávací kurzy\n* Kafetérie\n* Slevy na firemní zboží\n* Příspěvek na sport\n* Příspěvek na stravování\n* Příspěvek na spoření a pojištění\n* Přátelské prostředí",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Praha, A, Czech Republic",
+    "matched_keywords": [
+      "kompletace",
+      "skladnik"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 50,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-e9a5358224d5909e",
+    "source_review": {},
+    "summary_ar": "الموقع: Praha, A, Czech Republic\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Skladník / operátor skladování v cateringové společnosti",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "962aade4ffa47cfb",
+    "url": "https://www.jenprace.cz/nabidka/zbbjt1/operator-ka-skladovani-v-cateringove-spolecnosti",
     "url_provenance": "",
     "url_verified": null
   },
@@ -133031,8 +133725,8 @@
     },
     "company": "Poland Work Portal",
     "country": "PL",
-    "description": "Мщонув, MSZCZONÓW🔥СКЛАД КОСМЕТИКИ 💄💄 \n‼️ потрібні чоловіки та жінки (пари на своєму житлі) з приїздом 16-19.11 з вмінням працювати зі сканером/комп'ютером.‼️\n✅Адрес: Tarczyńska 111, 96-320 Mszczonów, Польша\n✅Діяльність компанії: Склад, на якому зберігаються косметичні засоби.\n✅Завдяки новому логістичному центру були побудовані складські потужності для провідного європейського постачальника товарів для краси, чиї онлайн-продажі зростали в середньому більш ніж на 20 відсотків на рік протягом останніх п'яти років.\nЛогістичний центр буде оснащений високоавтоматизованими технологіями.\n✅Вимоги:\nСтать – чоловіки і жінки\nВік - 18-45 років\nДосвід роботи: мінімум 3 міс роботи на складі, досвід роботи зі сканером/комп'ютером\nПольську мову: A1-А2\nПриймаємо громадян:  України, Білорусії\n✅Заробітна плата та тип договору:\nТип договору - Umowa Zlecenie\n✅Ставка: 25,36 зл/ч нетто.\n‼️Ставка SUPPORT, если до 26 лет украинец - то будет ставка =  31,40 зл/ч нетто.\n‼️Ставка Support от 26 до 29 лет для украинца: 27,36 зл/ч нетто.\n➕Премії працівникам – до 900 злотих брутто за виконання норми\nЗарплата до 15 числа кожного місяця.\n✅Графік: 5-7 днів на тиждень, по 8-12 годин. Вихідні плаваючі.\nПерерви – 20 хвилин при 8-годинній зміні, при 12-годинній зміні 1 перерва на 20 хв. 2-15 хв.\nграфик может быть и по 8 и по 12 часов. \nПо 8 обычный должен быть 6-14/14-22/22-6 \nПо 12 6-18/18-6\nНо точнее координатор получает от склада и передает\n✅Проживання - комунальні послуги 680 злотих нетто.\n✅Доплата за своє житло - 1,50 zł netto/h, на окрему картку, якою можна здійснювати покупки в магазинах, вона видається безкоштовно за рахунок фірми.\n☝🏻Як дістатися до роботи:\n✅Зупинки:\nTrasa Żyrardów – Mszczonów:\nŻyrardów, ul. 1 Maja przy sklepie Carrefour\nŻyrardów, ul. Mickiewicza przy sklepie Biedronka\nTrasa Rawa Mazowiecka – Mszczonów:\nRawa Maz. - Sąd, ul. Kościuszki,\nRawa Maz. - ul. Jerozolimska,\nBabsk trasa;\nKowiesy;\n✅Обов'язки:\nпроцеси PICK, Pack, wysyłka\nPICK - збір замовлення із сканером по локалізаціях\nPack - робота з компютером, пакування товару згідно замовлення\n✅Додаткова інформація:\nРобочий одяг надається, а саме – жилет та комфортні робочі черевики (за зручні, комфортні робочі черевики – вираховується 50 злотих із заробітної плати)\n🍩Їдальня - автоматів з їжею та напоями в даний момент немає, є , мікрохвильова піч, чайник, холодильник.\n\n✔️Вероника: \n+48791123543 только viber",
-    "detail_fetched_at": "2026-11-16",
+    "description": "Мщонув, MSZCZONÓW🔥СКЛАД КОСМЕТИКИ 💄💄 \n‼️ потрібні чоловіки та жінки (пари на своєму житлі) з приїздом 24-30.11 з вмінням працювати зі сканером/комп'ютером.‼️\n✅Адрес: Tarczyńska 111, 96-320 Mszczonów, Польша\n✅Діяльність компанії: Склад, на якому зберігаються косметичні засоби.\n✅Завдяки новому логістичному центру були побудовані складські потужності для провідного європейського постачальника товарів для краси, чиї онлайн-продажі зростали в середньому більш ніж на 20 відсотків на рік протягом останніх п'яти років.\nЛогістичний центр буде оснащений високоавтоматизованими технологіями.\n✅Вимоги:\nСтать – чоловіки і жінки\nВік - 18-45 років\nДосвід роботи: мінімум 3 міс роботи на складі, досвід роботи зі сканером/комп'ютером\nПольську мову: A1-А2\nПриймаємо громадян:  України, Білорусії\n✅Заробітна плата та тип договору:\nТип договору - Umowa Zlecenie\n✅Ставка: 25,36 зл/ч нетто.\n‼️Ставка SUPPORT, если до 26 лет украинец - то будет ставка =  31,40 зл/ч нетто.\n‼️Ставка Support от 26 до 29 лет для украинца: 27,36 зл/ч нетто.\n➕Премії працівникам – до 900 злотих брутто за виконання норми\nЗарплата до 15 числа кожного місяця.\n✅Графік: 5-7 днів на тиждень, по 8-12 годин. Вихідні плаваючі.\nПерерви – 20 хвилин при 8-годинній зміні, при 12-годинній зміні 1 перерва на 20 хв. 2-15 хв.\nграфик может быть и по 8 и по 12 часов. \nПо 8 обычный должен быть 6-14/14-22/22-6 \nПо 12 6-18/18-6\nНо точнее координатор получает от склада и передает\n✅Проживання - комунальні послуги 680 злотих нетто.\n✅Доплата за своє житло - 1,50 zł netto/h, на окрему картку, якою можна здійснювати покупки в магазинах, вона видається безкоштовно за рахунок фірми.\n☝🏻Як дістатися до роботи:\n✅Зупинки:\nTrasa Żyrardów – Mszczonów:\nŻyrardów, ul. 1 Maja przy sklepie Carrefour\nŻyrardów, ul. Mickiewicza przy sklepie Biedronka\nTrasa Rawa Mazowiecka – Mszczonów:\nRawa Maz. - Sąd, ul. Kościuszki,\nRawa Maz. - ul. Jerozolimska,\nBabsk trasa;\nKowiesy;\n✅Обов'язки:\nпроцеси PICK, Pack, wysyłka\nPICK - збір замовлення із сканером по локалізаціях\nPack - робота з компютером, пакування товару згідно замовлення\n✅Додаткова інформація:\nРобочий одяг надається, а саме – жилет та комфортні робочі черевики (за зручні, комфортні робочі черевики – вираховується 50 злотих із заробітної плати)\n🍩Їдальня - автоматів з їжею та напоями в даний момент немає, є , мікрохвильова піч, чайник, холодильник.\n\n✔️Вероника: \n+48791123543 только viber",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-16",
@@ -133040,7 +133734,7 @@
     "languages": [
       "uk"
     ],
-    "last_seen": "2026-11-16",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -133053,7 +133747,7 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-16",
+    "posted_date": "2026-11-24",
     "score": 62,
     "signals": [
       "unskilled_role_match",
@@ -133062,7 +133756,7 @@
       "fresh_posting"
     ],
     "source": "telegram_polandworkportal",
-    "source_id": "polandworkportal/32311",
+    "source_id": "polandworkportal/32417",
     "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Мщонув, MSZCZONÓW🔥СКЛАД КОСМЕТИКИ 💄💄",
@@ -133070,7 +133764,7 @@
     "title_en": "",
     "translated": false,
     "uid": "99255e1e708e7c85",
-    "url": "https://t.me/polandworkportal/32311",
+    "url": "https://t.me/polandworkportal/32417",
     "url_provenance": "",
     "url_verified": null
   },
@@ -133804,13 +134498,13 @@
     "company": "RWG Germany GmbH",
     "country": "DE",
     "description": "Wir suchen\n\n**Produktionshelfer Waschanlage (m/w/d) - Luftfahrtbranche**\n============================================================\n\nHöchstadt an der Aisch\n\nDie RWG ist ein internationaler Anbieter anspruchsvoller, hochgenauer, technischer Produkte und Dienstleistungen fokussiert auf die Luftfahrt.\n\nUnser Bereich Gelenklager/Pressen steht für präzise, zuverlässige und qualitätsorientierte Produktion. Zur Verstärkung unseres Teams suchen wir einen engagierten Produktionshelfer (m/w/d), der unsere Fertigungsprozesse aktiv unterstützt und maßgeblich zur Qualität unserer Produkte beiträgt.\n\n**Dein Verantwortungsbereich:**\n-------------------------------\n\n* Bestücken und Bedienen der Waschanlage\n* Dokumentation des Arbeitsfortschritts\n* Werkerselbstkontrolle zur Sicherstellung der Produktqualität\n* TPM-Wartung und Reinigung der Waschanlage\n* Unterstützung allgemeiner Produktionsprozesse bei Bedarf\n\n**Benefits:**\n-------------\n\n* Marktgerechte Vergütung und attraktive Schichtzulagen\n* Moderne und klimatisierte Arbeitsplätze - auch in der Produktion\n* Jährliches Gesundheitsbudget (300 Euro) im Rahmen der betrieblichen Krankenversicherung\n* Edenred Karte für steuerfreie Sachbezüge\n* Interne und externe Weiterbildungsmöglichkeiten\n* Mitarbeiter- Events (Sommerfest etc.)\n* Du-Kultur im gesamten Unternehmen\n* Urlaubs- und Weihnachtsgeld sowie Zuschuss zu baV und VWL\n* Jubiläumsprämien\n* Job-Rad\n* Moderne Kantine\n* Kostenloses Getränkeangebot\n* Betriebliches Gesundheitsmanagement z.B. Betriebsarzt, Gesundheitstage\n\n**Dein Profil:**\n----------------\n\n* Gute Deutschkenntnisse\n* Ausgeprägtes Qualitätsbewusstsein\n* Körperliche Belastbarkeit\n* Vorerfahrung in der Produktion von Vorteil\n* Schichtbereitschaft (Zweischichtbetrieb)\n* Quereinsteiger (m/w/d) willkommen\n* Bereitschaft zur Cross-Qualifikation\n\n**Unser Bewerbungsprozess:**\n----------------------------\n\n* Eingang der Bewerbung - Bestätigung über Erhalt\n* Prüfung deiner Unterlagen und Abgleich mit den Anforderungen für die Position\n* Rückmeldung - Einladung zum Kennenlernen\n* Schnuppertag - Kennenlernen des Teams und des Arbeitsumfelds\n* Vertragsangebot\n\nWir möchten den Bewerbungsprozess einfach und vertrauensvoll gestalten. Hierzu gehört eine **individuelle Terminvereinbarung** und **höchste Vertraulichkeit** im Hinblick auf Ihre Bewerbung.\n\n**Du passt zu uns? Dann bewirb dich jetzt!**\n--------------------------------------------",
-    "detail_fetched_at": "2026-11-18",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-18",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-18",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -133822,7 +134516,7 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-17",
-    "score": 44,
+    "score": 40,
     "signals": [
       "unskilled_role_match",
       "tier_1_country",
@@ -142089,6 +142783,57 @@
     "url_provenance": "",
     "url_verified": null
   },
+  "a3d4400dc3475dab": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [
+        "+48791123543"
+      ],
+      "whatsapp_mentioned": false
+    },
+    "company": "Poland Work Portal",
+    "country": "PL",
+    "description": "ЛОДЗЬ🔥потрібно 5 чоловіків з приїздом 24-27.11. Робота по 12 год, доплата за доїзд 13 зл брутто на день. \n➡️Bilplast – виробництво пластикових елементів для автомобільної промисловості.Оператор ливарних машин (машин для лиття пластмас)\n✅Місце роботи: ul. Jędrzejowska 85, Łódź\n✅Обов’язки:\nОбслуговування та контроль роботи ливарних машин для лиття пластмас.\nЗапуск та зупинка машин відповідно до виробничих інструкцій.\nКонтроль процесу лиття та якості виготовлених деталей.\nВиймання готових пластикових елементів із машин.\nПеревірка продукції на наявність дефектів.\nВиконання простих виробничих робіт та пакування готової продукції.\nДотримання виробничих стандартів і правил безпеки.\nПідтримання порядку на робочому місці.\n✅Вимоги:\nДосвід роботи на виробництві буде перевагою.\nВік – до 45 років.\nСтать – чоловіки.\nЗнання польської мови на рівні B1.\nПриймаємо громадян України, Білорусі – за запитом.\n✅Заробітна плата:\n✅Тип договору: Umowa Zlecenia.\n✅Ставка 33,00 zł брутто\\год\nЗарплата до 10 числа кожного місяця.\n✅Графік роботи:\n2 зміни: 06:00–18:00 / 18:00–06:00.\nРобота 5–6 днів на тиждень (понеділок–неділя, за графіком).\nПерерва – 20 хвилин.\n✅Проживання безкоштовне, оплата комунальних послуг – 500–650 zł на місяць, утримується із зарплати.\n✅Доплата за власне житло – 150 zł.\n✅Доплата за доїзд 13 zł за день\n✅Як доїхати до роботи: Міським транспортом, за власний рахунок.\n✅Робочий одяг: Надається роботодавцем: штани, футболка та робоче взуття.\n\n✔️Вероника: \n+48791123543 только viber",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [
+      "uk"
+    ],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "",
+    "matched_keywords": [
+      "виробництво",
+      "пакування"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 50,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "telegram_polandworkportal",
+    "source_id": "polandworkportal/32418",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "ЛОДЗЬ🔥потрібно 5 чоловіків з приїздом 24-27.11. Робота по 12 год, доплата за доїзд 13 зл брутто на день.",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "a3d4400dc3475dab",
+    "url": "https://t.me/polandworkportal/32418",
+    "url_provenance": "",
+    "url_verified": null
+  },
   "a3dfea5dda6991b3": {
     "apply_channels": {
       "emails": [],
@@ -142495,7 +143240,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "Berlin, BE, Germany",
@@ -145199,7 +145944,7 @@
     "last_seen": "2026-11-20",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -145454,7 +146199,7 @@
     "last_seen": "2026-11-09",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -147835,7 +148580,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -149071,7 +149816,7 @@
     "last_seen": "2026-11-15",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -149664,6 +150409,54 @@
     "translated": false,
     "uid": "acf508c1a84c979c",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY4ODItT1A1WjBSTjBQWkxUUUJKWi1TIDE?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "ad14cfc512698640": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [
+        "040/43205-396"
+      ],
+      "whatsapp_mentioned": false
+    },
+    "company": "Peter Mattfeld & Sohn GmbH",
+    "country": "DE",
+    "description": "**Peter Mattfeld & Sohn GmbH** ist ein in der 3. Generation geführtes **Familienunternehmen** mitten **im Herzen Hamburgs**. Wir sind ein **Lebensmittel – Import – Großhandel** und bestehen **seit über 75 Jahren**. Heute sorgen täglich alle Mitarbeiter für einen reibungslosen Geschäftsablauf. **Wir importieren Fleisch und Geflügel aus aller Welt** und **zerlegen Schweine- und Rindfleisch**. Außerdem produzieren wir **Lebensmittel – Convenience Artikel** - und betreiben einen **erfolgreichen Cash & Carry Markt**.\n\nZur Verstärkung unseres Teams suchen wir\n\n**Produktionshelfer im Bereich Fleisch (m/w/d)**\n\n**Unser Angebot**\n\n* Sie erhalten ein leistungsgerechtes Einkommen\n* Sie erhalten einen sicheren Arbeitsplatz mit Langzeitperspektive in einem Familienunternehmen\n* Sie erhalten eine gründliche Einarbeitung\n* Angenehme Arbeitsatmosphäre und Sozialleistungen, wie zum Beispiel das HVV-Jobticket\n* Wir bieten Ihnen einen modernen Arbeitsplatz direkt am S-Bahnhof Hamburg-Sternschanze\n* Möglichkeit zur Altersversorgung und / oder Berufsunfähigkeits-Versicherung\n* geregelte Arbeitszeiten von Montag bis Freitag\n* 30 Tage Urlaub\n* Genießen Sie bei uns eine flache Unternehmenshierarchie\n\n**Ihre Aufgaben**\n\n* Sie unterstützen unsere Mitarbeiter (m/w/d) in der Produktion und helfen beim Verpacken, Kommissionieren und Auszeichnen\n* Sie sorgen für saubere Geräte und Arbeitsplätze\n\n**Ihr Profil**\n\n* Sie bringen Berufserfahrung in der Fleischverarbeitung, -produktion, -verpackung oder eine entsprechende Qualifikation mit\n* Sie sind sicher im Umgang mit der deutschen Sprache in Wort und Schrift\n* Sie arbeiten gewissenhaft und achten zuverlässig auf die Einhaltung der Hygienevorschriften\n* Frische und Kälte ist für Sie kein Problem (Kältekleidung wird gestellt)\n\n**Sie sind interessiert?** Dann freut sich Frau Susanne Kross auf Ihre Bewerbung, gerne online über das Formular oder per E-Mail.\n\nPeter Mattfeld & Sohn GmbH\n\nLagerstraße 17\n\n20357 Hamburg\n\nTel.: 040/43205-396\n\nwww.mattfeld.de\n\nArt der Stelle: Vollzeit, Befristeter Vertrag\n\nBerufserfahrung:\n\n* Produktion: 1 Jahr (Wünschenswert)\n\nSprache:\n\n* Deutsch (Wünschenswert)\n\nZusatzqualifikation/Zertifikat:\n\n* Führerscheinklasse B (Wünschenswert)\n\nArbeitsort: Vor Ort",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Hamburg, HH, Germany",
+    "matched_keywords": [
+      "produktionshelfer"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-ce128cbf7f268041",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Produktionshelfer (m/w/d)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "ad14cfc512698640",
+    "url": "https://de.indeed.com/viewjob?jk=ce128cbf7f268041",
     "url_provenance": "",
     "url_verified": null
   },
@@ -152512,7 +153305,7 @@
     "last_seen": "2026-11-05",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "Vyšší Brod, JC, Czech Republic",
@@ -156102,7 +156895,7 @@
     "last_seen": "2026-11-15",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -158337,6 +159130,56 @@
     "translated": false,
     "uid": "b58bf07df3d0ba6c",
     "url": "https://pt.indeed.com/viewjob?jk=727cee79ef6dee38",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "b595fede00160cfc": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Ceness B.V.",
+    "country": "NL",
+    "description": "**Samenvatting**\n\nBij Ceness in Rosmalen werk je tussen sneakers, schoenen en kleding. Je maakt eenvoudige productfoto’s voor intern gebruik en helpt met het uitpakken, sorteren en inpakken van producten. De foto’s maak je met een telefoon volgens vaste instructies. Je werkt samen met een klein team in ons magazijn op bedrijventerrein Kruisstraat.\n\nDit is een bijbaan op oproepbasis. Het aantal uren wisselt per week, afhankelijk van de drukte en wat voor jou mogelijk is. Je geeft je beschikbaarheid door en we spreken vooraf samen af wanneer je werkt. Het werk is op wisselende doordeweekse dagen, overdag en tot ongeveer 19.00 uur. Hele dagen en dagdelen zijn in overleg mogelijk.\n\nJe krijgt een passend uurloon dat past bij je functie, leeftijd en ervaring.\n\n**Taken**\n\n* Eenvoudige productfoto’s maken volgens vaste instructies, voor interne registratie en controle.\n* Bestellingen verzamelen en controleren op de juiste artikelen, maten en aantallen.\n* Bestellingen zorgvuldig inpakken en klaarmaken voor verzending.\n* Binnengekomen dozen uitpakken en producten sorteren en opbergen.\n* De werkplek en het magazijn netjes en overzichtelijk houden.\n\n**Kwalificaties**\n\nJe werkt nauwkeurig, volgt instructies en komt afspraken na. Ook bij taken die zich herhalen, blijf je goed op details letten. Je vindt actief werk prettig en gaat zorgvuldig met de producten om.\n\nEen specifieke opleiding of eerdere ervaring met magazijnwerk is niet nodig: we leren je hoe het werkt. Interesse in schoenen en kleding is mooi meegenomen.\n\nReageer via Indeed met een korte introductie, je beschikbare dagen en tijden en wanneer je kunt beginnen. Een uitgebreide motivatiebrief is niet nodig.\n\nVerwacht aantal uur: 8.0 – 24.0 per week\n\nArbeidsvoorwaarden:\n\n* Pensioen\n* Reiskostenvergoeding\n\nWerklocatie: Fysiek",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Rosmalen, NB, Netherlands",
+    "matched_keywords": [
+      "ett",
+      "magazijnmedewerker",
+      "magazijnwerk",
+      "sorter"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 68,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-76bf18bed0e213d0",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Rosmalen, NB, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Magazijnmedewerker schoenen en kleding",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "b595fede00160cfc",
+    "url": "https://nl.indeed.com/viewjob?jk=76bf18bed0e213d0",
     "url_provenance": "",
     "url_verified": null
   },
@@ -167836,7 +168679,7 @@
     "last_seen": "2026-11-04",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "DEB25",
@@ -169503,6 +170346,54 @@
     "translated": false,
     "uid": "c3f166601e580068",
     "url": "https://arbetsformedlingen.se/platsbanken/annonser/31665450"
+  },
+  "c3fe2ca6cb04652d": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "TEEAL - Робота в Польщі",
+    "country": "PL",
+    "description": "➡️ MAFLOW CHEŁMEK UP Производство автокомпонентов\nмужчины /  жилье НЕ предоставляем\n🚈 Chełmek, Plac Kilińskiego 1\n👨👩 мужчин женщин\n📄 Любой тип документов\n💰 Ставка 4806 zł брутто / месяц + доплаты\n🕒 Рабочих часов в месяц 168\nhttps://teeal.pl/?p=51851",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [
+      "ru"
+    ],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "",
+    "matched_keywords": [
+      "производство"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 44,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "telegram_teealpl",
+    "source_id": "teealpl/48570",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "➡️ MAFLOW CHEŁMEK UP Производство автокомпонентов",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "c3fe2ca6cb04652d",
+    "url": "https://t.me/teealpl/48570",
+    "url_provenance": "",
+    "url_verified": null
   },
   "c406cc0f8da22b4b": {
     "apply_channels": {
@@ -171378,7 +172269,7 @@
     "last_seen": "2026-11-18",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -171410,6 +172301,53 @@
     "translated": false,
     "uid": "c6ab27c174172bd3",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTMyMTgtMjIxNTI2XzIwMjYtUyAx?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "c6abda4ab78a99d8": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "Metaltrade International s.r.o.",
+    "country": "CZ",
+    "description": "**O nás**\n---------\n\nJsme dynamicky se rozvíjející obchodní společnost s pracovním kolektivem 15-ti zaměstnanců s pevnou pozicí na trhu vázací a manipulační techniky. Do nového, moderního skladu s kapacitou 3000 paletovacích míst v Pozořicích, hledáme nové pracovníky na pozici skladník a skladník s průkazem VZV.\n\n**Místo výkonu práce:** ulice Holubická, Pozořice (okr. Brno-venkov)\n\n**Náplň práce:**\n----------------\n\n* Příjem a výdej zboží.\n* Příprava, balení a expedice objednávek.\n* Manipulace a kontrola zboží.\n* Skladové inventury.\n* Obsluha strojů (vysokozdvižné vozíky/retraky, ručně vedené a jiné)\n\n**Co od Vás očekáváme:**\n------------------------\n\n* Zodpovědnost, samostatnost, pozitivní přístup k práci.\n* Rutinní plnění zadaných pracovních úkolů ve stanoveném čase.\n* Schopnost obsluhovat skenery EAN a QR kódů.\n* Fyzická zdatnost – manipulace zboží o hmotnosti do 30kg.\n* Pracovní zkušenost - je výhodou, není podmínkou.\n\n**Co Vám můžeme nabídnout:**\n----------------------------\n\n* Přátelská a motivační atmosféra\n* **Práci na HPP**, jednosměnný provoz (Po-Pá)\n* **25 dnů dovolené**\n* Občerstvení na pracovišti\n* **Stravenkový paušál**\n* Příspěvek na **sport (Multisport karta)**\n* Příspěvek na **penzijní spoření**\n\nPokud Vás tato nabídka zaujala a chcete se stát součástí našeho týmu v Pozořicích, pošlete nám svůj životopis!\n\n  \n  \n\n**Benefity**\n------------\n\n* Dovolená navíc\n* Příspěvek na sport\n* Příspěvek na stravování\n* Příspěvek na spoření a pojištění\n* Přátelské prostředí",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Pozořice, JM, Czech Republic",
+    "matched_keywords": [
+      "baleni",
+      "skladnik"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-23",
+    "score": 50,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-97eda65f94f0f796",
+    "source_review": {},
+    "summary_ar": "الموقع: Pozořice, JM, Czech Republic\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Skladník (m/ž) – jednosměnný provoz bez víkendů v Pozořicích",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "c6abda4ab78a99d8",
+    "url": "https://www.jenprace.cz/nabidka/4m5ivk/skladnik-m-z-jednosmenny-provoz-bez-vikendu-v-pozoricich",
     "url_provenance": "",
     "url_verified": null
   },
@@ -174274,7 +175212,7 @@
     "last_seen": "2026-11-06",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -178050,7 +178988,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "Katsch an der Mur, ST, Austria",
@@ -180044,7 +180982,7 @@
     "last_seen": "2026-11-08",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -184969,14 +185907,14 @@
     },
     "company": "PREUSS GmbH",
     "country": "DE",
-    "description": "Unser Unternehmen gehört zur PREUSS Gruppe, die mit ca. 700 Beschäftigten in ganz Deutschland einer der führenden Anbieter für Rohrleitungsbau, Industrieanlagenbau und Rohrsanierung ist. Unsere operativen Gesellschaften stehen für technische Kompetenz, Zuverlässigkeit und partnerschaftliches Handeln - vom Tief- und Rohrleitungsbau bis hin zum kompletten Anlagenbau.\n\nDie PRT Rohrtechnik Berlin-Brandenburg GmbH ist seit über 20 Jahren erfolgreich in den Bereichen Anlagen- und Fernwärmebau sowie im Industrie- und erdverlegten Rohrleitungsbau tätig. Als mittelständisches Unternehmen mit mehr als 80 Mitarbeitenden sind wir zuverlässiger Partner der Berliner und Brandenburger Energie- und Wärmeversorger, vieler kommunaler Stadtwerke und der Industrie.\n\nDieser Job ist garantiert KI-sicher – denn echtes Handwerk braucht Herz, Verstand und anpackende Hände.\n\nFür unser Team in Berlin suchen wir einen\n\nLagerist / Lagerarbeiter / Lagerhelfer (w/m/d)\n\n### **Sie kümmern sich um**\n\n* Annahme von Material, z. B. Rohr, Formteile, Armaturen\n* Kommissionieren der Materialien\n* Einlagerung nach Lagerplatzvorgabe\n* Transport der Materialien auf Baustellen\n\n### **Sie bringen mit**\n\n* Körperliche Belastbarkeit (Heben und Tragen von Materialien)\n* Erfahrung im Lager, auch branchenfremd, ist vorteilhaft\n* Idealerweise Staplerschein\n* **Führerscheinklasse B ist unbedingt erforderlich**\n* Bereitschaft zum mittelfristigen Erwerb des Lkw-Führerscheins\n* Zuverlässigkeit und Verantwortungsbewusstsein\n* Gute Deutschkenntnisse in Wort und Schrift sind Voraussetzung\n\n### **Wir bieten Ihnen**\n\n* Ein kollegiales Betriebsklima ist bei uns keine Worthülse\n* Attraktive Vergütung\n* Eigener Fuhrpark im Unternehmen vorhanden\n* Eine berufliche und private Unfallversicherung vom ersten Tag an\n* Bikeleasing\n\nSie arbeiten gerne im kompetenten Team mit interessanten Aufgaben und kurzen Entscheidungswegen? Dann ist diese Stelle wie für Sie gemacht.\n\nHaben wir Ihr Interesse geweckt?\n\nDann freuen wir uns auf Ihre Online-Bewerbung, die Sie bitte unter Angabe Ihrer frühesten Einsatzmöglichkeit und Ihrer Gehaltsvorstellung an uns senden.\n\nHier online bewerben\n\n#### **Ihr Ansprechpartner:**\n\nPRT Rohrtechnik Berlin-Brandenburg GmbH\n  \nStraße 10 Nr. 5\n  \n13059 Berlin\n  \n  \nTel.: 030 / 962 720-90\n  \n  \n**Gezielt durchdacht.**\n  \n**Sicher gemacht.**\n\nEin Unternehmen der\n  \n**PREUSS GRUPPE**\n\nwww.preuss-gruppe.de\n\nWeiterempfehlen:",
-    "detail_fetched_at": "2026-11-23",
+    "description": "Unser Unternehmen gehört zur PREUSS Gruppe, die mit ca. 700 Beschäftigten in ganz Deutschland einer der führenden Anbieter für Rohrleitungsbau, Industrieanlagenbau und Rohrsanierung ist. Unsere operativen Gesellschaften stehen für technische Kompetenz, Zuverlässigkeit und partnerschaftliches Handeln - vom Tief- und Rohrleitungsbau bis hin zum kompletten Anlagenbau.\n\nDie PRT Rohrtechnik Berlin-Brandenburg GmbH ist seit über 20 Jahren erfolgreich in den Bereichen Anlagen- und Fernwärmebau sowie im Industrie- und erdverlegten Rohrleitungsbau tätig. Als mittelständisches Unternehmen mit mehr als 80 Mitarbeitenden sind wir zuverlässiger Partner der Berliner und Brandenburger Energie- und Wärmeversorger, vieler kommunaler Stadtwerke und der Industrie.\n\nDieser Job ist garantiert KI-sicher – denn echtes Handwerk braucht Herz, Verstand und anpackende Hände.\n\nFür unser Team in Berlin suchen wir einen\n\n**Lagerist / Lagerarbeiter / Lagerhelfer (w/m/d)**\n==================================================\n\n### **Sie kümmern sich um**\n\n* Annahme von Material, z. B. Rohr, Formteile, Armaturen\n* Kommissionieren der Materialien\n* Einlagerung nach Lagerplatzvorgabe\n* Transport der Materialien auf Baustellen\n\n### **Sie bringen mit**\n\n* Körperliche Belastbarkeit (Heben und Tragen von Materialien)\n* Erfahrung im Lager, auch branchenfremd, ist vorteilhaft\n* Idealerweise Staplerschein\n* **Führerscheinklasse B ist unbedingt erforderlich**\n* Bereitschaft zum mittelfristigen Erwerb des Lkw-Führerscheins\n* Zuverlässigkeit und Verantwortungsbewusstsein\n* Gute Deutschkenntnisse in Wort und Schrift sind Voraussetzung\n\n### **Wir bieten Ihnen**\n\n* Ein kollegiales Betriebsklima ist bei uns keine Worthülse\n* Attraktive Vergütung\n* Eigener Fuhrpark im Unternehmen vorhanden\n* Eine berufliche und private Unfallversicherung vom ersten Tag an\n* Bikeleasing\n\nSie arbeiten gerne im kompetenten Team mit interessanten Aufgaben und kurzen Entscheidungswegen? Dann ist diese Stelle wie für Sie gemacht.\n\nHaben wir Ihr Interesse geweckt?\n\nDann freuen wir uns auf Ihre Online-Bewerbung, die Sie bitte unter Angabe Ihrer frühesten Einsatzmöglichkeit und Ihrer Gehaltsvorstellung an uns senden.\n\n#### **Ihr Ansprechpartner:**\n\nPRT Rohrtechnik Berlin-Brandenburg GmbH  \nStraße 10 Nr. 5  \n13059 Berlin  \n  \nTel.: 030 / 962 720-90  \n  \n**Gezielt durchdacht.**  \n**Sicher gemacht.**",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-23",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -184998,7 +185936,7 @@
       "fresh_posting"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-1dab80e090fdbb85",
+    "source_id": "in-25f09fcb1c27f8a3",
     "source_review": {},
     "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Berlin, BE, Germany\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
     "title": "Lagerist / Lagerarbeiter / Lagerhelfer (w/m/d)",
@@ -185006,7 +185944,7 @@
     "title_en": "",
     "translated": false,
     "uid": "d612c691a2019c2e",
-    "url": "https://preuss-gruppe.concludis.de/prj/shw/045752bc5c7f705cea3cc14c036c261c_0/5675/Lagerist_Lagerarbeiter_Lagerhelfer_w_m_d.htm?b=0",
+    "url": "https://preuss-gruppe.helixjobs.com/_/jobad?prj=2123P5675&loc=38",
     "url_provenance": "",
     "url_verified": null
   },
@@ -185189,7 +186127,7 @@
     "last_seen": "2026-11-14",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -188358,7 +189296,7 @@
     "last_seen": "2026-11-23",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T05:45:40+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -188821,7 +189759,7 @@
     "last_seen": "2026-11-16",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -195038,14 +195976,14 @@
     },
     "company": "LAMINTEX SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
     "country": "PL",
-    "description": "[search-result fields only] Umowa: Umowa o pracę na okres próbny; Oferta ważna do: 23.11.2026",
-    "detail_fetched_at": "2026-11-23",
+    "description": "[search-result fields only] Umowa: Umowa o pracę na okres próbny; Oferta ważna do: 01.12.2026",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-03",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -195066,7 +196004,7 @@
     "source": "pl_cbop",
     "source_id": "e9751fd18bef008217d750a40d63ff83",
     "source_review": {},
-    "summary_ar": "الموقع: Nowy Sącz, małopolskie\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "",
     "title": "Operator maszyn i urządzeń - pracownik produkcji K/M",
     "title_ar": "",
     "title_en": "",
@@ -195173,6 +196111,53 @@
     "translated": false,
     "uid": "e315c4328a135e48",
     "url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2ODIwMiA4?lang=en",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "e3321414074584a7": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "PRMI Promontin Sp. z o.o.",
+    "country": "PL",
+    "description": "Przedsiębiorstwo Robót Montażowo-Inwestycyjnych PROMONTIN Sp. z o.o. z Dębskiej Woli (www.promontin.pl), specjalizujące się w realizacji projektów inwestycyjno-remontowych w zakresie modernizacji kotłów, budowy zbiorników, rurociągów i linii technologicznych, poszukuje osoby na stanowisko:\n\nMagazynier - Serwisant elektronarzędzi (m/k)\n\n**Miejsce pracy:** Dębska Wola k. Morawicy (ok. 20 minut od Kielc)\n\nZakres obowiązków\n\n* Załadunek i rozładunek narzędzi oraz elektronarzędzi.\n* Sprawdzanie stanu technicznego narzędzi.\n* Naprawa i dbanie o stan techniczny elektronarzędzi.\n* Wykonywanie bieżących prac magazynowych.\n\nPoszukiwane kompetencje\n\n* Praktyczna umiejętność naprawy elektronarzędzi i sprawdzania ich stanu technicznego, np. szlifierek i wiertarek.\n* Mile widziane doświadczenie w pracy na magazynie.\n* Mile widziane uprawnienia do obsługi wózków widłowych.\n\nOferujemy\n\n* Umowę o pracę i stabilne zatrudnienie,\n* Niezbędne narzędzia do pracy,\n* Pracę w stałych godzinach.",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Dębska Wola, SW, Poland",
+    "matched_keywords": [
+      "magazynier",
+      "pracownik magazynu"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-16",
+    "score": 43,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-8940c711466f0669",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Praca - Pracownik magazynu narzędzi (m/k)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "e3321414074584a7",
+    "url": "https://promontin.elevato.net/pl/praca-pracownik-magazynu-narzedzi-mk,j,1192?source=Indeed",
     "url_provenance": "",
     "url_verified": null
   },
@@ -195372,7 +196357,7 @@
     "last_seen": "2026-11-22",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -197413,13 +198398,13 @@
     "company": "Auction Info s.r.o.",
     "country": "CZ",
     "description": "Jedná se o práci na expedici a třídírně - zaskladňování, vyskladňování a třídění zboží, balení zásilek, převážení palet a další práce na skladě.\n\n  \n  \n\nPracujeme ve všední dny v časy 7-20 hod, o víkendech 7-15 hod. Docházet lze na libovolné časy (např. 8-14) v tomto rozmezí. Minimálně 6 hodinové směny. Po zaučení a po domluvě se můžeme domluvit na víkendech.\n\n  \n  \n\nNabízíme\n\n- úkolovou mzdu (reálně po zaučení, které je individuální, ale většinou v řádech dnů, 170 - 250 Kč / hod)\n\n* práci v super kolektivu\n\n* flexibilní pracovní dobu\n\n* smlouvu na DPP\n\n* dlouhodobou spolupráci\n\n* okamžitý nástup\n\n* vhodné pro muže i ženy\n\n  \n\n**Vloženo:**\n\n23.10.2026 | 08:47 hod.\n\n  \n\n**Termín:**\n\nihned\n\n  \n\n**Vhodné pro:**\n\nVšechny\n\n  \n\n**Místo práce:**\n\nČernožice, Smiřická 271\n\n  \n\n**Druh práce:**\n\nOperátor výroby\n\n  \n\n**Vložil:**\n\nCvetkov Jan\n\n  \n\n**Štítky:**\n\nOd 15 let Pro studenty Для українців - Pro ukrajince Částečný úvazek Dlouhodobé Krátkodobé Nástup ihned Na živnostenský list Для українців - Pro ukrajince Víkendové",
-    "detail_fetched_at": "2026-11-12",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-12",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-12",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -197432,11 +198417,10 @@
     "notified_at": null,
     "notified_telegram": false,
     "posted_date": "2026-11-09",
-    "score": 50,
+    "score": 40,
     "signals": [
       "unskilled_role_match",
-      "tier_1_country",
-      "fresh_posting"
+      "tier_1_country"
     ],
     "source": "jobspy_indeed",
     "source_id": "in-277afa8848f16301",
@@ -201030,15 +202014,14 @@
     "apply_channels": {
       "emails": [],
       "phones": [
-        "+48791123543",
-        "+380936408993"
+        "+48791123543"
       ],
       "whatsapp_mentioned": false
     },
     "company": "Poland Work Portal",
     "country": "PL",
-    "description": "🔥Біля Варшави - BRWINÓW, ми селимо в Прушкуві🔥\n👉🏻Пакування косметики та парфумерії💄💄\n‼️БЕЗ НІЧНИХ‼️\n🔥Беремо всіх (пари на своєму житлі) до 45 років з приїздом  10-16.11. Доїзд міським транспортом🔥\n➡️Arvato Brwinów – склад, на якому зберігаються косметичні засоби.\nПосада – працівник складу.\nАдреса роботи - ul. Św. Józefa 1, 05-840 Brwinów.\nВимоги\nСтать кандидата – чоловіки, жінки, пари.\nВік кандидата – до 40 років (старших кандидатів під індивідуальне погодження).\nДосвід роботи складі від 3 міс.\nГотовність до роботи зі сканером, рухливої роботи на ногах, манульних процесів.\nМати хороший зір.\nПольська не обов’язкова.\nПрацевлаштовуємо громадян України\nЗаробітна плата і тип договору\nТип трудового договору – umowa zlecenia\nСтавка: 25,33 зл/ч нетто.\n‼️Ставка SUPPORT, если до 26 лет украинец - то будет ставка =  31,40 зл/ч нетто.\n‼️Ставка Support от 26 до 29 лет для украинца: 27,33 зл/ч нетто.\n➕Є премія від 300зл брутто за продуктивність.\nЗП нараховується на банківський рахунок кожного місяця до 15 числа.\nГрафік роботи\n2 зміни з понеділка по п'ятницю по 8 годин: 06-14/14-22. Можлива робота в суботу та неділю. Є перерва 20 хв.\nПроживання надаємо безкоштовно, оплата за медіа 520 зл. Ми селимо в Прушкуві. Стандарт житла: 4-6 осіб в кімнаті, одномісні або двоярусні ліжка.\nЗа власне житло кандидатам є дофінансування 150 зл нетто.\nДоїзд до роботи: можна добратися пішки або міським транспортом.\nОбов'язки\nПрацівник зі сканером приймає товар різного типу. Розміщення товару в місцях, зазначених сканером\nДодаткова інформація\nРобочий одяг надається безкоштовно, а саме - жилетка та комфортні робочі черевики.\n\n✔️Вероника: \n+48791123543 только viber\n✔️Кристина: \n+380936408993 телефон и viber",
-    "detail_fetched_at": "2026-11-12",
+    "description": "🔥Біля Варшави - BRWINÓW, ми селимо в Прушкуві🔥\n👉🏻Пакування косметики та парфумерії💄💄\n‼️БЕЗ НІЧНИХ‼️\n🔥Беремо жінок до 45 років з приїздом  24-30.11. Доїзд міським транспортом. Робота по 8-12 год🔥\n➡️Arvato Brwinów – склад, на якому зберігаються косметичні засоби.\nПосада – працівник складу.\nАдреса роботи - ul. Św. Józefa 1, 05-840 Brwinów.\nВимоги\nСтать кандидата – чоловіки, жінки, пари.\nВік кандидата – до 40 років (старших кандидатів під індивідуальне погодження).\nДосвід роботи складі від 3 міс.\nГотовність до роботи зі сканером, рухливої роботи на ногах, манульних процесів.\nМати хороший зір.\nПольська не обов’язкова.\nПрацевлаштовуємо громадян України\nЗаробітна плата і тип договору\nТип трудового договору – umowa zlecenia\nСтавка: 25,33 зл/ч нетто.\n‼️Ставка SUPPORT, если до 26 лет украинец - то будет ставка =  31,40 зл/ч нетто.\n‼️Ставка Support от 26 до 29 лет для украинца: 27,33 зл/ч нетто.\n➕Є премія від 300зл брутто за продуктивність.\nЗП нараховується на банківський рахунок кожного місяця до 15 числа.\nГрафік роботи\n2 зміни з понеділка по п'ятницю по 8 годин: 06-14/14-22. Можлива робота в суботу та неділю. Є перерва 20 хв.\nПроживання надаємо безкоштовно, оплата за медіа 520 зл. Ми селимо в Прушкуві. Стандарт житла: 4-6 осіб в кімнаті, одномісні або двоярусні ліжка.\nЗа власне житло кандидатам є дофінансування 150 зл нетто.\nДоїзд до роботи: можна добратися пішки або міським транспортом.\nОбов'язки\nПрацівник зі сканером приймає товар різного типу. Розміщення товару в місцях, зазначених сканером\nДодаткова інформація\nРобочий одяг надається безкоштовно, а саме - жилетка та комфортні робочі черевики.\n\n✔️Вероника: \n+48791123543 только viber",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-12",
@@ -201046,7 +202029,7 @@
     "languages": [
       "uk"
     ],
-    "last_seen": "2026-11-12",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -201058,7 +202041,7 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-12",
+    "posted_date": "2026-11-24",
     "score": 50,
     "signals": [
       "unskilled_role_match",
@@ -201066,7 +202049,7 @@
       "fresh_posting"
     ],
     "source": "telegram_polandworkportal",
-    "source_id": "polandworkportal/32265",
+    "source_id": "polandworkportal/32409",
     "source_review": {},
     "summary_ar": "",
     "title": "🔥Біля Варшави - BRWINÓW, ми селимо в Прушкуві🔥",
@@ -201074,7 +202057,7 @@
     "title_en": "",
     "translated": false,
     "uid": "ea22c879e1dd7a7b",
-    "url": "https://t.me/polandworkportal/32265",
+    "url": "https://t.me/polandworkportal/32409",
     "url_provenance": "",
     "url_verified": null
   },
@@ -201666,7 +202649,7 @@
     "last_seen": "2026-11-16",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "missed_runs": 0,
       "status": "active"
     },
@@ -201845,6 +202828,59 @@
     "translated": false,
     "uid": "eaeceaf88162a862",
     "url": "https://it.indeed.com/viewjob?jk=a9369fe698312bea",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "eaeeedff39f0e523": {
+    "apply_channels": {
+      "emails": [
+        "pz@zoem.eu"
+      ],
+      "phones": [
+        "06 10352853"
+      ],
+      "whatsapp_mentioned": false
+    },
+    "company": "Horren.com",
+    "country": "NL",
+    "description": "Productiemedewerker (32-40 uur) – vaste baan\n\nBen jij op zoek naar een leuke, afwisselende baan voor de lange termijn? Werk je nauwkeurig, ben je handig en houd je ervan om met je handen bezig te zijn? Dan zijn wij op zoek naar jou!\n\nWij zoeken iemand die ons team voor 32 tot 40 uur per week komt versterken en graag aan de slag gaat in onze productie.\n\nEen belangrijk onderdeel van je werkzaamheden is het **zorgvuldig aanbrengen van gaas in horren**. Dit werk vraagt om precisie, geduld en oog voor detail. Daarnaast help je mee met verschillende andere werkzaamheden binnen onze productie. Je vindt het dus leuk om afwisselend bezig te zijn en bent bereid om op verschillende plekken bij te springen.\n\nSalaris\n\n* Een aantrekkelijk salaris, boven marktconform.\n* Salaris in overleg, afhankelijk van leeftijd en ervaring.\n* Een vaste baan voor 32 tot 40 uur per week.\n\nWerkzaamheden\n\n* Het nauwkeurig in gaas zetten van horren.\n* Controleren van horren en onderdelen op kwaliteit en afwerking.\n* Uitvoeren van diverse productiewerkzaamheden.\n* Zorgen voor een nette en georganiseerde werkplek.\n* Meewerken aan een soepel en efficiënt productieproces.\n* Ondersteunen bij andere voorkomende werkzaamheden binnen het bedrijf.\n\nWie zoeken wij?\n\n* Je bent op zoek naar een vaste baan voor de lange termijn.\n* Je bent beschikbaar voor 32 tot 40 uur per week.\n* Je werkt nauwkeurig en hebt oog voor detail.\n* Je bent handig en vindt het leuk om met je handen te werken.\n* Je kunt zelfstandig werken, maar functioneert ook goed binnen een team.\n* Je bent flexibel en staat open voor verschillende productiewerkzaamheden.\n* Ervaring in een productieomgeving is mooi meegenomen, maar geen vereiste.\n* Je hebt een gemotiveerde en positieve werkhouding.\n\n**Interesse? Solliciteer direct!**\n\nLijkt het jou leuk om bij ons aan de slag te gaan? Reageer dan op deze functie via de sollicitatieknop of stuur je reactie naar pz@zoem.eu.\n\n*Je kunt reageren op deze vacature tot en met* ***eind februari****. Na sluiting van de vacature bekijken we alle sollicitaties en selecteren we kandidaten die we uitnodigen voor een kennismakingsgesprek.*\n\nHeb je nog vragen over de vacature? Neem dan gerust contact op met:\n\n**Contactpersoon:** Demi de Kock  \n**E-mail:** pz@zoem.eu  \n**Telefoon:** 06 10352853\n\nTelefonisch bereikbaar van maandag tot en met donderdag tussen 10:00 en 17:00 uur.\n\nSoort dienstverband: Fulltime, Parttime, Uitzicht op vast\n\nTaal:\n\n* Nederlands (Gewenst)\n\nToestemming om in Nederland te werken:\n\n* Nederland (Gewenst)\n\nWerklocatie: Fysiek",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Middelburg, ZE, Netherlands",
+    "matched_keywords": [
+      "ett",
+      "productiemedewerker",
+      "productiewerk"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": "2026-11-24",
+    "score": 62,
+    "signals": [
+      "unskilled_role_match",
+      "agency_relocation_text_mention",
+      "tier_1_country",
+      "fresh_posting"
+    ],
+    "source": "jobspy_indeed",
+    "source_id": "in-1f6ef8717cd02031",
+    "source_review": {},
+    "summary_ar": "عبارات وردت في نص الإعلان: وكالة/إعادة توطين\nالموقع: Middelburg, ZE, Netherlands\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "title": "Medewerker productie",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "eaeeedff39f0e523",
+    "url": "https://nl.indeed.com/viewjob?jk=1f6ef8717cd02031",
     "url_provenance": "",
     "url_verified": null
   },
@@ -202688,15 +203724,15 @@
     "company": "Enterworks Kft",
     "country": "HU",
     "description": "Új munkalehetőséget keresel? Jelentkezz hozzánk az alábbi pozícióra:\n\n**TARGONCAVEZETŐ – RAKTÁROS**\n\n**Feladatok:**\n\n* Beérkező áruk betárolása\n* Kiszállítandó áruk összekészítése\n* Árukészlet mozgatása, leltározása\n* Komissiózás, címkézés, palettázás\n* Webshop rendelések összekészítése\n* Raktári informatikai eszközök kezelése\n* A raktári rend fenntartása\n\n**Nincs még targoncavezetői tapasztalatod? Ez sem akadály!**  \nHa rendelkezel targoncavezetői jogosítvánnyal, de még nincs gyakorlatod, **akkor is várjuk a jelentkezésedet! Betanulási lehetőséget biztosítunk**, így nálunk megszerezheted a munkavégzéshez szükséges gyakorlati tapasztalatot.\n\n**Elvárás:**  \nTargoncavezetői engedély –3324,3313,3312 es jogosítvány  \nAlapvető számítógépes ismeretek  \nTöbbféle raktári feladat vállalása\n\n**Bérezés:**  \n415 000 Ft alapbér + 55 000 Ft havi bónusz (komissiózó esetén)\n\n480 000 Ft alapbér + 70 000 Ft havi bónusz (magasemelésű esetén)\n\n**Próbaidő leteltével nettó 30.000.- Ft cafeteria jár, illetve szezonidőszak alatt év végi bónusz!**\n\n**Munkarend:**  \n3 műszakos, 8 órás munkavégzés  \n06:00–14:00 | 14:00–22:00 | 22:00–06:00  \nhétfőtől péntekig ezen felül van lehetőség túlórára is.\n\n**Amit még biztosítunk:**  \nIngyenes céges buszjáratok több településről  \nSaját gépjárművel történő bejárás esetén **25 Ft/km támogatás**  \nTömegközlekedés esetén **86%-os költségtérítés**  \nTúlórázási lehetőség  \nFelszerelt étkező és konyha  \nKávé-, snack- és vízautomaták\n\n**Nők és férfiak jelentkezését egyaránt várjuk!**\n\n**JELENTKEZZ MOST!**\n\nFizetés: 415 000,00Ft - 480 000,00Ft havonta\n\nMunkavégzés helye: Személyes",
-    "detail_fetched_at": "2026-11-23",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-02",
     "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "lifecycle": {
-      "missed_runs": 1,
+      "missed_runs": 0,
       "status": "active"
     },
     "location": "Százhalombatta, PE, Hungary",
@@ -207589,7 +208625,7 @@
     "company": "Poland Work Portal",
     "country": "PL",
     "description": "😍Познань и Тарнуво Подгурне😍❤️БЕРЕМО ВСІХ - чоловіки, жінки та пари❤️\n‼️ В период распродажи с ноября по январь можно заработать дополнительно ЕЖЕМЕСЯЧНО 1000 злотых чистыми‼️\n\nГлавным условием является- ОТРАБОТАТЬ ОТ 200 ЧАСОВ И ВЫШЕ\n👉🏻Молдова, Армения, Беларусь, Україна, граждан ЕВРОСОЮЗА (с русским языком), obywatelstwo polskie\n👉🏻Приїзди на листопад\n✅Місце роботи: Tarnowo Podgórne ( 15 км від м. Познань)\n✅Місце проживання: Poznań \n✅Працевлаштування:  umowa zlecenie\n✅Заробітна плата:   \nГарантована ставка: 26,97 zł нетто за годину \nДля студентів: 33,40 zł нетто за годину (От 09-11-2026 до 31-01-2027)\n100% продуктивності — 500 zł нетто;\n110% продуктивності — 750 zł нетто;\n120% продуктивності — 1000 zł нетто.\nВиплати: Регулярно, з 15 по 20 число кожного місяця. \n✅Обов’язки: \nПрийом товару , перевірка його на брак, сканування штрих-кодів \nПакування Інтернет-замовлень \nЗбір одягу з терміналом , розкладання одягу з терміналом \nPrzyjęcie/wysyłka: прийом або погрузка товару, процес для чоловіків  \n✅Робочий графік:  \nРобота по 8-12 годин в три зміни:\n1-зміна 7:00-15:00 7:00-19:00 \n2-зміна 11:00-19:00 11:00-23:00 3-зміна 19:00-03:00 19:00-07:00\nРобота 5-6 днів на тиждень, перерви оплачувані!! \n✅Проживання:  \nКомфортні будинки обладнані всіма необхідними зручностями. \n😍ФОТО ЖИТЛА: https://t.me/polandworkportal/30177\nВартість проживання: 650 zł на місяць, вираховується із зарплати.  \nПостільну білизну та посуд - мати власні!\n✅Транспорт:   \nБезкоштовний автобус від фірми (20-30хв до роботи) \nЗупинки:\nWyspianskiego (Poznan) 60-749\nKolejowa (Poznan) 60-219\nRakoniewicka (Sulmierzycka 2), Gorczyn \nBohaterow Westerplatte ( Rajewskiego)\n‼️Автобус зупиняється на цих зупинках, але також возить наш водій бусом , тому по адресі проживання кандидата будемо уточнювати чи зручно його забирати\n✅Додаткова інформація: \nРобочий одяг та взуття надає роботодавець \nТемпература в приміщенні: +20°C до +22°C. \nНа території складу є їдальня.\n\n✔️Кристина: \n+380936408993 телефон и viber",
-    "detail_fetched_at": "2026-11-19",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-10",
@@ -207597,7 +208633,7 @@
     "languages": [
       "uk"
     ],
-    "last_seen": "2026-11-19",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
@@ -207609,7 +208645,7 @@
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-19",
+    "posted_date": "2026-11-24",
     "score": 50,
     "signals": [
       "unskilled_role_match",
@@ -207617,7 +208653,7 @@
       "fresh_posting"
     ],
     "source": "telegram_polandworkportal",
-    "source_id": "polandworkportal/32334",
+    "source_id": "polandworkportal/32420",
     "source_review": {},
     "summary_ar": "",
     "title": "😍Познань и Тарнуво Подгурне😍❤️БЕРЕМО ВСІХ - чоловіки, жінки та пари❤️",
@@ -207625,7 +208661,7 @@
     "title_en": "",
     "translated": false,
     "uid": "f1ad29e79780b03f",
-    "url": "https://t.me/polandworkportal/32334",
+    "url": "https://t.me/polandworkportal/32420",
     "url_provenance": "",
     "url_verified": null
   },
@@ -209617,7 +210653,7 @@
     "last_seen": "2026-11-02",
     "lifecycle": {
       "dead_checks": 0,
-      "last_live_check": "2026-11-24T06:26:28+00:00",
+      "last_live_check": "2026-11-24T18:37:20+00:00",
       "status": "active"
     },
     "location": "Wilhelmsburg, N, Austria",
@@ -211800,6 +212836,52 @@
     "translated": false,
     "uid": "f62c7910127b2783",
     "url": "https://pt.indeed.com/viewjob?jk=c0a3c976138cb651",
+    "url_provenance": "",
+    "url_verified": null
+  },
+  "f631deebaba0a7b8": {
+    "apply_channels": {
+      "emails": [],
+      "phones": [],
+      "whatsapp_mentioned": false
+    },
+    "company": "PRZEDSIĘBIORSTWO WODOCIĄGÓW I KANALIZACJI W OBORNIKACH SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "country": "PL",
+    "description": "[search-result fields only] Umowa: Umowa o pracę na okres próbny; Oferta ważna do: 30.12.2026",
+    "detail_fetched_at": "2026-11-24",
+    "excluded": false,
+    "exclusion_reason": "",
+    "first_seen": "2026-11-24",
+    "glossary": [],
+    "languages": [],
+    "last_seen": "2026-11-24",
+    "lifecycle": {
+      "missed_runs": 0,
+      "status": "active"
+    },
+    "location": "Oborniki, wielkopolskie",
+    "matched_keywords": [
+      "pomoc kuchenna"
+    ],
+    "notified_at": null,
+    "notified_telegram": false,
+    "posted_date": null,
+    "score": 34,
+    "signals": [
+      "unskilled_role_match",
+      "tier_1_country",
+      "source_eligibility_unknown"
+    ],
+    "source": "pl_cbop",
+    "source_id": "301f1a9f492c555e329d6877ab6aff01",
+    "source_review": {},
+    "summary_ar": "",
+    "title": "Kucharz/ pomoc kuchenna (K/M)",
+    "title_ar": "",
+    "title_en": "",
+    "translated": false,
+    "uid": "f631deebaba0a7b8",
+    "url": "https://oferty.praca.gov.pl/portal/wyszukiwarka-ofert/oferta?id=301f1a9f492c555e329d6877ab6aff01",
     "url_provenance": "",
     "url_verified": null
   },
@@ -216608,50 +217690,41 @@
     },
     "company": "Teta drogerie a lékárny ČR s.r.o.",
     "country": "CZ",
-    "description": "Staňte se součástí stabilní české firmy a pracujte v čistém a voňavém pracovním prostředí. Do skladu TETA drogerie v Olomouci - Chválkovicích hledáme nové kolegyně a kolegy. U nás budete mít volné víkendy a svátky a **pouze ranní směnu.**\n\n**Co bude vaší náplní práce:**\n------------------------------\n\n* vychystávání zboží dle objednávek\n* balení a kompletace zboží na palety\n* udržování pořádku na skladě\n* práce s elektrickým nebo ručně vedeným paletovým vozíkem\n* práce se čtečkou\n\n**Co od Vás očekáváme:**\n------------------------\n\n* fyzickou zdatnost\n* pracovitost, samostatnost, spolehlivost\n* trestní bezúhonnost\n* zkušenosti z obdobné pracovní pozice vítány\n* praxe s elektr. vozíkem výhodou nikoliv podmínkou\n\n**Co Vám můžeme nabídnout:**\n----------------------------\n\n* práci na hlavní pracovní poměr na dobu určitou 1 rok, poté možnost prodloužení na dobu neurčitou\n* pouze ranní směna (PO-PÁ) od 7:00 - 15:30\n* VOLNÉ VÍKENDY a SVÁTKY\n* finanční ohodnocení v rozmezí 33 000 Kč - 35 000 Kč (hrubého)\n* pololetní prémie\n* přátelský kolektiv a vstřícný kolektiv\n* komplexní zaškolení na danou pozici\n* zdarma zajistíme oprávnění na elektr. vozíky, řádně zaškolíme\n* příspěvek na stravu až 2 600 Kč/měsíčně\n* další řadu benefitů - 5 dní placeného volna navíc k dovolené, zaměstnanecké slevy na zboží, výhodný mobilní tarif, zvýhodněné tankování...\n* bezproblémové parkování přímo v areálu společnosti\n* místo pracoviště: Železniční 7, Olomouc-Chválkovice\n\n  \n\n**Nástup možný ihned.**\n\n  \n  \n\n**Benefity**\n------------\n\n* Dovolená navíc\n* Příspěvek na stravování\n* Občerstvení na pracovišti",
-    "detail_fetched_at": "2026-11-23",
+    "description": "Staňte se součástí stabilní české firmy a pracujte v čistém a voňavém pracovním prostředí. Do skladu TETA drogerie v Praze / Šestajovicích (15 min od CČM) hledáme nové kolegyně a kolegy. U nás budete mít volné víkendy a svátky a pouze ranní směnu.\n\n**Co vás čeká:**\n----------------\n\n* manipulace se zbožím\n* vychystávání zboží dle objednávek pomocí čtečky\n* skládání krabic na palety\n* udržování pořádku na skladě\n* práce s elektrickým nebo ručně vedeným paletovým vozíkem\n\n**Co požadujeme:**\n------------------\n\n* fyzickou zdatnost - práce v pohybu a ve stoje\n* pracovitost, samostatnost, spolehlivost\n* trestní bezúhonnost\n* časovou flexibilitu - rozdělanou práci je potřeba vždy dokončit\n* praxe na obdobné pozici, popř. zkušenost ze skladu\n* průkaz na obsluhu vozíků - výhodou nikoliv podmínkou\n\n**Co vám můžeme nabídnout:**\n----------------------------\n\n* pouze ranní směna (PO-PÁ) od 6:30\n* VOLNÉ VÍKENDY a SVÁTKY - během sezóny může být občasná sobotní směna (2-3 soboty ročně)\n* zaměstnání na pracovní poměr dobu určitou na 1 rok poté možnost prodloužení\n* mzdu včetně odměn po zapracování dle výkonu 35 000 Kč\n* pololetní bonusy (3 000 Kč)\n* příspěvek na stravu až 2 700 Kč/měsíčně\n* možnost stravování ve firemní jídelně\n* bezproblémové parkování zdarma přímo v areálu\n* dobrou dostupnost MHD z Černého Mostu – zastávka Sychrov\n* další řadu benefitů - 5 dní placeného volna navíc k dovolené, zaměstnanecké slevy na zboží, výhodný mobilní tarif, zvýhodněné tankování...\n* místo pracoviště: Praha Horní Počernice / Šestajovice\n\n**Nástup možný ihned.**\n\n  \n  \n\n**Benefity**\n------------\n\n* Dovolená navíc\n* Příspěvek na stravování\n* Občerstvení na pracovišti",
+    "detail_fetched_at": "2026-11-24",
     "excluded": false,
     "exclusion_reason": "",
     "first_seen": "2026-11-04",
-    "glossary": [
-      {
-        "ar": "سندرّبك أثناء العمل",
-        "en": "we will train you",
-        "term": "zaškolíme"
-      }
-    ],
+    "glossary": [],
     "languages": [],
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "lifecycle": {
       "missed_runs": 0,
       "status": "active"
     },
-    "location": "Olomouc, OL, Czech Republic",
+    "location": "Praha, A, Czech Republic",
     "matched_keywords": [
-      "baleni",
-      "kompletace",
-      "skladnik",
-      "zaskolime"
+      "skladnik"
     ],
     "notified_at": null,
     "notified_telegram": false,
-    "posted_date": "2026-11-03",
-    "score": 63,
+    "posted_date": "2026-11-24",
+    "score": 44,
     "signals": [
       "unskilled_role_match",
-      "no_exp_or_training_mention",
-      "tier_1_country"
+      "tier_1_country",
+      "fresh_posting"
     ],
     "source": "jobspy_indeed",
-    "source_id": "in-e19ed95cb9537e2d",
+    "source_id": "in-9704a278406af4c6",
     "source_review": {},
-    "summary_ar": "عبارات وردت في نص الإعلان: لا خبرة مطلوبة / تدريب\nالموقع: Olomouc, OL, Czech Republic\nمذكور في نص الإعلان وليس وعدًا مؤكدًا - يُتحقق منه مباشرة مع صاحب العمل.",
+    "summary_ar": "",
     "title": "SKLADNÍK/SKLADNICE - (pouze ranní směna) ✨",
     "title_ar": "عامل مستودع - وردية صباحية فقط",
     "title_en": "Warehouse worker (M/F) - morning shift only",
     "translated": true,
     "uid": "fbc4ee4780a1358f",
-    "url": "https://www.jenprace.cz/nabidka/p4sxtq/skladnik-skladnice-pouze-ranni-smena",
+    "url": "https://www.jenprace.cz/nabidka/3ghp6r/skladnik-skladnice-pouze-ranni-smena",
     "url_provenance": "",
     "url_verified": null
   },

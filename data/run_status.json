@@ -24,10 +24,19 @@
         "status": "ok"
       },
       "eures": {
-        "errors": [],
-        "fetched": 50,
+        "errors": [
+          "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'pracovnik ve skladu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'baleni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'vyrobni delnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+        ],
+        "fetched": 0,
         "notes": [],
-        "status": "ok"
+        "status": "failed"
       },
       "goodmorning": {
         "errors": [],
@@ -109,10 +118,19 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [],
-        "fetched": 50,
+        "errors": [
+          "keyword 'lagerhelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'produktionshelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'kommissionierer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'verpacker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'lagermitarbeiter': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'maschinenbediener': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'reinigungskraft': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'helfer produktion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+        ],
+        "fetched": 0,
         "notes": [],
-        "status": "ok"
+        "status": "failed"
       },
       "goodmorning": {
         "errors": [],
@@ -194,10 +212,19 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [],
-        "fetched": 50,
+        "errors": [
+          "keyword 'raktaros': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'raktari munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'csomagolo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'gyartosori dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'termelesi munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'komissiozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'betanitott munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'raktari dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+        ],
+        "fetched": 0,
         "notes": [],
-        "status": "ok"
+        "status": "failed"
       },
       "goodmorning": {
         "errors": [],
@@ -217,7 +244,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 29,
+        "fetched": 31,
         "notes": [],
         "status": "ok"
       },
@@ -279,12 +306,23 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [],
-        "fetched": 6,
+        "errors": [
+          "keyword 'sandelio darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'sandelininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'pakuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'gamybos operatorius': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'komplektuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'rusiuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'ikrovejas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'pagalbinis darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'virtuves pagalbininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'kambarine': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+        ],
+        "fetched": 0,
         "notes": [
           "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
         ],
-        "status": "ok"
+        "status": "failed"
       },
       "goodmorning": {
         "errors": [],
@@ -366,10 +404,19 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [],
-        "fetched": 50,
+        "errors": [
+          "keyword 'magazijnmedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'orderpicker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'productiemedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'verpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'logistiek medewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'inpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'schoonmaker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'productiewerk': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+        ],
+        "fetched": 0,
         "notes": [],
-        "status": "ok"
+        "status": "failed"
       },
       "goodmorning": {
         "errors": [],
@@ -445,10 +492,19 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [],
-        "fetched": 50,
+        "errors": [
+          "keyword 'magazynier': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'pracownik magazynu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'pakowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'pracownik produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'komisjonowanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'operator produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'pracownik fizyczny': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'sortowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+        ],
+        "fetched": 0,
         "notes": [],
-        "status": "ok"
+        "status": "failed"
       },
       "goodmorning": {
         "errors": [],
@@ -496,9 +552,9 @@
       },
       "telegram_channels": {
         "errors": [],
-        "fetched": 20,
+        "fetched": 35,
         "notes": [
-          "teealpl: backlog gap of ~47 messages older than the preview window (cursor 48447, oldest visible 48495) - missed, not caught up"
+          "teealpl: backlog gap of ~42 messages older than the preview window (cursor 48514, oldest visible 48557) - missed, not caught up"
         ],
         "status": "ok"
       }
@@ -529,10 +585,19 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [],
-        "fetched": 50,
+        "errors": [
+          "keyword 'muncitor depozit': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'ambalator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'operator productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'manipulant marfuri': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'muncitor necalificat': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'sortator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'muncitor in productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'ajutor bucatar': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+        ],
+        "fetched": 0,
         "notes": [],
-        "status": "ok"
+        "status": "failed"
       },
       "goodmorning": {
         "errors": [],
@@ -552,7 +617,7 @@
       },
       "jobspy": {
         "errors": [],
-        "fetched": 10,
+        "fetched": 11,
         "notes": [],
         "status": "ok"
       },
@@ -614,12 +679,23 @@
         "status": "skipped"
       },
       "eures": {
-        "errors": [],
-        "fetched": 50,
+        "errors": [
+          "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'balenie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'vyrobny operator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'upratovanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'upratovacka': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+          "keyword 'pomocna sila v kuchyni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+        ],
+        "fetched": 0,
         "notes": [
           "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
         ],
-        "status": "ok"
+        "status": "failed"
       },
       "goodmorning": {
         "errors": [],
@@ -678,8 +754,8 @@
       }
     }
   },
-  "duration_sec": 723.2,
-  "last_run_utc": "2026-11-24T06:27:40+00:00",
+  "duration_sec": 1832.5,
+  "last_run_utc": "2026-11-24T18:38:28+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-23T03:50:47+00:00",
@@ -1054,7 +1130,7 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-24T06:27:40+00:00",
+      "checked_at_utc": "2026-11-24T18:38:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1079,10 +1155,19 @@
           "status": "ok"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'pracovnik ve skladu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'baleni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'vyrobni delnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -1140,7 +1225,7 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-24T06:27:40+00:00",
+      "checked_at_utc": "2026-11-24T18:38:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1167,10 +1252,19 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'lagerhelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'produktionshelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'kommissionierer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'verpacker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'lagermitarbeiter': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'maschinenbediener': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'reinigungskraft': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'helfer produktion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -1903,7 +1997,7 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-24T06:27:40+00:00",
+      "checked_at_utc": "2026-11-24T18:38:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -1930,10 +2024,19 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'raktaros': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'raktari munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'csomagolo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'gyartosori dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'termelesi munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'komissiozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'betanitott munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'raktari dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -1953,7 +2056,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 29,
+          "fetched": 31,
           "notes": [],
           "status": "ok"
         },
@@ -2167,7 +2270,7 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-24T06:27:40+00:00",
+      "checked_at_utc": "2026-11-24T18:38:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2194,12 +2297,23 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 6,
+          "errors": [
+            "keyword 'sandelio darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'sandelininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'pakuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'gamybos operatorius': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'komplektuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'rusiuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'ikrovejas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'pagalbinis darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'virtuves pagalbininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'kambarine': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+          ],
+          "fetched": 0,
           "notes": [
             "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
           ],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -2547,7 +2661,7 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-24T06:27:40+00:00",
+      "checked_at_utc": "2026-11-24T18:38:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2572,10 +2686,19 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'magazijnmedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'orderpicker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'productiemedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'verpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'logistiek medewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'inpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'schoonmaker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'productiewerk': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -2629,7 +2752,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-24T06:27:40+00:00",
+      "checked_at_utc": "2026-11-24T18:38:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2654,10 +2777,19 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'magazynier': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'pracownik magazynu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'pakowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'pracownik produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'komisjonowanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'operator produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'pracownik fizyczny': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'sortowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -2705,9 +2837,9 @@
         },
         "telegram_channels": {
           "errors": [],
-          "fetched": 20,
+          "fetched": 35,
           "notes": [
-            "teealpl: backlog gap of ~47 messages older than the preview window (cursor 48447, oldest visible 48495) - missed, not caught up"
+            "teealpl: backlog gap of ~42 messages older than the preview window (cursor 48514, oldest visible 48557) - missed, not caught up"
           ],
           "status": "ok"
         }
@@ -2802,7 +2934,7 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-24T06:27:40+00:00",
+      "checked_at_utc": "2026-11-24T18:38:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2829,10 +2961,19 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'muncitor depozit': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'ambalator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'operator productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'manipulant marfuri': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'muncitor necalificat': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'sortator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'muncitor in productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'ajutor bucatar': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+          ],
+          "fetched": 0,
           "notes": [],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -2852,7 +2993,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 10,
+          "fetched": 11,
           "notes": [],
           "status": "ok"
         },
@@ -3086,7 +3227,7 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-24T06:27:40+00:00",
+      "checked_at_utc": "2026-11-24T18:38:28+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -3113,12 +3254,23 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [],
-          "fetched": 50,
+          "errors": [
+            "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'balenie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'vyrobny operator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'upratovanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'upratovacka': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
+            "keyword 'pomocna sila v kuchyni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
+          ],
+          "fetched": 0,
           "notes": [
             "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
           ],
-          "status": "ok"
+          "status": "failed"
         },
         "goodmorning": {
           "errors": [],
@@ -3207,50 +3359,50 @@
     "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 178,
-    "candidates_stored": 178,
+    "candidates_held_total": 115,
+    "candidates_stored": 115,
     "sealed": true,
-    "sha256": "d072c171e70ce3e7519db6659df85817bd7383f6b0874c1a54ea8610cba7d0ae"
+    "sha256": "82b8608ee7c583f845f559387cbe86363a0baee0ae88b7caf06258ff84f53c55"
   },
   "source_retention": {
     "kept_pre_prune": {
       "covebo": 2,
       "czech_mpsv": 3,
-      "eures": 197,
       "goodmorning": 5,
       "hobij": 5,
-      "jobspy_indeed": 194,
+      "jobspy_indeed": 202,
       "nl_jobs": 1,
       "pl_cbop": 49,
-      "telegram_teealpl": 9
+      "telegram_polandworkportal": 10,
+      "telegram_teealpl": 4
     },
     "retained_post_prune": {
-      "eures": 130,
-      "jobspy_indeed": 191,
+      "jobspy_indeed": 198,
       "pl_cbop": 49,
-      "telegram_teealpl": 9
+      "telegram_polandworkportal": 10,
+      "telegram_teealpl": 4
     }
   },
   "totals": {
-    "active": 4455,
-    "below_min_score": 14,
-    "contacts_extracted": 123,
-    "excluded": 250,
-    "fetched": 757,
-    "l1_dropped": 2,
-    "l2_language_excluded": 3,
-    "lifecycle_deactivated": 0,
-    "lifecycle_deactivated_total": 139,
+    "active": 4477,
+    "below_min_score": 9,
+    "contacts_extracted": 58,
+    "excluded": 124,
+    "fetched": 419,
+    "l1_dropped": 1,
+    "l2_language_excluded": 1,
+    "lifecycle_deactivated": 2,
+    "lifecycle_deactivated_total": 141,
     "lifecycle_dead_confirmed": 0,
-    "lifecycle_live_confirmed": 39,
+    "lifecycle_live_confirmed": 40,
     "lifecycle_reactivated": 0,
-    "new": 85,
+    "new": 22,
     "notified_telegram": 0,
-    "pruned": 13,
-    "reviewed_fills": 8,
+    "pruned": 0,
+    "reviewed_fills": 16,
     "translated_ar": 0,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 316
+    "updated": 240
   }
 }
