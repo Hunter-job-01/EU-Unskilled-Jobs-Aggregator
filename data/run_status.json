@@ -1,6 +1,6 @@
 {
   "countries": {
-    "FI": {
+    "CZ": {
       "anyworkanywhere": {
         "errors": [],
         "fetched": 0,
@@ -13,7 +13,98 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for FI"
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for CZ"
+        ],
+        "status": "skipped"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "goodmorning": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for CZ"
+        ],
+        "status": "skipped"
+      },
+      "hobij": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for CZ"
+        ],
+        "status": "skipped"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "nl_jobs": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+        ],
+        "status": "ok"
+      },
+      "ottoworkforce": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for CZ"
+        ],
+        "status": "skipped"
+      },
+      "pl_cbop": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "CBOP is the Polish national board (PL only); skipped for CZ"
+        ],
+        "status": "skipped"
+      },
+      "telegram_channels": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "DE": {
+      "anyworkanywhere": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 1490 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "covebo": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for DE"
+        ],
+        "status": "skipped"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the MPSV dataset covers Czechia only"
         ],
         "status": "skipped"
       },
@@ -27,7 +118,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for FI"
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for DE"
         ],
         "status": "skipped"
       },
@@ -35,21 +126,187 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for FI"
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for DE"
         ],
         "status": "skipped"
       },
       "jobspy": {
         "errors": [],
-        "fetched": 30,
+        "fetched": 50,
         "notes": [],
         "status": "ok"
       },
-      "latvia_nva": {
+      "nl_jobs": {
         "errors": [],
         "fetched": 0,
         "notes": [
-          "the NVA dataset covers Latvia only"
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+        ],
+        "status": "ok"
+      },
+      "ottoworkforce": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for DE"
+        ],
+        "status": "skipped"
+      },
+      "pl_cbop": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "CBOP is the Polish national board (PL only); skipped for DE"
+        ],
+        "status": "skipped"
+      },
+      "telegram_channels": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "HU": {
+      "anyworkanywhere": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 1490 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "covebo": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for HU"
+        ],
+        "status": "skipped"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the MPSV dataset covers Czechia only"
+        ],
+        "status": "skipped"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "goodmorning": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for HU"
+        ],
+        "status": "skipped"
+      },
+      "hobij": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for HU"
+        ],
+        "status": "skipped"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 31,
+        "notes": [],
+        "status": "ok"
+      },
+      "nl_jobs": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+        ],
+        "status": "ok"
+      },
+      "ottoworkforce": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for HU"
+        ],
+        "status": "skipped"
+      },
+      "pl_cbop": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "CBOP is the Polish national board (PL only); skipped for HU"
+        ],
+        "status": "skipped"
+      },
+      "telegram_channels": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "LT": {
+      "anyworkanywhere": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 1490 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "covebo": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for LT"
+        ],
+        "status": "skipped"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the MPSV dataset covers Czechia only"
+        ],
+        "status": "skipped"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 6,
+        "notes": [
+          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
+        ],
+        "status": "ok"
+      },
+      "goodmorning": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for LT"
+        ],
+        "status": "skipped"
+      },
+      "hobij": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for LT"
+        ],
+        "status": "skipped"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "indeed: LT not supported by JobSpy/Indeed (EURES covers it)"
         ],
         "status": "skipped"
       },
@@ -66,7 +323,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for FI"
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for LT"
         ],
         "status": "skipped"
       },
@@ -74,23 +331,100 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "CBOP is the Polish national board (PL only); skipped for FI"
+          "CBOP is the Polish national board (PL only); skipped for LT"
         ],
         "status": "skipped"
       },
-      "sweden_jobsearch": {
+      "telegram_channels": {
         "errors": [],
         "fetched": 0,
-        "notes": [
-          "Platsbanken/JobSearch covers Sweden only"
-        ],
-        "status": "skipped"
+        "notes": [],
+        "status": "ok"
       }
     },
-    "HR": {
+    "NL": {
       "anyworkanywhere": {
         "errors": [],
         "fetched": 0,
+        "notes": [
+          "reused 1490 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "covebo": {
+        "errors": [],
+        "fetched": 10,
+        "notes": [],
+        "status": "ok"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the MPSV dataset covers Czechia only"
+        ],
+        "status": "skipped"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "goodmorning": {
+        "errors": [],
+        "fetched": 10,
+        "notes": [],
+        "status": "ok"
+      },
+      "hobij": {
+        "errors": [],
+        "fetched": 10,
+        "notes": [],
+        "status": "ok"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
+      },
+      "nl_jobs": {
+        "errors": [],
+        "fetched": 2,
+        "notes": [
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+        ],
+        "status": "ok"
+      },
+      "ottoworkforce": {
+        "errors": [],
+        "fetched": 9,
+        "notes": [
+          "skipped 2 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+        ],
+        "status": "ok"
+      },
+      "pl_cbop": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "CBOP is the Polish national board (PL only); skipped for NL"
+        ],
+        "status": "skipped"
+      },
+      "telegram_channels": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "PL": {
+      "anyworkanywhere": {
+        "errors": [],
+        "fetched": 1,
         "notes": [],
         "status": "ok"
       },
@@ -98,7 +432,15 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for HR"
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for PL"
+        ],
+        "status": "skipped"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the MPSV dataset covers Czechia only"
         ],
         "status": "skipped"
       },
@@ -112,7 +454,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for HR"
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for PL"
         ],
         "status": "skipped"
       },
@@ -120,25 +462,15 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for HR"
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for PL"
         ],
         "status": "skipped"
       },
       "jobspy": {
         "errors": [],
-        "fetched": 0,
-        "notes": [
-          "indeed: HR not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
-      },
-      "latvia_nva": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the NVA dataset covers Latvia only"
-        ],
-        "status": "skipped"
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
       },
       "nl_jobs": {
         "errors": [],
@@ -152,28 +484,24 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for HR"
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for PL"
         ],
         "status": "skipped"
       },
       "pl_cbop": {
         "errors": [],
-        "fetched": 0,
-        "notes": [
-          "CBOP is the Polish national board (PL only); skipped for HR"
-        ],
-        "status": "skipped"
+        "fetched": 50,
+        "notes": [],
+        "status": "ok"
       },
-      "sweden_jobsearch": {
+      "telegram_channels": {
         "errors": [],
-        "fetched": 0,
-        "notes": [
-          "Platsbanken/JobSearch covers Sweden only"
-        ],
-        "status": "skipped"
+        "fetched": 10,
+        "notes": [],
+        "status": "ok"
       }
     },
-    "MT": {
+    "RO": {
       "anyworkanywhere": {
         "errors": [],
         "fetched": 0,
@@ -186,7 +514,15 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Covebo board placements are NL (source-level, Dutch agency); skipped for MT"
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for RO"
+        ],
+        "status": "skipped"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the MPSV dataset covers Czechia only"
         ],
         "status": "skipped"
       },
@@ -200,7 +536,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for MT"
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for RO"
         ],
         "status": "skipped"
       },
@@ -208,7 +544,94 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for MT"
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for RO"
+        ],
+        "status": "skipped"
+      },
+      "jobspy": {
+        "errors": [],
+        "fetched": 12,
+        "notes": [],
+        "status": "ok"
+      },
+      "nl_jobs": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 17 sitemap urls fetched earlier this run",
+          "skipped 11 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+        ],
+        "status": "ok"
+      },
+      "ottoworkforce": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for RO"
+        ],
+        "status": "skipped"
+      },
+      "pl_cbop": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "CBOP is the Polish national board (PL only); skipped for RO"
+        ],
+        "status": "skipped"
+      },
+      "telegram_channels": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [],
+        "status": "ok"
+      }
+    },
+    "SK": {
+      "anyworkanywhere": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "reused 1490 sitemap urls fetched earlier this run"
+        ],
+        "status": "ok"
+      },
+      "covebo": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Covebo board placements are NL (source-level, Dutch agency); skipped for SK"
+        ],
+        "status": "skipped"
+      },
+      "czech_mpsv": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "the MPSV dataset covers Czechia only"
+        ],
+        "status": "skipped"
+      },
+      "eures": {
+        "errors": [],
+        "fetched": 50,
+        "notes": [
+          "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
+        ],
+        "status": "ok"
+      },
+      "goodmorning": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "Goodmorning board placements are NL (source-level, Dutch agency); skipped for SK"
+        ],
+        "status": "skipped"
+      },
+      "hobij": {
+        "errors": [],
+        "fetched": 0,
+        "notes": [
+          "HOBIJ board placements are NL (source-level, Dutch agency); skipped for SK"
         ],
         "status": "skipped"
       },
@@ -216,15 +639,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "indeed: MT not supported by JobSpy/Indeed (EURES covers it)"
-        ],
-        "status": "skipped"
-      },
-      "latvia_nva": {
-        "errors": [],
-        "fetched": 0,
-        "notes": [
-          "the NVA dataset covers Latvia only"
+          "indeed: SK not supported by JobSpy/Indeed (EURES covers it)"
         ],
         "status": "skipped"
       },
@@ -241,7 +656,7 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "OTTO board placements are NL (source-level, Dutch agency); skipped for MT"
+          "OTTO board placements are NL (source-level, Dutch agency); skipped for SK"
         ],
         "status": "skipped"
       },
@@ -249,22 +664,20 @@
         "errors": [],
         "fetched": 0,
         "notes": [
-          "CBOP is the Polish national board (PL only); skipped for MT"
+          "CBOP is the Polish national board (PL only); skipped for SK"
         ],
         "status": "skipped"
       },
-      "sweden_jobsearch": {
+      "telegram_channels": {
         "errors": [],
         "fetched": 0,
-        "notes": [
-          "Platsbanken/JobSearch covers Sweden only"
-        ],
-        "status": "skipped"
+        "notes": [],
+        "status": "ok"
       }
     }
   },
-  "duration_sec": 256.3,
-  "last_run_utc": "2026-11-25T03:51:32+00:00",
+  "duration_sec": 687.9,
+  "last_run_utc": "2026-11-25T06:28:49+00:00",
   "latest_by_country": {
     "AT": {
       "checked_at_utc": "2026-11-23T03:50:47+00:00",
@@ -639,13 +1052,13 @@
       }
     },
     "CZ": {
-      "checked_at_utc": "2026-11-24T18:38:28+00:00",
+      "checked_at_utc": "2026-11-25T06:28:49+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1485 sitemap urls fetched earlier this run"
+            "reused 1490 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -664,19 +1077,10 @@
           "status": "ok"
         },
         "eures": {
-          "errors": [
-            "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'pracovnik ve skladu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'baleni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'vyrobni delnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -734,13 +1138,13 @@
       }
     },
     "DE": {
-      "checked_at_utc": "2026-11-24T18:38:28+00:00",
+      "checked_at_utc": "2026-11-25T06:28:49+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1485 sitemap urls fetched earlier this run"
+            "reused 1490 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -761,19 +1165,10 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'lagerhelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'produktionshelfer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'kommissionierer': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'verpacker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'lagermitarbeiter': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'maschinenbediener': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'reinigungskraft': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'helfer produktion': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -1471,13 +1866,13 @@
       }
     },
     "HU": {
-      "checked_at_utc": "2026-11-24T18:38:28+00:00",
+      "checked_at_utc": "2026-11-25T06:28:49+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1485 sitemap urls fetched earlier this run"
+            "reused 1490 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1498,19 +1893,10 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'raktaros': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'raktari munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'csomagolo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'gyartosori dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'termelesi munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'komissiozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'betanitott munkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'raktari dolgozo': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -1744,13 +2130,13 @@
       }
     },
     "LT": {
-      "checked_at_utc": "2026-11-24T18:38:28+00:00",
+      "checked_at_utc": "2026-11-25T06:28:49+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1485 sitemap urls fetched earlier this run"
+            "reused 1490 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -1771,23 +2157,12 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'sandelio darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'sandelininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'pakuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'gamybos operatorius': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'komplektuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'rusiuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'ikrovejas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'pagalbinis darbuotojas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'virtuves pagalbininkas': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'kambarine': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 6,
           "notes": [
             "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for LT)"
           ],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -2119,13 +2494,13 @@
       }
     },
     "NL": {
-      "checked_at_utc": "2026-11-24T18:38:28+00:00",
+      "checked_at_utc": "2026-11-25T06:28:49+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1485 sitemap urls fetched earlier this run"
+            "reused 1490 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2144,19 +2519,10 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'magazijnmedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'orderpicker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'productiemedewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'verpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'logistiek medewerker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'inpakker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'schoonmaker': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'productiewerk': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -2189,7 +2555,7 @@
           "errors": [],
           "fetched": 9,
           "notes": [
-            "skipped 3 known-fresh detail fetch(es) (detail_fetched_at anchor)"
+            "skipped 2 known-fresh detail fetch(es) (detail_fetched_at anchor)"
           ],
           "status": "ok"
         },
@@ -2210,7 +2576,7 @@
       }
     },
     "PL": {
-      "checked_at_utc": "2026-11-24T18:38:28+00:00",
+      "checked_at_utc": "2026-11-25T06:28:49+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
@@ -2235,19 +2601,10 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'magazynier': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'pracownik magazynu': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'pakowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'pracownik produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'komisjonowanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'operator produkcji': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'pracownik fizyczny': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'sortowacz': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -2295,10 +2652,8 @@
         },
         "telegram_channels": {
           "errors": [],
-          "fetched": 35,
-          "notes": [
-            "teealpl: backlog gap of ~42 messages older than the preview window (cursor 48514, oldest visible 48557) - missed, not caught up"
-          ],
+          "fetched": 10,
+          "notes": [],
           "status": "ok"
         }
       }
@@ -2392,13 +2747,13 @@
       }
     },
     "RO": {
-      "checked_at_utc": "2026-11-24T18:38:28+00:00",
+      "checked_at_utc": "2026-11-25T06:28:49+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1485 sitemap urls fetched earlier this run"
+            "reused 1490 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2419,19 +2774,10 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'muncitor depozit': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'ambalator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'operator productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'manipulant marfuri': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'muncitor necalificat': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'sortator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'muncitor in productie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'ajutor bucatar': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -2451,7 +2797,7 @@
         },
         "jobspy": {
           "errors": [],
-          "fetched": 11,
+          "fetched": 12,
           "notes": [],
           "status": "ok"
         },
@@ -2685,13 +3031,13 @@
       }
     },
     "SK": {
-      "checked_at_utc": "2026-11-24T18:38:28+00:00",
+      "checked_at_utc": "2026-11-25T06:28:49+00:00",
       "sources": {
         "anyworkanywhere": {
           "errors": [],
           "fetched": 0,
           "notes": [
-            "reused 1485 sitemap urls fetched earlier this run"
+            "reused 1490 sitemap urls fetched earlier this run"
           ],
           "status": "ok"
         },
@@ -2712,23 +3058,12 @@
           "status": "skipped"
         },
         "eures": {
-          "errors": [
-            "keyword 'skladnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'operator vyroby': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'balenie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'manipulant': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'pomocny pracovnik': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'vyrobny operator': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'balic': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'upratovanie': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'upratovacka': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/",
-            "keyword 'pomocna sila v kuchyni': POST https://europa.eu/eures/api/jv-searchengine/public/jv-search/search failed after 3 attempts: 403 Client Error: Forbidden for url: https://sorry.ec.europa.eu/"
-          ],
-          "fetched": 0,
+          "errors": [],
+          "fetched": 50,
           "notes": [
             "eures boost: 16 keywords x up to 3 pages (no JobSpy/Indeed domain for SK)"
           ],
-          "status": "failed"
+          "status": "ok"
         },
         "goodmorning": {
           "errors": [],
@@ -2790,63 +3125,82 @@
   },
   "parameters": {
     "countries": [
-      "HR",
-      "FI",
-      "MT"
+      "PL",
+      "CZ",
+      "DE",
+      "LT",
+      "HU",
+      "RO",
+      "SK",
+      "NL"
     ],
     "max_jobs": 50,
     "min_score": 20,
     "sources": [
       "anyworkanywhere",
       "covebo",
+      "czech_mpsv",
       "eures",
       "goodmorning",
       "hobij",
       "jobspy",
-      "latvia_nva",
       "nl_jobs",
       "ottoworkforce",
       "pl_cbop",
-      "sweden_jobsearch"
+      "telegram_channels"
     ],
-    "tier": "3"
+    "tier": "1"
   },
   "review_queue": {
-    "candidates_held_total": 36,
-    "candidates_stored": 36,
+    "candidates_held_total": 198,
+    "candidates_stored": 198,
     "sealed": true,
-    "sha256": "112b35821f10a718313039056029fc2f6a738abb181a9424d90d3363bbcaa79e"
+    "sha256": "40d2749dcf8afc937abf2a8d0847ef5f5867f0e8a53c7e678b111ab7763aee4d"
   },
   "source_retention": {
     "kept_pre_prune": {
-      "eures": 70,
-      "jobspy_indeed": 30
+      "covebo": 2,
+      "czech_mpsv": 4,
+      "eures": 205,
+      "goodmorning": 5,
+      "hobij": 5,
+      "jobspy_indeed": 198,
+      "nl_jobs": 1,
+      "ottoworkforce": 1,
+      "pl_cbop": 49,
+      "telegram_polandworkportal": 3,
+      "telegram_ukraincydopracy": 1
     },
     "retained_post_prune": {
-      "eures": 62,
-      "jobspy_indeed": 30
+      "czech_mpsv": 3,
+      "eures": 148,
+      "jobspy_indeed": 195,
+      "ottoworkforce": 1,
+      "pl_cbop": 49,
+      "telegram_polandworkportal": 3,
+      "telegram_ukraincydopracy": 1
     }
   },
   "totals": {
-    "active": 4496,
-    "below_min_score": 1,
-    "contacts_extracted": 31,
-    "excluded": 77,
-    "fetched": 180,
-    "l1_dropped": 3,
-    "l2_language_excluded": 0,
+    "active": 4575,
+    "below_min_score": 17,
+    "contacts_extracted": 124,
+    "excluded": 229,
+    "fetched": 751,
+    "l1_dropped": 2,
+    "l2_language_excluded": 1,
     "lifecycle_deactivated": 1,
-    "lifecycle_deactivated_total": 142,
+    "lifecycle_deactivated_total": 143,
     "lifecycle_dead_confirmed": 1,
     "lifecycle_live_confirmed": 39,
     "lifecycle_reactivated": 0,
-    "new": 35,
-    "notified_telegram": 10,
-    "pruned": 16,
-    "reviewed_fills": 4,
+    "new": 83,
+    "notified_telegram": 0,
+    "pruned": 4,
+    "reviewed_fills": 12,
     "translated_ar": 0,
     "translated_titles": 0,
     "uid_migration": 0,
-    "updated": 59
+    "updated": 329
   }
 }
