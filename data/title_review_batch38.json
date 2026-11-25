@@ -1,0 +1,96 @@
+{
+  "checked_on": "2026-11-25",
+  "method": "manual source review via the live EURES public JSON API (https://europa.eu/eures/api/jv-searchengine/public/jv/id/{source_id}): each posting fetched live from a europa.eu origin page, stored title compared against the live title, and the live body read for role confirmation before translation. Not model output. 12 of 18 candidates in this window returned HTTP 200 with exact title matches and were filled. Six postings returned HTTP 404 (dead postings) and were skipped without a fill: 34fa127a204990c7 (NL, Logistiek tussenjaar); 358946229163faf4 (FI, Varastotyöntekijä Kerava); 358a8bcf93e98d3b (NL, Magazijnmedewerker avond Eindhoven (publications-60743-C)); 36250ffc0319a87a (FR, Employé / Employée de rayon produits alimentaires (H/F)); 3626fb3c4c653c57 (FI, Varastotyöntekijä urheiluvaatevarastolle, Hyvinkää, Hyvinkää); 36790a875e0c138f (PL, Magazynier (K/M)) - the dead-link sweep owns pruning. All fills carry expected_source_id pins (guard shipped 2026-11-22).",
+  "reviews": [
+    {
+      "uid": "346e6b0ace5f7a48",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWZmOTQxYzYtYTVmMS05NDk0LWUwNjMtNjg5M2IyMGFlNjQ1IDQy?lang=en",
+      "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Work planner (technical service and maintenance)\" / AR \"مخطط عمل (خدمة فنية وصيانة)\"."
+    },
+    {
+      "uid": "3478402062d89287",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUxOTEyMTA3NDAgNg?lang=en",
+      "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Warehouse worker (forklift operation)\" / AR \"عامل مستودع (تشغيل رافعات شوكية)\"."
+    },
+    {
+      "uid": "34798408233345bd",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU4MzU2NDYtUyAx?lang=en",
+      "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Warehouse helper (m/f/d), with/without experience, beverages 17.38 EUR/hour (helper - warehousing)\" / AR \"مساعد مستودع - مشروبات (قسم الزجاجات الفارغة)، 17.38 يورو/ساعة\"."
+    },
+    {
+      "uid": "34a0ad6fb8854593",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTY2ODIxOSA4?lang=en",
+      "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"French-speaking sales executive - industrial automation\" / AR \"مسؤول مبيعات ناطق بالفرنسية - أتمتة صناعية\"."
+    },
+    {
+      "uid": "34b2faa9dca48b21",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTI3MDQtN1g5QVY3STRCSlpPNEs3Si1TIDE?lang=en",
+      "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Goods provisioning worker (m/f/d) (helper - warehousing and transport)\" / AR \"عامل تجهيز بضائع (مستودع ونقل)\"."
+    },
+    {
+      "uid": "34fa127a204990c7",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWYxYmY5ODQtNzk1Yy1jMWVkLWUwNjMtNjg5M2IyMGE3NWU4IDQy?lang=en",
+      "note": "Live EURES check returned HTTP 404 (dead posting). Skipped without a fill; the dead-link sweep owns pruning."
+    },
+    {
+      "uid": "350f3f986c2dcdad",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NjM4MDMxNyAxMjE?lang=en",
+      "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Early-bird terminal workers wanted for assignments in Örebro\" / AR \"مطلوب عمال محطة شحن ممن يفضلون الصباح الباكر لمهام في أوريبرو\"."
+    },
+    {
+      "uid": "3569de223a06d310",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/Mzc1OWJiODgtZmY1Yi00NTMzLTgxZjktOTE4ZjM4YTdhODRjIDc?lang=en",
+      "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Scooter delivery drivers wanted for night work in Esbjerg\" / AR \"مطلوب موزعون على دراجات سكوتر للعمل الليلي في إيسبيرغ\"."
+    },
+    {
+      "uid": "358946229163faf4",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MWE5MmFhZGUtNGMyZC00OTEwLWI4NzAtMGNlZDUwNzJmMDdjIDgx?lang=en",
+      "note": "Live EURES check returned HTTP 404 (dead posting). Skipped without a fill; the dead-link sweep owns pruning."
+    },
+    {
+      "uid": "358a8bcf93e98d3b",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWY5NGFjOTItYmYwNS04NTZlLWUwNjMtNjg5M2IyMGE5NjlhIDQy?lang=en",
+      "note": "Live EURES check returned HTTP 404 (dead posting). Skipped without a fill; the dead-link sweep owns pruning."
+    },
+    {
+      "uid": "35d9cae36661fe69",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MjE1UlJERyA5?lang=en",
+      "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Low-voltage electrician (M/F) - permanent contract - Langeac\" / AR \"كهربائي جهد منخفض - عقد دائم - لانجاك\"."
+    },
+    {
+      "uid": "36250ffc0319a87a",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/ODQxNTYzOCA5?lang=en",
+      "note": "Live EURES check returned HTTP 404 (dead posting). Skipped without a fill; the dead-link sweep owns pruning."
+    },
+    {
+      "uid": "3626fb3c4c653c57",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/YzQxMzAyNWEtMjliMS00ZjU5LThmZGMtMjU2OWQ5OThlZWU2IDgx?lang=en",
+      "note": "Live EURES check returned HTTP 404 (dead posting). Skipped without a fill; the dead-link sweep owns pruning."
+    },
+    {
+      "uid": "363169624c788f6d",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTAwMDEtMTAwNDAxMTcyNy1TIDE?lang=en",
+      "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Employee for plumbing, heating and air-conditioning technology (m/f/d) (helper)\" / AR \"موظف في تقنيات السباكة والتدفئة وتكييف الهواء\"."
+    },
+    {
+      "uid": "3670658d5e229747",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MzUyMjc1NTA3MjMgNg?lang=en",
+      "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Warehouse worker - morning and afternoon shifts (m/f) (forklift operation)\" / AR \"عامل مستودع - ورديات صباحية ومسائية (تشغيل رافعات شوكية)\"."
+    },
+    {
+      "uid": "36790a875e0c138f",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTQ5MzA0NjEgMTI?lang=en",
+      "note": "Live EURES check returned HTTP 404 (dead posting). Skipped without a fill; the dead-link sweep owns pruning."
+    },
+    {
+      "uid": "367d27d45812d444",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/MTIwMTYtMTAwMDU5MDE5OTctUyAx?lang=en",
+      "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Warehouse helper (m/f/d) full-time - permanent - Charlottenburg - bonus (warehouse and order picking)\" / AR \"مساعد مستودع بدوام كامل - عقد دائم - شارلوتنبورغ - مكافأة\"."
+    },
+    {
+      "uid": "367dc71fcd4521cc",
+      "source_url": "https://europa.eu/eures/portal/jv-se/jv-details/NWVjYjgyMjctOTU2ZC04ZTVjLWUwNjMtNjg5M2IyMGEyOTEyIDQy?lang=en",
+      "note": "Live EURES title matches stored exactly. Role confirmed against the live body. Translated: EN \"Workshop supervisor (vehicle maintenance and repair)\" / AR \"مشرف ورشة (صيانة وإصلاح مركبات)\"."
+    }
+  ]
+}
