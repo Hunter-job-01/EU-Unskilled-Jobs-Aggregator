@@ -1,6 +1,6 @@
 {
-  "updated_on": "2026-11-25",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json. and data/title_review_batch32.json. and data/title_review_batch33.json. and data/title_review_batch34.json.",
+  "updated_on": "2026-11-26",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json. and data/title_review_batch32.json. and data/title_review_batch33.json. and data/title_review_batch34.json. and data/title_review_batch39.json.",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -2511,6 +2511,141 @@
       "title_ar": "مشرف ورشة (صيانة وإصلاح مركبات)",
       "translated": true,
       "review": "data/title_review_batch38.json"
+    },
+    {
+      "uid": "369b9a99aae63257",
+      "expected_title": "MUNCITOR NECALIFICAT LA DEMOLAREA CLADIRILOR, CAPTUSELI ZIDARIE, PLACI MOZAIC, FAIANTA, GRESIE, PARCHET",
+      "expected_source_id": "MzQwNjA0MiAxMw",
+      "title_en": "Unskilled construction worker (building demolition, masonry, tiling and flooring)",
+      "title_ar": "عامل غير ماهر في أعمال البناء (هدم مبانٍ وأعمال طابوق وتبليط وأرضيات)",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "36ae984302be6cee",
+      "expected_title": "Reachtruckchauffeur",
+      "expected_source_id": "NGQyYmQ1YzEtMGUxZi00NjU1LTlhNWMtM2U0MDNiY2Q1NjA3IDM",
+      "title_en": "Reach truck driver",
+      "title_ar": "سائق رافعة شوكية (ريتش تراك)",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "36ba7c03f4ea16a9",
+      "expected_title": "SKLADNÍK, SKLADNICE - ŘIDIČ/-KA FOFR, Řidiči vysokozdvižných vozíků",
+      "expected_source_id": "MzUyMTIzNTA3MjYgNg",
+      "title_en": "Warehouse worker - forklift driver",
+      "title_ar": "عامل مستودع - سائق رافعة شوكية",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "36cfdb92f68bf682",
+      "expected_title": "STEWARD / CLEANER / PORTER",
+      "expected_source_id": "NDU4NTMxIDEwMQ",
+      "title_en": "Kitchen steward / cleaner",
+      "title_ar": "عامل مطبخ (ستيوارد) / عامل نظافة",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "36e50ec9b1caf391",
+      "expected_title": "Lagerhelfer - gutes Gehalt - Kunststoff (m/w/d) (Helfer/in - Lagerwirtschaft, Transport)",
+      "expected_source_id": "MTIwMTYtMTAwMDU4MDIyNTktUyAx",
+      "title_en": "Warehouse assistant - plastics recycling (m/f/d)",
+      "title_ar": "مساعد مستودع - إعادة تدوير البلاستيك (ذكور/إناث)",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "37134b4b73051b7b",
+      "expected_title": "Lagerarbetare med adminvana sökes",
+      "expected_source_id": "NjQwNDQzOCAxMjE",
+      "title_en": "Warehouse worker with administrative experience",
+      "title_ar": "عامل مستودع بخبرة في الأعمال الإدارية",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "371fad6bf8a30460",
+      "expected_title": "Lagerhelfer (m/w/d) - Haushaltsartikeln - Marzahn (Helfer/in - Lagerwirtschaft, Transport)",
+      "expected_source_id": "MTIwMTYtMTAwMDU4MzQ3NTEtUyAx",
+      "title_en": "Warehouse assistant - household goods, Berlin-Marzahn (m/f/d)",
+      "title_ar": "مساعد مستودع - أدوات منزلية، برلين-مارزان (ذكور/إناث)",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "37a822f8a6600848",
+      "expected_title": "Pracownik magazynowy (Robakowo) K/M",
+      "expected_source_id": "MTQ5MzgxMDggMTI",
+      "title_en": "Warehouse worker (Robakowo) M/F",
+      "title_ar": "عامل مستودع (روباكوفو) ذكور/إناث",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "381e25f30e49fa19",
+      "expected_title": "Kommissionierer (m/w/d) ab 14,96€/Std. (Kommissionierer/in)",
+      "expected_source_id": "MTQwNDAtSDA0VDVNV1hSWEg5WlY2OS1TIDE",
+      "title_en": "Order picker (m/f/d), from EUR 14.96/hour",
+      "title_ar": "عامل تجميع طلبات (ذكور/إناث) ابتداءً من 14.96 يورو/ساعة",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "38411558287fa24d",
+      "expected_title": "ΕΡΓΑΤΗΣ ΓΕΩΡΓΙΑΣ",
+      "expected_source_id": "MzQ0NjAxIDU",
+      "title_en": "Farm worker",
+      "title_ar": "عامل زراعي",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "3842f80771928df8",
+      "expected_title": "Fachlagerist (m/w/d) (Fachlagerist/in)",
+      "expected_source_id": "MTIxNDctMjAyNjExMTAyMjc4NjItUyAx",
+      "title_en": "Warehouse specialist (m/f/d)",
+      "title_ar": "أخصائي مستودعات (ذكور/إناث)",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "387652d0b5aaa068",
+      "expected_title": "Hjullastarförare sökes till kund i Karlskoga",
+      "expected_source_id": "NjM4NDgyOSAxMjE",
+      "title_en": "Wheel loader operator - Karlskoga",
+      "title_ar": "مشغل لودر ذي عجلات - كارلسكوغا",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "38889089e01c3aca",
+      "expected_title": "Orderplockare till lagerverksamhet - Helsingborg",
+      "expected_source_id": "NjM5MjMwNyAxMjE",
+      "title_en": "Order picker for e-commerce warehouse - Helsingborg",
+      "title_ar": "عامل تجميع طلبات لمستودع تجارة إلكترونية - هلسنبورغ",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "38b47fbfbbd0dfd8",
+      "expected_title": "Skladník/skladnice, Skladníci, obsluha manipulačních vozíků",
+      "expected_source_id": "MzUyMjczNTA3MDkgNg",
+      "title_en": "Warehouse worker (m/f) - forklift operator",
+      "title_ar": "عامل/عاملة مستودع - مشغل رافعة شوكية",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "38e145e72e448150",
+      "expected_title": "Kommissionierer Lagerhelfer (m/w/d) Lager & Logistik (Helfer/in - Lagerwirtschaft, Transport)",
+      "expected_source_id": "MTQzODUtNjEwLTI2NTk0NTQtMjYtUyAx",
+      "title_en": "Order picker / warehouse assistant (m/f/d) - warehouse and logistics",
+      "title_ar": "عامل تجميع طلبات / مساعد مستودع (ذكور/إناث) - مستودعات ولوجستيات",
+      "translated": true,
+      "review": "data/title_review_batch39.json"
     }
   ]
 }
