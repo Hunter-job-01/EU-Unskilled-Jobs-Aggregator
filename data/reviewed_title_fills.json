@@ -1,6 +1,6 @@
 {
-  "updated_on": "2026-11-26",
-  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json. and data/title_review_batch32.json. and data/title_review_batch33.json. and data/title_review_batch34.json. and data/title_review_batch39.json.",
+  "updated_on": "2026-11-28",
+  "purpose": "Manually source-reviewed title fills applied to the store by the pipeline (src/reviewed_fills.py). Reviewed manual fills only - never unreviewed model output. Provenance per batch: data/title_review_batch18.json , data/title_review_batch19.json and data/title_review_batch20.json and data/title_review_batch21.json and data/title_review_batch26.json. and data/title_review_batch27.json. and data/title_review_batch28.json. and data/title_review_batch29.json. and data/title_review_batch30.json. and data/title_review_batch31.json. and data/title_review_batch32.json. and data/title_review_batch33.json. and data/title_review_batch34.json. and data/title_review_batch39.json. and data/title_review_batch40.json.",
   "fills": [
     {
       "uid": "2765ea841f84dd71",
@@ -2646,6 +2646,123 @@
       "title_ar": "عامل تجميع طلبات / مساعد مستودع (ذكور/إناث) - مستودعات ولوجستيات",
       "translated": true,
       "review": "data/title_review_batch39.json"
+    },
+    {
+      "uid": "394a3ba01cbbd6e9",
+      "expected_title": "Logistiek: Orderpicker",
+      "expected_source_id": "NWYwN2RiYWQtZTlhMi00YjZmLWUwNjMtNjg5M2IyMGFlOTAxIDQy",
+      "title_en": "Logistics: order picker",
+      "title_ar": "عامل تجميع طلبات - لوجستيات",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
+    },
+    {
+      "uid": "3990ca33742d3a2a",
+      "expected_title": "Produktionsmitarbeiter (m/w/d) (Helfer/in - Metallbearbeitung)",
+      "expected_source_id": "MTIxNDctMjAyNjExMDUyMjc2NzItUyAx",
+      "title_en": "Production worker (m/f/d) - metalworking",
+      "title_ar": "عامل إنتاج (ذكور/إناث) - تشغيل معادن",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
+    },
+    {
+      "uid": "3a2573bc7d9ec9be",
+      "expected_title": "Kok/pizzabager søges til Gastronomia Italiana 6 i København S",
+      "expected_source_id": "NDkzMTU5M2UtOTc5MS00OTE3LWE0ZDYtMGFhOWQ2ODdjOGQwIDc",
+      "title_en": "Cook / pizza baker - Italian restaurant, Copenhagen",
+      "title_ar": "طاهٍ / خباز بيتزا - مطعم إيطالي، كوبنهاغن",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
+    },
+    {
+      "uid": "3a4cb9e758c4bf8d",
+      "expected_title": "Lagerhelfer (m/w/d) in Neukölln gesucht (Automobil) (Helfer/in - Lagerwirtschaft, Transport)",
+      "expected_source_id": "MTIwMTYtMTAwMDU4MjM2NzUtUyAx",
+      "title_en": "Warehouse assistant (m/f/d) - automotive scrap yard, Berlin-Neukolln",
+      "title_ar": "مساعد مستودع (ذكور/إناث) - ساحة خردة سيارات، برلين-نويكولن",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
+    },
+    {
+      "uid": "3a5b5c86e241ba8f",
+      "expected_title": "Aushilfskraft Lager m/w/d Zuschäge (Helfer/in - Lagerwirtschaft, Transport)",
+      "expected_source_id": "MTIwMTYtMTAwMDU5MDQ1NzUtUyAx",
+      "title_en": "Warehouse assistant (m/f/d) with shift allowances - printing house",
+      "title_ar": "عامل مستودع مؤقت (ذكور/إناث) ببدلات ورديات - مطبعة",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
+    },
+    {
+      "uid": "3a5bc5daab7ab566",
+      "expected_title": "Extrajobb inom lager till Blåkläder i Svenljunga | Manpower",
+      "expected_source_id": "NjQwMjg4NSAxMjE",
+      "title_en": "Part-time warehouse job at Blaklader, Svenljunga (Manpower)",
+      "title_ar": "عمل إضافي بدوام جزئي في مستودع بلاوكلادر، سفنليونغا (مانباور)",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
+    },
+    {
+      "uid": "3a660b08c6feab8d",
+      "expected_title": "NOLIKTAVAS DARBINIEKS",
+      "expected_source_id": "MjYxMTE3LTE0MyA0MDE",
+      "title_en": "Warehouse worker",
+      "title_ar": "عامل مستودع",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
+    },
+    {
+      "uid": "3a69d15fc6c9fc8a",
+      "expected_title": "Lagerhelfer (m/w/d)  (Helfer/in - Lagerwirtschaft, Transport)",
+      "expected_source_id": "MTI3MzktTDVYTTlNWkhZUzJGS0o4QS1TIDE",
+      "title_en": "Warehouse assistant (m/f/d) - Kabelsketal",
+      "title_ar": "مساعد مستودع (ذكور/إناث) - كابلسكيتال",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
+    },
+    {
+      "uid": "3a6dfbb4a53f1c6b",
+      "expected_title": "Lagermitarbeiter (m/w/d) Verpackung (Lager- und Transportarbeiter/in)",
+      "expected_source_id": "MTIzODQtOTgxMDQwNTQwLVMgMQ",
+      "title_en": "Warehouse employee (m/f/d) - packaging",
+      "title_ar": "موظف مستودع (ذكور/إناث) - تغليف",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
+    },
+    {
+      "uid": "3a8c80cb0b0f3147",
+      "expected_title": "PRACOVNÍK ZÁKAZNICKÉHO SERVISU (M+Ž), Úředníci ve skladech",
+      "expected_source_id": "MzUyMzQ2MzA3NTMgNg",
+      "title_en": "Customer service worker (m/f) - contact lens wholesaler",
+      "title_ar": "موظف خدمة عملاء (ذكور/إناث) - تاجر جملة لعدسات لاصقة",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
+    },
+    {
+      "uid": "3aea229c3f2f9b13",
+      "expected_title": "Lader/Losser Avonddienst",
+      "expected_source_id": "NWZiY2U4NDAtNjVlNS05YTdlLWUwNjMtNjg5M2IyMGE3MzgyIDQy",
+      "title_en": "Loader / unloader - evening shift",
+      "title_ar": "عامل تحميل وتفريغ - وردية مسائية",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
+    },
+    {
+      "uid": "3b292e177011829a",
+      "expected_title": "MAGASIN CARISTE (H/F)",
+      "expected_source_id": "MjE1VFpLUCA5",
+      "title_en": "Warehouse forklift operator (m/f)",
+      "title_ar": "عامل مستودع - سائق رافعة شوكية (ذكور/إناث)",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
+    },
+    {
+      "uid": "3ba8588a08d8c2fd",
+      "expected_title": "Lagermitarbeiter (m/w/d)   (Helfer/in - Lagerwirtschaft, Transport)",
+      "expected_source_id": "MTU2MjEtTk1NMEZCRjJOWUo0WVZBOS1TIDE",
+      "title_en": "Warehouse employee (m/f/d)",
+      "title_ar": "موظف مستودع (ذكور/إناث)",
+      "translated": true,
+      "review": "data/title_review_batch40.json"
     }
   ]
 }
